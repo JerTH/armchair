@@ -1,129 +1,190 @@
 #![allow(dead_code)]
 
-macro_rules! instr2_16 {
-    {
-        @terminal $name:ident, $dset:ident, $base:expr,
-        $AA_name:ident, $AA_width:expr, $AA_shift:expr, $AA_default:expr,
-        $BB_name:ident, $BB_width:expr, $BB_shift:expr, $BB_default:expr,
-        $CC_name:ident, $CC_width:expr, $CC_shift:expr, $CC_default:expr
-    } => {
-        let __it1 = ::std::cmp::max(1, 2u16.pow($AA_width));
-        let __it2 = ::std::cmp::max(1, 2u16.pow($BB_width));
-        let __it3 = ::std::cmp::max(1, 2u16.pow($CC_width));
-        for $AA_name in 0..__it1 {
-            for $BB_name in 0..__it2 {
-                for $CC_name in 0..__it3 {
-                    let hw = $base
-                        | ($AA_name << $AA_shift)
-                        | ($BB_name << $BB_shift)
-                        | ($CC_name << $CC_shift);
-                    $dset.push((
-                        hw,
-                        InstrThumb16::$name{
-                            $AA_name: ($AA_default.unwrap_or($AA_name)) as u8,
-                            $BB_name: ($BB_default.unwrap_or($BB_name)) as u8,
-                            $CC_name: ($CC_default.unwrap_or($CC_name)) as u8
-                        }
-                    ));
-                }
-            }
-        }
-    };
+#[derive(Debug, Clone, Copy)]
+struct OperandData {
+    width: u8,
+    shift: u8,
+    default: Option<u8>,
 }
 
-macro_rules! instr2 {
-    // First expansion
-    {
-        name: $name:ident,
-        $($tail:tt)*
-    } => {
+struct InstrData(Vec<OperandData>);
+
+macro_rules! instruction {
+    // Entry-point
+    { name: $name:ident, $($tail:tt)* } => {
+        let _trace = "entry-point";
+        let _instruction_name = $name;
+        instruction!(@internal $name, $($tail)*);
+    };
+
+    // Process an encoding
+    { @internal $name:ident, encoding: $($tail:tt)* } => {
         {
-            let mut __decoded_set: Vec::<(u16, InstrThumb16)> = Vec::new();
-            instr2!{ @recurse $name, __decoded_set, $($tail)* }
-            __decoded_set
+            let _trace = "process an encoding";
+            instruction!(@internal $name, $($tail)*);
         }
     };
 
-    // Recursive 16-bit encoding expansion
-    {
-        @recurse
-        $name:ident,
-        $dset:ident,
-        encoding16: {
-            base: $base:expr,
-            operand: { $AA_name:ident; $AA_width:expr; $AA_shift:expr; $AA_default:expr },
-            operand: { $BB_name:ident; $BB_width:expr; $BB_shift:expr; $BB_default:expr },
-            operand: { $CC_name:ident; $CC_width:expr; $CC_shift:expr; $CC_default:expr }
-        },
-        $($tail:tt)*
-    } => {
-        instr2_16!{
-            @terminal $name, $dset, $base,
-            $AA_name, $AA_width, $AA_shift, $AA_default,
-            $BB_name, $BB_width, $BB_shift, $BB_default,
-            $CC_name, $CC_width, $CC_shift, $CC_default
-        }
-        instr2!{ @recurse $name, $dset, $($tail)* }
+    // Munch base value
+    { @internal $name:ident, base: $base:expr, $($tail:tt)* } => {
+        let _trace = "munch base value";
+        let _base_value = $base;
+        instruction!(@internal $name, $base, $($tail)*);
+    };
+    
+    // Munch one operand
+    { @internal $name:ident, $base:expr, operand: [$op_name:ident], $($tail:tt)* } => {
+        let _trace = "munch one operand";
+        let _op_name = stringify!($op_name);        
+        instruction!(@internal $name, $base, $($tail)*);
     };
 
-    // Terminal 16-bit encoding expansion
-    {
-        @recurse
-        $name:ident,
-        $dset:ident,
-        encoding16: {
-            base: $base:expr,
-            operand: { $AA_name:ident; $AA_width:expr; $AA_shift:expr; $AA_default:expr },
-            operand: { $BB_name:ident; $BB_width:expr; $BB_shift:expr; $BB_default:expr },
-            operand: { $CC_name:ident; $CC_width:expr; $CC_shift:expr; $CC_default:expr }
-        }
-        $($tail:tt)*
-    } => {
-        instr2_16!{
-            @terminal $name, $dset, $base,
-            $AA_name, $AA_width, $AA_shift, $AA_default,
-            $BB_name, $BB_width, $BB_shift, $BB_default,
-            $CC_name, $CC_width, $CC_shift, $CC_default
-        }
+    // Munch last operand
+    { @internal $name:ident, $base:expr, operand: [$op_name:ident] $($tail:tt)* } => {
+        let _trace = "munch last operand";
+        let _op_name = stringify!($op_name);
+        instruction!(@internal $name, $($tail)*);
     };
+    
+    
 }
 
-fn test_instr2() -> Vec::<(u16, InstrThumb16)> {
-    instr2!{
-        name: ADDimm,
-        encoding16: {
-            base: 0x1C00,
-            operand: { rd; 3; 0; None },
-            operand: { rdn; 3; 3; None },
-            operand: { imm; 3; 6; None }
-        },
-        encoding16: {
-            base: 0x3000,
-            operand: { imm; 8; 0; None },
-            operand: { rdn; 3; 8; None },
-            operand: { rd; 0; 0; Some(0xFF) }
-        }
+pub fn test_instruction_macro() {
+    instruction! {
+        name: TestInstruction,
+        encoding:
+            base: 0x0A0A,
+            operand: [foo],
+            operand: [bar]
+
+        encoding:
+            base: 0xDD99,
+            operand: [foo]
     }
 }
 
-macro_rules! instructions {
-    ($($inst:expr),*) => {
-        {
-            let mut __set: Vec<(u16, InstrThumb16)> = Vec::new();
+//macro_rules! instr2 {
+//    () => ();
+//
+//    // Process one operand
+//    (
+//        @internal
+//        $instr_name:ident,
+//        $decoded_set:expr,
+//        $base:expr,
+//        operand: [ name: $op_name:ident, width: $op_width:expr, lsh: $op_shift:expr, default: $op_default:expr ], $($tail:tt)*
+//    ) => {
+//        {
+//            println!("Process one operand");
+//            let __op_data = OperandData{ width: $op_width, shift: $op_shift, default: $op_default };
+//            for $op_name in 0..::std::cmp::max(1u16, 2u16.pow($op_width)) {
+//                instr2!( @internal $instr_name, $decoded_set, $base $($tail)* [$op_name, __op_data])
+//            }
+//        }
+//    };
+//
+//    // Process last operand
+//    (
+//        @internal
+//        $instr_name:ident,
+//        $decoded_set:expr,
+//        $base:expr,
+//        operand: [ name: $op_name:ident, width: $op_width:expr, lsh: $op_shift:expr, default: $op_default:expr ] $($tail:tt)*
+//    ) => {
+//        {
+//            println!("Process last operand");
+//            let __op_data = OperandData{ width: $op_width, shift: $op_shift, default: $op_default };
+//            for $op_name in 0..::std::cmp::max(1u16, 2u16.pow($op_width)) {
+//                instr2!( @internal $instr_name, $decoded_set, $base, $($tail)* )
+//            }
+//            instr2!( @internal $instr_name, $decoded_set, $($tail)* )
+//
+//        }
+//    };
+//
+//    // Construct instruction generator
+//    (
+//        @internal
+//        $instr_name:ident,
+//        $decoded_set:expr,
+//        $base:expr,
+//        $([$op_name:ident, $op_data:expr])* $($tail:tt)*
+//    ) => {
+//        let hw = $base $( | ($op_data.name << $op_data.shift) )*
+//        $decoded_set.push(
+//            hw,
+//            InstrThumb16::$instr_name{
+//                $(
+//                    $op_name: ($op_data.default.unwrap_op($op_name) as u8),
+//                )*
+//            }
+//        );
+//    };
+//
+//    // Process one encoding
+//    (
+//        @internal
+//        $instr_name:ident,
+//        $decoded_set:expr,
+//        encoding: $($tail:tt)*
+//    ) => {
+//        instr2!( @internal $instr_name, $decoded_set );
+//    };
+//
+//    // Process one encoding inner
+//    (
+//        @internal
+//        $instr_name:ident,
+//        $decoded_set:expr,
+//        base: $base:expr,
+//    ) => {
+//        {
+//            $decoded_set.append(&mut instr2!( @internal $instr_name, $decoded_set, $base,  $($tail)* ));
+//            instr2!( @internal $instr_name, $decoded_set, $($tail)* )
+//
+//            $decoded_set
+//        }
+//    };
+//
+//    // Process an instruction
+//    {
+//        name: $name:ident,
+//        $($tail:tt)*
+//    } => {
+//        {
+//            let mut __decoded_set: Vec<OperandData> = Vec::new();
+//            instr2!( @internal $name, __decoded_set, $($tail)* );
+//        }
+//    };
+//}
+//
+//
+//pub fn test_instr2() -> Vec::<(u16, InstrThumb16)> {
+//    //instr2! {
+//    //    name: ADDimm,
+//    //    encoding:
+//    //        base: u16,
+//    //        operand: [ name: rd, width: 3, lsh: 0, default: None ],
+//    //        operand: [ name: rdn, width: 3, lsh: 3, default: None ],
+//    //        operand: [ name: imm, width: 3, lsh: 6, default: None ]
+//    //    encoding:
+//    //        base: 0x3000,
+//    //        operand: [ name: imm, width: 8, lsh: 0, default: None ],
+//    //        operand: [ name: rdn, width: 3, lsh: 8, default: None ],
+//    //        operand: [ name: rd, width: 0, lsh: 0, default: Some(0xFF) ]
+//    //};
+//
+//    instr2! {
+//        name: TEST_ONE,
+//        encoding:
+//            base: u16,
+//            operand: [ name: t1, width: 8, lsh: 0, default: None ]
+//    }
+//
+//    Vec::new()
+//}
 
-            $(
-                {
-                    let mut __temp = $inst;
-                    __set.append(&mut __temp);
-                }
-            )*
 
-            //__set.sort_by(|a, b| a.0.cmp(&b.0) );
-            __set
-        }
-        
-    };
-}
 
 #[derive(Clone, Copy, Debug)]
 pub enum InstrThumb16 {
@@ -136,52 +197,11 @@ pub enum InstrThumb16 {
     ADDspimm { imm: u8, rd: u8}, // 0xA800, 0xB000; encoding: rd == 0xFF ? T2 : T1
     ADDspreg { rm: u8, rdm: u8 }, // 0x4468, 0x4485; encoding: rm == 0x0D ? T1 : T2
 
+    TestInstruction { test_operand: u8 },
+
     // MISCELLANEOUS
     UNDEFINED,
 }
-
-fn generate_decode_table() -> Vec<(u16, InstrThumb16)> {
-    instructions!{
-        instr2!{
-            name: ADDimm,
-            encoding16: {
-                base: 0x1C00,
-                operand: { rd; 3; 0; None },
-                operand: { rdn; 3; 3; None },
-                operand: { imm; 3; 6; None }
-            },
-            encoding16: {
-                base: 0x3000,
-                operand: { imm; 8; 0; None },
-                operand: { rdn; 3; 8; None },
-                operand: { rd; 0; 0; Some(0xFF) }
-            }
-        },
-
-        instr2!{
-            name: ADDreg,
-            encoding16: {
-                base: 0x1C00,
-                operand: { rd; 3; 0; None },
-                operand: { rdn; 3; 3; None },
-                operand: { rm; 3; 6; None }
-            },
-            encoding16: {
-                base: 0x3000,
-                operand: { rdn; 3; 0; None },
-                operand: { rm; 4; 3; None },
-                operand: { rd; 1; 7; Some(0xFF) }
-            }
-        }
-    }
-}
-
-pub fn generate_test() -> Vec<(u16, InstrThumb16)> {
-    let mut decode_table: Vec<(u16, InstrThumb16)> = Vec::new();
-    decode_table.append(&mut generate_decode_table());
-    decode_table
-}
-
 
 
 /* 
