@@ -7,46 +7,48 @@ struct OperandData {
     default: Option<u8>,
 }
 
-struct InstrData(Vec<OperandData>);
-
 macro_rules! instruction {
     // Entry-point
     { name: $name:ident, $($tail:tt)* } => {
         let _trace = "entry-point";
-        let _instruction_name = $name;
-        instruction!(@internal $name, $($tail)*);
+        let _instruction_name = stringify!($name);
+        let _dset: Vec::<(u16, InstrThumb16)> = Vec::new();
+        instruction!(@internal $name, _dset, $($tail)*);
     };
 
     // Process an encoding
-    { @internal $name:ident, encoding: $($tail:tt)* } => {
+    { @internal $name:ident, $dset:tt, encoding: $($tail:tt)* } => {
         {
             let _trace = "process an encoding";
-            instruction!(@internal $name, $($tail)*);
+            instruction!(@internal $name, $dset, $($tail)*);
         }
     };
 
     // Munch base value
-    { @internal $name:ident, base: $base:expr, $($tail:tt)* } => {
+    { @internal $name:ident, $dset:tt, base: $base:expr, $($tail:tt)* } => {
         let _trace = "munch base value";
         let _base_value = $base;
-        instruction!(@internal $name, $base, $($tail)*);
+        instruction!(@internal $name, $dset, $base, $($tail)*);
     };
     
     // Munch one operand
-    { @internal $name:ident, $base:expr, operand: [$op_name:ident], $($tail:tt)* } => {
+    { @internal $name:ident, $dset:tt, $base:expr, operand: [$op_name:ident], $($tail:tt)* } => {
         let _trace = "munch one operand";
         let _op_name = stringify!($op_name);        
-        instruction!(@internal $name, $base, $($tail)*);
+        instruction!(@internal $name, $dset, $base, $($tail)*);
     };
 
     // Munch last operand
-    { @internal $name:ident, $base:expr, operand: [$op_name:ident] $($tail:tt)* } => {
+    { @internal $name:ident, $dset:tt, $base:expr, operand: [$op_name:ident] $($tail:tt)* } => {
         let _trace = "munch last operand";
         let _op_name = stringify!($op_name);
-        instruction!(@internal $name, $($tail)*);
+        instruction!(@internal $name, $dset, $($tail)*);
     };
-    
-    
+
+    // Terminal
+    { @internal $name:ident, $dset:tt, } => {
+        let _trace = "TERMINAL";
+    };
 }
 
 pub fn test_instruction_macro() {
