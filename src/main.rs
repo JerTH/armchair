@@ -9,8 +9,8 @@ fn main() -> std::io::Result<()> {
 
     let mut file = File::create("decode_table.rs")?;
 
-    for item in &set {
-        writeln!(file, "{:#04x} // {:?} {:#018b}", item.0, item, item.0)?;
+    for (idx, item) in set.iter().enumerate() {
+        writeln!(file, "{:#04x} // {:?} {:#018b}", idx, item, idx)?;
     }
 
     Ok(())

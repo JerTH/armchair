@@ -1,17 +1,17 @@
-#![allow(dead_code)]
+
 
 #[derive(Debug, Clone, Copy)]
-struct OperandData {
-    width: u8,
-    shift: u8,
-    default: Option<u8>,
+pub struct OperandData {
+    pub width: u8,
+    pub shift: u8,
+    pub default: Option<u8>,
 }
 
 macro_rules! instruction {
     // Entry-point
     { name: $name:ident, $($tail:tt)* } => {
         {
-            let mut _dset: Vec::<(u16, InstrThumb16)> = Vec::new();
+            let mut _dset: Vec::<(u16, crate::instructions::InstrThumb16)> = Vec::new();
             instruction!(@internal [] [] $name, _dset, $($tail)*);
             _dset
         }
@@ -42,7 +42,7 @@ macro_rules! instruction {
     } => {
         let _iterations = ::std::cmp::max(1, 2u16.pow($op_width));
         for $op_name in 0.._iterations {    
-            let _operator = OperandData {
+            let _operator = crate::decode::OperandData {
                 width: $op_width,
                 shift: $op_shift,
                 default: None,
@@ -59,7 +59,7 @@ macro_rules! instruction {
     } => {
         let _iterations = ::std::cmp::max(1, 2u16.pow($op_width));
         for $op_name in 0.._iterations {
-            let _operator = OperandData {
+            let _operator = crate::decode::OperandData {
                 width: $op_width,
                 shift: $op_shift,
                 default: None,
@@ -79,7 +79,7 @@ macro_rules! instruction {
         &mut $dset.push(
             (
                 hw,
-                InstrThumb16::$name {
+                crate::instructions::InstrThumb16::$name {
                     $(
                         $names: ($names as u8)
                     ),*
@@ -89,20 +89,26 @@ macro_rules! instruction {
     };
 }
 
+macro_rules! define_instructions {
+    ($($inst:expr),*) => {
+        {
+            use crate::instructions::InstrThumb16;
 
-#[derive(Clone, Copy, Debug)]
-pub enum InstrThumb16 {
-    // ADC
-    ADCreg { rm: u8, rdn: u8 }, // 0x4140
+            //let mut __set: Vec<(u16, crate::instructions::InstrThumb16)> = Vec::new();
+            let mut __set: [InstrThumb16; ::std::u16::MAX as usize] = [InstrThumb16::UNDEFINED; ::std::u16::MAX as usize];
+            $(
+                {
+                    let mut __temp = $inst;
+                    for item in __temp {
+                        __set[item.0 as usize] = item.1;
+                    }
+                }
+            )*
 
-    // ADD
-    ADDimm { imm: u8, rdn: u8, rd: u8 }, // 0x1C00, 0x3000; encoding: rd == 0xFF ? T2 : T1
-    ADDreg { rm: u8, rdn: u8, rd: u8 }, // 0x1800, 0x4400; encoding: rd == 0xFF ? T2 : T1
-    ADDspimm { imm: u8, rd: u8}, // 0xA800, 0xB000; encoding: rd == 0xFF ? T2 : T1
-    ADDspreg { rm: u8, rdm: u8 }, // 0x4468, 0x4485; encoding: rm == 0x0D ? T1 : T2
-
-    // MISCELLANEOUS
-    UNDEFINED,
+            //__set.sort_by(|a, b| a.0.cmp(&b.0) );
+            __set
+        }
+    };
 }
 
 /* 
@@ -195,17 +201,17 @@ pub enum InstrThumb16 {
  */
 
 
-pub fn test_instruction_macro() -> Vec::<(u16, InstrThumb16)> {
-
-    return instruction! {
-        name: ADDimm,
-        encoding:
-            base: 0x1C00,
-            operand: [rd, 3 << 0],
-            operand: [rdn, 3 << 3],
-            operand: [imm, 3 << 6]
+pub fn test_instruction_macro() -> [crate::instructions::InstrThumb16; ::std::u16::MAX as usize] {
+    define_instructions! {
+        instruction! {
+            name: ADDimm,
+            encoding:
+                base: 0x1C00,
+                operand: [rd, 3 << 0],
+                operand: [rdn, 3 << 3],
+                operand: [imm, 3 << 6]
+        }
     }
-
 }
 
 
