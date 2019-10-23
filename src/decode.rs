@@ -7,8 +7,21 @@ pub struct OperandData {
     pub default: Option<u8>,
 }
 
+/// This macro defines a simple DML which expands into code which generates 16-bit ARMv7-M Thumb instruction decode tables
+/// 
+/// Because the instruction space is so small for half-word instructions, we are able to directly map from machine code
+/// into decoded instructions using a lookup table without performing any decoding logic. We must however still decode
+/// 32-bit double half-word instructions.
+/// 
+/// Parsing within this macro is performed using a technique known as token-tree munching
+/// 
 macro_rules! instruction {
+
     // Entry-point
+    //
+    // Note: 
+    //      The "$($comments)*" expansion is used to capture any doc comments applied to each macro
+    //      invocation and may be used for printing prettier generated documentation
     { name: $name:ident, $($tail:tt)* } => {
         {
             let mut _dset: Vec::<(u16, crate::instructions::InstrThumb16)> = Vec::new();
@@ -20,10 +33,13 @@ macro_rules! instruction {
     // Process an encoding
     {
         @internal [$($names:ident),*] [$($data:expr),*]
-        $name:ident, $dset:tt, encoding: $($tail:tt)*
+        $name:ident, $dset:tt, $( encoding: [ $($tail:tt)* ] ),*
     } => {
         {
-            instruction!(@internal [] [] $name, $dset, $($tail)*);
+            $(
+                let _trace = stringify!($($tail)*);
+                instruction!(@internal [] [] $name, $dset, $($tail)*);
+            )*
         }
     };
 
@@ -32,6 +48,16 @@ macro_rules! instruction {
         @internal [$($names:ident),*] [$($data:expr),*]
         $name:ident, $dset:tt, base: $base:expr, $($tail:tt)*
     } => {
+        let _trace = stringify!($($tail)*);
+        instruction!(@internal [] [] $name, $dset, $base, $($tail)*);
+    };
+
+    // Munch base value without operands
+    {
+        @internal [$($names:ident),*] [$($data:expr),*]
+        $name:ident, $dset:tt, base: $base:tt $($tail:tt)*
+    } => {
+        let _trace = stringify!($($tail)*);
         instruction!(@internal [] [] $name, $dset, $base, $($tail)*);
     };
     
@@ -48,6 +74,7 @@ macro_rules! instruction {
                 default: None,
             };
 
+            let _trace = stringify!($($tail)*);
             instruction!(@internal [$($names,)* $op_name] [$($data,)* _operator] $name, $dset, $base, $($tail)*);
         }
     };
@@ -65,6 +92,21 @@ macro_rules! instruction {
                 default: None,
             };
 
+            let _trace = stringify!($($tail)*);
+            instruction!(@internal [$($names,)* $op_name] [$($data,)* _operator] $name, $dset, $base, $($tail)*);
+        }
+    };
+
+    // Munch last unused operand
+    {
+        @internal [$($names:ident),*] [$($data:expr),*]
+        $name:ident, $dset:tt, $base:expr, operand: [$op_name:ident, unused] $($tail:tt)*
+    } => {
+        let _iterations = ::std::cmp::max(1, 2u16.pow(0));
+        for $op_name in 0.._iterations {
+            let _operator = crate::decode::OperandData { width: 0, shift: 0, default: Some(0xFF) };
+
+            let _trace = stringify!($($tail)*);
             instruction!(@internal [$($names,)* $op_name] [$($data,)* _operator] $name, $dset, $base, $($tail)*);
         }
     };
@@ -74,14 +116,16 @@ macro_rules! instruction {
         @internal [$($names:ident),*] [$($data:expr),*]
         $name:ident, $dset:tt, $base:expr, $($tail:tt)*
     } => {
+        let _trace = stringify!($base);
         let hw = $base $(| ($names << $data.shift))*;
 
+        let _terminal_trace = stringify!($($tail)*);
         &mut $dset.push(
             (
                 hw,
                 crate::instructions::InstrThumb16::$name {
                     $(
-                        $names: ($names as u8)
+                        $names: $data.default.unwrap_or($names as u8)
                     ),*
                 }
             )
@@ -205,13 +249,18 @@ pub fn test_instruction_macro() -> [crate::instructions::InstrThumb16; ::std::u1
     define_instructions! {
         instruction! {
             name: ADDimm,
-            encoding:
+            encoding: [
                 base: 0x1C00,
                 operand: [rd, 3 << 0],
                 operand: [rdn, 3 << 3],
                 operand: [imm, 3 << 6]
+            ],
+            encoding: [
+                base: 0x3000,
+                operand: [imm, 8 << 0],
+                operand: [rdn, 3 << 8],
+                operand: [rd, unused]
+            ]
         }
     }
 }
-
-
