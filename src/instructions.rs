@@ -2,16 +2,21 @@
 #[derive(Clone, Copy, Debug)]
 pub enum InstrThumb16 {
     // ADC
-    ADCreg { rm: u8, rdn: u8 }, // 0x4140
+    ADCreg { rm: u8, rdn: u8 },
 
     // ADD
-    ADDimm { imm: u8, rdn: u8, rd: u8 }, // 0x1C00, 0x3000; encoding: rd == 0xFF ? T2 : T1
-    ADDreg { rm: u8, rdn: u8, rd: u8 }, // 0x1800, 0x4400; encoding: rd == 0xFF ? T2 : T1
-    ADDspimm { imm: u8, rd: u8}, // 0xA800, 0xB000; encoding: rd == 0xFF ? T2 : T1
-    ADDspreg { rm: u8, rdm: u8 }, // 0x4468, 0x4485; encoding: rm == 0x0D ? T1 : T2
+    ADDimm { imm: u8, rdn: u8, rd: u8 },
+    ADDreg { rm: u8, rdn: u8, rd: u8 },
+    ADDspimm { imm: u8, rd: u8},
+    ADDspreg { rm: u8, rdm: u8 },
+
+    // LDR
+    LDRlit { rt: u8, imm: u8},
+    LDRBlit { imm: u8, rn: u8, rt: u8 },
 
     // MISCELLANEOUS
     NOP,
+    UDF { imm: u8 },
     UNDEFINED,
 }
 
@@ -59,7 +64,26 @@ impl InstrThumb16 {
                     base: 0b0100_0100_0000_0000,
                     operand: [rm, 4 << 3],
                     operand: [rdn, 3 << 0],
-                    operand: [rd, 1 << 7],
+                    operand: [rd, 1 << 7]
+                ]
+            },
+
+            instruction! {
+                name: LDRlit,
+                encoding: [
+                    base: 0x4800,
+                    operand: [rt, 3 << 8],
+                    operand: [imm, 8 << 0]
+                ]
+            },
+
+            instruction! {
+                name: LDRBlit,
+                encoding: [
+                    base: 0x7800,
+                    operand: [imm, 5 << 6],
+                    operand: [rn, 3 << 3],
+                    operand: [rt, 3 << 0]
                 ]
             },
 
@@ -67,6 +91,14 @@ impl InstrThumb16 {
                 name: NOP,
                 encoding: [
                     base: 0xBF00
+                ]
+            },
+
+            instruction! {
+                name: UDF,
+                encoding: [
+                    base: 0xDE00,
+                    operand: [imm, 8 << 0],
                 ]
             }
         }

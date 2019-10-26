@@ -6,5 +6,7 @@
 #[macro_use]
 pub mod decode;
 pub mod instructions;
+pub mod memory;
+pub mod loader;
 pub mod processor;
 

@@ -9,7 +9,7 @@ pub struct OperandData {
 
 /// This macro defines a simple DML which expands into code which generates 16-bit ARMv7-M Thumb instruction decode tables
 /// 
-/// Because the instruction space is so small for half-word instructions, we are able to directly map from machine code
+/// Because the instruction space for half-word instructions is small enough, we are able to directly map from machine code
 /// into decoded instructions using a lookup table without performing any decoding logic. We must however still decode
 /// 32-bit double half-word instructions.
 /// 
@@ -149,7 +149,6 @@ macro_rules! define_instructions {
                 }
             )*
 
-            //__set.sort_by(|a, b| a.0.cmp(&b.0) );
             __set
         }
     };
