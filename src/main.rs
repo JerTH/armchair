@@ -1,10 +1,13 @@
 use armv7m_vm::processor::Processor;
+use armv7m_vm::loader::ProgramLoader;
 
-fn main() -> std::result::Result<(), ()> {
-    run_test_program()
+fn main() {
+    let _loader = ProgramLoader::load("thumbv7m-test-binary").unwrap();
+
+    run_test_program();
 }
 
-fn run_test_program() -> std::result::Result<(), ()> {
+fn run_test_program() {
     //let mut processor = Processor::new();
     //processor.init();
     //processor.load(&[

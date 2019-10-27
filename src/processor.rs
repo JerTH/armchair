@@ -44,10 +44,12 @@ impl Processor {
         unimplemented!()
     }
 
-    pub fn run(&mut self) -> std::result::Result<(), ()> {
-        let mut result: std::result::Result<(), ()> = Ok(());
+    pub fn reset(&mut self) {
+        self.fde_loop();
+    }
 
-        // FDE Loop
+    fn fde_loop(&mut self) {
+        // Core execution loop
         loop {
             let instruction = self.fetch_and_decode();
             

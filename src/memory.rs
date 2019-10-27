@@ -99,8 +99,11 @@ pub struct Memory {
 
 impl Memory {
     pub fn new() -> Memory {
+        let bytes = Vec::with_capacity(MEMORY_DEFAULT_CAPACITY).into_boxed_slice();
+        assert_eq!(bytes.len(), MEMORY_DEFAULT_CAPACITY);
+
         Memory {
-            bytes: Vec::with_capacity(MEMORY_DEFAULT_CAPACITY).into_boxed_slice()
+            bytes: bytes
         }
     }
 }
