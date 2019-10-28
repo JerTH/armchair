@@ -3,12 +3,8 @@ use std::io::{ BufReader, Read };
 
 type LoaderResult<T> = std::io::Result<T>;
 
-trait ELFIdentParslet {
-    fn parse_bytes(_: &mut dyn Read) -> LoaderResult<Self> where Self: Sized;
-}
-
 trait ELFParslet {
-    fn parse_bytes(_: &mut dyn Read, format: ELFData, class: ELFClass) -> LoaderResult<Self> where Self: Sized;
+    fn parse(reader: &mut dyn Read, format: Option<ELFData>, class: Option<ELFClass>) -> LoaderResult<Self> where Self: Sized;
 }
 
 const ELF_MAGIC_BYTES: [u8; 4] = [0x7F, 0x45, 0x4C, 0x46];
@@ -43,7 +39,7 @@ macro_rules! read_u16 {
             unsafe {
                 __temp = std::mem::transmute::<[u8; 2], u16>(__bytes);
 
-                if $data_format == ELFData::BigEndian {
+                if $data_format == Some(ELFData::BigEndian) {
                     __temp = __temp.to_le();
                 }
             }
@@ -61,7 +57,7 @@ macro_rules! read_u32 {
             unsafe {
                 __temp = std::mem::transmute::<[u8; 4], u32>(__bytes);
 
-                if $data_format == ELFData::BigEndian {
+                if $data_format == Some(ELFData::BigEndian) {
                     __temp = __temp.to_le();
                 }
             }
@@ -79,7 +75,7 @@ macro_rules! read_u64 {
             unsafe {
                 __temp = std::mem::transmute::<[u8; 8], u64>(__bytes);
 
-                if $data_format == ELFData::BigEndian {
+                if $data_format == Some(ELFData::BigEndian) {
                     __temp = __temp.to_le();
                 }
             }
@@ -94,8 +90,8 @@ enum ELFMagic {
     Invalid([u8; 4]),
 }
 
-impl ELFIdentParslet for ELFMagic {
-    fn parse_bytes(reader: &mut dyn Read) -> LoaderResult<Self> {
+impl ELFParslet for ELFMagic {
+    fn parse(reader: &mut dyn Read, _: Option<ELFData>, _: Option<ELFClass>) -> LoaderResult<Self> {
         match read_n_bytes!(reader, 4) {
             ELF_MAGIC_BYTES => Ok(ELFMagic::Valid),
             b => Ok(ELFMagic::Invalid(b))
@@ -110,8 +106,8 @@ enum ELFClass {
     Invalid(u8)
 }
 
-impl ELFIdentParslet for ELFClass {
-    fn parse_bytes(reader: &mut dyn Read) -> LoaderResult<Self> {
+impl ELFParslet for ELFClass {
+    fn parse(reader: &mut dyn Read, _: Option<ELFData>, _: Option<ELFClass>) -> LoaderResult<Self> {
         match read_byte!(reader) {
             0x01 => Ok(ELFClass::ELF32),
             0x02 => Ok(ELFClass::ELF64),
@@ -127,8 +123,8 @@ enum ELFData {
     Invalid(u8)
 }
 
-impl ELFIdentParslet for ELFData {
-    fn parse_bytes(reader: &mut dyn Read) -> LoaderResult<Self> {
+impl ELFParslet for ELFData {
+    fn parse(reader: &mut dyn Read, _: Option<ELFData>, _: Option<ELFClass>) -> LoaderResult<Self> {
         match read_byte!(reader) {
             0x01 => Ok(ELFData::LittleEndian),
             0x02 => Ok(ELFData::BigEndian),
@@ -143,8 +139,8 @@ enum ELFIdentVersion {
     Invalid(u8)
 }
 
-impl ELFIdentParslet for ELFIdentVersion {
-    fn parse_bytes(reader: &mut dyn Read) -> LoaderResult<Self> {
+impl ELFParslet for ELFIdentVersion {
+    fn parse(reader: &mut dyn Read, _: Option<ELFData>, _: Option<ELFClass>) -> LoaderResult<Self> {
         match read_byte!(reader) {
             0x01 => Ok(ELFIdentVersion::Current), // ELF only has one version, version one. Nonetheless we parse it as "current"
             b => Ok(ELFIdentVersion::Invalid(b))
@@ -158,8 +154,8 @@ enum ELFOsAbi {
     Invalid(u8)
 }
 
-impl ELFIdentParslet for ELFOsAbi {
-    fn parse_bytes(reader: &mut dyn Read) -> LoaderResult<Self> {
+impl ELFParslet for ELFOsAbi {
+    fn parse(reader: &mut dyn Read, _: Option<ELFData>, _: Option<ELFClass>) -> LoaderResult<Self> {
         match read_byte!(reader) {
             0x00 => Ok(ELFOsAbi::UNIXSystemV),
             b => Ok(ELFOsAbi::Invalid(b))
@@ -173,8 +169,8 @@ enum ELFAbiVersion {
     Version(u8),
 }
 
-impl ELFIdentParslet for ELFAbiVersion {
-    fn parse_bytes(reader: &mut dyn Read) -> LoaderResult<Self> {
+impl ELFParslet for ELFAbiVersion {
+    fn parse(reader: &mut dyn Read, _: Option<ELFData>, _: Option<ELFClass>) -> LoaderResult<Self> {
         match read_byte!(reader) {
             0x00 => Ok(ELFAbiVersion::Unspecified),
             b => Ok(ELFAbiVersion::Version(b))
@@ -192,21 +188,21 @@ struct ELFIdent {
     abi_ver: ELFAbiVersion,
 }
 
-impl ELFIdent {
-    pub fn parse(reader: &mut dyn Read) -> LoaderResult<(ELFData, ELFClass, ELFIdent)> {
+impl ELFParslet for ELFIdent {
+    fn parse(reader: &mut dyn Read, _: Option<ELFData>, _: Option<ELFClass>) -> LoaderResult<Self> {
         let parsed = ELFIdent {
-            magic: ELFMagic::parse_bytes(reader)?,
-            class: ELFClass::parse_bytes(reader)?,
-            data: ELFData::parse_bytes(reader)?,
-            version: ELFIdentVersion::parse_bytes(reader)?,
-            os_abi: ELFOsAbi::parse_bytes(reader)?,
-            abi_ver: ELFAbiVersion::parse_bytes(reader)?,
+            magic: ELFMagic::parse(reader, None, None)?,
+            class: ELFClass::parse(reader, None, None)?,
+            data: ELFData::parse(reader, None, None)?,
+            version: ELFIdentVersion::parse(reader, None, None)?,
+            os_abi: ELFOsAbi::parse(reader, None, None)?,
+            abi_ver: ELFAbiVersion::parse(reader, None, None)?,
         };
 
         // The end of the ident is composed of empty padding bytes, skip over them
         read_n_bytes!(reader, 7);
 
-        Ok((parsed.data, parsed.class, parsed))
+        Ok(parsed)
     } 
 }
 
@@ -223,7 +219,7 @@ enum ELFType {
 }
 
 impl ELFParslet for ELFType {
-    fn parse_bytes(reader: &mut dyn Read, format: ELFData, _class: ELFClass) -> LoaderResult<Self> {
+    fn parse(reader: &mut dyn Read, format: Option<ELFData>, _: Option<ELFClass>) -> LoaderResult<Self> {
         match read_u16!(reader, format) {
             0x0000 => Ok(ELFType::None),
             0x0001 => Ok(ELFType::Relocatable),
@@ -249,7 +245,7 @@ enum ELFMachine {
 }
 
 impl ELFParslet for ELFMachine {
-    fn parse_bytes(reader: &mut dyn Read, format: ELFData, _class: ELFClass) -> LoaderResult<Self> {
+    fn parse(reader: &mut dyn Read, format: Option<ELFData>, _: Option<ELFClass>) -> LoaderResult<Self> {
         match read_u16!(reader, format) {
             0x0000 => Ok(ELFMachine::None),
             0x0028 => Ok(ELFMachine::ARM),
@@ -269,7 +265,7 @@ enum ELFVersion {
 }
 
 impl ELFParslet for ELFVersion {
-    fn parse_bytes(reader: &mut dyn Read, format: ELFData, _class: ELFClass) -> LoaderResult<Self> {
+    fn parse(reader: &mut dyn Read, format: Option<ELFData>, _: Option<ELFClass>) -> LoaderResult<Self> {
         match read_u32!(reader, format) {
             0x01 => Ok(ELFVersion::Current),
             b => Ok(ELFVersion::Invalid(b))
@@ -283,7 +279,7 @@ enum ELFFlags {
 }
 
 impl ELFParslet for ELFFlags {
-    fn parse_bytes(reader: &mut dyn Read, format: ELFData, _class: ELFClass) -> LoaderResult<Self> {
+    fn parse(reader: &mut dyn Read, format: Option<ELFData>, _: Option<ELFClass>) -> LoaderResult<Self> {
         match read_u32!(reader, format) {
             v => Ok(ELFFlags::Flags(v)),
         }
@@ -297,9 +293,8 @@ enum ELFAddress {
 }
 
 impl ELFParslet for ELFAddress {
-    fn parse_bytes(reader: &mut dyn Read, format: ELFData, class: ELFClass) -> LoaderResult<Self> {
-        
-        match class {
+    fn parse(reader: &mut dyn Read, format: Option<ELFData>, class: Option<ELFClass>) -> LoaderResult<Self> {
+        match class.unwrap() {
             ELFClass::ELF32 => {
                 Ok(ELFAddress::ELF32Addr(read_u32!(reader, format)))
             },
@@ -317,8 +312,17 @@ impl ELFParslet for ELFAddress {
 struct ELFSize(u16);
 
 impl ELFParslet for ELFSize {
-    fn parse_bytes(reader: &mut dyn Read, format: ELFData, class: ELFClass) -> LoaderResult<Self> {
+    fn parse(reader: &mut dyn Read, format: Option<ELFData>, _: Option<ELFClass>) -> LoaderResult<Self> {
         Ok(ELFSize(read_u16!(reader, format)))
+    }
+}
+
+#[derive(Debug, PartialEq, Eq, Clone, Copy)]
+struct ELFWord(u32);
+
+impl ELFParslet for ELFWord {
+    fn parse(reader: &mut dyn Read, format: Option<ELFData>, _: Option<ELFClass>) -> LoaderResult<Self> {
+        Ok(ELFWord(read_u32!(reader, format)))
     }
 }
 
@@ -340,43 +344,107 @@ struct ELFHeader {
     shstrndx: ELFSize,
 }
 
-impl ELFHeader {
-    pub fn parse(reader: &mut dyn Read) -> LoaderResult<(ELFData, ELFClass, ELFHeader)> {
-        let (format, class, ident) = ELFIdent::parse(reader)?;
+impl ELFParslet for ELFHeader {
+    fn parse(reader: &mut dyn Read, format: Option<ELFData>, class: Option<ELFClass>) -> LoaderResult<Self> {
+        let ident = ELFIdent::parse(reader, format, class)?;
 
-        let parsed = ELFHeader {
+        let format = Some(ident.data);
+        let class = Some(ident.class);
+
+        let header = ELFHeader {
             ident: ident,
-            ty: ELFType::parse_bytes(reader, format, class)?,
-            machine: ELFMachine::parse_bytes(reader, format, class)?,
-            version: ELFVersion::parse_bytes(reader, format, class)?,
-            entry: ELFAddress::parse_bytes(reader, format, class)?,
-            phoff: ELFAddress::parse_bytes(reader, format, class)?,
-            shoff: ELFAddress::parse_bytes(reader, format, class)?,
-            flags: ELFFlags::parse_bytes(reader, format, class)?,
-            ehsize: ELFSize::parse_bytes(reader, format, class)?,
-            phentsize: ELFSize::parse_bytes(reader, format, class)?,
-            phnum: ELFSize::parse_bytes(reader, format, class)?,
-            shentsize: ELFSize::parse_bytes(reader, format, class)?,
-            shnum: ELFSize::parse_bytes(reader, format, class)?,
-            shstrndx: ELFSize::parse_bytes(reader, format, class)?,
+            ty: ELFType::parse(reader, format, class)?,
+            machine: ELFMachine::parse(reader, format, class)?,
+            version: ELFVersion::parse(reader, format, class)?,
+            entry: ELFAddress::parse(reader, format, class)?,
+            phoff: ELFAddress::parse(reader, format, class)?,
+            shoff: ELFAddress::parse(reader, format, class)?,
+            flags: ELFFlags::parse(reader, format, class)?,
+            ehsize: ELFSize::parse(reader, format, class)?,
+            phentsize: ELFSize::parse(reader, format, class)?,
+            phnum: ELFSize::parse(reader, format, class)?,
+            shentsize: ELFSize::parse(reader, format, class)?,
+            shnum: ELFSize::parse(reader, format, class)?,
+            shstrndx: ELFSize::parse(reader, format, class)?,
         };
 
-        Ok((format, class, parsed))
+        Ok(header)
     } 
 }
 
+#[derive(Debug)]
+struct ELFProgramHeader {
+}
 
+impl ELFParslet for ELFProgramHeader {
+    fn parse(_: &mut dyn Read, _: Option<ELFData>, _: Option<ELFClass>) -> LoaderResult<Self> {
+        unimplemented!()
+    }
+}
+
+#[derive(Debug)]
+enum ELFSectionHeaderType {
+    NULL,
+    ProgramData,
+    SymbolTable,
+    StringTable,
+    RelocationWithAddends,
+    SymbolHashTable,
+    DynamicInfo,
+    Note,
+    NoBits,
+    Relocation,
+    ShLib,
+    DynamicSymbolTable,
+    InitArray,
+    FiniArray,
+    PreInitArray,
+    Group,
+    ExtendedSectionIndices,
+}
+
+#[derive(Debug)]
+struct ELFSectionHeader {
+    name: ELFWord,
+
+}
+
+impl ELFParslet for ELFSectionHeader {
+    fn parse(_: &mut dyn Read, _: Option<ELFData>, _: Option<ELFClass>) -> LoaderResult<Self> {
+        unimplemented!()
+    }
+}
+
+/**
+ * ELF
+ * 
+ * Represents an ELF (Executable and Linkable Format) file.
+ * 
+ * The Executable and Linkable Format is a common standard file format for executable files, object code,
+ * shared libraries, and core dumps.
+ * 
+ * This type is responsible for loading, parsing, and modifying ELF files, and is used by the ARM
+ * program loader to construct an executable image.
+ *  
+ */
 #[derive(Debug)]
 struct ELF {
     header: ELFHeader,
+    section_headers: Vec<ELFSectionHeader>,
+    program_headers: Vec<ELFProgramHeader>,
 }
 
 impl ELF {
     pub fn parse(reader: &mut dyn Read) -> LoaderResult<ELF> {
-        let (format, class, header) = ELFHeader::parse(reader)?;
+        let header = ELFHeader::parse(reader, None, None)?;
+
+        let _format = Some(header.ident.data);
+        let _class = Some(header.ident.class);
 
         let parsed = ELF {
             header: header,
+            section_headers: Vec::new(),
+            program_headers: Vec::new(),
         };
 
         Ok(parsed)
