@@ -1,5 +1,6 @@
 use std::fs::File;
-use std::io::{ BufReader, Read };
+use std::convert::TryInto;
+use std::io::{ BufReader, Read, Seek, SeekFrom };
 
 type LoaderResult<T> = std::io::Result<T>;
 
@@ -273,23 +274,35 @@ impl ELFParslet for ELFVersion {
     }
 }
 
-#[derive(Debug)]
-enum ELFFlags {
-    Flags(u32)
-}
+struct ELFFlags(u32);
 
 impl ELFParslet for ELFFlags {
     fn parse(reader: &mut dyn Read, format: Option<ELFData>, _: Option<ELFClass>) -> LoaderResult<Self> {
         match read_u32!(reader, format) {
-            v => Ok(ELFFlags::Flags(v)),
+            v => Ok(ELFFlags(v)),
         }
     }
 }
 
-#[derive(Debug, PartialEq, Eq, Clone, Copy)]
+impl std::fmt::Debug for ELFFlags {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        write!(f, "{:#b}", self.0)
+    }
+}
+
+#[derive(PartialEq, Eq, Clone, Copy)]
 enum ELFAddress {
     ELF32Addr(u32),
     ELF64Addr(u64)
+}
+
+impl ELFAddress {
+    pub fn as_usize(&self) -> usize {
+        match self {
+            ELFAddress::ELF32Addr(v) => (*v).try_into().unwrap(),
+            ELFAddress::ELF64Addr(v) => (*v).try_into().unwrap()
+        }
+    }
 }
 
 impl ELFParslet for ELFAddress {
@@ -308,21 +321,81 @@ impl ELFParslet for ELFAddress {
     }
 }
 
-#[derive(Debug, PartialEq, Eq, Clone, Copy)]
-struct ELFSize(u16);
-
-impl ELFParslet for ELFSize {
-    fn parse(reader: &mut dyn Read, format: Option<ELFData>, _: Option<ELFClass>) -> LoaderResult<Self> {
-        Ok(ELFSize(read_u16!(reader, format)))
+impl std::fmt::Debug for ELFAddress {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        match self {
+            ELFAddress::ELF32Addr(v) => {
+                write!(f, "{:#010X}", v)
+            },
+            ELFAddress::ELF64Addr(v) => {
+                write!(f, "{:#010X}", v)
+            }
+        }
     }
 }
 
-#[derive(Debug, PartialEq, Eq, Clone, Copy)]
+#[derive(PartialEq, Eq, Clone, Copy)]
+struct ELFShort(u16);
+
+impl ELFParslet for ELFShort {
+    fn parse(reader: &mut dyn Read, format: Option<ELFData>, _: Option<ELFClass>) -> LoaderResult<Self> {
+        Ok(ELFShort(read_u16!(reader, format)))
+    }
+}
+
+impl std::fmt::Debug for ELFShort {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        write!(f, "{}", self.0)
+    }
+}
+
+#[derive(PartialEq, Eq, Clone, Copy)]
 struct ELFWord(u32);
 
 impl ELFParslet for ELFWord {
     fn parse(reader: &mut dyn Read, format: Option<ELFData>, _: Option<ELFClass>) -> LoaderResult<Self> {
         Ok(ELFWord(read_u32!(reader, format)))
+    }
+}
+
+impl std::fmt::Debug for ELFWord {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        write!(f, "{}", self.0)
+    }
+}
+
+#[derive(PartialEq, Eq, Clone, Copy)]
+enum ELFSize {
+    ELF32Size(u32),
+    ELF64Size(u64)
+}
+
+impl ELFParslet for ELFSize {
+    fn parse(reader: &mut dyn Read, format: Option<ELFData>, class: Option<ELFClass>) -> LoaderResult<Self> {
+        match class.unwrap() {
+            ELFClass::ELF32 => {
+                Ok(ELFSize::ELF32Size(read_u32!(reader, format)))
+            },
+            ELFClass::ELF64 => {
+                Ok(ELFSize::ELF64Size(read_u64!(reader, format)))
+            },
+            ELFClass::Invalid(e) => {
+                panic!("Attempted to parse ELF size with an invalid ELF class: {:?}", e);
+            }
+        }
+    }
+}
+
+impl std::fmt::Debug for ELFSize {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        match self {
+            ELFSize::ELF32Size(v) => {
+                write!(f, "{}", v)
+            },
+            ELFSize::ELF64Size(v) => {
+                write!(f, "{}", v)
+            }
+        }
     }
 }
 
@@ -336,17 +409,17 @@ struct ELFHeader {
     phoff: ELFAddress,
     shoff: ELFAddress,
     flags: ELFFlags,
-    ehsize: ELFSize,
-    phentsize: ELFSize,
-    phnum: ELFSize,
-    shentsize: ELFSize,
-    shnum: ELFSize,
-    shstrndx: ELFSize,
+    ehsize: ELFShort,
+    phentsize: ELFShort,
+    phnum: ELFShort,
+    shentsize: ELFShort,
+    shnum: ELFShort,
+    shstrndx: ELFShort,
 }
 
 impl ELFParslet for ELFHeader {
-    fn parse(reader: &mut dyn Read, format: Option<ELFData>, class: Option<ELFClass>) -> LoaderResult<Self> {
-        let ident = ELFIdent::parse(reader, format, class)?;
+    fn parse(reader: &mut dyn Read, _: Option<ELFData>, _: Option<ELFClass>) -> LoaderResult<Self> {
+        let ident = ELFIdent::parse(reader, None, None)?;
 
         let format = Some(ident.data);
         let class = Some(ident.class);
@@ -360,12 +433,12 @@ impl ELFParslet for ELFHeader {
             phoff: ELFAddress::parse(reader, format, class)?,
             shoff: ELFAddress::parse(reader, format, class)?,
             flags: ELFFlags::parse(reader, format, class)?,
-            ehsize: ELFSize::parse(reader, format, class)?,
-            phentsize: ELFSize::parse(reader, format, class)?,
-            phnum: ELFSize::parse(reader, format, class)?,
-            shentsize: ELFSize::parse(reader, format, class)?,
-            shnum: ELFSize::parse(reader, format, class)?,
-            shstrndx: ELFSize::parse(reader, format, class)?,
+            ehsize: ELFShort::parse(reader, format, class)?,
+            phentsize: ELFShort::parse(reader, format, class)?,
+            phnum: ELFShort::parse(reader, format, class)?,
+            shentsize: ELFShort::parse(reader, format, class)?,
+            shnum: ELFShort::parse(reader, format, class)?,
+            shstrndx: ELFShort::parse(reader, format, class)?,
         };
 
         Ok(header)
@@ -384,7 +457,7 @@ impl ELFParslet for ELFProgramHeader {
 
 #[derive(Debug)]
 enum ELFSectionHeaderType {
-    NULL,
+    Null,
     ProgramData,
     SymbolTable,
     StringTable,
@@ -401,17 +474,89 @@ enum ELFSectionHeaderType {
     PreInitArray,
     Group,
     ExtendedSectionIndices,
+    OSSpecific(u32),
+}
+
+impl ELFParslet for ELFSectionHeaderType {
+    fn parse(reader: &mut dyn Read, format: Option<ELFData>, class: Option<ELFClass>) -> LoaderResult<Self> {
+        use ELFSectionHeaderType::*;
+
+        match read_u32!(reader, format) {
+            0x00 => Ok(Null),
+            0x01 => Ok(ProgramData),
+            0x02 => Ok(SymbolTable),
+            0x03 => Ok(StringTable),
+            0x04 => Ok(RelocationWithAddends),
+            0x05 => Ok(SymbolHashTable),
+            0x06 => Ok(DynamicInfo),
+            0x07 => Ok(Note),
+            0x08 => Ok(NoBits),
+            0x09 => Ok(Relocation),
+            0x0A => Ok(ShLib),
+            0x0B => Ok(DynamicSymbolTable),
+            0x0E => Ok(InitArray),
+            0x0F => Ok(FiniArray),
+            0x10 => Ok(PreInitArray),
+            0x11 => Ok(Group),
+            0x12 => Ok(ExtendedSectionIndices),
+
+            v => Ok(ELFSectionHeaderType::OSSpecific(v))
+        }
+    }
+}
+
+#[derive(Debug)]
+enum ELFSectionFlags {
+    ELF32SectionFlags(u32),
+    ELF64SectionFlags(u64)
+}
+
+impl ELFParslet for ELFSectionFlags {
+    fn parse(reader: &mut dyn Read, format: Option<ELFData>, class: Option<ELFClass>) -> LoaderResult<Self> {
+        match class.unwrap() {
+            ELFClass::ELF32 => {
+                Ok(ELFSectionFlags::ELF32SectionFlags(read_u32!(reader, format)))
+            },
+            ELFClass::ELF64 => {
+                Ok(ELFSectionFlags::ELF64SectionFlags(read_u64!(reader, format)))
+            },
+            ELFClass::Invalid(e) => {
+                panic!("Attempted to parse ELF section flags with an invalid ELF class: {:?}", e);
+            }
+        }
+    }
 }
 
 #[derive(Debug)]
 struct ELFSectionHeader {
-    name: ELFWord,
-
+    name: ELFAddress,
+    ty: ELFSectionHeaderType,
+    flags: ELFSectionFlags,
+    virtual_addr: ELFAddress,
+    offset: ELFAddress,
+    section_size: ELFSize,
+    link: ELFWord,
+    info: ELFWord,
+    align: ELFSize,
+    entry_size: ELFSize,
 }
 
 impl ELFParslet for ELFSectionHeader {
-    fn parse(_: &mut dyn Read, _: Option<ELFData>, _: Option<ELFClass>) -> LoaderResult<Self> {
-        unimplemented!()
+    fn parse(reader: &mut dyn Read, format: Option<ELFData>, class: Option<ELFClass>) -> LoaderResult<Self> {
+        let section_header = ELFSectionHeader {
+            name: ELFAddress::parse(reader, format, class)?,
+            ty: ELFSectionHeaderType::parse(reader, format, class)?,
+            flags: ELFSectionFlags::parse(reader, format, class)?,
+            virtual_addr: ELFAddress::parse(reader, format, class)?,
+            offset: ELFAddress::parse(reader, format, class)?,
+            section_size: ELFSize::parse(reader, format, class)?,
+            link: ELFWord::parse(reader, format, class)?,
+            info: ELFWord::parse(reader, format, class)?,
+            align: ELFSize::parse(reader, format, class)?,
+            entry_size: ELFSize::parse(reader, format, class)?,
+        };
+
+        Ok(section_header)
     }
 }
 
@@ -435,17 +580,27 @@ struct ELF {
 }
 
 impl ELF {
-    pub fn parse(reader: &mut dyn Read) -> LoaderResult<ELF> {
+    pub fn parse<R>(reader: &mut R) -> LoaderResult<ELF> where R: Read + Seek {
         let header = ELFHeader::parse(reader, None, None)?;
 
-        let _format = Some(header.ident.data);
-        let _class = Some(header.ident.class);
+        let format = Some(header.ident.data);
+        let class = Some(header.ident.class);
 
-        let parsed = ELF {
+
+        reader.seek(SeekFrom::Start(header.shoff.as_usize() as u64))?;
+        let section_header = ELFSectionHeader::parse(reader, format, class)?;
+        let mut section_headers = Vec::new();
+        for sh in 0..header.shnum.0 {
+            section_headers.push(ELFSectionHeader::parse(reader, format, class)?)
+        }
+
+        let mut parsed = ELF {
             header: header,
-            section_headers: Vec::new(),
+            section_headers: section_headers,
             program_headers: Vec::new(),
         };
+
+
 
         Ok(parsed)
     }
