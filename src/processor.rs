@@ -1,5 +1,5 @@
 use crate::instructions::{ InstrThumb16 };
-use crate::memory::{ Register, RegisterBank, Memory };
+use crate::memory::{ RegisterBank, Memory };
 
 /// ARMv7-M virtual processor
 /// 
@@ -23,16 +23,16 @@ use crate::memory::{ Register, RegisterBank, Memory };
 /// 
 pub struct Processor {
     dct: [InstrThumb16; ::std::u16::MAX as usize],
-    registers: RegisterBank,
-    memory: Memory,
+    _registers: RegisterBank,
+    _memory: Memory,
 }
 
 impl Processor {
     pub fn new() -> Processor {
         Processor {
             dct: [InstrThumb16::UNDEFINED; ::std::u16::MAX as usize],
-            registers: RegisterBank::new(),
-            memory: Memory::new()
+            _registers: RegisterBank::new(),
+            _memory: Memory::new()
         }
     }
 

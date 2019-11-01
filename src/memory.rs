@@ -1,9 +1,7 @@
 // ARMv7M-M Memory Model
 
 use std::ops::{ Index, IndexMut };
-
-const MEMORY_DEFAULT_CAPACITY: usize = ::std::u16::MAX as usize;
-
+ 
 /// Addressable registers
 pub enum Register {
     // Thumb16 addressable
@@ -94,16 +92,11 @@ impl IndexMut<Register> for RegisterBank {
 /// | [0x20000000 -> 0x3FFFFFFF] | SRAM       | Normal      | -   | WBWA  | SRAM region typically used for on-chip RAM. |
 /// | [0x40000000 -> 0x5FFFFFFF] | Peripheral | Device      | XN  | -     | On-chip peripheral address space.           |
 pub struct Memory {
-    bytes: Box<[u8]>,
 }
 
 impl Memory {
     pub fn new() -> Memory {
-        let bytes = Vec::with_capacity(MEMORY_DEFAULT_CAPACITY).into_boxed_slice();
-        assert_eq!(bytes.len(), MEMORY_DEFAULT_CAPACITY);
-
         Memory {
-            bytes: bytes
         }
     }
 }
