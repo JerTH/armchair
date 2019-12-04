@@ -1,4 +1,4 @@
-
+use crate::instructions::NUM_TH16_INSTRUCTIONS;
 
 #[derive(Debug, Clone, Copy)]
 pub struct OperandData {
@@ -6,6 +6,7 @@ pub struct OperandData {
     pub shift: u8,
     pub default: Option<u8>,
 }
+
 
 /// This macro defines a simple DML which expands into code which generates 16-bit ARMv7-M Thumb instruction decode tables
 /// 
@@ -24,9 +25,9 @@ macro_rules! instruction {
     //      invocation and may be used for printing prettier generated documentation
     { name: $name:ident, $($tail:tt)* } => {
         {
-            let mut _dset: Vec::<(u16, crate::instructions::InstrThumb16)> = Vec::new();
-            instruction!(@internal [] [] $name, _dset, $($tail)*);
-            _dset
+            let mut _decoded_set: Vec::<(u16, crate::instructions::InstrThumb16)> = Vec::new();
+            instruction!(@internal [] [] $name, _decoded_set, $($tail)*);
+            _decoded_set
         }
     };
 
@@ -139,7 +140,7 @@ macro_rules! define_instructions {
             use crate::instructions::InstrThumb16;
 
             //let mut __set: Vec<(u16, crate::instructions::InstrThumb16)> = Vec::new();
-            let mut __set: [InstrThumb16; ::std::u16::MAX as usize] = [InstrThumb16::UNDEFINED; ::std::u16::MAX as usize];
+            let mut __set: [InstrThumb16; NUM_TH16_INSTRUCTIONS] = [InstrThumb16::Undefined; NUM_TH16_INSTRUCTIONS];
             $(
                 {
                     let mut __temp = $inst;
@@ -148,7 +149,6 @@ macro_rules! define_instructions {
                     }
                 }
             )*
-
             __set
         }
     };
@@ -244,10 +244,10 @@ macro_rules! define_instructions {
  */
 
 
-pub fn test_instruction_macro() -> [crate::instructions::InstrThumb16; ::std::u16::MAX as usize] {
+pub fn test_instruction_macro() -> [crate::instructions::InstrThumb16; NUM_TH16_INSTRUCTIONS] {
     define_instructions! {
         instruction! {
-            name: ADDimm,
+            name: AddImm,
             encoding: [
                 base: 0x1C00,
                 operand: [rd, 3 << 0],

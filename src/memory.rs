@@ -92,11 +92,21 @@ impl IndexMut<Register> for RegisterBank {
 /// | [0x20000000 -> 0x3FFFFFFF] | SRAM       | Normal      | -   | WBWA  | SRAM region typically used for on-chip RAM. |
 /// | [0x40000000 -> 0x5FFFFFFF] | Peripheral | Device      | XN  | -     | On-chip peripheral address space.           |
 pub struct Memory {
+    raw: Box<[u8]>,
+
 }
 
 impl Memory {
     pub fn new() -> Memory {
+        let alloc_size = 1024 * 16; // bytes
+        let raw: Box<[u8]> = Vec::with_capacity(alloc_size).into_boxed_slice();
+
         Memory {
+            raw: raw
         }
+    }
+
+    pub fn map(&mut self, address: usize, bytes: usize, align: usize) {
+        
     }
 }
