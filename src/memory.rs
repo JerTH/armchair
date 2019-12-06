@@ -91,22 +91,60 @@ impl IndexMut<Register> for RegisterBank {
 /// | [0x00000000 -> 0x1FFFFFFF] | Code       | Normal      | -   | WT    | Typically ROM or flash memory.              |
 /// | [0x20000000 -> 0x3FFFFFFF] | SRAM       | Normal      | -   | WBWA  | SRAM region typically used for on-chip RAM. |
 /// | [0x40000000 -> 0x5FFFFFFF] | Peripheral | Device      | XN  | -     | On-chip peripheral address space.           |
-pub struct Memory {
-    raw: Box<[u8]>,
 
+macro_rules! kb {
+    ($v:expr) => {
+        ($v as usize) * 1024usize
+    };
 }
 
+macro_rules! mb {
+    ($v:expr) => {
+        ($v as usize) * (1024usize * 1024usize)
+    };
+}
+
+#[derive(Debug)]
+pub struct Memory {
+    raw_pinned: Pin<Box<[u8]>>,
+}
+
+use std::pin::Pin;
+
 impl Memory {
-    pub fn new() -> Memory {
-        let alloc_size = 1024 * 16; // bytes
-        let raw: Box<[u8]> = Vec::with_capacity(alloc_size).into_boxed_slice();
+    pub fn alloc(size: usize) -> Memory {
+        let aligned_size = Memory::align_with(size, kb!(4));
+
+        let boxed = vec![0u8; aligned_size].into_boxed_slice();
+        let pinned = Pin::new(boxed);
+
+        println!("[Memory] Requested {} bytes, allocated {} bytes", size, aligned_size);
 
         Memory {
-            raw: raw
+            raw_pinned: pinned
         }
     }
 
-    pub fn map(&mut self, address: usize, bytes: usize, align: usize) {
-        
+    // todo: return result type for error handling
+    pub fn write_bytes(&mut self, address: usize, bytes: &[u8]) {
+        let len = bytes.len();
+        let total_len = address + len;
+        let allocated_len = self.raw_pinned.as_ref().len();
+        println!("[Memory] Write {} bytes beginning at byte {}", len, address);
+        println!("[Memory] Total/Allocated length: {}/{}", total_len, allocated_len);
+
+        assert!(total_len <= allocated_len);
+
+        for (i, byte) in bytes.iter().enumerate() {
+            self.raw_pinned.as_mut()[address + i] = *byte;
+        }
+    }
+    
+    fn align_with(value: usize, align: usize) -> usize {
+        if align == 0 {
+            value
+        } else {    
+            ((value + align - 1) / align) * align
+        }
     }
 }

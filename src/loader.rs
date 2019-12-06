@@ -2,6 +2,7 @@ use std::path::Path;
 
 extern crate elfy;
 use elfy::{ Elf, ParseElfResult };
+use elfy::types::{ Segment, ProgramHeaderType, ProgramHeaderFlags };
 
 use crate::memory::Memory;
 
@@ -20,8 +21,32 @@ impl ProgramLoader {
         Ok(loader)
     }
 
-    pub fn map_to(&self, memory: &Memory) {
+    pub fn load<P: AsRef<Path>>(path: P) -> ParseElfResult<Memory> {
+        let elf = Elf::load(path)?;
         
+        let mut required_memory = 0;
+        for segment in elf.segments() {
+            let addr = segment.header().virtual_address();
+            let size = segment.header().memory_size();
+            required_memory = required_memory.max(addr + size);
+        }
+        
+        let mut mem = Memory::alloc(required_memory);
+        for segment in elf.segments() {
+            ProgramLoader::map_segment(&mut mem, &segment);
+        }
+
+        Ok(mem)
+    }
+
+    fn map_segment(mem: &mut Memory, seg: &Segment) {
+        let address = seg.header().virtual_address();
+        assert_eq!(address, seg.header().physical_address());
+
+        let bytes = seg.data().as_slice();
+        assert_eq!(bytes.len(), seg.header().memory_size());
+
+        mem.write_bytes(address, bytes); // todo: error handling using "?"
     }
 }
 

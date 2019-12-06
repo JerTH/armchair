@@ -24,7 +24,6 @@ use crate::memory::{ RegisterBank, Memory };
 pub struct Processor {
     dct: [InstrThumb16; instructions::NUM_TH16_INSTRUCTIONS],
     reg: RegisterBank,
-    mem: Memory,
 }
 
 impl Processor {
@@ -32,7 +31,6 @@ impl Processor {
         Processor {
             dct: [InstrThumb16::Undefined; instructions::NUM_TH16_INSTRUCTIONS],
             reg: RegisterBank::new(),
-            mem: Memory::new()
         }
     }
 
