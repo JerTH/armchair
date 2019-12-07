@@ -53246,3590 +53246,3590 @@
 0xcffd // Ldm { list: 253, rn: 7 } 0b1100111111111101
 0xcffe // Ldm { list: 254, rn: 7 } 0b1100111111111110
 0xcfff // Ldm { list: 255, rn: 7 } 0b1100111111111111
-0xd000 // Branch { cond: 0, imm: 0, immx: 255 } 0b1101000000000000
-0xd001 // Branch { cond: 0, imm: 1, immx: 255 } 0b1101000000000001
-0xd002 // Branch { cond: 0, imm: 2, immx: 255 } 0b1101000000000010
-0xd003 // Branch { cond: 0, imm: 3, immx: 255 } 0b1101000000000011
-0xd004 // Branch { cond: 0, imm: 4, immx: 255 } 0b1101000000000100
-0xd005 // Branch { cond: 0, imm: 5, immx: 255 } 0b1101000000000101
-0xd006 // Branch { cond: 0, imm: 6, immx: 255 } 0b1101000000000110
-0xd007 // Branch { cond: 0, imm: 7, immx: 255 } 0b1101000000000111
-0xd008 // Branch { cond: 0, imm: 8, immx: 255 } 0b1101000000001000
-0xd009 // Branch { cond: 0, imm: 9, immx: 255 } 0b1101000000001001
-0xd00a // Branch { cond: 0, imm: 10, immx: 255 } 0b1101000000001010
-0xd00b // Branch { cond: 0, imm: 11, immx: 255 } 0b1101000000001011
-0xd00c // Branch { cond: 0, imm: 12, immx: 255 } 0b1101000000001100
-0xd00d // Branch { cond: 0, imm: 13, immx: 255 } 0b1101000000001101
-0xd00e // Branch { cond: 0, imm: 14, immx: 255 } 0b1101000000001110
-0xd00f // Branch { cond: 0, imm: 15, immx: 255 } 0b1101000000001111
-0xd010 // Branch { cond: 0, imm: 16, immx: 255 } 0b1101000000010000
-0xd011 // Branch { cond: 0, imm: 17, immx: 255 } 0b1101000000010001
-0xd012 // Branch { cond: 0, imm: 18, immx: 255 } 0b1101000000010010
-0xd013 // Branch { cond: 0, imm: 19, immx: 255 } 0b1101000000010011
-0xd014 // Branch { cond: 0, imm: 20, immx: 255 } 0b1101000000010100
-0xd015 // Branch { cond: 0, imm: 21, immx: 255 } 0b1101000000010101
-0xd016 // Branch { cond: 0, imm: 22, immx: 255 } 0b1101000000010110
-0xd017 // Branch { cond: 0, imm: 23, immx: 255 } 0b1101000000010111
-0xd018 // Branch { cond: 0, imm: 24, immx: 255 } 0b1101000000011000
-0xd019 // Branch { cond: 0, imm: 25, immx: 255 } 0b1101000000011001
-0xd01a // Branch { cond: 0, imm: 26, immx: 255 } 0b1101000000011010
-0xd01b // Branch { cond: 0, imm: 27, immx: 255 } 0b1101000000011011
-0xd01c // Branch { cond: 0, imm: 28, immx: 255 } 0b1101000000011100
-0xd01d // Branch { cond: 0, imm: 29, immx: 255 } 0b1101000000011101
-0xd01e // Branch { cond: 0, imm: 30, immx: 255 } 0b1101000000011110
-0xd01f // Branch { cond: 0, imm: 31, immx: 255 } 0b1101000000011111
-0xd020 // Branch { cond: 0, imm: 32, immx: 255 } 0b1101000000100000
-0xd021 // Branch { cond: 0, imm: 33, immx: 255 } 0b1101000000100001
-0xd022 // Branch { cond: 0, imm: 34, immx: 255 } 0b1101000000100010
-0xd023 // Branch { cond: 0, imm: 35, immx: 255 } 0b1101000000100011
-0xd024 // Branch { cond: 0, imm: 36, immx: 255 } 0b1101000000100100
-0xd025 // Branch { cond: 0, imm: 37, immx: 255 } 0b1101000000100101
-0xd026 // Branch { cond: 0, imm: 38, immx: 255 } 0b1101000000100110
-0xd027 // Branch { cond: 0, imm: 39, immx: 255 } 0b1101000000100111
-0xd028 // Branch { cond: 0, imm: 40, immx: 255 } 0b1101000000101000
-0xd029 // Branch { cond: 0, imm: 41, immx: 255 } 0b1101000000101001
-0xd02a // Branch { cond: 0, imm: 42, immx: 255 } 0b1101000000101010
-0xd02b // Branch { cond: 0, imm: 43, immx: 255 } 0b1101000000101011
-0xd02c // Branch { cond: 0, imm: 44, immx: 255 } 0b1101000000101100
-0xd02d // Branch { cond: 0, imm: 45, immx: 255 } 0b1101000000101101
-0xd02e // Branch { cond: 0, imm: 46, immx: 255 } 0b1101000000101110
-0xd02f // Branch { cond: 0, imm: 47, immx: 255 } 0b1101000000101111
-0xd030 // Branch { cond: 0, imm: 48, immx: 255 } 0b1101000000110000
-0xd031 // Branch { cond: 0, imm: 49, immx: 255 } 0b1101000000110001
-0xd032 // Branch { cond: 0, imm: 50, immx: 255 } 0b1101000000110010
-0xd033 // Branch { cond: 0, imm: 51, immx: 255 } 0b1101000000110011
-0xd034 // Branch { cond: 0, imm: 52, immx: 255 } 0b1101000000110100
-0xd035 // Branch { cond: 0, imm: 53, immx: 255 } 0b1101000000110101
-0xd036 // Branch { cond: 0, imm: 54, immx: 255 } 0b1101000000110110
-0xd037 // Branch { cond: 0, imm: 55, immx: 255 } 0b1101000000110111
-0xd038 // Branch { cond: 0, imm: 56, immx: 255 } 0b1101000000111000
-0xd039 // Branch { cond: 0, imm: 57, immx: 255 } 0b1101000000111001
-0xd03a // Branch { cond: 0, imm: 58, immx: 255 } 0b1101000000111010
-0xd03b // Branch { cond: 0, imm: 59, immx: 255 } 0b1101000000111011
-0xd03c // Branch { cond: 0, imm: 60, immx: 255 } 0b1101000000111100
-0xd03d // Branch { cond: 0, imm: 61, immx: 255 } 0b1101000000111101
-0xd03e // Branch { cond: 0, imm: 62, immx: 255 } 0b1101000000111110
-0xd03f // Branch { cond: 0, imm: 63, immx: 255 } 0b1101000000111111
-0xd040 // Branch { cond: 0, imm: 64, immx: 255 } 0b1101000001000000
-0xd041 // Branch { cond: 0, imm: 65, immx: 255 } 0b1101000001000001
-0xd042 // Branch { cond: 0, imm: 66, immx: 255 } 0b1101000001000010
-0xd043 // Branch { cond: 0, imm: 67, immx: 255 } 0b1101000001000011
-0xd044 // Branch { cond: 0, imm: 68, immx: 255 } 0b1101000001000100
-0xd045 // Branch { cond: 0, imm: 69, immx: 255 } 0b1101000001000101
-0xd046 // Branch { cond: 0, imm: 70, immx: 255 } 0b1101000001000110
-0xd047 // Branch { cond: 0, imm: 71, immx: 255 } 0b1101000001000111
-0xd048 // Branch { cond: 0, imm: 72, immx: 255 } 0b1101000001001000
-0xd049 // Branch { cond: 0, imm: 73, immx: 255 } 0b1101000001001001
-0xd04a // Branch { cond: 0, imm: 74, immx: 255 } 0b1101000001001010
-0xd04b // Branch { cond: 0, imm: 75, immx: 255 } 0b1101000001001011
-0xd04c // Branch { cond: 0, imm: 76, immx: 255 } 0b1101000001001100
-0xd04d // Branch { cond: 0, imm: 77, immx: 255 } 0b1101000001001101
-0xd04e // Branch { cond: 0, imm: 78, immx: 255 } 0b1101000001001110
-0xd04f // Branch { cond: 0, imm: 79, immx: 255 } 0b1101000001001111
-0xd050 // Branch { cond: 0, imm: 80, immx: 255 } 0b1101000001010000
-0xd051 // Branch { cond: 0, imm: 81, immx: 255 } 0b1101000001010001
-0xd052 // Branch { cond: 0, imm: 82, immx: 255 } 0b1101000001010010
-0xd053 // Branch { cond: 0, imm: 83, immx: 255 } 0b1101000001010011
-0xd054 // Branch { cond: 0, imm: 84, immx: 255 } 0b1101000001010100
-0xd055 // Branch { cond: 0, imm: 85, immx: 255 } 0b1101000001010101
-0xd056 // Branch { cond: 0, imm: 86, immx: 255 } 0b1101000001010110
-0xd057 // Branch { cond: 0, imm: 87, immx: 255 } 0b1101000001010111
-0xd058 // Branch { cond: 0, imm: 88, immx: 255 } 0b1101000001011000
-0xd059 // Branch { cond: 0, imm: 89, immx: 255 } 0b1101000001011001
-0xd05a // Branch { cond: 0, imm: 90, immx: 255 } 0b1101000001011010
-0xd05b // Branch { cond: 0, imm: 91, immx: 255 } 0b1101000001011011
-0xd05c // Branch { cond: 0, imm: 92, immx: 255 } 0b1101000001011100
-0xd05d // Branch { cond: 0, imm: 93, immx: 255 } 0b1101000001011101
-0xd05e // Branch { cond: 0, imm: 94, immx: 255 } 0b1101000001011110
-0xd05f // Branch { cond: 0, imm: 95, immx: 255 } 0b1101000001011111
-0xd060 // Branch { cond: 0, imm: 96, immx: 255 } 0b1101000001100000
-0xd061 // Branch { cond: 0, imm: 97, immx: 255 } 0b1101000001100001
-0xd062 // Branch { cond: 0, imm: 98, immx: 255 } 0b1101000001100010
-0xd063 // Branch { cond: 0, imm: 99, immx: 255 } 0b1101000001100011
-0xd064 // Branch { cond: 0, imm: 100, immx: 255 } 0b1101000001100100
-0xd065 // Branch { cond: 0, imm: 101, immx: 255 } 0b1101000001100101
-0xd066 // Branch { cond: 0, imm: 102, immx: 255 } 0b1101000001100110
-0xd067 // Branch { cond: 0, imm: 103, immx: 255 } 0b1101000001100111
-0xd068 // Branch { cond: 0, imm: 104, immx: 255 } 0b1101000001101000
-0xd069 // Branch { cond: 0, imm: 105, immx: 255 } 0b1101000001101001
-0xd06a // Branch { cond: 0, imm: 106, immx: 255 } 0b1101000001101010
-0xd06b // Branch { cond: 0, imm: 107, immx: 255 } 0b1101000001101011
-0xd06c // Branch { cond: 0, imm: 108, immx: 255 } 0b1101000001101100
-0xd06d // Branch { cond: 0, imm: 109, immx: 255 } 0b1101000001101101
-0xd06e // Branch { cond: 0, imm: 110, immx: 255 } 0b1101000001101110
-0xd06f // Branch { cond: 0, imm: 111, immx: 255 } 0b1101000001101111
-0xd070 // Branch { cond: 0, imm: 112, immx: 255 } 0b1101000001110000
-0xd071 // Branch { cond: 0, imm: 113, immx: 255 } 0b1101000001110001
-0xd072 // Branch { cond: 0, imm: 114, immx: 255 } 0b1101000001110010
-0xd073 // Branch { cond: 0, imm: 115, immx: 255 } 0b1101000001110011
-0xd074 // Branch { cond: 0, imm: 116, immx: 255 } 0b1101000001110100
-0xd075 // Branch { cond: 0, imm: 117, immx: 255 } 0b1101000001110101
-0xd076 // Branch { cond: 0, imm: 118, immx: 255 } 0b1101000001110110
-0xd077 // Branch { cond: 0, imm: 119, immx: 255 } 0b1101000001110111
-0xd078 // Branch { cond: 0, imm: 120, immx: 255 } 0b1101000001111000
-0xd079 // Branch { cond: 0, imm: 121, immx: 255 } 0b1101000001111001
-0xd07a // Branch { cond: 0, imm: 122, immx: 255 } 0b1101000001111010
-0xd07b // Branch { cond: 0, imm: 123, immx: 255 } 0b1101000001111011
-0xd07c // Branch { cond: 0, imm: 124, immx: 255 } 0b1101000001111100
-0xd07d // Branch { cond: 0, imm: 125, immx: 255 } 0b1101000001111101
-0xd07e // Branch { cond: 0, imm: 126, immx: 255 } 0b1101000001111110
-0xd07f // Branch { cond: 0, imm: 127, immx: 255 } 0b1101000001111111
-0xd080 // Branch { cond: 0, imm: 128, immx: 255 } 0b1101000010000000
-0xd081 // Branch { cond: 0, imm: 129, immx: 255 } 0b1101000010000001
-0xd082 // Branch { cond: 0, imm: 130, immx: 255 } 0b1101000010000010
-0xd083 // Branch { cond: 0, imm: 131, immx: 255 } 0b1101000010000011
-0xd084 // Branch { cond: 0, imm: 132, immx: 255 } 0b1101000010000100
-0xd085 // Branch { cond: 0, imm: 133, immx: 255 } 0b1101000010000101
-0xd086 // Branch { cond: 0, imm: 134, immx: 255 } 0b1101000010000110
-0xd087 // Branch { cond: 0, imm: 135, immx: 255 } 0b1101000010000111
-0xd088 // Branch { cond: 0, imm: 136, immx: 255 } 0b1101000010001000
-0xd089 // Branch { cond: 0, imm: 137, immx: 255 } 0b1101000010001001
-0xd08a // Branch { cond: 0, imm: 138, immx: 255 } 0b1101000010001010
-0xd08b // Branch { cond: 0, imm: 139, immx: 255 } 0b1101000010001011
-0xd08c // Branch { cond: 0, imm: 140, immx: 255 } 0b1101000010001100
-0xd08d // Branch { cond: 0, imm: 141, immx: 255 } 0b1101000010001101
-0xd08e // Branch { cond: 0, imm: 142, immx: 255 } 0b1101000010001110
-0xd08f // Branch { cond: 0, imm: 143, immx: 255 } 0b1101000010001111
-0xd090 // Branch { cond: 0, imm: 144, immx: 255 } 0b1101000010010000
-0xd091 // Branch { cond: 0, imm: 145, immx: 255 } 0b1101000010010001
-0xd092 // Branch { cond: 0, imm: 146, immx: 255 } 0b1101000010010010
-0xd093 // Branch { cond: 0, imm: 147, immx: 255 } 0b1101000010010011
-0xd094 // Branch { cond: 0, imm: 148, immx: 255 } 0b1101000010010100
-0xd095 // Branch { cond: 0, imm: 149, immx: 255 } 0b1101000010010101
-0xd096 // Branch { cond: 0, imm: 150, immx: 255 } 0b1101000010010110
-0xd097 // Branch { cond: 0, imm: 151, immx: 255 } 0b1101000010010111
-0xd098 // Branch { cond: 0, imm: 152, immx: 255 } 0b1101000010011000
-0xd099 // Branch { cond: 0, imm: 153, immx: 255 } 0b1101000010011001
-0xd09a // Branch { cond: 0, imm: 154, immx: 255 } 0b1101000010011010
-0xd09b // Branch { cond: 0, imm: 155, immx: 255 } 0b1101000010011011
-0xd09c // Branch { cond: 0, imm: 156, immx: 255 } 0b1101000010011100
-0xd09d // Branch { cond: 0, imm: 157, immx: 255 } 0b1101000010011101
-0xd09e // Branch { cond: 0, imm: 158, immx: 255 } 0b1101000010011110
-0xd09f // Branch { cond: 0, imm: 159, immx: 255 } 0b1101000010011111
-0xd0a0 // Branch { cond: 0, imm: 160, immx: 255 } 0b1101000010100000
-0xd0a1 // Branch { cond: 0, imm: 161, immx: 255 } 0b1101000010100001
-0xd0a2 // Branch { cond: 0, imm: 162, immx: 255 } 0b1101000010100010
-0xd0a3 // Branch { cond: 0, imm: 163, immx: 255 } 0b1101000010100011
-0xd0a4 // Branch { cond: 0, imm: 164, immx: 255 } 0b1101000010100100
-0xd0a5 // Branch { cond: 0, imm: 165, immx: 255 } 0b1101000010100101
-0xd0a6 // Branch { cond: 0, imm: 166, immx: 255 } 0b1101000010100110
-0xd0a7 // Branch { cond: 0, imm: 167, immx: 255 } 0b1101000010100111
-0xd0a8 // Branch { cond: 0, imm: 168, immx: 255 } 0b1101000010101000
-0xd0a9 // Branch { cond: 0, imm: 169, immx: 255 } 0b1101000010101001
-0xd0aa // Branch { cond: 0, imm: 170, immx: 255 } 0b1101000010101010
-0xd0ab // Branch { cond: 0, imm: 171, immx: 255 } 0b1101000010101011
-0xd0ac // Branch { cond: 0, imm: 172, immx: 255 } 0b1101000010101100
-0xd0ad // Branch { cond: 0, imm: 173, immx: 255 } 0b1101000010101101
-0xd0ae // Branch { cond: 0, imm: 174, immx: 255 } 0b1101000010101110
-0xd0af // Branch { cond: 0, imm: 175, immx: 255 } 0b1101000010101111
-0xd0b0 // Branch { cond: 0, imm: 176, immx: 255 } 0b1101000010110000
-0xd0b1 // Branch { cond: 0, imm: 177, immx: 255 } 0b1101000010110001
-0xd0b2 // Branch { cond: 0, imm: 178, immx: 255 } 0b1101000010110010
-0xd0b3 // Branch { cond: 0, imm: 179, immx: 255 } 0b1101000010110011
-0xd0b4 // Branch { cond: 0, imm: 180, immx: 255 } 0b1101000010110100
-0xd0b5 // Branch { cond: 0, imm: 181, immx: 255 } 0b1101000010110101
-0xd0b6 // Branch { cond: 0, imm: 182, immx: 255 } 0b1101000010110110
-0xd0b7 // Branch { cond: 0, imm: 183, immx: 255 } 0b1101000010110111
-0xd0b8 // Branch { cond: 0, imm: 184, immx: 255 } 0b1101000010111000
-0xd0b9 // Branch { cond: 0, imm: 185, immx: 255 } 0b1101000010111001
-0xd0ba // Branch { cond: 0, imm: 186, immx: 255 } 0b1101000010111010
-0xd0bb // Branch { cond: 0, imm: 187, immx: 255 } 0b1101000010111011
-0xd0bc // Branch { cond: 0, imm: 188, immx: 255 } 0b1101000010111100
-0xd0bd // Branch { cond: 0, imm: 189, immx: 255 } 0b1101000010111101
-0xd0be // Branch { cond: 0, imm: 190, immx: 255 } 0b1101000010111110
-0xd0bf // Branch { cond: 0, imm: 191, immx: 255 } 0b1101000010111111
-0xd0c0 // Branch { cond: 0, imm: 192, immx: 255 } 0b1101000011000000
-0xd0c1 // Branch { cond: 0, imm: 193, immx: 255 } 0b1101000011000001
-0xd0c2 // Branch { cond: 0, imm: 194, immx: 255 } 0b1101000011000010
-0xd0c3 // Branch { cond: 0, imm: 195, immx: 255 } 0b1101000011000011
-0xd0c4 // Branch { cond: 0, imm: 196, immx: 255 } 0b1101000011000100
-0xd0c5 // Branch { cond: 0, imm: 197, immx: 255 } 0b1101000011000101
-0xd0c6 // Branch { cond: 0, imm: 198, immx: 255 } 0b1101000011000110
-0xd0c7 // Branch { cond: 0, imm: 199, immx: 255 } 0b1101000011000111
-0xd0c8 // Branch { cond: 0, imm: 200, immx: 255 } 0b1101000011001000
-0xd0c9 // Branch { cond: 0, imm: 201, immx: 255 } 0b1101000011001001
-0xd0ca // Branch { cond: 0, imm: 202, immx: 255 } 0b1101000011001010
-0xd0cb // Branch { cond: 0, imm: 203, immx: 255 } 0b1101000011001011
-0xd0cc // Branch { cond: 0, imm: 204, immx: 255 } 0b1101000011001100
-0xd0cd // Branch { cond: 0, imm: 205, immx: 255 } 0b1101000011001101
-0xd0ce // Branch { cond: 0, imm: 206, immx: 255 } 0b1101000011001110
-0xd0cf // Branch { cond: 0, imm: 207, immx: 255 } 0b1101000011001111
-0xd0d0 // Branch { cond: 0, imm: 208, immx: 255 } 0b1101000011010000
-0xd0d1 // Branch { cond: 0, imm: 209, immx: 255 } 0b1101000011010001
-0xd0d2 // Branch { cond: 0, imm: 210, immx: 255 } 0b1101000011010010
-0xd0d3 // Branch { cond: 0, imm: 211, immx: 255 } 0b1101000011010011
-0xd0d4 // Branch { cond: 0, imm: 212, immx: 255 } 0b1101000011010100
-0xd0d5 // Branch { cond: 0, imm: 213, immx: 255 } 0b1101000011010101
-0xd0d6 // Branch { cond: 0, imm: 214, immx: 255 } 0b1101000011010110
-0xd0d7 // Branch { cond: 0, imm: 215, immx: 255 } 0b1101000011010111
-0xd0d8 // Branch { cond: 0, imm: 216, immx: 255 } 0b1101000011011000
-0xd0d9 // Branch { cond: 0, imm: 217, immx: 255 } 0b1101000011011001
-0xd0da // Branch { cond: 0, imm: 218, immx: 255 } 0b1101000011011010
-0xd0db // Branch { cond: 0, imm: 219, immx: 255 } 0b1101000011011011
-0xd0dc // Branch { cond: 0, imm: 220, immx: 255 } 0b1101000011011100
-0xd0dd // Branch { cond: 0, imm: 221, immx: 255 } 0b1101000011011101
-0xd0de // Branch { cond: 0, imm: 222, immx: 255 } 0b1101000011011110
-0xd0df // Branch { cond: 0, imm: 223, immx: 255 } 0b1101000011011111
-0xd0e0 // Branch { cond: 0, imm: 224, immx: 255 } 0b1101000011100000
-0xd0e1 // Branch { cond: 0, imm: 225, immx: 255 } 0b1101000011100001
-0xd0e2 // Branch { cond: 0, imm: 226, immx: 255 } 0b1101000011100010
-0xd0e3 // Branch { cond: 0, imm: 227, immx: 255 } 0b1101000011100011
-0xd0e4 // Branch { cond: 0, imm: 228, immx: 255 } 0b1101000011100100
-0xd0e5 // Branch { cond: 0, imm: 229, immx: 255 } 0b1101000011100101
-0xd0e6 // Branch { cond: 0, imm: 230, immx: 255 } 0b1101000011100110
-0xd0e7 // Branch { cond: 0, imm: 231, immx: 255 } 0b1101000011100111
-0xd0e8 // Branch { cond: 0, imm: 232, immx: 255 } 0b1101000011101000
-0xd0e9 // Branch { cond: 0, imm: 233, immx: 255 } 0b1101000011101001
-0xd0ea // Branch { cond: 0, imm: 234, immx: 255 } 0b1101000011101010
-0xd0eb // Branch { cond: 0, imm: 235, immx: 255 } 0b1101000011101011
-0xd0ec // Branch { cond: 0, imm: 236, immx: 255 } 0b1101000011101100
-0xd0ed // Branch { cond: 0, imm: 237, immx: 255 } 0b1101000011101101
-0xd0ee // Branch { cond: 0, imm: 238, immx: 255 } 0b1101000011101110
-0xd0ef // Branch { cond: 0, imm: 239, immx: 255 } 0b1101000011101111
-0xd0f0 // Branch { cond: 0, imm: 240, immx: 255 } 0b1101000011110000
-0xd0f1 // Branch { cond: 0, imm: 241, immx: 255 } 0b1101000011110001
-0xd0f2 // Branch { cond: 0, imm: 242, immx: 255 } 0b1101000011110010
-0xd0f3 // Branch { cond: 0, imm: 243, immx: 255 } 0b1101000011110011
-0xd0f4 // Branch { cond: 0, imm: 244, immx: 255 } 0b1101000011110100
-0xd0f5 // Branch { cond: 0, imm: 245, immx: 255 } 0b1101000011110101
-0xd0f6 // Branch { cond: 0, imm: 246, immx: 255 } 0b1101000011110110
-0xd0f7 // Branch { cond: 0, imm: 247, immx: 255 } 0b1101000011110111
-0xd0f8 // Branch { cond: 0, imm: 248, immx: 255 } 0b1101000011111000
-0xd0f9 // Branch { cond: 0, imm: 249, immx: 255 } 0b1101000011111001
-0xd0fa // Branch { cond: 0, imm: 250, immx: 255 } 0b1101000011111010
-0xd0fb // Branch { cond: 0, imm: 251, immx: 255 } 0b1101000011111011
-0xd0fc // Branch { cond: 0, imm: 252, immx: 255 } 0b1101000011111100
-0xd0fd // Branch { cond: 0, imm: 253, immx: 255 } 0b1101000011111101
-0xd0fe // Branch { cond: 0, imm: 254, immx: 255 } 0b1101000011111110
-0xd0ff // Branch { cond: 0, imm: 255, immx: 255 } 0b1101000011111111
-0xd100 // Branch { cond: 1, imm: 0, immx: 255 } 0b1101000100000000
-0xd101 // Branch { cond: 1, imm: 1, immx: 255 } 0b1101000100000001
-0xd102 // Branch { cond: 1, imm: 2, immx: 255 } 0b1101000100000010
-0xd103 // Branch { cond: 1, imm: 3, immx: 255 } 0b1101000100000011
-0xd104 // Branch { cond: 1, imm: 4, immx: 255 } 0b1101000100000100
-0xd105 // Branch { cond: 1, imm: 5, immx: 255 } 0b1101000100000101
-0xd106 // Branch { cond: 1, imm: 6, immx: 255 } 0b1101000100000110
-0xd107 // Branch { cond: 1, imm: 7, immx: 255 } 0b1101000100000111
-0xd108 // Branch { cond: 1, imm: 8, immx: 255 } 0b1101000100001000
-0xd109 // Branch { cond: 1, imm: 9, immx: 255 } 0b1101000100001001
-0xd10a // Branch { cond: 1, imm: 10, immx: 255 } 0b1101000100001010
-0xd10b // Branch { cond: 1, imm: 11, immx: 255 } 0b1101000100001011
-0xd10c // Branch { cond: 1, imm: 12, immx: 255 } 0b1101000100001100
-0xd10d // Branch { cond: 1, imm: 13, immx: 255 } 0b1101000100001101
-0xd10e // Branch { cond: 1, imm: 14, immx: 255 } 0b1101000100001110
-0xd10f // Branch { cond: 1, imm: 15, immx: 255 } 0b1101000100001111
-0xd110 // Branch { cond: 1, imm: 16, immx: 255 } 0b1101000100010000
-0xd111 // Branch { cond: 1, imm: 17, immx: 255 } 0b1101000100010001
-0xd112 // Branch { cond: 1, imm: 18, immx: 255 } 0b1101000100010010
-0xd113 // Branch { cond: 1, imm: 19, immx: 255 } 0b1101000100010011
-0xd114 // Branch { cond: 1, imm: 20, immx: 255 } 0b1101000100010100
-0xd115 // Branch { cond: 1, imm: 21, immx: 255 } 0b1101000100010101
-0xd116 // Branch { cond: 1, imm: 22, immx: 255 } 0b1101000100010110
-0xd117 // Branch { cond: 1, imm: 23, immx: 255 } 0b1101000100010111
-0xd118 // Branch { cond: 1, imm: 24, immx: 255 } 0b1101000100011000
-0xd119 // Branch { cond: 1, imm: 25, immx: 255 } 0b1101000100011001
-0xd11a // Branch { cond: 1, imm: 26, immx: 255 } 0b1101000100011010
-0xd11b // Branch { cond: 1, imm: 27, immx: 255 } 0b1101000100011011
-0xd11c // Branch { cond: 1, imm: 28, immx: 255 } 0b1101000100011100
-0xd11d // Branch { cond: 1, imm: 29, immx: 255 } 0b1101000100011101
-0xd11e // Branch { cond: 1, imm: 30, immx: 255 } 0b1101000100011110
-0xd11f // Branch { cond: 1, imm: 31, immx: 255 } 0b1101000100011111
-0xd120 // Branch { cond: 1, imm: 32, immx: 255 } 0b1101000100100000
-0xd121 // Branch { cond: 1, imm: 33, immx: 255 } 0b1101000100100001
-0xd122 // Branch { cond: 1, imm: 34, immx: 255 } 0b1101000100100010
-0xd123 // Branch { cond: 1, imm: 35, immx: 255 } 0b1101000100100011
-0xd124 // Branch { cond: 1, imm: 36, immx: 255 } 0b1101000100100100
-0xd125 // Branch { cond: 1, imm: 37, immx: 255 } 0b1101000100100101
-0xd126 // Branch { cond: 1, imm: 38, immx: 255 } 0b1101000100100110
-0xd127 // Branch { cond: 1, imm: 39, immx: 255 } 0b1101000100100111
-0xd128 // Branch { cond: 1, imm: 40, immx: 255 } 0b1101000100101000
-0xd129 // Branch { cond: 1, imm: 41, immx: 255 } 0b1101000100101001
-0xd12a // Branch { cond: 1, imm: 42, immx: 255 } 0b1101000100101010
-0xd12b // Branch { cond: 1, imm: 43, immx: 255 } 0b1101000100101011
-0xd12c // Branch { cond: 1, imm: 44, immx: 255 } 0b1101000100101100
-0xd12d // Branch { cond: 1, imm: 45, immx: 255 } 0b1101000100101101
-0xd12e // Branch { cond: 1, imm: 46, immx: 255 } 0b1101000100101110
-0xd12f // Branch { cond: 1, imm: 47, immx: 255 } 0b1101000100101111
-0xd130 // Branch { cond: 1, imm: 48, immx: 255 } 0b1101000100110000
-0xd131 // Branch { cond: 1, imm: 49, immx: 255 } 0b1101000100110001
-0xd132 // Branch { cond: 1, imm: 50, immx: 255 } 0b1101000100110010
-0xd133 // Branch { cond: 1, imm: 51, immx: 255 } 0b1101000100110011
-0xd134 // Branch { cond: 1, imm: 52, immx: 255 } 0b1101000100110100
-0xd135 // Branch { cond: 1, imm: 53, immx: 255 } 0b1101000100110101
-0xd136 // Branch { cond: 1, imm: 54, immx: 255 } 0b1101000100110110
-0xd137 // Branch { cond: 1, imm: 55, immx: 255 } 0b1101000100110111
-0xd138 // Branch { cond: 1, imm: 56, immx: 255 } 0b1101000100111000
-0xd139 // Branch { cond: 1, imm: 57, immx: 255 } 0b1101000100111001
-0xd13a // Branch { cond: 1, imm: 58, immx: 255 } 0b1101000100111010
-0xd13b // Branch { cond: 1, imm: 59, immx: 255 } 0b1101000100111011
-0xd13c // Branch { cond: 1, imm: 60, immx: 255 } 0b1101000100111100
-0xd13d // Branch { cond: 1, imm: 61, immx: 255 } 0b1101000100111101
-0xd13e // Branch { cond: 1, imm: 62, immx: 255 } 0b1101000100111110
-0xd13f // Branch { cond: 1, imm: 63, immx: 255 } 0b1101000100111111
-0xd140 // Branch { cond: 1, imm: 64, immx: 255 } 0b1101000101000000
-0xd141 // Branch { cond: 1, imm: 65, immx: 255 } 0b1101000101000001
-0xd142 // Branch { cond: 1, imm: 66, immx: 255 } 0b1101000101000010
-0xd143 // Branch { cond: 1, imm: 67, immx: 255 } 0b1101000101000011
-0xd144 // Branch { cond: 1, imm: 68, immx: 255 } 0b1101000101000100
-0xd145 // Branch { cond: 1, imm: 69, immx: 255 } 0b1101000101000101
-0xd146 // Branch { cond: 1, imm: 70, immx: 255 } 0b1101000101000110
-0xd147 // Branch { cond: 1, imm: 71, immx: 255 } 0b1101000101000111
-0xd148 // Branch { cond: 1, imm: 72, immx: 255 } 0b1101000101001000
-0xd149 // Branch { cond: 1, imm: 73, immx: 255 } 0b1101000101001001
-0xd14a // Branch { cond: 1, imm: 74, immx: 255 } 0b1101000101001010
-0xd14b // Branch { cond: 1, imm: 75, immx: 255 } 0b1101000101001011
-0xd14c // Branch { cond: 1, imm: 76, immx: 255 } 0b1101000101001100
-0xd14d // Branch { cond: 1, imm: 77, immx: 255 } 0b1101000101001101
-0xd14e // Branch { cond: 1, imm: 78, immx: 255 } 0b1101000101001110
-0xd14f // Branch { cond: 1, imm: 79, immx: 255 } 0b1101000101001111
-0xd150 // Branch { cond: 1, imm: 80, immx: 255 } 0b1101000101010000
-0xd151 // Branch { cond: 1, imm: 81, immx: 255 } 0b1101000101010001
-0xd152 // Branch { cond: 1, imm: 82, immx: 255 } 0b1101000101010010
-0xd153 // Branch { cond: 1, imm: 83, immx: 255 } 0b1101000101010011
-0xd154 // Branch { cond: 1, imm: 84, immx: 255 } 0b1101000101010100
-0xd155 // Branch { cond: 1, imm: 85, immx: 255 } 0b1101000101010101
-0xd156 // Branch { cond: 1, imm: 86, immx: 255 } 0b1101000101010110
-0xd157 // Branch { cond: 1, imm: 87, immx: 255 } 0b1101000101010111
-0xd158 // Branch { cond: 1, imm: 88, immx: 255 } 0b1101000101011000
-0xd159 // Branch { cond: 1, imm: 89, immx: 255 } 0b1101000101011001
-0xd15a // Branch { cond: 1, imm: 90, immx: 255 } 0b1101000101011010
-0xd15b // Branch { cond: 1, imm: 91, immx: 255 } 0b1101000101011011
-0xd15c // Branch { cond: 1, imm: 92, immx: 255 } 0b1101000101011100
-0xd15d // Branch { cond: 1, imm: 93, immx: 255 } 0b1101000101011101
-0xd15e // Branch { cond: 1, imm: 94, immx: 255 } 0b1101000101011110
-0xd15f // Branch { cond: 1, imm: 95, immx: 255 } 0b1101000101011111
-0xd160 // Branch { cond: 1, imm: 96, immx: 255 } 0b1101000101100000
-0xd161 // Branch { cond: 1, imm: 97, immx: 255 } 0b1101000101100001
-0xd162 // Branch { cond: 1, imm: 98, immx: 255 } 0b1101000101100010
-0xd163 // Branch { cond: 1, imm: 99, immx: 255 } 0b1101000101100011
-0xd164 // Branch { cond: 1, imm: 100, immx: 255 } 0b1101000101100100
-0xd165 // Branch { cond: 1, imm: 101, immx: 255 } 0b1101000101100101
-0xd166 // Branch { cond: 1, imm: 102, immx: 255 } 0b1101000101100110
-0xd167 // Branch { cond: 1, imm: 103, immx: 255 } 0b1101000101100111
-0xd168 // Branch { cond: 1, imm: 104, immx: 255 } 0b1101000101101000
-0xd169 // Branch { cond: 1, imm: 105, immx: 255 } 0b1101000101101001
-0xd16a // Branch { cond: 1, imm: 106, immx: 255 } 0b1101000101101010
-0xd16b // Branch { cond: 1, imm: 107, immx: 255 } 0b1101000101101011
-0xd16c // Branch { cond: 1, imm: 108, immx: 255 } 0b1101000101101100
-0xd16d // Branch { cond: 1, imm: 109, immx: 255 } 0b1101000101101101
-0xd16e // Branch { cond: 1, imm: 110, immx: 255 } 0b1101000101101110
-0xd16f // Branch { cond: 1, imm: 111, immx: 255 } 0b1101000101101111
-0xd170 // Branch { cond: 1, imm: 112, immx: 255 } 0b1101000101110000
-0xd171 // Branch { cond: 1, imm: 113, immx: 255 } 0b1101000101110001
-0xd172 // Branch { cond: 1, imm: 114, immx: 255 } 0b1101000101110010
-0xd173 // Branch { cond: 1, imm: 115, immx: 255 } 0b1101000101110011
-0xd174 // Branch { cond: 1, imm: 116, immx: 255 } 0b1101000101110100
-0xd175 // Branch { cond: 1, imm: 117, immx: 255 } 0b1101000101110101
-0xd176 // Branch { cond: 1, imm: 118, immx: 255 } 0b1101000101110110
-0xd177 // Branch { cond: 1, imm: 119, immx: 255 } 0b1101000101110111
-0xd178 // Branch { cond: 1, imm: 120, immx: 255 } 0b1101000101111000
-0xd179 // Branch { cond: 1, imm: 121, immx: 255 } 0b1101000101111001
-0xd17a // Branch { cond: 1, imm: 122, immx: 255 } 0b1101000101111010
-0xd17b // Branch { cond: 1, imm: 123, immx: 255 } 0b1101000101111011
-0xd17c // Branch { cond: 1, imm: 124, immx: 255 } 0b1101000101111100
-0xd17d // Branch { cond: 1, imm: 125, immx: 255 } 0b1101000101111101
-0xd17e // Branch { cond: 1, imm: 126, immx: 255 } 0b1101000101111110
-0xd17f // Branch { cond: 1, imm: 127, immx: 255 } 0b1101000101111111
-0xd180 // Branch { cond: 1, imm: 128, immx: 255 } 0b1101000110000000
-0xd181 // Branch { cond: 1, imm: 129, immx: 255 } 0b1101000110000001
-0xd182 // Branch { cond: 1, imm: 130, immx: 255 } 0b1101000110000010
-0xd183 // Branch { cond: 1, imm: 131, immx: 255 } 0b1101000110000011
-0xd184 // Branch { cond: 1, imm: 132, immx: 255 } 0b1101000110000100
-0xd185 // Branch { cond: 1, imm: 133, immx: 255 } 0b1101000110000101
-0xd186 // Branch { cond: 1, imm: 134, immx: 255 } 0b1101000110000110
-0xd187 // Branch { cond: 1, imm: 135, immx: 255 } 0b1101000110000111
-0xd188 // Branch { cond: 1, imm: 136, immx: 255 } 0b1101000110001000
-0xd189 // Branch { cond: 1, imm: 137, immx: 255 } 0b1101000110001001
-0xd18a // Branch { cond: 1, imm: 138, immx: 255 } 0b1101000110001010
-0xd18b // Branch { cond: 1, imm: 139, immx: 255 } 0b1101000110001011
-0xd18c // Branch { cond: 1, imm: 140, immx: 255 } 0b1101000110001100
-0xd18d // Branch { cond: 1, imm: 141, immx: 255 } 0b1101000110001101
-0xd18e // Branch { cond: 1, imm: 142, immx: 255 } 0b1101000110001110
-0xd18f // Branch { cond: 1, imm: 143, immx: 255 } 0b1101000110001111
-0xd190 // Branch { cond: 1, imm: 144, immx: 255 } 0b1101000110010000
-0xd191 // Branch { cond: 1, imm: 145, immx: 255 } 0b1101000110010001
-0xd192 // Branch { cond: 1, imm: 146, immx: 255 } 0b1101000110010010
-0xd193 // Branch { cond: 1, imm: 147, immx: 255 } 0b1101000110010011
-0xd194 // Branch { cond: 1, imm: 148, immx: 255 } 0b1101000110010100
-0xd195 // Branch { cond: 1, imm: 149, immx: 255 } 0b1101000110010101
-0xd196 // Branch { cond: 1, imm: 150, immx: 255 } 0b1101000110010110
-0xd197 // Branch { cond: 1, imm: 151, immx: 255 } 0b1101000110010111
-0xd198 // Branch { cond: 1, imm: 152, immx: 255 } 0b1101000110011000
-0xd199 // Branch { cond: 1, imm: 153, immx: 255 } 0b1101000110011001
-0xd19a // Branch { cond: 1, imm: 154, immx: 255 } 0b1101000110011010
-0xd19b // Branch { cond: 1, imm: 155, immx: 255 } 0b1101000110011011
-0xd19c // Branch { cond: 1, imm: 156, immx: 255 } 0b1101000110011100
-0xd19d // Branch { cond: 1, imm: 157, immx: 255 } 0b1101000110011101
-0xd19e // Branch { cond: 1, imm: 158, immx: 255 } 0b1101000110011110
-0xd19f // Branch { cond: 1, imm: 159, immx: 255 } 0b1101000110011111
-0xd1a0 // Branch { cond: 1, imm: 160, immx: 255 } 0b1101000110100000
-0xd1a1 // Branch { cond: 1, imm: 161, immx: 255 } 0b1101000110100001
-0xd1a2 // Branch { cond: 1, imm: 162, immx: 255 } 0b1101000110100010
-0xd1a3 // Branch { cond: 1, imm: 163, immx: 255 } 0b1101000110100011
-0xd1a4 // Branch { cond: 1, imm: 164, immx: 255 } 0b1101000110100100
-0xd1a5 // Branch { cond: 1, imm: 165, immx: 255 } 0b1101000110100101
-0xd1a6 // Branch { cond: 1, imm: 166, immx: 255 } 0b1101000110100110
-0xd1a7 // Branch { cond: 1, imm: 167, immx: 255 } 0b1101000110100111
-0xd1a8 // Branch { cond: 1, imm: 168, immx: 255 } 0b1101000110101000
-0xd1a9 // Branch { cond: 1, imm: 169, immx: 255 } 0b1101000110101001
-0xd1aa // Branch { cond: 1, imm: 170, immx: 255 } 0b1101000110101010
-0xd1ab // Branch { cond: 1, imm: 171, immx: 255 } 0b1101000110101011
-0xd1ac // Branch { cond: 1, imm: 172, immx: 255 } 0b1101000110101100
-0xd1ad // Branch { cond: 1, imm: 173, immx: 255 } 0b1101000110101101
-0xd1ae // Branch { cond: 1, imm: 174, immx: 255 } 0b1101000110101110
-0xd1af // Branch { cond: 1, imm: 175, immx: 255 } 0b1101000110101111
-0xd1b0 // Branch { cond: 1, imm: 176, immx: 255 } 0b1101000110110000
-0xd1b1 // Branch { cond: 1, imm: 177, immx: 255 } 0b1101000110110001
-0xd1b2 // Branch { cond: 1, imm: 178, immx: 255 } 0b1101000110110010
-0xd1b3 // Branch { cond: 1, imm: 179, immx: 255 } 0b1101000110110011
-0xd1b4 // Branch { cond: 1, imm: 180, immx: 255 } 0b1101000110110100
-0xd1b5 // Branch { cond: 1, imm: 181, immx: 255 } 0b1101000110110101
-0xd1b6 // Branch { cond: 1, imm: 182, immx: 255 } 0b1101000110110110
-0xd1b7 // Branch { cond: 1, imm: 183, immx: 255 } 0b1101000110110111
-0xd1b8 // Branch { cond: 1, imm: 184, immx: 255 } 0b1101000110111000
-0xd1b9 // Branch { cond: 1, imm: 185, immx: 255 } 0b1101000110111001
-0xd1ba // Branch { cond: 1, imm: 186, immx: 255 } 0b1101000110111010
-0xd1bb // Branch { cond: 1, imm: 187, immx: 255 } 0b1101000110111011
-0xd1bc // Branch { cond: 1, imm: 188, immx: 255 } 0b1101000110111100
-0xd1bd // Branch { cond: 1, imm: 189, immx: 255 } 0b1101000110111101
-0xd1be // Branch { cond: 1, imm: 190, immx: 255 } 0b1101000110111110
-0xd1bf // Branch { cond: 1, imm: 191, immx: 255 } 0b1101000110111111
-0xd1c0 // Branch { cond: 1, imm: 192, immx: 255 } 0b1101000111000000
-0xd1c1 // Branch { cond: 1, imm: 193, immx: 255 } 0b1101000111000001
-0xd1c2 // Branch { cond: 1, imm: 194, immx: 255 } 0b1101000111000010
-0xd1c3 // Branch { cond: 1, imm: 195, immx: 255 } 0b1101000111000011
-0xd1c4 // Branch { cond: 1, imm: 196, immx: 255 } 0b1101000111000100
-0xd1c5 // Branch { cond: 1, imm: 197, immx: 255 } 0b1101000111000101
-0xd1c6 // Branch { cond: 1, imm: 198, immx: 255 } 0b1101000111000110
-0xd1c7 // Branch { cond: 1, imm: 199, immx: 255 } 0b1101000111000111
-0xd1c8 // Branch { cond: 1, imm: 200, immx: 255 } 0b1101000111001000
-0xd1c9 // Branch { cond: 1, imm: 201, immx: 255 } 0b1101000111001001
-0xd1ca // Branch { cond: 1, imm: 202, immx: 255 } 0b1101000111001010
-0xd1cb // Branch { cond: 1, imm: 203, immx: 255 } 0b1101000111001011
-0xd1cc // Branch { cond: 1, imm: 204, immx: 255 } 0b1101000111001100
-0xd1cd // Branch { cond: 1, imm: 205, immx: 255 } 0b1101000111001101
-0xd1ce // Branch { cond: 1, imm: 206, immx: 255 } 0b1101000111001110
-0xd1cf // Branch { cond: 1, imm: 207, immx: 255 } 0b1101000111001111
-0xd1d0 // Branch { cond: 1, imm: 208, immx: 255 } 0b1101000111010000
-0xd1d1 // Branch { cond: 1, imm: 209, immx: 255 } 0b1101000111010001
-0xd1d2 // Branch { cond: 1, imm: 210, immx: 255 } 0b1101000111010010
-0xd1d3 // Branch { cond: 1, imm: 211, immx: 255 } 0b1101000111010011
-0xd1d4 // Branch { cond: 1, imm: 212, immx: 255 } 0b1101000111010100
-0xd1d5 // Branch { cond: 1, imm: 213, immx: 255 } 0b1101000111010101
-0xd1d6 // Branch { cond: 1, imm: 214, immx: 255 } 0b1101000111010110
-0xd1d7 // Branch { cond: 1, imm: 215, immx: 255 } 0b1101000111010111
-0xd1d8 // Branch { cond: 1, imm: 216, immx: 255 } 0b1101000111011000
-0xd1d9 // Branch { cond: 1, imm: 217, immx: 255 } 0b1101000111011001
-0xd1da // Branch { cond: 1, imm: 218, immx: 255 } 0b1101000111011010
-0xd1db // Branch { cond: 1, imm: 219, immx: 255 } 0b1101000111011011
-0xd1dc // Branch { cond: 1, imm: 220, immx: 255 } 0b1101000111011100
-0xd1dd // Branch { cond: 1, imm: 221, immx: 255 } 0b1101000111011101
-0xd1de // Branch { cond: 1, imm: 222, immx: 255 } 0b1101000111011110
-0xd1df // Branch { cond: 1, imm: 223, immx: 255 } 0b1101000111011111
-0xd1e0 // Branch { cond: 1, imm: 224, immx: 255 } 0b1101000111100000
-0xd1e1 // Branch { cond: 1, imm: 225, immx: 255 } 0b1101000111100001
-0xd1e2 // Branch { cond: 1, imm: 226, immx: 255 } 0b1101000111100010
-0xd1e3 // Branch { cond: 1, imm: 227, immx: 255 } 0b1101000111100011
-0xd1e4 // Branch { cond: 1, imm: 228, immx: 255 } 0b1101000111100100
-0xd1e5 // Branch { cond: 1, imm: 229, immx: 255 } 0b1101000111100101
-0xd1e6 // Branch { cond: 1, imm: 230, immx: 255 } 0b1101000111100110
-0xd1e7 // Branch { cond: 1, imm: 231, immx: 255 } 0b1101000111100111
-0xd1e8 // Branch { cond: 1, imm: 232, immx: 255 } 0b1101000111101000
-0xd1e9 // Branch { cond: 1, imm: 233, immx: 255 } 0b1101000111101001
-0xd1ea // Branch { cond: 1, imm: 234, immx: 255 } 0b1101000111101010
-0xd1eb // Branch { cond: 1, imm: 235, immx: 255 } 0b1101000111101011
-0xd1ec // Branch { cond: 1, imm: 236, immx: 255 } 0b1101000111101100
-0xd1ed // Branch { cond: 1, imm: 237, immx: 255 } 0b1101000111101101
-0xd1ee // Branch { cond: 1, imm: 238, immx: 255 } 0b1101000111101110
-0xd1ef // Branch { cond: 1, imm: 239, immx: 255 } 0b1101000111101111
-0xd1f0 // Branch { cond: 1, imm: 240, immx: 255 } 0b1101000111110000
-0xd1f1 // Branch { cond: 1, imm: 241, immx: 255 } 0b1101000111110001
-0xd1f2 // Branch { cond: 1, imm: 242, immx: 255 } 0b1101000111110010
-0xd1f3 // Branch { cond: 1, imm: 243, immx: 255 } 0b1101000111110011
-0xd1f4 // Branch { cond: 1, imm: 244, immx: 255 } 0b1101000111110100
-0xd1f5 // Branch { cond: 1, imm: 245, immx: 255 } 0b1101000111110101
-0xd1f6 // Branch { cond: 1, imm: 246, immx: 255 } 0b1101000111110110
-0xd1f7 // Branch { cond: 1, imm: 247, immx: 255 } 0b1101000111110111
-0xd1f8 // Branch { cond: 1, imm: 248, immx: 255 } 0b1101000111111000
-0xd1f9 // Branch { cond: 1, imm: 249, immx: 255 } 0b1101000111111001
-0xd1fa // Branch { cond: 1, imm: 250, immx: 255 } 0b1101000111111010
-0xd1fb // Branch { cond: 1, imm: 251, immx: 255 } 0b1101000111111011
-0xd1fc // Branch { cond: 1, imm: 252, immx: 255 } 0b1101000111111100
-0xd1fd // Branch { cond: 1, imm: 253, immx: 255 } 0b1101000111111101
-0xd1fe // Branch { cond: 1, imm: 254, immx: 255 } 0b1101000111111110
-0xd1ff // Branch { cond: 1, imm: 255, immx: 255 } 0b1101000111111111
-0xd200 // Branch { cond: 2, imm: 0, immx: 255 } 0b1101001000000000
-0xd201 // Branch { cond: 2, imm: 1, immx: 255 } 0b1101001000000001
-0xd202 // Branch { cond: 2, imm: 2, immx: 255 } 0b1101001000000010
-0xd203 // Branch { cond: 2, imm: 3, immx: 255 } 0b1101001000000011
-0xd204 // Branch { cond: 2, imm: 4, immx: 255 } 0b1101001000000100
-0xd205 // Branch { cond: 2, imm: 5, immx: 255 } 0b1101001000000101
-0xd206 // Branch { cond: 2, imm: 6, immx: 255 } 0b1101001000000110
-0xd207 // Branch { cond: 2, imm: 7, immx: 255 } 0b1101001000000111
-0xd208 // Branch { cond: 2, imm: 8, immx: 255 } 0b1101001000001000
-0xd209 // Branch { cond: 2, imm: 9, immx: 255 } 0b1101001000001001
-0xd20a // Branch { cond: 2, imm: 10, immx: 255 } 0b1101001000001010
-0xd20b // Branch { cond: 2, imm: 11, immx: 255 } 0b1101001000001011
-0xd20c // Branch { cond: 2, imm: 12, immx: 255 } 0b1101001000001100
-0xd20d // Branch { cond: 2, imm: 13, immx: 255 } 0b1101001000001101
-0xd20e // Branch { cond: 2, imm: 14, immx: 255 } 0b1101001000001110
-0xd20f // Branch { cond: 2, imm: 15, immx: 255 } 0b1101001000001111
-0xd210 // Branch { cond: 2, imm: 16, immx: 255 } 0b1101001000010000
-0xd211 // Branch { cond: 2, imm: 17, immx: 255 } 0b1101001000010001
-0xd212 // Branch { cond: 2, imm: 18, immx: 255 } 0b1101001000010010
-0xd213 // Branch { cond: 2, imm: 19, immx: 255 } 0b1101001000010011
-0xd214 // Branch { cond: 2, imm: 20, immx: 255 } 0b1101001000010100
-0xd215 // Branch { cond: 2, imm: 21, immx: 255 } 0b1101001000010101
-0xd216 // Branch { cond: 2, imm: 22, immx: 255 } 0b1101001000010110
-0xd217 // Branch { cond: 2, imm: 23, immx: 255 } 0b1101001000010111
-0xd218 // Branch { cond: 2, imm: 24, immx: 255 } 0b1101001000011000
-0xd219 // Branch { cond: 2, imm: 25, immx: 255 } 0b1101001000011001
-0xd21a // Branch { cond: 2, imm: 26, immx: 255 } 0b1101001000011010
-0xd21b // Branch { cond: 2, imm: 27, immx: 255 } 0b1101001000011011
-0xd21c // Branch { cond: 2, imm: 28, immx: 255 } 0b1101001000011100
-0xd21d // Branch { cond: 2, imm: 29, immx: 255 } 0b1101001000011101
-0xd21e // Branch { cond: 2, imm: 30, immx: 255 } 0b1101001000011110
-0xd21f // Branch { cond: 2, imm: 31, immx: 255 } 0b1101001000011111
-0xd220 // Branch { cond: 2, imm: 32, immx: 255 } 0b1101001000100000
-0xd221 // Branch { cond: 2, imm: 33, immx: 255 } 0b1101001000100001
-0xd222 // Branch { cond: 2, imm: 34, immx: 255 } 0b1101001000100010
-0xd223 // Branch { cond: 2, imm: 35, immx: 255 } 0b1101001000100011
-0xd224 // Branch { cond: 2, imm: 36, immx: 255 } 0b1101001000100100
-0xd225 // Branch { cond: 2, imm: 37, immx: 255 } 0b1101001000100101
-0xd226 // Branch { cond: 2, imm: 38, immx: 255 } 0b1101001000100110
-0xd227 // Branch { cond: 2, imm: 39, immx: 255 } 0b1101001000100111
-0xd228 // Branch { cond: 2, imm: 40, immx: 255 } 0b1101001000101000
-0xd229 // Branch { cond: 2, imm: 41, immx: 255 } 0b1101001000101001
-0xd22a // Branch { cond: 2, imm: 42, immx: 255 } 0b1101001000101010
-0xd22b // Branch { cond: 2, imm: 43, immx: 255 } 0b1101001000101011
-0xd22c // Branch { cond: 2, imm: 44, immx: 255 } 0b1101001000101100
-0xd22d // Branch { cond: 2, imm: 45, immx: 255 } 0b1101001000101101
-0xd22e // Branch { cond: 2, imm: 46, immx: 255 } 0b1101001000101110
-0xd22f // Branch { cond: 2, imm: 47, immx: 255 } 0b1101001000101111
-0xd230 // Branch { cond: 2, imm: 48, immx: 255 } 0b1101001000110000
-0xd231 // Branch { cond: 2, imm: 49, immx: 255 } 0b1101001000110001
-0xd232 // Branch { cond: 2, imm: 50, immx: 255 } 0b1101001000110010
-0xd233 // Branch { cond: 2, imm: 51, immx: 255 } 0b1101001000110011
-0xd234 // Branch { cond: 2, imm: 52, immx: 255 } 0b1101001000110100
-0xd235 // Branch { cond: 2, imm: 53, immx: 255 } 0b1101001000110101
-0xd236 // Branch { cond: 2, imm: 54, immx: 255 } 0b1101001000110110
-0xd237 // Branch { cond: 2, imm: 55, immx: 255 } 0b1101001000110111
-0xd238 // Branch { cond: 2, imm: 56, immx: 255 } 0b1101001000111000
-0xd239 // Branch { cond: 2, imm: 57, immx: 255 } 0b1101001000111001
-0xd23a // Branch { cond: 2, imm: 58, immx: 255 } 0b1101001000111010
-0xd23b // Branch { cond: 2, imm: 59, immx: 255 } 0b1101001000111011
-0xd23c // Branch { cond: 2, imm: 60, immx: 255 } 0b1101001000111100
-0xd23d // Branch { cond: 2, imm: 61, immx: 255 } 0b1101001000111101
-0xd23e // Branch { cond: 2, imm: 62, immx: 255 } 0b1101001000111110
-0xd23f // Branch { cond: 2, imm: 63, immx: 255 } 0b1101001000111111
-0xd240 // Branch { cond: 2, imm: 64, immx: 255 } 0b1101001001000000
-0xd241 // Branch { cond: 2, imm: 65, immx: 255 } 0b1101001001000001
-0xd242 // Branch { cond: 2, imm: 66, immx: 255 } 0b1101001001000010
-0xd243 // Branch { cond: 2, imm: 67, immx: 255 } 0b1101001001000011
-0xd244 // Branch { cond: 2, imm: 68, immx: 255 } 0b1101001001000100
-0xd245 // Branch { cond: 2, imm: 69, immx: 255 } 0b1101001001000101
-0xd246 // Branch { cond: 2, imm: 70, immx: 255 } 0b1101001001000110
-0xd247 // Branch { cond: 2, imm: 71, immx: 255 } 0b1101001001000111
-0xd248 // Branch { cond: 2, imm: 72, immx: 255 } 0b1101001001001000
-0xd249 // Branch { cond: 2, imm: 73, immx: 255 } 0b1101001001001001
-0xd24a // Branch { cond: 2, imm: 74, immx: 255 } 0b1101001001001010
-0xd24b // Branch { cond: 2, imm: 75, immx: 255 } 0b1101001001001011
-0xd24c // Branch { cond: 2, imm: 76, immx: 255 } 0b1101001001001100
-0xd24d // Branch { cond: 2, imm: 77, immx: 255 } 0b1101001001001101
-0xd24e // Branch { cond: 2, imm: 78, immx: 255 } 0b1101001001001110
-0xd24f // Branch { cond: 2, imm: 79, immx: 255 } 0b1101001001001111
-0xd250 // Branch { cond: 2, imm: 80, immx: 255 } 0b1101001001010000
-0xd251 // Branch { cond: 2, imm: 81, immx: 255 } 0b1101001001010001
-0xd252 // Branch { cond: 2, imm: 82, immx: 255 } 0b1101001001010010
-0xd253 // Branch { cond: 2, imm: 83, immx: 255 } 0b1101001001010011
-0xd254 // Branch { cond: 2, imm: 84, immx: 255 } 0b1101001001010100
-0xd255 // Branch { cond: 2, imm: 85, immx: 255 } 0b1101001001010101
-0xd256 // Branch { cond: 2, imm: 86, immx: 255 } 0b1101001001010110
-0xd257 // Branch { cond: 2, imm: 87, immx: 255 } 0b1101001001010111
-0xd258 // Branch { cond: 2, imm: 88, immx: 255 } 0b1101001001011000
-0xd259 // Branch { cond: 2, imm: 89, immx: 255 } 0b1101001001011001
-0xd25a // Branch { cond: 2, imm: 90, immx: 255 } 0b1101001001011010
-0xd25b // Branch { cond: 2, imm: 91, immx: 255 } 0b1101001001011011
-0xd25c // Branch { cond: 2, imm: 92, immx: 255 } 0b1101001001011100
-0xd25d // Branch { cond: 2, imm: 93, immx: 255 } 0b1101001001011101
-0xd25e // Branch { cond: 2, imm: 94, immx: 255 } 0b1101001001011110
-0xd25f // Branch { cond: 2, imm: 95, immx: 255 } 0b1101001001011111
-0xd260 // Branch { cond: 2, imm: 96, immx: 255 } 0b1101001001100000
-0xd261 // Branch { cond: 2, imm: 97, immx: 255 } 0b1101001001100001
-0xd262 // Branch { cond: 2, imm: 98, immx: 255 } 0b1101001001100010
-0xd263 // Branch { cond: 2, imm: 99, immx: 255 } 0b1101001001100011
-0xd264 // Branch { cond: 2, imm: 100, immx: 255 } 0b1101001001100100
-0xd265 // Branch { cond: 2, imm: 101, immx: 255 } 0b1101001001100101
-0xd266 // Branch { cond: 2, imm: 102, immx: 255 } 0b1101001001100110
-0xd267 // Branch { cond: 2, imm: 103, immx: 255 } 0b1101001001100111
-0xd268 // Branch { cond: 2, imm: 104, immx: 255 } 0b1101001001101000
-0xd269 // Branch { cond: 2, imm: 105, immx: 255 } 0b1101001001101001
-0xd26a // Branch { cond: 2, imm: 106, immx: 255 } 0b1101001001101010
-0xd26b // Branch { cond: 2, imm: 107, immx: 255 } 0b1101001001101011
-0xd26c // Branch { cond: 2, imm: 108, immx: 255 } 0b1101001001101100
-0xd26d // Branch { cond: 2, imm: 109, immx: 255 } 0b1101001001101101
-0xd26e // Branch { cond: 2, imm: 110, immx: 255 } 0b1101001001101110
-0xd26f // Branch { cond: 2, imm: 111, immx: 255 } 0b1101001001101111
-0xd270 // Branch { cond: 2, imm: 112, immx: 255 } 0b1101001001110000
-0xd271 // Branch { cond: 2, imm: 113, immx: 255 } 0b1101001001110001
-0xd272 // Branch { cond: 2, imm: 114, immx: 255 } 0b1101001001110010
-0xd273 // Branch { cond: 2, imm: 115, immx: 255 } 0b1101001001110011
-0xd274 // Branch { cond: 2, imm: 116, immx: 255 } 0b1101001001110100
-0xd275 // Branch { cond: 2, imm: 117, immx: 255 } 0b1101001001110101
-0xd276 // Branch { cond: 2, imm: 118, immx: 255 } 0b1101001001110110
-0xd277 // Branch { cond: 2, imm: 119, immx: 255 } 0b1101001001110111
-0xd278 // Branch { cond: 2, imm: 120, immx: 255 } 0b1101001001111000
-0xd279 // Branch { cond: 2, imm: 121, immx: 255 } 0b1101001001111001
-0xd27a // Branch { cond: 2, imm: 122, immx: 255 } 0b1101001001111010
-0xd27b // Branch { cond: 2, imm: 123, immx: 255 } 0b1101001001111011
-0xd27c // Branch { cond: 2, imm: 124, immx: 255 } 0b1101001001111100
-0xd27d // Branch { cond: 2, imm: 125, immx: 255 } 0b1101001001111101
-0xd27e // Branch { cond: 2, imm: 126, immx: 255 } 0b1101001001111110
-0xd27f // Branch { cond: 2, imm: 127, immx: 255 } 0b1101001001111111
-0xd280 // Branch { cond: 2, imm: 128, immx: 255 } 0b1101001010000000
-0xd281 // Branch { cond: 2, imm: 129, immx: 255 } 0b1101001010000001
-0xd282 // Branch { cond: 2, imm: 130, immx: 255 } 0b1101001010000010
-0xd283 // Branch { cond: 2, imm: 131, immx: 255 } 0b1101001010000011
-0xd284 // Branch { cond: 2, imm: 132, immx: 255 } 0b1101001010000100
-0xd285 // Branch { cond: 2, imm: 133, immx: 255 } 0b1101001010000101
-0xd286 // Branch { cond: 2, imm: 134, immx: 255 } 0b1101001010000110
-0xd287 // Branch { cond: 2, imm: 135, immx: 255 } 0b1101001010000111
-0xd288 // Branch { cond: 2, imm: 136, immx: 255 } 0b1101001010001000
-0xd289 // Branch { cond: 2, imm: 137, immx: 255 } 0b1101001010001001
-0xd28a // Branch { cond: 2, imm: 138, immx: 255 } 0b1101001010001010
-0xd28b // Branch { cond: 2, imm: 139, immx: 255 } 0b1101001010001011
-0xd28c // Branch { cond: 2, imm: 140, immx: 255 } 0b1101001010001100
-0xd28d // Branch { cond: 2, imm: 141, immx: 255 } 0b1101001010001101
-0xd28e // Branch { cond: 2, imm: 142, immx: 255 } 0b1101001010001110
-0xd28f // Branch { cond: 2, imm: 143, immx: 255 } 0b1101001010001111
-0xd290 // Branch { cond: 2, imm: 144, immx: 255 } 0b1101001010010000
-0xd291 // Branch { cond: 2, imm: 145, immx: 255 } 0b1101001010010001
-0xd292 // Branch { cond: 2, imm: 146, immx: 255 } 0b1101001010010010
-0xd293 // Branch { cond: 2, imm: 147, immx: 255 } 0b1101001010010011
-0xd294 // Branch { cond: 2, imm: 148, immx: 255 } 0b1101001010010100
-0xd295 // Branch { cond: 2, imm: 149, immx: 255 } 0b1101001010010101
-0xd296 // Branch { cond: 2, imm: 150, immx: 255 } 0b1101001010010110
-0xd297 // Branch { cond: 2, imm: 151, immx: 255 } 0b1101001010010111
-0xd298 // Branch { cond: 2, imm: 152, immx: 255 } 0b1101001010011000
-0xd299 // Branch { cond: 2, imm: 153, immx: 255 } 0b1101001010011001
-0xd29a // Branch { cond: 2, imm: 154, immx: 255 } 0b1101001010011010
-0xd29b // Branch { cond: 2, imm: 155, immx: 255 } 0b1101001010011011
-0xd29c // Branch { cond: 2, imm: 156, immx: 255 } 0b1101001010011100
-0xd29d // Branch { cond: 2, imm: 157, immx: 255 } 0b1101001010011101
-0xd29e // Branch { cond: 2, imm: 158, immx: 255 } 0b1101001010011110
-0xd29f // Branch { cond: 2, imm: 159, immx: 255 } 0b1101001010011111
-0xd2a0 // Branch { cond: 2, imm: 160, immx: 255 } 0b1101001010100000
-0xd2a1 // Branch { cond: 2, imm: 161, immx: 255 } 0b1101001010100001
-0xd2a2 // Branch { cond: 2, imm: 162, immx: 255 } 0b1101001010100010
-0xd2a3 // Branch { cond: 2, imm: 163, immx: 255 } 0b1101001010100011
-0xd2a4 // Branch { cond: 2, imm: 164, immx: 255 } 0b1101001010100100
-0xd2a5 // Branch { cond: 2, imm: 165, immx: 255 } 0b1101001010100101
-0xd2a6 // Branch { cond: 2, imm: 166, immx: 255 } 0b1101001010100110
-0xd2a7 // Branch { cond: 2, imm: 167, immx: 255 } 0b1101001010100111
-0xd2a8 // Branch { cond: 2, imm: 168, immx: 255 } 0b1101001010101000
-0xd2a9 // Branch { cond: 2, imm: 169, immx: 255 } 0b1101001010101001
-0xd2aa // Branch { cond: 2, imm: 170, immx: 255 } 0b1101001010101010
-0xd2ab // Branch { cond: 2, imm: 171, immx: 255 } 0b1101001010101011
-0xd2ac // Branch { cond: 2, imm: 172, immx: 255 } 0b1101001010101100
-0xd2ad // Branch { cond: 2, imm: 173, immx: 255 } 0b1101001010101101
-0xd2ae // Branch { cond: 2, imm: 174, immx: 255 } 0b1101001010101110
-0xd2af // Branch { cond: 2, imm: 175, immx: 255 } 0b1101001010101111
-0xd2b0 // Branch { cond: 2, imm: 176, immx: 255 } 0b1101001010110000
-0xd2b1 // Branch { cond: 2, imm: 177, immx: 255 } 0b1101001010110001
-0xd2b2 // Branch { cond: 2, imm: 178, immx: 255 } 0b1101001010110010
-0xd2b3 // Branch { cond: 2, imm: 179, immx: 255 } 0b1101001010110011
-0xd2b4 // Branch { cond: 2, imm: 180, immx: 255 } 0b1101001010110100
-0xd2b5 // Branch { cond: 2, imm: 181, immx: 255 } 0b1101001010110101
-0xd2b6 // Branch { cond: 2, imm: 182, immx: 255 } 0b1101001010110110
-0xd2b7 // Branch { cond: 2, imm: 183, immx: 255 } 0b1101001010110111
-0xd2b8 // Branch { cond: 2, imm: 184, immx: 255 } 0b1101001010111000
-0xd2b9 // Branch { cond: 2, imm: 185, immx: 255 } 0b1101001010111001
-0xd2ba // Branch { cond: 2, imm: 186, immx: 255 } 0b1101001010111010
-0xd2bb // Branch { cond: 2, imm: 187, immx: 255 } 0b1101001010111011
-0xd2bc // Branch { cond: 2, imm: 188, immx: 255 } 0b1101001010111100
-0xd2bd // Branch { cond: 2, imm: 189, immx: 255 } 0b1101001010111101
-0xd2be // Branch { cond: 2, imm: 190, immx: 255 } 0b1101001010111110
-0xd2bf // Branch { cond: 2, imm: 191, immx: 255 } 0b1101001010111111
-0xd2c0 // Branch { cond: 2, imm: 192, immx: 255 } 0b1101001011000000
-0xd2c1 // Branch { cond: 2, imm: 193, immx: 255 } 0b1101001011000001
-0xd2c2 // Branch { cond: 2, imm: 194, immx: 255 } 0b1101001011000010
-0xd2c3 // Branch { cond: 2, imm: 195, immx: 255 } 0b1101001011000011
-0xd2c4 // Branch { cond: 2, imm: 196, immx: 255 } 0b1101001011000100
-0xd2c5 // Branch { cond: 2, imm: 197, immx: 255 } 0b1101001011000101
-0xd2c6 // Branch { cond: 2, imm: 198, immx: 255 } 0b1101001011000110
-0xd2c7 // Branch { cond: 2, imm: 199, immx: 255 } 0b1101001011000111
-0xd2c8 // Branch { cond: 2, imm: 200, immx: 255 } 0b1101001011001000
-0xd2c9 // Branch { cond: 2, imm: 201, immx: 255 } 0b1101001011001001
-0xd2ca // Branch { cond: 2, imm: 202, immx: 255 } 0b1101001011001010
-0xd2cb // Branch { cond: 2, imm: 203, immx: 255 } 0b1101001011001011
-0xd2cc // Branch { cond: 2, imm: 204, immx: 255 } 0b1101001011001100
-0xd2cd // Branch { cond: 2, imm: 205, immx: 255 } 0b1101001011001101
-0xd2ce // Branch { cond: 2, imm: 206, immx: 255 } 0b1101001011001110
-0xd2cf // Branch { cond: 2, imm: 207, immx: 255 } 0b1101001011001111
-0xd2d0 // Branch { cond: 2, imm: 208, immx: 255 } 0b1101001011010000
-0xd2d1 // Branch { cond: 2, imm: 209, immx: 255 } 0b1101001011010001
-0xd2d2 // Branch { cond: 2, imm: 210, immx: 255 } 0b1101001011010010
-0xd2d3 // Branch { cond: 2, imm: 211, immx: 255 } 0b1101001011010011
-0xd2d4 // Branch { cond: 2, imm: 212, immx: 255 } 0b1101001011010100
-0xd2d5 // Branch { cond: 2, imm: 213, immx: 255 } 0b1101001011010101
-0xd2d6 // Branch { cond: 2, imm: 214, immx: 255 } 0b1101001011010110
-0xd2d7 // Branch { cond: 2, imm: 215, immx: 255 } 0b1101001011010111
-0xd2d8 // Branch { cond: 2, imm: 216, immx: 255 } 0b1101001011011000
-0xd2d9 // Branch { cond: 2, imm: 217, immx: 255 } 0b1101001011011001
-0xd2da // Branch { cond: 2, imm: 218, immx: 255 } 0b1101001011011010
-0xd2db // Branch { cond: 2, imm: 219, immx: 255 } 0b1101001011011011
-0xd2dc // Branch { cond: 2, imm: 220, immx: 255 } 0b1101001011011100
-0xd2dd // Branch { cond: 2, imm: 221, immx: 255 } 0b1101001011011101
-0xd2de // Branch { cond: 2, imm: 222, immx: 255 } 0b1101001011011110
-0xd2df // Branch { cond: 2, imm: 223, immx: 255 } 0b1101001011011111
-0xd2e0 // Branch { cond: 2, imm: 224, immx: 255 } 0b1101001011100000
-0xd2e1 // Branch { cond: 2, imm: 225, immx: 255 } 0b1101001011100001
-0xd2e2 // Branch { cond: 2, imm: 226, immx: 255 } 0b1101001011100010
-0xd2e3 // Branch { cond: 2, imm: 227, immx: 255 } 0b1101001011100011
-0xd2e4 // Branch { cond: 2, imm: 228, immx: 255 } 0b1101001011100100
-0xd2e5 // Branch { cond: 2, imm: 229, immx: 255 } 0b1101001011100101
-0xd2e6 // Branch { cond: 2, imm: 230, immx: 255 } 0b1101001011100110
-0xd2e7 // Branch { cond: 2, imm: 231, immx: 255 } 0b1101001011100111
-0xd2e8 // Branch { cond: 2, imm: 232, immx: 255 } 0b1101001011101000
-0xd2e9 // Branch { cond: 2, imm: 233, immx: 255 } 0b1101001011101001
-0xd2ea // Branch { cond: 2, imm: 234, immx: 255 } 0b1101001011101010
-0xd2eb // Branch { cond: 2, imm: 235, immx: 255 } 0b1101001011101011
-0xd2ec // Branch { cond: 2, imm: 236, immx: 255 } 0b1101001011101100
-0xd2ed // Branch { cond: 2, imm: 237, immx: 255 } 0b1101001011101101
-0xd2ee // Branch { cond: 2, imm: 238, immx: 255 } 0b1101001011101110
-0xd2ef // Branch { cond: 2, imm: 239, immx: 255 } 0b1101001011101111
-0xd2f0 // Branch { cond: 2, imm: 240, immx: 255 } 0b1101001011110000
-0xd2f1 // Branch { cond: 2, imm: 241, immx: 255 } 0b1101001011110001
-0xd2f2 // Branch { cond: 2, imm: 242, immx: 255 } 0b1101001011110010
-0xd2f3 // Branch { cond: 2, imm: 243, immx: 255 } 0b1101001011110011
-0xd2f4 // Branch { cond: 2, imm: 244, immx: 255 } 0b1101001011110100
-0xd2f5 // Branch { cond: 2, imm: 245, immx: 255 } 0b1101001011110101
-0xd2f6 // Branch { cond: 2, imm: 246, immx: 255 } 0b1101001011110110
-0xd2f7 // Branch { cond: 2, imm: 247, immx: 255 } 0b1101001011110111
-0xd2f8 // Branch { cond: 2, imm: 248, immx: 255 } 0b1101001011111000
-0xd2f9 // Branch { cond: 2, imm: 249, immx: 255 } 0b1101001011111001
-0xd2fa // Branch { cond: 2, imm: 250, immx: 255 } 0b1101001011111010
-0xd2fb // Branch { cond: 2, imm: 251, immx: 255 } 0b1101001011111011
-0xd2fc // Branch { cond: 2, imm: 252, immx: 255 } 0b1101001011111100
-0xd2fd // Branch { cond: 2, imm: 253, immx: 255 } 0b1101001011111101
-0xd2fe // Branch { cond: 2, imm: 254, immx: 255 } 0b1101001011111110
-0xd2ff // Branch { cond: 2, imm: 255, immx: 255 } 0b1101001011111111
-0xd300 // Branch { cond: 3, imm: 0, immx: 255 } 0b1101001100000000
-0xd301 // Branch { cond: 3, imm: 1, immx: 255 } 0b1101001100000001
-0xd302 // Branch { cond: 3, imm: 2, immx: 255 } 0b1101001100000010
-0xd303 // Branch { cond: 3, imm: 3, immx: 255 } 0b1101001100000011
-0xd304 // Branch { cond: 3, imm: 4, immx: 255 } 0b1101001100000100
-0xd305 // Branch { cond: 3, imm: 5, immx: 255 } 0b1101001100000101
-0xd306 // Branch { cond: 3, imm: 6, immx: 255 } 0b1101001100000110
-0xd307 // Branch { cond: 3, imm: 7, immx: 255 } 0b1101001100000111
-0xd308 // Branch { cond: 3, imm: 8, immx: 255 } 0b1101001100001000
-0xd309 // Branch { cond: 3, imm: 9, immx: 255 } 0b1101001100001001
-0xd30a // Branch { cond: 3, imm: 10, immx: 255 } 0b1101001100001010
-0xd30b // Branch { cond: 3, imm: 11, immx: 255 } 0b1101001100001011
-0xd30c // Branch { cond: 3, imm: 12, immx: 255 } 0b1101001100001100
-0xd30d // Branch { cond: 3, imm: 13, immx: 255 } 0b1101001100001101
-0xd30e // Branch { cond: 3, imm: 14, immx: 255 } 0b1101001100001110
-0xd30f // Branch { cond: 3, imm: 15, immx: 255 } 0b1101001100001111
-0xd310 // Branch { cond: 3, imm: 16, immx: 255 } 0b1101001100010000
-0xd311 // Branch { cond: 3, imm: 17, immx: 255 } 0b1101001100010001
-0xd312 // Branch { cond: 3, imm: 18, immx: 255 } 0b1101001100010010
-0xd313 // Branch { cond: 3, imm: 19, immx: 255 } 0b1101001100010011
-0xd314 // Branch { cond: 3, imm: 20, immx: 255 } 0b1101001100010100
-0xd315 // Branch { cond: 3, imm: 21, immx: 255 } 0b1101001100010101
-0xd316 // Branch { cond: 3, imm: 22, immx: 255 } 0b1101001100010110
-0xd317 // Branch { cond: 3, imm: 23, immx: 255 } 0b1101001100010111
-0xd318 // Branch { cond: 3, imm: 24, immx: 255 } 0b1101001100011000
-0xd319 // Branch { cond: 3, imm: 25, immx: 255 } 0b1101001100011001
-0xd31a // Branch { cond: 3, imm: 26, immx: 255 } 0b1101001100011010
-0xd31b // Branch { cond: 3, imm: 27, immx: 255 } 0b1101001100011011
-0xd31c // Branch { cond: 3, imm: 28, immx: 255 } 0b1101001100011100
-0xd31d // Branch { cond: 3, imm: 29, immx: 255 } 0b1101001100011101
-0xd31e // Branch { cond: 3, imm: 30, immx: 255 } 0b1101001100011110
-0xd31f // Branch { cond: 3, imm: 31, immx: 255 } 0b1101001100011111
-0xd320 // Branch { cond: 3, imm: 32, immx: 255 } 0b1101001100100000
-0xd321 // Branch { cond: 3, imm: 33, immx: 255 } 0b1101001100100001
-0xd322 // Branch { cond: 3, imm: 34, immx: 255 } 0b1101001100100010
-0xd323 // Branch { cond: 3, imm: 35, immx: 255 } 0b1101001100100011
-0xd324 // Branch { cond: 3, imm: 36, immx: 255 } 0b1101001100100100
-0xd325 // Branch { cond: 3, imm: 37, immx: 255 } 0b1101001100100101
-0xd326 // Branch { cond: 3, imm: 38, immx: 255 } 0b1101001100100110
-0xd327 // Branch { cond: 3, imm: 39, immx: 255 } 0b1101001100100111
-0xd328 // Branch { cond: 3, imm: 40, immx: 255 } 0b1101001100101000
-0xd329 // Branch { cond: 3, imm: 41, immx: 255 } 0b1101001100101001
-0xd32a // Branch { cond: 3, imm: 42, immx: 255 } 0b1101001100101010
-0xd32b // Branch { cond: 3, imm: 43, immx: 255 } 0b1101001100101011
-0xd32c // Branch { cond: 3, imm: 44, immx: 255 } 0b1101001100101100
-0xd32d // Branch { cond: 3, imm: 45, immx: 255 } 0b1101001100101101
-0xd32e // Branch { cond: 3, imm: 46, immx: 255 } 0b1101001100101110
-0xd32f // Branch { cond: 3, imm: 47, immx: 255 } 0b1101001100101111
-0xd330 // Branch { cond: 3, imm: 48, immx: 255 } 0b1101001100110000
-0xd331 // Branch { cond: 3, imm: 49, immx: 255 } 0b1101001100110001
-0xd332 // Branch { cond: 3, imm: 50, immx: 255 } 0b1101001100110010
-0xd333 // Branch { cond: 3, imm: 51, immx: 255 } 0b1101001100110011
-0xd334 // Branch { cond: 3, imm: 52, immx: 255 } 0b1101001100110100
-0xd335 // Branch { cond: 3, imm: 53, immx: 255 } 0b1101001100110101
-0xd336 // Branch { cond: 3, imm: 54, immx: 255 } 0b1101001100110110
-0xd337 // Branch { cond: 3, imm: 55, immx: 255 } 0b1101001100110111
-0xd338 // Branch { cond: 3, imm: 56, immx: 255 } 0b1101001100111000
-0xd339 // Branch { cond: 3, imm: 57, immx: 255 } 0b1101001100111001
-0xd33a // Branch { cond: 3, imm: 58, immx: 255 } 0b1101001100111010
-0xd33b // Branch { cond: 3, imm: 59, immx: 255 } 0b1101001100111011
-0xd33c // Branch { cond: 3, imm: 60, immx: 255 } 0b1101001100111100
-0xd33d // Branch { cond: 3, imm: 61, immx: 255 } 0b1101001100111101
-0xd33e // Branch { cond: 3, imm: 62, immx: 255 } 0b1101001100111110
-0xd33f // Branch { cond: 3, imm: 63, immx: 255 } 0b1101001100111111
-0xd340 // Branch { cond: 3, imm: 64, immx: 255 } 0b1101001101000000
-0xd341 // Branch { cond: 3, imm: 65, immx: 255 } 0b1101001101000001
-0xd342 // Branch { cond: 3, imm: 66, immx: 255 } 0b1101001101000010
-0xd343 // Branch { cond: 3, imm: 67, immx: 255 } 0b1101001101000011
-0xd344 // Branch { cond: 3, imm: 68, immx: 255 } 0b1101001101000100
-0xd345 // Branch { cond: 3, imm: 69, immx: 255 } 0b1101001101000101
-0xd346 // Branch { cond: 3, imm: 70, immx: 255 } 0b1101001101000110
-0xd347 // Branch { cond: 3, imm: 71, immx: 255 } 0b1101001101000111
-0xd348 // Branch { cond: 3, imm: 72, immx: 255 } 0b1101001101001000
-0xd349 // Branch { cond: 3, imm: 73, immx: 255 } 0b1101001101001001
-0xd34a // Branch { cond: 3, imm: 74, immx: 255 } 0b1101001101001010
-0xd34b // Branch { cond: 3, imm: 75, immx: 255 } 0b1101001101001011
-0xd34c // Branch { cond: 3, imm: 76, immx: 255 } 0b1101001101001100
-0xd34d // Branch { cond: 3, imm: 77, immx: 255 } 0b1101001101001101
-0xd34e // Branch { cond: 3, imm: 78, immx: 255 } 0b1101001101001110
-0xd34f // Branch { cond: 3, imm: 79, immx: 255 } 0b1101001101001111
-0xd350 // Branch { cond: 3, imm: 80, immx: 255 } 0b1101001101010000
-0xd351 // Branch { cond: 3, imm: 81, immx: 255 } 0b1101001101010001
-0xd352 // Branch { cond: 3, imm: 82, immx: 255 } 0b1101001101010010
-0xd353 // Branch { cond: 3, imm: 83, immx: 255 } 0b1101001101010011
-0xd354 // Branch { cond: 3, imm: 84, immx: 255 } 0b1101001101010100
-0xd355 // Branch { cond: 3, imm: 85, immx: 255 } 0b1101001101010101
-0xd356 // Branch { cond: 3, imm: 86, immx: 255 } 0b1101001101010110
-0xd357 // Branch { cond: 3, imm: 87, immx: 255 } 0b1101001101010111
-0xd358 // Branch { cond: 3, imm: 88, immx: 255 } 0b1101001101011000
-0xd359 // Branch { cond: 3, imm: 89, immx: 255 } 0b1101001101011001
-0xd35a // Branch { cond: 3, imm: 90, immx: 255 } 0b1101001101011010
-0xd35b // Branch { cond: 3, imm: 91, immx: 255 } 0b1101001101011011
-0xd35c // Branch { cond: 3, imm: 92, immx: 255 } 0b1101001101011100
-0xd35d // Branch { cond: 3, imm: 93, immx: 255 } 0b1101001101011101
-0xd35e // Branch { cond: 3, imm: 94, immx: 255 } 0b1101001101011110
-0xd35f // Branch { cond: 3, imm: 95, immx: 255 } 0b1101001101011111
-0xd360 // Branch { cond: 3, imm: 96, immx: 255 } 0b1101001101100000
-0xd361 // Branch { cond: 3, imm: 97, immx: 255 } 0b1101001101100001
-0xd362 // Branch { cond: 3, imm: 98, immx: 255 } 0b1101001101100010
-0xd363 // Branch { cond: 3, imm: 99, immx: 255 } 0b1101001101100011
-0xd364 // Branch { cond: 3, imm: 100, immx: 255 } 0b1101001101100100
-0xd365 // Branch { cond: 3, imm: 101, immx: 255 } 0b1101001101100101
-0xd366 // Branch { cond: 3, imm: 102, immx: 255 } 0b1101001101100110
-0xd367 // Branch { cond: 3, imm: 103, immx: 255 } 0b1101001101100111
-0xd368 // Branch { cond: 3, imm: 104, immx: 255 } 0b1101001101101000
-0xd369 // Branch { cond: 3, imm: 105, immx: 255 } 0b1101001101101001
-0xd36a // Branch { cond: 3, imm: 106, immx: 255 } 0b1101001101101010
-0xd36b // Branch { cond: 3, imm: 107, immx: 255 } 0b1101001101101011
-0xd36c // Branch { cond: 3, imm: 108, immx: 255 } 0b1101001101101100
-0xd36d // Branch { cond: 3, imm: 109, immx: 255 } 0b1101001101101101
-0xd36e // Branch { cond: 3, imm: 110, immx: 255 } 0b1101001101101110
-0xd36f // Branch { cond: 3, imm: 111, immx: 255 } 0b1101001101101111
-0xd370 // Branch { cond: 3, imm: 112, immx: 255 } 0b1101001101110000
-0xd371 // Branch { cond: 3, imm: 113, immx: 255 } 0b1101001101110001
-0xd372 // Branch { cond: 3, imm: 114, immx: 255 } 0b1101001101110010
-0xd373 // Branch { cond: 3, imm: 115, immx: 255 } 0b1101001101110011
-0xd374 // Branch { cond: 3, imm: 116, immx: 255 } 0b1101001101110100
-0xd375 // Branch { cond: 3, imm: 117, immx: 255 } 0b1101001101110101
-0xd376 // Branch { cond: 3, imm: 118, immx: 255 } 0b1101001101110110
-0xd377 // Branch { cond: 3, imm: 119, immx: 255 } 0b1101001101110111
-0xd378 // Branch { cond: 3, imm: 120, immx: 255 } 0b1101001101111000
-0xd379 // Branch { cond: 3, imm: 121, immx: 255 } 0b1101001101111001
-0xd37a // Branch { cond: 3, imm: 122, immx: 255 } 0b1101001101111010
-0xd37b // Branch { cond: 3, imm: 123, immx: 255 } 0b1101001101111011
-0xd37c // Branch { cond: 3, imm: 124, immx: 255 } 0b1101001101111100
-0xd37d // Branch { cond: 3, imm: 125, immx: 255 } 0b1101001101111101
-0xd37e // Branch { cond: 3, imm: 126, immx: 255 } 0b1101001101111110
-0xd37f // Branch { cond: 3, imm: 127, immx: 255 } 0b1101001101111111
-0xd380 // Branch { cond: 3, imm: 128, immx: 255 } 0b1101001110000000
-0xd381 // Branch { cond: 3, imm: 129, immx: 255 } 0b1101001110000001
-0xd382 // Branch { cond: 3, imm: 130, immx: 255 } 0b1101001110000010
-0xd383 // Branch { cond: 3, imm: 131, immx: 255 } 0b1101001110000011
-0xd384 // Branch { cond: 3, imm: 132, immx: 255 } 0b1101001110000100
-0xd385 // Branch { cond: 3, imm: 133, immx: 255 } 0b1101001110000101
-0xd386 // Branch { cond: 3, imm: 134, immx: 255 } 0b1101001110000110
-0xd387 // Branch { cond: 3, imm: 135, immx: 255 } 0b1101001110000111
-0xd388 // Branch { cond: 3, imm: 136, immx: 255 } 0b1101001110001000
-0xd389 // Branch { cond: 3, imm: 137, immx: 255 } 0b1101001110001001
-0xd38a // Branch { cond: 3, imm: 138, immx: 255 } 0b1101001110001010
-0xd38b // Branch { cond: 3, imm: 139, immx: 255 } 0b1101001110001011
-0xd38c // Branch { cond: 3, imm: 140, immx: 255 } 0b1101001110001100
-0xd38d // Branch { cond: 3, imm: 141, immx: 255 } 0b1101001110001101
-0xd38e // Branch { cond: 3, imm: 142, immx: 255 } 0b1101001110001110
-0xd38f // Branch { cond: 3, imm: 143, immx: 255 } 0b1101001110001111
-0xd390 // Branch { cond: 3, imm: 144, immx: 255 } 0b1101001110010000
-0xd391 // Branch { cond: 3, imm: 145, immx: 255 } 0b1101001110010001
-0xd392 // Branch { cond: 3, imm: 146, immx: 255 } 0b1101001110010010
-0xd393 // Branch { cond: 3, imm: 147, immx: 255 } 0b1101001110010011
-0xd394 // Branch { cond: 3, imm: 148, immx: 255 } 0b1101001110010100
-0xd395 // Branch { cond: 3, imm: 149, immx: 255 } 0b1101001110010101
-0xd396 // Branch { cond: 3, imm: 150, immx: 255 } 0b1101001110010110
-0xd397 // Branch { cond: 3, imm: 151, immx: 255 } 0b1101001110010111
-0xd398 // Branch { cond: 3, imm: 152, immx: 255 } 0b1101001110011000
-0xd399 // Branch { cond: 3, imm: 153, immx: 255 } 0b1101001110011001
-0xd39a // Branch { cond: 3, imm: 154, immx: 255 } 0b1101001110011010
-0xd39b // Branch { cond: 3, imm: 155, immx: 255 } 0b1101001110011011
-0xd39c // Branch { cond: 3, imm: 156, immx: 255 } 0b1101001110011100
-0xd39d // Branch { cond: 3, imm: 157, immx: 255 } 0b1101001110011101
-0xd39e // Branch { cond: 3, imm: 158, immx: 255 } 0b1101001110011110
-0xd39f // Branch { cond: 3, imm: 159, immx: 255 } 0b1101001110011111
-0xd3a0 // Branch { cond: 3, imm: 160, immx: 255 } 0b1101001110100000
-0xd3a1 // Branch { cond: 3, imm: 161, immx: 255 } 0b1101001110100001
-0xd3a2 // Branch { cond: 3, imm: 162, immx: 255 } 0b1101001110100010
-0xd3a3 // Branch { cond: 3, imm: 163, immx: 255 } 0b1101001110100011
-0xd3a4 // Branch { cond: 3, imm: 164, immx: 255 } 0b1101001110100100
-0xd3a5 // Branch { cond: 3, imm: 165, immx: 255 } 0b1101001110100101
-0xd3a6 // Branch { cond: 3, imm: 166, immx: 255 } 0b1101001110100110
-0xd3a7 // Branch { cond: 3, imm: 167, immx: 255 } 0b1101001110100111
-0xd3a8 // Branch { cond: 3, imm: 168, immx: 255 } 0b1101001110101000
-0xd3a9 // Branch { cond: 3, imm: 169, immx: 255 } 0b1101001110101001
-0xd3aa // Branch { cond: 3, imm: 170, immx: 255 } 0b1101001110101010
-0xd3ab // Branch { cond: 3, imm: 171, immx: 255 } 0b1101001110101011
-0xd3ac // Branch { cond: 3, imm: 172, immx: 255 } 0b1101001110101100
-0xd3ad // Branch { cond: 3, imm: 173, immx: 255 } 0b1101001110101101
-0xd3ae // Branch { cond: 3, imm: 174, immx: 255 } 0b1101001110101110
-0xd3af // Branch { cond: 3, imm: 175, immx: 255 } 0b1101001110101111
-0xd3b0 // Branch { cond: 3, imm: 176, immx: 255 } 0b1101001110110000
-0xd3b1 // Branch { cond: 3, imm: 177, immx: 255 } 0b1101001110110001
-0xd3b2 // Branch { cond: 3, imm: 178, immx: 255 } 0b1101001110110010
-0xd3b3 // Branch { cond: 3, imm: 179, immx: 255 } 0b1101001110110011
-0xd3b4 // Branch { cond: 3, imm: 180, immx: 255 } 0b1101001110110100
-0xd3b5 // Branch { cond: 3, imm: 181, immx: 255 } 0b1101001110110101
-0xd3b6 // Branch { cond: 3, imm: 182, immx: 255 } 0b1101001110110110
-0xd3b7 // Branch { cond: 3, imm: 183, immx: 255 } 0b1101001110110111
-0xd3b8 // Branch { cond: 3, imm: 184, immx: 255 } 0b1101001110111000
-0xd3b9 // Branch { cond: 3, imm: 185, immx: 255 } 0b1101001110111001
-0xd3ba // Branch { cond: 3, imm: 186, immx: 255 } 0b1101001110111010
-0xd3bb // Branch { cond: 3, imm: 187, immx: 255 } 0b1101001110111011
-0xd3bc // Branch { cond: 3, imm: 188, immx: 255 } 0b1101001110111100
-0xd3bd // Branch { cond: 3, imm: 189, immx: 255 } 0b1101001110111101
-0xd3be // Branch { cond: 3, imm: 190, immx: 255 } 0b1101001110111110
-0xd3bf // Branch { cond: 3, imm: 191, immx: 255 } 0b1101001110111111
-0xd3c0 // Branch { cond: 3, imm: 192, immx: 255 } 0b1101001111000000
-0xd3c1 // Branch { cond: 3, imm: 193, immx: 255 } 0b1101001111000001
-0xd3c2 // Branch { cond: 3, imm: 194, immx: 255 } 0b1101001111000010
-0xd3c3 // Branch { cond: 3, imm: 195, immx: 255 } 0b1101001111000011
-0xd3c4 // Branch { cond: 3, imm: 196, immx: 255 } 0b1101001111000100
-0xd3c5 // Branch { cond: 3, imm: 197, immx: 255 } 0b1101001111000101
-0xd3c6 // Branch { cond: 3, imm: 198, immx: 255 } 0b1101001111000110
-0xd3c7 // Branch { cond: 3, imm: 199, immx: 255 } 0b1101001111000111
-0xd3c8 // Branch { cond: 3, imm: 200, immx: 255 } 0b1101001111001000
-0xd3c9 // Branch { cond: 3, imm: 201, immx: 255 } 0b1101001111001001
-0xd3ca // Branch { cond: 3, imm: 202, immx: 255 } 0b1101001111001010
-0xd3cb // Branch { cond: 3, imm: 203, immx: 255 } 0b1101001111001011
-0xd3cc // Branch { cond: 3, imm: 204, immx: 255 } 0b1101001111001100
-0xd3cd // Branch { cond: 3, imm: 205, immx: 255 } 0b1101001111001101
-0xd3ce // Branch { cond: 3, imm: 206, immx: 255 } 0b1101001111001110
-0xd3cf // Branch { cond: 3, imm: 207, immx: 255 } 0b1101001111001111
-0xd3d0 // Branch { cond: 3, imm: 208, immx: 255 } 0b1101001111010000
-0xd3d1 // Branch { cond: 3, imm: 209, immx: 255 } 0b1101001111010001
-0xd3d2 // Branch { cond: 3, imm: 210, immx: 255 } 0b1101001111010010
-0xd3d3 // Branch { cond: 3, imm: 211, immx: 255 } 0b1101001111010011
-0xd3d4 // Branch { cond: 3, imm: 212, immx: 255 } 0b1101001111010100
-0xd3d5 // Branch { cond: 3, imm: 213, immx: 255 } 0b1101001111010101
-0xd3d6 // Branch { cond: 3, imm: 214, immx: 255 } 0b1101001111010110
-0xd3d7 // Branch { cond: 3, imm: 215, immx: 255 } 0b1101001111010111
-0xd3d8 // Branch { cond: 3, imm: 216, immx: 255 } 0b1101001111011000
-0xd3d9 // Branch { cond: 3, imm: 217, immx: 255 } 0b1101001111011001
-0xd3da // Branch { cond: 3, imm: 218, immx: 255 } 0b1101001111011010
-0xd3db // Branch { cond: 3, imm: 219, immx: 255 } 0b1101001111011011
-0xd3dc // Branch { cond: 3, imm: 220, immx: 255 } 0b1101001111011100
-0xd3dd // Branch { cond: 3, imm: 221, immx: 255 } 0b1101001111011101
-0xd3de // Branch { cond: 3, imm: 222, immx: 255 } 0b1101001111011110
-0xd3df // Branch { cond: 3, imm: 223, immx: 255 } 0b1101001111011111
-0xd3e0 // Branch { cond: 3, imm: 224, immx: 255 } 0b1101001111100000
-0xd3e1 // Branch { cond: 3, imm: 225, immx: 255 } 0b1101001111100001
-0xd3e2 // Branch { cond: 3, imm: 226, immx: 255 } 0b1101001111100010
-0xd3e3 // Branch { cond: 3, imm: 227, immx: 255 } 0b1101001111100011
-0xd3e4 // Branch { cond: 3, imm: 228, immx: 255 } 0b1101001111100100
-0xd3e5 // Branch { cond: 3, imm: 229, immx: 255 } 0b1101001111100101
-0xd3e6 // Branch { cond: 3, imm: 230, immx: 255 } 0b1101001111100110
-0xd3e7 // Branch { cond: 3, imm: 231, immx: 255 } 0b1101001111100111
-0xd3e8 // Branch { cond: 3, imm: 232, immx: 255 } 0b1101001111101000
-0xd3e9 // Branch { cond: 3, imm: 233, immx: 255 } 0b1101001111101001
-0xd3ea // Branch { cond: 3, imm: 234, immx: 255 } 0b1101001111101010
-0xd3eb // Branch { cond: 3, imm: 235, immx: 255 } 0b1101001111101011
-0xd3ec // Branch { cond: 3, imm: 236, immx: 255 } 0b1101001111101100
-0xd3ed // Branch { cond: 3, imm: 237, immx: 255 } 0b1101001111101101
-0xd3ee // Branch { cond: 3, imm: 238, immx: 255 } 0b1101001111101110
-0xd3ef // Branch { cond: 3, imm: 239, immx: 255 } 0b1101001111101111
-0xd3f0 // Branch { cond: 3, imm: 240, immx: 255 } 0b1101001111110000
-0xd3f1 // Branch { cond: 3, imm: 241, immx: 255 } 0b1101001111110001
-0xd3f2 // Branch { cond: 3, imm: 242, immx: 255 } 0b1101001111110010
-0xd3f3 // Branch { cond: 3, imm: 243, immx: 255 } 0b1101001111110011
-0xd3f4 // Branch { cond: 3, imm: 244, immx: 255 } 0b1101001111110100
-0xd3f5 // Branch { cond: 3, imm: 245, immx: 255 } 0b1101001111110101
-0xd3f6 // Branch { cond: 3, imm: 246, immx: 255 } 0b1101001111110110
-0xd3f7 // Branch { cond: 3, imm: 247, immx: 255 } 0b1101001111110111
-0xd3f8 // Branch { cond: 3, imm: 248, immx: 255 } 0b1101001111111000
-0xd3f9 // Branch { cond: 3, imm: 249, immx: 255 } 0b1101001111111001
-0xd3fa // Branch { cond: 3, imm: 250, immx: 255 } 0b1101001111111010
-0xd3fb // Branch { cond: 3, imm: 251, immx: 255 } 0b1101001111111011
-0xd3fc // Branch { cond: 3, imm: 252, immx: 255 } 0b1101001111111100
-0xd3fd // Branch { cond: 3, imm: 253, immx: 255 } 0b1101001111111101
-0xd3fe // Branch { cond: 3, imm: 254, immx: 255 } 0b1101001111111110
-0xd3ff // Branch { cond: 3, imm: 255, immx: 255 } 0b1101001111111111
-0xd400 // Branch { cond: 4, imm: 0, immx: 255 } 0b1101010000000000
-0xd401 // Branch { cond: 4, imm: 1, immx: 255 } 0b1101010000000001
-0xd402 // Branch { cond: 4, imm: 2, immx: 255 } 0b1101010000000010
-0xd403 // Branch { cond: 4, imm: 3, immx: 255 } 0b1101010000000011
-0xd404 // Branch { cond: 4, imm: 4, immx: 255 } 0b1101010000000100
-0xd405 // Branch { cond: 4, imm: 5, immx: 255 } 0b1101010000000101
-0xd406 // Branch { cond: 4, imm: 6, immx: 255 } 0b1101010000000110
-0xd407 // Branch { cond: 4, imm: 7, immx: 255 } 0b1101010000000111
-0xd408 // Branch { cond: 4, imm: 8, immx: 255 } 0b1101010000001000
-0xd409 // Branch { cond: 4, imm: 9, immx: 255 } 0b1101010000001001
-0xd40a // Branch { cond: 4, imm: 10, immx: 255 } 0b1101010000001010
-0xd40b // Branch { cond: 4, imm: 11, immx: 255 } 0b1101010000001011
-0xd40c // Branch { cond: 4, imm: 12, immx: 255 } 0b1101010000001100
-0xd40d // Branch { cond: 4, imm: 13, immx: 255 } 0b1101010000001101
-0xd40e // Branch { cond: 4, imm: 14, immx: 255 } 0b1101010000001110
-0xd40f // Branch { cond: 4, imm: 15, immx: 255 } 0b1101010000001111
-0xd410 // Branch { cond: 4, imm: 16, immx: 255 } 0b1101010000010000
-0xd411 // Branch { cond: 4, imm: 17, immx: 255 } 0b1101010000010001
-0xd412 // Branch { cond: 4, imm: 18, immx: 255 } 0b1101010000010010
-0xd413 // Branch { cond: 4, imm: 19, immx: 255 } 0b1101010000010011
-0xd414 // Branch { cond: 4, imm: 20, immx: 255 } 0b1101010000010100
-0xd415 // Branch { cond: 4, imm: 21, immx: 255 } 0b1101010000010101
-0xd416 // Branch { cond: 4, imm: 22, immx: 255 } 0b1101010000010110
-0xd417 // Branch { cond: 4, imm: 23, immx: 255 } 0b1101010000010111
-0xd418 // Branch { cond: 4, imm: 24, immx: 255 } 0b1101010000011000
-0xd419 // Branch { cond: 4, imm: 25, immx: 255 } 0b1101010000011001
-0xd41a // Branch { cond: 4, imm: 26, immx: 255 } 0b1101010000011010
-0xd41b // Branch { cond: 4, imm: 27, immx: 255 } 0b1101010000011011
-0xd41c // Branch { cond: 4, imm: 28, immx: 255 } 0b1101010000011100
-0xd41d // Branch { cond: 4, imm: 29, immx: 255 } 0b1101010000011101
-0xd41e // Branch { cond: 4, imm: 30, immx: 255 } 0b1101010000011110
-0xd41f // Branch { cond: 4, imm: 31, immx: 255 } 0b1101010000011111
-0xd420 // Branch { cond: 4, imm: 32, immx: 255 } 0b1101010000100000
-0xd421 // Branch { cond: 4, imm: 33, immx: 255 } 0b1101010000100001
-0xd422 // Branch { cond: 4, imm: 34, immx: 255 } 0b1101010000100010
-0xd423 // Branch { cond: 4, imm: 35, immx: 255 } 0b1101010000100011
-0xd424 // Branch { cond: 4, imm: 36, immx: 255 } 0b1101010000100100
-0xd425 // Branch { cond: 4, imm: 37, immx: 255 } 0b1101010000100101
-0xd426 // Branch { cond: 4, imm: 38, immx: 255 } 0b1101010000100110
-0xd427 // Branch { cond: 4, imm: 39, immx: 255 } 0b1101010000100111
-0xd428 // Branch { cond: 4, imm: 40, immx: 255 } 0b1101010000101000
-0xd429 // Branch { cond: 4, imm: 41, immx: 255 } 0b1101010000101001
-0xd42a // Branch { cond: 4, imm: 42, immx: 255 } 0b1101010000101010
-0xd42b // Branch { cond: 4, imm: 43, immx: 255 } 0b1101010000101011
-0xd42c // Branch { cond: 4, imm: 44, immx: 255 } 0b1101010000101100
-0xd42d // Branch { cond: 4, imm: 45, immx: 255 } 0b1101010000101101
-0xd42e // Branch { cond: 4, imm: 46, immx: 255 } 0b1101010000101110
-0xd42f // Branch { cond: 4, imm: 47, immx: 255 } 0b1101010000101111
-0xd430 // Branch { cond: 4, imm: 48, immx: 255 } 0b1101010000110000
-0xd431 // Branch { cond: 4, imm: 49, immx: 255 } 0b1101010000110001
-0xd432 // Branch { cond: 4, imm: 50, immx: 255 } 0b1101010000110010
-0xd433 // Branch { cond: 4, imm: 51, immx: 255 } 0b1101010000110011
-0xd434 // Branch { cond: 4, imm: 52, immx: 255 } 0b1101010000110100
-0xd435 // Branch { cond: 4, imm: 53, immx: 255 } 0b1101010000110101
-0xd436 // Branch { cond: 4, imm: 54, immx: 255 } 0b1101010000110110
-0xd437 // Branch { cond: 4, imm: 55, immx: 255 } 0b1101010000110111
-0xd438 // Branch { cond: 4, imm: 56, immx: 255 } 0b1101010000111000
-0xd439 // Branch { cond: 4, imm: 57, immx: 255 } 0b1101010000111001
-0xd43a // Branch { cond: 4, imm: 58, immx: 255 } 0b1101010000111010
-0xd43b // Branch { cond: 4, imm: 59, immx: 255 } 0b1101010000111011
-0xd43c // Branch { cond: 4, imm: 60, immx: 255 } 0b1101010000111100
-0xd43d // Branch { cond: 4, imm: 61, immx: 255 } 0b1101010000111101
-0xd43e // Branch { cond: 4, imm: 62, immx: 255 } 0b1101010000111110
-0xd43f // Branch { cond: 4, imm: 63, immx: 255 } 0b1101010000111111
-0xd440 // Branch { cond: 4, imm: 64, immx: 255 } 0b1101010001000000
-0xd441 // Branch { cond: 4, imm: 65, immx: 255 } 0b1101010001000001
-0xd442 // Branch { cond: 4, imm: 66, immx: 255 } 0b1101010001000010
-0xd443 // Branch { cond: 4, imm: 67, immx: 255 } 0b1101010001000011
-0xd444 // Branch { cond: 4, imm: 68, immx: 255 } 0b1101010001000100
-0xd445 // Branch { cond: 4, imm: 69, immx: 255 } 0b1101010001000101
-0xd446 // Branch { cond: 4, imm: 70, immx: 255 } 0b1101010001000110
-0xd447 // Branch { cond: 4, imm: 71, immx: 255 } 0b1101010001000111
-0xd448 // Branch { cond: 4, imm: 72, immx: 255 } 0b1101010001001000
-0xd449 // Branch { cond: 4, imm: 73, immx: 255 } 0b1101010001001001
-0xd44a // Branch { cond: 4, imm: 74, immx: 255 } 0b1101010001001010
-0xd44b // Branch { cond: 4, imm: 75, immx: 255 } 0b1101010001001011
-0xd44c // Branch { cond: 4, imm: 76, immx: 255 } 0b1101010001001100
-0xd44d // Branch { cond: 4, imm: 77, immx: 255 } 0b1101010001001101
-0xd44e // Branch { cond: 4, imm: 78, immx: 255 } 0b1101010001001110
-0xd44f // Branch { cond: 4, imm: 79, immx: 255 } 0b1101010001001111
-0xd450 // Branch { cond: 4, imm: 80, immx: 255 } 0b1101010001010000
-0xd451 // Branch { cond: 4, imm: 81, immx: 255 } 0b1101010001010001
-0xd452 // Branch { cond: 4, imm: 82, immx: 255 } 0b1101010001010010
-0xd453 // Branch { cond: 4, imm: 83, immx: 255 } 0b1101010001010011
-0xd454 // Branch { cond: 4, imm: 84, immx: 255 } 0b1101010001010100
-0xd455 // Branch { cond: 4, imm: 85, immx: 255 } 0b1101010001010101
-0xd456 // Branch { cond: 4, imm: 86, immx: 255 } 0b1101010001010110
-0xd457 // Branch { cond: 4, imm: 87, immx: 255 } 0b1101010001010111
-0xd458 // Branch { cond: 4, imm: 88, immx: 255 } 0b1101010001011000
-0xd459 // Branch { cond: 4, imm: 89, immx: 255 } 0b1101010001011001
-0xd45a // Branch { cond: 4, imm: 90, immx: 255 } 0b1101010001011010
-0xd45b // Branch { cond: 4, imm: 91, immx: 255 } 0b1101010001011011
-0xd45c // Branch { cond: 4, imm: 92, immx: 255 } 0b1101010001011100
-0xd45d // Branch { cond: 4, imm: 93, immx: 255 } 0b1101010001011101
-0xd45e // Branch { cond: 4, imm: 94, immx: 255 } 0b1101010001011110
-0xd45f // Branch { cond: 4, imm: 95, immx: 255 } 0b1101010001011111
-0xd460 // Branch { cond: 4, imm: 96, immx: 255 } 0b1101010001100000
-0xd461 // Branch { cond: 4, imm: 97, immx: 255 } 0b1101010001100001
-0xd462 // Branch { cond: 4, imm: 98, immx: 255 } 0b1101010001100010
-0xd463 // Branch { cond: 4, imm: 99, immx: 255 } 0b1101010001100011
-0xd464 // Branch { cond: 4, imm: 100, immx: 255 } 0b1101010001100100
-0xd465 // Branch { cond: 4, imm: 101, immx: 255 } 0b1101010001100101
-0xd466 // Branch { cond: 4, imm: 102, immx: 255 } 0b1101010001100110
-0xd467 // Branch { cond: 4, imm: 103, immx: 255 } 0b1101010001100111
-0xd468 // Branch { cond: 4, imm: 104, immx: 255 } 0b1101010001101000
-0xd469 // Branch { cond: 4, imm: 105, immx: 255 } 0b1101010001101001
-0xd46a // Branch { cond: 4, imm: 106, immx: 255 } 0b1101010001101010
-0xd46b // Branch { cond: 4, imm: 107, immx: 255 } 0b1101010001101011
-0xd46c // Branch { cond: 4, imm: 108, immx: 255 } 0b1101010001101100
-0xd46d // Branch { cond: 4, imm: 109, immx: 255 } 0b1101010001101101
-0xd46e // Branch { cond: 4, imm: 110, immx: 255 } 0b1101010001101110
-0xd46f // Branch { cond: 4, imm: 111, immx: 255 } 0b1101010001101111
-0xd470 // Branch { cond: 4, imm: 112, immx: 255 } 0b1101010001110000
-0xd471 // Branch { cond: 4, imm: 113, immx: 255 } 0b1101010001110001
-0xd472 // Branch { cond: 4, imm: 114, immx: 255 } 0b1101010001110010
-0xd473 // Branch { cond: 4, imm: 115, immx: 255 } 0b1101010001110011
-0xd474 // Branch { cond: 4, imm: 116, immx: 255 } 0b1101010001110100
-0xd475 // Branch { cond: 4, imm: 117, immx: 255 } 0b1101010001110101
-0xd476 // Branch { cond: 4, imm: 118, immx: 255 } 0b1101010001110110
-0xd477 // Branch { cond: 4, imm: 119, immx: 255 } 0b1101010001110111
-0xd478 // Branch { cond: 4, imm: 120, immx: 255 } 0b1101010001111000
-0xd479 // Branch { cond: 4, imm: 121, immx: 255 } 0b1101010001111001
-0xd47a // Branch { cond: 4, imm: 122, immx: 255 } 0b1101010001111010
-0xd47b // Branch { cond: 4, imm: 123, immx: 255 } 0b1101010001111011
-0xd47c // Branch { cond: 4, imm: 124, immx: 255 } 0b1101010001111100
-0xd47d // Branch { cond: 4, imm: 125, immx: 255 } 0b1101010001111101
-0xd47e // Branch { cond: 4, imm: 126, immx: 255 } 0b1101010001111110
-0xd47f // Branch { cond: 4, imm: 127, immx: 255 } 0b1101010001111111
-0xd480 // Branch { cond: 4, imm: 128, immx: 255 } 0b1101010010000000
-0xd481 // Branch { cond: 4, imm: 129, immx: 255 } 0b1101010010000001
-0xd482 // Branch { cond: 4, imm: 130, immx: 255 } 0b1101010010000010
-0xd483 // Branch { cond: 4, imm: 131, immx: 255 } 0b1101010010000011
-0xd484 // Branch { cond: 4, imm: 132, immx: 255 } 0b1101010010000100
-0xd485 // Branch { cond: 4, imm: 133, immx: 255 } 0b1101010010000101
-0xd486 // Branch { cond: 4, imm: 134, immx: 255 } 0b1101010010000110
-0xd487 // Branch { cond: 4, imm: 135, immx: 255 } 0b1101010010000111
-0xd488 // Branch { cond: 4, imm: 136, immx: 255 } 0b1101010010001000
-0xd489 // Branch { cond: 4, imm: 137, immx: 255 } 0b1101010010001001
-0xd48a // Branch { cond: 4, imm: 138, immx: 255 } 0b1101010010001010
-0xd48b // Branch { cond: 4, imm: 139, immx: 255 } 0b1101010010001011
-0xd48c // Branch { cond: 4, imm: 140, immx: 255 } 0b1101010010001100
-0xd48d // Branch { cond: 4, imm: 141, immx: 255 } 0b1101010010001101
-0xd48e // Branch { cond: 4, imm: 142, immx: 255 } 0b1101010010001110
-0xd48f // Branch { cond: 4, imm: 143, immx: 255 } 0b1101010010001111
-0xd490 // Branch { cond: 4, imm: 144, immx: 255 } 0b1101010010010000
-0xd491 // Branch { cond: 4, imm: 145, immx: 255 } 0b1101010010010001
-0xd492 // Branch { cond: 4, imm: 146, immx: 255 } 0b1101010010010010
-0xd493 // Branch { cond: 4, imm: 147, immx: 255 } 0b1101010010010011
-0xd494 // Branch { cond: 4, imm: 148, immx: 255 } 0b1101010010010100
-0xd495 // Branch { cond: 4, imm: 149, immx: 255 } 0b1101010010010101
-0xd496 // Branch { cond: 4, imm: 150, immx: 255 } 0b1101010010010110
-0xd497 // Branch { cond: 4, imm: 151, immx: 255 } 0b1101010010010111
-0xd498 // Branch { cond: 4, imm: 152, immx: 255 } 0b1101010010011000
-0xd499 // Branch { cond: 4, imm: 153, immx: 255 } 0b1101010010011001
-0xd49a // Branch { cond: 4, imm: 154, immx: 255 } 0b1101010010011010
-0xd49b // Branch { cond: 4, imm: 155, immx: 255 } 0b1101010010011011
-0xd49c // Branch { cond: 4, imm: 156, immx: 255 } 0b1101010010011100
-0xd49d // Branch { cond: 4, imm: 157, immx: 255 } 0b1101010010011101
-0xd49e // Branch { cond: 4, imm: 158, immx: 255 } 0b1101010010011110
-0xd49f // Branch { cond: 4, imm: 159, immx: 255 } 0b1101010010011111
-0xd4a0 // Branch { cond: 4, imm: 160, immx: 255 } 0b1101010010100000
-0xd4a1 // Branch { cond: 4, imm: 161, immx: 255 } 0b1101010010100001
-0xd4a2 // Branch { cond: 4, imm: 162, immx: 255 } 0b1101010010100010
-0xd4a3 // Branch { cond: 4, imm: 163, immx: 255 } 0b1101010010100011
-0xd4a4 // Branch { cond: 4, imm: 164, immx: 255 } 0b1101010010100100
-0xd4a5 // Branch { cond: 4, imm: 165, immx: 255 } 0b1101010010100101
-0xd4a6 // Branch { cond: 4, imm: 166, immx: 255 } 0b1101010010100110
-0xd4a7 // Branch { cond: 4, imm: 167, immx: 255 } 0b1101010010100111
-0xd4a8 // Branch { cond: 4, imm: 168, immx: 255 } 0b1101010010101000
-0xd4a9 // Branch { cond: 4, imm: 169, immx: 255 } 0b1101010010101001
-0xd4aa // Branch { cond: 4, imm: 170, immx: 255 } 0b1101010010101010
-0xd4ab // Branch { cond: 4, imm: 171, immx: 255 } 0b1101010010101011
-0xd4ac // Branch { cond: 4, imm: 172, immx: 255 } 0b1101010010101100
-0xd4ad // Branch { cond: 4, imm: 173, immx: 255 } 0b1101010010101101
-0xd4ae // Branch { cond: 4, imm: 174, immx: 255 } 0b1101010010101110
-0xd4af // Branch { cond: 4, imm: 175, immx: 255 } 0b1101010010101111
-0xd4b0 // Branch { cond: 4, imm: 176, immx: 255 } 0b1101010010110000
-0xd4b1 // Branch { cond: 4, imm: 177, immx: 255 } 0b1101010010110001
-0xd4b2 // Branch { cond: 4, imm: 178, immx: 255 } 0b1101010010110010
-0xd4b3 // Branch { cond: 4, imm: 179, immx: 255 } 0b1101010010110011
-0xd4b4 // Branch { cond: 4, imm: 180, immx: 255 } 0b1101010010110100
-0xd4b5 // Branch { cond: 4, imm: 181, immx: 255 } 0b1101010010110101
-0xd4b6 // Branch { cond: 4, imm: 182, immx: 255 } 0b1101010010110110
-0xd4b7 // Branch { cond: 4, imm: 183, immx: 255 } 0b1101010010110111
-0xd4b8 // Branch { cond: 4, imm: 184, immx: 255 } 0b1101010010111000
-0xd4b9 // Branch { cond: 4, imm: 185, immx: 255 } 0b1101010010111001
-0xd4ba // Branch { cond: 4, imm: 186, immx: 255 } 0b1101010010111010
-0xd4bb // Branch { cond: 4, imm: 187, immx: 255 } 0b1101010010111011
-0xd4bc // Branch { cond: 4, imm: 188, immx: 255 } 0b1101010010111100
-0xd4bd // Branch { cond: 4, imm: 189, immx: 255 } 0b1101010010111101
-0xd4be // Branch { cond: 4, imm: 190, immx: 255 } 0b1101010010111110
-0xd4bf // Branch { cond: 4, imm: 191, immx: 255 } 0b1101010010111111
-0xd4c0 // Branch { cond: 4, imm: 192, immx: 255 } 0b1101010011000000
-0xd4c1 // Branch { cond: 4, imm: 193, immx: 255 } 0b1101010011000001
-0xd4c2 // Branch { cond: 4, imm: 194, immx: 255 } 0b1101010011000010
-0xd4c3 // Branch { cond: 4, imm: 195, immx: 255 } 0b1101010011000011
-0xd4c4 // Branch { cond: 4, imm: 196, immx: 255 } 0b1101010011000100
-0xd4c5 // Branch { cond: 4, imm: 197, immx: 255 } 0b1101010011000101
-0xd4c6 // Branch { cond: 4, imm: 198, immx: 255 } 0b1101010011000110
-0xd4c7 // Branch { cond: 4, imm: 199, immx: 255 } 0b1101010011000111
-0xd4c8 // Branch { cond: 4, imm: 200, immx: 255 } 0b1101010011001000
-0xd4c9 // Branch { cond: 4, imm: 201, immx: 255 } 0b1101010011001001
-0xd4ca // Branch { cond: 4, imm: 202, immx: 255 } 0b1101010011001010
-0xd4cb // Branch { cond: 4, imm: 203, immx: 255 } 0b1101010011001011
-0xd4cc // Branch { cond: 4, imm: 204, immx: 255 } 0b1101010011001100
-0xd4cd // Branch { cond: 4, imm: 205, immx: 255 } 0b1101010011001101
-0xd4ce // Branch { cond: 4, imm: 206, immx: 255 } 0b1101010011001110
-0xd4cf // Branch { cond: 4, imm: 207, immx: 255 } 0b1101010011001111
-0xd4d0 // Branch { cond: 4, imm: 208, immx: 255 } 0b1101010011010000
-0xd4d1 // Branch { cond: 4, imm: 209, immx: 255 } 0b1101010011010001
-0xd4d2 // Branch { cond: 4, imm: 210, immx: 255 } 0b1101010011010010
-0xd4d3 // Branch { cond: 4, imm: 211, immx: 255 } 0b1101010011010011
-0xd4d4 // Branch { cond: 4, imm: 212, immx: 255 } 0b1101010011010100
-0xd4d5 // Branch { cond: 4, imm: 213, immx: 255 } 0b1101010011010101
-0xd4d6 // Branch { cond: 4, imm: 214, immx: 255 } 0b1101010011010110
-0xd4d7 // Branch { cond: 4, imm: 215, immx: 255 } 0b1101010011010111
-0xd4d8 // Branch { cond: 4, imm: 216, immx: 255 } 0b1101010011011000
-0xd4d9 // Branch { cond: 4, imm: 217, immx: 255 } 0b1101010011011001
-0xd4da // Branch { cond: 4, imm: 218, immx: 255 } 0b1101010011011010
-0xd4db // Branch { cond: 4, imm: 219, immx: 255 } 0b1101010011011011
-0xd4dc // Branch { cond: 4, imm: 220, immx: 255 } 0b1101010011011100
-0xd4dd // Branch { cond: 4, imm: 221, immx: 255 } 0b1101010011011101
-0xd4de // Branch { cond: 4, imm: 222, immx: 255 } 0b1101010011011110
-0xd4df // Branch { cond: 4, imm: 223, immx: 255 } 0b1101010011011111
-0xd4e0 // Branch { cond: 4, imm: 224, immx: 255 } 0b1101010011100000
-0xd4e1 // Branch { cond: 4, imm: 225, immx: 255 } 0b1101010011100001
-0xd4e2 // Branch { cond: 4, imm: 226, immx: 255 } 0b1101010011100010
-0xd4e3 // Branch { cond: 4, imm: 227, immx: 255 } 0b1101010011100011
-0xd4e4 // Branch { cond: 4, imm: 228, immx: 255 } 0b1101010011100100
-0xd4e5 // Branch { cond: 4, imm: 229, immx: 255 } 0b1101010011100101
-0xd4e6 // Branch { cond: 4, imm: 230, immx: 255 } 0b1101010011100110
-0xd4e7 // Branch { cond: 4, imm: 231, immx: 255 } 0b1101010011100111
-0xd4e8 // Branch { cond: 4, imm: 232, immx: 255 } 0b1101010011101000
-0xd4e9 // Branch { cond: 4, imm: 233, immx: 255 } 0b1101010011101001
-0xd4ea // Branch { cond: 4, imm: 234, immx: 255 } 0b1101010011101010
-0xd4eb // Branch { cond: 4, imm: 235, immx: 255 } 0b1101010011101011
-0xd4ec // Branch { cond: 4, imm: 236, immx: 255 } 0b1101010011101100
-0xd4ed // Branch { cond: 4, imm: 237, immx: 255 } 0b1101010011101101
-0xd4ee // Branch { cond: 4, imm: 238, immx: 255 } 0b1101010011101110
-0xd4ef // Branch { cond: 4, imm: 239, immx: 255 } 0b1101010011101111
-0xd4f0 // Branch { cond: 4, imm: 240, immx: 255 } 0b1101010011110000
-0xd4f1 // Branch { cond: 4, imm: 241, immx: 255 } 0b1101010011110001
-0xd4f2 // Branch { cond: 4, imm: 242, immx: 255 } 0b1101010011110010
-0xd4f3 // Branch { cond: 4, imm: 243, immx: 255 } 0b1101010011110011
-0xd4f4 // Branch { cond: 4, imm: 244, immx: 255 } 0b1101010011110100
-0xd4f5 // Branch { cond: 4, imm: 245, immx: 255 } 0b1101010011110101
-0xd4f6 // Branch { cond: 4, imm: 246, immx: 255 } 0b1101010011110110
-0xd4f7 // Branch { cond: 4, imm: 247, immx: 255 } 0b1101010011110111
-0xd4f8 // Branch { cond: 4, imm: 248, immx: 255 } 0b1101010011111000
-0xd4f9 // Branch { cond: 4, imm: 249, immx: 255 } 0b1101010011111001
-0xd4fa // Branch { cond: 4, imm: 250, immx: 255 } 0b1101010011111010
-0xd4fb // Branch { cond: 4, imm: 251, immx: 255 } 0b1101010011111011
-0xd4fc // Branch { cond: 4, imm: 252, immx: 255 } 0b1101010011111100
-0xd4fd // Branch { cond: 4, imm: 253, immx: 255 } 0b1101010011111101
-0xd4fe // Branch { cond: 4, imm: 254, immx: 255 } 0b1101010011111110
-0xd4ff // Branch { cond: 4, imm: 255, immx: 255 } 0b1101010011111111
-0xd500 // Branch { cond: 5, imm: 0, immx: 255 } 0b1101010100000000
-0xd501 // Branch { cond: 5, imm: 1, immx: 255 } 0b1101010100000001
-0xd502 // Branch { cond: 5, imm: 2, immx: 255 } 0b1101010100000010
-0xd503 // Branch { cond: 5, imm: 3, immx: 255 } 0b1101010100000011
-0xd504 // Branch { cond: 5, imm: 4, immx: 255 } 0b1101010100000100
-0xd505 // Branch { cond: 5, imm: 5, immx: 255 } 0b1101010100000101
-0xd506 // Branch { cond: 5, imm: 6, immx: 255 } 0b1101010100000110
-0xd507 // Branch { cond: 5, imm: 7, immx: 255 } 0b1101010100000111
-0xd508 // Branch { cond: 5, imm: 8, immx: 255 } 0b1101010100001000
-0xd509 // Branch { cond: 5, imm: 9, immx: 255 } 0b1101010100001001
-0xd50a // Branch { cond: 5, imm: 10, immx: 255 } 0b1101010100001010
-0xd50b // Branch { cond: 5, imm: 11, immx: 255 } 0b1101010100001011
-0xd50c // Branch { cond: 5, imm: 12, immx: 255 } 0b1101010100001100
-0xd50d // Branch { cond: 5, imm: 13, immx: 255 } 0b1101010100001101
-0xd50e // Branch { cond: 5, imm: 14, immx: 255 } 0b1101010100001110
-0xd50f // Branch { cond: 5, imm: 15, immx: 255 } 0b1101010100001111
-0xd510 // Branch { cond: 5, imm: 16, immx: 255 } 0b1101010100010000
-0xd511 // Branch { cond: 5, imm: 17, immx: 255 } 0b1101010100010001
-0xd512 // Branch { cond: 5, imm: 18, immx: 255 } 0b1101010100010010
-0xd513 // Branch { cond: 5, imm: 19, immx: 255 } 0b1101010100010011
-0xd514 // Branch { cond: 5, imm: 20, immx: 255 } 0b1101010100010100
-0xd515 // Branch { cond: 5, imm: 21, immx: 255 } 0b1101010100010101
-0xd516 // Branch { cond: 5, imm: 22, immx: 255 } 0b1101010100010110
-0xd517 // Branch { cond: 5, imm: 23, immx: 255 } 0b1101010100010111
-0xd518 // Branch { cond: 5, imm: 24, immx: 255 } 0b1101010100011000
-0xd519 // Branch { cond: 5, imm: 25, immx: 255 } 0b1101010100011001
-0xd51a // Branch { cond: 5, imm: 26, immx: 255 } 0b1101010100011010
-0xd51b // Branch { cond: 5, imm: 27, immx: 255 } 0b1101010100011011
-0xd51c // Branch { cond: 5, imm: 28, immx: 255 } 0b1101010100011100
-0xd51d // Branch { cond: 5, imm: 29, immx: 255 } 0b1101010100011101
-0xd51e // Branch { cond: 5, imm: 30, immx: 255 } 0b1101010100011110
-0xd51f // Branch { cond: 5, imm: 31, immx: 255 } 0b1101010100011111
-0xd520 // Branch { cond: 5, imm: 32, immx: 255 } 0b1101010100100000
-0xd521 // Branch { cond: 5, imm: 33, immx: 255 } 0b1101010100100001
-0xd522 // Branch { cond: 5, imm: 34, immx: 255 } 0b1101010100100010
-0xd523 // Branch { cond: 5, imm: 35, immx: 255 } 0b1101010100100011
-0xd524 // Branch { cond: 5, imm: 36, immx: 255 } 0b1101010100100100
-0xd525 // Branch { cond: 5, imm: 37, immx: 255 } 0b1101010100100101
-0xd526 // Branch { cond: 5, imm: 38, immx: 255 } 0b1101010100100110
-0xd527 // Branch { cond: 5, imm: 39, immx: 255 } 0b1101010100100111
-0xd528 // Branch { cond: 5, imm: 40, immx: 255 } 0b1101010100101000
-0xd529 // Branch { cond: 5, imm: 41, immx: 255 } 0b1101010100101001
-0xd52a // Branch { cond: 5, imm: 42, immx: 255 } 0b1101010100101010
-0xd52b // Branch { cond: 5, imm: 43, immx: 255 } 0b1101010100101011
-0xd52c // Branch { cond: 5, imm: 44, immx: 255 } 0b1101010100101100
-0xd52d // Branch { cond: 5, imm: 45, immx: 255 } 0b1101010100101101
-0xd52e // Branch { cond: 5, imm: 46, immx: 255 } 0b1101010100101110
-0xd52f // Branch { cond: 5, imm: 47, immx: 255 } 0b1101010100101111
-0xd530 // Branch { cond: 5, imm: 48, immx: 255 } 0b1101010100110000
-0xd531 // Branch { cond: 5, imm: 49, immx: 255 } 0b1101010100110001
-0xd532 // Branch { cond: 5, imm: 50, immx: 255 } 0b1101010100110010
-0xd533 // Branch { cond: 5, imm: 51, immx: 255 } 0b1101010100110011
-0xd534 // Branch { cond: 5, imm: 52, immx: 255 } 0b1101010100110100
-0xd535 // Branch { cond: 5, imm: 53, immx: 255 } 0b1101010100110101
-0xd536 // Branch { cond: 5, imm: 54, immx: 255 } 0b1101010100110110
-0xd537 // Branch { cond: 5, imm: 55, immx: 255 } 0b1101010100110111
-0xd538 // Branch { cond: 5, imm: 56, immx: 255 } 0b1101010100111000
-0xd539 // Branch { cond: 5, imm: 57, immx: 255 } 0b1101010100111001
-0xd53a // Branch { cond: 5, imm: 58, immx: 255 } 0b1101010100111010
-0xd53b // Branch { cond: 5, imm: 59, immx: 255 } 0b1101010100111011
-0xd53c // Branch { cond: 5, imm: 60, immx: 255 } 0b1101010100111100
-0xd53d // Branch { cond: 5, imm: 61, immx: 255 } 0b1101010100111101
-0xd53e // Branch { cond: 5, imm: 62, immx: 255 } 0b1101010100111110
-0xd53f // Branch { cond: 5, imm: 63, immx: 255 } 0b1101010100111111
-0xd540 // Branch { cond: 5, imm: 64, immx: 255 } 0b1101010101000000
-0xd541 // Branch { cond: 5, imm: 65, immx: 255 } 0b1101010101000001
-0xd542 // Branch { cond: 5, imm: 66, immx: 255 } 0b1101010101000010
-0xd543 // Branch { cond: 5, imm: 67, immx: 255 } 0b1101010101000011
-0xd544 // Branch { cond: 5, imm: 68, immx: 255 } 0b1101010101000100
-0xd545 // Branch { cond: 5, imm: 69, immx: 255 } 0b1101010101000101
-0xd546 // Branch { cond: 5, imm: 70, immx: 255 } 0b1101010101000110
-0xd547 // Branch { cond: 5, imm: 71, immx: 255 } 0b1101010101000111
-0xd548 // Branch { cond: 5, imm: 72, immx: 255 } 0b1101010101001000
-0xd549 // Branch { cond: 5, imm: 73, immx: 255 } 0b1101010101001001
-0xd54a // Branch { cond: 5, imm: 74, immx: 255 } 0b1101010101001010
-0xd54b // Branch { cond: 5, imm: 75, immx: 255 } 0b1101010101001011
-0xd54c // Branch { cond: 5, imm: 76, immx: 255 } 0b1101010101001100
-0xd54d // Branch { cond: 5, imm: 77, immx: 255 } 0b1101010101001101
-0xd54e // Branch { cond: 5, imm: 78, immx: 255 } 0b1101010101001110
-0xd54f // Branch { cond: 5, imm: 79, immx: 255 } 0b1101010101001111
-0xd550 // Branch { cond: 5, imm: 80, immx: 255 } 0b1101010101010000
-0xd551 // Branch { cond: 5, imm: 81, immx: 255 } 0b1101010101010001
-0xd552 // Branch { cond: 5, imm: 82, immx: 255 } 0b1101010101010010
-0xd553 // Branch { cond: 5, imm: 83, immx: 255 } 0b1101010101010011
-0xd554 // Branch { cond: 5, imm: 84, immx: 255 } 0b1101010101010100
-0xd555 // Branch { cond: 5, imm: 85, immx: 255 } 0b1101010101010101
-0xd556 // Branch { cond: 5, imm: 86, immx: 255 } 0b1101010101010110
-0xd557 // Branch { cond: 5, imm: 87, immx: 255 } 0b1101010101010111
-0xd558 // Branch { cond: 5, imm: 88, immx: 255 } 0b1101010101011000
-0xd559 // Branch { cond: 5, imm: 89, immx: 255 } 0b1101010101011001
-0xd55a // Branch { cond: 5, imm: 90, immx: 255 } 0b1101010101011010
-0xd55b // Branch { cond: 5, imm: 91, immx: 255 } 0b1101010101011011
-0xd55c // Branch { cond: 5, imm: 92, immx: 255 } 0b1101010101011100
-0xd55d // Branch { cond: 5, imm: 93, immx: 255 } 0b1101010101011101
-0xd55e // Branch { cond: 5, imm: 94, immx: 255 } 0b1101010101011110
-0xd55f // Branch { cond: 5, imm: 95, immx: 255 } 0b1101010101011111
-0xd560 // Branch { cond: 5, imm: 96, immx: 255 } 0b1101010101100000
-0xd561 // Branch { cond: 5, imm: 97, immx: 255 } 0b1101010101100001
-0xd562 // Branch { cond: 5, imm: 98, immx: 255 } 0b1101010101100010
-0xd563 // Branch { cond: 5, imm: 99, immx: 255 } 0b1101010101100011
-0xd564 // Branch { cond: 5, imm: 100, immx: 255 } 0b1101010101100100
-0xd565 // Branch { cond: 5, imm: 101, immx: 255 } 0b1101010101100101
-0xd566 // Branch { cond: 5, imm: 102, immx: 255 } 0b1101010101100110
-0xd567 // Branch { cond: 5, imm: 103, immx: 255 } 0b1101010101100111
-0xd568 // Branch { cond: 5, imm: 104, immx: 255 } 0b1101010101101000
-0xd569 // Branch { cond: 5, imm: 105, immx: 255 } 0b1101010101101001
-0xd56a // Branch { cond: 5, imm: 106, immx: 255 } 0b1101010101101010
-0xd56b // Branch { cond: 5, imm: 107, immx: 255 } 0b1101010101101011
-0xd56c // Branch { cond: 5, imm: 108, immx: 255 } 0b1101010101101100
-0xd56d // Branch { cond: 5, imm: 109, immx: 255 } 0b1101010101101101
-0xd56e // Branch { cond: 5, imm: 110, immx: 255 } 0b1101010101101110
-0xd56f // Branch { cond: 5, imm: 111, immx: 255 } 0b1101010101101111
-0xd570 // Branch { cond: 5, imm: 112, immx: 255 } 0b1101010101110000
-0xd571 // Branch { cond: 5, imm: 113, immx: 255 } 0b1101010101110001
-0xd572 // Branch { cond: 5, imm: 114, immx: 255 } 0b1101010101110010
-0xd573 // Branch { cond: 5, imm: 115, immx: 255 } 0b1101010101110011
-0xd574 // Branch { cond: 5, imm: 116, immx: 255 } 0b1101010101110100
-0xd575 // Branch { cond: 5, imm: 117, immx: 255 } 0b1101010101110101
-0xd576 // Branch { cond: 5, imm: 118, immx: 255 } 0b1101010101110110
-0xd577 // Branch { cond: 5, imm: 119, immx: 255 } 0b1101010101110111
-0xd578 // Branch { cond: 5, imm: 120, immx: 255 } 0b1101010101111000
-0xd579 // Branch { cond: 5, imm: 121, immx: 255 } 0b1101010101111001
-0xd57a // Branch { cond: 5, imm: 122, immx: 255 } 0b1101010101111010
-0xd57b // Branch { cond: 5, imm: 123, immx: 255 } 0b1101010101111011
-0xd57c // Branch { cond: 5, imm: 124, immx: 255 } 0b1101010101111100
-0xd57d // Branch { cond: 5, imm: 125, immx: 255 } 0b1101010101111101
-0xd57e // Branch { cond: 5, imm: 126, immx: 255 } 0b1101010101111110
-0xd57f // Branch { cond: 5, imm: 127, immx: 255 } 0b1101010101111111
-0xd580 // Branch { cond: 5, imm: 128, immx: 255 } 0b1101010110000000
-0xd581 // Branch { cond: 5, imm: 129, immx: 255 } 0b1101010110000001
-0xd582 // Branch { cond: 5, imm: 130, immx: 255 } 0b1101010110000010
-0xd583 // Branch { cond: 5, imm: 131, immx: 255 } 0b1101010110000011
-0xd584 // Branch { cond: 5, imm: 132, immx: 255 } 0b1101010110000100
-0xd585 // Branch { cond: 5, imm: 133, immx: 255 } 0b1101010110000101
-0xd586 // Branch { cond: 5, imm: 134, immx: 255 } 0b1101010110000110
-0xd587 // Branch { cond: 5, imm: 135, immx: 255 } 0b1101010110000111
-0xd588 // Branch { cond: 5, imm: 136, immx: 255 } 0b1101010110001000
-0xd589 // Branch { cond: 5, imm: 137, immx: 255 } 0b1101010110001001
-0xd58a // Branch { cond: 5, imm: 138, immx: 255 } 0b1101010110001010
-0xd58b // Branch { cond: 5, imm: 139, immx: 255 } 0b1101010110001011
-0xd58c // Branch { cond: 5, imm: 140, immx: 255 } 0b1101010110001100
-0xd58d // Branch { cond: 5, imm: 141, immx: 255 } 0b1101010110001101
-0xd58e // Branch { cond: 5, imm: 142, immx: 255 } 0b1101010110001110
-0xd58f // Branch { cond: 5, imm: 143, immx: 255 } 0b1101010110001111
-0xd590 // Branch { cond: 5, imm: 144, immx: 255 } 0b1101010110010000
-0xd591 // Branch { cond: 5, imm: 145, immx: 255 } 0b1101010110010001
-0xd592 // Branch { cond: 5, imm: 146, immx: 255 } 0b1101010110010010
-0xd593 // Branch { cond: 5, imm: 147, immx: 255 } 0b1101010110010011
-0xd594 // Branch { cond: 5, imm: 148, immx: 255 } 0b1101010110010100
-0xd595 // Branch { cond: 5, imm: 149, immx: 255 } 0b1101010110010101
-0xd596 // Branch { cond: 5, imm: 150, immx: 255 } 0b1101010110010110
-0xd597 // Branch { cond: 5, imm: 151, immx: 255 } 0b1101010110010111
-0xd598 // Branch { cond: 5, imm: 152, immx: 255 } 0b1101010110011000
-0xd599 // Branch { cond: 5, imm: 153, immx: 255 } 0b1101010110011001
-0xd59a // Branch { cond: 5, imm: 154, immx: 255 } 0b1101010110011010
-0xd59b // Branch { cond: 5, imm: 155, immx: 255 } 0b1101010110011011
-0xd59c // Branch { cond: 5, imm: 156, immx: 255 } 0b1101010110011100
-0xd59d // Branch { cond: 5, imm: 157, immx: 255 } 0b1101010110011101
-0xd59e // Branch { cond: 5, imm: 158, immx: 255 } 0b1101010110011110
-0xd59f // Branch { cond: 5, imm: 159, immx: 255 } 0b1101010110011111
-0xd5a0 // Branch { cond: 5, imm: 160, immx: 255 } 0b1101010110100000
-0xd5a1 // Branch { cond: 5, imm: 161, immx: 255 } 0b1101010110100001
-0xd5a2 // Branch { cond: 5, imm: 162, immx: 255 } 0b1101010110100010
-0xd5a3 // Branch { cond: 5, imm: 163, immx: 255 } 0b1101010110100011
-0xd5a4 // Branch { cond: 5, imm: 164, immx: 255 } 0b1101010110100100
-0xd5a5 // Branch { cond: 5, imm: 165, immx: 255 } 0b1101010110100101
-0xd5a6 // Branch { cond: 5, imm: 166, immx: 255 } 0b1101010110100110
-0xd5a7 // Branch { cond: 5, imm: 167, immx: 255 } 0b1101010110100111
-0xd5a8 // Branch { cond: 5, imm: 168, immx: 255 } 0b1101010110101000
-0xd5a9 // Branch { cond: 5, imm: 169, immx: 255 } 0b1101010110101001
-0xd5aa // Branch { cond: 5, imm: 170, immx: 255 } 0b1101010110101010
-0xd5ab // Branch { cond: 5, imm: 171, immx: 255 } 0b1101010110101011
-0xd5ac // Branch { cond: 5, imm: 172, immx: 255 } 0b1101010110101100
-0xd5ad // Branch { cond: 5, imm: 173, immx: 255 } 0b1101010110101101
-0xd5ae // Branch { cond: 5, imm: 174, immx: 255 } 0b1101010110101110
-0xd5af // Branch { cond: 5, imm: 175, immx: 255 } 0b1101010110101111
-0xd5b0 // Branch { cond: 5, imm: 176, immx: 255 } 0b1101010110110000
-0xd5b1 // Branch { cond: 5, imm: 177, immx: 255 } 0b1101010110110001
-0xd5b2 // Branch { cond: 5, imm: 178, immx: 255 } 0b1101010110110010
-0xd5b3 // Branch { cond: 5, imm: 179, immx: 255 } 0b1101010110110011
-0xd5b4 // Branch { cond: 5, imm: 180, immx: 255 } 0b1101010110110100
-0xd5b5 // Branch { cond: 5, imm: 181, immx: 255 } 0b1101010110110101
-0xd5b6 // Branch { cond: 5, imm: 182, immx: 255 } 0b1101010110110110
-0xd5b7 // Branch { cond: 5, imm: 183, immx: 255 } 0b1101010110110111
-0xd5b8 // Branch { cond: 5, imm: 184, immx: 255 } 0b1101010110111000
-0xd5b9 // Branch { cond: 5, imm: 185, immx: 255 } 0b1101010110111001
-0xd5ba // Branch { cond: 5, imm: 186, immx: 255 } 0b1101010110111010
-0xd5bb // Branch { cond: 5, imm: 187, immx: 255 } 0b1101010110111011
-0xd5bc // Branch { cond: 5, imm: 188, immx: 255 } 0b1101010110111100
-0xd5bd // Branch { cond: 5, imm: 189, immx: 255 } 0b1101010110111101
-0xd5be // Branch { cond: 5, imm: 190, immx: 255 } 0b1101010110111110
-0xd5bf // Branch { cond: 5, imm: 191, immx: 255 } 0b1101010110111111
-0xd5c0 // Branch { cond: 5, imm: 192, immx: 255 } 0b1101010111000000
-0xd5c1 // Branch { cond: 5, imm: 193, immx: 255 } 0b1101010111000001
-0xd5c2 // Branch { cond: 5, imm: 194, immx: 255 } 0b1101010111000010
-0xd5c3 // Branch { cond: 5, imm: 195, immx: 255 } 0b1101010111000011
-0xd5c4 // Branch { cond: 5, imm: 196, immx: 255 } 0b1101010111000100
-0xd5c5 // Branch { cond: 5, imm: 197, immx: 255 } 0b1101010111000101
-0xd5c6 // Branch { cond: 5, imm: 198, immx: 255 } 0b1101010111000110
-0xd5c7 // Branch { cond: 5, imm: 199, immx: 255 } 0b1101010111000111
-0xd5c8 // Branch { cond: 5, imm: 200, immx: 255 } 0b1101010111001000
-0xd5c9 // Branch { cond: 5, imm: 201, immx: 255 } 0b1101010111001001
-0xd5ca // Branch { cond: 5, imm: 202, immx: 255 } 0b1101010111001010
-0xd5cb // Branch { cond: 5, imm: 203, immx: 255 } 0b1101010111001011
-0xd5cc // Branch { cond: 5, imm: 204, immx: 255 } 0b1101010111001100
-0xd5cd // Branch { cond: 5, imm: 205, immx: 255 } 0b1101010111001101
-0xd5ce // Branch { cond: 5, imm: 206, immx: 255 } 0b1101010111001110
-0xd5cf // Branch { cond: 5, imm: 207, immx: 255 } 0b1101010111001111
-0xd5d0 // Branch { cond: 5, imm: 208, immx: 255 } 0b1101010111010000
-0xd5d1 // Branch { cond: 5, imm: 209, immx: 255 } 0b1101010111010001
-0xd5d2 // Branch { cond: 5, imm: 210, immx: 255 } 0b1101010111010010
-0xd5d3 // Branch { cond: 5, imm: 211, immx: 255 } 0b1101010111010011
-0xd5d4 // Branch { cond: 5, imm: 212, immx: 255 } 0b1101010111010100
-0xd5d5 // Branch { cond: 5, imm: 213, immx: 255 } 0b1101010111010101
-0xd5d6 // Branch { cond: 5, imm: 214, immx: 255 } 0b1101010111010110
-0xd5d7 // Branch { cond: 5, imm: 215, immx: 255 } 0b1101010111010111
-0xd5d8 // Branch { cond: 5, imm: 216, immx: 255 } 0b1101010111011000
-0xd5d9 // Branch { cond: 5, imm: 217, immx: 255 } 0b1101010111011001
-0xd5da // Branch { cond: 5, imm: 218, immx: 255 } 0b1101010111011010
-0xd5db // Branch { cond: 5, imm: 219, immx: 255 } 0b1101010111011011
-0xd5dc // Branch { cond: 5, imm: 220, immx: 255 } 0b1101010111011100
-0xd5dd // Branch { cond: 5, imm: 221, immx: 255 } 0b1101010111011101
-0xd5de // Branch { cond: 5, imm: 222, immx: 255 } 0b1101010111011110
-0xd5df // Branch { cond: 5, imm: 223, immx: 255 } 0b1101010111011111
-0xd5e0 // Branch { cond: 5, imm: 224, immx: 255 } 0b1101010111100000
-0xd5e1 // Branch { cond: 5, imm: 225, immx: 255 } 0b1101010111100001
-0xd5e2 // Branch { cond: 5, imm: 226, immx: 255 } 0b1101010111100010
-0xd5e3 // Branch { cond: 5, imm: 227, immx: 255 } 0b1101010111100011
-0xd5e4 // Branch { cond: 5, imm: 228, immx: 255 } 0b1101010111100100
-0xd5e5 // Branch { cond: 5, imm: 229, immx: 255 } 0b1101010111100101
-0xd5e6 // Branch { cond: 5, imm: 230, immx: 255 } 0b1101010111100110
-0xd5e7 // Branch { cond: 5, imm: 231, immx: 255 } 0b1101010111100111
-0xd5e8 // Branch { cond: 5, imm: 232, immx: 255 } 0b1101010111101000
-0xd5e9 // Branch { cond: 5, imm: 233, immx: 255 } 0b1101010111101001
-0xd5ea // Branch { cond: 5, imm: 234, immx: 255 } 0b1101010111101010
-0xd5eb // Branch { cond: 5, imm: 235, immx: 255 } 0b1101010111101011
-0xd5ec // Branch { cond: 5, imm: 236, immx: 255 } 0b1101010111101100
-0xd5ed // Branch { cond: 5, imm: 237, immx: 255 } 0b1101010111101101
-0xd5ee // Branch { cond: 5, imm: 238, immx: 255 } 0b1101010111101110
-0xd5ef // Branch { cond: 5, imm: 239, immx: 255 } 0b1101010111101111
-0xd5f0 // Branch { cond: 5, imm: 240, immx: 255 } 0b1101010111110000
-0xd5f1 // Branch { cond: 5, imm: 241, immx: 255 } 0b1101010111110001
-0xd5f2 // Branch { cond: 5, imm: 242, immx: 255 } 0b1101010111110010
-0xd5f3 // Branch { cond: 5, imm: 243, immx: 255 } 0b1101010111110011
-0xd5f4 // Branch { cond: 5, imm: 244, immx: 255 } 0b1101010111110100
-0xd5f5 // Branch { cond: 5, imm: 245, immx: 255 } 0b1101010111110101
-0xd5f6 // Branch { cond: 5, imm: 246, immx: 255 } 0b1101010111110110
-0xd5f7 // Branch { cond: 5, imm: 247, immx: 255 } 0b1101010111110111
-0xd5f8 // Branch { cond: 5, imm: 248, immx: 255 } 0b1101010111111000
-0xd5f9 // Branch { cond: 5, imm: 249, immx: 255 } 0b1101010111111001
-0xd5fa // Branch { cond: 5, imm: 250, immx: 255 } 0b1101010111111010
-0xd5fb // Branch { cond: 5, imm: 251, immx: 255 } 0b1101010111111011
-0xd5fc // Branch { cond: 5, imm: 252, immx: 255 } 0b1101010111111100
-0xd5fd // Branch { cond: 5, imm: 253, immx: 255 } 0b1101010111111101
-0xd5fe // Branch { cond: 5, imm: 254, immx: 255 } 0b1101010111111110
-0xd5ff // Branch { cond: 5, imm: 255, immx: 255 } 0b1101010111111111
-0xd600 // Branch { cond: 6, imm: 0, immx: 255 } 0b1101011000000000
-0xd601 // Branch { cond: 6, imm: 1, immx: 255 } 0b1101011000000001
-0xd602 // Branch { cond: 6, imm: 2, immx: 255 } 0b1101011000000010
-0xd603 // Branch { cond: 6, imm: 3, immx: 255 } 0b1101011000000011
-0xd604 // Branch { cond: 6, imm: 4, immx: 255 } 0b1101011000000100
-0xd605 // Branch { cond: 6, imm: 5, immx: 255 } 0b1101011000000101
-0xd606 // Branch { cond: 6, imm: 6, immx: 255 } 0b1101011000000110
-0xd607 // Branch { cond: 6, imm: 7, immx: 255 } 0b1101011000000111
-0xd608 // Branch { cond: 6, imm: 8, immx: 255 } 0b1101011000001000
-0xd609 // Branch { cond: 6, imm: 9, immx: 255 } 0b1101011000001001
-0xd60a // Branch { cond: 6, imm: 10, immx: 255 } 0b1101011000001010
-0xd60b // Branch { cond: 6, imm: 11, immx: 255 } 0b1101011000001011
-0xd60c // Branch { cond: 6, imm: 12, immx: 255 } 0b1101011000001100
-0xd60d // Branch { cond: 6, imm: 13, immx: 255 } 0b1101011000001101
-0xd60e // Branch { cond: 6, imm: 14, immx: 255 } 0b1101011000001110
-0xd60f // Branch { cond: 6, imm: 15, immx: 255 } 0b1101011000001111
-0xd610 // Branch { cond: 6, imm: 16, immx: 255 } 0b1101011000010000
-0xd611 // Branch { cond: 6, imm: 17, immx: 255 } 0b1101011000010001
-0xd612 // Branch { cond: 6, imm: 18, immx: 255 } 0b1101011000010010
-0xd613 // Branch { cond: 6, imm: 19, immx: 255 } 0b1101011000010011
-0xd614 // Branch { cond: 6, imm: 20, immx: 255 } 0b1101011000010100
-0xd615 // Branch { cond: 6, imm: 21, immx: 255 } 0b1101011000010101
-0xd616 // Branch { cond: 6, imm: 22, immx: 255 } 0b1101011000010110
-0xd617 // Branch { cond: 6, imm: 23, immx: 255 } 0b1101011000010111
-0xd618 // Branch { cond: 6, imm: 24, immx: 255 } 0b1101011000011000
-0xd619 // Branch { cond: 6, imm: 25, immx: 255 } 0b1101011000011001
-0xd61a // Branch { cond: 6, imm: 26, immx: 255 } 0b1101011000011010
-0xd61b // Branch { cond: 6, imm: 27, immx: 255 } 0b1101011000011011
-0xd61c // Branch { cond: 6, imm: 28, immx: 255 } 0b1101011000011100
-0xd61d // Branch { cond: 6, imm: 29, immx: 255 } 0b1101011000011101
-0xd61e // Branch { cond: 6, imm: 30, immx: 255 } 0b1101011000011110
-0xd61f // Branch { cond: 6, imm: 31, immx: 255 } 0b1101011000011111
-0xd620 // Branch { cond: 6, imm: 32, immx: 255 } 0b1101011000100000
-0xd621 // Branch { cond: 6, imm: 33, immx: 255 } 0b1101011000100001
-0xd622 // Branch { cond: 6, imm: 34, immx: 255 } 0b1101011000100010
-0xd623 // Branch { cond: 6, imm: 35, immx: 255 } 0b1101011000100011
-0xd624 // Branch { cond: 6, imm: 36, immx: 255 } 0b1101011000100100
-0xd625 // Branch { cond: 6, imm: 37, immx: 255 } 0b1101011000100101
-0xd626 // Branch { cond: 6, imm: 38, immx: 255 } 0b1101011000100110
-0xd627 // Branch { cond: 6, imm: 39, immx: 255 } 0b1101011000100111
-0xd628 // Branch { cond: 6, imm: 40, immx: 255 } 0b1101011000101000
-0xd629 // Branch { cond: 6, imm: 41, immx: 255 } 0b1101011000101001
-0xd62a // Branch { cond: 6, imm: 42, immx: 255 } 0b1101011000101010
-0xd62b // Branch { cond: 6, imm: 43, immx: 255 } 0b1101011000101011
-0xd62c // Branch { cond: 6, imm: 44, immx: 255 } 0b1101011000101100
-0xd62d // Branch { cond: 6, imm: 45, immx: 255 } 0b1101011000101101
-0xd62e // Branch { cond: 6, imm: 46, immx: 255 } 0b1101011000101110
-0xd62f // Branch { cond: 6, imm: 47, immx: 255 } 0b1101011000101111
-0xd630 // Branch { cond: 6, imm: 48, immx: 255 } 0b1101011000110000
-0xd631 // Branch { cond: 6, imm: 49, immx: 255 } 0b1101011000110001
-0xd632 // Branch { cond: 6, imm: 50, immx: 255 } 0b1101011000110010
-0xd633 // Branch { cond: 6, imm: 51, immx: 255 } 0b1101011000110011
-0xd634 // Branch { cond: 6, imm: 52, immx: 255 } 0b1101011000110100
-0xd635 // Branch { cond: 6, imm: 53, immx: 255 } 0b1101011000110101
-0xd636 // Branch { cond: 6, imm: 54, immx: 255 } 0b1101011000110110
-0xd637 // Branch { cond: 6, imm: 55, immx: 255 } 0b1101011000110111
-0xd638 // Branch { cond: 6, imm: 56, immx: 255 } 0b1101011000111000
-0xd639 // Branch { cond: 6, imm: 57, immx: 255 } 0b1101011000111001
-0xd63a // Branch { cond: 6, imm: 58, immx: 255 } 0b1101011000111010
-0xd63b // Branch { cond: 6, imm: 59, immx: 255 } 0b1101011000111011
-0xd63c // Branch { cond: 6, imm: 60, immx: 255 } 0b1101011000111100
-0xd63d // Branch { cond: 6, imm: 61, immx: 255 } 0b1101011000111101
-0xd63e // Branch { cond: 6, imm: 62, immx: 255 } 0b1101011000111110
-0xd63f // Branch { cond: 6, imm: 63, immx: 255 } 0b1101011000111111
-0xd640 // Branch { cond: 6, imm: 64, immx: 255 } 0b1101011001000000
-0xd641 // Branch { cond: 6, imm: 65, immx: 255 } 0b1101011001000001
-0xd642 // Branch { cond: 6, imm: 66, immx: 255 } 0b1101011001000010
-0xd643 // Branch { cond: 6, imm: 67, immx: 255 } 0b1101011001000011
-0xd644 // Branch { cond: 6, imm: 68, immx: 255 } 0b1101011001000100
-0xd645 // Branch { cond: 6, imm: 69, immx: 255 } 0b1101011001000101
-0xd646 // Branch { cond: 6, imm: 70, immx: 255 } 0b1101011001000110
-0xd647 // Branch { cond: 6, imm: 71, immx: 255 } 0b1101011001000111
-0xd648 // Branch { cond: 6, imm: 72, immx: 255 } 0b1101011001001000
-0xd649 // Branch { cond: 6, imm: 73, immx: 255 } 0b1101011001001001
-0xd64a // Branch { cond: 6, imm: 74, immx: 255 } 0b1101011001001010
-0xd64b // Branch { cond: 6, imm: 75, immx: 255 } 0b1101011001001011
-0xd64c // Branch { cond: 6, imm: 76, immx: 255 } 0b1101011001001100
-0xd64d // Branch { cond: 6, imm: 77, immx: 255 } 0b1101011001001101
-0xd64e // Branch { cond: 6, imm: 78, immx: 255 } 0b1101011001001110
-0xd64f // Branch { cond: 6, imm: 79, immx: 255 } 0b1101011001001111
-0xd650 // Branch { cond: 6, imm: 80, immx: 255 } 0b1101011001010000
-0xd651 // Branch { cond: 6, imm: 81, immx: 255 } 0b1101011001010001
-0xd652 // Branch { cond: 6, imm: 82, immx: 255 } 0b1101011001010010
-0xd653 // Branch { cond: 6, imm: 83, immx: 255 } 0b1101011001010011
-0xd654 // Branch { cond: 6, imm: 84, immx: 255 } 0b1101011001010100
-0xd655 // Branch { cond: 6, imm: 85, immx: 255 } 0b1101011001010101
-0xd656 // Branch { cond: 6, imm: 86, immx: 255 } 0b1101011001010110
-0xd657 // Branch { cond: 6, imm: 87, immx: 255 } 0b1101011001010111
-0xd658 // Branch { cond: 6, imm: 88, immx: 255 } 0b1101011001011000
-0xd659 // Branch { cond: 6, imm: 89, immx: 255 } 0b1101011001011001
-0xd65a // Branch { cond: 6, imm: 90, immx: 255 } 0b1101011001011010
-0xd65b // Branch { cond: 6, imm: 91, immx: 255 } 0b1101011001011011
-0xd65c // Branch { cond: 6, imm: 92, immx: 255 } 0b1101011001011100
-0xd65d // Branch { cond: 6, imm: 93, immx: 255 } 0b1101011001011101
-0xd65e // Branch { cond: 6, imm: 94, immx: 255 } 0b1101011001011110
-0xd65f // Branch { cond: 6, imm: 95, immx: 255 } 0b1101011001011111
-0xd660 // Branch { cond: 6, imm: 96, immx: 255 } 0b1101011001100000
-0xd661 // Branch { cond: 6, imm: 97, immx: 255 } 0b1101011001100001
-0xd662 // Branch { cond: 6, imm: 98, immx: 255 } 0b1101011001100010
-0xd663 // Branch { cond: 6, imm: 99, immx: 255 } 0b1101011001100011
-0xd664 // Branch { cond: 6, imm: 100, immx: 255 } 0b1101011001100100
-0xd665 // Branch { cond: 6, imm: 101, immx: 255 } 0b1101011001100101
-0xd666 // Branch { cond: 6, imm: 102, immx: 255 } 0b1101011001100110
-0xd667 // Branch { cond: 6, imm: 103, immx: 255 } 0b1101011001100111
-0xd668 // Branch { cond: 6, imm: 104, immx: 255 } 0b1101011001101000
-0xd669 // Branch { cond: 6, imm: 105, immx: 255 } 0b1101011001101001
-0xd66a // Branch { cond: 6, imm: 106, immx: 255 } 0b1101011001101010
-0xd66b // Branch { cond: 6, imm: 107, immx: 255 } 0b1101011001101011
-0xd66c // Branch { cond: 6, imm: 108, immx: 255 } 0b1101011001101100
-0xd66d // Branch { cond: 6, imm: 109, immx: 255 } 0b1101011001101101
-0xd66e // Branch { cond: 6, imm: 110, immx: 255 } 0b1101011001101110
-0xd66f // Branch { cond: 6, imm: 111, immx: 255 } 0b1101011001101111
-0xd670 // Branch { cond: 6, imm: 112, immx: 255 } 0b1101011001110000
-0xd671 // Branch { cond: 6, imm: 113, immx: 255 } 0b1101011001110001
-0xd672 // Branch { cond: 6, imm: 114, immx: 255 } 0b1101011001110010
-0xd673 // Branch { cond: 6, imm: 115, immx: 255 } 0b1101011001110011
-0xd674 // Branch { cond: 6, imm: 116, immx: 255 } 0b1101011001110100
-0xd675 // Branch { cond: 6, imm: 117, immx: 255 } 0b1101011001110101
-0xd676 // Branch { cond: 6, imm: 118, immx: 255 } 0b1101011001110110
-0xd677 // Branch { cond: 6, imm: 119, immx: 255 } 0b1101011001110111
-0xd678 // Branch { cond: 6, imm: 120, immx: 255 } 0b1101011001111000
-0xd679 // Branch { cond: 6, imm: 121, immx: 255 } 0b1101011001111001
-0xd67a // Branch { cond: 6, imm: 122, immx: 255 } 0b1101011001111010
-0xd67b // Branch { cond: 6, imm: 123, immx: 255 } 0b1101011001111011
-0xd67c // Branch { cond: 6, imm: 124, immx: 255 } 0b1101011001111100
-0xd67d // Branch { cond: 6, imm: 125, immx: 255 } 0b1101011001111101
-0xd67e // Branch { cond: 6, imm: 126, immx: 255 } 0b1101011001111110
-0xd67f // Branch { cond: 6, imm: 127, immx: 255 } 0b1101011001111111
-0xd680 // Branch { cond: 6, imm: 128, immx: 255 } 0b1101011010000000
-0xd681 // Branch { cond: 6, imm: 129, immx: 255 } 0b1101011010000001
-0xd682 // Branch { cond: 6, imm: 130, immx: 255 } 0b1101011010000010
-0xd683 // Branch { cond: 6, imm: 131, immx: 255 } 0b1101011010000011
-0xd684 // Branch { cond: 6, imm: 132, immx: 255 } 0b1101011010000100
-0xd685 // Branch { cond: 6, imm: 133, immx: 255 } 0b1101011010000101
-0xd686 // Branch { cond: 6, imm: 134, immx: 255 } 0b1101011010000110
-0xd687 // Branch { cond: 6, imm: 135, immx: 255 } 0b1101011010000111
-0xd688 // Branch { cond: 6, imm: 136, immx: 255 } 0b1101011010001000
-0xd689 // Branch { cond: 6, imm: 137, immx: 255 } 0b1101011010001001
-0xd68a // Branch { cond: 6, imm: 138, immx: 255 } 0b1101011010001010
-0xd68b // Branch { cond: 6, imm: 139, immx: 255 } 0b1101011010001011
-0xd68c // Branch { cond: 6, imm: 140, immx: 255 } 0b1101011010001100
-0xd68d // Branch { cond: 6, imm: 141, immx: 255 } 0b1101011010001101
-0xd68e // Branch { cond: 6, imm: 142, immx: 255 } 0b1101011010001110
-0xd68f // Branch { cond: 6, imm: 143, immx: 255 } 0b1101011010001111
-0xd690 // Branch { cond: 6, imm: 144, immx: 255 } 0b1101011010010000
-0xd691 // Branch { cond: 6, imm: 145, immx: 255 } 0b1101011010010001
-0xd692 // Branch { cond: 6, imm: 146, immx: 255 } 0b1101011010010010
-0xd693 // Branch { cond: 6, imm: 147, immx: 255 } 0b1101011010010011
-0xd694 // Branch { cond: 6, imm: 148, immx: 255 } 0b1101011010010100
-0xd695 // Branch { cond: 6, imm: 149, immx: 255 } 0b1101011010010101
-0xd696 // Branch { cond: 6, imm: 150, immx: 255 } 0b1101011010010110
-0xd697 // Branch { cond: 6, imm: 151, immx: 255 } 0b1101011010010111
-0xd698 // Branch { cond: 6, imm: 152, immx: 255 } 0b1101011010011000
-0xd699 // Branch { cond: 6, imm: 153, immx: 255 } 0b1101011010011001
-0xd69a // Branch { cond: 6, imm: 154, immx: 255 } 0b1101011010011010
-0xd69b // Branch { cond: 6, imm: 155, immx: 255 } 0b1101011010011011
-0xd69c // Branch { cond: 6, imm: 156, immx: 255 } 0b1101011010011100
-0xd69d // Branch { cond: 6, imm: 157, immx: 255 } 0b1101011010011101
-0xd69e // Branch { cond: 6, imm: 158, immx: 255 } 0b1101011010011110
-0xd69f // Branch { cond: 6, imm: 159, immx: 255 } 0b1101011010011111
-0xd6a0 // Branch { cond: 6, imm: 160, immx: 255 } 0b1101011010100000
-0xd6a1 // Branch { cond: 6, imm: 161, immx: 255 } 0b1101011010100001
-0xd6a2 // Branch { cond: 6, imm: 162, immx: 255 } 0b1101011010100010
-0xd6a3 // Branch { cond: 6, imm: 163, immx: 255 } 0b1101011010100011
-0xd6a4 // Branch { cond: 6, imm: 164, immx: 255 } 0b1101011010100100
-0xd6a5 // Branch { cond: 6, imm: 165, immx: 255 } 0b1101011010100101
-0xd6a6 // Branch { cond: 6, imm: 166, immx: 255 } 0b1101011010100110
-0xd6a7 // Branch { cond: 6, imm: 167, immx: 255 } 0b1101011010100111
-0xd6a8 // Branch { cond: 6, imm: 168, immx: 255 } 0b1101011010101000
-0xd6a9 // Branch { cond: 6, imm: 169, immx: 255 } 0b1101011010101001
-0xd6aa // Branch { cond: 6, imm: 170, immx: 255 } 0b1101011010101010
-0xd6ab // Branch { cond: 6, imm: 171, immx: 255 } 0b1101011010101011
-0xd6ac // Branch { cond: 6, imm: 172, immx: 255 } 0b1101011010101100
-0xd6ad // Branch { cond: 6, imm: 173, immx: 255 } 0b1101011010101101
-0xd6ae // Branch { cond: 6, imm: 174, immx: 255 } 0b1101011010101110
-0xd6af // Branch { cond: 6, imm: 175, immx: 255 } 0b1101011010101111
-0xd6b0 // Branch { cond: 6, imm: 176, immx: 255 } 0b1101011010110000
-0xd6b1 // Branch { cond: 6, imm: 177, immx: 255 } 0b1101011010110001
-0xd6b2 // Branch { cond: 6, imm: 178, immx: 255 } 0b1101011010110010
-0xd6b3 // Branch { cond: 6, imm: 179, immx: 255 } 0b1101011010110011
-0xd6b4 // Branch { cond: 6, imm: 180, immx: 255 } 0b1101011010110100
-0xd6b5 // Branch { cond: 6, imm: 181, immx: 255 } 0b1101011010110101
-0xd6b6 // Branch { cond: 6, imm: 182, immx: 255 } 0b1101011010110110
-0xd6b7 // Branch { cond: 6, imm: 183, immx: 255 } 0b1101011010110111
-0xd6b8 // Branch { cond: 6, imm: 184, immx: 255 } 0b1101011010111000
-0xd6b9 // Branch { cond: 6, imm: 185, immx: 255 } 0b1101011010111001
-0xd6ba // Branch { cond: 6, imm: 186, immx: 255 } 0b1101011010111010
-0xd6bb // Branch { cond: 6, imm: 187, immx: 255 } 0b1101011010111011
-0xd6bc // Branch { cond: 6, imm: 188, immx: 255 } 0b1101011010111100
-0xd6bd // Branch { cond: 6, imm: 189, immx: 255 } 0b1101011010111101
-0xd6be // Branch { cond: 6, imm: 190, immx: 255 } 0b1101011010111110
-0xd6bf // Branch { cond: 6, imm: 191, immx: 255 } 0b1101011010111111
-0xd6c0 // Branch { cond: 6, imm: 192, immx: 255 } 0b1101011011000000
-0xd6c1 // Branch { cond: 6, imm: 193, immx: 255 } 0b1101011011000001
-0xd6c2 // Branch { cond: 6, imm: 194, immx: 255 } 0b1101011011000010
-0xd6c3 // Branch { cond: 6, imm: 195, immx: 255 } 0b1101011011000011
-0xd6c4 // Branch { cond: 6, imm: 196, immx: 255 } 0b1101011011000100
-0xd6c5 // Branch { cond: 6, imm: 197, immx: 255 } 0b1101011011000101
-0xd6c6 // Branch { cond: 6, imm: 198, immx: 255 } 0b1101011011000110
-0xd6c7 // Branch { cond: 6, imm: 199, immx: 255 } 0b1101011011000111
-0xd6c8 // Branch { cond: 6, imm: 200, immx: 255 } 0b1101011011001000
-0xd6c9 // Branch { cond: 6, imm: 201, immx: 255 } 0b1101011011001001
-0xd6ca // Branch { cond: 6, imm: 202, immx: 255 } 0b1101011011001010
-0xd6cb // Branch { cond: 6, imm: 203, immx: 255 } 0b1101011011001011
-0xd6cc // Branch { cond: 6, imm: 204, immx: 255 } 0b1101011011001100
-0xd6cd // Branch { cond: 6, imm: 205, immx: 255 } 0b1101011011001101
-0xd6ce // Branch { cond: 6, imm: 206, immx: 255 } 0b1101011011001110
-0xd6cf // Branch { cond: 6, imm: 207, immx: 255 } 0b1101011011001111
-0xd6d0 // Branch { cond: 6, imm: 208, immx: 255 } 0b1101011011010000
-0xd6d1 // Branch { cond: 6, imm: 209, immx: 255 } 0b1101011011010001
-0xd6d2 // Branch { cond: 6, imm: 210, immx: 255 } 0b1101011011010010
-0xd6d3 // Branch { cond: 6, imm: 211, immx: 255 } 0b1101011011010011
-0xd6d4 // Branch { cond: 6, imm: 212, immx: 255 } 0b1101011011010100
-0xd6d5 // Branch { cond: 6, imm: 213, immx: 255 } 0b1101011011010101
-0xd6d6 // Branch { cond: 6, imm: 214, immx: 255 } 0b1101011011010110
-0xd6d7 // Branch { cond: 6, imm: 215, immx: 255 } 0b1101011011010111
-0xd6d8 // Branch { cond: 6, imm: 216, immx: 255 } 0b1101011011011000
-0xd6d9 // Branch { cond: 6, imm: 217, immx: 255 } 0b1101011011011001
-0xd6da // Branch { cond: 6, imm: 218, immx: 255 } 0b1101011011011010
-0xd6db // Branch { cond: 6, imm: 219, immx: 255 } 0b1101011011011011
-0xd6dc // Branch { cond: 6, imm: 220, immx: 255 } 0b1101011011011100
-0xd6dd // Branch { cond: 6, imm: 221, immx: 255 } 0b1101011011011101
-0xd6de // Branch { cond: 6, imm: 222, immx: 255 } 0b1101011011011110
-0xd6df // Branch { cond: 6, imm: 223, immx: 255 } 0b1101011011011111
-0xd6e0 // Branch { cond: 6, imm: 224, immx: 255 } 0b1101011011100000
-0xd6e1 // Branch { cond: 6, imm: 225, immx: 255 } 0b1101011011100001
-0xd6e2 // Branch { cond: 6, imm: 226, immx: 255 } 0b1101011011100010
-0xd6e3 // Branch { cond: 6, imm: 227, immx: 255 } 0b1101011011100011
-0xd6e4 // Branch { cond: 6, imm: 228, immx: 255 } 0b1101011011100100
-0xd6e5 // Branch { cond: 6, imm: 229, immx: 255 } 0b1101011011100101
-0xd6e6 // Branch { cond: 6, imm: 230, immx: 255 } 0b1101011011100110
-0xd6e7 // Branch { cond: 6, imm: 231, immx: 255 } 0b1101011011100111
-0xd6e8 // Branch { cond: 6, imm: 232, immx: 255 } 0b1101011011101000
-0xd6e9 // Branch { cond: 6, imm: 233, immx: 255 } 0b1101011011101001
-0xd6ea // Branch { cond: 6, imm: 234, immx: 255 } 0b1101011011101010
-0xd6eb // Branch { cond: 6, imm: 235, immx: 255 } 0b1101011011101011
-0xd6ec // Branch { cond: 6, imm: 236, immx: 255 } 0b1101011011101100
-0xd6ed // Branch { cond: 6, imm: 237, immx: 255 } 0b1101011011101101
-0xd6ee // Branch { cond: 6, imm: 238, immx: 255 } 0b1101011011101110
-0xd6ef // Branch { cond: 6, imm: 239, immx: 255 } 0b1101011011101111
-0xd6f0 // Branch { cond: 6, imm: 240, immx: 255 } 0b1101011011110000
-0xd6f1 // Branch { cond: 6, imm: 241, immx: 255 } 0b1101011011110001
-0xd6f2 // Branch { cond: 6, imm: 242, immx: 255 } 0b1101011011110010
-0xd6f3 // Branch { cond: 6, imm: 243, immx: 255 } 0b1101011011110011
-0xd6f4 // Branch { cond: 6, imm: 244, immx: 255 } 0b1101011011110100
-0xd6f5 // Branch { cond: 6, imm: 245, immx: 255 } 0b1101011011110101
-0xd6f6 // Branch { cond: 6, imm: 246, immx: 255 } 0b1101011011110110
-0xd6f7 // Branch { cond: 6, imm: 247, immx: 255 } 0b1101011011110111
-0xd6f8 // Branch { cond: 6, imm: 248, immx: 255 } 0b1101011011111000
-0xd6f9 // Branch { cond: 6, imm: 249, immx: 255 } 0b1101011011111001
-0xd6fa // Branch { cond: 6, imm: 250, immx: 255 } 0b1101011011111010
-0xd6fb // Branch { cond: 6, imm: 251, immx: 255 } 0b1101011011111011
-0xd6fc // Branch { cond: 6, imm: 252, immx: 255 } 0b1101011011111100
-0xd6fd // Branch { cond: 6, imm: 253, immx: 255 } 0b1101011011111101
-0xd6fe // Branch { cond: 6, imm: 254, immx: 255 } 0b1101011011111110
-0xd6ff // Branch { cond: 6, imm: 255, immx: 255 } 0b1101011011111111
-0xd700 // Branch { cond: 7, imm: 0, immx: 255 } 0b1101011100000000
-0xd701 // Branch { cond: 7, imm: 1, immx: 255 } 0b1101011100000001
-0xd702 // Branch { cond: 7, imm: 2, immx: 255 } 0b1101011100000010
-0xd703 // Branch { cond: 7, imm: 3, immx: 255 } 0b1101011100000011
-0xd704 // Branch { cond: 7, imm: 4, immx: 255 } 0b1101011100000100
-0xd705 // Branch { cond: 7, imm: 5, immx: 255 } 0b1101011100000101
-0xd706 // Branch { cond: 7, imm: 6, immx: 255 } 0b1101011100000110
-0xd707 // Branch { cond: 7, imm: 7, immx: 255 } 0b1101011100000111
-0xd708 // Branch { cond: 7, imm: 8, immx: 255 } 0b1101011100001000
-0xd709 // Branch { cond: 7, imm: 9, immx: 255 } 0b1101011100001001
-0xd70a // Branch { cond: 7, imm: 10, immx: 255 } 0b1101011100001010
-0xd70b // Branch { cond: 7, imm: 11, immx: 255 } 0b1101011100001011
-0xd70c // Branch { cond: 7, imm: 12, immx: 255 } 0b1101011100001100
-0xd70d // Branch { cond: 7, imm: 13, immx: 255 } 0b1101011100001101
-0xd70e // Branch { cond: 7, imm: 14, immx: 255 } 0b1101011100001110
-0xd70f // Branch { cond: 7, imm: 15, immx: 255 } 0b1101011100001111
-0xd710 // Branch { cond: 7, imm: 16, immx: 255 } 0b1101011100010000
-0xd711 // Branch { cond: 7, imm: 17, immx: 255 } 0b1101011100010001
-0xd712 // Branch { cond: 7, imm: 18, immx: 255 } 0b1101011100010010
-0xd713 // Branch { cond: 7, imm: 19, immx: 255 } 0b1101011100010011
-0xd714 // Branch { cond: 7, imm: 20, immx: 255 } 0b1101011100010100
-0xd715 // Branch { cond: 7, imm: 21, immx: 255 } 0b1101011100010101
-0xd716 // Branch { cond: 7, imm: 22, immx: 255 } 0b1101011100010110
-0xd717 // Branch { cond: 7, imm: 23, immx: 255 } 0b1101011100010111
-0xd718 // Branch { cond: 7, imm: 24, immx: 255 } 0b1101011100011000
-0xd719 // Branch { cond: 7, imm: 25, immx: 255 } 0b1101011100011001
-0xd71a // Branch { cond: 7, imm: 26, immx: 255 } 0b1101011100011010
-0xd71b // Branch { cond: 7, imm: 27, immx: 255 } 0b1101011100011011
-0xd71c // Branch { cond: 7, imm: 28, immx: 255 } 0b1101011100011100
-0xd71d // Branch { cond: 7, imm: 29, immx: 255 } 0b1101011100011101
-0xd71e // Branch { cond: 7, imm: 30, immx: 255 } 0b1101011100011110
-0xd71f // Branch { cond: 7, imm: 31, immx: 255 } 0b1101011100011111
-0xd720 // Branch { cond: 7, imm: 32, immx: 255 } 0b1101011100100000
-0xd721 // Branch { cond: 7, imm: 33, immx: 255 } 0b1101011100100001
-0xd722 // Branch { cond: 7, imm: 34, immx: 255 } 0b1101011100100010
-0xd723 // Branch { cond: 7, imm: 35, immx: 255 } 0b1101011100100011
-0xd724 // Branch { cond: 7, imm: 36, immx: 255 } 0b1101011100100100
-0xd725 // Branch { cond: 7, imm: 37, immx: 255 } 0b1101011100100101
-0xd726 // Branch { cond: 7, imm: 38, immx: 255 } 0b1101011100100110
-0xd727 // Branch { cond: 7, imm: 39, immx: 255 } 0b1101011100100111
-0xd728 // Branch { cond: 7, imm: 40, immx: 255 } 0b1101011100101000
-0xd729 // Branch { cond: 7, imm: 41, immx: 255 } 0b1101011100101001
-0xd72a // Branch { cond: 7, imm: 42, immx: 255 } 0b1101011100101010
-0xd72b // Branch { cond: 7, imm: 43, immx: 255 } 0b1101011100101011
-0xd72c // Branch { cond: 7, imm: 44, immx: 255 } 0b1101011100101100
-0xd72d // Branch { cond: 7, imm: 45, immx: 255 } 0b1101011100101101
-0xd72e // Branch { cond: 7, imm: 46, immx: 255 } 0b1101011100101110
-0xd72f // Branch { cond: 7, imm: 47, immx: 255 } 0b1101011100101111
-0xd730 // Branch { cond: 7, imm: 48, immx: 255 } 0b1101011100110000
-0xd731 // Branch { cond: 7, imm: 49, immx: 255 } 0b1101011100110001
-0xd732 // Branch { cond: 7, imm: 50, immx: 255 } 0b1101011100110010
-0xd733 // Branch { cond: 7, imm: 51, immx: 255 } 0b1101011100110011
-0xd734 // Branch { cond: 7, imm: 52, immx: 255 } 0b1101011100110100
-0xd735 // Branch { cond: 7, imm: 53, immx: 255 } 0b1101011100110101
-0xd736 // Branch { cond: 7, imm: 54, immx: 255 } 0b1101011100110110
-0xd737 // Branch { cond: 7, imm: 55, immx: 255 } 0b1101011100110111
-0xd738 // Branch { cond: 7, imm: 56, immx: 255 } 0b1101011100111000
-0xd739 // Branch { cond: 7, imm: 57, immx: 255 } 0b1101011100111001
-0xd73a // Branch { cond: 7, imm: 58, immx: 255 } 0b1101011100111010
-0xd73b // Branch { cond: 7, imm: 59, immx: 255 } 0b1101011100111011
-0xd73c // Branch { cond: 7, imm: 60, immx: 255 } 0b1101011100111100
-0xd73d // Branch { cond: 7, imm: 61, immx: 255 } 0b1101011100111101
-0xd73e // Branch { cond: 7, imm: 62, immx: 255 } 0b1101011100111110
-0xd73f // Branch { cond: 7, imm: 63, immx: 255 } 0b1101011100111111
-0xd740 // Branch { cond: 7, imm: 64, immx: 255 } 0b1101011101000000
-0xd741 // Branch { cond: 7, imm: 65, immx: 255 } 0b1101011101000001
-0xd742 // Branch { cond: 7, imm: 66, immx: 255 } 0b1101011101000010
-0xd743 // Branch { cond: 7, imm: 67, immx: 255 } 0b1101011101000011
-0xd744 // Branch { cond: 7, imm: 68, immx: 255 } 0b1101011101000100
-0xd745 // Branch { cond: 7, imm: 69, immx: 255 } 0b1101011101000101
-0xd746 // Branch { cond: 7, imm: 70, immx: 255 } 0b1101011101000110
-0xd747 // Branch { cond: 7, imm: 71, immx: 255 } 0b1101011101000111
-0xd748 // Branch { cond: 7, imm: 72, immx: 255 } 0b1101011101001000
-0xd749 // Branch { cond: 7, imm: 73, immx: 255 } 0b1101011101001001
-0xd74a // Branch { cond: 7, imm: 74, immx: 255 } 0b1101011101001010
-0xd74b // Branch { cond: 7, imm: 75, immx: 255 } 0b1101011101001011
-0xd74c // Branch { cond: 7, imm: 76, immx: 255 } 0b1101011101001100
-0xd74d // Branch { cond: 7, imm: 77, immx: 255 } 0b1101011101001101
-0xd74e // Branch { cond: 7, imm: 78, immx: 255 } 0b1101011101001110
-0xd74f // Branch { cond: 7, imm: 79, immx: 255 } 0b1101011101001111
-0xd750 // Branch { cond: 7, imm: 80, immx: 255 } 0b1101011101010000
-0xd751 // Branch { cond: 7, imm: 81, immx: 255 } 0b1101011101010001
-0xd752 // Branch { cond: 7, imm: 82, immx: 255 } 0b1101011101010010
-0xd753 // Branch { cond: 7, imm: 83, immx: 255 } 0b1101011101010011
-0xd754 // Branch { cond: 7, imm: 84, immx: 255 } 0b1101011101010100
-0xd755 // Branch { cond: 7, imm: 85, immx: 255 } 0b1101011101010101
-0xd756 // Branch { cond: 7, imm: 86, immx: 255 } 0b1101011101010110
-0xd757 // Branch { cond: 7, imm: 87, immx: 255 } 0b1101011101010111
-0xd758 // Branch { cond: 7, imm: 88, immx: 255 } 0b1101011101011000
-0xd759 // Branch { cond: 7, imm: 89, immx: 255 } 0b1101011101011001
-0xd75a // Branch { cond: 7, imm: 90, immx: 255 } 0b1101011101011010
-0xd75b // Branch { cond: 7, imm: 91, immx: 255 } 0b1101011101011011
-0xd75c // Branch { cond: 7, imm: 92, immx: 255 } 0b1101011101011100
-0xd75d // Branch { cond: 7, imm: 93, immx: 255 } 0b1101011101011101
-0xd75e // Branch { cond: 7, imm: 94, immx: 255 } 0b1101011101011110
-0xd75f // Branch { cond: 7, imm: 95, immx: 255 } 0b1101011101011111
-0xd760 // Branch { cond: 7, imm: 96, immx: 255 } 0b1101011101100000
-0xd761 // Branch { cond: 7, imm: 97, immx: 255 } 0b1101011101100001
-0xd762 // Branch { cond: 7, imm: 98, immx: 255 } 0b1101011101100010
-0xd763 // Branch { cond: 7, imm: 99, immx: 255 } 0b1101011101100011
-0xd764 // Branch { cond: 7, imm: 100, immx: 255 } 0b1101011101100100
-0xd765 // Branch { cond: 7, imm: 101, immx: 255 } 0b1101011101100101
-0xd766 // Branch { cond: 7, imm: 102, immx: 255 } 0b1101011101100110
-0xd767 // Branch { cond: 7, imm: 103, immx: 255 } 0b1101011101100111
-0xd768 // Branch { cond: 7, imm: 104, immx: 255 } 0b1101011101101000
-0xd769 // Branch { cond: 7, imm: 105, immx: 255 } 0b1101011101101001
-0xd76a // Branch { cond: 7, imm: 106, immx: 255 } 0b1101011101101010
-0xd76b // Branch { cond: 7, imm: 107, immx: 255 } 0b1101011101101011
-0xd76c // Branch { cond: 7, imm: 108, immx: 255 } 0b1101011101101100
-0xd76d // Branch { cond: 7, imm: 109, immx: 255 } 0b1101011101101101
-0xd76e // Branch { cond: 7, imm: 110, immx: 255 } 0b1101011101101110
-0xd76f // Branch { cond: 7, imm: 111, immx: 255 } 0b1101011101101111
-0xd770 // Branch { cond: 7, imm: 112, immx: 255 } 0b1101011101110000
-0xd771 // Branch { cond: 7, imm: 113, immx: 255 } 0b1101011101110001
-0xd772 // Branch { cond: 7, imm: 114, immx: 255 } 0b1101011101110010
-0xd773 // Branch { cond: 7, imm: 115, immx: 255 } 0b1101011101110011
-0xd774 // Branch { cond: 7, imm: 116, immx: 255 } 0b1101011101110100
-0xd775 // Branch { cond: 7, imm: 117, immx: 255 } 0b1101011101110101
-0xd776 // Branch { cond: 7, imm: 118, immx: 255 } 0b1101011101110110
-0xd777 // Branch { cond: 7, imm: 119, immx: 255 } 0b1101011101110111
-0xd778 // Branch { cond: 7, imm: 120, immx: 255 } 0b1101011101111000
-0xd779 // Branch { cond: 7, imm: 121, immx: 255 } 0b1101011101111001
-0xd77a // Branch { cond: 7, imm: 122, immx: 255 } 0b1101011101111010
-0xd77b // Branch { cond: 7, imm: 123, immx: 255 } 0b1101011101111011
-0xd77c // Branch { cond: 7, imm: 124, immx: 255 } 0b1101011101111100
-0xd77d // Branch { cond: 7, imm: 125, immx: 255 } 0b1101011101111101
-0xd77e // Branch { cond: 7, imm: 126, immx: 255 } 0b1101011101111110
-0xd77f // Branch { cond: 7, imm: 127, immx: 255 } 0b1101011101111111
-0xd780 // Branch { cond: 7, imm: 128, immx: 255 } 0b1101011110000000
-0xd781 // Branch { cond: 7, imm: 129, immx: 255 } 0b1101011110000001
-0xd782 // Branch { cond: 7, imm: 130, immx: 255 } 0b1101011110000010
-0xd783 // Branch { cond: 7, imm: 131, immx: 255 } 0b1101011110000011
-0xd784 // Branch { cond: 7, imm: 132, immx: 255 } 0b1101011110000100
-0xd785 // Branch { cond: 7, imm: 133, immx: 255 } 0b1101011110000101
-0xd786 // Branch { cond: 7, imm: 134, immx: 255 } 0b1101011110000110
-0xd787 // Branch { cond: 7, imm: 135, immx: 255 } 0b1101011110000111
-0xd788 // Branch { cond: 7, imm: 136, immx: 255 } 0b1101011110001000
-0xd789 // Branch { cond: 7, imm: 137, immx: 255 } 0b1101011110001001
-0xd78a // Branch { cond: 7, imm: 138, immx: 255 } 0b1101011110001010
-0xd78b // Branch { cond: 7, imm: 139, immx: 255 } 0b1101011110001011
-0xd78c // Branch { cond: 7, imm: 140, immx: 255 } 0b1101011110001100
-0xd78d // Branch { cond: 7, imm: 141, immx: 255 } 0b1101011110001101
-0xd78e // Branch { cond: 7, imm: 142, immx: 255 } 0b1101011110001110
-0xd78f // Branch { cond: 7, imm: 143, immx: 255 } 0b1101011110001111
-0xd790 // Branch { cond: 7, imm: 144, immx: 255 } 0b1101011110010000
-0xd791 // Branch { cond: 7, imm: 145, immx: 255 } 0b1101011110010001
-0xd792 // Branch { cond: 7, imm: 146, immx: 255 } 0b1101011110010010
-0xd793 // Branch { cond: 7, imm: 147, immx: 255 } 0b1101011110010011
-0xd794 // Branch { cond: 7, imm: 148, immx: 255 } 0b1101011110010100
-0xd795 // Branch { cond: 7, imm: 149, immx: 255 } 0b1101011110010101
-0xd796 // Branch { cond: 7, imm: 150, immx: 255 } 0b1101011110010110
-0xd797 // Branch { cond: 7, imm: 151, immx: 255 } 0b1101011110010111
-0xd798 // Branch { cond: 7, imm: 152, immx: 255 } 0b1101011110011000
-0xd799 // Branch { cond: 7, imm: 153, immx: 255 } 0b1101011110011001
-0xd79a // Branch { cond: 7, imm: 154, immx: 255 } 0b1101011110011010
-0xd79b // Branch { cond: 7, imm: 155, immx: 255 } 0b1101011110011011
-0xd79c // Branch { cond: 7, imm: 156, immx: 255 } 0b1101011110011100
-0xd79d // Branch { cond: 7, imm: 157, immx: 255 } 0b1101011110011101
-0xd79e // Branch { cond: 7, imm: 158, immx: 255 } 0b1101011110011110
-0xd79f // Branch { cond: 7, imm: 159, immx: 255 } 0b1101011110011111
-0xd7a0 // Branch { cond: 7, imm: 160, immx: 255 } 0b1101011110100000
-0xd7a1 // Branch { cond: 7, imm: 161, immx: 255 } 0b1101011110100001
-0xd7a2 // Branch { cond: 7, imm: 162, immx: 255 } 0b1101011110100010
-0xd7a3 // Branch { cond: 7, imm: 163, immx: 255 } 0b1101011110100011
-0xd7a4 // Branch { cond: 7, imm: 164, immx: 255 } 0b1101011110100100
-0xd7a5 // Branch { cond: 7, imm: 165, immx: 255 } 0b1101011110100101
-0xd7a6 // Branch { cond: 7, imm: 166, immx: 255 } 0b1101011110100110
-0xd7a7 // Branch { cond: 7, imm: 167, immx: 255 } 0b1101011110100111
-0xd7a8 // Branch { cond: 7, imm: 168, immx: 255 } 0b1101011110101000
-0xd7a9 // Branch { cond: 7, imm: 169, immx: 255 } 0b1101011110101001
-0xd7aa // Branch { cond: 7, imm: 170, immx: 255 } 0b1101011110101010
-0xd7ab // Branch { cond: 7, imm: 171, immx: 255 } 0b1101011110101011
-0xd7ac // Branch { cond: 7, imm: 172, immx: 255 } 0b1101011110101100
-0xd7ad // Branch { cond: 7, imm: 173, immx: 255 } 0b1101011110101101
-0xd7ae // Branch { cond: 7, imm: 174, immx: 255 } 0b1101011110101110
-0xd7af // Branch { cond: 7, imm: 175, immx: 255 } 0b1101011110101111
-0xd7b0 // Branch { cond: 7, imm: 176, immx: 255 } 0b1101011110110000
-0xd7b1 // Branch { cond: 7, imm: 177, immx: 255 } 0b1101011110110001
-0xd7b2 // Branch { cond: 7, imm: 178, immx: 255 } 0b1101011110110010
-0xd7b3 // Branch { cond: 7, imm: 179, immx: 255 } 0b1101011110110011
-0xd7b4 // Branch { cond: 7, imm: 180, immx: 255 } 0b1101011110110100
-0xd7b5 // Branch { cond: 7, imm: 181, immx: 255 } 0b1101011110110101
-0xd7b6 // Branch { cond: 7, imm: 182, immx: 255 } 0b1101011110110110
-0xd7b7 // Branch { cond: 7, imm: 183, immx: 255 } 0b1101011110110111
-0xd7b8 // Branch { cond: 7, imm: 184, immx: 255 } 0b1101011110111000
-0xd7b9 // Branch { cond: 7, imm: 185, immx: 255 } 0b1101011110111001
-0xd7ba // Branch { cond: 7, imm: 186, immx: 255 } 0b1101011110111010
-0xd7bb // Branch { cond: 7, imm: 187, immx: 255 } 0b1101011110111011
-0xd7bc // Branch { cond: 7, imm: 188, immx: 255 } 0b1101011110111100
-0xd7bd // Branch { cond: 7, imm: 189, immx: 255 } 0b1101011110111101
-0xd7be // Branch { cond: 7, imm: 190, immx: 255 } 0b1101011110111110
-0xd7bf // Branch { cond: 7, imm: 191, immx: 255 } 0b1101011110111111
-0xd7c0 // Branch { cond: 7, imm: 192, immx: 255 } 0b1101011111000000
-0xd7c1 // Branch { cond: 7, imm: 193, immx: 255 } 0b1101011111000001
-0xd7c2 // Branch { cond: 7, imm: 194, immx: 255 } 0b1101011111000010
-0xd7c3 // Branch { cond: 7, imm: 195, immx: 255 } 0b1101011111000011
-0xd7c4 // Branch { cond: 7, imm: 196, immx: 255 } 0b1101011111000100
-0xd7c5 // Branch { cond: 7, imm: 197, immx: 255 } 0b1101011111000101
-0xd7c6 // Branch { cond: 7, imm: 198, immx: 255 } 0b1101011111000110
-0xd7c7 // Branch { cond: 7, imm: 199, immx: 255 } 0b1101011111000111
-0xd7c8 // Branch { cond: 7, imm: 200, immx: 255 } 0b1101011111001000
-0xd7c9 // Branch { cond: 7, imm: 201, immx: 255 } 0b1101011111001001
-0xd7ca // Branch { cond: 7, imm: 202, immx: 255 } 0b1101011111001010
-0xd7cb // Branch { cond: 7, imm: 203, immx: 255 } 0b1101011111001011
-0xd7cc // Branch { cond: 7, imm: 204, immx: 255 } 0b1101011111001100
-0xd7cd // Branch { cond: 7, imm: 205, immx: 255 } 0b1101011111001101
-0xd7ce // Branch { cond: 7, imm: 206, immx: 255 } 0b1101011111001110
-0xd7cf // Branch { cond: 7, imm: 207, immx: 255 } 0b1101011111001111
-0xd7d0 // Branch { cond: 7, imm: 208, immx: 255 } 0b1101011111010000
-0xd7d1 // Branch { cond: 7, imm: 209, immx: 255 } 0b1101011111010001
-0xd7d2 // Branch { cond: 7, imm: 210, immx: 255 } 0b1101011111010010
-0xd7d3 // Branch { cond: 7, imm: 211, immx: 255 } 0b1101011111010011
-0xd7d4 // Branch { cond: 7, imm: 212, immx: 255 } 0b1101011111010100
-0xd7d5 // Branch { cond: 7, imm: 213, immx: 255 } 0b1101011111010101
-0xd7d6 // Branch { cond: 7, imm: 214, immx: 255 } 0b1101011111010110
-0xd7d7 // Branch { cond: 7, imm: 215, immx: 255 } 0b1101011111010111
-0xd7d8 // Branch { cond: 7, imm: 216, immx: 255 } 0b1101011111011000
-0xd7d9 // Branch { cond: 7, imm: 217, immx: 255 } 0b1101011111011001
-0xd7da // Branch { cond: 7, imm: 218, immx: 255 } 0b1101011111011010
-0xd7db // Branch { cond: 7, imm: 219, immx: 255 } 0b1101011111011011
-0xd7dc // Branch { cond: 7, imm: 220, immx: 255 } 0b1101011111011100
-0xd7dd // Branch { cond: 7, imm: 221, immx: 255 } 0b1101011111011101
-0xd7de // Branch { cond: 7, imm: 222, immx: 255 } 0b1101011111011110
-0xd7df // Branch { cond: 7, imm: 223, immx: 255 } 0b1101011111011111
-0xd7e0 // Branch { cond: 7, imm: 224, immx: 255 } 0b1101011111100000
-0xd7e1 // Branch { cond: 7, imm: 225, immx: 255 } 0b1101011111100001
-0xd7e2 // Branch { cond: 7, imm: 226, immx: 255 } 0b1101011111100010
-0xd7e3 // Branch { cond: 7, imm: 227, immx: 255 } 0b1101011111100011
-0xd7e4 // Branch { cond: 7, imm: 228, immx: 255 } 0b1101011111100100
-0xd7e5 // Branch { cond: 7, imm: 229, immx: 255 } 0b1101011111100101
-0xd7e6 // Branch { cond: 7, imm: 230, immx: 255 } 0b1101011111100110
-0xd7e7 // Branch { cond: 7, imm: 231, immx: 255 } 0b1101011111100111
-0xd7e8 // Branch { cond: 7, imm: 232, immx: 255 } 0b1101011111101000
-0xd7e9 // Branch { cond: 7, imm: 233, immx: 255 } 0b1101011111101001
-0xd7ea // Branch { cond: 7, imm: 234, immx: 255 } 0b1101011111101010
-0xd7eb // Branch { cond: 7, imm: 235, immx: 255 } 0b1101011111101011
-0xd7ec // Branch { cond: 7, imm: 236, immx: 255 } 0b1101011111101100
-0xd7ed // Branch { cond: 7, imm: 237, immx: 255 } 0b1101011111101101
-0xd7ee // Branch { cond: 7, imm: 238, immx: 255 } 0b1101011111101110
-0xd7ef // Branch { cond: 7, imm: 239, immx: 255 } 0b1101011111101111
-0xd7f0 // Branch { cond: 7, imm: 240, immx: 255 } 0b1101011111110000
-0xd7f1 // Branch { cond: 7, imm: 241, immx: 255 } 0b1101011111110001
-0xd7f2 // Branch { cond: 7, imm: 242, immx: 255 } 0b1101011111110010
-0xd7f3 // Branch { cond: 7, imm: 243, immx: 255 } 0b1101011111110011
-0xd7f4 // Branch { cond: 7, imm: 244, immx: 255 } 0b1101011111110100
-0xd7f5 // Branch { cond: 7, imm: 245, immx: 255 } 0b1101011111110101
-0xd7f6 // Branch { cond: 7, imm: 246, immx: 255 } 0b1101011111110110
-0xd7f7 // Branch { cond: 7, imm: 247, immx: 255 } 0b1101011111110111
-0xd7f8 // Branch { cond: 7, imm: 248, immx: 255 } 0b1101011111111000
-0xd7f9 // Branch { cond: 7, imm: 249, immx: 255 } 0b1101011111111001
-0xd7fa // Branch { cond: 7, imm: 250, immx: 255 } 0b1101011111111010
-0xd7fb // Branch { cond: 7, imm: 251, immx: 255 } 0b1101011111111011
-0xd7fc // Branch { cond: 7, imm: 252, immx: 255 } 0b1101011111111100
-0xd7fd // Branch { cond: 7, imm: 253, immx: 255 } 0b1101011111111101
-0xd7fe // Branch { cond: 7, imm: 254, immx: 255 } 0b1101011111111110
-0xd7ff // Branch { cond: 7, imm: 255, immx: 255 } 0b1101011111111111
-0xd800 // Branch { cond: 8, imm: 0, immx: 255 } 0b1101100000000000
-0xd801 // Branch { cond: 8, imm: 1, immx: 255 } 0b1101100000000001
-0xd802 // Branch { cond: 8, imm: 2, immx: 255 } 0b1101100000000010
-0xd803 // Branch { cond: 8, imm: 3, immx: 255 } 0b1101100000000011
-0xd804 // Branch { cond: 8, imm: 4, immx: 255 } 0b1101100000000100
-0xd805 // Branch { cond: 8, imm: 5, immx: 255 } 0b1101100000000101
-0xd806 // Branch { cond: 8, imm: 6, immx: 255 } 0b1101100000000110
-0xd807 // Branch { cond: 8, imm: 7, immx: 255 } 0b1101100000000111
-0xd808 // Branch { cond: 8, imm: 8, immx: 255 } 0b1101100000001000
-0xd809 // Branch { cond: 8, imm: 9, immx: 255 } 0b1101100000001001
-0xd80a // Branch { cond: 8, imm: 10, immx: 255 } 0b1101100000001010
-0xd80b // Branch { cond: 8, imm: 11, immx: 255 } 0b1101100000001011
-0xd80c // Branch { cond: 8, imm: 12, immx: 255 } 0b1101100000001100
-0xd80d // Branch { cond: 8, imm: 13, immx: 255 } 0b1101100000001101
-0xd80e // Branch { cond: 8, imm: 14, immx: 255 } 0b1101100000001110
-0xd80f // Branch { cond: 8, imm: 15, immx: 255 } 0b1101100000001111
-0xd810 // Branch { cond: 8, imm: 16, immx: 255 } 0b1101100000010000
-0xd811 // Branch { cond: 8, imm: 17, immx: 255 } 0b1101100000010001
-0xd812 // Branch { cond: 8, imm: 18, immx: 255 } 0b1101100000010010
-0xd813 // Branch { cond: 8, imm: 19, immx: 255 } 0b1101100000010011
-0xd814 // Branch { cond: 8, imm: 20, immx: 255 } 0b1101100000010100
-0xd815 // Branch { cond: 8, imm: 21, immx: 255 } 0b1101100000010101
-0xd816 // Branch { cond: 8, imm: 22, immx: 255 } 0b1101100000010110
-0xd817 // Branch { cond: 8, imm: 23, immx: 255 } 0b1101100000010111
-0xd818 // Branch { cond: 8, imm: 24, immx: 255 } 0b1101100000011000
-0xd819 // Branch { cond: 8, imm: 25, immx: 255 } 0b1101100000011001
-0xd81a // Branch { cond: 8, imm: 26, immx: 255 } 0b1101100000011010
-0xd81b // Branch { cond: 8, imm: 27, immx: 255 } 0b1101100000011011
-0xd81c // Branch { cond: 8, imm: 28, immx: 255 } 0b1101100000011100
-0xd81d // Branch { cond: 8, imm: 29, immx: 255 } 0b1101100000011101
-0xd81e // Branch { cond: 8, imm: 30, immx: 255 } 0b1101100000011110
-0xd81f // Branch { cond: 8, imm: 31, immx: 255 } 0b1101100000011111
-0xd820 // Branch { cond: 8, imm: 32, immx: 255 } 0b1101100000100000
-0xd821 // Branch { cond: 8, imm: 33, immx: 255 } 0b1101100000100001
-0xd822 // Branch { cond: 8, imm: 34, immx: 255 } 0b1101100000100010
-0xd823 // Branch { cond: 8, imm: 35, immx: 255 } 0b1101100000100011
-0xd824 // Branch { cond: 8, imm: 36, immx: 255 } 0b1101100000100100
-0xd825 // Branch { cond: 8, imm: 37, immx: 255 } 0b1101100000100101
-0xd826 // Branch { cond: 8, imm: 38, immx: 255 } 0b1101100000100110
-0xd827 // Branch { cond: 8, imm: 39, immx: 255 } 0b1101100000100111
-0xd828 // Branch { cond: 8, imm: 40, immx: 255 } 0b1101100000101000
-0xd829 // Branch { cond: 8, imm: 41, immx: 255 } 0b1101100000101001
-0xd82a // Branch { cond: 8, imm: 42, immx: 255 } 0b1101100000101010
-0xd82b // Branch { cond: 8, imm: 43, immx: 255 } 0b1101100000101011
-0xd82c // Branch { cond: 8, imm: 44, immx: 255 } 0b1101100000101100
-0xd82d // Branch { cond: 8, imm: 45, immx: 255 } 0b1101100000101101
-0xd82e // Branch { cond: 8, imm: 46, immx: 255 } 0b1101100000101110
-0xd82f // Branch { cond: 8, imm: 47, immx: 255 } 0b1101100000101111
-0xd830 // Branch { cond: 8, imm: 48, immx: 255 } 0b1101100000110000
-0xd831 // Branch { cond: 8, imm: 49, immx: 255 } 0b1101100000110001
-0xd832 // Branch { cond: 8, imm: 50, immx: 255 } 0b1101100000110010
-0xd833 // Branch { cond: 8, imm: 51, immx: 255 } 0b1101100000110011
-0xd834 // Branch { cond: 8, imm: 52, immx: 255 } 0b1101100000110100
-0xd835 // Branch { cond: 8, imm: 53, immx: 255 } 0b1101100000110101
-0xd836 // Branch { cond: 8, imm: 54, immx: 255 } 0b1101100000110110
-0xd837 // Branch { cond: 8, imm: 55, immx: 255 } 0b1101100000110111
-0xd838 // Branch { cond: 8, imm: 56, immx: 255 } 0b1101100000111000
-0xd839 // Branch { cond: 8, imm: 57, immx: 255 } 0b1101100000111001
-0xd83a // Branch { cond: 8, imm: 58, immx: 255 } 0b1101100000111010
-0xd83b // Branch { cond: 8, imm: 59, immx: 255 } 0b1101100000111011
-0xd83c // Branch { cond: 8, imm: 60, immx: 255 } 0b1101100000111100
-0xd83d // Branch { cond: 8, imm: 61, immx: 255 } 0b1101100000111101
-0xd83e // Branch { cond: 8, imm: 62, immx: 255 } 0b1101100000111110
-0xd83f // Branch { cond: 8, imm: 63, immx: 255 } 0b1101100000111111
-0xd840 // Branch { cond: 8, imm: 64, immx: 255 } 0b1101100001000000
-0xd841 // Branch { cond: 8, imm: 65, immx: 255 } 0b1101100001000001
-0xd842 // Branch { cond: 8, imm: 66, immx: 255 } 0b1101100001000010
-0xd843 // Branch { cond: 8, imm: 67, immx: 255 } 0b1101100001000011
-0xd844 // Branch { cond: 8, imm: 68, immx: 255 } 0b1101100001000100
-0xd845 // Branch { cond: 8, imm: 69, immx: 255 } 0b1101100001000101
-0xd846 // Branch { cond: 8, imm: 70, immx: 255 } 0b1101100001000110
-0xd847 // Branch { cond: 8, imm: 71, immx: 255 } 0b1101100001000111
-0xd848 // Branch { cond: 8, imm: 72, immx: 255 } 0b1101100001001000
-0xd849 // Branch { cond: 8, imm: 73, immx: 255 } 0b1101100001001001
-0xd84a // Branch { cond: 8, imm: 74, immx: 255 } 0b1101100001001010
-0xd84b // Branch { cond: 8, imm: 75, immx: 255 } 0b1101100001001011
-0xd84c // Branch { cond: 8, imm: 76, immx: 255 } 0b1101100001001100
-0xd84d // Branch { cond: 8, imm: 77, immx: 255 } 0b1101100001001101
-0xd84e // Branch { cond: 8, imm: 78, immx: 255 } 0b1101100001001110
-0xd84f // Branch { cond: 8, imm: 79, immx: 255 } 0b1101100001001111
-0xd850 // Branch { cond: 8, imm: 80, immx: 255 } 0b1101100001010000
-0xd851 // Branch { cond: 8, imm: 81, immx: 255 } 0b1101100001010001
-0xd852 // Branch { cond: 8, imm: 82, immx: 255 } 0b1101100001010010
-0xd853 // Branch { cond: 8, imm: 83, immx: 255 } 0b1101100001010011
-0xd854 // Branch { cond: 8, imm: 84, immx: 255 } 0b1101100001010100
-0xd855 // Branch { cond: 8, imm: 85, immx: 255 } 0b1101100001010101
-0xd856 // Branch { cond: 8, imm: 86, immx: 255 } 0b1101100001010110
-0xd857 // Branch { cond: 8, imm: 87, immx: 255 } 0b1101100001010111
-0xd858 // Branch { cond: 8, imm: 88, immx: 255 } 0b1101100001011000
-0xd859 // Branch { cond: 8, imm: 89, immx: 255 } 0b1101100001011001
-0xd85a // Branch { cond: 8, imm: 90, immx: 255 } 0b1101100001011010
-0xd85b // Branch { cond: 8, imm: 91, immx: 255 } 0b1101100001011011
-0xd85c // Branch { cond: 8, imm: 92, immx: 255 } 0b1101100001011100
-0xd85d // Branch { cond: 8, imm: 93, immx: 255 } 0b1101100001011101
-0xd85e // Branch { cond: 8, imm: 94, immx: 255 } 0b1101100001011110
-0xd85f // Branch { cond: 8, imm: 95, immx: 255 } 0b1101100001011111
-0xd860 // Branch { cond: 8, imm: 96, immx: 255 } 0b1101100001100000
-0xd861 // Branch { cond: 8, imm: 97, immx: 255 } 0b1101100001100001
-0xd862 // Branch { cond: 8, imm: 98, immx: 255 } 0b1101100001100010
-0xd863 // Branch { cond: 8, imm: 99, immx: 255 } 0b1101100001100011
-0xd864 // Branch { cond: 8, imm: 100, immx: 255 } 0b1101100001100100
-0xd865 // Branch { cond: 8, imm: 101, immx: 255 } 0b1101100001100101
-0xd866 // Branch { cond: 8, imm: 102, immx: 255 } 0b1101100001100110
-0xd867 // Branch { cond: 8, imm: 103, immx: 255 } 0b1101100001100111
-0xd868 // Branch { cond: 8, imm: 104, immx: 255 } 0b1101100001101000
-0xd869 // Branch { cond: 8, imm: 105, immx: 255 } 0b1101100001101001
-0xd86a // Branch { cond: 8, imm: 106, immx: 255 } 0b1101100001101010
-0xd86b // Branch { cond: 8, imm: 107, immx: 255 } 0b1101100001101011
-0xd86c // Branch { cond: 8, imm: 108, immx: 255 } 0b1101100001101100
-0xd86d // Branch { cond: 8, imm: 109, immx: 255 } 0b1101100001101101
-0xd86e // Branch { cond: 8, imm: 110, immx: 255 } 0b1101100001101110
-0xd86f // Branch { cond: 8, imm: 111, immx: 255 } 0b1101100001101111
-0xd870 // Branch { cond: 8, imm: 112, immx: 255 } 0b1101100001110000
-0xd871 // Branch { cond: 8, imm: 113, immx: 255 } 0b1101100001110001
-0xd872 // Branch { cond: 8, imm: 114, immx: 255 } 0b1101100001110010
-0xd873 // Branch { cond: 8, imm: 115, immx: 255 } 0b1101100001110011
-0xd874 // Branch { cond: 8, imm: 116, immx: 255 } 0b1101100001110100
-0xd875 // Branch { cond: 8, imm: 117, immx: 255 } 0b1101100001110101
-0xd876 // Branch { cond: 8, imm: 118, immx: 255 } 0b1101100001110110
-0xd877 // Branch { cond: 8, imm: 119, immx: 255 } 0b1101100001110111
-0xd878 // Branch { cond: 8, imm: 120, immx: 255 } 0b1101100001111000
-0xd879 // Branch { cond: 8, imm: 121, immx: 255 } 0b1101100001111001
-0xd87a // Branch { cond: 8, imm: 122, immx: 255 } 0b1101100001111010
-0xd87b // Branch { cond: 8, imm: 123, immx: 255 } 0b1101100001111011
-0xd87c // Branch { cond: 8, imm: 124, immx: 255 } 0b1101100001111100
-0xd87d // Branch { cond: 8, imm: 125, immx: 255 } 0b1101100001111101
-0xd87e // Branch { cond: 8, imm: 126, immx: 255 } 0b1101100001111110
-0xd87f // Branch { cond: 8, imm: 127, immx: 255 } 0b1101100001111111
-0xd880 // Branch { cond: 8, imm: 128, immx: 255 } 0b1101100010000000
-0xd881 // Branch { cond: 8, imm: 129, immx: 255 } 0b1101100010000001
-0xd882 // Branch { cond: 8, imm: 130, immx: 255 } 0b1101100010000010
-0xd883 // Branch { cond: 8, imm: 131, immx: 255 } 0b1101100010000011
-0xd884 // Branch { cond: 8, imm: 132, immx: 255 } 0b1101100010000100
-0xd885 // Branch { cond: 8, imm: 133, immx: 255 } 0b1101100010000101
-0xd886 // Branch { cond: 8, imm: 134, immx: 255 } 0b1101100010000110
-0xd887 // Branch { cond: 8, imm: 135, immx: 255 } 0b1101100010000111
-0xd888 // Branch { cond: 8, imm: 136, immx: 255 } 0b1101100010001000
-0xd889 // Branch { cond: 8, imm: 137, immx: 255 } 0b1101100010001001
-0xd88a // Branch { cond: 8, imm: 138, immx: 255 } 0b1101100010001010
-0xd88b // Branch { cond: 8, imm: 139, immx: 255 } 0b1101100010001011
-0xd88c // Branch { cond: 8, imm: 140, immx: 255 } 0b1101100010001100
-0xd88d // Branch { cond: 8, imm: 141, immx: 255 } 0b1101100010001101
-0xd88e // Branch { cond: 8, imm: 142, immx: 255 } 0b1101100010001110
-0xd88f // Branch { cond: 8, imm: 143, immx: 255 } 0b1101100010001111
-0xd890 // Branch { cond: 8, imm: 144, immx: 255 } 0b1101100010010000
-0xd891 // Branch { cond: 8, imm: 145, immx: 255 } 0b1101100010010001
-0xd892 // Branch { cond: 8, imm: 146, immx: 255 } 0b1101100010010010
-0xd893 // Branch { cond: 8, imm: 147, immx: 255 } 0b1101100010010011
-0xd894 // Branch { cond: 8, imm: 148, immx: 255 } 0b1101100010010100
-0xd895 // Branch { cond: 8, imm: 149, immx: 255 } 0b1101100010010101
-0xd896 // Branch { cond: 8, imm: 150, immx: 255 } 0b1101100010010110
-0xd897 // Branch { cond: 8, imm: 151, immx: 255 } 0b1101100010010111
-0xd898 // Branch { cond: 8, imm: 152, immx: 255 } 0b1101100010011000
-0xd899 // Branch { cond: 8, imm: 153, immx: 255 } 0b1101100010011001
-0xd89a // Branch { cond: 8, imm: 154, immx: 255 } 0b1101100010011010
-0xd89b // Branch { cond: 8, imm: 155, immx: 255 } 0b1101100010011011
-0xd89c // Branch { cond: 8, imm: 156, immx: 255 } 0b1101100010011100
-0xd89d // Branch { cond: 8, imm: 157, immx: 255 } 0b1101100010011101
-0xd89e // Branch { cond: 8, imm: 158, immx: 255 } 0b1101100010011110
-0xd89f // Branch { cond: 8, imm: 159, immx: 255 } 0b1101100010011111
-0xd8a0 // Branch { cond: 8, imm: 160, immx: 255 } 0b1101100010100000
-0xd8a1 // Branch { cond: 8, imm: 161, immx: 255 } 0b1101100010100001
-0xd8a2 // Branch { cond: 8, imm: 162, immx: 255 } 0b1101100010100010
-0xd8a3 // Branch { cond: 8, imm: 163, immx: 255 } 0b1101100010100011
-0xd8a4 // Branch { cond: 8, imm: 164, immx: 255 } 0b1101100010100100
-0xd8a5 // Branch { cond: 8, imm: 165, immx: 255 } 0b1101100010100101
-0xd8a6 // Branch { cond: 8, imm: 166, immx: 255 } 0b1101100010100110
-0xd8a7 // Branch { cond: 8, imm: 167, immx: 255 } 0b1101100010100111
-0xd8a8 // Branch { cond: 8, imm: 168, immx: 255 } 0b1101100010101000
-0xd8a9 // Branch { cond: 8, imm: 169, immx: 255 } 0b1101100010101001
-0xd8aa // Branch { cond: 8, imm: 170, immx: 255 } 0b1101100010101010
-0xd8ab // Branch { cond: 8, imm: 171, immx: 255 } 0b1101100010101011
-0xd8ac // Branch { cond: 8, imm: 172, immx: 255 } 0b1101100010101100
-0xd8ad // Branch { cond: 8, imm: 173, immx: 255 } 0b1101100010101101
-0xd8ae // Branch { cond: 8, imm: 174, immx: 255 } 0b1101100010101110
-0xd8af // Branch { cond: 8, imm: 175, immx: 255 } 0b1101100010101111
-0xd8b0 // Branch { cond: 8, imm: 176, immx: 255 } 0b1101100010110000
-0xd8b1 // Branch { cond: 8, imm: 177, immx: 255 } 0b1101100010110001
-0xd8b2 // Branch { cond: 8, imm: 178, immx: 255 } 0b1101100010110010
-0xd8b3 // Branch { cond: 8, imm: 179, immx: 255 } 0b1101100010110011
-0xd8b4 // Branch { cond: 8, imm: 180, immx: 255 } 0b1101100010110100
-0xd8b5 // Branch { cond: 8, imm: 181, immx: 255 } 0b1101100010110101
-0xd8b6 // Branch { cond: 8, imm: 182, immx: 255 } 0b1101100010110110
-0xd8b7 // Branch { cond: 8, imm: 183, immx: 255 } 0b1101100010110111
-0xd8b8 // Branch { cond: 8, imm: 184, immx: 255 } 0b1101100010111000
-0xd8b9 // Branch { cond: 8, imm: 185, immx: 255 } 0b1101100010111001
-0xd8ba // Branch { cond: 8, imm: 186, immx: 255 } 0b1101100010111010
-0xd8bb // Branch { cond: 8, imm: 187, immx: 255 } 0b1101100010111011
-0xd8bc // Branch { cond: 8, imm: 188, immx: 255 } 0b1101100010111100
-0xd8bd // Branch { cond: 8, imm: 189, immx: 255 } 0b1101100010111101
-0xd8be // Branch { cond: 8, imm: 190, immx: 255 } 0b1101100010111110
-0xd8bf // Branch { cond: 8, imm: 191, immx: 255 } 0b1101100010111111
-0xd8c0 // Branch { cond: 8, imm: 192, immx: 255 } 0b1101100011000000
-0xd8c1 // Branch { cond: 8, imm: 193, immx: 255 } 0b1101100011000001
-0xd8c2 // Branch { cond: 8, imm: 194, immx: 255 } 0b1101100011000010
-0xd8c3 // Branch { cond: 8, imm: 195, immx: 255 } 0b1101100011000011
-0xd8c4 // Branch { cond: 8, imm: 196, immx: 255 } 0b1101100011000100
-0xd8c5 // Branch { cond: 8, imm: 197, immx: 255 } 0b1101100011000101
-0xd8c6 // Branch { cond: 8, imm: 198, immx: 255 } 0b1101100011000110
-0xd8c7 // Branch { cond: 8, imm: 199, immx: 255 } 0b1101100011000111
-0xd8c8 // Branch { cond: 8, imm: 200, immx: 255 } 0b1101100011001000
-0xd8c9 // Branch { cond: 8, imm: 201, immx: 255 } 0b1101100011001001
-0xd8ca // Branch { cond: 8, imm: 202, immx: 255 } 0b1101100011001010
-0xd8cb // Branch { cond: 8, imm: 203, immx: 255 } 0b1101100011001011
-0xd8cc // Branch { cond: 8, imm: 204, immx: 255 } 0b1101100011001100
-0xd8cd // Branch { cond: 8, imm: 205, immx: 255 } 0b1101100011001101
-0xd8ce // Branch { cond: 8, imm: 206, immx: 255 } 0b1101100011001110
-0xd8cf // Branch { cond: 8, imm: 207, immx: 255 } 0b1101100011001111
-0xd8d0 // Branch { cond: 8, imm: 208, immx: 255 } 0b1101100011010000
-0xd8d1 // Branch { cond: 8, imm: 209, immx: 255 } 0b1101100011010001
-0xd8d2 // Branch { cond: 8, imm: 210, immx: 255 } 0b1101100011010010
-0xd8d3 // Branch { cond: 8, imm: 211, immx: 255 } 0b1101100011010011
-0xd8d4 // Branch { cond: 8, imm: 212, immx: 255 } 0b1101100011010100
-0xd8d5 // Branch { cond: 8, imm: 213, immx: 255 } 0b1101100011010101
-0xd8d6 // Branch { cond: 8, imm: 214, immx: 255 } 0b1101100011010110
-0xd8d7 // Branch { cond: 8, imm: 215, immx: 255 } 0b1101100011010111
-0xd8d8 // Branch { cond: 8, imm: 216, immx: 255 } 0b1101100011011000
-0xd8d9 // Branch { cond: 8, imm: 217, immx: 255 } 0b1101100011011001
-0xd8da // Branch { cond: 8, imm: 218, immx: 255 } 0b1101100011011010
-0xd8db // Branch { cond: 8, imm: 219, immx: 255 } 0b1101100011011011
-0xd8dc // Branch { cond: 8, imm: 220, immx: 255 } 0b1101100011011100
-0xd8dd // Branch { cond: 8, imm: 221, immx: 255 } 0b1101100011011101
-0xd8de // Branch { cond: 8, imm: 222, immx: 255 } 0b1101100011011110
-0xd8df // Branch { cond: 8, imm: 223, immx: 255 } 0b1101100011011111
-0xd8e0 // Branch { cond: 8, imm: 224, immx: 255 } 0b1101100011100000
-0xd8e1 // Branch { cond: 8, imm: 225, immx: 255 } 0b1101100011100001
-0xd8e2 // Branch { cond: 8, imm: 226, immx: 255 } 0b1101100011100010
-0xd8e3 // Branch { cond: 8, imm: 227, immx: 255 } 0b1101100011100011
-0xd8e4 // Branch { cond: 8, imm: 228, immx: 255 } 0b1101100011100100
-0xd8e5 // Branch { cond: 8, imm: 229, immx: 255 } 0b1101100011100101
-0xd8e6 // Branch { cond: 8, imm: 230, immx: 255 } 0b1101100011100110
-0xd8e7 // Branch { cond: 8, imm: 231, immx: 255 } 0b1101100011100111
-0xd8e8 // Branch { cond: 8, imm: 232, immx: 255 } 0b1101100011101000
-0xd8e9 // Branch { cond: 8, imm: 233, immx: 255 } 0b1101100011101001
-0xd8ea // Branch { cond: 8, imm: 234, immx: 255 } 0b1101100011101010
-0xd8eb // Branch { cond: 8, imm: 235, immx: 255 } 0b1101100011101011
-0xd8ec // Branch { cond: 8, imm: 236, immx: 255 } 0b1101100011101100
-0xd8ed // Branch { cond: 8, imm: 237, immx: 255 } 0b1101100011101101
-0xd8ee // Branch { cond: 8, imm: 238, immx: 255 } 0b1101100011101110
-0xd8ef // Branch { cond: 8, imm: 239, immx: 255 } 0b1101100011101111
-0xd8f0 // Branch { cond: 8, imm: 240, immx: 255 } 0b1101100011110000
-0xd8f1 // Branch { cond: 8, imm: 241, immx: 255 } 0b1101100011110001
-0xd8f2 // Branch { cond: 8, imm: 242, immx: 255 } 0b1101100011110010
-0xd8f3 // Branch { cond: 8, imm: 243, immx: 255 } 0b1101100011110011
-0xd8f4 // Branch { cond: 8, imm: 244, immx: 255 } 0b1101100011110100
-0xd8f5 // Branch { cond: 8, imm: 245, immx: 255 } 0b1101100011110101
-0xd8f6 // Branch { cond: 8, imm: 246, immx: 255 } 0b1101100011110110
-0xd8f7 // Branch { cond: 8, imm: 247, immx: 255 } 0b1101100011110111
-0xd8f8 // Branch { cond: 8, imm: 248, immx: 255 } 0b1101100011111000
-0xd8f9 // Branch { cond: 8, imm: 249, immx: 255 } 0b1101100011111001
-0xd8fa // Branch { cond: 8, imm: 250, immx: 255 } 0b1101100011111010
-0xd8fb // Branch { cond: 8, imm: 251, immx: 255 } 0b1101100011111011
-0xd8fc // Branch { cond: 8, imm: 252, immx: 255 } 0b1101100011111100
-0xd8fd // Branch { cond: 8, imm: 253, immx: 255 } 0b1101100011111101
-0xd8fe // Branch { cond: 8, imm: 254, immx: 255 } 0b1101100011111110
-0xd8ff // Branch { cond: 8, imm: 255, immx: 255 } 0b1101100011111111
-0xd900 // Branch { cond: 9, imm: 0, immx: 255 } 0b1101100100000000
-0xd901 // Branch { cond: 9, imm: 1, immx: 255 } 0b1101100100000001
-0xd902 // Branch { cond: 9, imm: 2, immx: 255 } 0b1101100100000010
-0xd903 // Branch { cond: 9, imm: 3, immx: 255 } 0b1101100100000011
-0xd904 // Branch { cond: 9, imm: 4, immx: 255 } 0b1101100100000100
-0xd905 // Branch { cond: 9, imm: 5, immx: 255 } 0b1101100100000101
-0xd906 // Branch { cond: 9, imm: 6, immx: 255 } 0b1101100100000110
-0xd907 // Branch { cond: 9, imm: 7, immx: 255 } 0b1101100100000111
-0xd908 // Branch { cond: 9, imm: 8, immx: 255 } 0b1101100100001000
-0xd909 // Branch { cond: 9, imm: 9, immx: 255 } 0b1101100100001001
-0xd90a // Branch { cond: 9, imm: 10, immx: 255 } 0b1101100100001010
-0xd90b // Branch { cond: 9, imm: 11, immx: 255 } 0b1101100100001011
-0xd90c // Branch { cond: 9, imm: 12, immx: 255 } 0b1101100100001100
-0xd90d // Branch { cond: 9, imm: 13, immx: 255 } 0b1101100100001101
-0xd90e // Branch { cond: 9, imm: 14, immx: 255 } 0b1101100100001110
-0xd90f // Branch { cond: 9, imm: 15, immx: 255 } 0b1101100100001111
-0xd910 // Branch { cond: 9, imm: 16, immx: 255 } 0b1101100100010000
-0xd911 // Branch { cond: 9, imm: 17, immx: 255 } 0b1101100100010001
-0xd912 // Branch { cond: 9, imm: 18, immx: 255 } 0b1101100100010010
-0xd913 // Branch { cond: 9, imm: 19, immx: 255 } 0b1101100100010011
-0xd914 // Branch { cond: 9, imm: 20, immx: 255 } 0b1101100100010100
-0xd915 // Branch { cond: 9, imm: 21, immx: 255 } 0b1101100100010101
-0xd916 // Branch { cond: 9, imm: 22, immx: 255 } 0b1101100100010110
-0xd917 // Branch { cond: 9, imm: 23, immx: 255 } 0b1101100100010111
-0xd918 // Branch { cond: 9, imm: 24, immx: 255 } 0b1101100100011000
-0xd919 // Branch { cond: 9, imm: 25, immx: 255 } 0b1101100100011001
-0xd91a // Branch { cond: 9, imm: 26, immx: 255 } 0b1101100100011010
-0xd91b // Branch { cond: 9, imm: 27, immx: 255 } 0b1101100100011011
-0xd91c // Branch { cond: 9, imm: 28, immx: 255 } 0b1101100100011100
-0xd91d // Branch { cond: 9, imm: 29, immx: 255 } 0b1101100100011101
-0xd91e // Branch { cond: 9, imm: 30, immx: 255 } 0b1101100100011110
-0xd91f // Branch { cond: 9, imm: 31, immx: 255 } 0b1101100100011111
-0xd920 // Branch { cond: 9, imm: 32, immx: 255 } 0b1101100100100000
-0xd921 // Branch { cond: 9, imm: 33, immx: 255 } 0b1101100100100001
-0xd922 // Branch { cond: 9, imm: 34, immx: 255 } 0b1101100100100010
-0xd923 // Branch { cond: 9, imm: 35, immx: 255 } 0b1101100100100011
-0xd924 // Branch { cond: 9, imm: 36, immx: 255 } 0b1101100100100100
-0xd925 // Branch { cond: 9, imm: 37, immx: 255 } 0b1101100100100101
-0xd926 // Branch { cond: 9, imm: 38, immx: 255 } 0b1101100100100110
-0xd927 // Branch { cond: 9, imm: 39, immx: 255 } 0b1101100100100111
-0xd928 // Branch { cond: 9, imm: 40, immx: 255 } 0b1101100100101000
-0xd929 // Branch { cond: 9, imm: 41, immx: 255 } 0b1101100100101001
-0xd92a // Branch { cond: 9, imm: 42, immx: 255 } 0b1101100100101010
-0xd92b // Branch { cond: 9, imm: 43, immx: 255 } 0b1101100100101011
-0xd92c // Branch { cond: 9, imm: 44, immx: 255 } 0b1101100100101100
-0xd92d // Branch { cond: 9, imm: 45, immx: 255 } 0b1101100100101101
-0xd92e // Branch { cond: 9, imm: 46, immx: 255 } 0b1101100100101110
-0xd92f // Branch { cond: 9, imm: 47, immx: 255 } 0b1101100100101111
-0xd930 // Branch { cond: 9, imm: 48, immx: 255 } 0b1101100100110000
-0xd931 // Branch { cond: 9, imm: 49, immx: 255 } 0b1101100100110001
-0xd932 // Branch { cond: 9, imm: 50, immx: 255 } 0b1101100100110010
-0xd933 // Branch { cond: 9, imm: 51, immx: 255 } 0b1101100100110011
-0xd934 // Branch { cond: 9, imm: 52, immx: 255 } 0b1101100100110100
-0xd935 // Branch { cond: 9, imm: 53, immx: 255 } 0b1101100100110101
-0xd936 // Branch { cond: 9, imm: 54, immx: 255 } 0b1101100100110110
-0xd937 // Branch { cond: 9, imm: 55, immx: 255 } 0b1101100100110111
-0xd938 // Branch { cond: 9, imm: 56, immx: 255 } 0b1101100100111000
-0xd939 // Branch { cond: 9, imm: 57, immx: 255 } 0b1101100100111001
-0xd93a // Branch { cond: 9, imm: 58, immx: 255 } 0b1101100100111010
-0xd93b // Branch { cond: 9, imm: 59, immx: 255 } 0b1101100100111011
-0xd93c // Branch { cond: 9, imm: 60, immx: 255 } 0b1101100100111100
-0xd93d // Branch { cond: 9, imm: 61, immx: 255 } 0b1101100100111101
-0xd93e // Branch { cond: 9, imm: 62, immx: 255 } 0b1101100100111110
-0xd93f // Branch { cond: 9, imm: 63, immx: 255 } 0b1101100100111111
-0xd940 // Branch { cond: 9, imm: 64, immx: 255 } 0b1101100101000000
-0xd941 // Branch { cond: 9, imm: 65, immx: 255 } 0b1101100101000001
-0xd942 // Branch { cond: 9, imm: 66, immx: 255 } 0b1101100101000010
-0xd943 // Branch { cond: 9, imm: 67, immx: 255 } 0b1101100101000011
-0xd944 // Branch { cond: 9, imm: 68, immx: 255 } 0b1101100101000100
-0xd945 // Branch { cond: 9, imm: 69, immx: 255 } 0b1101100101000101
-0xd946 // Branch { cond: 9, imm: 70, immx: 255 } 0b1101100101000110
-0xd947 // Branch { cond: 9, imm: 71, immx: 255 } 0b1101100101000111
-0xd948 // Branch { cond: 9, imm: 72, immx: 255 } 0b1101100101001000
-0xd949 // Branch { cond: 9, imm: 73, immx: 255 } 0b1101100101001001
-0xd94a // Branch { cond: 9, imm: 74, immx: 255 } 0b1101100101001010
-0xd94b // Branch { cond: 9, imm: 75, immx: 255 } 0b1101100101001011
-0xd94c // Branch { cond: 9, imm: 76, immx: 255 } 0b1101100101001100
-0xd94d // Branch { cond: 9, imm: 77, immx: 255 } 0b1101100101001101
-0xd94e // Branch { cond: 9, imm: 78, immx: 255 } 0b1101100101001110
-0xd94f // Branch { cond: 9, imm: 79, immx: 255 } 0b1101100101001111
-0xd950 // Branch { cond: 9, imm: 80, immx: 255 } 0b1101100101010000
-0xd951 // Branch { cond: 9, imm: 81, immx: 255 } 0b1101100101010001
-0xd952 // Branch { cond: 9, imm: 82, immx: 255 } 0b1101100101010010
-0xd953 // Branch { cond: 9, imm: 83, immx: 255 } 0b1101100101010011
-0xd954 // Branch { cond: 9, imm: 84, immx: 255 } 0b1101100101010100
-0xd955 // Branch { cond: 9, imm: 85, immx: 255 } 0b1101100101010101
-0xd956 // Branch { cond: 9, imm: 86, immx: 255 } 0b1101100101010110
-0xd957 // Branch { cond: 9, imm: 87, immx: 255 } 0b1101100101010111
-0xd958 // Branch { cond: 9, imm: 88, immx: 255 } 0b1101100101011000
-0xd959 // Branch { cond: 9, imm: 89, immx: 255 } 0b1101100101011001
-0xd95a // Branch { cond: 9, imm: 90, immx: 255 } 0b1101100101011010
-0xd95b // Branch { cond: 9, imm: 91, immx: 255 } 0b1101100101011011
-0xd95c // Branch { cond: 9, imm: 92, immx: 255 } 0b1101100101011100
-0xd95d // Branch { cond: 9, imm: 93, immx: 255 } 0b1101100101011101
-0xd95e // Branch { cond: 9, imm: 94, immx: 255 } 0b1101100101011110
-0xd95f // Branch { cond: 9, imm: 95, immx: 255 } 0b1101100101011111
-0xd960 // Branch { cond: 9, imm: 96, immx: 255 } 0b1101100101100000
-0xd961 // Branch { cond: 9, imm: 97, immx: 255 } 0b1101100101100001
-0xd962 // Branch { cond: 9, imm: 98, immx: 255 } 0b1101100101100010
-0xd963 // Branch { cond: 9, imm: 99, immx: 255 } 0b1101100101100011
-0xd964 // Branch { cond: 9, imm: 100, immx: 255 } 0b1101100101100100
-0xd965 // Branch { cond: 9, imm: 101, immx: 255 } 0b1101100101100101
-0xd966 // Branch { cond: 9, imm: 102, immx: 255 } 0b1101100101100110
-0xd967 // Branch { cond: 9, imm: 103, immx: 255 } 0b1101100101100111
-0xd968 // Branch { cond: 9, imm: 104, immx: 255 } 0b1101100101101000
-0xd969 // Branch { cond: 9, imm: 105, immx: 255 } 0b1101100101101001
-0xd96a // Branch { cond: 9, imm: 106, immx: 255 } 0b1101100101101010
-0xd96b // Branch { cond: 9, imm: 107, immx: 255 } 0b1101100101101011
-0xd96c // Branch { cond: 9, imm: 108, immx: 255 } 0b1101100101101100
-0xd96d // Branch { cond: 9, imm: 109, immx: 255 } 0b1101100101101101
-0xd96e // Branch { cond: 9, imm: 110, immx: 255 } 0b1101100101101110
-0xd96f // Branch { cond: 9, imm: 111, immx: 255 } 0b1101100101101111
-0xd970 // Branch { cond: 9, imm: 112, immx: 255 } 0b1101100101110000
-0xd971 // Branch { cond: 9, imm: 113, immx: 255 } 0b1101100101110001
-0xd972 // Branch { cond: 9, imm: 114, immx: 255 } 0b1101100101110010
-0xd973 // Branch { cond: 9, imm: 115, immx: 255 } 0b1101100101110011
-0xd974 // Branch { cond: 9, imm: 116, immx: 255 } 0b1101100101110100
-0xd975 // Branch { cond: 9, imm: 117, immx: 255 } 0b1101100101110101
-0xd976 // Branch { cond: 9, imm: 118, immx: 255 } 0b1101100101110110
-0xd977 // Branch { cond: 9, imm: 119, immx: 255 } 0b1101100101110111
-0xd978 // Branch { cond: 9, imm: 120, immx: 255 } 0b1101100101111000
-0xd979 // Branch { cond: 9, imm: 121, immx: 255 } 0b1101100101111001
-0xd97a // Branch { cond: 9, imm: 122, immx: 255 } 0b1101100101111010
-0xd97b // Branch { cond: 9, imm: 123, immx: 255 } 0b1101100101111011
-0xd97c // Branch { cond: 9, imm: 124, immx: 255 } 0b1101100101111100
-0xd97d // Branch { cond: 9, imm: 125, immx: 255 } 0b1101100101111101
-0xd97e // Branch { cond: 9, imm: 126, immx: 255 } 0b1101100101111110
-0xd97f // Branch { cond: 9, imm: 127, immx: 255 } 0b1101100101111111
-0xd980 // Branch { cond: 9, imm: 128, immx: 255 } 0b1101100110000000
-0xd981 // Branch { cond: 9, imm: 129, immx: 255 } 0b1101100110000001
-0xd982 // Branch { cond: 9, imm: 130, immx: 255 } 0b1101100110000010
-0xd983 // Branch { cond: 9, imm: 131, immx: 255 } 0b1101100110000011
-0xd984 // Branch { cond: 9, imm: 132, immx: 255 } 0b1101100110000100
-0xd985 // Branch { cond: 9, imm: 133, immx: 255 } 0b1101100110000101
-0xd986 // Branch { cond: 9, imm: 134, immx: 255 } 0b1101100110000110
-0xd987 // Branch { cond: 9, imm: 135, immx: 255 } 0b1101100110000111
-0xd988 // Branch { cond: 9, imm: 136, immx: 255 } 0b1101100110001000
-0xd989 // Branch { cond: 9, imm: 137, immx: 255 } 0b1101100110001001
-0xd98a // Branch { cond: 9, imm: 138, immx: 255 } 0b1101100110001010
-0xd98b // Branch { cond: 9, imm: 139, immx: 255 } 0b1101100110001011
-0xd98c // Branch { cond: 9, imm: 140, immx: 255 } 0b1101100110001100
-0xd98d // Branch { cond: 9, imm: 141, immx: 255 } 0b1101100110001101
-0xd98e // Branch { cond: 9, imm: 142, immx: 255 } 0b1101100110001110
-0xd98f // Branch { cond: 9, imm: 143, immx: 255 } 0b1101100110001111
-0xd990 // Branch { cond: 9, imm: 144, immx: 255 } 0b1101100110010000
-0xd991 // Branch { cond: 9, imm: 145, immx: 255 } 0b1101100110010001
-0xd992 // Branch { cond: 9, imm: 146, immx: 255 } 0b1101100110010010
-0xd993 // Branch { cond: 9, imm: 147, immx: 255 } 0b1101100110010011
-0xd994 // Branch { cond: 9, imm: 148, immx: 255 } 0b1101100110010100
-0xd995 // Branch { cond: 9, imm: 149, immx: 255 } 0b1101100110010101
-0xd996 // Branch { cond: 9, imm: 150, immx: 255 } 0b1101100110010110
-0xd997 // Branch { cond: 9, imm: 151, immx: 255 } 0b1101100110010111
-0xd998 // Branch { cond: 9, imm: 152, immx: 255 } 0b1101100110011000
-0xd999 // Branch { cond: 9, imm: 153, immx: 255 } 0b1101100110011001
-0xd99a // Branch { cond: 9, imm: 154, immx: 255 } 0b1101100110011010
-0xd99b // Branch { cond: 9, imm: 155, immx: 255 } 0b1101100110011011
-0xd99c // Branch { cond: 9, imm: 156, immx: 255 } 0b1101100110011100
-0xd99d // Branch { cond: 9, imm: 157, immx: 255 } 0b1101100110011101
-0xd99e // Branch { cond: 9, imm: 158, immx: 255 } 0b1101100110011110
-0xd99f // Branch { cond: 9, imm: 159, immx: 255 } 0b1101100110011111
-0xd9a0 // Branch { cond: 9, imm: 160, immx: 255 } 0b1101100110100000
-0xd9a1 // Branch { cond: 9, imm: 161, immx: 255 } 0b1101100110100001
-0xd9a2 // Branch { cond: 9, imm: 162, immx: 255 } 0b1101100110100010
-0xd9a3 // Branch { cond: 9, imm: 163, immx: 255 } 0b1101100110100011
-0xd9a4 // Branch { cond: 9, imm: 164, immx: 255 } 0b1101100110100100
-0xd9a5 // Branch { cond: 9, imm: 165, immx: 255 } 0b1101100110100101
-0xd9a6 // Branch { cond: 9, imm: 166, immx: 255 } 0b1101100110100110
-0xd9a7 // Branch { cond: 9, imm: 167, immx: 255 } 0b1101100110100111
-0xd9a8 // Branch { cond: 9, imm: 168, immx: 255 } 0b1101100110101000
-0xd9a9 // Branch { cond: 9, imm: 169, immx: 255 } 0b1101100110101001
-0xd9aa // Branch { cond: 9, imm: 170, immx: 255 } 0b1101100110101010
-0xd9ab // Branch { cond: 9, imm: 171, immx: 255 } 0b1101100110101011
-0xd9ac // Branch { cond: 9, imm: 172, immx: 255 } 0b1101100110101100
-0xd9ad // Branch { cond: 9, imm: 173, immx: 255 } 0b1101100110101101
-0xd9ae // Branch { cond: 9, imm: 174, immx: 255 } 0b1101100110101110
-0xd9af // Branch { cond: 9, imm: 175, immx: 255 } 0b1101100110101111
-0xd9b0 // Branch { cond: 9, imm: 176, immx: 255 } 0b1101100110110000
-0xd9b1 // Branch { cond: 9, imm: 177, immx: 255 } 0b1101100110110001
-0xd9b2 // Branch { cond: 9, imm: 178, immx: 255 } 0b1101100110110010
-0xd9b3 // Branch { cond: 9, imm: 179, immx: 255 } 0b1101100110110011
-0xd9b4 // Branch { cond: 9, imm: 180, immx: 255 } 0b1101100110110100
-0xd9b5 // Branch { cond: 9, imm: 181, immx: 255 } 0b1101100110110101
-0xd9b6 // Branch { cond: 9, imm: 182, immx: 255 } 0b1101100110110110
-0xd9b7 // Branch { cond: 9, imm: 183, immx: 255 } 0b1101100110110111
-0xd9b8 // Branch { cond: 9, imm: 184, immx: 255 } 0b1101100110111000
-0xd9b9 // Branch { cond: 9, imm: 185, immx: 255 } 0b1101100110111001
-0xd9ba // Branch { cond: 9, imm: 186, immx: 255 } 0b1101100110111010
-0xd9bb // Branch { cond: 9, imm: 187, immx: 255 } 0b1101100110111011
-0xd9bc // Branch { cond: 9, imm: 188, immx: 255 } 0b1101100110111100
-0xd9bd // Branch { cond: 9, imm: 189, immx: 255 } 0b1101100110111101
-0xd9be // Branch { cond: 9, imm: 190, immx: 255 } 0b1101100110111110
-0xd9bf // Branch { cond: 9, imm: 191, immx: 255 } 0b1101100110111111
-0xd9c0 // Branch { cond: 9, imm: 192, immx: 255 } 0b1101100111000000
-0xd9c1 // Branch { cond: 9, imm: 193, immx: 255 } 0b1101100111000001
-0xd9c2 // Branch { cond: 9, imm: 194, immx: 255 } 0b1101100111000010
-0xd9c3 // Branch { cond: 9, imm: 195, immx: 255 } 0b1101100111000011
-0xd9c4 // Branch { cond: 9, imm: 196, immx: 255 } 0b1101100111000100
-0xd9c5 // Branch { cond: 9, imm: 197, immx: 255 } 0b1101100111000101
-0xd9c6 // Branch { cond: 9, imm: 198, immx: 255 } 0b1101100111000110
-0xd9c7 // Branch { cond: 9, imm: 199, immx: 255 } 0b1101100111000111
-0xd9c8 // Branch { cond: 9, imm: 200, immx: 255 } 0b1101100111001000
-0xd9c9 // Branch { cond: 9, imm: 201, immx: 255 } 0b1101100111001001
-0xd9ca // Branch { cond: 9, imm: 202, immx: 255 } 0b1101100111001010
-0xd9cb // Branch { cond: 9, imm: 203, immx: 255 } 0b1101100111001011
-0xd9cc // Branch { cond: 9, imm: 204, immx: 255 } 0b1101100111001100
-0xd9cd // Branch { cond: 9, imm: 205, immx: 255 } 0b1101100111001101
-0xd9ce // Branch { cond: 9, imm: 206, immx: 255 } 0b1101100111001110
-0xd9cf // Branch { cond: 9, imm: 207, immx: 255 } 0b1101100111001111
-0xd9d0 // Branch { cond: 9, imm: 208, immx: 255 } 0b1101100111010000
-0xd9d1 // Branch { cond: 9, imm: 209, immx: 255 } 0b1101100111010001
-0xd9d2 // Branch { cond: 9, imm: 210, immx: 255 } 0b1101100111010010
-0xd9d3 // Branch { cond: 9, imm: 211, immx: 255 } 0b1101100111010011
-0xd9d4 // Branch { cond: 9, imm: 212, immx: 255 } 0b1101100111010100
-0xd9d5 // Branch { cond: 9, imm: 213, immx: 255 } 0b1101100111010101
-0xd9d6 // Branch { cond: 9, imm: 214, immx: 255 } 0b1101100111010110
-0xd9d7 // Branch { cond: 9, imm: 215, immx: 255 } 0b1101100111010111
-0xd9d8 // Branch { cond: 9, imm: 216, immx: 255 } 0b1101100111011000
-0xd9d9 // Branch { cond: 9, imm: 217, immx: 255 } 0b1101100111011001
-0xd9da // Branch { cond: 9, imm: 218, immx: 255 } 0b1101100111011010
-0xd9db // Branch { cond: 9, imm: 219, immx: 255 } 0b1101100111011011
-0xd9dc // Branch { cond: 9, imm: 220, immx: 255 } 0b1101100111011100
-0xd9dd // Branch { cond: 9, imm: 221, immx: 255 } 0b1101100111011101
-0xd9de // Branch { cond: 9, imm: 222, immx: 255 } 0b1101100111011110
-0xd9df // Branch { cond: 9, imm: 223, immx: 255 } 0b1101100111011111
-0xd9e0 // Branch { cond: 9, imm: 224, immx: 255 } 0b1101100111100000
-0xd9e1 // Branch { cond: 9, imm: 225, immx: 255 } 0b1101100111100001
-0xd9e2 // Branch { cond: 9, imm: 226, immx: 255 } 0b1101100111100010
-0xd9e3 // Branch { cond: 9, imm: 227, immx: 255 } 0b1101100111100011
-0xd9e4 // Branch { cond: 9, imm: 228, immx: 255 } 0b1101100111100100
-0xd9e5 // Branch { cond: 9, imm: 229, immx: 255 } 0b1101100111100101
-0xd9e6 // Branch { cond: 9, imm: 230, immx: 255 } 0b1101100111100110
-0xd9e7 // Branch { cond: 9, imm: 231, immx: 255 } 0b1101100111100111
-0xd9e8 // Branch { cond: 9, imm: 232, immx: 255 } 0b1101100111101000
-0xd9e9 // Branch { cond: 9, imm: 233, immx: 255 } 0b1101100111101001
-0xd9ea // Branch { cond: 9, imm: 234, immx: 255 } 0b1101100111101010
-0xd9eb // Branch { cond: 9, imm: 235, immx: 255 } 0b1101100111101011
-0xd9ec // Branch { cond: 9, imm: 236, immx: 255 } 0b1101100111101100
-0xd9ed // Branch { cond: 9, imm: 237, immx: 255 } 0b1101100111101101
-0xd9ee // Branch { cond: 9, imm: 238, immx: 255 } 0b1101100111101110
-0xd9ef // Branch { cond: 9, imm: 239, immx: 255 } 0b1101100111101111
-0xd9f0 // Branch { cond: 9, imm: 240, immx: 255 } 0b1101100111110000
-0xd9f1 // Branch { cond: 9, imm: 241, immx: 255 } 0b1101100111110001
-0xd9f2 // Branch { cond: 9, imm: 242, immx: 255 } 0b1101100111110010
-0xd9f3 // Branch { cond: 9, imm: 243, immx: 255 } 0b1101100111110011
-0xd9f4 // Branch { cond: 9, imm: 244, immx: 255 } 0b1101100111110100
-0xd9f5 // Branch { cond: 9, imm: 245, immx: 255 } 0b1101100111110101
-0xd9f6 // Branch { cond: 9, imm: 246, immx: 255 } 0b1101100111110110
-0xd9f7 // Branch { cond: 9, imm: 247, immx: 255 } 0b1101100111110111
-0xd9f8 // Branch { cond: 9, imm: 248, immx: 255 } 0b1101100111111000
-0xd9f9 // Branch { cond: 9, imm: 249, immx: 255 } 0b1101100111111001
-0xd9fa // Branch { cond: 9, imm: 250, immx: 255 } 0b1101100111111010
-0xd9fb // Branch { cond: 9, imm: 251, immx: 255 } 0b1101100111111011
-0xd9fc // Branch { cond: 9, imm: 252, immx: 255 } 0b1101100111111100
-0xd9fd // Branch { cond: 9, imm: 253, immx: 255 } 0b1101100111111101
-0xd9fe // Branch { cond: 9, imm: 254, immx: 255 } 0b1101100111111110
-0xd9ff // Branch { cond: 9, imm: 255, immx: 255 } 0b1101100111111111
-0xda00 // Branch { cond: 10, imm: 0, immx: 255 } 0b1101101000000000
-0xda01 // Branch { cond: 10, imm: 1, immx: 255 } 0b1101101000000001
-0xda02 // Branch { cond: 10, imm: 2, immx: 255 } 0b1101101000000010
-0xda03 // Branch { cond: 10, imm: 3, immx: 255 } 0b1101101000000011
-0xda04 // Branch { cond: 10, imm: 4, immx: 255 } 0b1101101000000100
-0xda05 // Branch { cond: 10, imm: 5, immx: 255 } 0b1101101000000101
-0xda06 // Branch { cond: 10, imm: 6, immx: 255 } 0b1101101000000110
-0xda07 // Branch { cond: 10, imm: 7, immx: 255 } 0b1101101000000111
-0xda08 // Branch { cond: 10, imm: 8, immx: 255 } 0b1101101000001000
-0xda09 // Branch { cond: 10, imm: 9, immx: 255 } 0b1101101000001001
-0xda0a // Branch { cond: 10, imm: 10, immx: 255 } 0b1101101000001010
-0xda0b // Branch { cond: 10, imm: 11, immx: 255 } 0b1101101000001011
-0xda0c // Branch { cond: 10, imm: 12, immx: 255 } 0b1101101000001100
-0xda0d // Branch { cond: 10, imm: 13, immx: 255 } 0b1101101000001101
-0xda0e // Branch { cond: 10, imm: 14, immx: 255 } 0b1101101000001110
-0xda0f // Branch { cond: 10, imm: 15, immx: 255 } 0b1101101000001111
-0xda10 // Branch { cond: 10, imm: 16, immx: 255 } 0b1101101000010000
-0xda11 // Branch { cond: 10, imm: 17, immx: 255 } 0b1101101000010001
-0xda12 // Branch { cond: 10, imm: 18, immx: 255 } 0b1101101000010010
-0xda13 // Branch { cond: 10, imm: 19, immx: 255 } 0b1101101000010011
-0xda14 // Branch { cond: 10, imm: 20, immx: 255 } 0b1101101000010100
-0xda15 // Branch { cond: 10, imm: 21, immx: 255 } 0b1101101000010101
-0xda16 // Branch { cond: 10, imm: 22, immx: 255 } 0b1101101000010110
-0xda17 // Branch { cond: 10, imm: 23, immx: 255 } 0b1101101000010111
-0xda18 // Branch { cond: 10, imm: 24, immx: 255 } 0b1101101000011000
-0xda19 // Branch { cond: 10, imm: 25, immx: 255 } 0b1101101000011001
-0xda1a // Branch { cond: 10, imm: 26, immx: 255 } 0b1101101000011010
-0xda1b // Branch { cond: 10, imm: 27, immx: 255 } 0b1101101000011011
-0xda1c // Branch { cond: 10, imm: 28, immx: 255 } 0b1101101000011100
-0xda1d // Branch { cond: 10, imm: 29, immx: 255 } 0b1101101000011101
-0xda1e // Branch { cond: 10, imm: 30, immx: 255 } 0b1101101000011110
-0xda1f // Branch { cond: 10, imm: 31, immx: 255 } 0b1101101000011111
-0xda20 // Branch { cond: 10, imm: 32, immx: 255 } 0b1101101000100000
-0xda21 // Branch { cond: 10, imm: 33, immx: 255 } 0b1101101000100001
-0xda22 // Branch { cond: 10, imm: 34, immx: 255 } 0b1101101000100010
-0xda23 // Branch { cond: 10, imm: 35, immx: 255 } 0b1101101000100011
-0xda24 // Branch { cond: 10, imm: 36, immx: 255 } 0b1101101000100100
-0xda25 // Branch { cond: 10, imm: 37, immx: 255 } 0b1101101000100101
-0xda26 // Branch { cond: 10, imm: 38, immx: 255 } 0b1101101000100110
-0xda27 // Branch { cond: 10, imm: 39, immx: 255 } 0b1101101000100111
-0xda28 // Branch { cond: 10, imm: 40, immx: 255 } 0b1101101000101000
-0xda29 // Branch { cond: 10, imm: 41, immx: 255 } 0b1101101000101001
-0xda2a // Branch { cond: 10, imm: 42, immx: 255 } 0b1101101000101010
-0xda2b // Branch { cond: 10, imm: 43, immx: 255 } 0b1101101000101011
-0xda2c // Branch { cond: 10, imm: 44, immx: 255 } 0b1101101000101100
-0xda2d // Branch { cond: 10, imm: 45, immx: 255 } 0b1101101000101101
-0xda2e // Branch { cond: 10, imm: 46, immx: 255 } 0b1101101000101110
-0xda2f // Branch { cond: 10, imm: 47, immx: 255 } 0b1101101000101111
-0xda30 // Branch { cond: 10, imm: 48, immx: 255 } 0b1101101000110000
-0xda31 // Branch { cond: 10, imm: 49, immx: 255 } 0b1101101000110001
-0xda32 // Branch { cond: 10, imm: 50, immx: 255 } 0b1101101000110010
-0xda33 // Branch { cond: 10, imm: 51, immx: 255 } 0b1101101000110011
-0xda34 // Branch { cond: 10, imm: 52, immx: 255 } 0b1101101000110100
-0xda35 // Branch { cond: 10, imm: 53, immx: 255 } 0b1101101000110101
-0xda36 // Branch { cond: 10, imm: 54, immx: 255 } 0b1101101000110110
-0xda37 // Branch { cond: 10, imm: 55, immx: 255 } 0b1101101000110111
-0xda38 // Branch { cond: 10, imm: 56, immx: 255 } 0b1101101000111000
-0xda39 // Branch { cond: 10, imm: 57, immx: 255 } 0b1101101000111001
-0xda3a // Branch { cond: 10, imm: 58, immx: 255 } 0b1101101000111010
-0xda3b // Branch { cond: 10, imm: 59, immx: 255 } 0b1101101000111011
-0xda3c // Branch { cond: 10, imm: 60, immx: 255 } 0b1101101000111100
-0xda3d // Branch { cond: 10, imm: 61, immx: 255 } 0b1101101000111101
-0xda3e // Branch { cond: 10, imm: 62, immx: 255 } 0b1101101000111110
-0xda3f // Branch { cond: 10, imm: 63, immx: 255 } 0b1101101000111111
-0xda40 // Branch { cond: 10, imm: 64, immx: 255 } 0b1101101001000000
-0xda41 // Branch { cond: 10, imm: 65, immx: 255 } 0b1101101001000001
-0xda42 // Branch { cond: 10, imm: 66, immx: 255 } 0b1101101001000010
-0xda43 // Branch { cond: 10, imm: 67, immx: 255 } 0b1101101001000011
-0xda44 // Branch { cond: 10, imm: 68, immx: 255 } 0b1101101001000100
-0xda45 // Branch { cond: 10, imm: 69, immx: 255 } 0b1101101001000101
-0xda46 // Branch { cond: 10, imm: 70, immx: 255 } 0b1101101001000110
-0xda47 // Branch { cond: 10, imm: 71, immx: 255 } 0b1101101001000111
-0xda48 // Branch { cond: 10, imm: 72, immx: 255 } 0b1101101001001000
-0xda49 // Branch { cond: 10, imm: 73, immx: 255 } 0b1101101001001001
-0xda4a // Branch { cond: 10, imm: 74, immx: 255 } 0b1101101001001010
-0xda4b // Branch { cond: 10, imm: 75, immx: 255 } 0b1101101001001011
-0xda4c // Branch { cond: 10, imm: 76, immx: 255 } 0b1101101001001100
-0xda4d // Branch { cond: 10, imm: 77, immx: 255 } 0b1101101001001101
-0xda4e // Branch { cond: 10, imm: 78, immx: 255 } 0b1101101001001110
-0xda4f // Branch { cond: 10, imm: 79, immx: 255 } 0b1101101001001111
-0xda50 // Branch { cond: 10, imm: 80, immx: 255 } 0b1101101001010000
-0xda51 // Branch { cond: 10, imm: 81, immx: 255 } 0b1101101001010001
-0xda52 // Branch { cond: 10, imm: 82, immx: 255 } 0b1101101001010010
-0xda53 // Branch { cond: 10, imm: 83, immx: 255 } 0b1101101001010011
-0xda54 // Branch { cond: 10, imm: 84, immx: 255 } 0b1101101001010100
-0xda55 // Branch { cond: 10, imm: 85, immx: 255 } 0b1101101001010101
-0xda56 // Branch { cond: 10, imm: 86, immx: 255 } 0b1101101001010110
-0xda57 // Branch { cond: 10, imm: 87, immx: 255 } 0b1101101001010111
-0xda58 // Branch { cond: 10, imm: 88, immx: 255 } 0b1101101001011000
-0xda59 // Branch { cond: 10, imm: 89, immx: 255 } 0b1101101001011001
-0xda5a // Branch { cond: 10, imm: 90, immx: 255 } 0b1101101001011010
-0xda5b // Branch { cond: 10, imm: 91, immx: 255 } 0b1101101001011011
-0xda5c // Branch { cond: 10, imm: 92, immx: 255 } 0b1101101001011100
-0xda5d // Branch { cond: 10, imm: 93, immx: 255 } 0b1101101001011101
-0xda5e // Branch { cond: 10, imm: 94, immx: 255 } 0b1101101001011110
-0xda5f // Branch { cond: 10, imm: 95, immx: 255 } 0b1101101001011111
-0xda60 // Branch { cond: 10, imm: 96, immx: 255 } 0b1101101001100000
-0xda61 // Branch { cond: 10, imm: 97, immx: 255 } 0b1101101001100001
-0xda62 // Branch { cond: 10, imm: 98, immx: 255 } 0b1101101001100010
-0xda63 // Branch { cond: 10, imm: 99, immx: 255 } 0b1101101001100011
-0xda64 // Branch { cond: 10, imm: 100, immx: 255 } 0b1101101001100100
-0xda65 // Branch { cond: 10, imm: 101, immx: 255 } 0b1101101001100101
-0xda66 // Branch { cond: 10, imm: 102, immx: 255 } 0b1101101001100110
-0xda67 // Branch { cond: 10, imm: 103, immx: 255 } 0b1101101001100111
-0xda68 // Branch { cond: 10, imm: 104, immx: 255 } 0b1101101001101000
-0xda69 // Branch { cond: 10, imm: 105, immx: 255 } 0b1101101001101001
-0xda6a // Branch { cond: 10, imm: 106, immx: 255 } 0b1101101001101010
-0xda6b // Branch { cond: 10, imm: 107, immx: 255 } 0b1101101001101011
-0xda6c // Branch { cond: 10, imm: 108, immx: 255 } 0b1101101001101100
-0xda6d // Branch { cond: 10, imm: 109, immx: 255 } 0b1101101001101101
-0xda6e // Branch { cond: 10, imm: 110, immx: 255 } 0b1101101001101110
-0xda6f // Branch { cond: 10, imm: 111, immx: 255 } 0b1101101001101111
-0xda70 // Branch { cond: 10, imm: 112, immx: 255 } 0b1101101001110000
-0xda71 // Branch { cond: 10, imm: 113, immx: 255 } 0b1101101001110001
-0xda72 // Branch { cond: 10, imm: 114, immx: 255 } 0b1101101001110010
-0xda73 // Branch { cond: 10, imm: 115, immx: 255 } 0b1101101001110011
-0xda74 // Branch { cond: 10, imm: 116, immx: 255 } 0b1101101001110100
-0xda75 // Branch { cond: 10, imm: 117, immx: 255 } 0b1101101001110101
-0xda76 // Branch { cond: 10, imm: 118, immx: 255 } 0b1101101001110110
-0xda77 // Branch { cond: 10, imm: 119, immx: 255 } 0b1101101001110111
-0xda78 // Branch { cond: 10, imm: 120, immx: 255 } 0b1101101001111000
-0xda79 // Branch { cond: 10, imm: 121, immx: 255 } 0b1101101001111001
-0xda7a // Branch { cond: 10, imm: 122, immx: 255 } 0b1101101001111010
-0xda7b // Branch { cond: 10, imm: 123, immx: 255 } 0b1101101001111011
-0xda7c // Branch { cond: 10, imm: 124, immx: 255 } 0b1101101001111100
-0xda7d // Branch { cond: 10, imm: 125, immx: 255 } 0b1101101001111101
-0xda7e // Branch { cond: 10, imm: 126, immx: 255 } 0b1101101001111110
-0xda7f // Branch { cond: 10, imm: 127, immx: 255 } 0b1101101001111111
-0xda80 // Branch { cond: 10, imm: 128, immx: 255 } 0b1101101010000000
-0xda81 // Branch { cond: 10, imm: 129, immx: 255 } 0b1101101010000001
-0xda82 // Branch { cond: 10, imm: 130, immx: 255 } 0b1101101010000010
-0xda83 // Branch { cond: 10, imm: 131, immx: 255 } 0b1101101010000011
-0xda84 // Branch { cond: 10, imm: 132, immx: 255 } 0b1101101010000100
-0xda85 // Branch { cond: 10, imm: 133, immx: 255 } 0b1101101010000101
-0xda86 // Branch { cond: 10, imm: 134, immx: 255 } 0b1101101010000110
-0xda87 // Branch { cond: 10, imm: 135, immx: 255 } 0b1101101010000111
-0xda88 // Branch { cond: 10, imm: 136, immx: 255 } 0b1101101010001000
-0xda89 // Branch { cond: 10, imm: 137, immx: 255 } 0b1101101010001001
-0xda8a // Branch { cond: 10, imm: 138, immx: 255 } 0b1101101010001010
-0xda8b // Branch { cond: 10, imm: 139, immx: 255 } 0b1101101010001011
-0xda8c // Branch { cond: 10, imm: 140, immx: 255 } 0b1101101010001100
-0xda8d // Branch { cond: 10, imm: 141, immx: 255 } 0b1101101010001101
-0xda8e // Branch { cond: 10, imm: 142, immx: 255 } 0b1101101010001110
-0xda8f // Branch { cond: 10, imm: 143, immx: 255 } 0b1101101010001111
-0xda90 // Branch { cond: 10, imm: 144, immx: 255 } 0b1101101010010000
-0xda91 // Branch { cond: 10, imm: 145, immx: 255 } 0b1101101010010001
-0xda92 // Branch { cond: 10, imm: 146, immx: 255 } 0b1101101010010010
-0xda93 // Branch { cond: 10, imm: 147, immx: 255 } 0b1101101010010011
-0xda94 // Branch { cond: 10, imm: 148, immx: 255 } 0b1101101010010100
-0xda95 // Branch { cond: 10, imm: 149, immx: 255 } 0b1101101010010101
-0xda96 // Branch { cond: 10, imm: 150, immx: 255 } 0b1101101010010110
-0xda97 // Branch { cond: 10, imm: 151, immx: 255 } 0b1101101010010111
-0xda98 // Branch { cond: 10, imm: 152, immx: 255 } 0b1101101010011000
-0xda99 // Branch { cond: 10, imm: 153, immx: 255 } 0b1101101010011001
-0xda9a // Branch { cond: 10, imm: 154, immx: 255 } 0b1101101010011010
-0xda9b // Branch { cond: 10, imm: 155, immx: 255 } 0b1101101010011011
-0xda9c // Branch { cond: 10, imm: 156, immx: 255 } 0b1101101010011100
-0xda9d // Branch { cond: 10, imm: 157, immx: 255 } 0b1101101010011101
-0xda9e // Branch { cond: 10, imm: 158, immx: 255 } 0b1101101010011110
-0xda9f // Branch { cond: 10, imm: 159, immx: 255 } 0b1101101010011111
-0xdaa0 // Branch { cond: 10, imm: 160, immx: 255 } 0b1101101010100000
-0xdaa1 // Branch { cond: 10, imm: 161, immx: 255 } 0b1101101010100001
-0xdaa2 // Branch { cond: 10, imm: 162, immx: 255 } 0b1101101010100010
-0xdaa3 // Branch { cond: 10, imm: 163, immx: 255 } 0b1101101010100011
-0xdaa4 // Branch { cond: 10, imm: 164, immx: 255 } 0b1101101010100100
-0xdaa5 // Branch { cond: 10, imm: 165, immx: 255 } 0b1101101010100101
-0xdaa6 // Branch { cond: 10, imm: 166, immx: 255 } 0b1101101010100110
-0xdaa7 // Branch { cond: 10, imm: 167, immx: 255 } 0b1101101010100111
-0xdaa8 // Branch { cond: 10, imm: 168, immx: 255 } 0b1101101010101000
-0xdaa9 // Branch { cond: 10, imm: 169, immx: 255 } 0b1101101010101001
-0xdaaa // Branch { cond: 10, imm: 170, immx: 255 } 0b1101101010101010
-0xdaab // Branch { cond: 10, imm: 171, immx: 255 } 0b1101101010101011
-0xdaac // Branch { cond: 10, imm: 172, immx: 255 } 0b1101101010101100
-0xdaad // Branch { cond: 10, imm: 173, immx: 255 } 0b1101101010101101
-0xdaae // Branch { cond: 10, imm: 174, immx: 255 } 0b1101101010101110
-0xdaaf // Branch { cond: 10, imm: 175, immx: 255 } 0b1101101010101111
-0xdab0 // Branch { cond: 10, imm: 176, immx: 255 } 0b1101101010110000
-0xdab1 // Branch { cond: 10, imm: 177, immx: 255 } 0b1101101010110001
-0xdab2 // Branch { cond: 10, imm: 178, immx: 255 } 0b1101101010110010
-0xdab3 // Branch { cond: 10, imm: 179, immx: 255 } 0b1101101010110011
-0xdab4 // Branch { cond: 10, imm: 180, immx: 255 } 0b1101101010110100
-0xdab5 // Branch { cond: 10, imm: 181, immx: 255 } 0b1101101010110101
-0xdab6 // Branch { cond: 10, imm: 182, immx: 255 } 0b1101101010110110
-0xdab7 // Branch { cond: 10, imm: 183, immx: 255 } 0b1101101010110111
-0xdab8 // Branch { cond: 10, imm: 184, immx: 255 } 0b1101101010111000
-0xdab9 // Branch { cond: 10, imm: 185, immx: 255 } 0b1101101010111001
-0xdaba // Branch { cond: 10, imm: 186, immx: 255 } 0b1101101010111010
-0xdabb // Branch { cond: 10, imm: 187, immx: 255 } 0b1101101010111011
-0xdabc // Branch { cond: 10, imm: 188, immx: 255 } 0b1101101010111100
-0xdabd // Branch { cond: 10, imm: 189, immx: 255 } 0b1101101010111101
-0xdabe // Branch { cond: 10, imm: 190, immx: 255 } 0b1101101010111110
-0xdabf // Branch { cond: 10, imm: 191, immx: 255 } 0b1101101010111111
-0xdac0 // Branch { cond: 10, imm: 192, immx: 255 } 0b1101101011000000
-0xdac1 // Branch { cond: 10, imm: 193, immx: 255 } 0b1101101011000001
-0xdac2 // Branch { cond: 10, imm: 194, immx: 255 } 0b1101101011000010
-0xdac3 // Branch { cond: 10, imm: 195, immx: 255 } 0b1101101011000011
-0xdac4 // Branch { cond: 10, imm: 196, immx: 255 } 0b1101101011000100
-0xdac5 // Branch { cond: 10, imm: 197, immx: 255 } 0b1101101011000101
-0xdac6 // Branch { cond: 10, imm: 198, immx: 255 } 0b1101101011000110
-0xdac7 // Branch { cond: 10, imm: 199, immx: 255 } 0b1101101011000111
-0xdac8 // Branch { cond: 10, imm: 200, immx: 255 } 0b1101101011001000
-0xdac9 // Branch { cond: 10, imm: 201, immx: 255 } 0b1101101011001001
-0xdaca // Branch { cond: 10, imm: 202, immx: 255 } 0b1101101011001010
-0xdacb // Branch { cond: 10, imm: 203, immx: 255 } 0b1101101011001011
-0xdacc // Branch { cond: 10, imm: 204, immx: 255 } 0b1101101011001100
-0xdacd // Branch { cond: 10, imm: 205, immx: 255 } 0b1101101011001101
-0xdace // Branch { cond: 10, imm: 206, immx: 255 } 0b1101101011001110
-0xdacf // Branch { cond: 10, imm: 207, immx: 255 } 0b1101101011001111
-0xdad0 // Branch { cond: 10, imm: 208, immx: 255 } 0b1101101011010000
-0xdad1 // Branch { cond: 10, imm: 209, immx: 255 } 0b1101101011010001
-0xdad2 // Branch { cond: 10, imm: 210, immx: 255 } 0b1101101011010010
-0xdad3 // Branch { cond: 10, imm: 211, immx: 255 } 0b1101101011010011
-0xdad4 // Branch { cond: 10, imm: 212, immx: 255 } 0b1101101011010100
-0xdad5 // Branch { cond: 10, imm: 213, immx: 255 } 0b1101101011010101
-0xdad6 // Branch { cond: 10, imm: 214, immx: 255 } 0b1101101011010110
-0xdad7 // Branch { cond: 10, imm: 215, immx: 255 } 0b1101101011010111
-0xdad8 // Branch { cond: 10, imm: 216, immx: 255 } 0b1101101011011000
-0xdad9 // Branch { cond: 10, imm: 217, immx: 255 } 0b1101101011011001
-0xdada // Branch { cond: 10, imm: 218, immx: 255 } 0b1101101011011010
-0xdadb // Branch { cond: 10, imm: 219, immx: 255 } 0b1101101011011011
-0xdadc // Branch { cond: 10, imm: 220, immx: 255 } 0b1101101011011100
-0xdadd // Branch { cond: 10, imm: 221, immx: 255 } 0b1101101011011101
-0xdade // Branch { cond: 10, imm: 222, immx: 255 } 0b1101101011011110
-0xdadf // Branch { cond: 10, imm: 223, immx: 255 } 0b1101101011011111
-0xdae0 // Branch { cond: 10, imm: 224, immx: 255 } 0b1101101011100000
-0xdae1 // Branch { cond: 10, imm: 225, immx: 255 } 0b1101101011100001
-0xdae2 // Branch { cond: 10, imm: 226, immx: 255 } 0b1101101011100010
-0xdae3 // Branch { cond: 10, imm: 227, immx: 255 } 0b1101101011100011
-0xdae4 // Branch { cond: 10, imm: 228, immx: 255 } 0b1101101011100100
-0xdae5 // Branch { cond: 10, imm: 229, immx: 255 } 0b1101101011100101
-0xdae6 // Branch { cond: 10, imm: 230, immx: 255 } 0b1101101011100110
-0xdae7 // Branch { cond: 10, imm: 231, immx: 255 } 0b1101101011100111
-0xdae8 // Branch { cond: 10, imm: 232, immx: 255 } 0b1101101011101000
-0xdae9 // Branch { cond: 10, imm: 233, immx: 255 } 0b1101101011101001
-0xdaea // Branch { cond: 10, imm: 234, immx: 255 } 0b1101101011101010
-0xdaeb // Branch { cond: 10, imm: 235, immx: 255 } 0b1101101011101011
-0xdaec // Branch { cond: 10, imm: 236, immx: 255 } 0b1101101011101100
-0xdaed // Branch { cond: 10, imm: 237, immx: 255 } 0b1101101011101101
-0xdaee // Branch { cond: 10, imm: 238, immx: 255 } 0b1101101011101110
-0xdaef // Branch { cond: 10, imm: 239, immx: 255 } 0b1101101011101111
-0xdaf0 // Branch { cond: 10, imm: 240, immx: 255 } 0b1101101011110000
-0xdaf1 // Branch { cond: 10, imm: 241, immx: 255 } 0b1101101011110001
-0xdaf2 // Branch { cond: 10, imm: 242, immx: 255 } 0b1101101011110010
-0xdaf3 // Branch { cond: 10, imm: 243, immx: 255 } 0b1101101011110011
-0xdaf4 // Branch { cond: 10, imm: 244, immx: 255 } 0b1101101011110100
-0xdaf5 // Branch { cond: 10, imm: 245, immx: 255 } 0b1101101011110101
-0xdaf6 // Branch { cond: 10, imm: 246, immx: 255 } 0b1101101011110110
-0xdaf7 // Branch { cond: 10, imm: 247, immx: 255 } 0b1101101011110111
-0xdaf8 // Branch { cond: 10, imm: 248, immx: 255 } 0b1101101011111000
-0xdaf9 // Branch { cond: 10, imm: 249, immx: 255 } 0b1101101011111001
-0xdafa // Branch { cond: 10, imm: 250, immx: 255 } 0b1101101011111010
-0xdafb // Branch { cond: 10, imm: 251, immx: 255 } 0b1101101011111011
-0xdafc // Branch { cond: 10, imm: 252, immx: 255 } 0b1101101011111100
-0xdafd // Branch { cond: 10, imm: 253, immx: 255 } 0b1101101011111101
-0xdafe // Branch { cond: 10, imm: 254, immx: 255 } 0b1101101011111110
-0xdaff // Branch { cond: 10, imm: 255, immx: 255 } 0b1101101011111111
-0xdb00 // Branch { cond: 11, imm: 0, immx: 255 } 0b1101101100000000
-0xdb01 // Branch { cond: 11, imm: 1, immx: 255 } 0b1101101100000001
-0xdb02 // Branch { cond: 11, imm: 2, immx: 255 } 0b1101101100000010
-0xdb03 // Branch { cond: 11, imm: 3, immx: 255 } 0b1101101100000011
-0xdb04 // Branch { cond: 11, imm: 4, immx: 255 } 0b1101101100000100
-0xdb05 // Branch { cond: 11, imm: 5, immx: 255 } 0b1101101100000101
-0xdb06 // Branch { cond: 11, imm: 6, immx: 255 } 0b1101101100000110
-0xdb07 // Branch { cond: 11, imm: 7, immx: 255 } 0b1101101100000111
-0xdb08 // Branch { cond: 11, imm: 8, immx: 255 } 0b1101101100001000
-0xdb09 // Branch { cond: 11, imm: 9, immx: 255 } 0b1101101100001001
-0xdb0a // Branch { cond: 11, imm: 10, immx: 255 } 0b1101101100001010
-0xdb0b // Branch { cond: 11, imm: 11, immx: 255 } 0b1101101100001011
-0xdb0c // Branch { cond: 11, imm: 12, immx: 255 } 0b1101101100001100
-0xdb0d // Branch { cond: 11, imm: 13, immx: 255 } 0b1101101100001101
-0xdb0e // Branch { cond: 11, imm: 14, immx: 255 } 0b1101101100001110
-0xdb0f // Branch { cond: 11, imm: 15, immx: 255 } 0b1101101100001111
-0xdb10 // Branch { cond: 11, imm: 16, immx: 255 } 0b1101101100010000
-0xdb11 // Branch { cond: 11, imm: 17, immx: 255 } 0b1101101100010001
-0xdb12 // Branch { cond: 11, imm: 18, immx: 255 } 0b1101101100010010
-0xdb13 // Branch { cond: 11, imm: 19, immx: 255 } 0b1101101100010011
-0xdb14 // Branch { cond: 11, imm: 20, immx: 255 } 0b1101101100010100
-0xdb15 // Branch { cond: 11, imm: 21, immx: 255 } 0b1101101100010101
-0xdb16 // Branch { cond: 11, imm: 22, immx: 255 } 0b1101101100010110
-0xdb17 // Branch { cond: 11, imm: 23, immx: 255 } 0b1101101100010111
-0xdb18 // Branch { cond: 11, imm: 24, immx: 255 } 0b1101101100011000
-0xdb19 // Branch { cond: 11, imm: 25, immx: 255 } 0b1101101100011001
-0xdb1a // Branch { cond: 11, imm: 26, immx: 255 } 0b1101101100011010
-0xdb1b // Branch { cond: 11, imm: 27, immx: 255 } 0b1101101100011011
-0xdb1c // Branch { cond: 11, imm: 28, immx: 255 } 0b1101101100011100
-0xdb1d // Branch { cond: 11, imm: 29, immx: 255 } 0b1101101100011101
-0xdb1e // Branch { cond: 11, imm: 30, immx: 255 } 0b1101101100011110
-0xdb1f // Branch { cond: 11, imm: 31, immx: 255 } 0b1101101100011111
-0xdb20 // Branch { cond: 11, imm: 32, immx: 255 } 0b1101101100100000
-0xdb21 // Branch { cond: 11, imm: 33, immx: 255 } 0b1101101100100001
-0xdb22 // Branch { cond: 11, imm: 34, immx: 255 } 0b1101101100100010
-0xdb23 // Branch { cond: 11, imm: 35, immx: 255 } 0b1101101100100011
-0xdb24 // Branch { cond: 11, imm: 36, immx: 255 } 0b1101101100100100
-0xdb25 // Branch { cond: 11, imm: 37, immx: 255 } 0b1101101100100101
-0xdb26 // Branch { cond: 11, imm: 38, immx: 255 } 0b1101101100100110
-0xdb27 // Branch { cond: 11, imm: 39, immx: 255 } 0b1101101100100111
-0xdb28 // Branch { cond: 11, imm: 40, immx: 255 } 0b1101101100101000
-0xdb29 // Branch { cond: 11, imm: 41, immx: 255 } 0b1101101100101001
-0xdb2a // Branch { cond: 11, imm: 42, immx: 255 } 0b1101101100101010
-0xdb2b // Branch { cond: 11, imm: 43, immx: 255 } 0b1101101100101011
-0xdb2c // Branch { cond: 11, imm: 44, immx: 255 } 0b1101101100101100
-0xdb2d // Branch { cond: 11, imm: 45, immx: 255 } 0b1101101100101101
-0xdb2e // Branch { cond: 11, imm: 46, immx: 255 } 0b1101101100101110
-0xdb2f // Branch { cond: 11, imm: 47, immx: 255 } 0b1101101100101111
-0xdb30 // Branch { cond: 11, imm: 48, immx: 255 } 0b1101101100110000
-0xdb31 // Branch { cond: 11, imm: 49, immx: 255 } 0b1101101100110001
-0xdb32 // Branch { cond: 11, imm: 50, immx: 255 } 0b1101101100110010
-0xdb33 // Branch { cond: 11, imm: 51, immx: 255 } 0b1101101100110011
-0xdb34 // Branch { cond: 11, imm: 52, immx: 255 } 0b1101101100110100
-0xdb35 // Branch { cond: 11, imm: 53, immx: 255 } 0b1101101100110101
-0xdb36 // Branch { cond: 11, imm: 54, immx: 255 } 0b1101101100110110
-0xdb37 // Branch { cond: 11, imm: 55, immx: 255 } 0b1101101100110111
-0xdb38 // Branch { cond: 11, imm: 56, immx: 255 } 0b1101101100111000
-0xdb39 // Branch { cond: 11, imm: 57, immx: 255 } 0b1101101100111001
-0xdb3a // Branch { cond: 11, imm: 58, immx: 255 } 0b1101101100111010
-0xdb3b // Branch { cond: 11, imm: 59, immx: 255 } 0b1101101100111011
-0xdb3c // Branch { cond: 11, imm: 60, immx: 255 } 0b1101101100111100
-0xdb3d // Branch { cond: 11, imm: 61, immx: 255 } 0b1101101100111101
-0xdb3e // Branch { cond: 11, imm: 62, immx: 255 } 0b1101101100111110
-0xdb3f // Branch { cond: 11, imm: 63, immx: 255 } 0b1101101100111111
-0xdb40 // Branch { cond: 11, imm: 64, immx: 255 } 0b1101101101000000
-0xdb41 // Branch { cond: 11, imm: 65, immx: 255 } 0b1101101101000001
-0xdb42 // Branch { cond: 11, imm: 66, immx: 255 } 0b1101101101000010
-0xdb43 // Branch { cond: 11, imm: 67, immx: 255 } 0b1101101101000011
-0xdb44 // Branch { cond: 11, imm: 68, immx: 255 } 0b1101101101000100
-0xdb45 // Branch { cond: 11, imm: 69, immx: 255 } 0b1101101101000101
-0xdb46 // Branch { cond: 11, imm: 70, immx: 255 } 0b1101101101000110
-0xdb47 // Branch { cond: 11, imm: 71, immx: 255 } 0b1101101101000111
-0xdb48 // Branch { cond: 11, imm: 72, immx: 255 } 0b1101101101001000
-0xdb49 // Branch { cond: 11, imm: 73, immx: 255 } 0b1101101101001001
-0xdb4a // Branch { cond: 11, imm: 74, immx: 255 } 0b1101101101001010
-0xdb4b // Branch { cond: 11, imm: 75, immx: 255 } 0b1101101101001011
-0xdb4c // Branch { cond: 11, imm: 76, immx: 255 } 0b1101101101001100
-0xdb4d // Branch { cond: 11, imm: 77, immx: 255 } 0b1101101101001101
-0xdb4e // Branch { cond: 11, imm: 78, immx: 255 } 0b1101101101001110
-0xdb4f // Branch { cond: 11, imm: 79, immx: 255 } 0b1101101101001111
-0xdb50 // Branch { cond: 11, imm: 80, immx: 255 } 0b1101101101010000
-0xdb51 // Branch { cond: 11, imm: 81, immx: 255 } 0b1101101101010001
-0xdb52 // Branch { cond: 11, imm: 82, immx: 255 } 0b1101101101010010
-0xdb53 // Branch { cond: 11, imm: 83, immx: 255 } 0b1101101101010011
-0xdb54 // Branch { cond: 11, imm: 84, immx: 255 } 0b1101101101010100
-0xdb55 // Branch { cond: 11, imm: 85, immx: 255 } 0b1101101101010101
-0xdb56 // Branch { cond: 11, imm: 86, immx: 255 } 0b1101101101010110
-0xdb57 // Branch { cond: 11, imm: 87, immx: 255 } 0b1101101101010111
-0xdb58 // Branch { cond: 11, imm: 88, immx: 255 } 0b1101101101011000
-0xdb59 // Branch { cond: 11, imm: 89, immx: 255 } 0b1101101101011001
-0xdb5a // Branch { cond: 11, imm: 90, immx: 255 } 0b1101101101011010
-0xdb5b // Branch { cond: 11, imm: 91, immx: 255 } 0b1101101101011011
-0xdb5c // Branch { cond: 11, imm: 92, immx: 255 } 0b1101101101011100
-0xdb5d // Branch { cond: 11, imm: 93, immx: 255 } 0b1101101101011101
-0xdb5e // Branch { cond: 11, imm: 94, immx: 255 } 0b1101101101011110
-0xdb5f // Branch { cond: 11, imm: 95, immx: 255 } 0b1101101101011111
-0xdb60 // Branch { cond: 11, imm: 96, immx: 255 } 0b1101101101100000
-0xdb61 // Branch { cond: 11, imm: 97, immx: 255 } 0b1101101101100001
-0xdb62 // Branch { cond: 11, imm: 98, immx: 255 } 0b1101101101100010
-0xdb63 // Branch { cond: 11, imm: 99, immx: 255 } 0b1101101101100011
-0xdb64 // Branch { cond: 11, imm: 100, immx: 255 } 0b1101101101100100
-0xdb65 // Branch { cond: 11, imm: 101, immx: 255 } 0b1101101101100101
-0xdb66 // Branch { cond: 11, imm: 102, immx: 255 } 0b1101101101100110
-0xdb67 // Branch { cond: 11, imm: 103, immx: 255 } 0b1101101101100111
-0xdb68 // Branch { cond: 11, imm: 104, immx: 255 } 0b1101101101101000
-0xdb69 // Branch { cond: 11, imm: 105, immx: 255 } 0b1101101101101001
-0xdb6a // Branch { cond: 11, imm: 106, immx: 255 } 0b1101101101101010
-0xdb6b // Branch { cond: 11, imm: 107, immx: 255 } 0b1101101101101011
-0xdb6c // Branch { cond: 11, imm: 108, immx: 255 } 0b1101101101101100
-0xdb6d // Branch { cond: 11, imm: 109, immx: 255 } 0b1101101101101101
-0xdb6e // Branch { cond: 11, imm: 110, immx: 255 } 0b1101101101101110
-0xdb6f // Branch { cond: 11, imm: 111, immx: 255 } 0b1101101101101111
-0xdb70 // Branch { cond: 11, imm: 112, immx: 255 } 0b1101101101110000
-0xdb71 // Branch { cond: 11, imm: 113, immx: 255 } 0b1101101101110001
-0xdb72 // Branch { cond: 11, imm: 114, immx: 255 } 0b1101101101110010
-0xdb73 // Branch { cond: 11, imm: 115, immx: 255 } 0b1101101101110011
-0xdb74 // Branch { cond: 11, imm: 116, immx: 255 } 0b1101101101110100
-0xdb75 // Branch { cond: 11, imm: 117, immx: 255 } 0b1101101101110101
-0xdb76 // Branch { cond: 11, imm: 118, immx: 255 } 0b1101101101110110
-0xdb77 // Branch { cond: 11, imm: 119, immx: 255 } 0b1101101101110111
-0xdb78 // Branch { cond: 11, imm: 120, immx: 255 } 0b1101101101111000
-0xdb79 // Branch { cond: 11, imm: 121, immx: 255 } 0b1101101101111001
-0xdb7a // Branch { cond: 11, imm: 122, immx: 255 } 0b1101101101111010
-0xdb7b // Branch { cond: 11, imm: 123, immx: 255 } 0b1101101101111011
-0xdb7c // Branch { cond: 11, imm: 124, immx: 255 } 0b1101101101111100
-0xdb7d // Branch { cond: 11, imm: 125, immx: 255 } 0b1101101101111101
-0xdb7e // Branch { cond: 11, imm: 126, immx: 255 } 0b1101101101111110
-0xdb7f // Branch { cond: 11, imm: 127, immx: 255 } 0b1101101101111111
-0xdb80 // Branch { cond: 11, imm: 128, immx: 255 } 0b1101101110000000
-0xdb81 // Branch { cond: 11, imm: 129, immx: 255 } 0b1101101110000001
-0xdb82 // Branch { cond: 11, imm: 130, immx: 255 } 0b1101101110000010
-0xdb83 // Branch { cond: 11, imm: 131, immx: 255 } 0b1101101110000011
-0xdb84 // Branch { cond: 11, imm: 132, immx: 255 } 0b1101101110000100
-0xdb85 // Branch { cond: 11, imm: 133, immx: 255 } 0b1101101110000101
-0xdb86 // Branch { cond: 11, imm: 134, immx: 255 } 0b1101101110000110
-0xdb87 // Branch { cond: 11, imm: 135, immx: 255 } 0b1101101110000111
-0xdb88 // Branch { cond: 11, imm: 136, immx: 255 } 0b1101101110001000
-0xdb89 // Branch { cond: 11, imm: 137, immx: 255 } 0b1101101110001001
-0xdb8a // Branch { cond: 11, imm: 138, immx: 255 } 0b1101101110001010
-0xdb8b // Branch { cond: 11, imm: 139, immx: 255 } 0b1101101110001011
-0xdb8c // Branch { cond: 11, imm: 140, immx: 255 } 0b1101101110001100
-0xdb8d // Branch { cond: 11, imm: 141, immx: 255 } 0b1101101110001101
-0xdb8e // Branch { cond: 11, imm: 142, immx: 255 } 0b1101101110001110
-0xdb8f // Branch { cond: 11, imm: 143, immx: 255 } 0b1101101110001111
-0xdb90 // Branch { cond: 11, imm: 144, immx: 255 } 0b1101101110010000
-0xdb91 // Branch { cond: 11, imm: 145, immx: 255 } 0b1101101110010001
-0xdb92 // Branch { cond: 11, imm: 146, immx: 255 } 0b1101101110010010
-0xdb93 // Branch { cond: 11, imm: 147, immx: 255 } 0b1101101110010011
-0xdb94 // Branch { cond: 11, imm: 148, immx: 255 } 0b1101101110010100
-0xdb95 // Branch { cond: 11, imm: 149, immx: 255 } 0b1101101110010101
-0xdb96 // Branch { cond: 11, imm: 150, immx: 255 } 0b1101101110010110
-0xdb97 // Branch { cond: 11, imm: 151, immx: 255 } 0b1101101110010111
-0xdb98 // Branch { cond: 11, imm: 152, immx: 255 } 0b1101101110011000
-0xdb99 // Branch { cond: 11, imm: 153, immx: 255 } 0b1101101110011001
-0xdb9a // Branch { cond: 11, imm: 154, immx: 255 } 0b1101101110011010
-0xdb9b // Branch { cond: 11, imm: 155, immx: 255 } 0b1101101110011011
-0xdb9c // Branch { cond: 11, imm: 156, immx: 255 } 0b1101101110011100
-0xdb9d // Branch { cond: 11, imm: 157, immx: 255 } 0b1101101110011101
-0xdb9e // Branch { cond: 11, imm: 158, immx: 255 } 0b1101101110011110
-0xdb9f // Branch { cond: 11, imm: 159, immx: 255 } 0b1101101110011111
-0xdba0 // Branch { cond: 11, imm: 160, immx: 255 } 0b1101101110100000
-0xdba1 // Branch { cond: 11, imm: 161, immx: 255 } 0b1101101110100001
-0xdba2 // Branch { cond: 11, imm: 162, immx: 255 } 0b1101101110100010
-0xdba3 // Branch { cond: 11, imm: 163, immx: 255 } 0b1101101110100011
-0xdba4 // Branch { cond: 11, imm: 164, immx: 255 } 0b1101101110100100
-0xdba5 // Branch { cond: 11, imm: 165, immx: 255 } 0b1101101110100101
-0xdba6 // Branch { cond: 11, imm: 166, immx: 255 } 0b1101101110100110
-0xdba7 // Branch { cond: 11, imm: 167, immx: 255 } 0b1101101110100111
-0xdba8 // Branch { cond: 11, imm: 168, immx: 255 } 0b1101101110101000
-0xdba9 // Branch { cond: 11, imm: 169, immx: 255 } 0b1101101110101001
-0xdbaa // Branch { cond: 11, imm: 170, immx: 255 } 0b1101101110101010
-0xdbab // Branch { cond: 11, imm: 171, immx: 255 } 0b1101101110101011
-0xdbac // Branch { cond: 11, imm: 172, immx: 255 } 0b1101101110101100
-0xdbad // Branch { cond: 11, imm: 173, immx: 255 } 0b1101101110101101
-0xdbae // Branch { cond: 11, imm: 174, immx: 255 } 0b1101101110101110
-0xdbaf // Branch { cond: 11, imm: 175, immx: 255 } 0b1101101110101111
-0xdbb0 // Branch { cond: 11, imm: 176, immx: 255 } 0b1101101110110000
-0xdbb1 // Branch { cond: 11, imm: 177, immx: 255 } 0b1101101110110001
-0xdbb2 // Branch { cond: 11, imm: 178, immx: 255 } 0b1101101110110010
-0xdbb3 // Branch { cond: 11, imm: 179, immx: 255 } 0b1101101110110011
-0xdbb4 // Branch { cond: 11, imm: 180, immx: 255 } 0b1101101110110100
-0xdbb5 // Branch { cond: 11, imm: 181, immx: 255 } 0b1101101110110101
-0xdbb6 // Branch { cond: 11, imm: 182, immx: 255 } 0b1101101110110110
-0xdbb7 // Branch { cond: 11, imm: 183, immx: 255 } 0b1101101110110111
-0xdbb8 // Branch { cond: 11, imm: 184, immx: 255 } 0b1101101110111000
-0xdbb9 // Branch { cond: 11, imm: 185, immx: 255 } 0b1101101110111001
-0xdbba // Branch { cond: 11, imm: 186, immx: 255 } 0b1101101110111010
-0xdbbb // Branch { cond: 11, imm: 187, immx: 255 } 0b1101101110111011
-0xdbbc // Branch { cond: 11, imm: 188, immx: 255 } 0b1101101110111100
-0xdbbd // Branch { cond: 11, imm: 189, immx: 255 } 0b1101101110111101
-0xdbbe // Branch { cond: 11, imm: 190, immx: 255 } 0b1101101110111110
-0xdbbf // Branch { cond: 11, imm: 191, immx: 255 } 0b1101101110111111
-0xdbc0 // Branch { cond: 11, imm: 192, immx: 255 } 0b1101101111000000
-0xdbc1 // Branch { cond: 11, imm: 193, immx: 255 } 0b1101101111000001
-0xdbc2 // Branch { cond: 11, imm: 194, immx: 255 } 0b1101101111000010
-0xdbc3 // Branch { cond: 11, imm: 195, immx: 255 } 0b1101101111000011
-0xdbc4 // Branch { cond: 11, imm: 196, immx: 255 } 0b1101101111000100
-0xdbc5 // Branch { cond: 11, imm: 197, immx: 255 } 0b1101101111000101
-0xdbc6 // Branch { cond: 11, imm: 198, immx: 255 } 0b1101101111000110
-0xdbc7 // Branch { cond: 11, imm: 199, immx: 255 } 0b1101101111000111
-0xdbc8 // Branch { cond: 11, imm: 200, immx: 255 } 0b1101101111001000
-0xdbc9 // Branch { cond: 11, imm: 201, immx: 255 } 0b1101101111001001
-0xdbca // Branch { cond: 11, imm: 202, immx: 255 } 0b1101101111001010
-0xdbcb // Branch { cond: 11, imm: 203, immx: 255 } 0b1101101111001011
-0xdbcc // Branch { cond: 11, imm: 204, immx: 255 } 0b1101101111001100
-0xdbcd // Branch { cond: 11, imm: 205, immx: 255 } 0b1101101111001101
-0xdbce // Branch { cond: 11, imm: 206, immx: 255 } 0b1101101111001110
-0xdbcf // Branch { cond: 11, imm: 207, immx: 255 } 0b1101101111001111
-0xdbd0 // Branch { cond: 11, imm: 208, immx: 255 } 0b1101101111010000
-0xdbd1 // Branch { cond: 11, imm: 209, immx: 255 } 0b1101101111010001
-0xdbd2 // Branch { cond: 11, imm: 210, immx: 255 } 0b1101101111010010
-0xdbd3 // Branch { cond: 11, imm: 211, immx: 255 } 0b1101101111010011
-0xdbd4 // Branch { cond: 11, imm: 212, immx: 255 } 0b1101101111010100
-0xdbd5 // Branch { cond: 11, imm: 213, immx: 255 } 0b1101101111010101
-0xdbd6 // Branch { cond: 11, imm: 214, immx: 255 } 0b1101101111010110
-0xdbd7 // Branch { cond: 11, imm: 215, immx: 255 } 0b1101101111010111
-0xdbd8 // Branch { cond: 11, imm: 216, immx: 255 } 0b1101101111011000
-0xdbd9 // Branch { cond: 11, imm: 217, immx: 255 } 0b1101101111011001
-0xdbda // Branch { cond: 11, imm: 218, immx: 255 } 0b1101101111011010
-0xdbdb // Branch { cond: 11, imm: 219, immx: 255 } 0b1101101111011011
-0xdbdc // Branch { cond: 11, imm: 220, immx: 255 } 0b1101101111011100
-0xdbdd // Branch { cond: 11, imm: 221, immx: 255 } 0b1101101111011101
-0xdbde // Branch { cond: 11, imm: 222, immx: 255 } 0b1101101111011110
-0xdbdf // Branch { cond: 11, imm: 223, immx: 255 } 0b1101101111011111
-0xdbe0 // Branch { cond: 11, imm: 224, immx: 255 } 0b1101101111100000
-0xdbe1 // Branch { cond: 11, imm: 225, immx: 255 } 0b1101101111100001
-0xdbe2 // Branch { cond: 11, imm: 226, immx: 255 } 0b1101101111100010
-0xdbe3 // Branch { cond: 11, imm: 227, immx: 255 } 0b1101101111100011
-0xdbe4 // Branch { cond: 11, imm: 228, immx: 255 } 0b1101101111100100
-0xdbe5 // Branch { cond: 11, imm: 229, immx: 255 } 0b1101101111100101
-0xdbe6 // Branch { cond: 11, imm: 230, immx: 255 } 0b1101101111100110
-0xdbe7 // Branch { cond: 11, imm: 231, immx: 255 } 0b1101101111100111
-0xdbe8 // Branch { cond: 11, imm: 232, immx: 255 } 0b1101101111101000
-0xdbe9 // Branch { cond: 11, imm: 233, immx: 255 } 0b1101101111101001
-0xdbea // Branch { cond: 11, imm: 234, immx: 255 } 0b1101101111101010
-0xdbeb // Branch { cond: 11, imm: 235, immx: 255 } 0b1101101111101011
-0xdbec // Branch { cond: 11, imm: 236, immx: 255 } 0b1101101111101100
-0xdbed // Branch { cond: 11, imm: 237, immx: 255 } 0b1101101111101101
-0xdbee // Branch { cond: 11, imm: 238, immx: 255 } 0b1101101111101110
-0xdbef // Branch { cond: 11, imm: 239, immx: 255 } 0b1101101111101111
-0xdbf0 // Branch { cond: 11, imm: 240, immx: 255 } 0b1101101111110000
-0xdbf1 // Branch { cond: 11, imm: 241, immx: 255 } 0b1101101111110001
-0xdbf2 // Branch { cond: 11, imm: 242, immx: 255 } 0b1101101111110010
-0xdbf3 // Branch { cond: 11, imm: 243, immx: 255 } 0b1101101111110011
-0xdbf4 // Branch { cond: 11, imm: 244, immx: 255 } 0b1101101111110100
-0xdbf5 // Branch { cond: 11, imm: 245, immx: 255 } 0b1101101111110101
-0xdbf6 // Branch { cond: 11, imm: 246, immx: 255 } 0b1101101111110110
-0xdbf7 // Branch { cond: 11, imm: 247, immx: 255 } 0b1101101111110111
-0xdbf8 // Branch { cond: 11, imm: 248, immx: 255 } 0b1101101111111000
-0xdbf9 // Branch { cond: 11, imm: 249, immx: 255 } 0b1101101111111001
-0xdbfa // Branch { cond: 11, imm: 250, immx: 255 } 0b1101101111111010
-0xdbfb // Branch { cond: 11, imm: 251, immx: 255 } 0b1101101111111011
-0xdbfc // Branch { cond: 11, imm: 252, immx: 255 } 0b1101101111111100
-0xdbfd // Branch { cond: 11, imm: 253, immx: 255 } 0b1101101111111101
-0xdbfe // Branch { cond: 11, imm: 254, immx: 255 } 0b1101101111111110
-0xdbff // Branch { cond: 11, imm: 255, immx: 255 } 0b1101101111111111
-0xdc00 // Branch { cond: 12, imm: 0, immx: 255 } 0b1101110000000000
-0xdc01 // Branch { cond: 12, imm: 1, immx: 255 } 0b1101110000000001
-0xdc02 // Branch { cond: 12, imm: 2, immx: 255 } 0b1101110000000010
-0xdc03 // Branch { cond: 12, imm: 3, immx: 255 } 0b1101110000000011
-0xdc04 // Branch { cond: 12, imm: 4, immx: 255 } 0b1101110000000100
-0xdc05 // Branch { cond: 12, imm: 5, immx: 255 } 0b1101110000000101
-0xdc06 // Branch { cond: 12, imm: 6, immx: 255 } 0b1101110000000110
-0xdc07 // Branch { cond: 12, imm: 7, immx: 255 } 0b1101110000000111
-0xdc08 // Branch { cond: 12, imm: 8, immx: 255 } 0b1101110000001000
-0xdc09 // Branch { cond: 12, imm: 9, immx: 255 } 0b1101110000001001
-0xdc0a // Branch { cond: 12, imm: 10, immx: 255 } 0b1101110000001010
-0xdc0b // Branch { cond: 12, imm: 11, immx: 255 } 0b1101110000001011
-0xdc0c // Branch { cond: 12, imm: 12, immx: 255 } 0b1101110000001100
-0xdc0d // Branch { cond: 12, imm: 13, immx: 255 } 0b1101110000001101
-0xdc0e // Branch { cond: 12, imm: 14, immx: 255 } 0b1101110000001110
-0xdc0f // Branch { cond: 12, imm: 15, immx: 255 } 0b1101110000001111
-0xdc10 // Branch { cond: 12, imm: 16, immx: 255 } 0b1101110000010000
-0xdc11 // Branch { cond: 12, imm: 17, immx: 255 } 0b1101110000010001
-0xdc12 // Branch { cond: 12, imm: 18, immx: 255 } 0b1101110000010010
-0xdc13 // Branch { cond: 12, imm: 19, immx: 255 } 0b1101110000010011
-0xdc14 // Branch { cond: 12, imm: 20, immx: 255 } 0b1101110000010100
-0xdc15 // Branch { cond: 12, imm: 21, immx: 255 } 0b1101110000010101
-0xdc16 // Branch { cond: 12, imm: 22, immx: 255 } 0b1101110000010110
-0xdc17 // Branch { cond: 12, imm: 23, immx: 255 } 0b1101110000010111
-0xdc18 // Branch { cond: 12, imm: 24, immx: 255 } 0b1101110000011000
-0xdc19 // Branch { cond: 12, imm: 25, immx: 255 } 0b1101110000011001
-0xdc1a // Branch { cond: 12, imm: 26, immx: 255 } 0b1101110000011010
-0xdc1b // Branch { cond: 12, imm: 27, immx: 255 } 0b1101110000011011
-0xdc1c // Branch { cond: 12, imm: 28, immx: 255 } 0b1101110000011100
-0xdc1d // Branch { cond: 12, imm: 29, immx: 255 } 0b1101110000011101
-0xdc1e // Branch { cond: 12, imm: 30, immx: 255 } 0b1101110000011110
-0xdc1f // Branch { cond: 12, imm: 31, immx: 255 } 0b1101110000011111
-0xdc20 // Branch { cond: 12, imm: 32, immx: 255 } 0b1101110000100000
-0xdc21 // Branch { cond: 12, imm: 33, immx: 255 } 0b1101110000100001
-0xdc22 // Branch { cond: 12, imm: 34, immx: 255 } 0b1101110000100010
-0xdc23 // Branch { cond: 12, imm: 35, immx: 255 } 0b1101110000100011
-0xdc24 // Branch { cond: 12, imm: 36, immx: 255 } 0b1101110000100100
-0xdc25 // Branch { cond: 12, imm: 37, immx: 255 } 0b1101110000100101
-0xdc26 // Branch { cond: 12, imm: 38, immx: 255 } 0b1101110000100110
-0xdc27 // Branch { cond: 12, imm: 39, immx: 255 } 0b1101110000100111
-0xdc28 // Branch { cond: 12, imm: 40, immx: 255 } 0b1101110000101000
-0xdc29 // Branch { cond: 12, imm: 41, immx: 255 } 0b1101110000101001
-0xdc2a // Branch { cond: 12, imm: 42, immx: 255 } 0b1101110000101010
-0xdc2b // Branch { cond: 12, imm: 43, immx: 255 } 0b1101110000101011
-0xdc2c // Branch { cond: 12, imm: 44, immx: 255 } 0b1101110000101100
-0xdc2d // Branch { cond: 12, imm: 45, immx: 255 } 0b1101110000101101
-0xdc2e // Branch { cond: 12, imm: 46, immx: 255 } 0b1101110000101110
-0xdc2f // Branch { cond: 12, imm: 47, immx: 255 } 0b1101110000101111
-0xdc30 // Branch { cond: 12, imm: 48, immx: 255 } 0b1101110000110000
-0xdc31 // Branch { cond: 12, imm: 49, immx: 255 } 0b1101110000110001
-0xdc32 // Branch { cond: 12, imm: 50, immx: 255 } 0b1101110000110010
-0xdc33 // Branch { cond: 12, imm: 51, immx: 255 } 0b1101110000110011
-0xdc34 // Branch { cond: 12, imm: 52, immx: 255 } 0b1101110000110100
-0xdc35 // Branch { cond: 12, imm: 53, immx: 255 } 0b1101110000110101
-0xdc36 // Branch { cond: 12, imm: 54, immx: 255 } 0b1101110000110110
-0xdc37 // Branch { cond: 12, imm: 55, immx: 255 } 0b1101110000110111
-0xdc38 // Branch { cond: 12, imm: 56, immx: 255 } 0b1101110000111000
-0xdc39 // Branch { cond: 12, imm: 57, immx: 255 } 0b1101110000111001
-0xdc3a // Branch { cond: 12, imm: 58, immx: 255 } 0b1101110000111010
-0xdc3b // Branch { cond: 12, imm: 59, immx: 255 } 0b1101110000111011
-0xdc3c // Branch { cond: 12, imm: 60, immx: 255 } 0b1101110000111100
-0xdc3d // Branch { cond: 12, imm: 61, immx: 255 } 0b1101110000111101
-0xdc3e // Branch { cond: 12, imm: 62, immx: 255 } 0b1101110000111110
-0xdc3f // Branch { cond: 12, imm: 63, immx: 255 } 0b1101110000111111
-0xdc40 // Branch { cond: 12, imm: 64, immx: 255 } 0b1101110001000000
-0xdc41 // Branch { cond: 12, imm: 65, immx: 255 } 0b1101110001000001
-0xdc42 // Branch { cond: 12, imm: 66, immx: 255 } 0b1101110001000010
-0xdc43 // Branch { cond: 12, imm: 67, immx: 255 } 0b1101110001000011
-0xdc44 // Branch { cond: 12, imm: 68, immx: 255 } 0b1101110001000100
-0xdc45 // Branch { cond: 12, imm: 69, immx: 255 } 0b1101110001000101
-0xdc46 // Branch { cond: 12, imm: 70, immx: 255 } 0b1101110001000110
-0xdc47 // Branch { cond: 12, imm: 71, immx: 255 } 0b1101110001000111
-0xdc48 // Branch { cond: 12, imm: 72, immx: 255 } 0b1101110001001000
-0xdc49 // Branch { cond: 12, imm: 73, immx: 255 } 0b1101110001001001
-0xdc4a // Branch { cond: 12, imm: 74, immx: 255 } 0b1101110001001010
-0xdc4b // Branch { cond: 12, imm: 75, immx: 255 } 0b1101110001001011
-0xdc4c // Branch { cond: 12, imm: 76, immx: 255 } 0b1101110001001100
-0xdc4d // Branch { cond: 12, imm: 77, immx: 255 } 0b1101110001001101
-0xdc4e // Branch { cond: 12, imm: 78, immx: 255 } 0b1101110001001110
-0xdc4f // Branch { cond: 12, imm: 79, immx: 255 } 0b1101110001001111
-0xdc50 // Branch { cond: 12, imm: 80, immx: 255 } 0b1101110001010000
-0xdc51 // Branch { cond: 12, imm: 81, immx: 255 } 0b1101110001010001
-0xdc52 // Branch { cond: 12, imm: 82, immx: 255 } 0b1101110001010010
-0xdc53 // Branch { cond: 12, imm: 83, immx: 255 } 0b1101110001010011
-0xdc54 // Branch { cond: 12, imm: 84, immx: 255 } 0b1101110001010100
-0xdc55 // Branch { cond: 12, imm: 85, immx: 255 } 0b1101110001010101
-0xdc56 // Branch { cond: 12, imm: 86, immx: 255 } 0b1101110001010110
-0xdc57 // Branch { cond: 12, imm: 87, immx: 255 } 0b1101110001010111
-0xdc58 // Branch { cond: 12, imm: 88, immx: 255 } 0b1101110001011000
-0xdc59 // Branch { cond: 12, imm: 89, immx: 255 } 0b1101110001011001
-0xdc5a // Branch { cond: 12, imm: 90, immx: 255 } 0b1101110001011010
-0xdc5b // Branch { cond: 12, imm: 91, immx: 255 } 0b1101110001011011
-0xdc5c // Branch { cond: 12, imm: 92, immx: 255 } 0b1101110001011100
-0xdc5d // Branch { cond: 12, imm: 93, immx: 255 } 0b1101110001011101
-0xdc5e // Branch { cond: 12, imm: 94, immx: 255 } 0b1101110001011110
-0xdc5f // Branch { cond: 12, imm: 95, immx: 255 } 0b1101110001011111
-0xdc60 // Branch { cond: 12, imm: 96, immx: 255 } 0b1101110001100000
-0xdc61 // Branch { cond: 12, imm: 97, immx: 255 } 0b1101110001100001
-0xdc62 // Branch { cond: 12, imm: 98, immx: 255 } 0b1101110001100010
-0xdc63 // Branch { cond: 12, imm: 99, immx: 255 } 0b1101110001100011
-0xdc64 // Branch { cond: 12, imm: 100, immx: 255 } 0b1101110001100100
-0xdc65 // Branch { cond: 12, imm: 101, immx: 255 } 0b1101110001100101
-0xdc66 // Branch { cond: 12, imm: 102, immx: 255 } 0b1101110001100110
-0xdc67 // Branch { cond: 12, imm: 103, immx: 255 } 0b1101110001100111
-0xdc68 // Branch { cond: 12, imm: 104, immx: 255 } 0b1101110001101000
-0xdc69 // Branch { cond: 12, imm: 105, immx: 255 } 0b1101110001101001
-0xdc6a // Branch { cond: 12, imm: 106, immx: 255 } 0b1101110001101010
-0xdc6b // Branch { cond: 12, imm: 107, immx: 255 } 0b1101110001101011
-0xdc6c // Branch { cond: 12, imm: 108, immx: 255 } 0b1101110001101100
-0xdc6d // Branch { cond: 12, imm: 109, immx: 255 } 0b1101110001101101
-0xdc6e // Branch { cond: 12, imm: 110, immx: 255 } 0b1101110001101110
-0xdc6f // Branch { cond: 12, imm: 111, immx: 255 } 0b1101110001101111
-0xdc70 // Branch { cond: 12, imm: 112, immx: 255 } 0b1101110001110000
-0xdc71 // Branch { cond: 12, imm: 113, immx: 255 } 0b1101110001110001
-0xdc72 // Branch { cond: 12, imm: 114, immx: 255 } 0b1101110001110010
-0xdc73 // Branch { cond: 12, imm: 115, immx: 255 } 0b1101110001110011
-0xdc74 // Branch { cond: 12, imm: 116, immx: 255 } 0b1101110001110100
-0xdc75 // Branch { cond: 12, imm: 117, immx: 255 } 0b1101110001110101
-0xdc76 // Branch { cond: 12, imm: 118, immx: 255 } 0b1101110001110110
-0xdc77 // Branch { cond: 12, imm: 119, immx: 255 } 0b1101110001110111
-0xdc78 // Branch { cond: 12, imm: 120, immx: 255 } 0b1101110001111000
-0xdc79 // Branch { cond: 12, imm: 121, immx: 255 } 0b1101110001111001
-0xdc7a // Branch { cond: 12, imm: 122, immx: 255 } 0b1101110001111010
-0xdc7b // Branch { cond: 12, imm: 123, immx: 255 } 0b1101110001111011
-0xdc7c // Branch { cond: 12, imm: 124, immx: 255 } 0b1101110001111100
-0xdc7d // Branch { cond: 12, imm: 125, immx: 255 } 0b1101110001111101
-0xdc7e // Branch { cond: 12, imm: 126, immx: 255 } 0b1101110001111110
-0xdc7f // Branch { cond: 12, imm: 127, immx: 255 } 0b1101110001111111
-0xdc80 // Branch { cond: 12, imm: 128, immx: 255 } 0b1101110010000000
-0xdc81 // Branch { cond: 12, imm: 129, immx: 255 } 0b1101110010000001
-0xdc82 // Branch { cond: 12, imm: 130, immx: 255 } 0b1101110010000010
-0xdc83 // Branch { cond: 12, imm: 131, immx: 255 } 0b1101110010000011
-0xdc84 // Branch { cond: 12, imm: 132, immx: 255 } 0b1101110010000100
-0xdc85 // Branch { cond: 12, imm: 133, immx: 255 } 0b1101110010000101
-0xdc86 // Branch { cond: 12, imm: 134, immx: 255 } 0b1101110010000110
-0xdc87 // Branch { cond: 12, imm: 135, immx: 255 } 0b1101110010000111
-0xdc88 // Branch { cond: 12, imm: 136, immx: 255 } 0b1101110010001000
-0xdc89 // Branch { cond: 12, imm: 137, immx: 255 } 0b1101110010001001
-0xdc8a // Branch { cond: 12, imm: 138, immx: 255 } 0b1101110010001010
-0xdc8b // Branch { cond: 12, imm: 139, immx: 255 } 0b1101110010001011
-0xdc8c // Branch { cond: 12, imm: 140, immx: 255 } 0b1101110010001100
-0xdc8d // Branch { cond: 12, imm: 141, immx: 255 } 0b1101110010001101
-0xdc8e // Branch { cond: 12, imm: 142, immx: 255 } 0b1101110010001110
-0xdc8f // Branch { cond: 12, imm: 143, immx: 255 } 0b1101110010001111
-0xdc90 // Branch { cond: 12, imm: 144, immx: 255 } 0b1101110010010000
-0xdc91 // Branch { cond: 12, imm: 145, immx: 255 } 0b1101110010010001
-0xdc92 // Branch { cond: 12, imm: 146, immx: 255 } 0b1101110010010010
-0xdc93 // Branch { cond: 12, imm: 147, immx: 255 } 0b1101110010010011
-0xdc94 // Branch { cond: 12, imm: 148, immx: 255 } 0b1101110010010100
-0xdc95 // Branch { cond: 12, imm: 149, immx: 255 } 0b1101110010010101
-0xdc96 // Branch { cond: 12, imm: 150, immx: 255 } 0b1101110010010110
-0xdc97 // Branch { cond: 12, imm: 151, immx: 255 } 0b1101110010010111
-0xdc98 // Branch { cond: 12, imm: 152, immx: 255 } 0b1101110010011000
-0xdc99 // Branch { cond: 12, imm: 153, immx: 255 } 0b1101110010011001
-0xdc9a // Branch { cond: 12, imm: 154, immx: 255 } 0b1101110010011010
-0xdc9b // Branch { cond: 12, imm: 155, immx: 255 } 0b1101110010011011
-0xdc9c // Branch { cond: 12, imm: 156, immx: 255 } 0b1101110010011100
-0xdc9d // Branch { cond: 12, imm: 157, immx: 255 } 0b1101110010011101
-0xdc9e // Branch { cond: 12, imm: 158, immx: 255 } 0b1101110010011110
-0xdc9f // Branch { cond: 12, imm: 159, immx: 255 } 0b1101110010011111
-0xdca0 // Branch { cond: 12, imm: 160, immx: 255 } 0b1101110010100000
-0xdca1 // Branch { cond: 12, imm: 161, immx: 255 } 0b1101110010100001
-0xdca2 // Branch { cond: 12, imm: 162, immx: 255 } 0b1101110010100010
-0xdca3 // Branch { cond: 12, imm: 163, immx: 255 } 0b1101110010100011
-0xdca4 // Branch { cond: 12, imm: 164, immx: 255 } 0b1101110010100100
-0xdca5 // Branch { cond: 12, imm: 165, immx: 255 } 0b1101110010100101
-0xdca6 // Branch { cond: 12, imm: 166, immx: 255 } 0b1101110010100110
-0xdca7 // Branch { cond: 12, imm: 167, immx: 255 } 0b1101110010100111
-0xdca8 // Branch { cond: 12, imm: 168, immx: 255 } 0b1101110010101000
-0xdca9 // Branch { cond: 12, imm: 169, immx: 255 } 0b1101110010101001
-0xdcaa // Branch { cond: 12, imm: 170, immx: 255 } 0b1101110010101010
-0xdcab // Branch { cond: 12, imm: 171, immx: 255 } 0b1101110010101011
-0xdcac // Branch { cond: 12, imm: 172, immx: 255 } 0b1101110010101100
-0xdcad // Branch { cond: 12, imm: 173, immx: 255 } 0b1101110010101101
-0xdcae // Branch { cond: 12, imm: 174, immx: 255 } 0b1101110010101110
-0xdcaf // Branch { cond: 12, imm: 175, immx: 255 } 0b1101110010101111
-0xdcb0 // Branch { cond: 12, imm: 176, immx: 255 } 0b1101110010110000
-0xdcb1 // Branch { cond: 12, imm: 177, immx: 255 } 0b1101110010110001
-0xdcb2 // Branch { cond: 12, imm: 178, immx: 255 } 0b1101110010110010
-0xdcb3 // Branch { cond: 12, imm: 179, immx: 255 } 0b1101110010110011
-0xdcb4 // Branch { cond: 12, imm: 180, immx: 255 } 0b1101110010110100
-0xdcb5 // Branch { cond: 12, imm: 181, immx: 255 } 0b1101110010110101
-0xdcb6 // Branch { cond: 12, imm: 182, immx: 255 } 0b1101110010110110
-0xdcb7 // Branch { cond: 12, imm: 183, immx: 255 } 0b1101110010110111
-0xdcb8 // Branch { cond: 12, imm: 184, immx: 255 } 0b1101110010111000
-0xdcb9 // Branch { cond: 12, imm: 185, immx: 255 } 0b1101110010111001
-0xdcba // Branch { cond: 12, imm: 186, immx: 255 } 0b1101110010111010
-0xdcbb // Branch { cond: 12, imm: 187, immx: 255 } 0b1101110010111011
-0xdcbc // Branch { cond: 12, imm: 188, immx: 255 } 0b1101110010111100
-0xdcbd // Branch { cond: 12, imm: 189, immx: 255 } 0b1101110010111101
-0xdcbe // Branch { cond: 12, imm: 190, immx: 255 } 0b1101110010111110
-0xdcbf // Branch { cond: 12, imm: 191, immx: 255 } 0b1101110010111111
-0xdcc0 // Branch { cond: 12, imm: 192, immx: 255 } 0b1101110011000000
-0xdcc1 // Branch { cond: 12, imm: 193, immx: 255 } 0b1101110011000001
-0xdcc2 // Branch { cond: 12, imm: 194, immx: 255 } 0b1101110011000010
-0xdcc3 // Branch { cond: 12, imm: 195, immx: 255 } 0b1101110011000011
-0xdcc4 // Branch { cond: 12, imm: 196, immx: 255 } 0b1101110011000100
-0xdcc5 // Branch { cond: 12, imm: 197, immx: 255 } 0b1101110011000101
-0xdcc6 // Branch { cond: 12, imm: 198, immx: 255 } 0b1101110011000110
-0xdcc7 // Branch { cond: 12, imm: 199, immx: 255 } 0b1101110011000111
-0xdcc8 // Branch { cond: 12, imm: 200, immx: 255 } 0b1101110011001000
-0xdcc9 // Branch { cond: 12, imm: 201, immx: 255 } 0b1101110011001001
-0xdcca // Branch { cond: 12, imm: 202, immx: 255 } 0b1101110011001010
-0xdccb // Branch { cond: 12, imm: 203, immx: 255 } 0b1101110011001011
-0xdccc // Branch { cond: 12, imm: 204, immx: 255 } 0b1101110011001100
-0xdccd // Branch { cond: 12, imm: 205, immx: 255 } 0b1101110011001101
-0xdcce // Branch { cond: 12, imm: 206, immx: 255 } 0b1101110011001110
-0xdccf // Branch { cond: 12, imm: 207, immx: 255 } 0b1101110011001111
-0xdcd0 // Branch { cond: 12, imm: 208, immx: 255 } 0b1101110011010000
-0xdcd1 // Branch { cond: 12, imm: 209, immx: 255 } 0b1101110011010001
-0xdcd2 // Branch { cond: 12, imm: 210, immx: 255 } 0b1101110011010010
-0xdcd3 // Branch { cond: 12, imm: 211, immx: 255 } 0b1101110011010011
-0xdcd4 // Branch { cond: 12, imm: 212, immx: 255 } 0b1101110011010100
-0xdcd5 // Branch { cond: 12, imm: 213, immx: 255 } 0b1101110011010101
-0xdcd6 // Branch { cond: 12, imm: 214, immx: 255 } 0b1101110011010110
-0xdcd7 // Branch { cond: 12, imm: 215, immx: 255 } 0b1101110011010111
-0xdcd8 // Branch { cond: 12, imm: 216, immx: 255 } 0b1101110011011000
-0xdcd9 // Branch { cond: 12, imm: 217, immx: 255 } 0b1101110011011001
-0xdcda // Branch { cond: 12, imm: 218, immx: 255 } 0b1101110011011010
-0xdcdb // Branch { cond: 12, imm: 219, immx: 255 } 0b1101110011011011
-0xdcdc // Branch { cond: 12, imm: 220, immx: 255 } 0b1101110011011100
-0xdcdd // Branch { cond: 12, imm: 221, immx: 255 } 0b1101110011011101
-0xdcde // Branch { cond: 12, imm: 222, immx: 255 } 0b1101110011011110
-0xdcdf // Branch { cond: 12, imm: 223, immx: 255 } 0b1101110011011111
-0xdce0 // Branch { cond: 12, imm: 224, immx: 255 } 0b1101110011100000
-0xdce1 // Branch { cond: 12, imm: 225, immx: 255 } 0b1101110011100001
-0xdce2 // Branch { cond: 12, imm: 226, immx: 255 } 0b1101110011100010
-0xdce3 // Branch { cond: 12, imm: 227, immx: 255 } 0b1101110011100011
-0xdce4 // Branch { cond: 12, imm: 228, immx: 255 } 0b1101110011100100
-0xdce5 // Branch { cond: 12, imm: 229, immx: 255 } 0b1101110011100101
-0xdce6 // Branch { cond: 12, imm: 230, immx: 255 } 0b1101110011100110
-0xdce7 // Branch { cond: 12, imm: 231, immx: 255 } 0b1101110011100111
-0xdce8 // Branch { cond: 12, imm: 232, immx: 255 } 0b1101110011101000
-0xdce9 // Branch { cond: 12, imm: 233, immx: 255 } 0b1101110011101001
-0xdcea // Branch { cond: 12, imm: 234, immx: 255 } 0b1101110011101010
-0xdceb // Branch { cond: 12, imm: 235, immx: 255 } 0b1101110011101011
-0xdcec // Branch { cond: 12, imm: 236, immx: 255 } 0b1101110011101100
-0xdced // Branch { cond: 12, imm: 237, immx: 255 } 0b1101110011101101
-0xdcee // Branch { cond: 12, imm: 238, immx: 255 } 0b1101110011101110
-0xdcef // Branch { cond: 12, imm: 239, immx: 255 } 0b1101110011101111
-0xdcf0 // Branch { cond: 12, imm: 240, immx: 255 } 0b1101110011110000
-0xdcf1 // Branch { cond: 12, imm: 241, immx: 255 } 0b1101110011110001
-0xdcf2 // Branch { cond: 12, imm: 242, immx: 255 } 0b1101110011110010
-0xdcf3 // Branch { cond: 12, imm: 243, immx: 255 } 0b1101110011110011
-0xdcf4 // Branch { cond: 12, imm: 244, immx: 255 } 0b1101110011110100
-0xdcf5 // Branch { cond: 12, imm: 245, immx: 255 } 0b1101110011110101
-0xdcf6 // Branch { cond: 12, imm: 246, immx: 255 } 0b1101110011110110
-0xdcf7 // Branch { cond: 12, imm: 247, immx: 255 } 0b1101110011110111
-0xdcf8 // Branch { cond: 12, imm: 248, immx: 255 } 0b1101110011111000
-0xdcf9 // Branch { cond: 12, imm: 249, immx: 255 } 0b1101110011111001
-0xdcfa // Branch { cond: 12, imm: 250, immx: 255 } 0b1101110011111010
-0xdcfb // Branch { cond: 12, imm: 251, immx: 255 } 0b1101110011111011
-0xdcfc // Branch { cond: 12, imm: 252, immx: 255 } 0b1101110011111100
-0xdcfd // Branch { cond: 12, imm: 253, immx: 255 } 0b1101110011111101
-0xdcfe // Branch { cond: 12, imm: 254, immx: 255 } 0b1101110011111110
-0xdcff // Branch { cond: 12, imm: 255, immx: 255 } 0b1101110011111111
-0xdd00 // Branch { cond: 13, imm: 0, immx: 255 } 0b1101110100000000
-0xdd01 // Branch { cond: 13, imm: 1, immx: 255 } 0b1101110100000001
-0xdd02 // Branch { cond: 13, imm: 2, immx: 255 } 0b1101110100000010
-0xdd03 // Branch { cond: 13, imm: 3, immx: 255 } 0b1101110100000011
-0xdd04 // Branch { cond: 13, imm: 4, immx: 255 } 0b1101110100000100
-0xdd05 // Branch { cond: 13, imm: 5, immx: 255 } 0b1101110100000101
-0xdd06 // Branch { cond: 13, imm: 6, immx: 255 } 0b1101110100000110
-0xdd07 // Branch { cond: 13, imm: 7, immx: 255 } 0b1101110100000111
-0xdd08 // Branch { cond: 13, imm: 8, immx: 255 } 0b1101110100001000
-0xdd09 // Branch { cond: 13, imm: 9, immx: 255 } 0b1101110100001001
-0xdd0a // Branch { cond: 13, imm: 10, immx: 255 } 0b1101110100001010
-0xdd0b // Branch { cond: 13, imm: 11, immx: 255 } 0b1101110100001011
-0xdd0c // Branch { cond: 13, imm: 12, immx: 255 } 0b1101110100001100
-0xdd0d // Branch { cond: 13, imm: 13, immx: 255 } 0b1101110100001101
-0xdd0e // Branch { cond: 13, imm: 14, immx: 255 } 0b1101110100001110
-0xdd0f // Branch { cond: 13, imm: 15, immx: 255 } 0b1101110100001111
-0xdd10 // Branch { cond: 13, imm: 16, immx: 255 } 0b1101110100010000
-0xdd11 // Branch { cond: 13, imm: 17, immx: 255 } 0b1101110100010001
-0xdd12 // Branch { cond: 13, imm: 18, immx: 255 } 0b1101110100010010
-0xdd13 // Branch { cond: 13, imm: 19, immx: 255 } 0b1101110100010011
-0xdd14 // Branch { cond: 13, imm: 20, immx: 255 } 0b1101110100010100
-0xdd15 // Branch { cond: 13, imm: 21, immx: 255 } 0b1101110100010101
-0xdd16 // Branch { cond: 13, imm: 22, immx: 255 } 0b1101110100010110
-0xdd17 // Branch { cond: 13, imm: 23, immx: 255 } 0b1101110100010111
-0xdd18 // Branch { cond: 13, imm: 24, immx: 255 } 0b1101110100011000
-0xdd19 // Branch { cond: 13, imm: 25, immx: 255 } 0b1101110100011001
-0xdd1a // Branch { cond: 13, imm: 26, immx: 255 } 0b1101110100011010
-0xdd1b // Branch { cond: 13, imm: 27, immx: 255 } 0b1101110100011011
-0xdd1c // Branch { cond: 13, imm: 28, immx: 255 } 0b1101110100011100
-0xdd1d // Branch { cond: 13, imm: 29, immx: 255 } 0b1101110100011101
-0xdd1e // Branch { cond: 13, imm: 30, immx: 255 } 0b1101110100011110
-0xdd1f // Branch { cond: 13, imm: 31, immx: 255 } 0b1101110100011111
-0xdd20 // Branch { cond: 13, imm: 32, immx: 255 } 0b1101110100100000
-0xdd21 // Branch { cond: 13, imm: 33, immx: 255 } 0b1101110100100001
-0xdd22 // Branch { cond: 13, imm: 34, immx: 255 } 0b1101110100100010
-0xdd23 // Branch { cond: 13, imm: 35, immx: 255 } 0b1101110100100011
-0xdd24 // Branch { cond: 13, imm: 36, immx: 255 } 0b1101110100100100
-0xdd25 // Branch { cond: 13, imm: 37, immx: 255 } 0b1101110100100101
-0xdd26 // Branch { cond: 13, imm: 38, immx: 255 } 0b1101110100100110
-0xdd27 // Branch { cond: 13, imm: 39, immx: 255 } 0b1101110100100111
-0xdd28 // Branch { cond: 13, imm: 40, immx: 255 } 0b1101110100101000
-0xdd29 // Branch { cond: 13, imm: 41, immx: 255 } 0b1101110100101001
-0xdd2a // Branch { cond: 13, imm: 42, immx: 255 } 0b1101110100101010
-0xdd2b // Branch { cond: 13, imm: 43, immx: 255 } 0b1101110100101011
-0xdd2c // Branch { cond: 13, imm: 44, immx: 255 } 0b1101110100101100
-0xdd2d // Branch { cond: 13, imm: 45, immx: 255 } 0b1101110100101101
-0xdd2e // Branch { cond: 13, imm: 46, immx: 255 } 0b1101110100101110
-0xdd2f // Branch { cond: 13, imm: 47, immx: 255 } 0b1101110100101111
-0xdd30 // Branch { cond: 13, imm: 48, immx: 255 } 0b1101110100110000
-0xdd31 // Branch { cond: 13, imm: 49, immx: 255 } 0b1101110100110001
-0xdd32 // Branch { cond: 13, imm: 50, immx: 255 } 0b1101110100110010
-0xdd33 // Branch { cond: 13, imm: 51, immx: 255 } 0b1101110100110011
-0xdd34 // Branch { cond: 13, imm: 52, immx: 255 } 0b1101110100110100
-0xdd35 // Branch { cond: 13, imm: 53, immx: 255 } 0b1101110100110101
-0xdd36 // Branch { cond: 13, imm: 54, immx: 255 } 0b1101110100110110
-0xdd37 // Branch { cond: 13, imm: 55, immx: 255 } 0b1101110100110111
-0xdd38 // Branch { cond: 13, imm: 56, immx: 255 } 0b1101110100111000
-0xdd39 // Branch { cond: 13, imm: 57, immx: 255 } 0b1101110100111001
-0xdd3a // Branch { cond: 13, imm: 58, immx: 255 } 0b1101110100111010
-0xdd3b // Branch { cond: 13, imm: 59, immx: 255 } 0b1101110100111011
-0xdd3c // Branch { cond: 13, imm: 60, immx: 255 } 0b1101110100111100
-0xdd3d // Branch { cond: 13, imm: 61, immx: 255 } 0b1101110100111101
-0xdd3e // Branch { cond: 13, imm: 62, immx: 255 } 0b1101110100111110
-0xdd3f // Branch { cond: 13, imm: 63, immx: 255 } 0b1101110100111111
-0xdd40 // Branch { cond: 13, imm: 64, immx: 255 } 0b1101110101000000
-0xdd41 // Branch { cond: 13, imm: 65, immx: 255 } 0b1101110101000001
-0xdd42 // Branch { cond: 13, imm: 66, immx: 255 } 0b1101110101000010
-0xdd43 // Branch { cond: 13, imm: 67, immx: 255 } 0b1101110101000011
-0xdd44 // Branch { cond: 13, imm: 68, immx: 255 } 0b1101110101000100
-0xdd45 // Branch { cond: 13, imm: 69, immx: 255 } 0b1101110101000101
-0xdd46 // Branch { cond: 13, imm: 70, immx: 255 } 0b1101110101000110
-0xdd47 // Branch { cond: 13, imm: 71, immx: 255 } 0b1101110101000111
-0xdd48 // Branch { cond: 13, imm: 72, immx: 255 } 0b1101110101001000
-0xdd49 // Branch { cond: 13, imm: 73, immx: 255 } 0b1101110101001001
-0xdd4a // Branch { cond: 13, imm: 74, immx: 255 } 0b1101110101001010
-0xdd4b // Branch { cond: 13, imm: 75, immx: 255 } 0b1101110101001011
-0xdd4c // Branch { cond: 13, imm: 76, immx: 255 } 0b1101110101001100
-0xdd4d // Branch { cond: 13, imm: 77, immx: 255 } 0b1101110101001101
-0xdd4e // Branch { cond: 13, imm: 78, immx: 255 } 0b1101110101001110
-0xdd4f // Branch { cond: 13, imm: 79, immx: 255 } 0b1101110101001111
-0xdd50 // Branch { cond: 13, imm: 80, immx: 255 } 0b1101110101010000
-0xdd51 // Branch { cond: 13, imm: 81, immx: 255 } 0b1101110101010001
-0xdd52 // Branch { cond: 13, imm: 82, immx: 255 } 0b1101110101010010
-0xdd53 // Branch { cond: 13, imm: 83, immx: 255 } 0b1101110101010011
-0xdd54 // Branch { cond: 13, imm: 84, immx: 255 } 0b1101110101010100
-0xdd55 // Branch { cond: 13, imm: 85, immx: 255 } 0b1101110101010101
-0xdd56 // Branch { cond: 13, imm: 86, immx: 255 } 0b1101110101010110
-0xdd57 // Branch { cond: 13, imm: 87, immx: 255 } 0b1101110101010111
-0xdd58 // Branch { cond: 13, imm: 88, immx: 255 } 0b1101110101011000
-0xdd59 // Branch { cond: 13, imm: 89, immx: 255 } 0b1101110101011001
-0xdd5a // Branch { cond: 13, imm: 90, immx: 255 } 0b1101110101011010
-0xdd5b // Branch { cond: 13, imm: 91, immx: 255 } 0b1101110101011011
-0xdd5c // Branch { cond: 13, imm: 92, immx: 255 } 0b1101110101011100
-0xdd5d // Branch { cond: 13, imm: 93, immx: 255 } 0b1101110101011101
-0xdd5e // Branch { cond: 13, imm: 94, immx: 255 } 0b1101110101011110
-0xdd5f // Branch { cond: 13, imm: 95, immx: 255 } 0b1101110101011111
-0xdd60 // Branch { cond: 13, imm: 96, immx: 255 } 0b1101110101100000
-0xdd61 // Branch { cond: 13, imm: 97, immx: 255 } 0b1101110101100001
-0xdd62 // Branch { cond: 13, imm: 98, immx: 255 } 0b1101110101100010
-0xdd63 // Branch { cond: 13, imm: 99, immx: 255 } 0b1101110101100011
-0xdd64 // Branch { cond: 13, imm: 100, immx: 255 } 0b1101110101100100
-0xdd65 // Branch { cond: 13, imm: 101, immx: 255 } 0b1101110101100101
-0xdd66 // Branch { cond: 13, imm: 102, immx: 255 } 0b1101110101100110
-0xdd67 // Branch { cond: 13, imm: 103, immx: 255 } 0b1101110101100111
-0xdd68 // Branch { cond: 13, imm: 104, immx: 255 } 0b1101110101101000
-0xdd69 // Branch { cond: 13, imm: 105, immx: 255 } 0b1101110101101001
-0xdd6a // Branch { cond: 13, imm: 106, immx: 255 } 0b1101110101101010
-0xdd6b // Branch { cond: 13, imm: 107, immx: 255 } 0b1101110101101011
-0xdd6c // Branch { cond: 13, imm: 108, immx: 255 } 0b1101110101101100
-0xdd6d // Branch { cond: 13, imm: 109, immx: 255 } 0b1101110101101101
-0xdd6e // Branch { cond: 13, imm: 110, immx: 255 } 0b1101110101101110
-0xdd6f // Branch { cond: 13, imm: 111, immx: 255 } 0b1101110101101111
-0xdd70 // Branch { cond: 13, imm: 112, immx: 255 } 0b1101110101110000
-0xdd71 // Branch { cond: 13, imm: 113, immx: 255 } 0b1101110101110001
-0xdd72 // Branch { cond: 13, imm: 114, immx: 255 } 0b1101110101110010
-0xdd73 // Branch { cond: 13, imm: 115, immx: 255 } 0b1101110101110011
-0xdd74 // Branch { cond: 13, imm: 116, immx: 255 } 0b1101110101110100
-0xdd75 // Branch { cond: 13, imm: 117, immx: 255 } 0b1101110101110101
-0xdd76 // Branch { cond: 13, imm: 118, immx: 255 } 0b1101110101110110
-0xdd77 // Branch { cond: 13, imm: 119, immx: 255 } 0b1101110101110111
-0xdd78 // Branch { cond: 13, imm: 120, immx: 255 } 0b1101110101111000
-0xdd79 // Branch { cond: 13, imm: 121, immx: 255 } 0b1101110101111001
-0xdd7a // Branch { cond: 13, imm: 122, immx: 255 } 0b1101110101111010
-0xdd7b // Branch { cond: 13, imm: 123, immx: 255 } 0b1101110101111011
-0xdd7c // Branch { cond: 13, imm: 124, immx: 255 } 0b1101110101111100
-0xdd7d // Branch { cond: 13, imm: 125, immx: 255 } 0b1101110101111101
-0xdd7e // Branch { cond: 13, imm: 126, immx: 255 } 0b1101110101111110
-0xdd7f // Branch { cond: 13, imm: 127, immx: 255 } 0b1101110101111111
-0xdd80 // Branch { cond: 13, imm: 128, immx: 255 } 0b1101110110000000
-0xdd81 // Branch { cond: 13, imm: 129, immx: 255 } 0b1101110110000001
-0xdd82 // Branch { cond: 13, imm: 130, immx: 255 } 0b1101110110000010
-0xdd83 // Branch { cond: 13, imm: 131, immx: 255 } 0b1101110110000011
-0xdd84 // Branch { cond: 13, imm: 132, immx: 255 } 0b1101110110000100
-0xdd85 // Branch { cond: 13, imm: 133, immx: 255 } 0b1101110110000101
-0xdd86 // Branch { cond: 13, imm: 134, immx: 255 } 0b1101110110000110
-0xdd87 // Branch { cond: 13, imm: 135, immx: 255 } 0b1101110110000111
-0xdd88 // Branch { cond: 13, imm: 136, immx: 255 } 0b1101110110001000
-0xdd89 // Branch { cond: 13, imm: 137, immx: 255 } 0b1101110110001001
-0xdd8a // Branch { cond: 13, imm: 138, immx: 255 } 0b1101110110001010
-0xdd8b // Branch { cond: 13, imm: 139, immx: 255 } 0b1101110110001011
-0xdd8c // Branch { cond: 13, imm: 140, immx: 255 } 0b1101110110001100
-0xdd8d // Branch { cond: 13, imm: 141, immx: 255 } 0b1101110110001101
-0xdd8e // Branch { cond: 13, imm: 142, immx: 255 } 0b1101110110001110
-0xdd8f // Branch { cond: 13, imm: 143, immx: 255 } 0b1101110110001111
-0xdd90 // Branch { cond: 13, imm: 144, immx: 255 } 0b1101110110010000
-0xdd91 // Branch { cond: 13, imm: 145, immx: 255 } 0b1101110110010001
-0xdd92 // Branch { cond: 13, imm: 146, immx: 255 } 0b1101110110010010
-0xdd93 // Branch { cond: 13, imm: 147, immx: 255 } 0b1101110110010011
-0xdd94 // Branch { cond: 13, imm: 148, immx: 255 } 0b1101110110010100
-0xdd95 // Branch { cond: 13, imm: 149, immx: 255 } 0b1101110110010101
-0xdd96 // Branch { cond: 13, imm: 150, immx: 255 } 0b1101110110010110
-0xdd97 // Branch { cond: 13, imm: 151, immx: 255 } 0b1101110110010111
-0xdd98 // Branch { cond: 13, imm: 152, immx: 255 } 0b1101110110011000
-0xdd99 // Branch { cond: 13, imm: 153, immx: 255 } 0b1101110110011001
-0xdd9a // Branch { cond: 13, imm: 154, immx: 255 } 0b1101110110011010
-0xdd9b // Branch { cond: 13, imm: 155, immx: 255 } 0b1101110110011011
-0xdd9c // Branch { cond: 13, imm: 156, immx: 255 } 0b1101110110011100
-0xdd9d // Branch { cond: 13, imm: 157, immx: 255 } 0b1101110110011101
-0xdd9e // Branch { cond: 13, imm: 158, immx: 255 } 0b1101110110011110
-0xdd9f // Branch { cond: 13, imm: 159, immx: 255 } 0b1101110110011111
-0xdda0 // Branch { cond: 13, imm: 160, immx: 255 } 0b1101110110100000
-0xdda1 // Branch { cond: 13, imm: 161, immx: 255 } 0b1101110110100001
-0xdda2 // Branch { cond: 13, imm: 162, immx: 255 } 0b1101110110100010
-0xdda3 // Branch { cond: 13, imm: 163, immx: 255 } 0b1101110110100011
-0xdda4 // Branch { cond: 13, imm: 164, immx: 255 } 0b1101110110100100
-0xdda5 // Branch { cond: 13, imm: 165, immx: 255 } 0b1101110110100101
-0xdda6 // Branch { cond: 13, imm: 166, immx: 255 } 0b1101110110100110
-0xdda7 // Branch { cond: 13, imm: 167, immx: 255 } 0b1101110110100111
-0xdda8 // Branch { cond: 13, imm: 168, immx: 255 } 0b1101110110101000
-0xdda9 // Branch { cond: 13, imm: 169, immx: 255 } 0b1101110110101001
-0xddaa // Branch { cond: 13, imm: 170, immx: 255 } 0b1101110110101010
-0xddab // Branch { cond: 13, imm: 171, immx: 255 } 0b1101110110101011
-0xddac // Branch { cond: 13, imm: 172, immx: 255 } 0b1101110110101100
-0xddad // Branch { cond: 13, imm: 173, immx: 255 } 0b1101110110101101
-0xddae // Branch { cond: 13, imm: 174, immx: 255 } 0b1101110110101110
-0xddaf // Branch { cond: 13, imm: 175, immx: 255 } 0b1101110110101111
-0xddb0 // Branch { cond: 13, imm: 176, immx: 255 } 0b1101110110110000
-0xddb1 // Branch { cond: 13, imm: 177, immx: 255 } 0b1101110110110001
-0xddb2 // Branch { cond: 13, imm: 178, immx: 255 } 0b1101110110110010
-0xddb3 // Branch { cond: 13, imm: 179, immx: 255 } 0b1101110110110011
-0xddb4 // Branch { cond: 13, imm: 180, immx: 255 } 0b1101110110110100
-0xddb5 // Branch { cond: 13, imm: 181, immx: 255 } 0b1101110110110101
-0xddb6 // Branch { cond: 13, imm: 182, immx: 255 } 0b1101110110110110
-0xddb7 // Branch { cond: 13, imm: 183, immx: 255 } 0b1101110110110111
-0xddb8 // Branch { cond: 13, imm: 184, immx: 255 } 0b1101110110111000
-0xddb9 // Branch { cond: 13, imm: 185, immx: 255 } 0b1101110110111001
-0xddba // Branch { cond: 13, imm: 186, immx: 255 } 0b1101110110111010
-0xddbb // Branch { cond: 13, imm: 187, immx: 255 } 0b1101110110111011
-0xddbc // Branch { cond: 13, imm: 188, immx: 255 } 0b1101110110111100
-0xddbd // Branch { cond: 13, imm: 189, immx: 255 } 0b1101110110111101
-0xddbe // Branch { cond: 13, imm: 190, immx: 255 } 0b1101110110111110
-0xddbf // Branch { cond: 13, imm: 191, immx: 255 } 0b1101110110111111
-0xddc0 // Branch { cond: 13, imm: 192, immx: 255 } 0b1101110111000000
-0xddc1 // Branch { cond: 13, imm: 193, immx: 255 } 0b1101110111000001
-0xddc2 // Branch { cond: 13, imm: 194, immx: 255 } 0b1101110111000010
-0xddc3 // Branch { cond: 13, imm: 195, immx: 255 } 0b1101110111000011
-0xddc4 // Branch { cond: 13, imm: 196, immx: 255 } 0b1101110111000100
-0xddc5 // Branch { cond: 13, imm: 197, immx: 255 } 0b1101110111000101
-0xddc6 // Branch { cond: 13, imm: 198, immx: 255 } 0b1101110111000110
-0xddc7 // Branch { cond: 13, imm: 199, immx: 255 } 0b1101110111000111
-0xddc8 // Branch { cond: 13, imm: 200, immx: 255 } 0b1101110111001000
-0xddc9 // Branch { cond: 13, imm: 201, immx: 255 } 0b1101110111001001
-0xddca // Branch { cond: 13, imm: 202, immx: 255 } 0b1101110111001010
-0xddcb // Branch { cond: 13, imm: 203, immx: 255 } 0b1101110111001011
-0xddcc // Branch { cond: 13, imm: 204, immx: 255 } 0b1101110111001100
-0xddcd // Branch { cond: 13, imm: 205, immx: 255 } 0b1101110111001101
-0xddce // Branch { cond: 13, imm: 206, immx: 255 } 0b1101110111001110
-0xddcf // Branch { cond: 13, imm: 207, immx: 255 } 0b1101110111001111
-0xddd0 // Branch { cond: 13, imm: 208, immx: 255 } 0b1101110111010000
-0xddd1 // Branch { cond: 13, imm: 209, immx: 255 } 0b1101110111010001
-0xddd2 // Branch { cond: 13, imm: 210, immx: 255 } 0b1101110111010010
-0xddd3 // Branch { cond: 13, imm: 211, immx: 255 } 0b1101110111010011
-0xddd4 // Branch { cond: 13, imm: 212, immx: 255 } 0b1101110111010100
-0xddd5 // Branch { cond: 13, imm: 213, immx: 255 } 0b1101110111010101
-0xddd6 // Branch { cond: 13, imm: 214, immx: 255 } 0b1101110111010110
-0xddd7 // Branch { cond: 13, imm: 215, immx: 255 } 0b1101110111010111
-0xddd8 // Branch { cond: 13, imm: 216, immx: 255 } 0b1101110111011000
-0xddd9 // Branch { cond: 13, imm: 217, immx: 255 } 0b1101110111011001
-0xddda // Branch { cond: 13, imm: 218, immx: 255 } 0b1101110111011010
-0xdddb // Branch { cond: 13, imm: 219, immx: 255 } 0b1101110111011011
-0xdddc // Branch { cond: 13, imm: 220, immx: 255 } 0b1101110111011100
-0xdddd // Branch { cond: 13, imm: 221, immx: 255 } 0b1101110111011101
-0xddde // Branch { cond: 13, imm: 222, immx: 255 } 0b1101110111011110
-0xdddf // Branch { cond: 13, imm: 223, immx: 255 } 0b1101110111011111
-0xdde0 // Branch { cond: 13, imm: 224, immx: 255 } 0b1101110111100000
-0xdde1 // Branch { cond: 13, imm: 225, immx: 255 } 0b1101110111100001
-0xdde2 // Branch { cond: 13, imm: 226, immx: 255 } 0b1101110111100010
-0xdde3 // Branch { cond: 13, imm: 227, immx: 255 } 0b1101110111100011
-0xdde4 // Branch { cond: 13, imm: 228, immx: 255 } 0b1101110111100100
-0xdde5 // Branch { cond: 13, imm: 229, immx: 255 } 0b1101110111100101
-0xdde6 // Branch { cond: 13, imm: 230, immx: 255 } 0b1101110111100110
-0xdde7 // Branch { cond: 13, imm: 231, immx: 255 } 0b1101110111100111
-0xdde8 // Branch { cond: 13, imm: 232, immx: 255 } 0b1101110111101000
-0xdde9 // Branch { cond: 13, imm: 233, immx: 255 } 0b1101110111101001
-0xddea // Branch { cond: 13, imm: 234, immx: 255 } 0b1101110111101010
-0xddeb // Branch { cond: 13, imm: 235, immx: 255 } 0b1101110111101011
-0xddec // Branch { cond: 13, imm: 236, immx: 255 } 0b1101110111101100
-0xdded // Branch { cond: 13, imm: 237, immx: 255 } 0b1101110111101101
-0xddee // Branch { cond: 13, imm: 238, immx: 255 } 0b1101110111101110
-0xddef // Branch { cond: 13, imm: 239, immx: 255 } 0b1101110111101111
-0xddf0 // Branch { cond: 13, imm: 240, immx: 255 } 0b1101110111110000
-0xddf1 // Branch { cond: 13, imm: 241, immx: 255 } 0b1101110111110001
-0xddf2 // Branch { cond: 13, imm: 242, immx: 255 } 0b1101110111110010
-0xddf3 // Branch { cond: 13, imm: 243, immx: 255 } 0b1101110111110011
-0xddf4 // Branch { cond: 13, imm: 244, immx: 255 } 0b1101110111110100
-0xddf5 // Branch { cond: 13, imm: 245, immx: 255 } 0b1101110111110101
-0xddf6 // Branch { cond: 13, imm: 246, immx: 255 } 0b1101110111110110
-0xddf7 // Branch { cond: 13, imm: 247, immx: 255 } 0b1101110111110111
-0xddf8 // Branch { cond: 13, imm: 248, immx: 255 } 0b1101110111111000
-0xddf9 // Branch { cond: 13, imm: 249, immx: 255 } 0b1101110111111001
-0xddfa // Branch { cond: 13, imm: 250, immx: 255 } 0b1101110111111010
-0xddfb // Branch { cond: 13, imm: 251, immx: 255 } 0b1101110111111011
-0xddfc // Branch { cond: 13, imm: 252, immx: 255 } 0b1101110111111100
-0xddfd // Branch { cond: 13, imm: 253, immx: 255 } 0b1101110111111101
-0xddfe // Branch { cond: 13, imm: 254, immx: 255 } 0b1101110111111110
-0xddff // Branch { cond: 13, imm: 255, immx: 255 } 0b1101110111111111
+0xd000 // BranchE1 { cond: 0, imm: 0 } 0b1101000000000000
+0xd001 // BranchE1 { cond: 0, imm: 1 } 0b1101000000000001
+0xd002 // BranchE1 { cond: 0, imm: 2 } 0b1101000000000010
+0xd003 // BranchE1 { cond: 0, imm: 3 } 0b1101000000000011
+0xd004 // BranchE1 { cond: 0, imm: 4 } 0b1101000000000100
+0xd005 // BranchE1 { cond: 0, imm: 5 } 0b1101000000000101
+0xd006 // BranchE1 { cond: 0, imm: 6 } 0b1101000000000110
+0xd007 // BranchE1 { cond: 0, imm: 7 } 0b1101000000000111
+0xd008 // BranchE1 { cond: 0, imm: 8 } 0b1101000000001000
+0xd009 // BranchE1 { cond: 0, imm: 9 } 0b1101000000001001
+0xd00a // BranchE1 { cond: 0, imm: 10 } 0b1101000000001010
+0xd00b // BranchE1 { cond: 0, imm: 11 } 0b1101000000001011
+0xd00c // BranchE1 { cond: 0, imm: 12 } 0b1101000000001100
+0xd00d // BranchE1 { cond: 0, imm: 13 } 0b1101000000001101
+0xd00e // BranchE1 { cond: 0, imm: 14 } 0b1101000000001110
+0xd00f // BranchE1 { cond: 0, imm: 15 } 0b1101000000001111
+0xd010 // BranchE1 { cond: 0, imm: 16 } 0b1101000000010000
+0xd011 // BranchE1 { cond: 0, imm: 17 } 0b1101000000010001
+0xd012 // BranchE1 { cond: 0, imm: 18 } 0b1101000000010010
+0xd013 // BranchE1 { cond: 0, imm: 19 } 0b1101000000010011
+0xd014 // BranchE1 { cond: 0, imm: 20 } 0b1101000000010100
+0xd015 // BranchE1 { cond: 0, imm: 21 } 0b1101000000010101
+0xd016 // BranchE1 { cond: 0, imm: 22 } 0b1101000000010110
+0xd017 // BranchE1 { cond: 0, imm: 23 } 0b1101000000010111
+0xd018 // BranchE1 { cond: 0, imm: 24 } 0b1101000000011000
+0xd019 // BranchE1 { cond: 0, imm: 25 } 0b1101000000011001
+0xd01a // BranchE1 { cond: 0, imm: 26 } 0b1101000000011010
+0xd01b // BranchE1 { cond: 0, imm: 27 } 0b1101000000011011
+0xd01c // BranchE1 { cond: 0, imm: 28 } 0b1101000000011100
+0xd01d // BranchE1 { cond: 0, imm: 29 } 0b1101000000011101
+0xd01e // BranchE1 { cond: 0, imm: 30 } 0b1101000000011110
+0xd01f // BranchE1 { cond: 0, imm: 31 } 0b1101000000011111
+0xd020 // BranchE1 { cond: 0, imm: 32 } 0b1101000000100000
+0xd021 // BranchE1 { cond: 0, imm: 33 } 0b1101000000100001
+0xd022 // BranchE1 { cond: 0, imm: 34 } 0b1101000000100010
+0xd023 // BranchE1 { cond: 0, imm: 35 } 0b1101000000100011
+0xd024 // BranchE1 { cond: 0, imm: 36 } 0b1101000000100100
+0xd025 // BranchE1 { cond: 0, imm: 37 } 0b1101000000100101
+0xd026 // BranchE1 { cond: 0, imm: 38 } 0b1101000000100110
+0xd027 // BranchE1 { cond: 0, imm: 39 } 0b1101000000100111
+0xd028 // BranchE1 { cond: 0, imm: 40 } 0b1101000000101000
+0xd029 // BranchE1 { cond: 0, imm: 41 } 0b1101000000101001
+0xd02a // BranchE1 { cond: 0, imm: 42 } 0b1101000000101010
+0xd02b // BranchE1 { cond: 0, imm: 43 } 0b1101000000101011
+0xd02c // BranchE1 { cond: 0, imm: 44 } 0b1101000000101100
+0xd02d // BranchE1 { cond: 0, imm: 45 } 0b1101000000101101
+0xd02e // BranchE1 { cond: 0, imm: 46 } 0b1101000000101110
+0xd02f // BranchE1 { cond: 0, imm: 47 } 0b1101000000101111
+0xd030 // BranchE1 { cond: 0, imm: 48 } 0b1101000000110000
+0xd031 // BranchE1 { cond: 0, imm: 49 } 0b1101000000110001
+0xd032 // BranchE1 { cond: 0, imm: 50 } 0b1101000000110010
+0xd033 // BranchE1 { cond: 0, imm: 51 } 0b1101000000110011
+0xd034 // BranchE1 { cond: 0, imm: 52 } 0b1101000000110100
+0xd035 // BranchE1 { cond: 0, imm: 53 } 0b1101000000110101
+0xd036 // BranchE1 { cond: 0, imm: 54 } 0b1101000000110110
+0xd037 // BranchE1 { cond: 0, imm: 55 } 0b1101000000110111
+0xd038 // BranchE1 { cond: 0, imm: 56 } 0b1101000000111000
+0xd039 // BranchE1 { cond: 0, imm: 57 } 0b1101000000111001
+0xd03a // BranchE1 { cond: 0, imm: 58 } 0b1101000000111010
+0xd03b // BranchE1 { cond: 0, imm: 59 } 0b1101000000111011
+0xd03c // BranchE1 { cond: 0, imm: 60 } 0b1101000000111100
+0xd03d // BranchE1 { cond: 0, imm: 61 } 0b1101000000111101
+0xd03e // BranchE1 { cond: 0, imm: 62 } 0b1101000000111110
+0xd03f // BranchE1 { cond: 0, imm: 63 } 0b1101000000111111
+0xd040 // BranchE1 { cond: 0, imm: 64 } 0b1101000001000000
+0xd041 // BranchE1 { cond: 0, imm: 65 } 0b1101000001000001
+0xd042 // BranchE1 { cond: 0, imm: 66 } 0b1101000001000010
+0xd043 // BranchE1 { cond: 0, imm: 67 } 0b1101000001000011
+0xd044 // BranchE1 { cond: 0, imm: 68 } 0b1101000001000100
+0xd045 // BranchE1 { cond: 0, imm: 69 } 0b1101000001000101
+0xd046 // BranchE1 { cond: 0, imm: 70 } 0b1101000001000110
+0xd047 // BranchE1 { cond: 0, imm: 71 } 0b1101000001000111
+0xd048 // BranchE1 { cond: 0, imm: 72 } 0b1101000001001000
+0xd049 // BranchE1 { cond: 0, imm: 73 } 0b1101000001001001
+0xd04a // BranchE1 { cond: 0, imm: 74 } 0b1101000001001010
+0xd04b // BranchE1 { cond: 0, imm: 75 } 0b1101000001001011
+0xd04c // BranchE1 { cond: 0, imm: 76 } 0b1101000001001100
+0xd04d // BranchE1 { cond: 0, imm: 77 } 0b1101000001001101
+0xd04e // BranchE1 { cond: 0, imm: 78 } 0b1101000001001110
+0xd04f // BranchE1 { cond: 0, imm: 79 } 0b1101000001001111
+0xd050 // BranchE1 { cond: 0, imm: 80 } 0b1101000001010000
+0xd051 // BranchE1 { cond: 0, imm: 81 } 0b1101000001010001
+0xd052 // BranchE1 { cond: 0, imm: 82 } 0b1101000001010010
+0xd053 // BranchE1 { cond: 0, imm: 83 } 0b1101000001010011
+0xd054 // BranchE1 { cond: 0, imm: 84 } 0b1101000001010100
+0xd055 // BranchE1 { cond: 0, imm: 85 } 0b1101000001010101
+0xd056 // BranchE1 { cond: 0, imm: 86 } 0b1101000001010110
+0xd057 // BranchE1 { cond: 0, imm: 87 } 0b1101000001010111
+0xd058 // BranchE1 { cond: 0, imm: 88 } 0b1101000001011000
+0xd059 // BranchE1 { cond: 0, imm: 89 } 0b1101000001011001
+0xd05a // BranchE1 { cond: 0, imm: 90 } 0b1101000001011010
+0xd05b // BranchE1 { cond: 0, imm: 91 } 0b1101000001011011
+0xd05c // BranchE1 { cond: 0, imm: 92 } 0b1101000001011100
+0xd05d // BranchE1 { cond: 0, imm: 93 } 0b1101000001011101
+0xd05e // BranchE1 { cond: 0, imm: 94 } 0b1101000001011110
+0xd05f // BranchE1 { cond: 0, imm: 95 } 0b1101000001011111
+0xd060 // BranchE1 { cond: 0, imm: 96 } 0b1101000001100000
+0xd061 // BranchE1 { cond: 0, imm: 97 } 0b1101000001100001
+0xd062 // BranchE1 { cond: 0, imm: 98 } 0b1101000001100010
+0xd063 // BranchE1 { cond: 0, imm: 99 } 0b1101000001100011
+0xd064 // BranchE1 { cond: 0, imm: 100 } 0b1101000001100100
+0xd065 // BranchE1 { cond: 0, imm: 101 } 0b1101000001100101
+0xd066 // BranchE1 { cond: 0, imm: 102 } 0b1101000001100110
+0xd067 // BranchE1 { cond: 0, imm: 103 } 0b1101000001100111
+0xd068 // BranchE1 { cond: 0, imm: 104 } 0b1101000001101000
+0xd069 // BranchE1 { cond: 0, imm: 105 } 0b1101000001101001
+0xd06a // BranchE1 { cond: 0, imm: 106 } 0b1101000001101010
+0xd06b // BranchE1 { cond: 0, imm: 107 } 0b1101000001101011
+0xd06c // BranchE1 { cond: 0, imm: 108 } 0b1101000001101100
+0xd06d // BranchE1 { cond: 0, imm: 109 } 0b1101000001101101
+0xd06e // BranchE1 { cond: 0, imm: 110 } 0b1101000001101110
+0xd06f // BranchE1 { cond: 0, imm: 111 } 0b1101000001101111
+0xd070 // BranchE1 { cond: 0, imm: 112 } 0b1101000001110000
+0xd071 // BranchE1 { cond: 0, imm: 113 } 0b1101000001110001
+0xd072 // BranchE1 { cond: 0, imm: 114 } 0b1101000001110010
+0xd073 // BranchE1 { cond: 0, imm: 115 } 0b1101000001110011
+0xd074 // BranchE1 { cond: 0, imm: 116 } 0b1101000001110100
+0xd075 // BranchE1 { cond: 0, imm: 117 } 0b1101000001110101
+0xd076 // BranchE1 { cond: 0, imm: 118 } 0b1101000001110110
+0xd077 // BranchE1 { cond: 0, imm: 119 } 0b1101000001110111
+0xd078 // BranchE1 { cond: 0, imm: 120 } 0b1101000001111000
+0xd079 // BranchE1 { cond: 0, imm: 121 } 0b1101000001111001
+0xd07a // BranchE1 { cond: 0, imm: 122 } 0b1101000001111010
+0xd07b // BranchE1 { cond: 0, imm: 123 } 0b1101000001111011
+0xd07c // BranchE1 { cond: 0, imm: 124 } 0b1101000001111100
+0xd07d // BranchE1 { cond: 0, imm: 125 } 0b1101000001111101
+0xd07e // BranchE1 { cond: 0, imm: 126 } 0b1101000001111110
+0xd07f // BranchE1 { cond: 0, imm: 127 } 0b1101000001111111
+0xd080 // BranchE1 { cond: 0, imm: 128 } 0b1101000010000000
+0xd081 // BranchE1 { cond: 0, imm: 129 } 0b1101000010000001
+0xd082 // BranchE1 { cond: 0, imm: 130 } 0b1101000010000010
+0xd083 // BranchE1 { cond: 0, imm: 131 } 0b1101000010000011
+0xd084 // BranchE1 { cond: 0, imm: 132 } 0b1101000010000100
+0xd085 // BranchE1 { cond: 0, imm: 133 } 0b1101000010000101
+0xd086 // BranchE1 { cond: 0, imm: 134 } 0b1101000010000110
+0xd087 // BranchE1 { cond: 0, imm: 135 } 0b1101000010000111
+0xd088 // BranchE1 { cond: 0, imm: 136 } 0b1101000010001000
+0xd089 // BranchE1 { cond: 0, imm: 137 } 0b1101000010001001
+0xd08a // BranchE1 { cond: 0, imm: 138 } 0b1101000010001010
+0xd08b // BranchE1 { cond: 0, imm: 139 } 0b1101000010001011
+0xd08c // BranchE1 { cond: 0, imm: 140 } 0b1101000010001100
+0xd08d // BranchE1 { cond: 0, imm: 141 } 0b1101000010001101
+0xd08e // BranchE1 { cond: 0, imm: 142 } 0b1101000010001110
+0xd08f // BranchE1 { cond: 0, imm: 143 } 0b1101000010001111
+0xd090 // BranchE1 { cond: 0, imm: 144 } 0b1101000010010000
+0xd091 // BranchE1 { cond: 0, imm: 145 } 0b1101000010010001
+0xd092 // BranchE1 { cond: 0, imm: 146 } 0b1101000010010010
+0xd093 // BranchE1 { cond: 0, imm: 147 } 0b1101000010010011
+0xd094 // BranchE1 { cond: 0, imm: 148 } 0b1101000010010100
+0xd095 // BranchE1 { cond: 0, imm: 149 } 0b1101000010010101
+0xd096 // BranchE1 { cond: 0, imm: 150 } 0b1101000010010110
+0xd097 // BranchE1 { cond: 0, imm: 151 } 0b1101000010010111
+0xd098 // BranchE1 { cond: 0, imm: 152 } 0b1101000010011000
+0xd099 // BranchE1 { cond: 0, imm: 153 } 0b1101000010011001
+0xd09a // BranchE1 { cond: 0, imm: 154 } 0b1101000010011010
+0xd09b // BranchE1 { cond: 0, imm: 155 } 0b1101000010011011
+0xd09c // BranchE1 { cond: 0, imm: 156 } 0b1101000010011100
+0xd09d // BranchE1 { cond: 0, imm: 157 } 0b1101000010011101
+0xd09e // BranchE1 { cond: 0, imm: 158 } 0b1101000010011110
+0xd09f // BranchE1 { cond: 0, imm: 159 } 0b1101000010011111
+0xd0a0 // BranchE1 { cond: 0, imm: 160 } 0b1101000010100000
+0xd0a1 // BranchE1 { cond: 0, imm: 161 } 0b1101000010100001
+0xd0a2 // BranchE1 { cond: 0, imm: 162 } 0b1101000010100010
+0xd0a3 // BranchE1 { cond: 0, imm: 163 } 0b1101000010100011
+0xd0a4 // BranchE1 { cond: 0, imm: 164 } 0b1101000010100100
+0xd0a5 // BranchE1 { cond: 0, imm: 165 } 0b1101000010100101
+0xd0a6 // BranchE1 { cond: 0, imm: 166 } 0b1101000010100110
+0xd0a7 // BranchE1 { cond: 0, imm: 167 } 0b1101000010100111
+0xd0a8 // BranchE1 { cond: 0, imm: 168 } 0b1101000010101000
+0xd0a9 // BranchE1 { cond: 0, imm: 169 } 0b1101000010101001
+0xd0aa // BranchE1 { cond: 0, imm: 170 } 0b1101000010101010
+0xd0ab // BranchE1 { cond: 0, imm: 171 } 0b1101000010101011
+0xd0ac // BranchE1 { cond: 0, imm: 172 } 0b1101000010101100
+0xd0ad // BranchE1 { cond: 0, imm: 173 } 0b1101000010101101
+0xd0ae // BranchE1 { cond: 0, imm: 174 } 0b1101000010101110
+0xd0af // BranchE1 { cond: 0, imm: 175 } 0b1101000010101111
+0xd0b0 // BranchE1 { cond: 0, imm: 176 } 0b1101000010110000
+0xd0b1 // BranchE1 { cond: 0, imm: 177 } 0b1101000010110001
+0xd0b2 // BranchE1 { cond: 0, imm: 178 } 0b1101000010110010
+0xd0b3 // BranchE1 { cond: 0, imm: 179 } 0b1101000010110011
+0xd0b4 // BranchE1 { cond: 0, imm: 180 } 0b1101000010110100
+0xd0b5 // BranchE1 { cond: 0, imm: 181 } 0b1101000010110101
+0xd0b6 // BranchE1 { cond: 0, imm: 182 } 0b1101000010110110
+0xd0b7 // BranchE1 { cond: 0, imm: 183 } 0b1101000010110111
+0xd0b8 // BranchE1 { cond: 0, imm: 184 } 0b1101000010111000
+0xd0b9 // BranchE1 { cond: 0, imm: 185 } 0b1101000010111001
+0xd0ba // BranchE1 { cond: 0, imm: 186 } 0b1101000010111010
+0xd0bb // BranchE1 { cond: 0, imm: 187 } 0b1101000010111011
+0xd0bc // BranchE1 { cond: 0, imm: 188 } 0b1101000010111100
+0xd0bd // BranchE1 { cond: 0, imm: 189 } 0b1101000010111101
+0xd0be // BranchE1 { cond: 0, imm: 190 } 0b1101000010111110
+0xd0bf // BranchE1 { cond: 0, imm: 191 } 0b1101000010111111
+0xd0c0 // BranchE1 { cond: 0, imm: 192 } 0b1101000011000000
+0xd0c1 // BranchE1 { cond: 0, imm: 193 } 0b1101000011000001
+0xd0c2 // BranchE1 { cond: 0, imm: 194 } 0b1101000011000010
+0xd0c3 // BranchE1 { cond: 0, imm: 195 } 0b1101000011000011
+0xd0c4 // BranchE1 { cond: 0, imm: 196 } 0b1101000011000100
+0xd0c5 // BranchE1 { cond: 0, imm: 197 } 0b1101000011000101
+0xd0c6 // BranchE1 { cond: 0, imm: 198 } 0b1101000011000110
+0xd0c7 // BranchE1 { cond: 0, imm: 199 } 0b1101000011000111
+0xd0c8 // BranchE1 { cond: 0, imm: 200 } 0b1101000011001000
+0xd0c9 // BranchE1 { cond: 0, imm: 201 } 0b1101000011001001
+0xd0ca // BranchE1 { cond: 0, imm: 202 } 0b1101000011001010
+0xd0cb // BranchE1 { cond: 0, imm: 203 } 0b1101000011001011
+0xd0cc // BranchE1 { cond: 0, imm: 204 } 0b1101000011001100
+0xd0cd // BranchE1 { cond: 0, imm: 205 } 0b1101000011001101
+0xd0ce // BranchE1 { cond: 0, imm: 206 } 0b1101000011001110
+0xd0cf // BranchE1 { cond: 0, imm: 207 } 0b1101000011001111
+0xd0d0 // BranchE1 { cond: 0, imm: 208 } 0b1101000011010000
+0xd0d1 // BranchE1 { cond: 0, imm: 209 } 0b1101000011010001
+0xd0d2 // BranchE1 { cond: 0, imm: 210 } 0b1101000011010010
+0xd0d3 // BranchE1 { cond: 0, imm: 211 } 0b1101000011010011
+0xd0d4 // BranchE1 { cond: 0, imm: 212 } 0b1101000011010100
+0xd0d5 // BranchE1 { cond: 0, imm: 213 } 0b1101000011010101
+0xd0d6 // BranchE1 { cond: 0, imm: 214 } 0b1101000011010110
+0xd0d7 // BranchE1 { cond: 0, imm: 215 } 0b1101000011010111
+0xd0d8 // BranchE1 { cond: 0, imm: 216 } 0b1101000011011000
+0xd0d9 // BranchE1 { cond: 0, imm: 217 } 0b1101000011011001
+0xd0da // BranchE1 { cond: 0, imm: 218 } 0b1101000011011010
+0xd0db // BranchE1 { cond: 0, imm: 219 } 0b1101000011011011
+0xd0dc // BranchE1 { cond: 0, imm: 220 } 0b1101000011011100
+0xd0dd // BranchE1 { cond: 0, imm: 221 } 0b1101000011011101
+0xd0de // BranchE1 { cond: 0, imm: 222 } 0b1101000011011110
+0xd0df // BranchE1 { cond: 0, imm: 223 } 0b1101000011011111
+0xd0e0 // BranchE1 { cond: 0, imm: 224 } 0b1101000011100000
+0xd0e1 // BranchE1 { cond: 0, imm: 225 } 0b1101000011100001
+0xd0e2 // BranchE1 { cond: 0, imm: 226 } 0b1101000011100010
+0xd0e3 // BranchE1 { cond: 0, imm: 227 } 0b1101000011100011
+0xd0e4 // BranchE1 { cond: 0, imm: 228 } 0b1101000011100100
+0xd0e5 // BranchE1 { cond: 0, imm: 229 } 0b1101000011100101
+0xd0e6 // BranchE1 { cond: 0, imm: 230 } 0b1101000011100110
+0xd0e7 // BranchE1 { cond: 0, imm: 231 } 0b1101000011100111
+0xd0e8 // BranchE1 { cond: 0, imm: 232 } 0b1101000011101000
+0xd0e9 // BranchE1 { cond: 0, imm: 233 } 0b1101000011101001
+0xd0ea // BranchE1 { cond: 0, imm: 234 } 0b1101000011101010
+0xd0eb // BranchE1 { cond: 0, imm: 235 } 0b1101000011101011
+0xd0ec // BranchE1 { cond: 0, imm: 236 } 0b1101000011101100
+0xd0ed // BranchE1 { cond: 0, imm: 237 } 0b1101000011101101
+0xd0ee // BranchE1 { cond: 0, imm: 238 } 0b1101000011101110
+0xd0ef // BranchE1 { cond: 0, imm: 239 } 0b1101000011101111
+0xd0f0 // BranchE1 { cond: 0, imm: 240 } 0b1101000011110000
+0xd0f1 // BranchE1 { cond: 0, imm: 241 } 0b1101000011110001
+0xd0f2 // BranchE1 { cond: 0, imm: 242 } 0b1101000011110010
+0xd0f3 // BranchE1 { cond: 0, imm: 243 } 0b1101000011110011
+0xd0f4 // BranchE1 { cond: 0, imm: 244 } 0b1101000011110100
+0xd0f5 // BranchE1 { cond: 0, imm: 245 } 0b1101000011110101
+0xd0f6 // BranchE1 { cond: 0, imm: 246 } 0b1101000011110110
+0xd0f7 // BranchE1 { cond: 0, imm: 247 } 0b1101000011110111
+0xd0f8 // BranchE1 { cond: 0, imm: 248 } 0b1101000011111000
+0xd0f9 // BranchE1 { cond: 0, imm: 249 } 0b1101000011111001
+0xd0fa // BranchE1 { cond: 0, imm: 250 } 0b1101000011111010
+0xd0fb // BranchE1 { cond: 0, imm: 251 } 0b1101000011111011
+0xd0fc // BranchE1 { cond: 0, imm: 252 } 0b1101000011111100
+0xd0fd // BranchE1 { cond: 0, imm: 253 } 0b1101000011111101
+0xd0fe // BranchE1 { cond: 0, imm: 254 } 0b1101000011111110
+0xd0ff // BranchE1 { cond: 0, imm: 255 } 0b1101000011111111
+0xd100 // BranchE1 { cond: 1, imm: 0 } 0b1101000100000000
+0xd101 // BranchE1 { cond: 1, imm: 1 } 0b1101000100000001
+0xd102 // BranchE1 { cond: 1, imm: 2 } 0b1101000100000010
+0xd103 // BranchE1 { cond: 1, imm: 3 } 0b1101000100000011
+0xd104 // BranchE1 { cond: 1, imm: 4 } 0b1101000100000100
+0xd105 // BranchE1 { cond: 1, imm: 5 } 0b1101000100000101
+0xd106 // BranchE1 { cond: 1, imm: 6 } 0b1101000100000110
+0xd107 // BranchE1 { cond: 1, imm: 7 } 0b1101000100000111
+0xd108 // BranchE1 { cond: 1, imm: 8 } 0b1101000100001000
+0xd109 // BranchE1 { cond: 1, imm: 9 } 0b1101000100001001
+0xd10a // BranchE1 { cond: 1, imm: 10 } 0b1101000100001010
+0xd10b // BranchE1 { cond: 1, imm: 11 } 0b1101000100001011
+0xd10c // BranchE1 { cond: 1, imm: 12 } 0b1101000100001100
+0xd10d // BranchE1 { cond: 1, imm: 13 } 0b1101000100001101
+0xd10e // BranchE1 { cond: 1, imm: 14 } 0b1101000100001110
+0xd10f // BranchE1 { cond: 1, imm: 15 } 0b1101000100001111
+0xd110 // BranchE1 { cond: 1, imm: 16 } 0b1101000100010000
+0xd111 // BranchE1 { cond: 1, imm: 17 } 0b1101000100010001
+0xd112 // BranchE1 { cond: 1, imm: 18 } 0b1101000100010010
+0xd113 // BranchE1 { cond: 1, imm: 19 } 0b1101000100010011
+0xd114 // BranchE1 { cond: 1, imm: 20 } 0b1101000100010100
+0xd115 // BranchE1 { cond: 1, imm: 21 } 0b1101000100010101
+0xd116 // BranchE1 { cond: 1, imm: 22 } 0b1101000100010110
+0xd117 // BranchE1 { cond: 1, imm: 23 } 0b1101000100010111
+0xd118 // BranchE1 { cond: 1, imm: 24 } 0b1101000100011000
+0xd119 // BranchE1 { cond: 1, imm: 25 } 0b1101000100011001
+0xd11a // BranchE1 { cond: 1, imm: 26 } 0b1101000100011010
+0xd11b // BranchE1 { cond: 1, imm: 27 } 0b1101000100011011
+0xd11c // BranchE1 { cond: 1, imm: 28 } 0b1101000100011100
+0xd11d // BranchE1 { cond: 1, imm: 29 } 0b1101000100011101
+0xd11e // BranchE1 { cond: 1, imm: 30 } 0b1101000100011110
+0xd11f // BranchE1 { cond: 1, imm: 31 } 0b1101000100011111
+0xd120 // BranchE1 { cond: 1, imm: 32 } 0b1101000100100000
+0xd121 // BranchE1 { cond: 1, imm: 33 } 0b1101000100100001
+0xd122 // BranchE1 { cond: 1, imm: 34 } 0b1101000100100010
+0xd123 // BranchE1 { cond: 1, imm: 35 } 0b1101000100100011
+0xd124 // BranchE1 { cond: 1, imm: 36 } 0b1101000100100100
+0xd125 // BranchE1 { cond: 1, imm: 37 } 0b1101000100100101
+0xd126 // BranchE1 { cond: 1, imm: 38 } 0b1101000100100110
+0xd127 // BranchE1 { cond: 1, imm: 39 } 0b1101000100100111
+0xd128 // BranchE1 { cond: 1, imm: 40 } 0b1101000100101000
+0xd129 // BranchE1 { cond: 1, imm: 41 } 0b1101000100101001
+0xd12a // BranchE1 { cond: 1, imm: 42 } 0b1101000100101010
+0xd12b // BranchE1 { cond: 1, imm: 43 } 0b1101000100101011
+0xd12c // BranchE1 { cond: 1, imm: 44 } 0b1101000100101100
+0xd12d // BranchE1 { cond: 1, imm: 45 } 0b1101000100101101
+0xd12e // BranchE1 { cond: 1, imm: 46 } 0b1101000100101110
+0xd12f // BranchE1 { cond: 1, imm: 47 } 0b1101000100101111
+0xd130 // BranchE1 { cond: 1, imm: 48 } 0b1101000100110000
+0xd131 // BranchE1 { cond: 1, imm: 49 } 0b1101000100110001
+0xd132 // BranchE1 { cond: 1, imm: 50 } 0b1101000100110010
+0xd133 // BranchE1 { cond: 1, imm: 51 } 0b1101000100110011
+0xd134 // BranchE1 { cond: 1, imm: 52 } 0b1101000100110100
+0xd135 // BranchE1 { cond: 1, imm: 53 } 0b1101000100110101
+0xd136 // BranchE1 { cond: 1, imm: 54 } 0b1101000100110110
+0xd137 // BranchE1 { cond: 1, imm: 55 } 0b1101000100110111
+0xd138 // BranchE1 { cond: 1, imm: 56 } 0b1101000100111000
+0xd139 // BranchE1 { cond: 1, imm: 57 } 0b1101000100111001
+0xd13a // BranchE1 { cond: 1, imm: 58 } 0b1101000100111010
+0xd13b // BranchE1 { cond: 1, imm: 59 } 0b1101000100111011
+0xd13c // BranchE1 { cond: 1, imm: 60 } 0b1101000100111100
+0xd13d // BranchE1 { cond: 1, imm: 61 } 0b1101000100111101
+0xd13e // BranchE1 { cond: 1, imm: 62 } 0b1101000100111110
+0xd13f // BranchE1 { cond: 1, imm: 63 } 0b1101000100111111
+0xd140 // BranchE1 { cond: 1, imm: 64 } 0b1101000101000000
+0xd141 // BranchE1 { cond: 1, imm: 65 } 0b1101000101000001
+0xd142 // BranchE1 { cond: 1, imm: 66 } 0b1101000101000010
+0xd143 // BranchE1 { cond: 1, imm: 67 } 0b1101000101000011
+0xd144 // BranchE1 { cond: 1, imm: 68 } 0b1101000101000100
+0xd145 // BranchE1 { cond: 1, imm: 69 } 0b1101000101000101
+0xd146 // BranchE1 { cond: 1, imm: 70 } 0b1101000101000110
+0xd147 // BranchE1 { cond: 1, imm: 71 } 0b1101000101000111
+0xd148 // BranchE1 { cond: 1, imm: 72 } 0b1101000101001000
+0xd149 // BranchE1 { cond: 1, imm: 73 } 0b1101000101001001
+0xd14a // BranchE1 { cond: 1, imm: 74 } 0b1101000101001010
+0xd14b // BranchE1 { cond: 1, imm: 75 } 0b1101000101001011
+0xd14c // BranchE1 { cond: 1, imm: 76 } 0b1101000101001100
+0xd14d // BranchE1 { cond: 1, imm: 77 } 0b1101000101001101
+0xd14e // BranchE1 { cond: 1, imm: 78 } 0b1101000101001110
+0xd14f // BranchE1 { cond: 1, imm: 79 } 0b1101000101001111
+0xd150 // BranchE1 { cond: 1, imm: 80 } 0b1101000101010000
+0xd151 // BranchE1 { cond: 1, imm: 81 } 0b1101000101010001
+0xd152 // BranchE1 { cond: 1, imm: 82 } 0b1101000101010010
+0xd153 // BranchE1 { cond: 1, imm: 83 } 0b1101000101010011
+0xd154 // BranchE1 { cond: 1, imm: 84 } 0b1101000101010100
+0xd155 // BranchE1 { cond: 1, imm: 85 } 0b1101000101010101
+0xd156 // BranchE1 { cond: 1, imm: 86 } 0b1101000101010110
+0xd157 // BranchE1 { cond: 1, imm: 87 } 0b1101000101010111
+0xd158 // BranchE1 { cond: 1, imm: 88 } 0b1101000101011000
+0xd159 // BranchE1 { cond: 1, imm: 89 } 0b1101000101011001
+0xd15a // BranchE1 { cond: 1, imm: 90 } 0b1101000101011010
+0xd15b // BranchE1 { cond: 1, imm: 91 } 0b1101000101011011
+0xd15c // BranchE1 { cond: 1, imm: 92 } 0b1101000101011100
+0xd15d // BranchE1 { cond: 1, imm: 93 } 0b1101000101011101
+0xd15e // BranchE1 { cond: 1, imm: 94 } 0b1101000101011110
+0xd15f // BranchE1 { cond: 1, imm: 95 } 0b1101000101011111
+0xd160 // BranchE1 { cond: 1, imm: 96 } 0b1101000101100000
+0xd161 // BranchE1 { cond: 1, imm: 97 } 0b1101000101100001
+0xd162 // BranchE1 { cond: 1, imm: 98 } 0b1101000101100010
+0xd163 // BranchE1 { cond: 1, imm: 99 } 0b1101000101100011
+0xd164 // BranchE1 { cond: 1, imm: 100 } 0b1101000101100100
+0xd165 // BranchE1 { cond: 1, imm: 101 } 0b1101000101100101
+0xd166 // BranchE1 { cond: 1, imm: 102 } 0b1101000101100110
+0xd167 // BranchE1 { cond: 1, imm: 103 } 0b1101000101100111
+0xd168 // BranchE1 { cond: 1, imm: 104 } 0b1101000101101000
+0xd169 // BranchE1 { cond: 1, imm: 105 } 0b1101000101101001
+0xd16a // BranchE1 { cond: 1, imm: 106 } 0b1101000101101010
+0xd16b // BranchE1 { cond: 1, imm: 107 } 0b1101000101101011
+0xd16c // BranchE1 { cond: 1, imm: 108 } 0b1101000101101100
+0xd16d // BranchE1 { cond: 1, imm: 109 } 0b1101000101101101
+0xd16e // BranchE1 { cond: 1, imm: 110 } 0b1101000101101110
+0xd16f // BranchE1 { cond: 1, imm: 111 } 0b1101000101101111
+0xd170 // BranchE1 { cond: 1, imm: 112 } 0b1101000101110000
+0xd171 // BranchE1 { cond: 1, imm: 113 } 0b1101000101110001
+0xd172 // BranchE1 { cond: 1, imm: 114 } 0b1101000101110010
+0xd173 // BranchE1 { cond: 1, imm: 115 } 0b1101000101110011
+0xd174 // BranchE1 { cond: 1, imm: 116 } 0b1101000101110100
+0xd175 // BranchE1 { cond: 1, imm: 117 } 0b1101000101110101
+0xd176 // BranchE1 { cond: 1, imm: 118 } 0b1101000101110110
+0xd177 // BranchE1 { cond: 1, imm: 119 } 0b1101000101110111
+0xd178 // BranchE1 { cond: 1, imm: 120 } 0b1101000101111000
+0xd179 // BranchE1 { cond: 1, imm: 121 } 0b1101000101111001
+0xd17a // BranchE1 { cond: 1, imm: 122 } 0b1101000101111010
+0xd17b // BranchE1 { cond: 1, imm: 123 } 0b1101000101111011
+0xd17c // BranchE1 { cond: 1, imm: 124 } 0b1101000101111100
+0xd17d // BranchE1 { cond: 1, imm: 125 } 0b1101000101111101
+0xd17e // BranchE1 { cond: 1, imm: 126 } 0b1101000101111110
+0xd17f // BranchE1 { cond: 1, imm: 127 } 0b1101000101111111
+0xd180 // BranchE1 { cond: 1, imm: 128 } 0b1101000110000000
+0xd181 // BranchE1 { cond: 1, imm: 129 } 0b1101000110000001
+0xd182 // BranchE1 { cond: 1, imm: 130 } 0b1101000110000010
+0xd183 // BranchE1 { cond: 1, imm: 131 } 0b1101000110000011
+0xd184 // BranchE1 { cond: 1, imm: 132 } 0b1101000110000100
+0xd185 // BranchE1 { cond: 1, imm: 133 } 0b1101000110000101
+0xd186 // BranchE1 { cond: 1, imm: 134 } 0b1101000110000110
+0xd187 // BranchE1 { cond: 1, imm: 135 } 0b1101000110000111
+0xd188 // BranchE1 { cond: 1, imm: 136 } 0b1101000110001000
+0xd189 // BranchE1 { cond: 1, imm: 137 } 0b1101000110001001
+0xd18a // BranchE1 { cond: 1, imm: 138 } 0b1101000110001010
+0xd18b // BranchE1 { cond: 1, imm: 139 } 0b1101000110001011
+0xd18c // BranchE1 { cond: 1, imm: 140 } 0b1101000110001100
+0xd18d // BranchE1 { cond: 1, imm: 141 } 0b1101000110001101
+0xd18e // BranchE1 { cond: 1, imm: 142 } 0b1101000110001110
+0xd18f // BranchE1 { cond: 1, imm: 143 } 0b1101000110001111
+0xd190 // BranchE1 { cond: 1, imm: 144 } 0b1101000110010000
+0xd191 // BranchE1 { cond: 1, imm: 145 } 0b1101000110010001
+0xd192 // BranchE1 { cond: 1, imm: 146 } 0b1101000110010010
+0xd193 // BranchE1 { cond: 1, imm: 147 } 0b1101000110010011
+0xd194 // BranchE1 { cond: 1, imm: 148 } 0b1101000110010100
+0xd195 // BranchE1 { cond: 1, imm: 149 } 0b1101000110010101
+0xd196 // BranchE1 { cond: 1, imm: 150 } 0b1101000110010110
+0xd197 // BranchE1 { cond: 1, imm: 151 } 0b1101000110010111
+0xd198 // BranchE1 { cond: 1, imm: 152 } 0b1101000110011000
+0xd199 // BranchE1 { cond: 1, imm: 153 } 0b1101000110011001
+0xd19a // BranchE1 { cond: 1, imm: 154 } 0b1101000110011010
+0xd19b // BranchE1 { cond: 1, imm: 155 } 0b1101000110011011
+0xd19c // BranchE1 { cond: 1, imm: 156 } 0b1101000110011100
+0xd19d // BranchE1 { cond: 1, imm: 157 } 0b1101000110011101
+0xd19e // BranchE1 { cond: 1, imm: 158 } 0b1101000110011110
+0xd19f // BranchE1 { cond: 1, imm: 159 } 0b1101000110011111
+0xd1a0 // BranchE1 { cond: 1, imm: 160 } 0b1101000110100000
+0xd1a1 // BranchE1 { cond: 1, imm: 161 } 0b1101000110100001
+0xd1a2 // BranchE1 { cond: 1, imm: 162 } 0b1101000110100010
+0xd1a3 // BranchE1 { cond: 1, imm: 163 } 0b1101000110100011
+0xd1a4 // BranchE1 { cond: 1, imm: 164 } 0b1101000110100100
+0xd1a5 // BranchE1 { cond: 1, imm: 165 } 0b1101000110100101
+0xd1a6 // BranchE1 { cond: 1, imm: 166 } 0b1101000110100110
+0xd1a7 // BranchE1 { cond: 1, imm: 167 } 0b1101000110100111
+0xd1a8 // BranchE1 { cond: 1, imm: 168 } 0b1101000110101000
+0xd1a9 // BranchE1 { cond: 1, imm: 169 } 0b1101000110101001
+0xd1aa // BranchE1 { cond: 1, imm: 170 } 0b1101000110101010
+0xd1ab // BranchE1 { cond: 1, imm: 171 } 0b1101000110101011
+0xd1ac // BranchE1 { cond: 1, imm: 172 } 0b1101000110101100
+0xd1ad // BranchE1 { cond: 1, imm: 173 } 0b1101000110101101
+0xd1ae // BranchE1 { cond: 1, imm: 174 } 0b1101000110101110
+0xd1af // BranchE1 { cond: 1, imm: 175 } 0b1101000110101111
+0xd1b0 // BranchE1 { cond: 1, imm: 176 } 0b1101000110110000
+0xd1b1 // BranchE1 { cond: 1, imm: 177 } 0b1101000110110001
+0xd1b2 // BranchE1 { cond: 1, imm: 178 } 0b1101000110110010
+0xd1b3 // BranchE1 { cond: 1, imm: 179 } 0b1101000110110011
+0xd1b4 // BranchE1 { cond: 1, imm: 180 } 0b1101000110110100
+0xd1b5 // BranchE1 { cond: 1, imm: 181 } 0b1101000110110101
+0xd1b6 // BranchE1 { cond: 1, imm: 182 } 0b1101000110110110
+0xd1b7 // BranchE1 { cond: 1, imm: 183 } 0b1101000110110111
+0xd1b8 // BranchE1 { cond: 1, imm: 184 } 0b1101000110111000
+0xd1b9 // BranchE1 { cond: 1, imm: 185 } 0b1101000110111001
+0xd1ba // BranchE1 { cond: 1, imm: 186 } 0b1101000110111010
+0xd1bb // BranchE1 { cond: 1, imm: 187 } 0b1101000110111011
+0xd1bc // BranchE1 { cond: 1, imm: 188 } 0b1101000110111100
+0xd1bd // BranchE1 { cond: 1, imm: 189 } 0b1101000110111101
+0xd1be // BranchE1 { cond: 1, imm: 190 } 0b1101000110111110
+0xd1bf // BranchE1 { cond: 1, imm: 191 } 0b1101000110111111
+0xd1c0 // BranchE1 { cond: 1, imm: 192 } 0b1101000111000000
+0xd1c1 // BranchE1 { cond: 1, imm: 193 } 0b1101000111000001
+0xd1c2 // BranchE1 { cond: 1, imm: 194 } 0b1101000111000010
+0xd1c3 // BranchE1 { cond: 1, imm: 195 } 0b1101000111000011
+0xd1c4 // BranchE1 { cond: 1, imm: 196 } 0b1101000111000100
+0xd1c5 // BranchE1 { cond: 1, imm: 197 } 0b1101000111000101
+0xd1c6 // BranchE1 { cond: 1, imm: 198 } 0b1101000111000110
+0xd1c7 // BranchE1 { cond: 1, imm: 199 } 0b1101000111000111
+0xd1c8 // BranchE1 { cond: 1, imm: 200 } 0b1101000111001000
+0xd1c9 // BranchE1 { cond: 1, imm: 201 } 0b1101000111001001
+0xd1ca // BranchE1 { cond: 1, imm: 202 } 0b1101000111001010
+0xd1cb // BranchE1 { cond: 1, imm: 203 } 0b1101000111001011
+0xd1cc // BranchE1 { cond: 1, imm: 204 } 0b1101000111001100
+0xd1cd // BranchE1 { cond: 1, imm: 205 } 0b1101000111001101
+0xd1ce // BranchE1 { cond: 1, imm: 206 } 0b1101000111001110
+0xd1cf // BranchE1 { cond: 1, imm: 207 } 0b1101000111001111
+0xd1d0 // BranchE1 { cond: 1, imm: 208 } 0b1101000111010000
+0xd1d1 // BranchE1 { cond: 1, imm: 209 } 0b1101000111010001
+0xd1d2 // BranchE1 { cond: 1, imm: 210 } 0b1101000111010010
+0xd1d3 // BranchE1 { cond: 1, imm: 211 } 0b1101000111010011
+0xd1d4 // BranchE1 { cond: 1, imm: 212 } 0b1101000111010100
+0xd1d5 // BranchE1 { cond: 1, imm: 213 } 0b1101000111010101
+0xd1d6 // BranchE1 { cond: 1, imm: 214 } 0b1101000111010110
+0xd1d7 // BranchE1 { cond: 1, imm: 215 } 0b1101000111010111
+0xd1d8 // BranchE1 { cond: 1, imm: 216 } 0b1101000111011000
+0xd1d9 // BranchE1 { cond: 1, imm: 217 } 0b1101000111011001
+0xd1da // BranchE1 { cond: 1, imm: 218 } 0b1101000111011010
+0xd1db // BranchE1 { cond: 1, imm: 219 } 0b1101000111011011
+0xd1dc // BranchE1 { cond: 1, imm: 220 } 0b1101000111011100
+0xd1dd // BranchE1 { cond: 1, imm: 221 } 0b1101000111011101
+0xd1de // BranchE1 { cond: 1, imm: 222 } 0b1101000111011110
+0xd1df // BranchE1 { cond: 1, imm: 223 } 0b1101000111011111
+0xd1e0 // BranchE1 { cond: 1, imm: 224 } 0b1101000111100000
+0xd1e1 // BranchE1 { cond: 1, imm: 225 } 0b1101000111100001
+0xd1e2 // BranchE1 { cond: 1, imm: 226 } 0b1101000111100010
+0xd1e3 // BranchE1 { cond: 1, imm: 227 } 0b1101000111100011
+0xd1e4 // BranchE1 { cond: 1, imm: 228 } 0b1101000111100100
+0xd1e5 // BranchE1 { cond: 1, imm: 229 } 0b1101000111100101
+0xd1e6 // BranchE1 { cond: 1, imm: 230 } 0b1101000111100110
+0xd1e7 // BranchE1 { cond: 1, imm: 231 } 0b1101000111100111
+0xd1e8 // BranchE1 { cond: 1, imm: 232 } 0b1101000111101000
+0xd1e9 // BranchE1 { cond: 1, imm: 233 } 0b1101000111101001
+0xd1ea // BranchE1 { cond: 1, imm: 234 } 0b1101000111101010
+0xd1eb // BranchE1 { cond: 1, imm: 235 } 0b1101000111101011
+0xd1ec // BranchE1 { cond: 1, imm: 236 } 0b1101000111101100
+0xd1ed // BranchE1 { cond: 1, imm: 237 } 0b1101000111101101
+0xd1ee // BranchE1 { cond: 1, imm: 238 } 0b1101000111101110
+0xd1ef // BranchE1 { cond: 1, imm: 239 } 0b1101000111101111
+0xd1f0 // BranchE1 { cond: 1, imm: 240 } 0b1101000111110000
+0xd1f1 // BranchE1 { cond: 1, imm: 241 } 0b1101000111110001
+0xd1f2 // BranchE1 { cond: 1, imm: 242 } 0b1101000111110010
+0xd1f3 // BranchE1 { cond: 1, imm: 243 } 0b1101000111110011
+0xd1f4 // BranchE1 { cond: 1, imm: 244 } 0b1101000111110100
+0xd1f5 // BranchE1 { cond: 1, imm: 245 } 0b1101000111110101
+0xd1f6 // BranchE1 { cond: 1, imm: 246 } 0b1101000111110110
+0xd1f7 // BranchE1 { cond: 1, imm: 247 } 0b1101000111110111
+0xd1f8 // BranchE1 { cond: 1, imm: 248 } 0b1101000111111000
+0xd1f9 // BranchE1 { cond: 1, imm: 249 } 0b1101000111111001
+0xd1fa // BranchE1 { cond: 1, imm: 250 } 0b1101000111111010
+0xd1fb // BranchE1 { cond: 1, imm: 251 } 0b1101000111111011
+0xd1fc // BranchE1 { cond: 1, imm: 252 } 0b1101000111111100
+0xd1fd // BranchE1 { cond: 1, imm: 253 } 0b1101000111111101
+0xd1fe // BranchE1 { cond: 1, imm: 254 } 0b1101000111111110
+0xd1ff // BranchE1 { cond: 1, imm: 255 } 0b1101000111111111
+0xd200 // BranchE1 { cond: 2, imm: 0 } 0b1101001000000000
+0xd201 // BranchE1 { cond: 2, imm: 1 } 0b1101001000000001
+0xd202 // BranchE1 { cond: 2, imm: 2 } 0b1101001000000010
+0xd203 // BranchE1 { cond: 2, imm: 3 } 0b1101001000000011
+0xd204 // BranchE1 { cond: 2, imm: 4 } 0b1101001000000100
+0xd205 // BranchE1 { cond: 2, imm: 5 } 0b1101001000000101
+0xd206 // BranchE1 { cond: 2, imm: 6 } 0b1101001000000110
+0xd207 // BranchE1 { cond: 2, imm: 7 } 0b1101001000000111
+0xd208 // BranchE1 { cond: 2, imm: 8 } 0b1101001000001000
+0xd209 // BranchE1 { cond: 2, imm: 9 } 0b1101001000001001
+0xd20a // BranchE1 { cond: 2, imm: 10 } 0b1101001000001010
+0xd20b // BranchE1 { cond: 2, imm: 11 } 0b1101001000001011
+0xd20c // BranchE1 { cond: 2, imm: 12 } 0b1101001000001100
+0xd20d // BranchE1 { cond: 2, imm: 13 } 0b1101001000001101
+0xd20e // BranchE1 { cond: 2, imm: 14 } 0b1101001000001110
+0xd20f // BranchE1 { cond: 2, imm: 15 } 0b1101001000001111
+0xd210 // BranchE1 { cond: 2, imm: 16 } 0b1101001000010000
+0xd211 // BranchE1 { cond: 2, imm: 17 } 0b1101001000010001
+0xd212 // BranchE1 { cond: 2, imm: 18 } 0b1101001000010010
+0xd213 // BranchE1 { cond: 2, imm: 19 } 0b1101001000010011
+0xd214 // BranchE1 { cond: 2, imm: 20 } 0b1101001000010100
+0xd215 // BranchE1 { cond: 2, imm: 21 } 0b1101001000010101
+0xd216 // BranchE1 { cond: 2, imm: 22 } 0b1101001000010110
+0xd217 // BranchE1 { cond: 2, imm: 23 } 0b1101001000010111
+0xd218 // BranchE1 { cond: 2, imm: 24 } 0b1101001000011000
+0xd219 // BranchE1 { cond: 2, imm: 25 } 0b1101001000011001
+0xd21a // BranchE1 { cond: 2, imm: 26 } 0b1101001000011010
+0xd21b // BranchE1 { cond: 2, imm: 27 } 0b1101001000011011
+0xd21c // BranchE1 { cond: 2, imm: 28 } 0b1101001000011100
+0xd21d // BranchE1 { cond: 2, imm: 29 } 0b1101001000011101
+0xd21e // BranchE1 { cond: 2, imm: 30 } 0b1101001000011110
+0xd21f // BranchE1 { cond: 2, imm: 31 } 0b1101001000011111
+0xd220 // BranchE1 { cond: 2, imm: 32 } 0b1101001000100000
+0xd221 // BranchE1 { cond: 2, imm: 33 } 0b1101001000100001
+0xd222 // BranchE1 { cond: 2, imm: 34 } 0b1101001000100010
+0xd223 // BranchE1 { cond: 2, imm: 35 } 0b1101001000100011
+0xd224 // BranchE1 { cond: 2, imm: 36 } 0b1101001000100100
+0xd225 // BranchE1 { cond: 2, imm: 37 } 0b1101001000100101
+0xd226 // BranchE1 { cond: 2, imm: 38 } 0b1101001000100110
+0xd227 // BranchE1 { cond: 2, imm: 39 } 0b1101001000100111
+0xd228 // BranchE1 { cond: 2, imm: 40 } 0b1101001000101000
+0xd229 // BranchE1 { cond: 2, imm: 41 } 0b1101001000101001
+0xd22a // BranchE1 { cond: 2, imm: 42 } 0b1101001000101010
+0xd22b // BranchE1 { cond: 2, imm: 43 } 0b1101001000101011
+0xd22c // BranchE1 { cond: 2, imm: 44 } 0b1101001000101100
+0xd22d // BranchE1 { cond: 2, imm: 45 } 0b1101001000101101
+0xd22e // BranchE1 { cond: 2, imm: 46 } 0b1101001000101110
+0xd22f // BranchE1 { cond: 2, imm: 47 } 0b1101001000101111
+0xd230 // BranchE1 { cond: 2, imm: 48 } 0b1101001000110000
+0xd231 // BranchE1 { cond: 2, imm: 49 } 0b1101001000110001
+0xd232 // BranchE1 { cond: 2, imm: 50 } 0b1101001000110010
+0xd233 // BranchE1 { cond: 2, imm: 51 } 0b1101001000110011
+0xd234 // BranchE1 { cond: 2, imm: 52 } 0b1101001000110100
+0xd235 // BranchE1 { cond: 2, imm: 53 } 0b1101001000110101
+0xd236 // BranchE1 { cond: 2, imm: 54 } 0b1101001000110110
+0xd237 // BranchE1 { cond: 2, imm: 55 } 0b1101001000110111
+0xd238 // BranchE1 { cond: 2, imm: 56 } 0b1101001000111000
+0xd239 // BranchE1 { cond: 2, imm: 57 } 0b1101001000111001
+0xd23a // BranchE1 { cond: 2, imm: 58 } 0b1101001000111010
+0xd23b // BranchE1 { cond: 2, imm: 59 } 0b1101001000111011
+0xd23c // BranchE1 { cond: 2, imm: 60 } 0b1101001000111100
+0xd23d // BranchE1 { cond: 2, imm: 61 } 0b1101001000111101
+0xd23e // BranchE1 { cond: 2, imm: 62 } 0b1101001000111110
+0xd23f // BranchE1 { cond: 2, imm: 63 } 0b1101001000111111
+0xd240 // BranchE1 { cond: 2, imm: 64 } 0b1101001001000000
+0xd241 // BranchE1 { cond: 2, imm: 65 } 0b1101001001000001
+0xd242 // BranchE1 { cond: 2, imm: 66 } 0b1101001001000010
+0xd243 // BranchE1 { cond: 2, imm: 67 } 0b1101001001000011
+0xd244 // BranchE1 { cond: 2, imm: 68 } 0b1101001001000100
+0xd245 // BranchE1 { cond: 2, imm: 69 } 0b1101001001000101
+0xd246 // BranchE1 { cond: 2, imm: 70 } 0b1101001001000110
+0xd247 // BranchE1 { cond: 2, imm: 71 } 0b1101001001000111
+0xd248 // BranchE1 { cond: 2, imm: 72 } 0b1101001001001000
+0xd249 // BranchE1 { cond: 2, imm: 73 } 0b1101001001001001
+0xd24a // BranchE1 { cond: 2, imm: 74 } 0b1101001001001010
+0xd24b // BranchE1 { cond: 2, imm: 75 } 0b1101001001001011
+0xd24c // BranchE1 { cond: 2, imm: 76 } 0b1101001001001100
+0xd24d // BranchE1 { cond: 2, imm: 77 } 0b1101001001001101
+0xd24e // BranchE1 { cond: 2, imm: 78 } 0b1101001001001110
+0xd24f // BranchE1 { cond: 2, imm: 79 } 0b1101001001001111
+0xd250 // BranchE1 { cond: 2, imm: 80 } 0b1101001001010000
+0xd251 // BranchE1 { cond: 2, imm: 81 } 0b1101001001010001
+0xd252 // BranchE1 { cond: 2, imm: 82 } 0b1101001001010010
+0xd253 // BranchE1 { cond: 2, imm: 83 } 0b1101001001010011
+0xd254 // BranchE1 { cond: 2, imm: 84 } 0b1101001001010100
+0xd255 // BranchE1 { cond: 2, imm: 85 } 0b1101001001010101
+0xd256 // BranchE1 { cond: 2, imm: 86 } 0b1101001001010110
+0xd257 // BranchE1 { cond: 2, imm: 87 } 0b1101001001010111
+0xd258 // BranchE1 { cond: 2, imm: 88 } 0b1101001001011000
+0xd259 // BranchE1 { cond: 2, imm: 89 } 0b1101001001011001
+0xd25a // BranchE1 { cond: 2, imm: 90 } 0b1101001001011010
+0xd25b // BranchE1 { cond: 2, imm: 91 } 0b1101001001011011
+0xd25c // BranchE1 { cond: 2, imm: 92 } 0b1101001001011100
+0xd25d // BranchE1 { cond: 2, imm: 93 } 0b1101001001011101
+0xd25e // BranchE1 { cond: 2, imm: 94 } 0b1101001001011110
+0xd25f // BranchE1 { cond: 2, imm: 95 } 0b1101001001011111
+0xd260 // BranchE1 { cond: 2, imm: 96 } 0b1101001001100000
+0xd261 // BranchE1 { cond: 2, imm: 97 } 0b1101001001100001
+0xd262 // BranchE1 { cond: 2, imm: 98 } 0b1101001001100010
+0xd263 // BranchE1 { cond: 2, imm: 99 } 0b1101001001100011
+0xd264 // BranchE1 { cond: 2, imm: 100 } 0b1101001001100100
+0xd265 // BranchE1 { cond: 2, imm: 101 } 0b1101001001100101
+0xd266 // BranchE1 { cond: 2, imm: 102 } 0b1101001001100110
+0xd267 // BranchE1 { cond: 2, imm: 103 } 0b1101001001100111
+0xd268 // BranchE1 { cond: 2, imm: 104 } 0b1101001001101000
+0xd269 // BranchE1 { cond: 2, imm: 105 } 0b1101001001101001
+0xd26a // BranchE1 { cond: 2, imm: 106 } 0b1101001001101010
+0xd26b // BranchE1 { cond: 2, imm: 107 } 0b1101001001101011
+0xd26c // BranchE1 { cond: 2, imm: 108 } 0b1101001001101100
+0xd26d // BranchE1 { cond: 2, imm: 109 } 0b1101001001101101
+0xd26e // BranchE1 { cond: 2, imm: 110 } 0b1101001001101110
+0xd26f // BranchE1 { cond: 2, imm: 111 } 0b1101001001101111
+0xd270 // BranchE1 { cond: 2, imm: 112 } 0b1101001001110000
+0xd271 // BranchE1 { cond: 2, imm: 113 } 0b1101001001110001
+0xd272 // BranchE1 { cond: 2, imm: 114 } 0b1101001001110010
+0xd273 // BranchE1 { cond: 2, imm: 115 } 0b1101001001110011
+0xd274 // BranchE1 { cond: 2, imm: 116 } 0b1101001001110100
+0xd275 // BranchE1 { cond: 2, imm: 117 } 0b1101001001110101
+0xd276 // BranchE1 { cond: 2, imm: 118 } 0b1101001001110110
+0xd277 // BranchE1 { cond: 2, imm: 119 } 0b1101001001110111
+0xd278 // BranchE1 { cond: 2, imm: 120 } 0b1101001001111000
+0xd279 // BranchE1 { cond: 2, imm: 121 } 0b1101001001111001
+0xd27a // BranchE1 { cond: 2, imm: 122 } 0b1101001001111010
+0xd27b // BranchE1 { cond: 2, imm: 123 } 0b1101001001111011
+0xd27c // BranchE1 { cond: 2, imm: 124 } 0b1101001001111100
+0xd27d // BranchE1 { cond: 2, imm: 125 } 0b1101001001111101
+0xd27e // BranchE1 { cond: 2, imm: 126 } 0b1101001001111110
+0xd27f // BranchE1 { cond: 2, imm: 127 } 0b1101001001111111
+0xd280 // BranchE1 { cond: 2, imm: 128 } 0b1101001010000000
+0xd281 // BranchE1 { cond: 2, imm: 129 } 0b1101001010000001
+0xd282 // BranchE1 { cond: 2, imm: 130 } 0b1101001010000010
+0xd283 // BranchE1 { cond: 2, imm: 131 } 0b1101001010000011
+0xd284 // BranchE1 { cond: 2, imm: 132 } 0b1101001010000100
+0xd285 // BranchE1 { cond: 2, imm: 133 } 0b1101001010000101
+0xd286 // BranchE1 { cond: 2, imm: 134 } 0b1101001010000110
+0xd287 // BranchE1 { cond: 2, imm: 135 } 0b1101001010000111
+0xd288 // BranchE1 { cond: 2, imm: 136 } 0b1101001010001000
+0xd289 // BranchE1 { cond: 2, imm: 137 } 0b1101001010001001
+0xd28a // BranchE1 { cond: 2, imm: 138 } 0b1101001010001010
+0xd28b // BranchE1 { cond: 2, imm: 139 } 0b1101001010001011
+0xd28c // BranchE1 { cond: 2, imm: 140 } 0b1101001010001100
+0xd28d // BranchE1 { cond: 2, imm: 141 } 0b1101001010001101
+0xd28e // BranchE1 { cond: 2, imm: 142 } 0b1101001010001110
+0xd28f // BranchE1 { cond: 2, imm: 143 } 0b1101001010001111
+0xd290 // BranchE1 { cond: 2, imm: 144 } 0b1101001010010000
+0xd291 // BranchE1 { cond: 2, imm: 145 } 0b1101001010010001
+0xd292 // BranchE1 { cond: 2, imm: 146 } 0b1101001010010010
+0xd293 // BranchE1 { cond: 2, imm: 147 } 0b1101001010010011
+0xd294 // BranchE1 { cond: 2, imm: 148 } 0b1101001010010100
+0xd295 // BranchE1 { cond: 2, imm: 149 } 0b1101001010010101
+0xd296 // BranchE1 { cond: 2, imm: 150 } 0b1101001010010110
+0xd297 // BranchE1 { cond: 2, imm: 151 } 0b1101001010010111
+0xd298 // BranchE1 { cond: 2, imm: 152 } 0b1101001010011000
+0xd299 // BranchE1 { cond: 2, imm: 153 } 0b1101001010011001
+0xd29a // BranchE1 { cond: 2, imm: 154 } 0b1101001010011010
+0xd29b // BranchE1 { cond: 2, imm: 155 } 0b1101001010011011
+0xd29c // BranchE1 { cond: 2, imm: 156 } 0b1101001010011100
+0xd29d // BranchE1 { cond: 2, imm: 157 } 0b1101001010011101
+0xd29e // BranchE1 { cond: 2, imm: 158 } 0b1101001010011110
+0xd29f // BranchE1 { cond: 2, imm: 159 } 0b1101001010011111
+0xd2a0 // BranchE1 { cond: 2, imm: 160 } 0b1101001010100000
+0xd2a1 // BranchE1 { cond: 2, imm: 161 } 0b1101001010100001
+0xd2a2 // BranchE1 { cond: 2, imm: 162 } 0b1101001010100010
+0xd2a3 // BranchE1 { cond: 2, imm: 163 } 0b1101001010100011
+0xd2a4 // BranchE1 { cond: 2, imm: 164 } 0b1101001010100100
+0xd2a5 // BranchE1 { cond: 2, imm: 165 } 0b1101001010100101
+0xd2a6 // BranchE1 { cond: 2, imm: 166 } 0b1101001010100110
+0xd2a7 // BranchE1 { cond: 2, imm: 167 } 0b1101001010100111
+0xd2a8 // BranchE1 { cond: 2, imm: 168 } 0b1101001010101000
+0xd2a9 // BranchE1 { cond: 2, imm: 169 } 0b1101001010101001
+0xd2aa // BranchE1 { cond: 2, imm: 170 } 0b1101001010101010
+0xd2ab // BranchE1 { cond: 2, imm: 171 } 0b1101001010101011
+0xd2ac // BranchE1 { cond: 2, imm: 172 } 0b1101001010101100
+0xd2ad // BranchE1 { cond: 2, imm: 173 } 0b1101001010101101
+0xd2ae // BranchE1 { cond: 2, imm: 174 } 0b1101001010101110
+0xd2af // BranchE1 { cond: 2, imm: 175 } 0b1101001010101111
+0xd2b0 // BranchE1 { cond: 2, imm: 176 } 0b1101001010110000
+0xd2b1 // BranchE1 { cond: 2, imm: 177 } 0b1101001010110001
+0xd2b2 // BranchE1 { cond: 2, imm: 178 } 0b1101001010110010
+0xd2b3 // BranchE1 { cond: 2, imm: 179 } 0b1101001010110011
+0xd2b4 // BranchE1 { cond: 2, imm: 180 } 0b1101001010110100
+0xd2b5 // BranchE1 { cond: 2, imm: 181 } 0b1101001010110101
+0xd2b6 // BranchE1 { cond: 2, imm: 182 } 0b1101001010110110
+0xd2b7 // BranchE1 { cond: 2, imm: 183 } 0b1101001010110111
+0xd2b8 // BranchE1 { cond: 2, imm: 184 } 0b1101001010111000
+0xd2b9 // BranchE1 { cond: 2, imm: 185 } 0b1101001010111001
+0xd2ba // BranchE1 { cond: 2, imm: 186 } 0b1101001010111010
+0xd2bb // BranchE1 { cond: 2, imm: 187 } 0b1101001010111011
+0xd2bc // BranchE1 { cond: 2, imm: 188 } 0b1101001010111100
+0xd2bd // BranchE1 { cond: 2, imm: 189 } 0b1101001010111101
+0xd2be // BranchE1 { cond: 2, imm: 190 } 0b1101001010111110
+0xd2bf // BranchE1 { cond: 2, imm: 191 } 0b1101001010111111
+0xd2c0 // BranchE1 { cond: 2, imm: 192 } 0b1101001011000000
+0xd2c1 // BranchE1 { cond: 2, imm: 193 } 0b1101001011000001
+0xd2c2 // BranchE1 { cond: 2, imm: 194 } 0b1101001011000010
+0xd2c3 // BranchE1 { cond: 2, imm: 195 } 0b1101001011000011
+0xd2c4 // BranchE1 { cond: 2, imm: 196 } 0b1101001011000100
+0xd2c5 // BranchE1 { cond: 2, imm: 197 } 0b1101001011000101
+0xd2c6 // BranchE1 { cond: 2, imm: 198 } 0b1101001011000110
+0xd2c7 // BranchE1 { cond: 2, imm: 199 } 0b1101001011000111
+0xd2c8 // BranchE1 { cond: 2, imm: 200 } 0b1101001011001000
+0xd2c9 // BranchE1 { cond: 2, imm: 201 } 0b1101001011001001
+0xd2ca // BranchE1 { cond: 2, imm: 202 } 0b1101001011001010
+0xd2cb // BranchE1 { cond: 2, imm: 203 } 0b1101001011001011
+0xd2cc // BranchE1 { cond: 2, imm: 204 } 0b1101001011001100
+0xd2cd // BranchE1 { cond: 2, imm: 205 } 0b1101001011001101
+0xd2ce // BranchE1 { cond: 2, imm: 206 } 0b1101001011001110
+0xd2cf // BranchE1 { cond: 2, imm: 207 } 0b1101001011001111
+0xd2d0 // BranchE1 { cond: 2, imm: 208 } 0b1101001011010000
+0xd2d1 // BranchE1 { cond: 2, imm: 209 } 0b1101001011010001
+0xd2d2 // BranchE1 { cond: 2, imm: 210 } 0b1101001011010010
+0xd2d3 // BranchE1 { cond: 2, imm: 211 } 0b1101001011010011
+0xd2d4 // BranchE1 { cond: 2, imm: 212 } 0b1101001011010100
+0xd2d5 // BranchE1 { cond: 2, imm: 213 } 0b1101001011010101
+0xd2d6 // BranchE1 { cond: 2, imm: 214 } 0b1101001011010110
+0xd2d7 // BranchE1 { cond: 2, imm: 215 } 0b1101001011010111
+0xd2d8 // BranchE1 { cond: 2, imm: 216 } 0b1101001011011000
+0xd2d9 // BranchE1 { cond: 2, imm: 217 } 0b1101001011011001
+0xd2da // BranchE1 { cond: 2, imm: 218 } 0b1101001011011010
+0xd2db // BranchE1 { cond: 2, imm: 219 } 0b1101001011011011
+0xd2dc // BranchE1 { cond: 2, imm: 220 } 0b1101001011011100
+0xd2dd // BranchE1 { cond: 2, imm: 221 } 0b1101001011011101
+0xd2de // BranchE1 { cond: 2, imm: 222 } 0b1101001011011110
+0xd2df // BranchE1 { cond: 2, imm: 223 } 0b1101001011011111
+0xd2e0 // BranchE1 { cond: 2, imm: 224 } 0b1101001011100000
+0xd2e1 // BranchE1 { cond: 2, imm: 225 } 0b1101001011100001
+0xd2e2 // BranchE1 { cond: 2, imm: 226 } 0b1101001011100010
+0xd2e3 // BranchE1 { cond: 2, imm: 227 } 0b1101001011100011
+0xd2e4 // BranchE1 { cond: 2, imm: 228 } 0b1101001011100100
+0xd2e5 // BranchE1 { cond: 2, imm: 229 } 0b1101001011100101
+0xd2e6 // BranchE1 { cond: 2, imm: 230 } 0b1101001011100110
+0xd2e7 // BranchE1 { cond: 2, imm: 231 } 0b1101001011100111
+0xd2e8 // BranchE1 { cond: 2, imm: 232 } 0b1101001011101000
+0xd2e9 // BranchE1 { cond: 2, imm: 233 } 0b1101001011101001
+0xd2ea // BranchE1 { cond: 2, imm: 234 } 0b1101001011101010
+0xd2eb // BranchE1 { cond: 2, imm: 235 } 0b1101001011101011
+0xd2ec // BranchE1 { cond: 2, imm: 236 } 0b1101001011101100
+0xd2ed // BranchE1 { cond: 2, imm: 237 } 0b1101001011101101
+0xd2ee // BranchE1 { cond: 2, imm: 238 } 0b1101001011101110
+0xd2ef // BranchE1 { cond: 2, imm: 239 } 0b1101001011101111
+0xd2f0 // BranchE1 { cond: 2, imm: 240 } 0b1101001011110000
+0xd2f1 // BranchE1 { cond: 2, imm: 241 } 0b1101001011110001
+0xd2f2 // BranchE1 { cond: 2, imm: 242 } 0b1101001011110010
+0xd2f3 // BranchE1 { cond: 2, imm: 243 } 0b1101001011110011
+0xd2f4 // BranchE1 { cond: 2, imm: 244 } 0b1101001011110100
+0xd2f5 // BranchE1 { cond: 2, imm: 245 } 0b1101001011110101
+0xd2f6 // BranchE1 { cond: 2, imm: 246 } 0b1101001011110110
+0xd2f7 // BranchE1 { cond: 2, imm: 247 } 0b1101001011110111
+0xd2f8 // BranchE1 { cond: 2, imm: 248 } 0b1101001011111000
+0xd2f9 // BranchE1 { cond: 2, imm: 249 } 0b1101001011111001
+0xd2fa // BranchE1 { cond: 2, imm: 250 } 0b1101001011111010
+0xd2fb // BranchE1 { cond: 2, imm: 251 } 0b1101001011111011
+0xd2fc // BranchE1 { cond: 2, imm: 252 } 0b1101001011111100
+0xd2fd // BranchE1 { cond: 2, imm: 253 } 0b1101001011111101
+0xd2fe // BranchE1 { cond: 2, imm: 254 } 0b1101001011111110
+0xd2ff // BranchE1 { cond: 2, imm: 255 } 0b1101001011111111
+0xd300 // BranchE1 { cond: 3, imm: 0 } 0b1101001100000000
+0xd301 // BranchE1 { cond: 3, imm: 1 } 0b1101001100000001
+0xd302 // BranchE1 { cond: 3, imm: 2 } 0b1101001100000010
+0xd303 // BranchE1 { cond: 3, imm: 3 } 0b1101001100000011
+0xd304 // BranchE1 { cond: 3, imm: 4 } 0b1101001100000100
+0xd305 // BranchE1 { cond: 3, imm: 5 } 0b1101001100000101
+0xd306 // BranchE1 { cond: 3, imm: 6 } 0b1101001100000110
+0xd307 // BranchE1 { cond: 3, imm: 7 } 0b1101001100000111
+0xd308 // BranchE1 { cond: 3, imm: 8 } 0b1101001100001000
+0xd309 // BranchE1 { cond: 3, imm: 9 } 0b1101001100001001
+0xd30a // BranchE1 { cond: 3, imm: 10 } 0b1101001100001010
+0xd30b // BranchE1 { cond: 3, imm: 11 } 0b1101001100001011
+0xd30c // BranchE1 { cond: 3, imm: 12 } 0b1101001100001100
+0xd30d // BranchE1 { cond: 3, imm: 13 } 0b1101001100001101
+0xd30e // BranchE1 { cond: 3, imm: 14 } 0b1101001100001110
+0xd30f // BranchE1 { cond: 3, imm: 15 } 0b1101001100001111
+0xd310 // BranchE1 { cond: 3, imm: 16 } 0b1101001100010000
+0xd311 // BranchE1 { cond: 3, imm: 17 } 0b1101001100010001
+0xd312 // BranchE1 { cond: 3, imm: 18 } 0b1101001100010010
+0xd313 // BranchE1 { cond: 3, imm: 19 } 0b1101001100010011
+0xd314 // BranchE1 { cond: 3, imm: 20 } 0b1101001100010100
+0xd315 // BranchE1 { cond: 3, imm: 21 } 0b1101001100010101
+0xd316 // BranchE1 { cond: 3, imm: 22 } 0b1101001100010110
+0xd317 // BranchE1 { cond: 3, imm: 23 } 0b1101001100010111
+0xd318 // BranchE1 { cond: 3, imm: 24 } 0b1101001100011000
+0xd319 // BranchE1 { cond: 3, imm: 25 } 0b1101001100011001
+0xd31a // BranchE1 { cond: 3, imm: 26 } 0b1101001100011010
+0xd31b // BranchE1 { cond: 3, imm: 27 } 0b1101001100011011
+0xd31c // BranchE1 { cond: 3, imm: 28 } 0b1101001100011100
+0xd31d // BranchE1 { cond: 3, imm: 29 } 0b1101001100011101
+0xd31e // BranchE1 { cond: 3, imm: 30 } 0b1101001100011110
+0xd31f // BranchE1 { cond: 3, imm: 31 } 0b1101001100011111
+0xd320 // BranchE1 { cond: 3, imm: 32 } 0b1101001100100000
+0xd321 // BranchE1 { cond: 3, imm: 33 } 0b1101001100100001
+0xd322 // BranchE1 { cond: 3, imm: 34 } 0b1101001100100010
+0xd323 // BranchE1 { cond: 3, imm: 35 } 0b1101001100100011
+0xd324 // BranchE1 { cond: 3, imm: 36 } 0b1101001100100100
+0xd325 // BranchE1 { cond: 3, imm: 37 } 0b1101001100100101
+0xd326 // BranchE1 { cond: 3, imm: 38 } 0b1101001100100110
+0xd327 // BranchE1 { cond: 3, imm: 39 } 0b1101001100100111
+0xd328 // BranchE1 { cond: 3, imm: 40 } 0b1101001100101000
+0xd329 // BranchE1 { cond: 3, imm: 41 } 0b1101001100101001
+0xd32a // BranchE1 { cond: 3, imm: 42 } 0b1101001100101010
+0xd32b // BranchE1 { cond: 3, imm: 43 } 0b1101001100101011
+0xd32c // BranchE1 { cond: 3, imm: 44 } 0b1101001100101100
+0xd32d // BranchE1 { cond: 3, imm: 45 } 0b1101001100101101
+0xd32e // BranchE1 { cond: 3, imm: 46 } 0b1101001100101110
+0xd32f // BranchE1 { cond: 3, imm: 47 } 0b1101001100101111
+0xd330 // BranchE1 { cond: 3, imm: 48 } 0b1101001100110000
+0xd331 // BranchE1 { cond: 3, imm: 49 } 0b1101001100110001
+0xd332 // BranchE1 { cond: 3, imm: 50 } 0b1101001100110010
+0xd333 // BranchE1 { cond: 3, imm: 51 } 0b1101001100110011
+0xd334 // BranchE1 { cond: 3, imm: 52 } 0b1101001100110100
+0xd335 // BranchE1 { cond: 3, imm: 53 } 0b1101001100110101
+0xd336 // BranchE1 { cond: 3, imm: 54 } 0b1101001100110110
+0xd337 // BranchE1 { cond: 3, imm: 55 } 0b1101001100110111
+0xd338 // BranchE1 { cond: 3, imm: 56 } 0b1101001100111000
+0xd339 // BranchE1 { cond: 3, imm: 57 } 0b1101001100111001
+0xd33a // BranchE1 { cond: 3, imm: 58 } 0b1101001100111010
+0xd33b // BranchE1 { cond: 3, imm: 59 } 0b1101001100111011
+0xd33c // BranchE1 { cond: 3, imm: 60 } 0b1101001100111100
+0xd33d // BranchE1 { cond: 3, imm: 61 } 0b1101001100111101
+0xd33e // BranchE1 { cond: 3, imm: 62 } 0b1101001100111110
+0xd33f // BranchE1 { cond: 3, imm: 63 } 0b1101001100111111
+0xd340 // BranchE1 { cond: 3, imm: 64 } 0b1101001101000000
+0xd341 // BranchE1 { cond: 3, imm: 65 } 0b1101001101000001
+0xd342 // BranchE1 { cond: 3, imm: 66 } 0b1101001101000010
+0xd343 // BranchE1 { cond: 3, imm: 67 } 0b1101001101000011
+0xd344 // BranchE1 { cond: 3, imm: 68 } 0b1101001101000100
+0xd345 // BranchE1 { cond: 3, imm: 69 } 0b1101001101000101
+0xd346 // BranchE1 { cond: 3, imm: 70 } 0b1101001101000110
+0xd347 // BranchE1 { cond: 3, imm: 71 } 0b1101001101000111
+0xd348 // BranchE1 { cond: 3, imm: 72 } 0b1101001101001000
+0xd349 // BranchE1 { cond: 3, imm: 73 } 0b1101001101001001
+0xd34a // BranchE1 { cond: 3, imm: 74 } 0b1101001101001010
+0xd34b // BranchE1 { cond: 3, imm: 75 } 0b1101001101001011
+0xd34c // BranchE1 { cond: 3, imm: 76 } 0b1101001101001100
+0xd34d // BranchE1 { cond: 3, imm: 77 } 0b1101001101001101
+0xd34e // BranchE1 { cond: 3, imm: 78 } 0b1101001101001110
+0xd34f // BranchE1 { cond: 3, imm: 79 } 0b1101001101001111
+0xd350 // BranchE1 { cond: 3, imm: 80 } 0b1101001101010000
+0xd351 // BranchE1 { cond: 3, imm: 81 } 0b1101001101010001
+0xd352 // BranchE1 { cond: 3, imm: 82 } 0b1101001101010010
+0xd353 // BranchE1 { cond: 3, imm: 83 } 0b1101001101010011
+0xd354 // BranchE1 { cond: 3, imm: 84 } 0b1101001101010100
+0xd355 // BranchE1 { cond: 3, imm: 85 } 0b1101001101010101
+0xd356 // BranchE1 { cond: 3, imm: 86 } 0b1101001101010110
+0xd357 // BranchE1 { cond: 3, imm: 87 } 0b1101001101010111
+0xd358 // BranchE1 { cond: 3, imm: 88 } 0b1101001101011000
+0xd359 // BranchE1 { cond: 3, imm: 89 } 0b1101001101011001
+0xd35a // BranchE1 { cond: 3, imm: 90 } 0b1101001101011010
+0xd35b // BranchE1 { cond: 3, imm: 91 } 0b1101001101011011
+0xd35c // BranchE1 { cond: 3, imm: 92 } 0b1101001101011100
+0xd35d // BranchE1 { cond: 3, imm: 93 } 0b1101001101011101
+0xd35e // BranchE1 { cond: 3, imm: 94 } 0b1101001101011110
+0xd35f // BranchE1 { cond: 3, imm: 95 } 0b1101001101011111
+0xd360 // BranchE1 { cond: 3, imm: 96 } 0b1101001101100000
+0xd361 // BranchE1 { cond: 3, imm: 97 } 0b1101001101100001
+0xd362 // BranchE1 { cond: 3, imm: 98 } 0b1101001101100010
+0xd363 // BranchE1 { cond: 3, imm: 99 } 0b1101001101100011
+0xd364 // BranchE1 { cond: 3, imm: 100 } 0b1101001101100100
+0xd365 // BranchE1 { cond: 3, imm: 101 } 0b1101001101100101
+0xd366 // BranchE1 { cond: 3, imm: 102 } 0b1101001101100110
+0xd367 // BranchE1 { cond: 3, imm: 103 } 0b1101001101100111
+0xd368 // BranchE1 { cond: 3, imm: 104 } 0b1101001101101000
+0xd369 // BranchE1 { cond: 3, imm: 105 } 0b1101001101101001
+0xd36a // BranchE1 { cond: 3, imm: 106 } 0b1101001101101010
+0xd36b // BranchE1 { cond: 3, imm: 107 } 0b1101001101101011
+0xd36c // BranchE1 { cond: 3, imm: 108 } 0b1101001101101100
+0xd36d // BranchE1 { cond: 3, imm: 109 } 0b1101001101101101
+0xd36e // BranchE1 { cond: 3, imm: 110 } 0b1101001101101110
+0xd36f // BranchE1 { cond: 3, imm: 111 } 0b1101001101101111
+0xd370 // BranchE1 { cond: 3, imm: 112 } 0b1101001101110000
+0xd371 // BranchE1 { cond: 3, imm: 113 } 0b1101001101110001
+0xd372 // BranchE1 { cond: 3, imm: 114 } 0b1101001101110010
+0xd373 // BranchE1 { cond: 3, imm: 115 } 0b1101001101110011
+0xd374 // BranchE1 { cond: 3, imm: 116 } 0b1101001101110100
+0xd375 // BranchE1 { cond: 3, imm: 117 } 0b1101001101110101
+0xd376 // BranchE1 { cond: 3, imm: 118 } 0b1101001101110110
+0xd377 // BranchE1 { cond: 3, imm: 119 } 0b1101001101110111
+0xd378 // BranchE1 { cond: 3, imm: 120 } 0b1101001101111000
+0xd379 // BranchE1 { cond: 3, imm: 121 } 0b1101001101111001
+0xd37a // BranchE1 { cond: 3, imm: 122 } 0b1101001101111010
+0xd37b // BranchE1 { cond: 3, imm: 123 } 0b1101001101111011
+0xd37c // BranchE1 { cond: 3, imm: 124 } 0b1101001101111100
+0xd37d // BranchE1 { cond: 3, imm: 125 } 0b1101001101111101
+0xd37e // BranchE1 { cond: 3, imm: 126 } 0b1101001101111110
+0xd37f // BranchE1 { cond: 3, imm: 127 } 0b1101001101111111
+0xd380 // BranchE1 { cond: 3, imm: 128 } 0b1101001110000000
+0xd381 // BranchE1 { cond: 3, imm: 129 } 0b1101001110000001
+0xd382 // BranchE1 { cond: 3, imm: 130 } 0b1101001110000010
+0xd383 // BranchE1 { cond: 3, imm: 131 } 0b1101001110000011
+0xd384 // BranchE1 { cond: 3, imm: 132 } 0b1101001110000100
+0xd385 // BranchE1 { cond: 3, imm: 133 } 0b1101001110000101
+0xd386 // BranchE1 { cond: 3, imm: 134 } 0b1101001110000110
+0xd387 // BranchE1 { cond: 3, imm: 135 } 0b1101001110000111
+0xd388 // BranchE1 { cond: 3, imm: 136 } 0b1101001110001000
+0xd389 // BranchE1 { cond: 3, imm: 137 } 0b1101001110001001
+0xd38a // BranchE1 { cond: 3, imm: 138 } 0b1101001110001010
+0xd38b // BranchE1 { cond: 3, imm: 139 } 0b1101001110001011
+0xd38c // BranchE1 { cond: 3, imm: 140 } 0b1101001110001100
+0xd38d // BranchE1 { cond: 3, imm: 141 } 0b1101001110001101
+0xd38e // BranchE1 { cond: 3, imm: 142 } 0b1101001110001110
+0xd38f // BranchE1 { cond: 3, imm: 143 } 0b1101001110001111
+0xd390 // BranchE1 { cond: 3, imm: 144 } 0b1101001110010000
+0xd391 // BranchE1 { cond: 3, imm: 145 } 0b1101001110010001
+0xd392 // BranchE1 { cond: 3, imm: 146 } 0b1101001110010010
+0xd393 // BranchE1 { cond: 3, imm: 147 } 0b1101001110010011
+0xd394 // BranchE1 { cond: 3, imm: 148 } 0b1101001110010100
+0xd395 // BranchE1 { cond: 3, imm: 149 } 0b1101001110010101
+0xd396 // BranchE1 { cond: 3, imm: 150 } 0b1101001110010110
+0xd397 // BranchE1 { cond: 3, imm: 151 } 0b1101001110010111
+0xd398 // BranchE1 { cond: 3, imm: 152 } 0b1101001110011000
+0xd399 // BranchE1 { cond: 3, imm: 153 } 0b1101001110011001
+0xd39a // BranchE1 { cond: 3, imm: 154 } 0b1101001110011010
+0xd39b // BranchE1 { cond: 3, imm: 155 } 0b1101001110011011
+0xd39c // BranchE1 { cond: 3, imm: 156 } 0b1101001110011100
+0xd39d // BranchE1 { cond: 3, imm: 157 } 0b1101001110011101
+0xd39e // BranchE1 { cond: 3, imm: 158 } 0b1101001110011110
+0xd39f // BranchE1 { cond: 3, imm: 159 } 0b1101001110011111
+0xd3a0 // BranchE1 { cond: 3, imm: 160 } 0b1101001110100000
+0xd3a1 // BranchE1 { cond: 3, imm: 161 } 0b1101001110100001
+0xd3a2 // BranchE1 { cond: 3, imm: 162 } 0b1101001110100010
+0xd3a3 // BranchE1 { cond: 3, imm: 163 } 0b1101001110100011
+0xd3a4 // BranchE1 { cond: 3, imm: 164 } 0b1101001110100100
+0xd3a5 // BranchE1 { cond: 3, imm: 165 } 0b1101001110100101
+0xd3a6 // BranchE1 { cond: 3, imm: 166 } 0b1101001110100110
+0xd3a7 // BranchE1 { cond: 3, imm: 167 } 0b1101001110100111
+0xd3a8 // BranchE1 { cond: 3, imm: 168 } 0b1101001110101000
+0xd3a9 // BranchE1 { cond: 3, imm: 169 } 0b1101001110101001
+0xd3aa // BranchE1 { cond: 3, imm: 170 } 0b1101001110101010
+0xd3ab // BranchE1 { cond: 3, imm: 171 } 0b1101001110101011
+0xd3ac // BranchE1 { cond: 3, imm: 172 } 0b1101001110101100
+0xd3ad // BranchE1 { cond: 3, imm: 173 } 0b1101001110101101
+0xd3ae // BranchE1 { cond: 3, imm: 174 } 0b1101001110101110
+0xd3af // BranchE1 { cond: 3, imm: 175 } 0b1101001110101111
+0xd3b0 // BranchE1 { cond: 3, imm: 176 } 0b1101001110110000
+0xd3b1 // BranchE1 { cond: 3, imm: 177 } 0b1101001110110001
+0xd3b2 // BranchE1 { cond: 3, imm: 178 } 0b1101001110110010
+0xd3b3 // BranchE1 { cond: 3, imm: 179 } 0b1101001110110011
+0xd3b4 // BranchE1 { cond: 3, imm: 180 } 0b1101001110110100
+0xd3b5 // BranchE1 { cond: 3, imm: 181 } 0b1101001110110101
+0xd3b6 // BranchE1 { cond: 3, imm: 182 } 0b1101001110110110
+0xd3b7 // BranchE1 { cond: 3, imm: 183 } 0b1101001110110111
+0xd3b8 // BranchE1 { cond: 3, imm: 184 } 0b1101001110111000
+0xd3b9 // BranchE1 { cond: 3, imm: 185 } 0b1101001110111001
+0xd3ba // BranchE1 { cond: 3, imm: 186 } 0b1101001110111010
+0xd3bb // BranchE1 { cond: 3, imm: 187 } 0b1101001110111011
+0xd3bc // BranchE1 { cond: 3, imm: 188 } 0b1101001110111100
+0xd3bd // BranchE1 { cond: 3, imm: 189 } 0b1101001110111101
+0xd3be // BranchE1 { cond: 3, imm: 190 } 0b1101001110111110
+0xd3bf // BranchE1 { cond: 3, imm: 191 } 0b1101001110111111
+0xd3c0 // BranchE1 { cond: 3, imm: 192 } 0b1101001111000000
+0xd3c1 // BranchE1 { cond: 3, imm: 193 } 0b1101001111000001
+0xd3c2 // BranchE1 { cond: 3, imm: 194 } 0b1101001111000010
+0xd3c3 // BranchE1 { cond: 3, imm: 195 } 0b1101001111000011
+0xd3c4 // BranchE1 { cond: 3, imm: 196 } 0b1101001111000100
+0xd3c5 // BranchE1 { cond: 3, imm: 197 } 0b1101001111000101
+0xd3c6 // BranchE1 { cond: 3, imm: 198 } 0b1101001111000110
+0xd3c7 // BranchE1 { cond: 3, imm: 199 } 0b1101001111000111
+0xd3c8 // BranchE1 { cond: 3, imm: 200 } 0b1101001111001000
+0xd3c9 // BranchE1 { cond: 3, imm: 201 } 0b1101001111001001
+0xd3ca // BranchE1 { cond: 3, imm: 202 } 0b1101001111001010
+0xd3cb // BranchE1 { cond: 3, imm: 203 } 0b1101001111001011
+0xd3cc // BranchE1 { cond: 3, imm: 204 } 0b1101001111001100
+0xd3cd // BranchE1 { cond: 3, imm: 205 } 0b1101001111001101
+0xd3ce // BranchE1 { cond: 3, imm: 206 } 0b1101001111001110
+0xd3cf // BranchE1 { cond: 3, imm: 207 } 0b1101001111001111
+0xd3d0 // BranchE1 { cond: 3, imm: 208 } 0b1101001111010000
+0xd3d1 // BranchE1 { cond: 3, imm: 209 } 0b1101001111010001
+0xd3d2 // BranchE1 { cond: 3, imm: 210 } 0b1101001111010010
+0xd3d3 // BranchE1 { cond: 3, imm: 211 } 0b1101001111010011
+0xd3d4 // BranchE1 { cond: 3, imm: 212 } 0b1101001111010100
+0xd3d5 // BranchE1 { cond: 3, imm: 213 } 0b1101001111010101
+0xd3d6 // BranchE1 { cond: 3, imm: 214 } 0b1101001111010110
+0xd3d7 // BranchE1 { cond: 3, imm: 215 } 0b1101001111010111
+0xd3d8 // BranchE1 { cond: 3, imm: 216 } 0b1101001111011000
+0xd3d9 // BranchE1 { cond: 3, imm: 217 } 0b1101001111011001
+0xd3da // BranchE1 { cond: 3, imm: 218 } 0b1101001111011010
+0xd3db // BranchE1 { cond: 3, imm: 219 } 0b1101001111011011
+0xd3dc // BranchE1 { cond: 3, imm: 220 } 0b1101001111011100
+0xd3dd // BranchE1 { cond: 3, imm: 221 } 0b1101001111011101
+0xd3de // BranchE1 { cond: 3, imm: 222 } 0b1101001111011110
+0xd3df // BranchE1 { cond: 3, imm: 223 } 0b1101001111011111
+0xd3e0 // BranchE1 { cond: 3, imm: 224 } 0b1101001111100000
+0xd3e1 // BranchE1 { cond: 3, imm: 225 } 0b1101001111100001
+0xd3e2 // BranchE1 { cond: 3, imm: 226 } 0b1101001111100010
+0xd3e3 // BranchE1 { cond: 3, imm: 227 } 0b1101001111100011
+0xd3e4 // BranchE1 { cond: 3, imm: 228 } 0b1101001111100100
+0xd3e5 // BranchE1 { cond: 3, imm: 229 } 0b1101001111100101
+0xd3e6 // BranchE1 { cond: 3, imm: 230 } 0b1101001111100110
+0xd3e7 // BranchE1 { cond: 3, imm: 231 } 0b1101001111100111
+0xd3e8 // BranchE1 { cond: 3, imm: 232 } 0b1101001111101000
+0xd3e9 // BranchE1 { cond: 3, imm: 233 } 0b1101001111101001
+0xd3ea // BranchE1 { cond: 3, imm: 234 } 0b1101001111101010
+0xd3eb // BranchE1 { cond: 3, imm: 235 } 0b1101001111101011
+0xd3ec // BranchE1 { cond: 3, imm: 236 } 0b1101001111101100
+0xd3ed // BranchE1 { cond: 3, imm: 237 } 0b1101001111101101
+0xd3ee // BranchE1 { cond: 3, imm: 238 } 0b1101001111101110
+0xd3ef // BranchE1 { cond: 3, imm: 239 } 0b1101001111101111
+0xd3f0 // BranchE1 { cond: 3, imm: 240 } 0b1101001111110000
+0xd3f1 // BranchE1 { cond: 3, imm: 241 } 0b1101001111110001
+0xd3f2 // BranchE1 { cond: 3, imm: 242 } 0b1101001111110010
+0xd3f3 // BranchE1 { cond: 3, imm: 243 } 0b1101001111110011
+0xd3f4 // BranchE1 { cond: 3, imm: 244 } 0b1101001111110100
+0xd3f5 // BranchE1 { cond: 3, imm: 245 } 0b1101001111110101
+0xd3f6 // BranchE1 { cond: 3, imm: 246 } 0b1101001111110110
+0xd3f7 // BranchE1 { cond: 3, imm: 247 } 0b1101001111110111
+0xd3f8 // BranchE1 { cond: 3, imm: 248 } 0b1101001111111000
+0xd3f9 // BranchE1 { cond: 3, imm: 249 } 0b1101001111111001
+0xd3fa // BranchE1 { cond: 3, imm: 250 } 0b1101001111111010
+0xd3fb // BranchE1 { cond: 3, imm: 251 } 0b1101001111111011
+0xd3fc // BranchE1 { cond: 3, imm: 252 } 0b1101001111111100
+0xd3fd // BranchE1 { cond: 3, imm: 253 } 0b1101001111111101
+0xd3fe // BranchE1 { cond: 3, imm: 254 } 0b1101001111111110
+0xd3ff // BranchE1 { cond: 3, imm: 255 } 0b1101001111111111
+0xd400 // BranchE1 { cond: 4, imm: 0 } 0b1101010000000000
+0xd401 // BranchE1 { cond: 4, imm: 1 } 0b1101010000000001
+0xd402 // BranchE1 { cond: 4, imm: 2 } 0b1101010000000010
+0xd403 // BranchE1 { cond: 4, imm: 3 } 0b1101010000000011
+0xd404 // BranchE1 { cond: 4, imm: 4 } 0b1101010000000100
+0xd405 // BranchE1 { cond: 4, imm: 5 } 0b1101010000000101
+0xd406 // BranchE1 { cond: 4, imm: 6 } 0b1101010000000110
+0xd407 // BranchE1 { cond: 4, imm: 7 } 0b1101010000000111
+0xd408 // BranchE1 { cond: 4, imm: 8 } 0b1101010000001000
+0xd409 // BranchE1 { cond: 4, imm: 9 } 0b1101010000001001
+0xd40a // BranchE1 { cond: 4, imm: 10 } 0b1101010000001010
+0xd40b // BranchE1 { cond: 4, imm: 11 } 0b1101010000001011
+0xd40c // BranchE1 { cond: 4, imm: 12 } 0b1101010000001100
+0xd40d // BranchE1 { cond: 4, imm: 13 } 0b1101010000001101
+0xd40e // BranchE1 { cond: 4, imm: 14 } 0b1101010000001110
+0xd40f // BranchE1 { cond: 4, imm: 15 } 0b1101010000001111
+0xd410 // BranchE1 { cond: 4, imm: 16 } 0b1101010000010000
+0xd411 // BranchE1 { cond: 4, imm: 17 } 0b1101010000010001
+0xd412 // BranchE1 { cond: 4, imm: 18 } 0b1101010000010010
+0xd413 // BranchE1 { cond: 4, imm: 19 } 0b1101010000010011
+0xd414 // BranchE1 { cond: 4, imm: 20 } 0b1101010000010100
+0xd415 // BranchE1 { cond: 4, imm: 21 } 0b1101010000010101
+0xd416 // BranchE1 { cond: 4, imm: 22 } 0b1101010000010110
+0xd417 // BranchE1 { cond: 4, imm: 23 } 0b1101010000010111
+0xd418 // BranchE1 { cond: 4, imm: 24 } 0b1101010000011000
+0xd419 // BranchE1 { cond: 4, imm: 25 } 0b1101010000011001
+0xd41a // BranchE1 { cond: 4, imm: 26 } 0b1101010000011010
+0xd41b // BranchE1 { cond: 4, imm: 27 } 0b1101010000011011
+0xd41c // BranchE1 { cond: 4, imm: 28 } 0b1101010000011100
+0xd41d // BranchE1 { cond: 4, imm: 29 } 0b1101010000011101
+0xd41e // BranchE1 { cond: 4, imm: 30 } 0b1101010000011110
+0xd41f // BranchE1 { cond: 4, imm: 31 } 0b1101010000011111
+0xd420 // BranchE1 { cond: 4, imm: 32 } 0b1101010000100000
+0xd421 // BranchE1 { cond: 4, imm: 33 } 0b1101010000100001
+0xd422 // BranchE1 { cond: 4, imm: 34 } 0b1101010000100010
+0xd423 // BranchE1 { cond: 4, imm: 35 } 0b1101010000100011
+0xd424 // BranchE1 { cond: 4, imm: 36 } 0b1101010000100100
+0xd425 // BranchE1 { cond: 4, imm: 37 } 0b1101010000100101
+0xd426 // BranchE1 { cond: 4, imm: 38 } 0b1101010000100110
+0xd427 // BranchE1 { cond: 4, imm: 39 } 0b1101010000100111
+0xd428 // BranchE1 { cond: 4, imm: 40 } 0b1101010000101000
+0xd429 // BranchE1 { cond: 4, imm: 41 } 0b1101010000101001
+0xd42a // BranchE1 { cond: 4, imm: 42 } 0b1101010000101010
+0xd42b // BranchE1 { cond: 4, imm: 43 } 0b1101010000101011
+0xd42c // BranchE1 { cond: 4, imm: 44 } 0b1101010000101100
+0xd42d // BranchE1 { cond: 4, imm: 45 } 0b1101010000101101
+0xd42e // BranchE1 { cond: 4, imm: 46 } 0b1101010000101110
+0xd42f // BranchE1 { cond: 4, imm: 47 } 0b1101010000101111
+0xd430 // BranchE1 { cond: 4, imm: 48 } 0b1101010000110000
+0xd431 // BranchE1 { cond: 4, imm: 49 } 0b1101010000110001
+0xd432 // BranchE1 { cond: 4, imm: 50 } 0b1101010000110010
+0xd433 // BranchE1 { cond: 4, imm: 51 } 0b1101010000110011
+0xd434 // BranchE1 { cond: 4, imm: 52 } 0b1101010000110100
+0xd435 // BranchE1 { cond: 4, imm: 53 } 0b1101010000110101
+0xd436 // BranchE1 { cond: 4, imm: 54 } 0b1101010000110110
+0xd437 // BranchE1 { cond: 4, imm: 55 } 0b1101010000110111
+0xd438 // BranchE1 { cond: 4, imm: 56 } 0b1101010000111000
+0xd439 // BranchE1 { cond: 4, imm: 57 } 0b1101010000111001
+0xd43a // BranchE1 { cond: 4, imm: 58 } 0b1101010000111010
+0xd43b // BranchE1 { cond: 4, imm: 59 } 0b1101010000111011
+0xd43c // BranchE1 { cond: 4, imm: 60 } 0b1101010000111100
+0xd43d // BranchE1 { cond: 4, imm: 61 } 0b1101010000111101
+0xd43e // BranchE1 { cond: 4, imm: 62 } 0b1101010000111110
+0xd43f // BranchE1 { cond: 4, imm: 63 } 0b1101010000111111
+0xd440 // BranchE1 { cond: 4, imm: 64 } 0b1101010001000000
+0xd441 // BranchE1 { cond: 4, imm: 65 } 0b1101010001000001
+0xd442 // BranchE1 { cond: 4, imm: 66 } 0b1101010001000010
+0xd443 // BranchE1 { cond: 4, imm: 67 } 0b1101010001000011
+0xd444 // BranchE1 { cond: 4, imm: 68 } 0b1101010001000100
+0xd445 // BranchE1 { cond: 4, imm: 69 } 0b1101010001000101
+0xd446 // BranchE1 { cond: 4, imm: 70 } 0b1101010001000110
+0xd447 // BranchE1 { cond: 4, imm: 71 } 0b1101010001000111
+0xd448 // BranchE1 { cond: 4, imm: 72 } 0b1101010001001000
+0xd449 // BranchE1 { cond: 4, imm: 73 } 0b1101010001001001
+0xd44a // BranchE1 { cond: 4, imm: 74 } 0b1101010001001010
+0xd44b // BranchE1 { cond: 4, imm: 75 } 0b1101010001001011
+0xd44c // BranchE1 { cond: 4, imm: 76 } 0b1101010001001100
+0xd44d // BranchE1 { cond: 4, imm: 77 } 0b1101010001001101
+0xd44e // BranchE1 { cond: 4, imm: 78 } 0b1101010001001110
+0xd44f // BranchE1 { cond: 4, imm: 79 } 0b1101010001001111
+0xd450 // BranchE1 { cond: 4, imm: 80 } 0b1101010001010000
+0xd451 // BranchE1 { cond: 4, imm: 81 } 0b1101010001010001
+0xd452 // BranchE1 { cond: 4, imm: 82 } 0b1101010001010010
+0xd453 // BranchE1 { cond: 4, imm: 83 } 0b1101010001010011
+0xd454 // BranchE1 { cond: 4, imm: 84 } 0b1101010001010100
+0xd455 // BranchE1 { cond: 4, imm: 85 } 0b1101010001010101
+0xd456 // BranchE1 { cond: 4, imm: 86 } 0b1101010001010110
+0xd457 // BranchE1 { cond: 4, imm: 87 } 0b1101010001010111
+0xd458 // BranchE1 { cond: 4, imm: 88 } 0b1101010001011000
+0xd459 // BranchE1 { cond: 4, imm: 89 } 0b1101010001011001
+0xd45a // BranchE1 { cond: 4, imm: 90 } 0b1101010001011010
+0xd45b // BranchE1 { cond: 4, imm: 91 } 0b1101010001011011
+0xd45c // BranchE1 { cond: 4, imm: 92 } 0b1101010001011100
+0xd45d // BranchE1 { cond: 4, imm: 93 } 0b1101010001011101
+0xd45e // BranchE1 { cond: 4, imm: 94 } 0b1101010001011110
+0xd45f // BranchE1 { cond: 4, imm: 95 } 0b1101010001011111
+0xd460 // BranchE1 { cond: 4, imm: 96 } 0b1101010001100000
+0xd461 // BranchE1 { cond: 4, imm: 97 } 0b1101010001100001
+0xd462 // BranchE1 { cond: 4, imm: 98 } 0b1101010001100010
+0xd463 // BranchE1 { cond: 4, imm: 99 } 0b1101010001100011
+0xd464 // BranchE1 { cond: 4, imm: 100 } 0b1101010001100100
+0xd465 // BranchE1 { cond: 4, imm: 101 } 0b1101010001100101
+0xd466 // BranchE1 { cond: 4, imm: 102 } 0b1101010001100110
+0xd467 // BranchE1 { cond: 4, imm: 103 } 0b1101010001100111
+0xd468 // BranchE1 { cond: 4, imm: 104 } 0b1101010001101000
+0xd469 // BranchE1 { cond: 4, imm: 105 } 0b1101010001101001
+0xd46a // BranchE1 { cond: 4, imm: 106 } 0b1101010001101010
+0xd46b // BranchE1 { cond: 4, imm: 107 } 0b1101010001101011
+0xd46c // BranchE1 { cond: 4, imm: 108 } 0b1101010001101100
+0xd46d // BranchE1 { cond: 4, imm: 109 } 0b1101010001101101
+0xd46e // BranchE1 { cond: 4, imm: 110 } 0b1101010001101110
+0xd46f // BranchE1 { cond: 4, imm: 111 } 0b1101010001101111
+0xd470 // BranchE1 { cond: 4, imm: 112 } 0b1101010001110000
+0xd471 // BranchE1 { cond: 4, imm: 113 } 0b1101010001110001
+0xd472 // BranchE1 { cond: 4, imm: 114 } 0b1101010001110010
+0xd473 // BranchE1 { cond: 4, imm: 115 } 0b1101010001110011
+0xd474 // BranchE1 { cond: 4, imm: 116 } 0b1101010001110100
+0xd475 // BranchE1 { cond: 4, imm: 117 } 0b1101010001110101
+0xd476 // BranchE1 { cond: 4, imm: 118 } 0b1101010001110110
+0xd477 // BranchE1 { cond: 4, imm: 119 } 0b1101010001110111
+0xd478 // BranchE1 { cond: 4, imm: 120 } 0b1101010001111000
+0xd479 // BranchE1 { cond: 4, imm: 121 } 0b1101010001111001
+0xd47a // BranchE1 { cond: 4, imm: 122 } 0b1101010001111010
+0xd47b // BranchE1 { cond: 4, imm: 123 } 0b1101010001111011
+0xd47c // BranchE1 { cond: 4, imm: 124 } 0b1101010001111100
+0xd47d // BranchE1 { cond: 4, imm: 125 } 0b1101010001111101
+0xd47e // BranchE1 { cond: 4, imm: 126 } 0b1101010001111110
+0xd47f // BranchE1 { cond: 4, imm: 127 } 0b1101010001111111
+0xd480 // BranchE1 { cond: 4, imm: 128 } 0b1101010010000000
+0xd481 // BranchE1 { cond: 4, imm: 129 } 0b1101010010000001
+0xd482 // BranchE1 { cond: 4, imm: 130 } 0b1101010010000010
+0xd483 // BranchE1 { cond: 4, imm: 131 } 0b1101010010000011
+0xd484 // BranchE1 { cond: 4, imm: 132 } 0b1101010010000100
+0xd485 // BranchE1 { cond: 4, imm: 133 } 0b1101010010000101
+0xd486 // BranchE1 { cond: 4, imm: 134 } 0b1101010010000110
+0xd487 // BranchE1 { cond: 4, imm: 135 } 0b1101010010000111
+0xd488 // BranchE1 { cond: 4, imm: 136 } 0b1101010010001000
+0xd489 // BranchE1 { cond: 4, imm: 137 } 0b1101010010001001
+0xd48a // BranchE1 { cond: 4, imm: 138 } 0b1101010010001010
+0xd48b // BranchE1 { cond: 4, imm: 139 } 0b1101010010001011
+0xd48c // BranchE1 { cond: 4, imm: 140 } 0b1101010010001100
+0xd48d // BranchE1 { cond: 4, imm: 141 } 0b1101010010001101
+0xd48e // BranchE1 { cond: 4, imm: 142 } 0b1101010010001110
+0xd48f // BranchE1 { cond: 4, imm: 143 } 0b1101010010001111
+0xd490 // BranchE1 { cond: 4, imm: 144 } 0b1101010010010000
+0xd491 // BranchE1 { cond: 4, imm: 145 } 0b1101010010010001
+0xd492 // BranchE1 { cond: 4, imm: 146 } 0b1101010010010010
+0xd493 // BranchE1 { cond: 4, imm: 147 } 0b1101010010010011
+0xd494 // BranchE1 { cond: 4, imm: 148 } 0b1101010010010100
+0xd495 // BranchE1 { cond: 4, imm: 149 } 0b1101010010010101
+0xd496 // BranchE1 { cond: 4, imm: 150 } 0b1101010010010110
+0xd497 // BranchE1 { cond: 4, imm: 151 } 0b1101010010010111
+0xd498 // BranchE1 { cond: 4, imm: 152 } 0b1101010010011000
+0xd499 // BranchE1 { cond: 4, imm: 153 } 0b1101010010011001
+0xd49a // BranchE1 { cond: 4, imm: 154 } 0b1101010010011010
+0xd49b // BranchE1 { cond: 4, imm: 155 } 0b1101010010011011
+0xd49c // BranchE1 { cond: 4, imm: 156 } 0b1101010010011100
+0xd49d // BranchE1 { cond: 4, imm: 157 } 0b1101010010011101
+0xd49e // BranchE1 { cond: 4, imm: 158 } 0b1101010010011110
+0xd49f // BranchE1 { cond: 4, imm: 159 } 0b1101010010011111
+0xd4a0 // BranchE1 { cond: 4, imm: 160 } 0b1101010010100000
+0xd4a1 // BranchE1 { cond: 4, imm: 161 } 0b1101010010100001
+0xd4a2 // BranchE1 { cond: 4, imm: 162 } 0b1101010010100010
+0xd4a3 // BranchE1 { cond: 4, imm: 163 } 0b1101010010100011
+0xd4a4 // BranchE1 { cond: 4, imm: 164 } 0b1101010010100100
+0xd4a5 // BranchE1 { cond: 4, imm: 165 } 0b1101010010100101
+0xd4a6 // BranchE1 { cond: 4, imm: 166 } 0b1101010010100110
+0xd4a7 // BranchE1 { cond: 4, imm: 167 } 0b1101010010100111
+0xd4a8 // BranchE1 { cond: 4, imm: 168 } 0b1101010010101000
+0xd4a9 // BranchE1 { cond: 4, imm: 169 } 0b1101010010101001
+0xd4aa // BranchE1 { cond: 4, imm: 170 } 0b1101010010101010
+0xd4ab // BranchE1 { cond: 4, imm: 171 } 0b1101010010101011
+0xd4ac // BranchE1 { cond: 4, imm: 172 } 0b1101010010101100
+0xd4ad // BranchE1 { cond: 4, imm: 173 } 0b1101010010101101
+0xd4ae // BranchE1 { cond: 4, imm: 174 } 0b1101010010101110
+0xd4af // BranchE1 { cond: 4, imm: 175 } 0b1101010010101111
+0xd4b0 // BranchE1 { cond: 4, imm: 176 } 0b1101010010110000
+0xd4b1 // BranchE1 { cond: 4, imm: 177 } 0b1101010010110001
+0xd4b2 // BranchE1 { cond: 4, imm: 178 } 0b1101010010110010
+0xd4b3 // BranchE1 { cond: 4, imm: 179 } 0b1101010010110011
+0xd4b4 // BranchE1 { cond: 4, imm: 180 } 0b1101010010110100
+0xd4b5 // BranchE1 { cond: 4, imm: 181 } 0b1101010010110101
+0xd4b6 // BranchE1 { cond: 4, imm: 182 } 0b1101010010110110
+0xd4b7 // BranchE1 { cond: 4, imm: 183 } 0b1101010010110111
+0xd4b8 // BranchE1 { cond: 4, imm: 184 } 0b1101010010111000
+0xd4b9 // BranchE1 { cond: 4, imm: 185 } 0b1101010010111001
+0xd4ba // BranchE1 { cond: 4, imm: 186 } 0b1101010010111010
+0xd4bb // BranchE1 { cond: 4, imm: 187 } 0b1101010010111011
+0xd4bc // BranchE1 { cond: 4, imm: 188 } 0b1101010010111100
+0xd4bd // BranchE1 { cond: 4, imm: 189 } 0b1101010010111101
+0xd4be // BranchE1 { cond: 4, imm: 190 } 0b1101010010111110
+0xd4bf // BranchE1 { cond: 4, imm: 191 } 0b1101010010111111
+0xd4c0 // BranchE1 { cond: 4, imm: 192 } 0b1101010011000000
+0xd4c1 // BranchE1 { cond: 4, imm: 193 } 0b1101010011000001
+0xd4c2 // BranchE1 { cond: 4, imm: 194 } 0b1101010011000010
+0xd4c3 // BranchE1 { cond: 4, imm: 195 } 0b1101010011000011
+0xd4c4 // BranchE1 { cond: 4, imm: 196 } 0b1101010011000100
+0xd4c5 // BranchE1 { cond: 4, imm: 197 } 0b1101010011000101
+0xd4c6 // BranchE1 { cond: 4, imm: 198 } 0b1101010011000110
+0xd4c7 // BranchE1 { cond: 4, imm: 199 } 0b1101010011000111
+0xd4c8 // BranchE1 { cond: 4, imm: 200 } 0b1101010011001000
+0xd4c9 // BranchE1 { cond: 4, imm: 201 } 0b1101010011001001
+0xd4ca // BranchE1 { cond: 4, imm: 202 } 0b1101010011001010
+0xd4cb // BranchE1 { cond: 4, imm: 203 } 0b1101010011001011
+0xd4cc // BranchE1 { cond: 4, imm: 204 } 0b1101010011001100
+0xd4cd // BranchE1 { cond: 4, imm: 205 } 0b1101010011001101
+0xd4ce // BranchE1 { cond: 4, imm: 206 } 0b1101010011001110
+0xd4cf // BranchE1 { cond: 4, imm: 207 } 0b1101010011001111
+0xd4d0 // BranchE1 { cond: 4, imm: 208 } 0b1101010011010000
+0xd4d1 // BranchE1 { cond: 4, imm: 209 } 0b1101010011010001
+0xd4d2 // BranchE1 { cond: 4, imm: 210 } 0b1101010011010010
+0xd4d3 // BranchE1 { cond: 4, imm: 211 } 0b1101010011010011
+0xd4d4 // BranchE1 { cond: 4, imm: 212 } 0b1101010011010100
+0xd4d5 // BranchE1 { cond: 4, imm: 213 } 0b1101010011010101
+0xd4d6 // BranchE1 { cond: 4, imm: 214 } 0b1101010011010110
+0xd4d7 // BranchE1 { cond: 4, imm: 215 } 0b1101010011010111
+0xd4d8 // BranchE1 { cond: 4, imm: 216 } 0b1101010011011000
+0xd4d9 // BranchE1 { cond: 4, imm: 217 } 0b1101010011011001
+0xd4da // BranchE1 { cond: 4, imm: 218 } 0b1101010011011010
+0xd4db // BranchE1 { cond: 4, imm: 219 } 0b1101010011011011
+0xd4dc // BranchE1 { cond: 4, imm: 220 } 0b1101010011011100
+0xd4dd // BranchE1 { cond: 4, imm: 221 } 0b1101010011011101
+0xd4de // BranchE1 { cond: 4, imm: 222 } 0b1101010011011110
+0xd4df // BranchE1 { cond: 4, imm: 223 } 0b1101010011011111
+0xd4e0 // BranchE1 { cond: 4, imm: 224 } 0b1101010011100000
+0xd4e1 // BranchE1 { cond: 4, imm: 225 } 0b1101010011100001
+0xd4e2 // BranchE1 { cond: 4, imm: 226 } 0b1101010011100010
+0xd4e3 // BranchE1 { cond: 4, imm: 227 } 0b1101010011100011
+0xd4e4 // BranchE1 { cond: 4, imm: 228 } 0b1101010011100100
+0xd4e5 // BranchE1 { cond: 4, imm: 229 } 0b1101010011100101
+0xd4e6 // BranchE1 { cond: 4, imm: 230 } 0b1101010011100110
+0xd4e7 // BranchE1 { cond: 4, imm: 231 } 0b1101010011100111
+0xd4e8 // BranchE1 { cond: 4, imm: 232 } 0b1101010011101000
+0xd4e9 // BranchE1 { cond: 4, imm: 233 } 0b1101010011101001
+0xd4ea // BranchE1 { cond: 4, imm: 234 } 0b1101010011101010
+0xd4eb // BranchE1 { cond: 4, imm: 235 } 0b1101010011101011
+0xd4ec // BranchE1 { cond: 4, imm: 236 } 0b1101010011101100
+0xd4ed // BranchE1 { cond: 4, imm: 237 } 0b1101010011101101
+0xd4ee // BranchE1 { cond: 4, imm: 238 } 0b1101010011101110
+0xd4ef // BranchE1 { cond: 4, imm: 239 } 0b1101010011101111
+0xd4f0 // BranchE1 { cond: 4, imm: 240 } 0b1101010011110000
+0xd4f1 // BranchE1 { cond: 4, imm: 241 } 0b1101010011110001
+0xd4f2 // BranchE1 { cond: 4, imm: 242 } 0b1101010011110010
+0xd4f3 // BranchE1 { cond: 4, imm: 243 } 0b1101010011110011
+0xd4f4 // BranchE1 { cond: 4, imm: 244 } 0b1101010011110100
+0xd4f5 // BranchE1 { cond: 4, imm: 245 } 0b1101010011110101
+0xd4f6 // BranchE1 { cond: 4, imm: 246 } 0b1101010011110110
+0xd4f7 // BranchE1 { cond: 4, imm: 247 } 0b1101010011110111
+0xd4f8 // BranchE1 { cond: 4, imm: 248 } 0b1101010011111000
+0xd4f9 // BranchE1 { cond: 4, imm: 249 } 0b1101010011111001
+0xd4fa // BranchE1 { cond: 4, imm: 250 } 0b1101010011111010
+0xd4fb // BranchE1 { cond: 4, imm: 251 } 0b1101010011111011
+0xd4fc // BranchE1 { cond: 4, imm: 252 } 0b1101010011111100
+0xd4fd // BranchE1 { cond: 4, imm: 253 } 0b1101010011111101
+0xd4fe // BranchE1 { cond: 4, imm: 254 } 0b1101010011111110
+0xd4ff // BranchE1 { cond: 4, imm: 255 } 0b1101010011111111
+0xd500 // BranchE1 { cond: 5, imm: 0 } 0b1101010100000000
+0xd501 // BranchE1 { cond: 5, imm: 1 } 0b1101010100000001
+0xd502 // BranchE1 { cond: 5, imm: 2 } 0b1101010100000010
+0xd503 // BranchE1 { cond: 5, imm: 3 } 0b1101010100000011
+0xd504 // BranchE1 { cond: 5, imm: 4 } 0b1101010100000100
+0xd505 // BranchE1 { cond: 5, imm: 5 } 0b1101010100000101
+0xd506 // BranchE1 { cond: 5, imm: 6 } 0b1101010100000110
+0xd507 // BranchE1 { cond: 5, imm: 7 } 0b1101010100000111
+0xd508 // BranchE1 { cond: 5, imm: 8 } 0b1101010100001000
+0xd509 // BranchE1 { cond: 5, imm: 9 } 0b1101010100001001
+0xd50a // BranchE1 { cond: 5, imm: 10 } 0b1101010100001010
+0xd50b // BranchE1 { cond: 5, imm: 11 } 0b1101010100001011
+0xd50c // BranchE1 { cond: 5, imm: 12 } 0b1101010100001100
+0xd50d // BranchE1 { cond: 5, imm: 13 } 0b1101010100001101
+0xd50e // BranchE1 { cond: 5, imm: 14 } 0b1101010100001110
+0xd50f // BranchE1 { cond: 5, imm: 15 } 0b1101010100001111
+0xd510 // BranchE1 { cond: 5, imm: 16 } 0b1101010100010000
+0xd511 // BranchE1 { cond: 5, imm: 17 } 0b1101010100010001
+0xd512 // BranchE1 { cond: 5, imm: 18 } 0b1101010100010010
+0xd513 // BranchE1 { cond: 5, imm: 19 } 0b1101010100010011
+0xd514 // BranchE1 { cond: 5, imm: 20 } 0b1101010100010100
+0xd515 // BranchE1 { cond: 5, imm: 21 } 0b1101010100010101
+0xd516 // BranchE1 { cond: 5, imm: 22 } 0b1101010100010110
+0xd517 // BranchE1 { cond: 5, imm: 23 } 0b1101010100010111
+0xd518 // BranchE1 { cond: 5, imm: 24 } 0b1101010100011000
+0xd519 // BranchE1 { cond: 5, imm: 25 } 0b1101010100011001
+0xd51a // BranchE1 { cond: 5, imm: 26 } 0b1101010100011010
+0xd51b // BranchE1 { cond: 5, imm: 27 } 0b1101010100011011
+0xd51c // BranchE1 { cond: 5, imm: 28 } 0b1101010100011100
+0xd51d // BranchE1 { cond: 5, imm: 29 } 0b1101010100011101
+0xd51e // BranchE1 { cond: 5, imm: 30 } 0b1101010100011110
+0xd51f // BranchE1 { cond: 5, imm: 31 } 0b1101010100011111
+0xd520 // BranchE1 { cond: 5, imm: 32 } 0b1101010100100000
+0xd521 // BranchE1 { cond: 5, imm: 33 } 0b1101010100100001
+0xd522 // BranchE1 { cond: 5, imm: 34 } 0b1101010100100010
+0xd523 // BranchE1 { cond: 5, imm: 35 } 0b1101010100100011
+0xd524 // BranchE1 { cond: 5, imm: 36 } 0b1101010100100100
+0xd525 // BranchE1 { cond: 5, imm: 37 } 0b1101010100100101
+0xd526 // BranchE1 { cond: 5, imm: 38 } 0b1101010100100110
+0xd527 // BranchE1 { cond: 5, imm: 39 } 0b1101010100100111
+0xd528 // BranchE1 { cond: 5, imm: 40 } 0b1101010100101000
+0xd529 // BranchE1 { cond: 5, imm: 41 } 0b1101010100101001
+0xd52a // BranchE1 { cond: 5, imm: 42 } 0b1101010100101010
+0xd52b // BranchE1 { cond: 5, imm: 43 } 0b1101010100101011
+0xd52c // BranchE1 { cond: 5, imm: 44 } 0b1101010100101100
+0xd52d // BranchE1 { cond: 5, imm: 45 } 0b1101010100101101
+0xd52e // BranchE1 { cond: 5, imm: 46 } 0b1101010100101110
+0xd52f // BranchE1 { cond: 5, imm: 47 } 0b1101010100101111
+0xd530 // BranchE1 { cond: 5, imm: 48 } 0b1101010100110000
+0xd531 // BranchE1 { cond: 5, imm: 49 } 0b1101010100110001
+0xd532 // BranchE1 { cond: 5, imm: 50 } 0b1101010100110010
+0xd533 // BranchE1 { cond: 5, imm: 51 } 0b1101010100110011
+0xd534 // BranchE1 { cond: 5, imm: 52 } 0b1101010100110100
+0xd535 // BranchE1 { cond: 5, imm: 53 } 0b1101010100110101
+0xd536 // BranchE1 { cond: 5, imm: 54 } 0b1101010100110110
+0xd537 // BranchE1 { cond: 5, imm: 55 } 0b1101010100110111
+0xd538 // BranchE1 { cond: 5, imm: 56 } 0b1101010100111000
+0xd539 // BranchE1 { cond: 5, imm: 57 } 0b1101010100111001
+0xd53a // BranchE1 { cond: 5, imm: 58 } 0b1101010100111010
+0xd53b // BranchE1 { cond: 5, imm: 59 } 0b1101010100111011
+0xd53c // BranchE1 { cond: 5, imm: 60 } 0b1101010100111100
+0xd53d // BranchE1 { cond: 5, imm: 61 } 0b1101010100111101
+0xd53e // BranchE1 { cond: 5, imm: 62 } 0b1101010100111110
+0xd53f // BranchE1 { cond: 5, imm: 63 } 0b1101010100111111
+0xd540 // BranchE1 { cond: 5, imm: 64 } 0b1101010101000000
+0xd541 // BranchE1 { cond: 5, imm: 65 } 0b1101010101000001
+0xd542 // BranchE1 { cond: 5, imm: 66 } 0b1101010101000010
+0xd543 // BranchE1 { cond: 5, imm: 67 } 0b1101010101000011
+0xd544 // BranchE1 { cond: 5, imm: 68 } 0b1101010101000100
+0xd545 // BranchE1 { cond: 5, imm: 69 } 0b1101010101000101
+0xd546 // BranchE1 { cond: 5, imm: 70 } 0b1101010101000110
+0xd547 // BranchE1 { cond: 5, imm: 71 } 0b1101010101000111
+0xd548 // BranchE1 { cond: 5, imm: 72 } 0b1101010101001000
+0xd549 // BranchE1 { cond: 5, imm: 73 } 0b1101010101001001
+0xd54a // BranchE1 { cond: 5, imm: 74 } 0b1101010101001010
+0xd54b // BranchE1 { cond: 5, imm: 75 } 0b1101010101001011
+0xd54c // BranchE1 { cond: 5, imm: 76 } 0b1101010101001100
+0xd54d // BranchE1 { cond: 5, imm: 77 } 0b1101010101001101
+0xd54e // BranchE1 { cond: 5, imm: 78 } 0b1101010101001110
+0xd54f // BranchE1 { cond: 5, imm: 79 } 0b1101010101001111
+0xd550 // BranchE1 { cond: 5, imm: 80 } 0b1101010101010000
+0xd551 // BranchE1 { cond: 5, imm: 81 } 0b1101010101010001
+0xd552 // BranchE1 { cond: 5, imm: 82 } 0b1101010101010010
+0xd553 // BranchE1 { cond: 5, imm: 83 } 0b1101010101010011
+0xd554 // BranchE1 { cond: 5, imm: 84 } 0b1101010101010100
+0xd555 // BranchE1 { cond: 5, imm: 85 } 0b1101010101010101
+0xd556 // BranchE1 { cond: 5, imm: 86 } 0b1101010101010110
+0xd557 // BranchE1 { cond: 5, imm: 87 } 0b1101010101010111
+0xd558 // BranchE1 { cond: 5, imm: 88 } 0b1101010101011000
+0xd559 // BranchE1 { cond: 5, imm: 89 } 0b1101010101011001
+0xd55a // BranchE1 { cond: 5, imm: 90 } 0b1101010101011010
+0xd55b // BranchE1 { cond: 5, imm: 91 } 0b1101010101011011
+0xd55c // BranchE1 { cond: 5, imm: 92 } 0b1101010101011100
+0xd55d // BranchE1 { cond: 5, imm: 93 } 0b1101010101011101
+0xd55e // BranchE1 { cond: 5, imm: 94 } 0b1101010101011110
+0xd55f // BranchE1 { cond: 5, imm: 95 } 0b1101010101011111
+0xd560 // BranchE1 { cond: 5, imm: 96 } 0b1101010101100000
+0xd561 // BranchE1 { cond: 5, imm: 97 } 0b1101010101100001
+0xd562 // BranchE1 { cond: 5, imm: 98 } 0b1101010101100010
+0xd563 // BranchE1 { cond: 5, imm: 99 } 0b1101010101100011
+0xd564 // BranchE1 { cond: 5, imm: 100 } 0b1101010101100100
+0xd565 // BranchE1 { cond: 5, imm: 101 } 0b1101010101100101
+0xd566 // BranchE1 { cond: 5, imm: 102 } 0b1101010101100110
+0xd567 // BranchE1 { cond: 5, imm: 103 } 0b1101010101100111
+0xd568 // BranchE1 { cond: 5, imm: 104 } 0b1101010101101000
+0xd569 // BranchE1 { cond: 5, imm: 105 } 0b1101010101101001
+0xd56a // BranchE1 { cond: 5, imm: 106 } 0b1101010101101010
+0xd56b // BranchE1 { cond: 5, imm: 107 } 0b1101010101101011
+0xd56c // BranchE1 { cond: 5, imm: 108 } 0b1101010101101100
+0xd56d // BranchE1 { cond: 5, imm: 109 } 0b1101010101101101
+0xd56e // BranchE1 { cond: 5, imm: 110 } 0b1101010101101110
+0xd56f // BranchE1 { cond: 5, imm: 111 } 0b1101010101101111
+0xd570 // BranchE1 { cond: 5, imm: 112 } 0b1101010101110000
+0xd571 // BranchE1 { cond: 5, imm: 113 } 0b1101010101110001
+0xd572 // BranchE1 { cond: 5, imm: 114 } 0b1101010101110010
+0xd573 // BranchE1 { cond: 5, imm: 115 } 0b1101010101110011
+0xd574 // BranchE1 { cond: 5, imm: 116 } 0b1101010101110100
+0xd575 // BranchE1 { cond: 5, imm: 117 } 0b1101010101110101
+0xd576 // BranchE1 { cond: 5, imm: 118 } 0b1101010101110110
+0xd577 // BranchE1 { cond: 5, imm: 119 } 0b1101010101110111
+0xd578 // BranchE1 { cond: 5, imm: 120 } 0b1101010101111000
+0xd579 // BranchE1 { cond: 5, imm: 121 } 0b1101010101111001
+0xd57a // BranchE1 { cond: 5, imm: 122 } 0b1101010101111010
+0xd57b // BranchE1 { cond: 5, imm: 123 } 0b1101010101111011
+0xd57c // BranchE1 { cond: 5, imm: 124 } 0b1101010101111100
+0xd57d // BranchE1 { cond: 5, imm: 125 } 0b1101010101111101
+0xd57e // BranchE1 { cond: 5, imm: 126 } 0b1101010101111110
+0xd57f // BranchE1 { cond: 5, imm: 127 } 0b1101010101111111
+0xd580 // BranchE1 { cond: 5, imm: 128 } 0b1101010110000000
+0xd581 // BranchE1 { cond: 5, imm: 129 } 0b1101010110000001
+0xd582 // BranchE1 { cond: 5, imm: 130 } 0b1101010110000010
+0xd583 // BranchE1 { cond: 5, imm: 131 } 0b1101010110000011
+0xd584 // BranchE1 { cond: 5, imm: 132 } 0b1101010110000100
+0xd585 // BranchE1 { cond: 5, imm: 133 } 0b1101010110000101
+0xd586 // BranchE1 { cond: 5, imm: 134 } 0b1101010110000110
+0xd587 // BranchE1 { cond: 5, imm: 135 } 0b1101010110000111
+0xd588 // BranchE1 { cond: 5, imm: 136 } 0b1101010110001000
+0xd589 // BranchE1 { cond: 5, imm: 137 } 0b1101010110001001
+0xd58a // BranchE1 { cond: 5, imm: 138 } 0b1101010110001010
+0xd58b // BranchE1 { cond: 5, imm: 139 } 0b1101010110001011
+0xd58c // BranchE1 { cond: 5, imm: 140 } 0b1101010110001100
+0xd58d // BranchE1 { cond: 5, imm: 141 } 0b1101010110001101
+0xd58e // BranchE1 { cond: 5, imm: 142 } 0b1101010110001110
+0xd58f // BranchE1 { cond: 5, imm: 143 } 0b1101010110001111
+0xd590 // BranchE1 { cond: 5, imm: 144 } 0b1101010110010000
+0xd591 // BranchE1 { cond: 5, imm: 145 } 0b1101010110010001
+0xd592 // BranchE1 { cond: 5, imm: 146 } 0b1101010110010010
+0xd593 // BranchE1 { cond: 5, imm: 147 } 0b1101010110010011
+0xd594 // BranchE1 { cond: 5, imm: 148 } 0b1101010110010100
+0xd595 // BranchE1 { cond: 5, imm: 149 } 0b1101010110010101
+0xd596 // BranchE1 { cond: 5, imm: 150 } 0b1101010110010110
+0xd597 // BranchE1 { cond: 5, imm: 151 } 0b1101010110010111
+0xd598 // BranchE1 { cond: 5, imm: 152 } 0b1101010110011000
+0xd599 // BranchE1 { cond: 5, imm: 153 } 0b1101010110011001
+0xd59a // BranchE1 { cond: 5, imm: 154 } 0b1101010110011010
+0xd59b // BranchE1 { cond: 5, imm: 155 } 0b1101010110011011
+0xd59c // BranchE1 { cond: 5, imm: 156 } 0b1101010110011100
+0xd59d // BranchE1 { cond: 5, imm: 157 } 0b1101010110011101
+0xd59e // BranchE1 { cond: 5, imm: 158 } 0b1101010110011110
+0xd59f // BranchE1 { cond: 5, imm: 159 } 0b1101010110011111
+0xd5a0 // BranchE1 { cond: 5, imm: 160 } 0b1101010110100000
+0xd5a1 // BranchE1 { cond: 5, imm: 161 } 0b1101010110100001
+0xd5a2 // BranchE1 { cond: 5, imm: 162 } 0b1101010110100010
+0xd5a3 // BranchE1 { cond: 5, imm: 163 } 0b1101010110100011
+0xd5a4 // BranchE1 { cond: 5, imm: 164 } 0b1101010110100100
+0xd5a5 // BranchE1 { cond: 5, imm: 165 } 0b1101010110100101
+0xd5a6 // BranchE1 { cond: 5, imm: 166 } 0b1101010110100110
+0xd5a7 // BranchE1 { cond: 5, imm: 167 } 0b1101010110100111
+0xd5a8 // BranchE1 { cond: 5, imm: 168 } 0b1101010110101000
+0xd5a9 // BranchE1 { cond: 5, imm: 169 } 0b1101010110101001
+0xd5aa // BranchE1 { cond: 5, imm: 170 } 0b1101010110101010
+0xd5ab // BranchE1 { cond: 5, imm: 171 } 0b1101010110101011
+0xd5ac // BranchE1 { cond: 5, imm: 172 } 0b1101010110101100
+0xd5ad // BranchE1 { cond: 5, imm: 173 } 0b1101010110101101
+0xd5ae // BranchE1 { cond: 5, imm: 174 } 0b1101010110101110
+0xd5af // BranchE1 { cond: 5, imm: 175 } 0b1101010110101111
+0xd5b0 // BranchE1 { cond: 5, imm: 176 } 0b1101010110110000
+0xd5b1 // BranchE1 { cond: 5, imm: 177 } 0b1101010110110001
+0xd5b2 // BranchE1 { cond: 5, imm: 178 } 0b1101010110110010
+0xd5b3 // BranchE1 { cond: 5, imm: 179 } 0b1101010110110011
+0xd5b4 // BranchE1 { cond: 5, imm: 180 } 0b1101010110110100
+0xd5b5 // BranchE1 { cond: 5, imm: 181 } 0b1101010110110101
+0xd5b6 // BranchE1 { cond: 5, imm: 182 } 0b1101010110110110
+0xd5b7 // BranchE1 { cond: 5, imm: 183 } 0b1101010110110111
+0xd5b8 // BranchE1 { cond: 5, imm: 184 } 0b1101010110111000
+0xd5b9 // BranchE1 { cond: 5, imm: 185 } 0b1101010110111001
+0xd5ba // BranchE1 { cond: 5, imm: 186 } 0b1101010110111010
+0xd5bb // BranchE1 { cond: 5, imm: 187 } 0b1101010110111011
+0xd5bc // BranchE1 { cond: 5, imm: 188 } 0b1101010110111100
+0xd5bd // BranchE1 { cond: 5, imm: 189 } 0b1101010110111101
+0xd5be // BranchE1 { cond: 5, imm: 190 } 0b1101010110111110
+0xd5bf // BranchE1 { cond: 5, imm: 191 } 0b1101010110111111
+0xd5c0 // BranchE1 { cond: 5, imm: 192 } 0b1101010111000000
+0xd5c1 // BranchE1 { cond: 5, imm: 193 } 0b1101010111000001
+0xd5c2 // BranchE1 { cond: 5, imm: 194 } 0b1101010111000010
+0xd5c3 // BranchE1 { cond: 5, imm: 195 } 0b1101010111000011
+0xd5c4 // BranchE1 { cond: 5, imm: 196 } 0b1101010111000100
+0xd5c5 // BranchE1 { cond: 5, imm: 197 } 0b1101010111000101
+0xd5c6 // BranchE1 { cond: 5, imm: 198 } 0b1101010111000110
+0xd5c7 // BranchE1 { cond: 5, imm: 199 } 0b1101010111000111
+0xd5c8 // BranchE1 { cond: 5, imm: 200 } 0b1101010111001000
+0xd5c9 // BranchE1 { cond: 5, imm: 201 } 0b1101010111001001
+0xd5ca // BranchE1 { cond: 5, imm: 202 } 0b1101010111001010
+0xd5cb // BranchE1 { cond: 5, imm: 203 } 0b1101010111001011
+0xd5cc // BranchE1 { cond: 5, imm: 204 } 0b1101010111001100
+0xd5cd // BranchE1 { cond: 5, imm: 205 } 0b1101010111001101
+0xd5ce // BranchE1 { cond: 5, imm: 206 } 0b1101010111001110
+0xd5cf // BranchE1 { cond: 5, imm: 207 } 0b1101010111001111
+0xd5d0 // BranchE1 { cond: 5, imm: 208 } 0b1101010111010000
+0xd5d1 // BranchE1 { cond: 5, imm: 209 } 0b1101010111010001
+0xd5d2 // BranchE1 { cond: 5, imm: 210 } 0b1101010111010010
+0xd5d3 // BranchE1 { cond: 5, imm: 211 } 0b1101010111010011
+0xd5d4 // BranchE1 { cond: 5, imm: 212 } 0b1101010111010100
+0xd5d5 // BranchE1 { cond: 5, imm: 213 } 0b1101010111010101
+0xd5d6 // BranchE1 { cond: 5, imm: 214 } 0b1101010111010110
+0xd5d7 // BranchE1 { cond: 5, imm: 215 } 0b1101010111010111
+0xd5d8 // BranchE1 { cond: 5, imm: 216 } 0b1101010111011000
+0xd5d9 // BranchE1 { cond: 5, imm: 217 } 0b1101010111011001
+0xd5da // BranchE1 { cond: 5, imm: 218 } 0b1101010111011010
+0xd5db // BranchE1 { cond: 5, imm: 219 } 0b1101010111011011
+0xd5dc // BranchE1 { cond: 5, imm: 220 } 0b1101010111011100
+0xd5dd // BranchE1 { cond: 5, imm: 221 } 0b1101010111011101
+0xd5de // BranchE1 { cond: 5, imm: 222 } 0b1101010111011110
+0xd5df // BranchE1 { cond: 5, imm: 223 } 0b1101010111011111
+0xd5e0 // BranchE1 { cond: 5, imm: 224 } 0b1101010111100000
+0xd5e1 // BranchE1 { cond: 5, imm: 225 } 0b1101010111100001
+0xd5e2 // BranchE1 { cond: 5, imm: 226 } 0b1101010111100010
+0xd5e3 // BranchE1 { cond: 5, imm: 227 } 0b1101010111100011
+0xd5e4 // BranchE1 { cond: 5, imm: 228 } 0b1101010111100100
+0xd5e5 // BranchE1 { cond: 5, imm: 229 } 0b1101010111100101
+0xd5e6 // BranchE1 { cond: 5, imm: 230 } 0b1101010111100110
+0xd5e7 // BranchE1 { cond: 5, imm: 231 } 0b1101010111100111
+0xd5e8 // BranchE1 { cond: 5, imm: 232 } 0b1101010111101000
+0xd5e9 // BranchE1 { cond: 5, imm: 233 } 0b1101010111101001
+0xd5ea // BranchE1 { cond: 5, imm: 234 } 0b1101010111101010
+0xd5eb // BranchE1 { cond: 5, imm: 235 } 0b1101010111101011
+0xd5ec // BranchE1 { cond: 5, imm: 236 } 0b1101010111101100
+0xd5ed // BranchE1 { cond: 5, imm: 237 } 0b1101010111101101
+0xd5ee // BranchE1 { cond: 5, imm: 238 } 0b1101010111101110
+0xd5ef // BranchE1 { cond: 5, imm: 239 } 0b1101010111101111
+0xd5f0 // BranchE1 { cond: 5, imm: 240 } 0b1101010111110000
+0xd5f1 // BranchE1 { cond: 5, imm: 241 } 0b1101010111110001
+0xd5f2 // BranchE1 { cond: 5, imm: 242 } 0b1101010111110010
+0xd5f3 // BranchE1 { cond: 5, imm: 243 } 0b1101010111110011
+0xd5f4 // BranchE1 { cond: 5, imm: 244 } 0b1101010111110100
+0xd5f5 // BranchE1 { cond: 5, imm: 245 } 0b1101010111110101
+0xd5f6 // BranchE1 { cond: 5, imm: 246 } 0b1101010111110110
+0xd5f7 // BranchE1 { cond: 5, imm: 247 } 0b1101010111110111
+0xd5f8 // BranchE1 { cond: 5, imm: 248 } 0b1101010111111000
+0xd5f9 // BranchE1 { cond: 5, imm: 249 } 0b1101010111111001
+0xd5fa // BranchE1 { cond: 5, imm: 250 } 0b1101010111111010
+0xd5fb // BranchE1 { cond: 5, imm: 251 } 0b1101010111111011
+0xd5fc // BranchE1 { cond: 5, imm: 252 } 0b1101010111111100
+0xd5fd // BranchE1 { cond: 5, imm: 253 } 0b1101010111111101
+0xd5fe // BranchE1 { cond: 5, imm: 254 } 0b1101010111111110
+0xd5ff // BranchE1 { cond: 5, imm: 255 } 0b1101010111111111
+0xd600 // BranchE1 { cond: 6, imm: 0 } 0b1101011000000000
+0xd601 // BranchE1 { cond: 6, imm: 1 } 0b1101011000000001
+0xd602 // BranchE1 { cond: 6, imm: 2 } 0b1101011000000010
+0xd603 // BranchE1 { cond: 6, imm: 3 } 0b1101011000000011
+0xd604 // BranchE1 { cond: 6, imm: 4 } 0b1101011000000100
+0xd605 // BranchE1 { cond: 6, imm: 5 } 0b1101011000000101
+0xd606 // BranchE1 { cond: 6, imm: 6 } 0b1101011000000110
+0xd607 // BranchE1 { cond: 6, imm: 7 } 0b1101011000000111
+0xd608 // BranchE1 { cond: 6, imm: 8 } 0b1101011000001000
+0xd609 // BranchE1 { cond: 6, imm: 9 } 0b1101011000001001
+0xd60a // BranchE1 { cond: 6, imm: 10 } 0b1101011000001010
+0xd60b // BranchE1 { cond: 6, imm: 11 } 0b1101011000001011
+0xd60c // BranchE1 { cond: 6, imm: 12 } 0b1101011000001100
+0xd60d // BranchE1 { cond: 6, imm: 13 } 0b1101011000001101
+0xd60e // BranchE1 { cond: 6, imm: 14 } 0b1101011000001110
+0xd60f // BranchE1 { cond: 6, imm: 15 } 0b1101011000001111
+0xd610 // BranchE1 { cond: 6, imm: 16 } 0b1101011000010000
+0xd611 // BranchE1 { cond: 6, imm: 17 } 0b1101011000010001
+0xd612 // BranchE1 { cond: 6, imm: 18 } 0b1101011000010010
+0xd613 // BranchE1 { cond: 6, imm: 19 } 0b1101011000010011
+0xd614 // BranchE1 { cond: 6, imm: 20 } 0b1101011000010100
+0xd615 // BranchE1 { cond: 6, imm: 21 } 0b1101011000010101
+0xd616 // BranchE1 { cond: 6, imm: 22 } 0b1101011000010110
+0xd617 // BranchE1 { cond: 6, imm: 23 } 0b1101011000010111
+0xd618 // BranchE1 { cond: 6, imm: 24 } 0b1101011000011000
+0xd619 // BranchE1 { cond: 6, imm: 25 } 0b1101011000011001
+0xd61a // BranchE1 { cond: 6, imm: 26 } 0b1101011000011010
+0xd61b // BranchE1 { cond: 6, imm: 27 } 0b1101011000011011
+0xd61c // BranchE1 { cond: 6, imm: 28 } 0b1101011000011100
+0xd61d // BranchE1 { cond: 6, imm: 29 } 0b1101011000011101
+0xd61e // BranchE1 { cond: 6, imm: 30 } 0b1101011000011110
+0xd61f // BranchE1 { cond: 6, imm: 31 } 0b1101011000011111
+0xd620 // BranchE1 { cond: 6, imm: 32 } 0b1101011000100000
+0xd621 // BranchE1 { cond: 6, imm: 33 } 0b1101011000100001
+0xd622 // BranchE1 { cond: 6, imm: 34 } 0b1101011000100010
+0xd623 // BranchE1 { cond: 6, imm: 35 } 0b1101011000100011
+0xd624 // BranchE1 { cond: 6, imm: 36 } 0b1101011000100100
+0xd625 // BranchE1 { cond: 6, imm: 37 } 0b1101011000100101
+0xd626 // BranchE1 { cond: 6, imm: 38 } 0b1101011000100110
+0xd627 // BranchE1 { cond: 6, imm: 39 } 0b1101011000100111
+0xd628 // BranchE1 { cond: 6, imm: 40 } 0b1101011000101000
+0xd629 // BranchE1 { cond: 6, imm: 41 } 0b1101011000101001
+0xd62a // BranchE1 { cond: 6, imm: 42 } 0b1101011000101010
+0xd62b // BranchE1 { cond: 6, imm: 43 } 0b1101011000101011
+0xd62c // BranchE1 { cond: 6, imm: 44 } 0b1101011000101100
+0xd62d // BranchE1 { cond: 6, imm: 45 } 0b1101011000101101
+0xd62e // BranchE1 { cond: 6, imm: 46 } 0b1101011000101110
+0xd62f // BranchE1 { cond: 6, imm: 47 } 0b1101011000101111
+0xd630 // BranchE1 { cond: 6, imm: 48 } 0b1101011000110000
+0xd631 // BranchE1 { cond: 6, imm: 49 } 0b1101011000110001
+0xd632 // BranchE1 { cond: 6, imm: 50 } 0b1101011000110010
+0xd633 // BranchE1 { cond: 6, imm: 51 } 0b1101011000110011
+0xd634 // BranchE1 { cond: 6, imm: 52 } 0b1101011000110100
+0xd635 // BranchE1 { cond: 6, imm: 53 } 0b1101011000110101
+0xd636 // BranchE1 { cond: 6, imm: 54 } 0b1101011000110110
+0xd637 // BranchE1 { cond: 6, imm: 55 } 0b1101011000110111
+0xd638 // BranchE1 { cond: 6, imm: 56 } 0b1101011000111000
+0xd639 // BranchE1 { cond: 6, imm: 57 } 0b1101011000111001
+0xd63a // BranchE1 { cond: 6, imm: 58 } 0b1101011000111010
+0xd63b // BranchE1 { cond: 6, imm: 59 } 0b1101011000111011
+0xd63c // BranchE1 { cond: 6, imm: 60 } 0b1101011000111100
+0xd63d // BranchE1 { cond: 6, imm: 61 } 0b1101011000111101
+0xd63e // BranchE1 { cond: 6, imm: 62 } 0b1101011000111110
+0xd63f // BranchE1 { cond: 6, imm: 63 } 0b1101011000111111
+0xd640 // BranchE1 { cond: 6, imm: 64 } 0b1101011001000000
+0xd641 // BranchE1 { cond: 6, imm: 65 } 0b1101011001000001
+0xd642 // BranchE1 { cond: 6, imm: 66 } 0b1101011001000010
+0xd643 // BranchE1 { cond: 6, imm: 67 } 0b1101011001000011
+0xd644 // BranchE1 { cond: 6, imm: 68 } 0b1101011001000100
+0xd645 // BranchE1 { cond: 6, imm: 69 } 0b1101011001000101
+0xd646 // BranchE1 { cond: 6, imm: 70 } 0b1101011001000110
+0xd647 // BranchE1 { cond: 6, imm: 71 } 0b1101011001000111
+0xd648 // BranchE1 { cond: 6, imm: 72 } 0b1101011001001000
+0xd649 // BranchE1 { cond: 6, imm: 73 } 0b1101011001001001
+0xd64a // BranchE1 { cond: 6, imm: 74 } 0b1101011001001010
+0xd64b // BranchE1 { cond: 6, imm: 75 } 0b1101011001001011
+0xd64c // BranchE1 { cond: 6, imm: 76 } 0b1101011001001100
+0xd64d // BranchE1 { cond: 6, imm: 77 } 0b1101011001001101
+0xd64e // BranchE1 { cond: 6, imm: 78 } 0b1101011001001110
+0xd64f // BranchE1 { cond: 6, imm: 79 } 0b1101011001001111
+0xd650 // BranchE1 { cond: 6, imm: 80 } 0b1101011001010000
+0xd651 // BranchE1 { cond: 6, imm: 81 } 0b1101011001010001
+0xd652 // BranchE1 { cond: 6, imm: 82 } 0b1101011001010010
+0xd653 // BranchE1 { cond: 6, imm: 83 } 0b1101011001010011
+0xd654 // BranchE1 { cond: 6, imm: 84 } 0b1101011001010100
+0xd655 // BranchE1 { cond: 6, imm: 85 } 0b1101011001010101
+0xd656 // BranchE1 { cond: 6, imm: 86 } 0b1101011001010110
+0xd657 // BranchE1 { cond: 6, imm: 87 } 0b1101011001010111
+0xd658 // BranchE1 { cond: 6, imm: 88 } 0b1101011001011000
+0xd659 // BranchE1 { cond: 6, imm: 89 } 0b1101011001011001
+0xd65a // BranchE1 { cond: 6, imm: 90 } 0b1101011001011010
+0xd65b // BranchE1 { cond: 6, imm: 91 } 0b1101011001011011
+0xd65c // BranchE1 { cond: 6, imm: 92 } 0b1101011001011100
+0xd65d // BranchE1 { cond: 6, imm: 93 } 0b1101011001011101
+0xd65e // BranchE1 { cond: 6, imm: 94 } 0b1101011001011110
+0xd65f // BranchE1 { cond: 6, imm: 95 } 0b1101011001011111
+0xd660 // BranchE1 { cond: 6, imm: 96 } 0b1101011001100000
+0xd661 // BranchE1 { cond: 6, imm: 97 } 0b1101011001100001
+0xd662 // BranchE1 { cond: 6, imm: 98 } 0b1101011001100010
+0xd663 // BranchE1 { cond: 6, imm: 99 } 0b1101011001100011
+0xd664 // BranchE1 { cond: 6, imm: 100 } 0b1101011001100100
+0xd665 // BranchE1 { cond: 6, imm: 101 } 0b1101011001100101
+0xd666 // BranchE1 { cond: 6, imm: 102 } 0b1101011001100110
+0xd667 // BranchE1 { cond: 6, imm: 103 } 0b1101011001100111
+0xd668 // BranchE1 { cond: 6, imm: 104 } 0b1101011001101000
+0xd669 // BranchE1 { cond: 6, imm: 105 } 0b1101011001101001
+0xd66a // BranchE1 { cond: 6, imm: 106 } 0b1101011001101010
+0xd66b // BranchE1 { cond: 6, imm: 107 } 0b1101011001101011
+0xd66c // BranchE1 { cond: 6, imm: 108 } 0b1101011001101100
+0xd66d // BranchE1 { cond: 6, imm: 109 } 0b1101011001101101
+0xd66e // BranchE1 { cond: 6, imm: 110 } 0b1101011001101110
+0xd66f // BranchE1 { cond: 6, imm: 111 } 0b1101011001101111
+0xd670 // BranchE1 { cond: 6, imm: 112 } 0b1101011001110000
+0xd671 // BranchE1 { cond: 6, imm: 113 } 0b1101011001110001
+0xd672 // BranchE1 { cond: 6, imm: 114 } 0b1101011001110010
+0xd673 // BranchE1 { cond: 6, imm: 115 } 0b1101011001110011
+0xd674 // BranchE1 { cond: 6, imm: 116 } 0b1101011001110100
+0xd675 // BranchE1 { cond: 6, imm: 117 } 0b1101011001110101
+0xd676 // BranchE1 { cond: 6, imm: 118 } 0b1101011001110110
+0xd677 // BranchE1 { cond: 6, imm: 119 } 0b1101011001110111
+0xd678 // BranchE1 { cond: 6, imm: 120 } 0b1101011001111000
+0xd679 // BranchE1 { cond: 6, imm: 121 } 0b1101011001111001
+0xd67a // BranchE1 { cond: 6, imm: 122 } 0b1101011001111010
+0xd67b // BranchE1 { cond: 6, imm: 123 } 0b1101011001111011
+0xd67c // BranchE1 { cond: 6, imm: 124 } 0b1101011001111100
+0xd67d // BranchE1 { cond: 6, imm: 125 } 0b1101011001111101
+0xd67e // BranchE1 { cond: 6, imm: 126 } 0b1101011001111110
+0xd67f // BranchE1 { cond: 6, imm: 127 } 0b1101011001111111
+0xd680 // BranchE1 { cond: 6, imm: 128 } 0b1101011010000000
+0xd681 // BranchE1 { cond: 6, imm: 129 } 0b1101011010000001
+0xd682 // BranchE1 { cond: 6, imm: 130 } 0b1101011010000010
+0xd683 // BranchE1 { cond: 6, imm: 131 } 0b1101011010000011
+0xd684 // BranchE1 { cond: 6, imm: 132 } 0b1101011010000100
+0xd685 // BranchE1 { cond: 6, imm: 133 } 0b1101011010000101
+0xd686 // BranchE1 { cond: 6, imm: 134 } 0b1101011010000110
+0xd687 // BranchE1 { cond: 6, imm: 135 } 0b1101011010000111
+0xd688 // BranchE1 { cond: 6, imm: 136 } 0b1101011010001000
+0xd689 // BranchE1 { cond: 6, imm: 137 } 0b1101011010001001
+0xd68a // BranchE1 { cond: 6, imm: 138 } 0b1101011010001010
+0xd68b // BranchE1 { cond: 6, imm: 139 } 0b1101011010001011
+0xd68c // BranchE1 { cond: 6, imm: 140 } 0b1101011010001100
+0xd68d // BranchE1 { cond: 6, imm: 141 } 0b1101011010001101
+0xd68e // BranchE1 { cond: 6, imm: 142 } 0b1101011010001110
+0xd68f // BranchE1 { cond: 6, imm: 143 } 0b1101011010001111
+0xd690 // BranchE1 { cond: 6, imm: 144 } 0b1101011010010000
+0xd691 // BranchE1 { cond: 6, imm: 145 } 0b1101011010010001
+0xd692 // BranchE1 { cond: 6, imm: 146 } 0b1101011010010010
+0xd693 // BranchE1 { cond: 6, imm: 147 } 0b1101011010010011
+0xd694 // BranchE1 { cond: 6, imm: 148 } 0b1101011010010100
+0xd695 // BranchE1 { cond: 6, imm: 149 } 0b1101011010010101
+0xd696 // BranchE1 { cond: 6, imm: 150 } 0b1101011010010110
+0xd697 // BranchE1 { cond: 6, imm: 151 } 0b1101011010010111
+0xd698 // BranchE1 { cond: 6, imm: 152 } 0b1101011010011000
+0xd699 // BranchE1 { cond: 6, imm: 153 } 0b1101011010011001
+0xd69a // BranchE1 { cond: 6, imm: 154 } 0b1101011010011010
+0xd69b // BranchE1 { cond: 6, imm: 155 } 0b1101011010011011
+0xd69c // BranchE1 { cond: 6, imm: 156 } 0b1101011010011100
+0xd69d // BranchE1 { cond: 6, imm: 157 } 0b1101011010011101
+0xd69e // BranchE1 { cond: 6, imm: 158 } 0b1101011010011110
+0xd69f // BranchE1 { cond: 6, imm: 159 } 0b1101011010011111
+0xd6a0 // BranchE1 { cond: 6, imm: 160 } 0b1101011010100000
+0xd6a1 // BranchE1 { cond: 6, imm: 161 } 0b1101011010100001
+0xd6a2 // BranchE1 { cond: 6, imm: 162 } 0b1101011010100010
+0xd6a3 // BranchE1 { cond: 6, imm: 163 } 0b1101011010100011
+0xd6a4 // BranchE1 { cond: 6, imm: 164 } 0b1101011010100100
+0xd6a5 // BranchE1 { cond: 6, imm: 165 } 0b1101011010100101
+0xd6a6 // BranchE1 { cond: 6, imm: 166 } 0b1101011010100110
+0xd6a7 // BranchE1 { cond: 6, imm: 167 } 0b1101011010100111
+0xd6a8 // BranchE1 { cond: 6, imm: 168 } 0b1101011010101000
+0xd6a9 // BranchE1 { cond: 6, imm: 169 } 0b1101011010101001
+0xd6aa // BranchE1 { cond: 6, imm: 170 } 0b1101011010101010
+0xd6ab // BranchE1 { cond: 6, imm: 171 } 0b1101011010101011
+0xd6ac // BranchE1 { cond: 6, imm: 172 } 0b1101011010101100
+0xd6ad // BranchE1 { cond: 6, imm: 173 } 0b1101011010101101
+0xd6ae // BranchE1 { cond: 6, imm: 174 } 0b1101011010101110
+0xd6af // BranchE1 { cond: 6, imm: 175 } 0b1101011010101111
+0xd6b0 // BranchE1 { cond: 6, imm: 176 } 0b1101011010110000
+0xd6b1 // BranchE1 { cond: 6, imm: 177 } 0b1101011010110001
+0xd6b2 // BranchE1 { cond: 6, imm: 178 } 0b1101011010110010
+0xd6b3 // BranchE1 { cond: 6, imm: 179 } 0b1101011010110011
+0xd6b4 // BranchE1 { cond: 6, imm: 180 } 0b1101011010110100
+0xd6b5 // BranchE1 { cond: 6, imm: 181 } 0b1101011010110101
+0xd6b6 // BranchE1 { cond: 6, imm: 182 } 0b1101011010110110
+0xd6b7 // BranchE1 { cond: 6, imm: 183 } 0b1101011010110111
+0xd6b8 // BranchE1 { cond: 6, imm: 184 } 0b1101011010111000
+0xd6b9 // BranchE1 { cond: 6, imm: 185 } 0b1101011010111001
+0xd6ba // BranchE1 { cond: 6, imm: 186 } 0b1101011010111010
+0xd6bb // BranchE1 { cond: 6, imm: 187 } 0b1101011010111011
+0xd6bc // BranchE1 { cond: 6, imm: 188 } 0b1101011010111100
+0xd6bd // BranchE1 { cond: 6, imm: 189 } 0b1101011010111101
+0xd6be // BranchE1 { cond: 6, imm: 190 } 0b1101011010111110
+0xd6bf // BranchE1 { cond: 6, imm: 191 } 0b1101011010111111
+0xd6c0 // BranchE1 { cond: 6, imm: 192 } 0b1101011011000000
+0xd6c1 // BranchE1 { cond: 6, imm: 193 } 0b1101011011000001
+0xd6c2 // BranchE1 { cond: 6, imm: 194 } 0b1101011011000010
+0xd6c3 // BranchE1 { cond: 6, imm: 195 } 0b1101011011000011
+0xd6c4 // BranchE1 { cond: 6, imm: 196 } 0b1101011011000100
+0xd6c5 // BranchE1 { cond: 6, imm: 197 } 0b1101011011000101
+0xd6c6 // BranchE1 { cond: 6, imm: 198 } 0b1101011011000110
+0xd6c7 // BranchE1 { cond: 6, imm: 199 } 0b1101011011000111
+0xd6c8 // BranchE1 { cond: 6, imm: 200 } 0b1101011011001000
+0xd6c9 // BranchE1 { cond: 6, imm: 201 } 0b1101011011001001
+0xd6ca // BranchE1 { cond: 6, imm: 202 } 0b1101011011001010
+0xd6cb // BranchE1 { cond: 6, imm: 203 } 0b1101011011001011
+0xd6cc // BranchE1 { cond: 6, imm: 204 } 0b1101011011001100
+0xd6cd // BranchE1 { cond: 6, imm: 205 } 0b1101011011001101
+0xd6ce // BranchE1 { cond: 6, imm: 206 } 0b1101011011001110
+0xd6cf // BranchE1 { cond: 6, imm: 207 } 0b1101011011001111
+0xd6d0 // BranchE1 { cond: 6, imm: 208 } 0b1101011011010000
+0xd6d1 // BranchE1 { cond: 6, imm: 209 } 0b1101011011010001
+0xd6d2 // BranchE1 { cond: 6, imm: 210 } 0b1101011011010010
+0xd6d3 // BranchE1 { cond: 6, imm: 211 } 0b1101011011010011
+0xd6d4 // BranchE1 { cond: 6, imm: 212 } 0b1101011011010100
+0xd6d5 // BranchE1 { cond: 6, imm: 213 } 0b1101011011010101
+0xd6d6 // BranchE1 { cond: 6, imm: 214 } 0b1101011011010110
+0xd6d7 // BranchE1 { cond: 6, imm: 215 } 0b1101011011010111
+0xd6d8 // BranchE1 { cond: 6, imm: 216 } 0b1101011011011000
+0xd6d9 // BranchE1 { cond: 6, imm: 217 } 0b1101011011011001
+0xd6da // BranchE1 { cond: 6, imm: 218 } 0b1101011011011010
+0xd6db // BranchE1 { cond: 6, imm: 219 } 0b1101011011011011
+0xd6dc // BranchE1 { cond: 6, imm: 220 } 0b1101011011011100
+0xd6dd // BranchE1 { cond: 6, imm: 221 } 0b1101011011011101
+0xd6de // BranchE1 { cond: 6, imm: 222 } 0b1101011011011110
+0xd6df // BranchE1 { cond: 6, imm: 223 } 0b1101011011011111
+0xd6e0 // BranchE1 { cond: 6, imm: 224 } 0b1101011011100000
+0xd6e1 // BranchE1 { cond: 6, imm: 225 } 0b1101011011100001
+0xd6e2 // BranchE1 { cond: 6, imm: 226 } 0b1101011011100010
+0xd6e3 // BranchE1 { cond: 6, imm: 227 } 0b1101011011100011
+0xd6e4 // BranchE1 { cond: 6, imm: 228 } 0b1101011011100100
+0xd6e5 // BranchE1 { cond: 6, imm: 229 } 0b1101011011100101
+0xd6e6 // BranchE1 { cond: 6, imm: 230 } 0b1101011011100110
+0xd6e7 // BranchE1 { cond: 6, imm: 231 } 0b1101011011100111
+0xd6e8 // BranchE1 { cond: 6, imm: 232 } 0b1101011011101000
+0xd6e9 // BranchE1 { cond: 6, imm: 233 } 0b1101011011101001
+0xd6ea // BranchE1 { cond: 6, imm: 234 } 0b1101011011101010
+0xd6eb // BranchE1 { cond: 6, imm: 235 } 0b1101011011101011
+0xd6ec // BranchE1 { cond: 6, imm: 236 } 0b1101011011101100
+0xd6ed // BranchE1 { cond: 6, imm: 237 } 0b1101011011101101
+0xd6ee // BranchE1 { cond: 6, imm: 238 } 0b1101011011101110
+0xd6ef // BranchE1 { cond: 6, imm: 239 } 0b1101011011101111
+0xd6f0 // BranchE1 { cond: 6, imm: 240 } 0b1101011011110000
+0xd6f1 // BranchE1 { cond: 6, imm: 241 } 0b1101011011110001
+0xd6f2 // BranchE1 { cond: 6, imm: 242 } 0b1101011011110010
+0xd6f3 // BranchE1 { cond: 6, imm: 243 } 0b1101011011110011
+0xd6f4 // BranchE1 { cond: 6, imm: 244 } 0b1101011011110100
+0xd6f5 // BranchE1 { cond: 6, imm: 245 } 0b1101011011110101
+0xd6f6 // BranchE1 { cond: 6, imm: 246 } 0b1101011011110110
+0xd6f7 // BranchE1 { cond: 6, imm: 247 } 0b1101011011110111
+0xd6f8 // BranchE1 { cond: 6, imm: 248 } 0b1101011011111000
+0xd6f9 // BranchE1 { cond: 6, imm: 249 } 0b1101011011111001
+0xd6fa // BranchE1 { cond: 6, imm: 250 } 0b1101011011111010
+0xd6fb // BranchE1 { cond: 6, imm: 251 } 0b1101011011111011
+0xd6fc // BranchE1 { cond: 6, imm: 252 } 0b1101011011111100
+0xd6fd // BranchE1 { cond: 6, imm: 253 } 0b1101011011111101
+0xd6fe // BranchE1 { cond: 6, imm: 254 } 0b1101011011111110
+0xd6ff // BranchE1 { cond: 6, imm: 255 } 0b1101011011111111
+0xd700 // BranchE1 { cond: 7, imm: 0 } 0b1101011100000000
+0xd701 // BranchE1 { cond: 7, imm: 1 } 0b1101011100000001
+0xd702 // BranchE1 { cond: 7, imm: 2 } 0b1101011100000010
+0xd703 // BranchE1 { cond: 7, imm: 3 } 0b1101011100000011
+0xd704 // BranchE1 { cond: 7, imm: 4 } 0b1101011100000100
+0xd705 // BranchE1 { cond: 7, imm: 5 } 0b1101011100000101
+0xd706 // BranchE1 { cond: 7, imm: 6 } 0b1101011100000110
+0xd707 // BranchE1 { cond: 7, imm: 7 } 0b1101011100000111
+0xd708 // BranchE1 { cond: 7, imm: 8 } 0b1101011100001000
+0xd709 // BranchE1 { cond: 7, imm: 9 } 0b1101011100001001
+0xd70a // BranchE1 { cond: 7, imm: 10 } 0b1101011100001010
+0xd70b // BranchE1 { cond: 7, imm: 11 } 0b1101011100001011
+0xd70c // BranchE1 { cond: 7, imm: 12 } 0b1101011100001100
+0xd70d // BranchE1 { cond: 7, imm: 13 } 0b1101011100001101
+0xd70e // BranchE1 { cond: 7, imm: 14 } 0b1101011100001110
+0xd70f // BranchE1 { cond: 7, imm: 15 } 0b1101011100001111
+0xd710 // BranchE1 { cond: 7, imm: 16 } 0b1101011100010000
+0xd711 // BranchE1 { cond: 7, imm: 17 } 0b1101011100010001
+0xd712 // BranchE1 { cond: 7, imm: 18 } 0b1101011100010010
+0xd713 // BranchE1 { cond: 7, imm: 19 } 0b1101011100010011
+0xd714 // BranchE1 { cond: 7, imm: 20 } 0b1101011100010100
+0xd715 // BranchE1 { cond: 7, imm: 21 } 0b1101011100010101
+0xd716 // BranchE1 { cond: 7, imm: 22 } 0b1101011100010110
+0xd717 // BranchE1 { cond: 7, imm: 23 } 0b1101011100010111
+0xd718 // BranchE1 { cond: 7, imm: 24 } 0b1101011100011000
+0xd719 // BranchE1 { cond: 7, imm: 25 } 0b1101011100011001
+0xd71a // BranchE1 { cond: 7, imm: 26 } 0b1101011100011010
+0xd71b // BranchE1 { cond: 7, imm: 27 } 0b1101011100011011
+0xd71c // BranchE1 { cond: 7, imm: 28 } 0b1101011100011100
+0xd71d // BranchE1 { cond: 7, imm: 29 } 0b1101011100011101
+0xd71e // BranchE1 { cond: 7, imm: 30 } 0b1101011100011110
+0xd71f // BranchE1 { cond: 7, imm: 31 } 0b1101011100011111
+0xd720 // BranchE1 { cond: 7, imm: 32 } 0b1101011100100000
+0xd721 // BranchE1 { cond: 7, imm: 33 } 0b1101011100100001
+0xd722 // BranchE1 { cond: 7, imm: 34 } 0b1101011100100010
+0xd723 // BranchE1 { cond: 7, imm: 35 } 0b1101011100100011
+0xd724 // BranchE1 { cond: 7, imm: 36 } 0b1101011100100100
+0xd725 // BranchE1 { cond: 7, imm: 37 } 0b1101011100100101
+0xd726 // BranchE1 { cond: 7, imm: 38 } 0b1101011100100110
+0xd727 // BranchE1 { cond: 7, imm: 39 } 0b1101011100100111
+0xd728 // BranchE1 { cond: 7, imm: 40 } 0b1101011100101000
+0xd729 // BranchE1 { cond: 7, imm: 41 } 0b1101011100101001
+0xd72a // BranchE1 { cond: 7, imm: 42 } 0b1101011100101010
+0xd72b // BranchE1 { cond: 7, imm: 43 } 0b1101011100101011
+0xd72c // BranchE1 { cond: 7, imm: 44 } 0b1101011100101100
+0xd72d // BranchE1 { cond: 7, imm: 45 } 0b1101011100101101
+0xd72e // BranchE1 { cond: 7, imm: 46 } 0b1101011100101110
+0xd72f // BranchE1 { cond: 7, imm: 47 } 0b1101011100101111
+0xd730 // BranchE1 { cond: 7, imm: 48 } 0b1101011100110000
+0xd731 // BranchE1 { cond: 7, imm: 49 } 0b1101011100110001
+0xd732 // BranchE1 { cond: 7, imm: 50 } 0b1101011100110010
+0xd733 // BranchE1 { cond: 7, imm: 51 } 0b1101011100110011
+0xd734 // BranchE1 { cond: 7, imm: 52 } 0b1101011100110100
+0xd735 // BranchE1 { cond: 7, imm: 53 } 0b1101011100110101
+0xd736 // BranchE1 { cond: 7, imm: 54 } 0b1101011100110110
+0xd737 // BranchE1 { cond: 7, imm: 55 } 0b1101011100110111
+0xd738 // BranchE1 { cond: 7, imm: 56 } 0b1101011100111000
+0xd739 // BranchE1 { cond: 7, imm: 57 } 0b1101011100111001
+0xd73a // BranchE1 { cond: 7, imm: 58 } 0b1101011100111010
+0xd73b // BranchE1 { cond: 7, imm: 59 } 0b1101011100111011
+0xd73c // BranchE1 { cond: 7, imm: 60 } 0b1101011100111100
+0xd73d // BranchE1 { cond: 7, imm: 61 } 0b1101011100111101
+0xd73e // BranchE1 { cond: 7, imm: 62 } 0b1101011100111110
+0xd73f // BranchE1 { cond: 7, imm: 63 } 0b1101011100111111
+0xd740 // BranchE1 { cond: 7, imm: 64 } 0b1101011101000000
+0xd741 // BranchE1 { cond: 7, imm: 65 } 0b1101011101000001
+0xd742 // BranchE1 { cond: 7, imm: 66 } 0b1101011101000010
+0xd743 // BranchE1 { cond: 7, imm: 67 } 0b1101011101000011
+0xd744 // BranchE1 { cond: 7, imm: 68 } 0b1101011101000100
+0xd745 // BranchE1 { cond: 7, imm: 69 } 0b1101011101000101
+0xd746 // BranchE1 { cond: 7, imm: 70 } 0b1101011101000110
+0xd747 // BranchE1 { cond: 7, imm: 71 } 0b1101011101000111
+0xd748 // BranchE1 { cond: 7, imm: 72 } 0b1101011101001000
+0xd749 // BranchE1 { cond: 7, imm: 73 } 0b1101011101001001
+0xd74a // BranchE1 { cond: 7, imm: 74 } 0b1101011101001010
+0xd74b // BranchE1 { cond: 7, imm: 75 } 0b1101011101001011
+0xd74c // BranchE1 { cond: 7, imm: 76 } 0b1101011101001100
+0xd74d // BranchE1 { cond: 7, imm: 77 } 0b1101011101001101
+0xd74e // BranchE1 { cond: 7, imm: 78 } 0b1101011101001110
+0xd74f // BranchE1 { cond: 7, imm: 79 } 0b1101011101001111
+0xd750 // BranchE1 { cond: 7, imm: 80 } 0b1101011101010000
+0xd751 // BranchE1 { cond: 7, imm: 81 } 0b1101011101010001
+0xd752 // BranchE1 { cond: 7, imm: 82 } 0b1101011101010010
+0xd753 // BranchE1 { cond: 7, imm: 83 } 0b1101011101010011
+0xd754 // BranchE1 { cond: 7, imm: 84 } 0b1101011101010100
+0xd755 // BranchE1 { cond: 7, imm: 85 } 0b1101011101010101
+0xd756 // BranchE1 { cond: 7, imm: 86 } 0b1101011101010110
+0xd757 // BranchE1 { cond: 7, imm: 87 } 0b1101011101010111
+0xd758 // BranchE1 { cond: 7, imm: 88 } 0b1101011101011000
+0xd759 // BranchE1 { cond: 7, imm: 89 } 0b1101011101011001
+0xd75a // BranchE1 { cond: 7, imm: 90 } 0b1101011101011010
+0xd75b // BranchE1 { cond: 7, imm: 91 } 0b1101011101011011
+0xd75c // BranchE1 { cond: 7, imm: 92 } 0b1101011101011100
+0xd75d // BranchE1 { cond: 7, imm: 93 } 0b1101011101011101
+0xd75e // BranchE1 { cond: 7, imm: 94 } 0b1101011101011110
+0xd75f // BranchE1 { cond: 7, imm: 95 } 0b1101011101011111
+0xd760 // BranchE1 { cond: 7, imm: 96 } 0b1101011101100000
+0xd761 // BranchE1 { cond: 7, imm: 97 } 0b1101011101100001
+0xd762 // BranchE1 { cond: 7, imm: 98 } 0b1101011101100010
+0xd763 // BranchE1 { cond: 7, imm: 99 } 0b1101011101100011
+0xd764 // BranchE1 { cond: 7, imm: 100 } 0b1101011101100100
+0xd765 // BranchE1 { cond: 7, imm: 101 } 0b1101011101100101
+0xd766 // BranchE1 { cond: 7, imm: 102 } 0b1101011101100110
+0xd767 // BranchE1 { cond: 7, imm: 103 } 0b1101011101100111
+0xd768 // BranchE1 { cond: 7, imm: 104 } 0b1101011101101000
+0xd769 // BranchE1 { cond: 7, imm: 105 } 0b1101011101101001
+0xd76a // BranchE1 { cond: 7, imm: 106 } 0b1101011101101010
+0xd76b // BranchE1 { cond: 7, imm: 107 } 0b1101011101101011
+0xd76c // BranchE1 { cond: 7, imm: 108 } 0b1101011101101100
+0xd76d // BranchE1 { cond: 7, imm: 109 } 0b1101011101101101
+0xd76e // BranchE1 { cond: 7, imm: 110 } 0b1101011101101110
+0xd76f // BranchE1 { cond: 7, imm: 111 } 0b1101011101101111
+0xd770 // BranchE1 { cond: 7, imm: 112 } 0b1101011101110000
+0xd771 // BranchE1 { cond: 7, imm: 113 } 0b1101011101110001
+0xd772 // BranchE1 { cond: 7, imm: 114 } 0b1101011101110010
+0xd773 // BranchE1 { cond: 7, imm: 115 } 0b1101011101110011
+0xd774 // BranchE1 { cond: 7, imm: 116 } 0b1101011101110100
+0xd775 // BranchE1 { cond: 7, imm: 117 } 0b1101011101110101
+0xd776 // BranchE1 { cond: 7, imm: 118 } 0b1101011101110110
+0xd777 // BranchE1 { cond: 7, imm: 119 } 0b1101011101110111
+0xd778 // BranchE1 { cond: 7, imm: 120 } 0b1101011101111000
+0xd779 // BranchE1 { cond: 7, imm: 121 } 0b1101011101111001
+0xd77a // BranchE1 { cond: 7, imm: 122 } 0b1101011101111010
+0xd77b // BranchE1 { cond: 7, imm: 123 } 0b1101011101111011
+0xd77c // BranchE1 { cond: 7, imm: 124 } 0b1101011101111100
+0xd77d // BranchE1 { cond: 7, imm: 125 } 0b1101011101111101
+0xd77e // BranchE1 { cond: 7, imm: 126 } 0b1101011101111110
+0xd77f // BranchE1 { cond: 7, imm: 127 } 0b1101011101111111
+0xd780 // BranchE1 { cond: 7, imm: 128 } 0b1101011110000000
+0xd781 // BranchE1 { cond: 7, imm: 129 } 0b1101011110000001
+0xd782 // BranchE1 { cond: 7, imm: 130 } 0b1101011110000010
+0xd783 // BranchE1 { cond: 7, imm: 131 } 0b1101011110000011
+0xd784 // BranchE1 { cond: 7, imm: 132 } 0b1101011110000100
+0xd785 // BranchE1 { cond: 7, imm: 133 } 0b1101011110000101
+0xd786 // BranchE1 { cond: 7, imm: 134 } 0b1101011110000110
+0xd787 // BranchE1 { cond: 7, imm: 135 } 0b1101011110000111
+0xd788 // BranchE1 { cond: 7, imm: 136 } 0b1101011110001000
+0xd789 // BranchE1 { cond: 7, imm: 137 } 0b1101011110001001
+0xd78a // BranchE1 { cond: 7, imm: 138 } 0b1101011110001010
+0xd78b // BranchE1 { cond: 7, imm: 139 } 0b1101011110001011
+0xd78c // BranchE1 { cond: 7, imm: 140 } 0b1101011110001100
+0xd78d // BranchE1 { cond: 7, imm: 141 } 0b1101011110001101
+0xd78e // BranchE1 { cond: 7, imm: 142 } 0b1101011110001110
+0xd78f // BranchE1 { cond: 7, imm: 143 } 0b1101011110001111
+0xd790 // BranchE1 { cond: 7, imm: 144 } 0b1101011110010000
+0xd791 // BranchE1 { cond: 7, imm: 145 } 0b1101011110010001
+0xd792 // BranchE1 { cond: 7, imm: 146 } 0b1101011110010010
+0xd793 // BranchE1 { cond: 7, imm: 147 } 0b1101011110010011
+0xd794 // BranchE1 { cond: 7, imm: 148 } 0b1101011110010100
+0xd795 // BranchE1 { cond: 7, imm: 149 } 0b1101011110010101
+0xd796 // BranchE1 { cond: 7, imm: 150 } 0b1101011110010110
+0xd797 // BranchE1 { cond: 7, imm: 151 } 0b1101011110010111
+0xd798 // BranchE1 { cond: 7, imm: 152 } 0b1101011110011000
+0xd799 // BranchE1 { cond: 7, imm: 153 } 0b1101011110011001
+0xd79a // BranchE1 { cond: 7, imm: 154 } 0b1101011110011010
+0xd79b // BranchE1 { cond: 7, imm: 155 } 0b1101011110011011
+0xd79c // BranchE1 { cond: 7, imm: 156 } 0b1101011110011100
+0xd79d // BranchE1 { cond: 7, imm: 157 } 0b1101011110011101
+0xd79e // BranchE1 { cond: 7, imm: 158 } 0b1101011110011110
+0xd79f // BranchE1 { cond: 7, imm: 159 } 0b1101011110011111
+0xd7a0 // BranchE1 { cond: 7, imm: 160 } 0b1101011110100000
+0xd7a1 // BranchE1 { cond: 7, imm: 161 } 0b1101011110100001
+0xd7a2 // BranchE1 { cond: 7, imm: 162 } 0b1101011110100010
+0xd7a3 // BranchE1 { cond: 7, imm: 163 } 0b1101011110100011
+0xd7a4 // BranchE1 { cond: 7, imm: 164 } 0b1101011110100100
+0xd7a5 // BranchE1 { cond: 7, imm: 165 } 0b1101011110100101
+0xd7a6 // BranchE1 { cond: 7, imm: 166 } 0b1101011110100110
+0xd7a7 // BranchE1 { cond: 7, imm: 167 } 0b1101011110100111
+0xd7a8 // BranchE1 { cond: 7, imm: 168 } 0b1101011110101000
+0xd7a9 // BranchE1 { cond: 7, imm: 169 } 0b1101011110101001
+0xd7aa // BranchE1 { cond: 7, imm: 170 } 0b1101011110101010
+0xd7ab // BranchE1 { cond: 7, imm: 171 } 0b1101011110101011
+0xd7ac // BranchE1 { cond: 7, imm: 172 } 0b1101011110101100
+0xd7ad // BranchE1 { cond: 7, imm: 173 } 0b1101011110101101
+0xd7ae // BranchE1 { cond: 7, imm: 174 } 0b1101011110101110
+0xd7af // BranchE1 { cond: 7, imm: 175 } 0b1101011110101111
+0xd7b0 // BranchE1 { cond: 7, imm: 176 } 0b1101011110110000
+0xd7b1 // BranchE1 { cond: 7, imm: 177 } 0b1101011110110001
+0xd7b2 // BranchE1 { cond: 7, imm: 178 } 0b1101011110110010
+0xd7b3 // BranchE1 { cond: 7, imm: 179 } 0b1101011110110011
+0xd7b4 // BranchE1 { cond: 7, imm: 180 } 0b1101011110110100
+0xd7b5 // BranchE1 { cond: 7, imm: 181 } 0b1101011110110101
+0xd7b6 // BranchE1 { cond: 7, imm: 182 } 0b1101011110110110
+0xd7b7 // BranchE1 { cond: 7, imm: 183 } 0b1101011110110111
+0xd7b8 // BranchE1 { cond: 7, imm: 184 } 0b1101011110111000
+0xd7b9 // BranchE1 { cond: 7, imm: 185 } 0b1101011110111001
+0xd7ba // BranchE1 { cond: 7, imm: 186 } 0b1101011110111010
+0xd7bb // BranchE1 { cond: 7, imm: 187 } 0b1101011110111011
+0xd7bc // BranchE1 { cond: 7, imm: 188 } 0b1101011110111100
+0xd7bd // BranchE1 { cond: 7, imm: 189 } 0b1101011110111101
+0xd7be // BranchE1 { cond: 7, imm: 190 } 0b1101011110111110
+0xd7bf // BranchE1 { cond: 7, imm: 191 } 0b1101011110111111
+0xd7c0 // BranchE1 { cond: 7, imm: 192 } 0b1101011111000000
+0xd7c1 // BranchE1 { cond: 7, imm: 193 } 0b1101011111000001
+0xd7c2 // BranchE1 { cond: 7, imm: 194 } 0b1101011111000010
+0xd7c3 // BranchE1 { cond: 7, imm: 195 } 0b1101011111000011
+0xd7c4 // BranchE1 { cond: 7, imm: 196 } 0b1101011111000100
+0xd7c5 // BranchE1 { cond: 7, imm: 197 } 0b1101011111000101
+0xd7c6 // BranchE1 { cond: 7, imm: 198 } 0b1101011111000110
+0xd7c7 // BranchE1 { cond: 7, imm: 199 } 0b1101011111000111
+0xd7c8 // BranchE1 { cond: 7, imm: 200 } 0b1101011111001000
+0xd7c9 // BranchE1 { cond: 7, imm: 201 } 0b1101011111001001
+0xd7ca // BranchE1 { cond: 7, imm: 202 } 0b1101011111001010
+0xd7cb // BranchE1 { cond: 7, imm: 203 } 0b1101011111001011
+0xd7cc // BranchE1 { cond: 7, imm: 204 } 0b1101011111001100
+0xd7cd // BranchE1 { cond: 7, imm: 205 } 0b1101011111001101
+0xd7ce // BranchE1 { cond: 7, imm: 206 } 0b1101011111001110
+0xd7cf // BranchE1 { cond: 7, imm: 207 } 0b1101011111001111
+0xd7d0 // BranchE1 { cond: 7, imm: 208 } 0b1101011111010000
+0xd7d1 // BranchE1 { cond: 7, imm: 209 } 0b1101011111010001
+0xd7d2 // BranchE1 { cond: 7, imm: 210 } 0b1101011111010010
+0xd7d3 // BranchE1 { cond: 7, imm: 211 } 0b1101011111010011
+0xd7d4 // BranchE1 { cond: 7, imm: 212 } 0b1101011111010100
+0xd7d5 // BranchE1 { cond: 7, imm: 213 } 0b1101011111010101
+0xd7d6 // BranchE1 { cond: 7, imm: 214 } 0b1101011111010110
+0xd7d7 // BranchE1 { cond: 7, imm: 215 } 0b1101011111010111
+0xd7d8 // BranchE1 { cond: 7, imm: 216 } 0b1101011111011000
+0xd7d9 // BranchE1 { cond: 7, imm: 217 } 0b1101011111011001
+0xd7da // BranchE1 { cond: 7, imm: 218 } 0b1101011111011010
+0xd7db // BranchE1 { cond: 7, imm: 219 } 0b1101011111011011
+0xd7dc // BranchE1 { cond: 7, imm: 220 } 0b1101011111011100
+0xd7dd // BranchE1 { cond: 7, imm: 221 } 0b1101011111011101
+0xd7de // BranchE1 { cond: 7, imm: 222 } 0b1101011111011110
+0xd7df // BranchE1 { cond: 7, imm: 223 } 0b1101011111011111
+0xd7e0 // BranchE1 { cond: 7, imm: 224 } 0b1101011111100000
+0xd7e1 // BranchE1 { cond: 7, imm: 225 } 0b1101011111100001
+0xd7e2 // BranchE1 { cond: 7, imm: 226 } 0b1101011111100010
+0xd7e3 // BranchE1 { cond: 7, imm: 227 } 0b1101011111100011
+0xd7e4 // BranchE1 { cond: 7, imm: 228 } 0b1101011111100100
+0xd7e5 // BranchE1 { cond: 7, imm: 229 } 0b1101011111100101
+0xd7e6 // BranchE1 { cond: 7, imm: 230 } 0b1101011111100110
+0xd7e7 // BranchE1 { cond: 7, imm: 231 } 0b1101011111100111
+0xd7e8 // BranchE1 { cond: 7, imm: 232 } 0b1101011111101000
+0xd7e9 // BranchE1 { cond: 7, imm: 233 } 0b1101011111101001
+0xd7ea // BranchE1 { cond: 7, imm: 234 } 0b1101011111101010
+0xd7eb // BranchE1 { cond: 7, imm: 235 } 0b1101011111101011
+0xd7ec // BranchE1 { cond: 7, imm: 236 } 0b1101011111101100
+0xd7ed // BranchE1 { cond: 7, imm: 237 } 0b1101011111101101
+0xd7ee // BranchE1 { cond: 7, imm: 238 } 0b1101011111101110
+0xd7ef // BranchE1 { cond: 7, imm: 239 } 0b1101011111101111
+0xd7f0 // BranchE1 { cond: 7, imm: 240 } 0b1101011111110000
+0xd7f1 // BranchE1 { cond: 7, imm: 241 } 0b1101011111110001
+0xd7f2 // BranchE1 { cond: 7, imm: 242 } 0b1101011111110010
+0xd7f3 // BranchE1 { cond: 7, imm: 243 } 0b1101011111110011
+0xd7f4 // BranchE1 { cond: 7, imm: 244 } 0b1101011111110100
+0xd7f5 // BranchE1 { cond: 7, imm: 245 } 0b1101011111110101
+0xd7f6 // BranchE1 { cond: 7, imm: 246 } 0b1101011111110110
+0xd7f7 // BranchE1 { cond: 7, imm: 247 } 0b1101011111110111
+0xd7f8 // BranchE1 { cond: 7, imm: 248 } 0b1101011111111000
+0xd7f9 // BranchE1 { cond: 7, imm: 249 } 0b1101011111111001
+0xd7fa // BranchE1 { cond: 7, imm: 250 } 0b1101011111111010
+0xd7fb // BranchE1 { cond: 7, imm: 251 } 0b1101011111111011
+0xd7fc // BranchE1 { cond: 7, imm: 252 } 0b1101011111111100
+0xd7fd // BranchE1 { cond: 7, imm: 253 } 0b1101011111111101
+0xd7fe // BranchE1 { cond: 7, imm: 254 } 0b1101011111111110
+0xd7ff // BranchE1 { cond: 7, imm: 255 } 0b1101011111111111
+0xd800 // BranchE1 { cond: 8, imm: 0 } 0b1101100000000000
+0xd801 // BranchE1 { cond: 8, imm: 1 } 0b1101100000000001
+0xd802 // BranchE1 { cond: 8, imm: 2 } 0b1101100000000010
+0xd803 // BranchE1 { cond: 8, imm: 3 } 0b1101100000000011
+0xd804 // BranchE1 { cond: 8, imm: 4 } 0b1101100000000100
+0xd805 // BranchE1 { cond: 8, imm: 5 } 0b1101100000000101
+0xd806 // BranchE1 { cond: 8, imm: 6 } 0b1101100000000110
+0xd807 // BranchE1 { cond: 8, imm: 7 } 0b1101100000000111
+0xd808 // BranchE1 { cond: 8, imm: 8 } 0b1101100000001000
+0xd809 // BranchE1 { cond: 8, imm: 9 } 0b1101100000001001
+0xd80a // BranchE1 { cond: 8, imm: 10 } 0b1101100000001010
+0xd80b // BranchE1 { cond: 8, imm: 11 } 0b1101100000001011
+0xd80c // BranchE1 { cond: 8, imm: 12 } 0b1101100000001100
+0xd80d // BranchE1 { cond: 8, imm: 13 } 0b1101100000001101
+0xd80e // BranchE1 { cond: 8, imm: 14 } 0b1101100000001110
+0xd80f // BranchE1 { cond: 8, imm: 15 } 0b1101100000001111
+0xd810 // BranchE1 { cond: 8, imm: 16 } 0b1101100000010000
+0xd811 // BranchE1 { cond: 8, imm: 17 } 0b1101100000010001
+0xd812 // BranchE1 { cond: 8, imm: 18 } 0b1101100000010010
+0xd813 // BranchE1 { cond: 8, imm: 19 } 0b1101100000010011
+0xd814 // BranchE1 { cond: 8, imm: 20 } 0b1101100000010100
+0xd815 // BranchE1 { cond: 8, imm: 21 } 0b1101100000010101
+0xd816 // BranchE1 { cond: 8, imm: 22 } 0b1101100000010110
+0xd817 // BranchE1 { cond: 8, imm: 23 } 0b1101100000010111
+0xd818 // BranchE1 { cond: 8, imm: 24 } 0b1101100000011000
+0xd819 // BranchE1 { cond: 8, imm: 25 } 0b1101100000011001
+0xd81a // BranchE1 { cond: 8, imm: 26 } 0b1101100000011010
+0xd81b // BranchE1 { cond: 8, imm: 27 } 0b1101100000011011
+0xd81c // BranchE1 { cond: 8, imm: 28 } 0b1101100000011100
+0xd81d // BranchE1 { cond: 8, imm: 29 } 0b1101100000011101
+0xd81e // BranchE1 { cond: 8, imm: 30 } 0b1101100000011110
+0xd81f // BranchE1 { cond: 8, imm: 31 } 0b1101100000011111
+0xd820 // BranchE1 { cond: 8, imm: 32 } 0b1101100000100000
+0xd821 // BranchE1 { cond: 8, imm: 33 } 0b1101100000100001
+0xd822 // BranchE1 { cond: 8, imm: 34 } 0b1101100000100010
+0xd823 // BranchE1 { cond: 8, imm: 35 } 0b1101100000100011
+0xd824 // BranchE1 { cond: 8, imm: 36 } 0b1101100000100100
+0xd825 // BranchE1 { cond: 8, imm: 37 } 0b1101100000100101
+0xd826 // BranchE1 { cond: 8, imm: 38 } 0b1101100000100110
+0xd827 // BranchE1 { cond: 8, imm: 39 } 0b1101100000100111
+0xd828 // BranchE1 { cond: 8, imm: 40 } 0b1101100000101000
+0xd829 // BranchE1 { cond: 8, imm: 41 } 0b1101100000101001
+0xd82a // BranchE1 { cond: 8, imm: 42 } 0b1101100000101010
+0xd82b // BranchE1 { cond: 8, imm: 43 } 0b1101100000101011
+0xd82c // BranchE1 { cond: 8, imm: 44 } 0b1101100000101100
+0xd82d // BranchE1 { cond: 8, imm: 45 } 0b1101100000101101
+0xd82e // BranchE1 { cond: 8, imm: 46 } 0b1101100000101110
+0xd82f // BranchE1 { cond: 8, imm: 47 } 0b1101100000101111
+0xd830 // BranchE1 { cond: 8, imm: 48 } 0b1101100000110000
+0xd831 // BranchE1 { cond: 8, imm: 49 } 0b1101100000110001
+0xd832 // BranchE1 { cond: 8, imm: 50 } 0b1101100000110010
+0xd833 // BranchE1 { cond: 8, imm: 51 } 0b1101100000110011
+0xd834 // BranchE1 { cond: 8, imm: 52 } 0b1101100000110100
+0xd835 // BranchE1 { cond: 8, imm: 53 } 0b1101100000110101
+0xd836 // BranchE1 { cond: 8, imm: 54 } 0b1101100000110110
+0xd837 // BranchE1 { cond: 8, imm: 55 } 0b1101100000110111
+0xd838 // BranchE1 { cond: 8, imm: 56 } 0b1101100000111000
+0xd839 // BranchE1 { cond: 8, imm: 57 } 0b1101100000111001
+0xd83a // BranchE1 { cond: 8, imm: 58 } 0b1101100000111010
+0xd83b // BranchE1 { cond: 8, imm: 59 } 0b1101100000111011
+0xd83c // BranchE1 { cond: 8, imm: 60 } 0b1101100000111100
+0xd83d // BranchE1 { cond: 8, imm: 61 } 0b1101100000111101
+0xd83e // BranchE1 { cond: 8, imm: 62 } 0b1101100000111110
+0xd83f // BranchE1 { cond: 8, imm: 63 } 0b1101100000111111
+0xd840 // BranchE1 { cond: 8, imm: 64 } 0b1101100001000000
+0xd841 // BranchE1 { cond: 8, imm: 65 } 0b1101100001000001
+0xd842 // BranchE1 { cond: 8, imm: 66 } 0b1101100001000010
+0xd843 // BranchE1 { cond: 8, imm: 67 } 0b1101100001000011
+0xd844 // BranchE1 { cond: 8, imm: 68 } 0b1101100001000100
+0xd845 // BranchE1 { cond: 8, imm: 69 } 0b1101100001000101
+0xd846 // BranchE1 { cond: 8, imm: 70 } 0b1101100001000110
+0xd847 // BranchE1 { cond: 8, imm: 71 } 0b1101100001000111
+0xd848 // BranchE1 { cond: 8, imm: 72 } 0b1101100001001000
+0xd849 // BranchE1 { cond: 8, imm: 73 } 0b1101100001001001
+0xd84a // BranchE1 { cond: 8, imm: 74 } 0b1101100001001010
+0xd84b // BranchE1 { cond: 8, imm: 75 } 0b1101100001001011
+0xd84c // BranchE1 { cond: 8, imm: 76 } 0b1101100001001100
+0xd84d // BranchE1 { cond: 8, imm: 77 } 0b1101100001001101
+0xd84e // BranchE1 { cond: 8, imm: 78 } 0b1101100001001110
+0xd84f // BranchE1 { cond: 8, imm: 79 } 0b1101100001001111
+0xd850 // BranchE1 { cond: 8, imm: 80 } 0b1101100001010000
+0xd851 // BranchE1 { cond: 8, imm: 81 } 0b1101100001010001
+0xd852 // BranchE1 { cond: 8, imm: 82 } 0b1101100001010010
+0xd853 // BranchE1 { cond: 8, imm: 83 } 0b1101100001010011
+0xd854 // BranchE1 { cond: 8, imm: 84 } 0b1101100001010100
+0xd855 // BranchE1 { cond: 8, imm: 85 } 0b1101100001010101
+0xd856 // BranchE1 { cond: 8, imm: 86 } 0b1101100001010110
+0xd857 // BranchE1 { cond: 8, imm: 87 } 0b1101100001010111
+0xd858 // BranchE1 { cond: 8, imm: 88 } 0b1101100001011000
+0xd859 // BranchE1 { cond: 8, imm: 89 } 0b1101100001011001
+0xd85a // BranchE1 { cond: 8, imm: 90 } 0b1101100001011010
+0xd85b // BranchE1 { cond: 8, imm: 91 } 0b1101100001011011
+0xd85c // BranchE1 { cond: 8, imm: 92 } 0b1101100001011100
+0xd85d // BranchE1 { cond: 8, imm: 93 } 0b1101100001011101
+0xd85e // BranchE1 { cond: 8, imm: 94 } 0b1101100001011110
+0xd85f // BranchE1 { cond: 8, imm: 95 } 0b1101100001011111
+0xd860 // BranchE1 { cond: 8, imm: 96 } 0b1101100001100000
+0xd861 // BranchE1 { cond: 8, imm: 97 } 0b1101100001100001
+0xd862 // BranchE1 { cond: 8, imm: 98 } 0b1101100001100010
+0xd863 // BranchE1 { cond: 8, imm: 99 } 0b1101100001100011
+0xd864 // BranchE1 { cond: 8, imm: 100 } 0b1101100001100100
+0xd865 // BranchE1 { cond: 8, imm: 101 } 0b1101100001100101
+0xd866 // BranchE1 { cond: 8, imm: 102 } 0b1101100001100110
+0xd867 // BranchE1 { cond: 8, imm: 103 } 0b1101100001100111
+0xd868 // BranchE1 { cond: 8, imm: 104 } 0b1101100001101000
+0xd869 // BranchE1 { cond: 8, imm: 105 } 0b1101100001101001
+0xd86a // BranchE1 { cond: 8, imm: 106 } 0b1101100001101010
+0xd86b // BranchE1 { cond: 8, imm: 107 } 0b1101100001101011
+0xd86c // BranchE1 { cond: 8, imm: 108 } 0b1101100001101100
+0xd86d // BranchE1 { cond: 8, imm: 109 } 0b1101100001101101
+0xd86e // BranchE1 { cond: 8, imm: 110 } 0b1101100001101110
+0xd86f // BranchE1 { cond: 8, imm: 111 } 0b1101100001101111
+0xd870 // BranchE1 { cond: 8, imm: 112 } 0b1101100001110000
+0xd871 // BranchE1 { cond: 8, imm: 113 } 0b1101100001110001
+0xd872 // BranchE1 { cond: 8, imm: 114 } 0b1101100001110010
+0xd873 // BranchE1 { cond: 8, imm: 115 } 0b1101100001110011
+0xd874 // BranchE1 { cond: 8, imm: 116 } 0b1101100001110100
+0xd875 // BranchE1 { cond: 8, imm: 117 } 0b1101100001110101
+0xd876 // BranchE1 { cond: 8, imm: 118 } 0b1101100001110110
+0xd877 // BranchE1 { cond: 8, imm: 119 } 0b1101100001110111
+0xd878 // BranchE1 { cond: 8, imm: 120 } 0b1101100001111000
+0xd879 // BranchE1 { cond: 8, imm: 121 } 0b1101100001111001
+0xd87a // BranchE1 { cond: 8, imm: 122 } 0b1101100001111010
+0xd87b // BranchE1 { cond: 8, imm: 123 } 0b1101100001111011
+0xd87c // BranchE1 { cond: 8, imm: 124 } 0b1101100001111100
+0xd87d // BranchE1 { cond: 8, imm: 125 } 0b1101100001111101
+0xd87e // BranchE1 { cond: 8, imm: 126 } 0b1101100001111110
+0xd87f // BranchE1 { cond: 8, imm: 127 } 0b1101100001111111
+0xd880 // BranchE1 { cond: 8, imm: 128 } 0b1101100010000000
+0xd881 // BranchE1 { cond: 8, imm: 129 } 0b1101100010000001
+0xd882 // BranchE1 { cond: 8, imm: 130 } 0b1101100010000010
+0xd883 // BranchE1 { cond: 8, imm: 131 } 0b1101100010000011
+0xd884 // BranchE1 { cond: 8, imm: 132 } 0b1101100010000100
+0xd885 // BranchE1 { cond: 8, imm: 133 } 0b1101100010000101
+0xd886 // BranchE1 { cond: 8, imm: 134 } 0b1101100010000110
+0xd887 // BranchE1 { cond: 8, imm: 135 } 0b1101100010000111
+0xd888 // BranchE1 { cond: 8, imm: 136 } 0b1101100010001000
+0xd889 // BranchE1 { cond: 8, imm: 137 } 0b1101100010001001
+0xd88a // BranchE1 { cond: 8, imm: 138 } 0b1101100010001010
+0xd88b // BranchE1 { cond: 8, imm: 139 } 0b1101100010001011
+0xd88c // BranchE1 { cond: 8, imm: 140 } 0b1101100010001100
+0xd88d // BranchE1 { cond: 8, imm: 141 } 0b1101100010001101
+0xd88e // BranchE1 { cond: 8, imm: 142 } 0b1101100010001110
+0xd88f // BranchE1 { cond: 8, imm: 143 } 0b1101100010001111
+0xd890 // BranchE1 { cond: 8, imm: 144 } 0b1101100010010000
+0xd891 // BranchE1 { cond: 8, imm: 145 } 0b1101100010010001
+0xd892 // BranchE1 { cond: 8, imm: 146 } 0b1101100010010010
+0xd893 // BranchE1 { cond: 8, imm: 147 } 0b1101100010010011
+0xd894 // BranchE1 { cond: 8, imm: 148 } 0b1101100010010100
+0xd895 // BranchE1 { cond: 8, imm: 149 } 0b1101100010010101
+0xd896 // BranchE1 { cond: 8, imm: 150 } 0b1101100010010110
+0xd897 // BranchE1 { cond: 8, imm: 151 } 0b1101100010010111
+0xd898 // BranchE1 { cond: 8, imm: 152 } 0b1101100010011000
+0xd899 // BranchE1 { cond: 8, imm: 153 } 0b1101100010011001
+0xd89a // BranchE1 { cond: 8, imm: 154 } 0b1101100010011010
+0xd89b // BranchE1 { cond: 8, imm: 155 } 0b1101100010011011
+0xd89c // BranchE1 { cond: 8, imm: 156 } 0b1101100010011100
+0xd89d // BranchE1 { cond: 8, imm: 157 } 0b1101100010011101
+0xd89e // BranchE1 { cond: 8, imm: 158 } 0b1101100010011110
+0xd89f // BranchE1 { cond: 8, imm: 159 } 0b1101100010011111
+0xd8a0 // BranchE1 { cond: 8, imm: 160 } 0b1101100010100000
+0xd8a1 // BranchE1 { cond: 8, imm: 161 } 0b1101100010100001
+0xd8a2 // BranchE1 { cond: 8, imm: 162 } 0b1101100010100010
+0xd8a3 // BranchE1 { cond: 8, imm: 163 } 0b1101100010100011
+0xd8a4 // BranchE1 { cond: 8, imm: 164 } 0b1101100010100100
+0xd8a5 // BranchE1 { cond: 8, imm: 165 } 0b1101100010100101
+0xd8a6 // BranchE1 { cond: 8, imm: 166 } 0b1101100010100110
+0xd8a7 // BranchE1 { cond: 8, imm: 167 } 0b1101100010100111
+0xd8a8 // BranchE1 { cond: 8, imm: 168 } 0b1101100010101000
+0xd8a9 // BranchE1 { cond: 8, imm: 169 } 0b1101100010101001
+0xd8aa // BranchE1 { cond: 8, imm: 170 } 0b1101100010101010
+0xd8ab // BranchE1 { cond: 8, imm: 171 } 0b1101100010101011
+0xd8ac // BranchE1 { cond: 8, imm: 172 } 0b1101100010101100
+0xd8ad // BranchE1 { cond: 8, imm: 173 } 0b1101100010101101
+0xd8ae // BranchE1 { cond: 8, imm: 174 } 0b1101100010101110
+0xd8af // BranchE1 { cond: 8, imm: 175 } 0b1101100010101111
+0xd8b0 // BranchE1 { cond: 8, imm: 176 } 0b1101100010110000
+0xd8b1 // BranchE1 { cond: 8, imm: 177 } 0b1101100010110001
+0xd8b2 // BranchE1 { cond: 8, imm: 178 } 0b1101100010110010
+0xd8b3 // BranchE1 { cond: 8, imm: 179 } 0b1101100010110011
+0xd8b4 // BranchE1 { cond: 8, imm: 180 } 0b1101100010110100
+0xd8b5 // BranchE1 { cond: 8, imm: 181 } 0b1101100010110101
+0xd8b6 // BranchE1 { cond: 8, imm: 182 } 0b1101100010110110
+0xd8b7 // BranchE1 { cond: 8, imm: 183 } 0b1101100010110111
+0xd8b8 // BranchE1 { cond: 8, imm: 184 } 0b1101100010111000
+0xd8b9 // BranchE1 { cond: 8, imm: 185 } 0b1101100010111001
+0xd8ba // BranchE1 { cond: 8, imm: 186 } 0b1101100010111010
+0xd8bb // BranchE1 { cond: 8, imm: 187 } 0b1101100010111011
+0xd8bc // BranchE1 { cond: 8, imm: 188 } 0b1101100010111100
+0xd8bd // BranchE1 { cond: 8, imm: 189 } 0b1101100010111101
+0xd8be // BranchE1 { cond: 8, imm: 190 } 0b1101100010111110
+0xd8bf // BranchE1 { cond: 8, imm: 191 } 0b1101100010111111
+0xd8c0 // BranchE1 { cond: 8, imm: 192 } 0b1101100011000000
+0xd8c1 // BranchE1 { cond: 8, imm: 193 } 0b1101100011000001
+0xd8c2 // BranchE1 { cond: 8, imm: 194 } 0b1101100011000010
+0xd8c3 // BranchE1 { cond: 8, imm: 195 } 0b1101100011000011
+0xd8c4 // BranchE1 { cond: 8, imm: 196 } 0b1101100011000100
+0xd8c5 // BranchE1 { cond: 8, imm: 197 } 0b1101100011000101
+0xd8c6 // BranchE1 { cond: 8, imm: 198 } 0b1101100011000110
+0xd8c7 // BranchE1 { cond: 8, imm: 199 } 0b1101100011000111
+0xd8c8 // BranchE1 { cond: 8, imm: 200 } 0b1101100011001000
+0xd8c9 // BranchE1 { cond: 8, imm: 201 } 0b1101100011001001
+0xd8ca // BranchE1 { cond: 8, imm: 202 } 0b1101100011001010
+0xd8cb // BranchE1 { cond: 8, imm: 203 } 0b1101100011001011
+0xd8cc // BranchE1 { cond: 8, imm: 204 } 0b1101100011001100
+0xd8cd // BranchE1 { cond: 8, imm: 205 } 0b1101100011001101
+0xd8ce // BranchE1 { cond: 8, imm: 206 } 0b1101100011001110
+0xd8cf // BranchE1 { cond: 8, imm: 207 } 0b1101100011001111
+0xd8d0 // BranchE1 { cond: 8, imm: 208 } 0b1101100011010000
+0xd8d1 // BranchE1 { cond: 8, imm: 209 } 0b1101100011010001
+0xd8d2 // BranchE1 { cond: 8, imm: 210 } 0b1101100011010010
+0xd8d3 // BranchE1 { cond: 8, imm: 211 } 0b1101100011010011
+0xd8d4 // BranchE1 { cond: 8, imm: 212 } 0b1101100011010100
+0xd8d5 // BranchE1 { cond: 8, imm: 213 } 0b1101100011010101
+0xd8d6 // BranchE1 { cond: 8, imm: 214 } 0b1101100011010110
+0xd8d7 // BranchE1 { cond: 8, imm: 215 } 0b1101100011010111
+0xd8d8 // BranchE1 { cond: 8, imm: 216 } 0b1101100011011000
+0xd8d9 // BranchE1 { cond: 8, imm: 217 } 0b1101100011011001
+0xd8da // BranchE1 { cond: 8, imm: 218 } 0b1101100011011010
+0xd8db // BranchE1 { cond: 8, imm: 219 } 0b1101100011011011
+0xd8dc // BranchE1 { cond: 8, imm: 220 } 0b1101100011011100
+0xd8dd // BranchE1 { cond: 8, imm: 221 } 0b1101100011011101
+0xd8de // BranchE1 { cond: 8, imm: 222 } 0b1101100011011110
+0xd8df // BranchE1 { cond: 8, imm: 223 } 0b1101100011011111
+0xd8e0 // BranchE1 { cond: 8, imm: 224 } 0b1101100011100000
+0xd8e1 // BranchE1 { cond: 8, imm: 225 } 0b1101100011100001
+0xd8e2 // BranchE1 { cond: 8, imm: 226 } 0b1101100011100010
+0xd8e3 // BranchE1 { cond: 8, imm: 227 } 0b1101100011100011
+0xd8e4 // BranchE1 { cond: 8, imm: 228 } 0b1101100011100100
+0xd8e5 // BranchE1 { cond: 8, imm: 229 } 0b1101100011100101
+0xd8e6 // BranchE1 { cond: 8, imm: 230 } 0b1101100011100110
+0xd8e7 // BranchE1 { cond: 8, imm: 231 } 0b1101100011100111
+0xd8e8 // BranchE1 { cond: 8, imm: 232 } 0b1101100011101000
+0xd8e9 // BranchE1 { cond: 8, imm: 233 } 0b1101100011101001
+0xd8ea // BranchE1 { cond: 8, imm: 234 } 0b1101100011101010
+0xd8eb // BranchE1 { cond: 8, imm: 235 } 0b1101100011101011
+0xd8ec // BranchE1 { cond: 8, imm: 236 } 0b1101100011101100
+0xd8ed // BranchE1 { cond: 8, imm: 237 } 0b1101100011101101
+0xd8ee // BranchE1 { cond: 8, imm: 238 } 0b1101100011101110
+0xd8ef // BranchE1 { cond: 8, imm: 239 } 0b1101100011101111
+0xd8f0 // BranchE1 { cond: 8, imm: 240 } 0b1101100011110000
+0xd8f1 // BranchE1 { cond: 8, imm: 241 } 0b1101100011110001
+0xd8f2 // BranchE1 { cond: 8, imm: 242 } 0b1101100011110010
+0xd8f3 // BranchE1 { cond: 8, imm: 243 } 0b1101100011110011
+0xd8f4 // BranchE1 { cond: 8, imm: 244 } 0b1101100011110100
+0xd8f5 // BranchE1 { cond: 8, imm: 245 } 0b1101100011110101
+0xd8f6 // BranchE1 { cond: 8, imm: 246 } 0b1101100011110110
+0xd8f7 // BranchE1 { cond: 8, imm: 247 } 0b1101100011110111
+0xd8f8 // BranchE1 { cond: 8, imm: 248 } 0b1101100011111000
+0xd8f9 // BranchE1 { cond: 8, imm: 249 } 0b1101100011111001
+0xd8fa // BranchE1 { cond: 8, imm: 250 } 0b1101100011111010
+0xd8fb // BranchE1 { cond: 8, imm: 251 } 0b1101100011111011
+0xd8fc // BranchE1 { cond: 8, imm: 252 } 0b1101100011111100
+0xd8fd // BranchE1 { cond: 8, imm: 253 } 0b1101100011111101
+0xd8fe // BranchE1 { cond: 8, imm: 254 } 0b1101100011111110
+0xd8ff // BranchE1 { cond: 8, imm: 255 } 0b1101100011111111
+0xd900 // BranchE1 { cond: 9, imm: 0 } 0b1101100100000000
+0xd901 // BranchE1 { cond: 9, imm: 1 } 0b1101100100000001
+0xd902 // BranchE1 { cond: 9, imm: 2 } 0b1101100100000010
+0xd903 // BranchE1 { cond: 9, imm: 3 } 0b1101100100000011
+0xd904 // BranchE1 { cond: 9, imm: 4 } 0b1101100100000100
+0xd905 // BranchE1 { cond: 9, imm: 5 } 0b1101100100000101
+0xd906 // BranchE1 { cond: 9, imm: 6 } 0b1101100100000110
+0xd907 // BranchE1 { cond: 9, imm: 7 } 0b1101100100000111
+0xd908 // BranchE1 { cond: 9, imm: 8 } 0b1101100100001000
+0xd909 // BranchE1 { cond: 9, imm: 9 } 0b1101100100001001
+0xd90a // BranchE1 { cond: 9, imm: 10 } 0b1101100100001010
+0xd90b // BranchE1 { cond: 9, imm: 11 } 0b1101100100001011
+0xd90c // BranchE1 { cond: 9, imm: 12 } 0b1101100100001100
+0xd90d // BranchE1 { cond: 9, imm: 13 } 0b1101100100001101
+0xd90e // BranchE1 { cond: 9, imm: 14 } 0b1101100100001110
+0xd90f // BranchE1 { cond: 9, imm: 15 } 0b1101100100001111
+0xd910 // BranchE1 { cond: 9, imm: 16 } 0b1101100100010000
+0xd911 // BranchE1 { cond: 9, imm: 17 } 0b1101100100010001
+0xd912 // BranchE1 { cond: 9, imm: 18 } 0b1101100100010010
+0xd913 // BranchE1 { cond: 9, imm: 19 } 0b1101100100010011
+0xd914 // BranchE1 { cond: 9, imm: 20 } 0b1101100100010100
+0xd915 // BranchE1 { cond: 9, imm: 21 } 0b1101100100010101
+0xd916 // BranchE1 { cond: 9, imm: 22 } 0b1101100100010110
+0xd917 // BranchE1 { cond: 9, imm: 23 } 0b1101100100010111
+0xd918 // BranchE1 { cond: 9, imm: 24 } 0b1101100100011000
+0xd919 // BranchE1 { cond: 9, imm: 25 } 0b1101100100011001
+0xd91a // BranchE1 { cond: 9, imm: 26 } 0b1101100100011010
+0xd91b // BranchE1 { cond: 9, imm: 27 } 0b1101100100011011
+0xd91c // BranchE1 { cond: 9, imm: 28 } 0b1101100100011100
+0xd91d // BranchE1 { cond: 9, imm: 29 } 0b1101100100011101
+0xd91e // BranchE1 { cond: 9, imm: 30 } 0b1101100100011110
+0xd91f // BranchE1 { cond: 9, imm: 31 } 0b1101100100011111
+0xd920 // BranchE1 { cond: 9, imm: 32 } 0b1101100100100000
+0xd921 // BranchE1 { cond: 9, imm: 33 } 0b1101100100100001
+0xd922 // BranchE1 { cond: 9, imm: 34 } 0b1101100100100010
+0xd923 // BranchE1 { cond: 9, imm: 35 } 0b1101100100100011
+0xd924 // BranchE1 { cond: 9, imm: 36 } 0b1101100100100100
+0xd925 // BranchE1 { cond: 9, imm: 37 } 0b1101100100100101
+0xd926 // BranchE1 { cond: 9, imm: 38 } 0b1101100100100110
+0xd927 // BranchE1 { cond: 9, imm: 39 } 0b1101100100100111
+0xd928 // BranchE1 { cond: 9, imm: 40 } 0b1101100100101000
+0xd929 // BranchE1 { cond: 9, imm: 41 } 0b1101100100101001
+0xd92a // BranchE1 { cond: 9, imm: 42 } 0b1101100100101010
+0xd92b // BranchE1 { cond: 9, imm: 43 } 0b1101100100101011
+0xd92c // BranchE1 { cond: 9, imm: 44 } 0b1101100100101100
+0xd92d // BranchE1 { cond: 9, imm: 45 } 0b1101100100101101
+0xd92e // BranchE1 { cond: 9, imm: 46 } 0b1101100100101110
+0xd92f // BranchE1 { cond: 9, imm: 47 } 0b1101100100101111
+0xd930 // BranchE1 { cond: 9, imm: 48 } 0b1101100100110000
+0xd931 // BranchE1 { cond: 9, imm: 49 } 0b1101100100110001
+0xd932 // BranchE1 { cond: 9, imm: 50 } 0b1101100100110010
+0xd933 // BranchE1 { cond: 9, imm: 51 } 0b1101100100110011
+0xd934 // BranchE1 { cond: 9, imm: 52 } 0b1101100100110100
+0xd935 // BranchE1 { cond: 9, imm: 53 } 0b1101100100110101
+0xd936 // BranchE1 { cond: 9, imm: 54 } 0b1101100100110110
+0xd937 // BranchE1 { cond: 9, imm: 55 } 0b1101100100110111
+0xd938 // BranchE1 { cond: 9, imm: 56 } 0b1101100100111000
+0xd939 // BranchE1 { cond: 9, imm: 57 } 0b1101100100111001
+0xd93a // BranchE1 { cond: 9, imm: 58 } 0b1101100100111010
+0xd93b // BranchE1 { cond: 9, imm: 59 } 0b1101100100111011
+0xd93c // BranchE1 { cond: 9, imm: 60 } 0b1101100100111100
+0xd93d // BranchE1 { cond: 9, imm: 61 } 0b1101100100111101
+0xd93e // BranchE1 { cond: 9, imm: 62 } 0b1101100100111110
+0xd93f // BranchE1 { cond: 9, imm: 63 } 0b1101100100111111
+0xd940 // BranchE1 { cond: 9, imm: 64 } 0b1101100101000000
+0xd941 // BranchE1 { cond: 9, imm: 65 } 0b1101100101000001
+0xd942 // BranchE1 { cond: 9, imm: 66 } 0b1101100101000010
+0xd943 // BranchE1 { cond: 9, imm: 67 } 0b1101100101000011
+0xd944 // BranchE1 { cond: 9, imm: 68 } 0b1101100101000100
+0xd945 // BranchE1 { cond: 9, imm: 69 } 0b1101100101000101
+0xd946 // BranchE1 { cond: 9, imm: 70 } 0b1101100101000110
+0xd947 // BranchE1 { cond: 9, imm: 71 } 0b1101100101000111
+0xd948 // BranchE1 { cond: 9, imm: 72 } 0b1101100101001000
+0xd949 // BranchE1 { cond: 9, imm: 73 } 0b1101100101001001
+0xd94a // BranchE1 { cond: 9, imm: 74 } 0b1101100101001010
+0xd94b // BranchE1 { cond: 9, imm: 75 } 0b1101100101001011
+0xd94c // BranchE1 { cond: 9, imm: 76 } 0b1101100101001100
+0xd94d // BranchE1 { cond: 9, imm: 77 } 0b1101100101001101
+0xd94e // BranchE1 { cond: 9, imm: 78 } 0b1101100101001110
+0xd94f // BranchE1 { cond: 9, imm: 79 } 0b1101100101001111
+0xd950 // BranchE1 { cond: 9, imm: 80 } 0b1101100101010000
+0xd951 // BranchE1 { cond: 9, imm: 81 } 0b1101100101010001
+0xd952 // BranchE1 { cond: 9, imm: 82 } 0b1101100101010010
+0xd953 // BranchE1 { cond: 9, imm: 83 } 0b1101100101010011
+0xd954 // BranchE1 { cond: 9, imm: 84 } 0b1101100101010100
+0xd955 // BranchE1 { cond: 9, imm: 85 } 0b1101100101010101
+0xd956 // BranchE1 { cond: 9, imm: 86 } 0b1101100101010110
+0xd957 // BranchE1 { cond: 9, imm: 87 } 0b1101100101010111
+0xd958 // BranchE1 { cond: 9, imm: 88 } 0b1101100101011000
+0xd959 // BranchE1 { cond: 9, imm: 89 } 0b1101100101011001
+0xd95a // BranchE1 { cond: 9, imm: 90 } 0b1101100101011010
+0xd95b // BranchE1 { cond: 9, imm: 91 } 0b1101100101011011
+0xd95c // BranchE1 { cond: 9, imm: 92 } 0b1101100101011100
+0xd95d // BranchE1 { cond: 9, imm: 93 } 0b1101100101011101
+0xd95e // BranchE1 { cond: 9, imm: 94 } 0b1101100101011110
+0xd95f // BranchE1 { cond: 9, imm: 95 } 0b1101100101011111
+0xd960 // BranchE1 { cond: 9, imm: 96 } 0b1101100101100000
+0xd961 // BranchE1 { cond: 9, imm: 97 } 0b1101100101100001
+0xd962 // BranchE1 { cond: 9, imm: 98 } 0b1101100101100010
+0xd963 // BranchE1 { cond: 9, imm: 99 } 0b1101100101100011
+0xd964 // BranchE1 { cond: 9, imm: 100 } 0b1101100101100100
+0xd965 // BranchE1 { cond: 9, imm: 101 } 0b1101100101100101
+0xd966 // BranchE1 { cond: 9, imm: 102 } 0b1101100101100110
+0xd967 // BranchE1 { cond: 9, imm: 103 } 0b1101100101100111
+0xd968 // BranchE1 { cond: 9, imm: 104 } 0b1101100101101000
+0xd969 // BranchE1 { cond: 9, imm: 105 } 0b1101100101101001
+0xd96a // BranchE1 { cond: 9, imm: 106 } 0b1101100101101010
+0xd96b // BranchE1 { cond: 9, imm: 107 } 0b1101100101101011
+0xd96c // BranchE1 { cond: 9, imm: 108 } 0b1101100101101100
+0xd96d // BranchE1 { cond: 9, imm: 109 } 0b1101100101101101
+0xd96e // BranchE1 { cond: 9, imm: 110 } 0b1101100101101110
+0xd96f // BranchE1 { cond: 9, imm: 111 } 0b1101100101101111
+0xd970 // BranchE1 { cond: 9, imm: 112 } 0b1101100101110000
+0xd971 // BranchE1 { cond: 9, imm: 113 } 0b1101100101110001
+0xd972 // BranchE1 { cond: 9, imm: 114 } 0b1101100101110010
+0xd973 // BranchE1 { cond: 9, imm: 115 } 0b1101100101110011
+0xd974 // BranchE1 { cond: 9, imm: 116 } 0b1101100101110100
+0xd975 // BranchE1 { cond: 9, imm: 117 } 0b1101100101110101
+0xd976 // BranchE1 { cond: 9, imm: 118 } 0b1101100101110110
+0xd977 // BranchE1 { cond: 9, imm: 119 } 0b1101100101110111
+0xd978 // BranchE1 { cond: 9, imm: 120 } 0b1101100101111000
+0xd979 // BranchE1 { cond: 9, imm: 121 } 0b1101100101111001
+0xd97a // BranchE1 { cond: 9, imm: 122 } 0b1101100101111010
+0xd97b // BranchE1 { cond: 9, imm: 123 } 0b1101100101111011
+0xd97c // BranchE1 { cond: 9, imm: 124 } 0b1101100101111100
+0xd97d // BranchE1 { cond: 9, imm: 125 } 0b1101100101111101
+0xd97e // BranchE1 { cond: 9, imm: 126 } 0b1101100101111110
+0xd97f // BranchE1 { cond: 9, imm: 127 } 0b1101100101111111
+0xd980 // BranchE1 { cond: 9, imm: 128 } 0b1101100110000000
+0xd981 // BranchE1 { cond: 9, imm: 129 } 0b1101100110000001
+0xd982 // BranchE1 { cond: 9, imm: 130 } 0b1101100110000010
+0xd983 // BranchE1 { cond: 9, imm: 131 } 0b1101100110000011
+0xd984 // BranchE1 { cond: 9, imm: 132 } 0b1101100110000100
+0xd985 // BranchE1 { cond: 9, imm: 133 } 0b1101100110000101
+0xd986 // BranchE1 { cond: 9, imm: 134 } 0b1101100110000110
+0xd987 // BranchE1 { cond: 9, imm: 135 } 0b1101100110000111
+0xd988 // BranchE1 { cond: 9, imm: 136 } 0b1101100110001000
+0xd989 // BranchE1 { cond: 9, imm: 137 } 0b1101100110001001
+0xd98a // BranchE1 { cond: 9, imm: 138 } 0b1101100110001010
+0xd98b // BranchE1 { cond: 9, imm: 139 } 0b1101100110001011
+0xd98c // BranchE1 { cond: 9, imm: 140 } 0b1101100110001100
+0xd98d // BranchE1 { cond: 9, imm: 141 } 0b1101100110001101
+0xd98e // BranchE1 { cond: 9, imm: 142 } 0b1101100110001110
+0xd98f // BranchE1 { cond: 9, imm: 143 } 0b1101100110001111
+0xd990 // BranchE1 { cond: 9, imm: 144 } 0b1101100110010000
+0xd991 // BranchE1 { cond: 9, imm: 145 } 0b1101100110010001
+0xd992 // BranchE1 { cond: 9, imm: 146 } 0b1101100110010010
+0xd993 // BranchE1 { cond: 9, imm: 147 } 0b1101100110010011
+0xd994 // BranchE1 { cond: 9, imm: 148 } 0b1101100110010100
+0xd995 // BranchE1 { cond: 9, imm: 149 } 0b1101100110010101
+0xd996 // BranchE1 { cond: 9, imm: 150 } 0b1101100110010110
+0xd997 // BranchE1 { cond: 9, imm: 151 } 0b1101100110010111
+0xd998 // BranchE1 { cond: 9, imm: 152 } 0b1101100110011000
+0xd999 // BranchE1 { cond: 9, imm: 153 } 0b1101100110011001
+0xd99a // BranchE1 { cond: 9, imm: 154 } 0b1101100110011010
+0xd99b // BranchE1 { cond: 9, imm: 155 } 0b1101100110011011
+0xd99c // BranchE1 { cond: 9, imm: 156 } 0b1101100110011100
+0xd99d // BranchE1 { cond: 9, imm: 157 } 0b1101100110011101
+0xd99e // BranchE1 { cond: 9, imm: 158 } 0b1101100110011110
+0xd99f // BranchE1 { cond: 9, imm: 159 } 0b1101100110011111
+0xd9a0 // BranchE1 { cond: 9, imm: 160 } 0b1101100110100000
+0xd9a1 // BranchE1 { cond: 9, imm: 161 } 0b1101100110100001
+0xd9a2 // BranchE1 { cond: 9, imm: 162 } 0b1101100110100010
+0xd9a3 // BranchE1 { cond: 9, imm: 163 } 0b1101100110100011
+0xd9a4 // BranchE1 { cond: 9, imm: 164 } 0b1101100110100100
+0xd9a5 // BranchE1 { cond: 9, imm: 165 } 0b1101100110100101
+0xd9a6 // BranchE1 { cond: 9, imm: 166 } 0b1101100110100110
+0xd9a7 // BranchE1 { cond: 9, imm: 167 } 0b1101100110100111
+0xd9a8 // BranchE1 { cond: 9, imm: 168 } 0b1101100110101000
+0xd9a9 // BranchE1 { cond: 9, imm: 169 } 0b1101100110101001
+0xd9aa // BranchE1 { cond: 9, imm: 170 } 0b1101100110101010
+0xd9ab // BranchE1 { cond: 9, imm: 171 } 0b1101100110101011
+0xd9ac // BranchE1 { cond: 9, imm: 172 } 0b1101100110101100
+0xd9ad // BranchE1 { cond: 9, imm: 173 } 0b1101100110101101
+0xd9ae // BranchE1 { cond: 9, imm: 174 } 0b1101100110101110
+0xd9af // BranchE1 { cond: 9, imm: 175 } 0b1101100110101111
+0xd9b0 // BranchE1 { cond: 9, imm: 176 } 0b1101100110110000
+0xd9b1 // BranchE1 { cond: 9, imm: 177 } 0b1101100110110001
+0xd9b2 // BranchE1 { cond: 9, imm: 178 } 0b1101100110110010
+0xd9b3 // BranchE1 { cond: 9, imm: 179 } 0b1101100110110011
+0xd9b4 // BranchE1 { cond: 9, imm: 180 } 0b1101100110110100
+0xd9b5 // BranchE1 { cond: 9, imm: 181 } 0b1101100110110101
+0xd9b6 // BranchE1 { cond: 9, imm: 182 } 0b1101100110110110
+0xd9b7 // BranchE1 { cond: 9, imm: 183 } 0b1101100110110111
+0xd9b8 // BranchE1 { cond: 9, imm: 184 } 0b1101100110111000
+0xd9b9 // BranchE1 { cond: 9, imm: 185 } 0b1101100110111001
+0xd9ba // BranchE1 { cond: 9, imm: 186 } 0b1101100110111010
+0xd9bb // BranchE1 { cond: 9, imm: 187 } 0b1101100110111011
+0xd9bc // BranchE1 { cond: 9, imm: 188 } 0b1101100110111100
+0xd9bd // BranchE1 { cond: 9, imm: 189 } 0b1101100110111101
+0xd9be // BranchE1 { cond: 9, imm: 190 } 0b1101100110111110
+0xd9bf // BranchE1 { cond: 9, imm: 191 } 0b1101100110111111
+0xd9c0 // BranchE1 { cond: 9, imm: 192 } 0b1101100111000000
+0xd9c1 // BranchE1 { cond: 9, imm: 193 } 0b1101100111000001
+0xd9c2 // BranchE1 { cond: 9, imm: 194 } 0b1101100111000010
+0xd9c3 // BranchE1 { cond: 9, imm: 195 } 0b1101100111000011
+0xd9c4 // BranchE1 { cond: 9, imm: 196 } 0b1101100111000100
+0xd9c5 // BranchE1 { cond: 9, imm: 197 } 0b1101100111000101
+0xd9c6 // BranchE1 { cond: 9, imm: 198 } 0b1101100111000110
+0xd9c7 // BranchE1 { cond: 9, imm: 199 } 0b1101100111000111
+0xd9c8 // BranchE1 { cond: 9, imm: 200 } 0b1101100111001000
+0xd9c9 // BranchE1 { cond: 9, imm: 201 } 0b1101100111001001
+0xd9ca // BranchE1 { cond: 9, imm: 202 } 0b1101100111001010
+0xd9cb // BranchE1 { cond: 9, imm: 203 } 0b1101100111001011
+0xd9cc // BranchE1 { cond: 9, imm: 204 } 0b1101100111001100
+0xd9cd // BranchE1 { cond: 9, imm: 205 } 0b1101100111001101
+0xd9ce // BranchE1 { cond: 9, imm: 206 } 0b1101100111001110
+0xd9cf // BranchE1 { cond: 9, imm: 207 } 0b1101100111001111
+0xd9d0 // BranchE1 { cond: 9, imm: 208 } 0b1101100111010000
+0xd9d1 // BranchE1 { cond: 9, imm: 209 } 0b1101100111010001
+0xd9d2 // BranchE1 { cond: 9, imm: 210 } 0b1101100111010010
+0xd9d3 // BranchE1 { cond: 9, imm: 211 } 0b1101100111010011
+0xd9d4 // BranchE1 { cond: 9, imm: 212 } 0b1101100111010100
+0xd9d5 // BranchE1 { cond: 9, imm: 213 } 0b1101100111010101
+0xd9d6 // BranchE1 { cond: 9, imm: 214 } 0b1101100111010110
+0xd9d7 // BranchE1 { cond: 9, imm: 215 } 0b1101100111010111
+0xd9d8 // BranchE1 { cond: 9, imm: 216 } 0b1101100111011000
+0xd9d9 // BranchE1 { cond: 9, imm: 217 } 0b1101100111011001
+0xd9da // BranchE1 { cond: 9, imm: 218 } 0b1101100111011010
+0xd9db // BranchE1 { cond: 9, imm: 219 } 0b1101100111011011
+0xd9dc // BranchE1 { cond: 9, imm: 220 } 0b1101100111011100
+0xd9dd // BranchE1 { cond: 9, imm: 221 } 0b1101100111011101
+0xd9de // BranchE1 { cond: 9, imm: 222 } 0b1101100111011110
+0xd9df // BranchE1 { cond: 9, imm: 223 } 0b1101100111011111
+0xd9e0 // BranchE1 { cond: 9, imm: 224 } 0b1101100111100000
+0xd9e1 // BranchE1 { cond: 9, imm: 225 } 0b1101100111100001
+0xd9e2 // BranchE1 { cond: 9, imm: 226 } 0b1101100111100010
+0xd9e3 // BranchE1 { cond: 9, imm: 227 } 0b1101100111100011
+0xd9e4 // BranchE1 { cond: 9, imm: 228 } 0b1101100111100100
+0xd9e5 // BranchE1 { cond: 9, imm: 229 } 0b1101100111100101
+0xd9e6 // BranchE1 { cond: 9, imm: 230 } 0b1101100111100110
+0xd9e7 // BranchE1 { cond: 9, imm: 231 } 0b1101100111100111
+0xd9e8 // BranchE1 { cond: 9, imm: 232 } 0b1101100111101000
+0xd9e9 // BranchE1 { cond: 9, imm: 233 } 0b1101100111101001
+0xd9ea // BranchE1 { cond: 9, imm: 234 } 0b1101100111101010
+0xd9eb // BranchE1 { cond: 9, imm: 235 } 0b1101100111101011
+0xd9ec // BranchE1 { cond: 9, imm: 236 } 0b1101100111101100
+0xd9ed // BranchE1 { cond: 9, imm: 237 } 0b1101100111101101
+0xd9ee // BranchE1 { cond: 9, imm: 238 } 0b1101100111101110
+0xd9ef // BranchE1 { cond: 9, imm: 239 } 0b1101100111101111
+0xd9f0 // BranchE1 { cond: 9, imm: 240 } 0b1101100111110000
+0xd9f1 // BranchE1 { cond: 9, imm: 241 } 0b1101100111110001
+0xd9f2 // BranchE1 { cond: 9, imm: 242 } 0b1101100111110010
+0xd9f3 // BranchE1 { cond: 9, imm: 243 } 0b1101100111110011
+0xd9f4 // BranchE1 { cond: 9, imm: 244 } 0b1101100111110100
+0xd9f5 // BranchE1 { cond: 9, imm: 245 } 0b1101100111110101
+0xd9f6 // BranchE1 { cond: 9, imm: 246 } 0b1101100111110110
+0xd9f7 // BranchE1 { cond: 9, imm: 247 } 0b1101100111110111
+0xd9f8 // BranchE1 { cond: 9, imm: 248 } 0b1101100111111000
+0xd9f9 // BranchE1 { cond: 9, imm: 249 } 0b1101100111111001
+0xd9fa // BranchE1 { cond: 9, imm: 250 } 0b1101100111111010
+0xd9fb // BranchE1 { cond: 9, imm: 251 } 0b1101100111111011
+0xd9fc // BranchE1 { cond: 9, imm: 252 } 0b1101100111111100
+0xd9fd // BranchE1 { cond: 9, imm: 253 } 0b1101100111111101
+0xd9fe // BranchE1 { cond: 9, imm: 254 } 0b1101100111111110
+0xd9ff // BranchE1 { cond: 9, imm: 255 } 0b1101100111111111
+0xda00 // BranchE1 { cond: 10, imm: 0 } 0b1101101000000000
+0xda01 // BranchE1 { cond: 10, imm: 1 } 0b1101101000000001
+0xda02 // BranchE1 { cond: 10, imm: 2 } 0b1101101000000010
+0xda03 // BranchE1 { cond: 10, imm: 3 } 0b1101101000000011
+0xda04 // BranchE1 { cond: 10, imm: 4 } 0b1101101000000100
+0xda05 // BranchE1 { cond: 10, imm: 5 } 0b1101101000000101
+0xda06 // BranchE1 { cond: 10, imm: 6 } 0b1101101000000110
+0xda07 // BranchE1 { cond: 10, imm: 7 } 0b1101101000000111
+0xda08 // BranchE1 { cond: 10, imm: 8 } 0b1101101000001000
+0xda09 // BranchE1 { cond: 10, imm: 9 } 0b1101101000001001
+0xda0a // BranchE1 { cond: 10, imm: 10 } 0b1101101000001010
+0xda0b // BranchE1 { cond: 10, imm: 11 } 0b1101101000001011
+0xda0c // BranchE1 { cond: 10, imm: 12 } 0b1101101000001100
+0xda0d // BranchE1 { cond: 10, imm: 13 } 0b1101101000001101
+0xda0e // BranchE1 { cond: 10, imm: 14 } 0b1101101000001110
+0xda0f // BranchE1 { cond: 10, imm: 15 } 0b1101101000001111
+0xda10 // BranchE1 { cond: 10, imm: 16 } 0b1101101000010000
+0xda11 // BranchE1 { cond: 10, imm: 17 } 0b1101101000010001
+0xda12 // BranchE1 { cond: 10, imm: 18 } 0b1101101000010010
+0xda13 // BranchE1 { cond: 10, imm: 19 } 0b1101101000010011
+0xda14 // BranchE1 { cond: 10, imm: 20 } 0b1101101000010100
+0xda15 // BranchE1 { cond: 10, imm: 21 } 0b1101101000010101
+0xda16 // BranchE1 { cond: 10, imm: 22 } 0b1101101000010110
+0xda17 // BranchE1 { cond: 10, imm: 23 } 0b1101101000010111
+0xda18 // BranchE1 { cond: 10, imm: 24 } 0b1101101000011000
+0xda19 // BranchE1 { cond: 10, imm: 25 } 0b1101101000011001
+0xda1a // BranchE1 { cond: 10, imm: 26 } 0b1101101000011010
+0xda1b // BranchE1 { cond: 10, imm: 27 } 0b1101101000011011
+0xda1c // BranchE1 { cond: 10, imm: 28 } 0b1101101000011100
+0xda1d // BranchE1 { cond: 10, imm: 29 } 0b1101101000011101
+0xda1e // BranchE1 { cond: 10, imm: 30 } 0b1101101000011110
+0xda1f // BranchE1 { cond: 10, imm: 31 } 0b1101101000011111
+0xda20 // BranchE1 { cond: 10, imm: 32 } 0b1101101000100000
+0xda21 // BranchE1 { cond: 10, imm: 33 } 0b1101101000100001
+0xda22 // BranchE1 { cond: 10, imm: 34 } 0b1101101000100010
+0xda23 // BranchE1 { cond: 10, imm: 35 } 0b1101101000100011
+0xda24 // BranchE1 { cond: 10, imm: 36 } 0b1101101000100100
+0xda25 // BranchE1 { cond: 10, imm: 37 } 0b1101101000100101
+0xda26 // BranchE1 { cond: 10, imm: 38 } 0b1101101000100110
+0xda27 // BranchE1 { cond: 10, imm: 39 } 0b1101101000100111
+0xda28 // BranchE1 { cond: 10, imm: 40 } 0b1101101000101000
+0xda29 // BranchE1 { cond: 10, imm: 41 } 0b1101101000101001
+0xda2a // BranchE1 { cond: 10, imm: 42 } 0b1101101000101010
+0xda2b // BranchE1 { cond: 10, imm: 43 } 0b1101101000101011
+0xda2c // BranchE1 { cond: 10, imm: 44 } 0b1101101000101100
+0xda2d // BranchE1 { cond: 10, imm: 45 } 0b1101101000101101
+0xda2e // BranchE1 { cond: 10, imm: 46 } 0b1101101000101110
+0xda2f // BranchE1 { cond: 10, imm: 47 } 0b1101101000101111
+0xda30 // BranchE1 { cond: 10, imm: 48 } 0b1101101000110000
+0xda31 // BranchE1 { cond: 10, imm: 49 } 0b1101101000110001
+0xda32 // BranchE1 { cond: 10, imm: 50 } 0b1101101000110010
+0xda33 // BranchE1 { cond: 10, imm: 51 } 0b1101101000110011
+0xda34 // BranchE1 { cond: 10, imm: 52 } 0b1101101000110100
+0xda35 // BranchE1 { cond: 10, imm: 53 } 0b1101101000110101
+0xda36 // BranchE1 { cond: 10, imm: 54 } 0b1101101000110110
+0xda37 // BranchE1 { cond: 10, imm: 55 } 0b1101101000110111
+0xda38 // BranchE1 { cond: 10, imm: 56 } 0b1101101000111000
+0xda39 // BranchE1 { cond: 10, imm: 57 } 0b1101101000111001
+0xda3a // BranchE1 { cond: 10, imm: 58 } 0b1101101000111010
+0xda3b // BranchE1 { cond: 10, imm: 59 } 0b1101101000111011
+0xda3c // BranchE1 { cond: 10, imm: 60 } 0b1101101000111100
+0xda3d // BranchE1 { cond: 10, imm: 61 } 0b1101101000111101
+0xda3e // BranchE1 { cond: 10, imm: 62 } 0b1101101000111110
+0xda3f // BranchE1 { cond: 10, imm: 63 } 0b1101101000111111
+0xda40 // BranchE1 { cond: 10, imm: 64 } 0b1101101001000000
+0xda41 // BranchE1 { cond: 10, imm: 65 } 0b1101101001000001
+0xda42 // BranchE1 { cond: 10, imm: 66 } 0b1101101001000010
+0xda43 // BranchE1 { cond: 10, imm: 67 } 0b1101101001000011
+0xda44 // BranchE1 { cond: 10, imm: 68 } 0b1101101001000100
+0xda45 // BranchE1 { cond: 10, imm: 69 } 0b1101101001000101
+0xda46 // BranchE1 { cond: 10, imm: 70 } 0b1101101001000110
+0xda47 // BranchE1 { cond: 10, imm: 71 } 0b1101101001000111
+0xda48 // BranchE1 { cond: 10, imm: 72 } 0b1101101001001000
+0xda49 // BranchE1 { cond: 10, imm: 73 } 0b1101101001001001
+0xda4a // BranchE1 { cond: 10, imm: 74 } 0b1101101001001010
+0xda4b // BranchE1 { cond: 10, imm: 75 } 0b1101101001001011
+0xda4c // BranchE1 { cond: 10, imm: 76 } 0b1101101001001100
+0xda4d // BranchE1 { cond: 10, imm: 77 } 0b1101101001001101
+0xda4e // BranchE1 { cond: 10, imm: 78 } 0b1101101001001110
+0xda4f // BranchE1 { cond: 10, imm: 79 } 0b1101101001001111
+0xda50 // BranchE1 { cond: 10, imm: 80 } 0b1101101001010000
+0xda51 // BranchE1 { cond: 10, imm: 81 } 0b1101101001010001
+0xda52 // BranchE1 { cond: 10, imm: 82 } 0b1101101001010010
+0xda53 // BranchE1 { cond: 10, imm: 83 } 0b1101101001010011
+0xda54 // BranchE1 { cond: 10, imm: 84 } 0b1101101001010100
+0xda55 // BranchE1 { cond: 10, imm: 85 } 0b1101101001010101
+0xda56 // BranchE1 { cond: 10, imm: 86 } 0b1101101001010110
+0xda57 // BranchE1 { cond: 10, imm: 87 } 0b1101101001010111
+0xda58 // BranchE1 { cond: 10, imm: 88 } 0b1101101001011000
+0xda59 // BranchE1 { cond: 10, imm: 89 } 0b1101101001011001
+0xda5a // BranchE1 { cond: 10, imm: 90 } 0b1101101001011010
+0xda5b // BranchE1 { cond: 10, imm: 91 } 0b1101101001011011
+0xda5c // BranchE1 { cond: 10, imm: 92 } 0b1101101001011100
+0xda5d // BranchE1 { cond: 10, imm: 93 } 0b1101101001011101
+0xda5e // BranchE1 { cond: 10, imm: 94 } 0b1101101001011110
+0xda5f // BranchE1 { cond: 10, imm: 95 } 0b1101101001011111
+0xda60 // BranchE1 { cond: 10, imm: 96 } 0b1101101001100000
+0xda61 // BranchE1 { cond: 10, imm: 97 } 0b1101101001100001
+0xda62 // BranchE1 { cond: 10, imm: 98 } 0b1101101001100010
+0xda63 // BranchE1 { cond: 10, imm: 99 } 0b1101101001100011
+0xda64 // BranchE1 { cond: 10, imm: 100 } 0b1101101001100100
+0xda65 // BranchE1 { cond: 10, imm: 101 } 0b1101101001100101
+0xda66 // BranchE1 { cond: 10, imm: 102 } 0b1101101001100110
+0xda67 // BranchE1 { cond: 10, imm: 103 } 0b1101101001100111
+0xda68 // BranchE1 { cond: 10, imm: 104 } 0b1101101001101000
+0xda69 // BranchE1 { cond: 10, imm: 105 } 0b1101101001101001
+0xda6a // BranchE1 { cond: 10, imm: 106 } 0b1101101001101010
+0xda6b // BranchE1 { cond: 10, imm: 107 } 0b1101101001101011
+0xda6c // BranchE1 { cond: 10, imm: 108 } 0b1101101001101100
+0xda6d // BranchE1 { cond: 10, imm: 109 } 0b1101101001101101
+0xda6e // BranchE1 { cond: 10, imm: 110 } 0b1101101001101110
+0xda6f // BranchE1 { cond: 10, imm: 111 } 0b1101101001101111
+0xda70 // BranchE1 { cond: 10, imm: 112 } 0b1101101001110000
+0xda71 // BranchE1 { cond: 10, imm: 113 } 0b1101101001110001
+0xda72 // BranchE1 { cond: 10, imm: 114 } 0b1101101001110010
+0xda73 // BranchE1 { cond: 10, imm: 115 } 0b1101101001110011
+0xda74 // BranchE1 { cond: 10, imm: 116 } 0b1101101001110100
+0xda75 // BranchE1 { cond: 10, imm: 117 } 0b1101101001110101
+0xda76 // BranchE1 { cond: 10, imm: 118 } 0b1101101001110110
+0xda77 // BranchE1 { cond: 10, imm: 119 } 0b1101101001110111
+0xda78 // BranchE1 { cond: 10, imm: 120 } 0b1101101001111000
+0xda79 // BranchE1 { cond: 10, imm: 121 } 0b1101101001111001
+0xda7a // BranchE1 { cond: 10, imm: 122 } 0b1101101001111010
+0xda7b // BranchE1 { cond: 10, imm: 123 } 0b1101101001111011
+0xda7c // BranchE1 { cond: 10, imm: 124 } 0b1101101001111100
+0xda7d // BranchE1 { cond: 10, imm: 125 } 0b1101101001111101
+0xda7e // BranchE1 { cond: 10, imm: 126 } 0b1101101001111110
+0xda7f // BranchE1 { cond: 10, imm: 127 } 0b1101101001111111
+0xda80 // BranchE1 { cond: 10, imm: 128 } 0b1101101010000000
+0xda81 // BranchE1 { cond: 10, imm: 129 } 0b1101101010000001
+0xda82 // BranchE1 { cond: 10, imm: 130 } 0b1101101010000010
+0xda83 // BranchE1 { cond: 10, imm: 131 } 0b1101101010000011
+0xda84 // BranchE1 { cond: 10, imm: 132 } 0b1101101010000100
+0xda85 // BranchE1 { cond: 10, imm: 133 } 0b1101101010000101
+0xda86 // BranchE1 { cond: 10, imm: 134 } 0b1101101010000110
+0xda87 // BranchE1 { cond: 10, imm: 135 } 0b1101101010000111
+0xda88 // BranchE1 { cond: 10, imm: 136 } 0b1101101010001000
+0xda89 // BranchE1 { cond: 10, imm: 137 } 0b1101101010001001
+0xda8a // BranchE1 { cond: 10, imm: 138 } 0b1101101010001010
+0xda8b // BranchE1 { cond: 10, imm: 139 } 0b1101101010001011
+0xda8c // BranchE1 { cond: 10, imm: 140 } 0b1101101010001100
+0xda8d // BranchE1 { cond: 10, imm: 141 } 0b1101101010001101
+0xda8e // BranchE1 { cond: 10, imm: 142 } 0b1101101010001110
+0xda8f // BranchE1 { cond: 10, imm: 143 } 0b1101101010001111
+0xda90 // BranchE1 { cond: 10, imm: 144 } 0b1101101010010000
+0xda91 // BranchE1 { cond: 10, imm: 145 } 0b1101101010010001
+0xda92 // BranchE1 { cond: 10, imm: 146 } 0b1101101010010010
+0xda93 // BranchE1 { cond: 10, imm: 147 } 0b1101101010010011
+0xda94 // BranchE1 { cond: 10, imm: 148 } 0b1101101010010100
+0xda95 // BranchE1 { cond: 10, imm: 149 } 0b1101101010010101
+0xda96 // BranchE1 { cond: 10, imm: 150 } 0b1101101010010110
+0xda97 // BranchE1 { cond: 10, imm: 151 } 0b1101101010010111
+0xda98 // BranchE1 { cond: 10, imm: 152 } 0b1101101010011000
+0xda99 // BranchE1 { cond: 10, imm: 153 } 0b1101101010011001
+0xda9a // BranchE1 { cond: 10, imm: 154 } 0b1101101010011010
+0xda9b // BranchE1 { cond: 10, imm: 155 } 0b1101101010011011
+0xda9c // BranchE1 { cond: 10, imm: 156 } 0b1101101010011100
+0xda9d // BranchE1 { cond: 10, imm: 157 } 0b1101101010011101
+0xda9e // BranchE1 { cond: 10, imm: 158 } 0b1101101010011110
+0xda9f // BranchE1 { cond: 10, imm: 159 } 0b1101101010011111
+0xdaa0 // BranchE1 { cond: 10, imm: 160 } 0b1101101010100000
+0xdaa1 // BranchE1 { cond: 10, imm: 161 } 0b1101101010100001
+0xdaa2 // BranchE1 { cond: 10, imm: 162 } 0b1101101010100010
+0xdaa3 // BranchE1 { cond: 10, imm: 163 } 0b1101101010100011
+0xdaa4 // BranchE1 { cond: 10, imm: 164 } 0b1101101010100100
+0xdaa5 // BranchE1 { cond: 10, imm: 165 } 0b1101101010100101
+0xdaa6 // BranchE1 { cond: 10, imm: 166 } 0b1101101010100110
+0xdaa7 // BranchE1 { cond: 10, imm: 167 } 0b1101101010100111
+0xdaa8 // BranchE1 { cond: 10, imm: 168 } 0b1101101010101000
+0xdaa9 // BranchE1 { cond: 10, imm: 169 } 0b1101101010101001
+0xdaaa // BranchE1 { cond: 10, imm: 170 } 0b1101101010101010
+0xdaab // BranchE1 { cond: 10, imm: 171 } 0b1101101010101011
+0xdaac // BranchE1 { cond: 10, imm: 172 } 0b1101101010101100
+0xdaad // BranchE1 { cond: 10, imm: 173 } 0b1101101010101101
+0xdaae // BranchE1 { cond: 10, imm: 174 } 0b1101101010101110
+0xdaaf // BranchE1 { cond: 10, imm: 175 } 0b1101101010101111
+0xdab0 // BranchE1 { cond: 10, imm: 176 } 0b1101101010110000
+0xdab1 // BranchE1 { cond: 10, imm: 177 } 0b1101101010110001
+0xdab2 // BranchE1 { cond: 10, imm: 178 } 0b1101101010110010
+0xdab3 // BranchE1 { cond: 10, imm: 179 } 0b1101101010110011
+0xdab4 // BranchE1 { cond: 10, imm: 180 } 0b1101101010110100
+0xdab5 // BranchE1 { cond: 10, imm: 181 } 0b1101101010110101
+0xdab6 // BranchE1 { cond: 10, imm: 182 } 0b1101101010110110
+0xdab7 // BranchE1 { cond: 10, imm: 183 } 0b1101101010110111
+0xdab8 // BranchE1 { cond: 10, imm: 184 } 0b1101101010111000
+0xdab9 // BranchE1 { cond: 10, imm: 185 } 0b1101101010111001
+0xdaba // BranchE1 { cond: 10, imm: 186 } 0b1101101010111010
+0xdabb // BranchE1 { cond: 10, imm: 187 } 0b1101101010111011
+0xdabc // BranchE1 { cond: 10, imm: 188 } 0b1101101010111100
+0xdabd // BranchE1 { cond: 10, imm: 189 } 0b1101101010111101
+0xdabe // BranchE1 { cond: 10, imm: 190 } 0b1101101010111110
+0xdabf // BranchE1 { cond: 10, imm: 191 } 0b1101101010111111
+0xdac0 // BranchE1 { cond: 10, imm: 192 } 0b1101101011000000
+0xdac1 // BranchE1 { cond: 10, imm: 193 } 0b1101101011000001
+0xdac2 // BranchE1 { cond: 10, imm: 194 } 0b1101101011000010
+0xdac3 // BranchE1 { cond: 10, imm: 195 } 0b1101101011000011
+0xdac4 // BranchE1 { cond: 10, imm: 196 } 0b1101101011000100
+0xdac5 // BranchE1 { cond: 10, imm: 197 } 0b1101101011000101
+0xdac6 // BranchE1 { cond: 10, imm: 198 } 0b1101101011000110
+0xdac7 // BranchE1 { cond: 10, imm: 199 } 0b1101101011000111
+0xdac8 // BranchE1 { cond: 10, imm: 200 } 0b1101101011001000
+0xdac9 // BranchE1 { cond: 10, imm: 201 } 0b1101101011001001
+0xdaca // BranchE1 { cond: 10, imm: 202 } 0b1101101011001010
+0xdacb // BranchE1 { cond: 10, imm: 203 } 0b1101101011001011
+0xdacc // BranchE1 { cond: 10, imm: 204 } 0b1101101011001100
+0xdacd // BranchE1 { cond: 10, imm: 205 } 0b1101101011001101
+0xdace // BranchE1 { cond: 10, imm: 206 } 0b1101101011001110
+0xdacf // BranchE1 { cond: 10, imm: 207 } 0b1101101011001111
+0xdad0 // BranchE1 { cond: 10, imm: 208 } 0b1101101011010000
+0xdad1 // BranchE1 { cond: 10, imm: 209 } 0b1101101011010001
+0xdad2 // BranchE1 { cond: 10, imm: 210 } 0b1101101011010010
+0xdad3 // BranchE1 { cond: 10, imm: 211 } 0b1101101011010011
+0xdad4 // BranchE1 { cond: 10, imm: 212 } 0b1101101011010100
+0xdad5 // BranchE1 { cond: 10, imm: 213 } 0b1101101011010101
+0xdad6 // BranchE1 { cond: 10, imm: 214 } 0b1101101011010110
+0xdad7 // BranchE1 { cond: 10, imm: 215 } 0b1101101011010111
+0xdad8 // BranchE1 { cond: 10, imm: 216 } 0b1101101011011000
+0xdad9 // BranchE1 { cond: 10, imm: 217 } 0b1101101011011001
+0xdada // BranchE1 { cond: 10, imm: 218 } 0b1101101011011010
+0xdadb // BranchE1 { cond: 10, imm: 219 } 0b1101101011011011
+0xdadc // BranchE1 { cond: 10, imm: 220 } 0b1101101011011100
+0xdadd // BranchE1 { cond: 10, imm: 221 } 0b1101101011011101
+0xdade // BranchE1 { cond: 10, imm: 222 } 0b1101101011011110
+0xdadf // BranchE1 { cond: 10, imm: 223 } 0b1101101011011111
+0xdae0 // BranchE1 { cond: 10, imm: 224 } 0b1101101011100000
+0xdae1 // BranchE1 { cond: 10, imm: 225 } 0b1101101011100001
+0xdae2 // BranchE1 { cond: 10, imm: 226 } 0b1101101011100010
+0xdae3 // BranchE1 { cond: 10, imm: 227 } 0b1101101011100011
+0xdae4 // BranchE1 { cond: 10, imm: 228 } 0b1101101011100100
+0xdae5 // BranchE1 { cond: 10, imm: 229 } 0b1101101011100101
+0xdae6 // BranchE1 { cond: 10, imm: 230 } 0b1101101011100110
+0xdae7 // BranchE1 { cond: 10, imm: 231 } 0b1101101011100111
+0xdae8 // BranchE1 { cond: 10, imm: 232 } 0b1101101011101000
+0xdae9 // BranchE1 { cond: 10, imm: 233 } 0b1101101011101001
+0xdaea // BranchE1 { cond: 10, imm: 234 } 0b1101101011101010
+0xdaeb // BranchE1 { cond: 10, imm: 235 } 0b1101101011101011
+0xdaec // BranchE1 { cond: 10, imm: 236 } 0b1101101011101100
+0xdaed // BranchE1 { cond: 10, imm: 237 } 0b1101101011101101
+0xdaee // BranchE1 { cond: 10, imm: 238 } 0b1101101011101110
+0xdaef // BranchE1 { cond: 10, imm: 239 } 0b1101101011101111
+0xdaf0 // BranchE1 { cond: 10, imm: 240 } 0b1101101011110000
+0xdaf1 // BranchE1 { cond: 10, imm: 241 } 0b1101101011110001
+0xdaf2 // BranchE1 { cond: 10, imm: 242 } 0b1101101011110010
+0xdaf3 // BranchE1 { cond: 10, imm: 243 } 0b1101101011110011
+0xdaf4 // BranchE1 { cond: 10, imm: 244 } 0b1101101011110100
+0xdaf5 // BranchE1 { cond: 10, imm: 245 } 0b1101101011110101
+0xdaf6 // BranchE1 { cond: 10, imm: 246 } 0b1101101011110110
+0xdaf7 // BranchE1 { cond: 10, imm: 247 } 0b1101101011110111
+0xdaf8 // BranchE1 { cond: 10, imm: 248 } 0b1101101011111000
+0xdaf9 // BranchE1 { cond: 10, imm: 249 } 0b1101101011111001
+0xdafa // BranchE1 { cond: 10, imm: 250 } 0b1101101011111010
+0xdafb // BranchE1 { cond: 10, imm: 251 } 0b1101101011111011
+0xdafc // BranchE1 { cond: 10, imm: 252 } 0b1101101011111100
+0xdafd // BranchE1 { cond: 10, imm: 253 } 0b1101101011111101
+0xdafe // BranchE1 { cond: 10, imm: 254 } 0b1101101011111110
+0xdaff // BranchE1 { cond: 10, imm: 255 } 0b1101101011111111
+0xdb00 // BranchE1 { cond: 11, imm: 0 } 0b1101101100000000
+0xdb01 // BranchE1 { cond: 11, imm: 1 } 0b1101101100000001
+0xdb02 // BranchE1 { cond: 11, imm: 2 } 0b1101101100000010
+0xdb03 // BranchE1 { cond: 11, imm: 3 } 0b1101101100000011
+0xdb04 // BranchE1 { cond: 11, imm: 4 } 0b1101101100000100
+0xdb05 // BranchE1 { cond: 11, imm: 5 } 0b1101101100000101
+0xdb06 // BranchE1 { cond: 11, imm: 6 } 0b1101101100000110
+0xdb07 // BranchE1 { cond: 11, imm: 7 } 0b1101101100000111
+0xdb08 // BranchE1 { cond: 11, imm: 8 } 0b1101101100001000
+0xdb09 // BranchE1 { cond: 11, imm: 9 } 0b1101101100001001
+0xdb0a // BranchE1 { cond: 11, imm: 10 } 0b1101101100001010
+0xdb0b // BranchE1 { cond: 11, imm: 11 } 0b1101101100001011
+0xdb0c // BranchE1 { cond: 11, imm: 12 } 0b1101101100001100
+0xdb0d // BranchE1 { cond: 11, imm: 13 } 0b1101101100001101
+0xdb0e // BranchE1 { cond: 11, imm: 14 } 0b1101101100001110
+0xdb0f // BranchE1 { cond: 11, imm: 15 } 0b1101101100001111
+0xdb10 // BranchE1 { cond: 11, imm: 16 } 0b1101101100010000
+0xdb11 // BranchE1 { cond: 11, imm: 17 } 0b1101101100010001
+0xdb12 // BranchE1 { cond: 11, imm: 18 } 0b1101101100010010
+0xdb13 // BranchE1 { cond: 11, imm: 19 } 0b1101101100010011
+0xdb14 // BranchE1 { cond: 11, imm: 20 } 0b1101101100010100
+0xdb15 // BranchE1 { cond: 11, imm: 21 } 0b1101101100010101
+0xdb16 // BranchE1 { cond: 11, imm: 22 } 0b1101101100010110
+0xdb17 // BranchE1 { cond: 11, imm: 23 } 0b1101101100010111
+0xdb18 // BranchE1 { cond: 11, imm: 24 } 0b1101101100011000
+0xdb19 // BranchE1 { cond: 11, imm: 25 } 0b1101101100011001
+0xdb1a // BranchE1 { cond: 11, imm: 26 } 0b1101101100011010
+0xdb1b // BranchE1 { cond: 11, imm: 27 } 0b1101101100011011
+0xdb1c // BranchE1 { cond: 11, imm: 28 } 0b1101101100011100
+0xdb1d // BranchE1 { cond: 11, imm: 29 } 0b1101101100011101
+0xdb1e // BranchE1 { cond: 11, imm: 30 } 0b1101101100011110
+0xdb1f // BranchE1 { cond: 11, imm: 31 } 0b1101101100011111
+0xdb20 // BranchE1 { cond: 11, imm: 32 } 0b1101101100100000
+0xdb21 // BranchE1 { cond: 11, imm: 33 } 0b1101101100100001
+0xdb22 // BranchE1 { cond: 11, imm: 34 } 0b1101101100100010
+0xdb23 // BranchE1 { cond: 11, imm: 35 } 0b1101101100100011
+0xdb24 // BranchE1 { cond: 11, imm: 36 } 0b1101101100100100
+0xdb25 // BranchE1 { cond: 11, imm: 37 } 0b1101101100100101
+0xdb26 // BranchE1 { cond: 11, imm: 38 } 0b1101101100100110
+0xdb27 // BranchE1 { cond: 11, imm: 39 } 0b1101101100100111
+0xdb28 // BranchE1 { cond: 11, imm: 40 } 0b1101101100101000
+0xdb29 // BranchE1 { cond: 11, imm: 41 } 0b1101101100101001
+0xdb2a // BranchE1 { cond: 11, imm: 42 } 0b1101101100101010
+0xdb2b // BranchE1 { cond: 11, imm: 43 } 0b1101101100101011
+0xdb2c // BranchE1 { cond: 11, imm: 44 } 0b1101101100101100
+0xdb2d // BranchE1 { cond: 11, imm: 45 } 0b1101101100101101
+0xdb2e // BranchE1 { cond: 11, imm: 46 } 0b1101101100101110
+0xdb2f // BranchE1 { cond: 11, imm: 47 } 0b1101101100101111
+0xdb30 // BranchE1 { cond: 11, imm: 48 } 0b1101101100110000
+0xdb31 // BranchE1 { cond: 11, imm: 49 } 0b1101101100110001
+0xdb32 // BranchE1 { cond: 11, imm: 50 } 0b1101101100110010
+0xdb33 // BranchE1 { cond: 11, imm: 51 } 0b1101101100110011
+0xdb34 // BranchE1 { cond: 11, imm: 52 } 0b1101101100110100
+0xdb35 // BranchE1 { cond: 11, imm: 53 } 0b1101101100110101
+0xdb36 // BranchE1 { cond: 11, imm: 54 } 0b1101101100110110
+0xdb37 // BranchE1 { cond: 11, imm: 55 } 0b1101101100110111
+0xdb38 // BranchE1 { cond: 11, imm: 56 } 0b1101101100111000
+0xdb39 // BranchE1 { cond: 11, imm: 57 } 0b1101101100111001
+0xdb3a // BranchE1 { cond: 11, imm: 58 } 0b1101101100111010
+0xdb3b // BranchE1 { cond: 11, imm: 59 } 0b1101101100111011
+0xdb3c // BranchE1 { cond: 11, imm: 60 } 0b1101101100111100
+0xdb3d // BranchE1 { cond: 11, imm: 61 } 0b1101101100111101
+0xdb3e // BranchE1 { cond: 11, imm: 62 } 0b1101101100111110
+0xdb3f // BranchE1 { cond: 11, imm: 63 } 0b1101101100111111
+0xdb40 // BranchE1 { cond: 11, imm: 64 } 0b1101101101000000
+0xdb41 // BranchE1 { cond: 11, imm: 65 } 0b1101101101000001
+0xdb42 // BranchE1 { cond: 11, imm: 66 } 0b1101101101000010
+0xdb43 // BranchE1 { cond: 11, imm: 67 } 0b1101101101000011
+0xdb44 // BranchE1 { cond: 11, imm: 68 } 0b1101101101000100
+0xdb45 // BranchE1 { cond: 11, imm: 69 } 0b1101101101000101
+0xdb46 // BranchE1 { cond: 11, imm: 70 } 0b1101101101000110
+0xdb47 // BranchE1 { cond: 11, imm: 71 } 0b1101101101000111
+0xdb48 // BranchE1 { cond: 11, imm: 72 } 0b1101101101001000
+0xdb49 // BranchE1 { cond: 11, imm: 73 } 0b1101101101001001
+0xdb4a // BranchE1 { cond: 11, imm: 74 } 0b1101101101001010
+0xdb4b // BranchE1 { cond: 11, imm: 75 } 0b1101101101001011
+0xdb4c // BranchE1 { cond: 11, imm: 76 } 0b1101101101001100
+0xdb4d // BranchE1 { cond: 11, imm: 77 } 0b1101101101001101
+0xdb4e // BranchE1 { cond: 11, imm: 78 } 0b1101101101001110
+0xdb4f // BranchE1 { cond: 11, imm: 79 } 0b1101101101001111
+0xdb50 // BranchE1 { cond: 11, imm: 80 } 0b1101101101010000
+0xdb51 // BranchE1 { cond: 11, imm: 81 } 0b1101101101010001
+0xdb52 // BranchE1 { cond: 11, imm: 82 } 0b1101101101010010
+0xdb53 // BranchE1 { cond: 11, imm: 83 } 0b1101101101010011
+0xdb54 // BranchE1 { cond: 11, imm: 84 } 0b1101101101010100
+0xdb55 // BranchE1 { cond: 11, imm: 85 } 0b1101101101010101
+0xdb56 // BranchE1 { cond: 11, imm: 86 } 0b1101101101010110
+0xdb57 // BranchE1 { cond: 11, imm: 87 } 0b1101101101010111
+0xdb58 // BranchE1 { cond: 11, imm: 88 } 0b1101101101011000
+0xdb59 // BranchE1 { cond: 11, imm: 89 } 0b1101101101011001
+0xdb5a // BranchE1 { cond: 11, imm: 90 } 0b1101101101011010
+0xdb5b // BranchE1 { cond: 11, imm: 91 } 0b1101101101011011
+0xdb5c // BranchE1 { cond: 11, imm: 92 } 0b1101101101011100
+0xdb5d // BranchE1 { cond: 11, imm: 93 } 0b1101101101011101
+0xdb5e // BranchE1 { cond: 11, imm: 94 } 0b1101101101011110
+0xdb5f // BranchE1 { cond: 11, imm: 95 } 0b1101101101011111
+0xdb60 // BranchE1 { cond: 11, imm: 96 } 0b1101101101100000
+0xdb61 // BranchE1 { cond: 11, imm: 97 } 0b1101101101100001
+0xdb62 // BranchE1 { cond: 11, imm: 98 } 0b1101101101100010
+0xdb63 // BranchE1 { cond: 11, imm: 99 } 0b1101101101100011
+0xdb64 // BranchE1 { cond: 11, imm: 100 } 0b1101101101100100
+0xdb65 // BranchE1 { cond: 11, imm: 101 } 0b1101101101100101
+0xdb66 // BranchE1 { cond: 11, imm: 102 } 0b1101101101100110
+0xdb67 // BranchE1 { cond: 11, imm: 103 } 0b1101101101100111
+0xdb68 // BranchE1 { cond: 11, imm: 104 } 0b1101101101101000
+0xdb69 // BranchE1 { cond: 11, imm: 105 } 0b1101101101101001
+0xdb6a // BranchE1 { cond: 11, imm: 106 } 0b1101101101101010
+0xdb6b // BranchE1 { cond: 11, imm: 107 } 0b1101101101101011
+0xdb6c // BranchE1 { cond: 11, imm: 108 } 0b1101101101101100
+0xdb6d // BranchE1 { cond: 11, imm: 109 } 0b1101101101101101
+0xdb6e // BranchE1 { cond: 11, imm: 110 } 0b1101101101101110
+0xdb6f // BranchE1 { cond: 11, imm: 111 } 0b1101101101101111
+0xdb70 // BranchE1 { cond: 11, imm: 112 } 0b1101101101110000
+0xdb71 // BranchE1 { cond: 11, imm: 113 } 0b1101101101110001
+0xdb72 // BranchE1 { cond: 11, imm: 114 } 0b1101101101110010
+0xdb73 // BranchE1 { cond: 11, imm: 115 } 0b1101101101110011
+0xdb74 // BranchE1 { cond: 11, imm: 116 } 0b1101101101110100
+0xdb75 // BranchE1 { cond: 11, imm: 117 } 0b1101101101110101
+0xdb76 // BranchE1 { cond: 11, imm: 118 } 0b1101101101110110
+0xdb77 // BranchE1 { cond: 11, imm: 119 } 0b1101101101110111
+0xdb78 // BranchE1 { cond: 11, imm: 120 } 0b1101101101111000
+0xdb79 // BranchE1 { cond: 11, imm: 121 } 0b1101101101111001
+0xdb7a // BranchE1 { cond: 11, imm: 122 } 0b1101101101111010
+0xdb7b // BranchE1 { cond: 11, imm: 123 } 0b1101101101111011
+0xdb7c // BranchE1 { cond: 11, imm: 124 } 0b1101101101111100
+0xdb7d // BranchE1 { cond: 11, imm: 125 } 0b1101101101111101
+0xdb7e // BranchE1 { cond: 11, imm: 126 } 0b1101101101111110
+0xdb7f // BranchE1 { cond: 11, imm: 127 } 0b1101101101111111
+0xdb80 // BranchE1 { cond: 11, imm: 128 } 0b1101101110000000
+0xdb81 // BranchE1 { cond: 11, imm: 129 } 0b1101101110000001
+0xdb82 // BranchE1 { cond: 11, imm: 130 } 0b1101101110000010
+0xdb83 // BranchE1 { cond: 11, imm: 131 } 0b1101101110000011
+0xdb84 // BranchE1 { cond: 11, imm: 132 } 0b1101101110000100
+0xdb85 // BranchE1 { cond: 11, imm: 133 } 0b1101101110000101
+0xdb86 // BranchE1 { cond: 11, imm: 134 } 0b1101101110000110
+0xdb87 // BranchE1 { cond: 11, imm: 135 } 0b1101101110000111
+0xdb88 // BranchE1 { cond: 11, imm: 136 } 0b1101101110001000
+0xdb89 // BranchE1 { cond: 11, imm: 137 } 0b1101101110001001
+0xdb8a // BranchE1 { cond: 11, imm: 138 } 0b1101101110001010
+0xdb8b // BranchE1 { cond: 11, imm: 139 } 0b1101101110001011
+0xdb8c // BranchE1 { cond: 11, imm: 140 } 0b1101101110001100
+0xdb8d // BranchE1 { cond: 11, imm: 141 } 0b1101101110001101
+0xdb8e // BranchE1 { cond: 11, imm: 142 } 0b1101101110001110
+0xdb8f // BranchE1 { cond: 11, imm: 143 } 0b1101101110001111
+0xdb90 // BranchE1 { cond: 11, imm: 144 } 0b1101101110010000
+0xdb91 // BranchE1 { cond: 11, imm: 145 } 0b1101101110010001
+0xdb92 // BranchE1 { cond: 11, imm: 146 } 0b1101101110010010
+0xdb93 // BranchE1 { cond: 11, imm: 147 } 0b1101101110010011
+0xdb94 // BranchE1 { cond: 11, imm: 148 } 0b1101101110010100
+0xdb95 // BranchE1 { cond: 11, imm: 149 } 0b1101101110010101
+0xdb96 // BranchE1 { cond: 11, imm: 150 } 0b1101101110010110
+0xdb97 // BranchE1 { cond: 11, imm: 151 } 0b1101101110010111
+0xdb98 // BranchE1 { cond: 11, imm: 152 } 0b1101101110011000
+0xdb99 // BranchE1 { cond: 11, imm: 153 } 0b1101101110011001
+0xdb9a // BranchE1 { cond: 11, imm: 154 } 0b1101101110011010
+0xdb9b // BranchE1 { cond: 11, imm: 155 } 0b1101101110011011
+0xdb9c // BranchE1 { cond: 11, imm: 156 } 0b1101101110011100
+0xdb9d // BranchE1 { cond: 11, imm: 157 } 0b1101101110011101
+0xdb9e // BranchE1 { cond: 11, imm: 158 } 0b1101101110011110
+0xdb9f // BranchE1 { cond: 11, imm: 159 } 0b1101101110011111
+0xdba0 // BranchE1 { cond: 11, imm: 160 } 0b1101101110100000
+0xdba1 // BranchE1 { cond: 11, imm: 161 } 0b1101101110100001
+0xdba2 // BranchE1 { cond: 11, imm: 162 } 0b1101101110100010
+0xdba3 // BranchE1 { cond: 11, imm: 163 } 0b1101101110100011
+0xdba4 // BranchE1 { cond: 11, imm: 164 } 0b1101101110100100
+0xdba5 // BranchE1 { cond: 11, imm: 165 } 0b1101101110100101
+0xdba6 // BranchE1 { cond: 11, imm: 166 } 0b1101101110100110
+0xdba7 // BranchE1 { cond: 11, imm: 167 } 0b1101101110100111
+0xdba8 // BranchE1 { cond: 11, imm: 168 } 0b1101101110101000
+0xdba9 // BranchE1 { cond: 11, imm: 169 } 0b1101101110101001
+0xdbaa // BranchE1 { cond: 11, imm: 170 } 0b1101101110101010
+0xdbab // BranchE1 { cond: 11, imm: 171 } 0b1101101110101011
+0xdbac // BranchE1 { cond: 11, imm: 172 } 0b1101101110101100
+0xdbad // BranchE1 { cond: 11, imm: 173 } 0b1101101110101101
+0xdbae // BranchE1 { cond: 11, imm: 174 } 0b1101101110101110
+0xdbaf // BranchE1 { cond: 11, imm: 175 } 0b1101101110101111
+0xdbb0 // BranchE1 { cond: 11, imm: 176 } 0b1101101110110000
+0xdbb1 // BranchE1 { cond: 11, imm: 177 } 0b1101101110110001
+0xdbb2 // BranchE1 { cond: 11, imm: 178 } 0b1101101110110010
+0xdbb3 // BranchE1 { cond: 11, imm: 179 } 0b1101101110110011
+0xdbb4 // BranchE1 { cond: 11, imm: 180 } 0b1101101110110100
+0xdbb5 // BranchE1 { cond: 11, imm: 181 } 0b1101101110110101
+0xdbb6 // BranchE1 { cond: 11, imm: 182 } 0b1101101110110110
+0xdbb7 // BranchE1 { cond: 11, imm: 183 } 0b1101101110110111
+0xdbb8 // BranchE1 { cond: 11, imm: 184 } 0b1101101110111000
+0xdbb9 // BranchE1 { cond: 11, imm: 185 } 0b1101101110111001
+0xdbba // BranchE1 { cond: 11, imm: 186 } 0b1101101110111010
+0xdbbb // BranchE1 { cond: 11, imm: 187 } 0b1101101110111011
+0xdbbc // BranchE1 { cond: 11, imm: 188 } 0b1101101110111100
+0xdbbd // BranchE1 { cond: 11, imm: 189 } 0b1101101110111101
+0xdbbe // BranchE1 { cond: 11, imm: 190 } 0b1101101110111110
+0xdbbf // BranchE1 { cond: 11, imm: 191 } 0b1101101110111111
+0xdbc0 // BranchE1 { cond: 11, imm: 192 } 0b1101101111000000
+0xdbc1 // BranchE1 { cond: 11, imm: 193 } 0b1101101111000001
+0xdbc2 // BranchE1 { cond: 11, imm: 194 } 0b1101101111000010
+0xdbc3 // BranchE1 { cond: 11, imm: 195 } 0b1101101111000011
+0xdbc4 // BranchE1 { cond: 11, imm: 196 } 0b1101101111000100
+0xdbc5 // BranchE1 { cond: 11, imm: 197 } 0b1101101111000101
+0xdbc6 // BranchE1 { cond: 11, imm: 198 } 0b1101101111000110
+0xdbc7 // BranchE1 { cond: 11, imm: 199 } 0b1101101111000111
+0xdbc8 // BranchE1 { cond: 11, imm: 200 } 0b1101101111001000
+0xdbc9 // BranchE1 { cond: 11, imm: 201 } 0b1101101111001001
+0xdbca // BranchE1 { cond: 11, imm: 202 } 0b1101101111001010
+0xdbcb // BranchE1 { cond: 11, imm: 203 } 0b1101101111001011
+0xdbcc // BranchE1 { cond: 11, imm: 204 } 0b1101101111001100
+0xdbcd // BranchE1 { cond: 11, imm: 205 } 0b1101101111001101
+0xdbce // BranchE1 { cond: 11, imm: 206 } 0b1101101111001110
+0xdbcf // BranchE1 { cond: 11, imm: 207 } 0b1101101111001111
+0xdbd0 // BranchE1 { cond: 11, imm: 208 } 0b1101101111010000
+0xdbd1 // BranchE1 { cond: 11, imm: 209 } 0b1101101111010001
+0xdbd2 // BranchE1 { cond: 11, imm: 210 } 0b1101101111010010
+0xdbd3 // BranchE1 { cond: 11, imm: 211 } 0b1101101111010011
+0xdbd4 // BranchE1 { cond: 11, imm: 212 } 0b1101101111010100
+0xdbd5 // BranchE1 { cond: 11, imm: 213 } 0b1101101111010101
+0xdbd6 // BranchE1 { cond: 11, imm: 214 } 0b1101101111010110
+0xdbd7 // BranchE1 { cond: 11, imm: 215 } 0b1101101111010111
+0xdbd8 // BranchE1 { cond: 11, imm: 216 } 0b1101101111011000
+0xdbd9 // BranchE1 { cond: 11, imm: 217 } 0b1101101111011001
+0xdbda // BranchE1 { cond: 11, imm: 218 } 0b1101101111011010
+0xdbdb // BranchE1 { cond: 11, imm: 219 } 0b1101101111011011
+0xdbdc // BranchE1 { cond: 11, imm: 220 } 0b1101101111011100
+0xdbdd // BranchE1 { cond: 11, imm: 221 } 0b1101101111011101
+0xdbde // BranchE1 { cond: 11, imm: 222 } 0b1101101111011110
+0xdbdf // BranchE1 { cond: 11, imm: 223 } 0b1101101111011111
+0xdbe0 // BranchE1 { cond: 11, imm: 224 } 0b1101101111100000
+0xdbe1 // BranchE1 { cond: 11, imm: 225 } 0b1101101111100001
+0xdbe2 // BranchE1 { cond: 11, imm: 226 } 0b1101101111100010
+0xdbe3 // BranchE1 { cond: 11, imm: 227 } 0b1101101111100011
+0xdbe4 // BranchE1 { cond: 11, imm: 228 } 0b1101101111100100
+0xdbe5 // BranchE1 { cond: 11, imm: 229 } 0b1101101111100101
+0xdbe6 // BranchE1 { cond: 11, imm: 230 } 0b1101101111100110
+0xdbe7 // BranchE1 { cond: 11, imm: 231 } 0b1101101111100111
+0xdbe8 // BranchE1 { cond: 11, imm: 232 } 0b1101101111101000
+0xdbe9 // BranchE1 { cond: 11, imm: 233 } 0b1101101111101001
+0xdbea // BranchE1 { cond: 11, imm: 234 } 0b1101101111101010
+0xdbeb // BranchE1 { cond: 11, imm: 235 } 0b1101101111101011
+0xdbec // BranchE1 { cond: 11, imm: 236 } 0b1101101111101100
+0xdbed // BranchE1 { cond: 11, imm: 237 } 0b1101101111101101
+0xdbee // BranchE1 { cond: 11, imm: 238 } 0b1101101111101110
+0xdbef // BranchE1 { cond: 11, imm: 239 } 0b1101101111101111
+0xdbf0 // BranchE1 { cond: 11, imm: 240 } 0b1101101111110000
+0xdbf1 // BranchE1 { cond: 11, imm: 241 } 0b1101101111110001
+0xdbf2 // BranchE1 { cond: 11, imm: 242 } 0b1101101111110010
+0xdbf3 // BranchE1 { cond: 11, imm: 243 } 0b1101101111110011
+0xdbf4 // BranchE1 { cond: 11, imm: 244 } 0b1101101111110100
+0xdbf5 // BranchE1 { cond: 11, imm: 245 } 0b1101101111110101
+0xdbf6 // BranchE1 { cond: 11, imm: 246 } 0b1101101111110110
+0xdbf7 // BranchE1 { cond: 11, imm: 247 } 0b1101101111110111
+0xdbf8 // BranchE1 { cond: 11, imm: 248 } 0b1101101111111000
+0xdbf9 // BranchE1 { cond: 11, imm: 249 } 0b1101101111111001
+0xdbfa // BranchE1 { cond: 11, imm: 250 } 0b1101101111111010
+0xdbfb // BranchE1 { cond: 11, imm: 251 } 0b1101101111111011
+0xdbfc // BranchE1 { cond: 11, imm: 252 } 0b1101101111111100
+0xdbfd // BranchE1 { cond: 11, imm: 253 } 0b1101101111111101
+0xdbfe // BranchE1 { cond: 11, imm: 254 } 0b1101101111111110
+0xdbff // BranchE1 { cond: 11, imm: 255 } 0b1101101111111111
+0xdc00 // BranchE1 { cond: 12, imm: 0 } 0b1101110000000000
+0xdc01 // BranchE1 { cond: 12, imm: 1 } 0b1101110000000001
+0xdc02 // BranchE1 { cond: 12, imm: 2 } 0b1101110000000010
+0xdc03 // BranchE1 { cond: 12, imm: 3 } 0b1101110000000011
+0xdc04 // BranchE1 { cond: 12, imm: 4 } 0b1101110000000100
+0xdc05 // BranchE1 { cond: 12, imm: 5 } 0b1101110000000101
+0xdc06 // BranchE1 { cond: 12, imm: 6 } 0b1101110000000110
+0xdc07 // BranchE1 { cond: 12, imm: 7 } 0b1101110000000111
+0xdc08 // BranchE1 { cond: 12, imm: 8 } 0b1101110000001000
+0xdc09 // BranchE1 { cond: 12, imm: 9 } 0b1101110000001001
+0xdc0a // BranchE1 { cond: 12, imm: 10 } 0b1101110000001010
+0xdc0b // BranchE1 { cond: 12, imm: 11 } 0b1101110000001011
+0xdc0c // BranchE1 { cond: 12, imm: 12 } 0b1101110000001100
+0xdc0d // BranchE1 { cond: 12, imm: 13 } 0b1101110000001101
+0xdc0e // BranchE1 { cond: 12, imm: 14 } 0b1101110000001110
+0xdc0f // BranchE1 { cond: 12, imm: 15 } 0b1101110000001111
+0xdc10 // BranchE1 { cond: 12, imm: 16 } 0b1101110000010000
+0xdc11 // BranchE1 { cond: 12, imm: 17 } 0b1101110000010001
+0xdc12 // BranchE1 { cond: 12, imm: 18 } 0b1101110000010010
+0xdc13 // BranchE1 { cond: 12, imm: 19 } 0b1101110000010011
+0xdc14 // BranchE1 { cond: 12, imm: 20 } 0b1101110000010100
+0xdc15 // BranchE1 { cond: 12, imm: 21 } 0b1101110000010101
+0xdc16 // BranchE1 { cond: 12, imm: 22 } 0b1101110000010110
+0xdc17 // BranchE1 { cond: 12, imm: 23 } 0b1101110000010111
+0xdc18 // BranchE1 { cond: 12, imm: 24 } 0b1101110000011000
+0xdc19 // BranchE1 { cond: 12, imm: 25 } 0b1101110000011001
+0xdc1a // BranchE1 { cond: 12, imm: 26 } 0b1101110000011010
+0xdc1b // BranchE1 { cond: 12, imm: 27 } 0b1101110000011011
+0xdc1c // BranchE1 { cond: 12, imm: 28 } 0b1101110000011100
+0xdc1d // BranchE1 { cond: 12, imm: 29 } 0b1101110000011101
+0xdc1e // BranchE1 { cond: 12, imm: 30 } 0b1101110000011110
+0xdc1f // BranchE1 { cond: 12, imm: 31 } 0b1101110000011111
+0xdc20 // BranchE1 { cond: 12, imm: 32 } 0b1101110000100000
+0xdc21 // BranchE1 { cond: 12, imm: 33 } 0b1101110000100001
+0xdc22 // BranchE1 { cond: 12, imm: 34 } 0b1101110000100010
+0xdc23 // BranchE1 { cond: 12, imm: 35 } 0b1101110000100011
+0xdc24 // BranchE1 { cond: 12, imm: 36 } 0b1101110000100100
+0xdc25 // BranchE1 { cond: 12, imm: 37 } 0b1101110000100101
+0xdc26 // BranchE1 { cond: 12, imm: 38 } 0b1101110000100110
+0xdc27 // BranchE1 { cond: 12, imm: 39 } 0b1101110000100111
+0xdc28 // BranchE1 { cond: 12, imm: 40 } 0b1101110000101000
+0xdc29 // BranchE1 { cond: 12, imm: 41 } 0b1101110000101001
+0xdc2a // BranchE1 { cond: 12, imm: 42 } 0b1101110000101010
+0xdc2b // BranchE1 { cond: 12, imm: 43 } 0b1101110000101011
+0xdc2c // BranchE1 { cond: 12, imm: 44 } 0b1101110000101100
+0xdc2d // BranchE1 { cond: 12, imm: 45 } 0b1101110000101101
+0xdc2e // BranchE1 { cond: 12, imm: 46 } 0b1101110000101110
+0xdc2f // BranchE1 { cond: 12, imm: 47 } 0b1101110000101111
+0xdc30 // BranchE1 { cond: 12, imm: 48 } 0b1101110000110000
+0xdc31 // BranchE1 { cond: 12, imm: 49 } 0b1101110000110001
+0xdc32 // BranchE1 { cond: 12, imm: 50 } 0b1101110000110010
+0xdc33 // BranchE1 { cond: 12, imm: 51 } 0b1101110000110011
+0xdc34 // BranchE1 { cond: 12, imm: 52 } 0b1101110000110100
+0xdc35 // BranchE1 { cond: 12, imm: 53 } 0b1101110000110101
+0xdc36 // BranchE1 { cond: 12, imm: 54 } 0b1101110000110110
+0xdc37 // BranchE1 { cond: 12, imm: 55 } 0b1101110000110111
+0xdc38 // BranchE1 { cond: 12, imm: 56 } 0b1101110000111000
+0xdc39 // BranchE1 { cond: 12, imm: 57 } 0b1101110000111001
+0xdc3a // BranchE1 { cond: 12, imm: 58 } 0b1101110000111010
+0xdc3b // BranchE1 { cond: 12, imm: 59 } 0b1101110000111011
+0xdc3c // BranchE1 { cond: 12, imm: 60 } 0b1101110000111100
+0xdc3d // BranchE1 { cond: 12, imm: 61 } 0b1101110000111101
+0xdc3e // BranchE1 { cond: 12, imm: 62 } 0b1101110000111110
+0xdc3f // BranchE1 { cond: 12, imm: 63 } 0b1101110000111111
+0xdc40 // BranchE1 { cond: 12, imm: 64 } 0b1101110001000000
+0xdc41 // BranchE1 { cond: 12, imm: 65 } 0b1101110001000001
+0xdc42 // BranchE1 { cond: 12, imm: 66 } 0b1101110001000010
+0xdc43 // BranchE1 { cond: 12, imm: 67 } 0b1101110001000011
+0xdc44 // BranchE1 { cond: 12, imm: 68 } 0b1101110001000100
+0xdc45 // BranchE1 { cond: 12, imm: 69 } 0b1101110001000101
+0xdc46 // BranchE1 { cond: 12, imm: 70 } 0b1101110001000110
+0xdc47 // BranchE1 { cond: 12, imm: 71 } 0b1101110001000111
+0xdc48 // BranchE1 { cond: 12, imm: 72 } 0b1101110001001000
+0xdc49 // BranchE1 { cond: 12, imm: 73 } 0b1101110001001001
+0xdc4a // BranchE1 { cond: 12, imm: 74 } 0b1101110001001010
+0xdc4b // BranchE1 { cond: 12, imm: 75 } 0b1101110001001011
+0xdc4c // BranchE1 { cond: 12, imm: 76 } 0b1101110001001100
+0xdc4d // BranchE1 { cond: 12, imm: 77 } 0b1101110001001101
+0xdc4e // BranchE1 { cond: 12, imm: 78 } 0b1101110001001110
+0xdc4f // BranchE1 { cond: 12, imm: 79 } 0b1101110001001111
+0xdc50 // BranchE1 { cond: 12, imm: 80 } 0b1101110001010000
+0xdc51 // BranchE1 { cond: 12, imm: 81 } 0b1101110001010001
+0xdc52 // BranchE1 { cond: 12, imm: 82 } 0b1101110001010010
+0xdc53 // BranchE1 { cond: 12, imm: 83 } 0b1101110001010011
+0xdc54 // BranchE1 { cond: 12, imm: 84 } 0b1101110001010100
+0xdc55 // BranchE1 { cond: 12, imm: 85 } 0b1101110001010101
+0xdc56 // BranchE1 { cond: 12, imm: 86 } 0b1101110001010110
+0xdc57 // BranchE1 { cond: 12, imm: 87 } 0b1101110001010111
+0xdc58 // BranchE1 { cond: 12, imm: 88 } 0b1101110001011000
+0xdc59 // BranchE1 { cond: 12, imm: 89 } 0b1101110001011001
+0xdc5a // BranchE1 { cond: 12, imm: 90 } 0b1101110001011010
+0xdc5b // BranchE1 { cond: 12, imm: 91 } 0b1101110001011011
+0xdc5c // BranchE1 { cond: 12, imm: 92 } 0b1101110001011100
+0xdc5d // BranchE1 { cond: 12, imm: 93 } 0b1101110001011101
+0xdc5e // BranchE1 { cond: 12, imm: 94 } 0b1101110001011110
+0xdc5f // BranchE1 { cond: 12, imm: 95 } 0b1101110001011111
+0xdc60 // BranchE1 { cond: 12, imm: 96 } 0b1101110001100000
+0xdc61 // BranchE1 { cond: 12, imm: 97 } 0b1101110001100001
+0xdc62 // BranchE1 { cond: 12, imm: 98 } 0b1101110001100010
+0xdc63 // BranchE1 { cond: 12, imm: 99 } 0b1101110001100011
+0xdc64 // BranchE1 { cond: 12, imm: 100 } 0b1101110001100100
+0xdc65 // BranchE1 { cond: 12, imm: 101 } 0b1101110001100101
+0xdc66 // BranchE1 { cond: 12, imm: 102 } 0b1101110001100110
+0xdc67 // BranchE1 { cond: 12, imm: 103 } 0b1101110001100111
+0xdc68 // BranchE1 { cond: 12, imm: 104 } 0b1101110001101000
+0xdc69 // BranchE1 { cond: 12, imm: 105 } 0b1101110001101001
+0xdc6a // BranchE1 { cond: 12, imm: 106 } 0b1101110001101010
+0xdc6b // BranchE1 { cond: 12, imm: 107 } 0b1101110001101011
+0xdc6c // BranchE1 { cond: 12, imm: 108 } 0b1101110001101100
+0xdc6d // BranchE1 { cond: 12, imm: 109 } 0b1101110001101101
+0xdc6e // BranchE1 { cond: 12, imm: 110 } 0b1101110001101110
+0xdc6f // BranchE1 { cond: 12, imm: 111 } 0b1101110001101111
+0xdc70 // BranchE1 { cond: 12, imm: 112 } 0b1101110001110000
+0xdc71 // BranchE1 { cond: 12, imm: 113 } 0b1101110001110001
+0xdc72 // BranchE1 { cond: 12, imm: 114 } 0b1101110001110010
+0xdc73 // BranchE1 { cond: 12, imm: 115 } 0b1101110001110011
+0xdc74 // BranchE1 { cond: 12, imm: 116 } 0b1101110001110100
+0xdc75 // BranchE1 { cond: 12, imm: 117 } 0b1101110001110101
+0xdc76 // BranchE1 { cond: 12, imm: 118 } 0b1101110001110110
+0xdc77 // BranchE1 { cond: 12, imm: 119 } 0b1101110001110111
+0xdc78 // BranchE1 { cond: 12, imm: 120 } 0b1101110001111000
+0xdc79 // BranchE1 { cond: 12, imm: 121 } 0b1101110001111001
+0xdc7a // BranchE1 { cond: 12, imm: 122 } 0b1101110001111010
+0xdc7b // BranchE1 { cond: 12, imm: 123 } 0b1101110001111011
+0xdc7c // BranchE1 { cond: 12, imm: 124 } 0b1101110001111100
+0xdc7d // BranchE1 { cond: 12, imm: 125 } 0b1101110001111101
+0xdc7e // BranchE1 { cond: 12, imm: 126 } 0b1101110001111110
+0xdc7f // BranchE1 { cond: 12, imm: 127 } 0b1101110001111111
+0xdc80 // BranchE1 { cond: 12, imm: 128 } 0b1101110010000000
+0xdc81 // BranchE1 { cond: 12, imm: 129 } 0b1101110010000001
+0xdc82 // BranchE1 { cond: 12, imm: 130 } 0b1101110010000010
+0xdc83 // BranchE1 { cond: 12, imm: 131 } 0b1101110010000011
+0xdc84 // BranchE1 { cond: 12, imm: 132 } 0b1101110010000100
+0xdc85 // BranchE1 { cond: 12, imm: 133 } 0b1101110010000101
+0xdc86 // BranchE1 { cond: 12, imm: 134 } 0b1101110010000110
+0xdc87 // BranchE1 { cond: 12, imm: 135 } 0b1101110010000111
+0xdc88 // BranchE1 { cond: 12, imm: 136 } 0b1101110010001000
+0xdc89 // BranchE1 { cond: 12, imm: 137 } 0b1101110010001001
+0xdc8a // BranchE1 { cond: 12, imm: 138 } 0b1101110010001010
+0xdc8b // BranchE1 { cond: 12, imm: 139 } 0b1101110010001011
+0xdc8c // BranchE1 { cond: 12, imm: 140 } 0b1101110010001100
+0xdc8d // BranchE1 { cond: 12, imm: 141 } 0b1101110010001101
+0xdc8e // BranchE1 { cond: 12, imm: 142 } 0b1101110010001110
+0xdc8f // BranchE1 { cond: 12, imm: 143 } 0b1101110010001111
+0xdc90 // BranchE1 { cond: 12, imm: 144 } 0b1101110010010000
+0xdc91 // BranchE1 { cond: 12, imm: 145 } 0b1101110010010001
+0xdc92 // BranchE1 { cond: 12, imm: 146 } 0b1101110010010010
+0xdc93 // BranchE1 { cond: 12, imm: 147 } 0b1101110010010011
+0xdc94 // BranchE1 { cond: 12, imm: 148 } 0b1101110010010100
+0xdc95 // BranchE1 { cond: 12, imm: 149 } 0b1101110010010101
+0xdc96 // BranchE1 { cond: 12, imm: 150 } 0b1101110010010110
+0xdc97 // BranchE1 { cond: 12, imm: 151 } 0b1101110010010111
+0xdc98 // BranchE1 { cond: 12, imm: 152 } 0b1101110010011000
+0xdc99 // BranchE1 { cond: 12, imm: 153 } 0b1101110010011001
+0xdc9a // BranchE1 { cond: 12, imm: 154 } 0b1101110010011010
+0xdc9b // BranchE1 { cond: 12, imm: 155 } 0b1101110010011011
+0xdc9c // BranchE1 { cond: 12, imm: 156 } 0b1101110010011100
+0xdc9d // BranchE1 { cond: 12, imm: 157 } 0b1101110010011101
+0xdc9e // BranchE1 { cond: 12, imm: 158 } 0b1101110010011110
+0xdc9f // BranchE1 { cond: 12, imm: 159 } 0b1101110010011111
+0xdca0 // BranchE1 { cond: 12, imm: 160 } 0b1101110010100000
+0xdca1 // BranchE1 { cond: 12, imm: 161 } 0b1101110010100001
+0xdca2 // BranchE1 { cond: 12, imm: 162 } 0b1101110010100010
+0xdca3 // BranchE1 { cond: 12, imm: 163 } 0b1101110010100011
+0xdca4 // BranchE1 { cond: 12, imm: 164 } 0b1101110010100100
+0xdca5 // BranchE1 { cond: 12, imm: 165 } 0b1101110010100101
+0xdca6 // BranchE1 { cond: 12, imm: 166 } 0b1101110010100110
+0xdca7 // BranchE1 { cond: 12, imm: 167 } 0b1101110010100111
+0xdca8 // BranchE1 { cond: 12, imm: 168 } 0b1101110010101000
+0xdca9 // BranchE1 { cond: 12, imm: 169 } 0b1101110010101001
+0xdcaa // BranchE1 { cond: 12, imm: 170 } 0b1101110010101010
+0xdcab // BranchE1 { cond: 12, imm: 171 } 0b1101110010101011
+0xdcac // BranchE1 { cond: 12, imm: 172 } 0b1101110010101100
+0xdcad // BranchE1 { cond: 12, imm: 173 } 0b1101110010101101
+0xdcae // BranchE1 { cond: 12, imm: 174 } 0b1101110010101110
+0xdcaf // BranchE1 { cond: 12, imm: 175 } 0b1101110010101111
+0xdcb0 // BranchE1 { cond: 12, imm: 176 } 0b1101110010110000
+0xdcb1 // BranchE1 { cond: 12, imm: 177 } 0b1101110010110001
+0xdcb2 // BranchE1 { cond: 12, imm: 178 } 0b1101110010110010
+0xdcb3 // BranchE1 { cond: 12, imm: 179 } 0b1101110010110011
+0xdcb4 // BranchE1 { cond: 12, imm: 180 } 0b1101110010110100
+0xdcb5 // BranchE1 { cond: 12, imm: 181 } 0b1101110010110101
+0xdcb6 // BranchE1 { cond: 12, imm: 182 } 0b1101110010110110
+0xdcb7 // BranchE1 { cond: 12, imm: 183 } 0b1101110010110111
+0xdcb8 // BranchE1 { cond: 12, imm: 184 } 0b1101110010111000
+0xdcb9 // BranchE1 { cond: 12, imm: 185 } 0b1101110010111001
+0xdcba // BranchE1 { cond: 12, imm: 186 } 0b1101110010111010
+0xdcbb // BranchE1 { cond: 12, imm: 187 } 0b1101110010111011
+0xdcbc // BranchE1 { cond: 12, imm: 188 } 0b1101110010111100
+0xdcbd // BranchE1 { cond: 12, imm: 189 } 0b1101110010111101
+0xdcbe // BranchE1 { cond: 12, imm: 190 } 0b1101110010111110
+0xdcbf // BranchE1 { cond: 12, imm: 191 } 0b1101110010111111
+0xdcc0 // BranchE1 { cond: 12, imm: 192 } 0b1101110011000000
+0xdcc1 // BranchE1 { cond: 12, imm: 193 } 0b1101110011000001
+0xdcc2 // BranchE1 { cond: 12, imm: 194 } 0b1101110011000010
+0xdcc3 // BranchE1 { cond: 12, imm: 195 } 0b1101110011000011
+0xdcc4 // BranchE1 { cond: 12, imm: 196 } 0b1101110011000100
+0xdcc5 // BranchE1 { cond: 12, imm: 197 } 0b1101110011000101
+0xdcc6 // BranchE1 { cond: 12, imm: 198 } 0b1101110011000110
+0xdcc7 // BranchE1 { cond: 12, imm: 199 } 0b1101110011000111
+0xdcc8 // BranchE1 { cond: 12, imm: 200 } 0b1101110011001000
+0xdcc9 // BranchE1 { cond: 12, imm: 201 } 0b1101110011001001
+0xdcca // BranchE1 { cond: 12, imm: 202 } 0b1101110011001010
+0xdccb // BranchE1 { cond: 12, imm: 203 } 0b1101110011001011
+0xdccc // BranchE1 { cond: 12, imm: 204 } 0b1101110011001100
+0xdccd // BranchE1 { cond: 12, imm: 205 } 0b1101110011001101
+0xdcce // BranchE1 { cond: 12, imm: 206 } 0b1101110011001110
+0xdccf // BranchE1 { cond: 12, imm: 207 } 0b1101110011001111
+0xdcd0 // BranchE1 { cond: 12, imm: 208 } 0b1101110011010000
+0xdcd1 // BranchE1 { cond: 12, imm: 209 } 0b1101110011010001
+0xdcd2 // BranchE1 { cond: 12, imm: 210 } 0b1101110011010010
+0xdcd3 // BranchE1 { cond: 12, imm: 211 } 0b1101110011010011
+0xdcd4 // BranchE1 { cond: 12, imm: 212 } 0b1101110011010100
+0xdcd5 // BranchE1 { cond: 12, imm: 213 } 0b1101110011010101
+0xdcd6 // BranchE1 { cond: 12, imm: 214 } 0b1101110011010110
+0xdcd7 // BranchE1 { cond: 12, imm: 215 } 0b1101110011010111
+0xdcd8 // BranchE1 { cond: 12, imm: 216 } 0b1101110011011000
+0xdcd9 // BranchE1 { cond: 12, imm: 217 } 0b1101110011011001
+0xdcda // BranchE1 { cond: 12, imm: 218 } 0b1101110011011010
+0xdcdb // BranchE1 { cond: 12, imm: 219 } 0b1101110011011011
+0xdcdc // BranchE1 { cond: 12, imm: 220 } 0b1101110011011100
+0xdcdd // BranchE1 { cond: 12, imm: 221 } 0b1101110011011101
+0xdcde // BranchE1 { cond: 12, imm: 222 } 0b1101110011011110
+0xdcdf // BranchE1 { cond: 12, imm: 223 } 0b1101110011011111
+0xdce0 // BranchE1 { cond: 12, imm: 224 } 0b1101110011100000
+0xdce1 // BranchE1 { cond: 12, imm: 225 } 0b1101110011100001
+0xdce2 // BranchE1 { cond: 12, imm: 226 } 0b1101110011100010
+0xdce3 // BranchE1 { cond: 12, imm: 227 } 0b1101110011100011
+0xdce4 // BranchE1 { cond: 12, imm: 228 } 0b1101110011100100
+0xdce5 // BranchE1 { cond: 12, imm: 229 } 0b1101110011100101
+0xdce6 // BranchE1 { cond: 12, imm: 230 } 0b1101110011100110
+0xdce7 // BranchE1 { cond: 12, imm: 231 } 0b1101110011100111
+0xdce8 // BranchE1 { cond: 12, imm: 232 } 0b1101110011101000
+0xdce9 // BranchE1 { cond: 12, imm: 233 } 0b1101110011101001
+0xdcea // BranchE1 { cond: 12, imm: 234 } 0b1101110011101010
+0xdceb // BranchE1 { cond: 12, imm: 235 } 0b1101110011101011
+0xdcec // BranchE1 { cond: 12, imm: 236 } 0b1101110011101100
+0xdced // BranchE1 { cond: 12, imm: 237 } 0b1101110011101101
+0xdcee // BranchE1 { cond: 12, imm: 238 } 0b1101110011101110
+0xdcef // BranchE1 { cond: 12, imm: 239 } 0b1101110011101111
+0xdcf0 // BranchE1 { cond: 12, imm: 240 } 0b1101110011110000
+0xdcf1 // BranchE1 { cond: 12, imm: 241 } 0b1101110011110001
+0xdcf2 // BranchE1 { cond: 12, imm: 242 } 0b1101110011110010
+0xdcf3 // BranchE1 { cond: 12, imm: 243 } 0b1101110011110011
+0xdcf4 // BranchE1 { cond: 12, imm: 244 } 0b1101110011110100
+0xdcf5 // BranchE1 { cond: 12, imm: 245 } 0b1101110011110101
+0xdcf6 // BranchE1 { cond: 12, imm: 246 } 0b1101110011110110
+0xdcf7 // BranchE1 { cond: 12, imm: 247 } 0b1101110011110111
+0xdcf8 // BranchE1 { cond: 12, imm: 248 } 0b1101110011111000
+0xdcf9 // BranchE1 { cond: 12, imm: 249 } 0b1101110011111001
+0xdcfa // BranchE1 { cond: 12, imm: 250 } 0b1101110011111010
+0xdcfb // BranchE1 { cond: 12, imm: 251 } 0b1101110011111011
+0xdcfc // BranchE1 { cond: 12, imm: 252 } 0b1101110011111100
+0xdcfd // BranchE1 { cond: 12, imm: 253 } 0b1101110011111101
+0xdcfe // BranchE1 { cond: 12, imm: 254 } 0b1101110011111110
+0xdcff // BranchE1 { cond: 12, imm: 255 } 0b1101110011111111
+0xdd00 // BranchE1 { cond: 13, imm: 0 } 0b1101110100000000
+0xdd01 // BranchE1 { cond: 13, imm: 1 } 0b1101110100000001
+0xdd02 // BranchE1 { cond: 13, imm: 2 } 0b1101110100000010
+0xdd03 // BranchE1 { cond: 13, imm: 3 } 0b1101110100000011
+0xdd04 // BranchE1 { cond: 13, imm: 4 } 0b1101110100000100
+0xdd05 // BranchE1 { cond: 13, imm: 5 } 0b1101110100000101
+0xdd06 // BranchE1 { cond: 13, imm: 6 } 0b1101110100000110
+0xdd07 // BranchE1 { cond: 13, imm: 7 } 0b1101110100000111
+0xdd08 // BranchE1 { cond: 13, imm: 8 } 0b1101110100001000
+0xdd09 // BranchE1 { cond: 13, imm: 9 } 0b1101110100001001
+0xdd0a // BranchE1 { cond: 13, imm: 10 } 0b1101110100001010
+0xdd0b // BranchE1 { cond: 13, imm: 11 } 0b1101110100001011
+0xdd0c // BranchE1 { cond: 13, imm: 12 } 0b1101110100001100
+0xdd0d // BranchE1 { cond: 13, imm: 13 } 0b1101110100001101
+0xdd0e // BranchE1 { cond: 13, imm: 14 } 0b1101110100001110
+0xdd0f // BranchE1 { cond: 13, imm: 15 } 0b1101110100001111
+0xdd10 // BranchE1 { cond: 13, imm: 16 } 0b1101110100010000
+0xdd11 // BranchE1 { cond: 13, imm: 17 } 0b1101110100010001
+0xdd12 // BranchE1 { cond: 13, imm: 18 } 0b1101110100010010
+0xdd13 // BranchE1 { cond: 13, imm: 19 } 0b1101110100010011
+0xdd14 // BranchE1 { cond: 13, imm: 20 } 0b1101110100010100
+0xdd15 // BranchE1 { cond: 13, imm: 21 } 0b1101110100010101
+0xdd16 // BranchE1 { cond: 13, imm: 22 } 0b1101110100010110
+0xdd17 // BranchE1 { cond: 13, imm: 23 } 0b1101110100010111
+0xdd18 // BranchE1 { cond: 13, imm: 24 } 0b1101110100011000
+0xdd19 // BranchE1 { cond: 13, imm: 25 } 0b1101110100011001
+0xdd1a // BranchE1 { cond: 13, imm: 26 } 0b1101110100011010
+0xdd1b // BranchE1 { cond: 13, imm: 27 } 0b1101110100011011
+0xdd1c // BranchE1 { cond: 13, imm: 28 } 0b1101110100011100
+0xdd1d // BranchE1 { cond: 13, imm: 29 } 0b1101110100011101
+0xdd1e // BranchE1 { cond: 13, imm: 30 } 0b1101110100011110
+0xdd1f // BranchE1 { cond: 13, imm: 31 } 0b1101110100011111
+0xdd20 // BranchE1 { cond: 13, imm: 32 } 0b1101110100100000
+0xdd21 // BranchE1 { cond: 13, imm: 33 } 0b1101110100100001
+0xdd22 // BranchE1 { cond: 13, imm: 34 } 0b1101110100100010
+0xdd23 // BranchE1 { cond: 13, imm: 35 } 0b1101110100100011
+0xdd24 // BranchE1 { cond: 13, imm: 36 } 0b1101110100100100
+0xdd25 // BranchE1 { cond: 13, imm: 37 } 0b1101110100100101
+0xdd26 // BranchE1 { cond: 13, imm: 38 } 0b1101110100100110
+0xdd27 // BranchE1 { cond: 13, imm: 39 } 0b1101110100100111
+0xdd28 // BranchE1 { cond: 13, imm: 40 } 0b1101110100101000
+0xdd29 // BranchE1 { cond: 13, imm: 41 } 0b1101110100101001
+0xdd2a // BranchE1 { cond: 13, imm: 42 } 0b1101110100101010
+0xdd2b // BranchE1 { cond: 13, imm: 43 } 0b1101110100101011
+0xdd2c // BranchE1 { cond: 13, imm: 44 } 0b1101110100101100
+0xdd2d // BranchE1 { cond: 13, imm: 45 } 0b1101110100101101
+0xdd2e // BranchE1 { cond: 13, imm: 46 } 0b1101110100101110
+0xdd2f // BranchE1 { cond: 13, imm: 47 } 0b1101110100101111
+0xdd30 // BranchE1 { cond: 13, imm: 48 } 0b1101110100110000
+0xdd31 // BranchE1 { cond: 13, imm: 49 } 0b1101110100110001
+0xdd32 // BranchE1 { cond: 13, imm: 50 } 0b1101110100110010
+0xdd33 // BranchE1 { cond: 13, imm: 51 } 0b1101110100110011
+0xdd34 // BranchE1 { cond: 13, imm: 52 } 0b1101110100110100
+0xdd35 // BranchE1 { cond: 13, imm: 53 } 0b1101110100110101
+0xdd36 // BranchE1 { cond: 13, imm: 54 } 0b1101110100110110
+0xdd37 // BranchE1 { cond: 13, imm: 55 } 0b1101110100110111
+0xdd38 // BranchE1 { cond: 13, imm: 56 } 0b1101110100111000
+0xdd39 // BranchE1 { cond: 13, imm: 57 } 0b1101110100111001
+0xdd3a // BranchE1 { cond: 13, imm: 58 } 0b1101110100111010
+0xdd3b // BranchE1 { cond: 13, imm: 59 } 0b1101110100111011
+0xdd3c // BranchE1 { cond: 13, imm: 60 } 0b1101110100111100
+0xdd3d // BranchE1 { cond: 13, imm: 61 } 0b1101110100111101
+0xdd3e // BranchE1 { cond: 13, imm: 62 } 0b1101110100111110
+0xdd3f // BranchE1 { cond: 13, imm: 63 } 0b1101110100111111
+0xdd40 // BranchE1 { cond: 13, imm: 64 } 0b1101110101000000
+0xdd41 // BranchE1 { cond: 13, imm: 65 } 0b1101110101000001
+0xdd42 // BranchE1 { cond: 13, imm: 66 } 0b1101110101000010
+0xdd43 // BranchE1 { cond: 13, imm: 67 } 0b1101110101000011
+0xdd44 // BranchE1 { cond: 13, imm: 68 } 0b1101110101000100
+0xdd45 // BranchE1 { cond: 13, imm: 69 } 0b1101110101000101
+0xdd46 // BranchE1 { cond: 13, imm: 70 } 0b1101110101000110
+0xdd47 // BranchE1 { cond: 13, imm: 71 } 0b1101110101000111
+0xdd48 // BranchE1 { cond: 13, imm: 72 } 0b1101110101001000
+0xdd49 // BranchE1 { cond: 13, imm: 73 } 0b1101110101001001
+0xdd4a // BranchE1 { cond: 13, imm: 74 } 0b1101110101001010
+0xdd4b // BranchE1 { cond: 13, imm: 75 } 0b1101110101001011
+0xdd4c // BranchE1 { cond: 13, imm: 76 } 0b1101110101001100
+0xdd4d // BranchE1 { cond: 13, imm: 77 } 0b1101110101001101
+0xdd4e // BranchE1 { cond: 13, imm: 78 } 0b1101110101001110
+0xdd4f // BranchE1 { cond: 13, imm: 79 } 0b1101110101001111
+0xdd50 // BranchE1 { cond: 13, imm: 80 } 0b1101110101010000
+0xdd51 // BranchE1 { cond: 13, imm: 81 } 0b1101110101010001
+0xdd52 // BranchE1 { cond: 13, imm: 82 } 0b1101110101010010
+0xdd53 // BranchE1 { cond: 13, imm: 83 } 0b1101110101010011
+0xdd54 // BranchE1 { cond: 13, imm: 84 } 0b1101110101010100
+0xdd55 // BranchE1 { cond: 13, imm: 85 } 0b1101110101010101
+0xdd56 // BranchE1 { cond: 13, imm: 86 } 0b1101110101010110
+0xdd57 // BranchE1 { cond: 13, imm: 87 } 0b1101110101010111
+0xdd58 // BranchE1 { cond: 13, imm: 88 } 0b1101110101011000
+0xdd59 // BranchE1 { cond: 13, imm: 89 } 0b1101110101011001
+0xdd5a // BranchE1 { cond: 13, imm: 90 } 0b1101110101011010
+0xdd5b // BranchE1 { cond: 13, imm: 91 } 0b1101110101011011
+0xdd5c // BranchE1 { cond: 13, imm: 92 } 0b1101110101011100
+0xdd5d // BranchE1 { cond: 13, imm: 93 } 0b1101110101011101
+0xdd5e // BranchE1 { cond: 13, imm: 94 } 0b1101110101011110
+0xdd5f // BranchE1 { cond: 13, imm: 95 } 0b1101110101011111
+0xdd60 // BranchE1 { cond: 13, imm: 96 } 0b1101110101100000
+0xdd61 // BranchE1 { cond: 13, imm: 97 } 0b1101110101100001
+0xdd62 // BranchE1 { cond: 13, imm: 98 } 0b1101110101100010
+0xdd63 // BranchE1 { cond: 13, imm: 99 } 0b1101110101100011
+0xdd64 // BranchE1 { cond: 13, imm: 100 } 0b1101110101100100
+0xdd65 // BranchE1 { cond: 13, imm: 101 } 0b1101110101100101
+0xdd66 // BranchE1 { cond: 13, imm: 102 } 0b1101110101100110
+0xdd67 // BranchE1 { cond: 13, imm: 103 } 0b1101110101100111
+0xdd68 // BranchE1 { cond: 13, imm: 104 } 0b1101110101101000
+0xdd69 // BranchE1 { cond: 13, imm: 105 } 0b1101110101101001
+0xdd6a // BranchE1 { cond: 13, imm: 106 } 0b1101110101101010
+0xdd6b // BranchE1 { cond: 13, imm: 107 } 0b1101110101101011
+0xdd6c // BranchE1 { cond: 13, imm: 108 } 0b1101110101101100
+0xdd6d // BranchE1 { cond: 13, imm: 109 } 0b1101110101101101
+0xdd6e // BranchE1 { cond: 13, imm: 110 } 0b1101110101101110
+0xdd6f // BranchE1 { cond: 13, imm: 111 } 0b1101110101101111
+0xdd70 // BranchE1 { cond: 13, imm: 112 } 0b1101110101110000
+0xdd71 // BranchE1 { cond: 13, imm: 113 } 0b1101110101110001
+0xdd72 // BranchE1 { cond: 13, imm: 114 } 0b1101110101110010
+0xdd73 // BranchE1 { cond: 13, imm: 115 } 0b1101110101110011
+0xdd74 // BranchE1 { cond: 13, imm: 116 } 0b1101110101110100
+0xdd75 // BranchE1 { cond: 13, imm: 117 } 0b1101110101110101
+0xdd76 // BranchE1 { cond: 13, imm: 118 } 0b1101110101110110
+0xdd77 // BranchE1 { cond: 13, imm: 119 } 0b1101110101110111
+0xdd78 // BranchE1 { cond: 13, imm: 120 } 0b1101110101111000
+0xdd79 // BranchE1 { cond: 13, imm: 121 } 0b1101110101111001
+0xdd7a // BranchE1 { cond: 13, imm: 122 } 0b1101110101111010
+0xdd7b // BranchE1 { cond: 13, imm: 123 } 0b1101110101111011
+0xdd7c // BranchE1 { cond: 13, imm: 124 } 0b1101110101111100
+0xdd7d // BranchE1 { cond: 13, imm: 125 } 0b1101110101111101
+0xdd7e // BranchE1 { cond: 13, imm: 126 } 0b1101110101111110
+0xdd7f // BranchE1 { cond: 13, imm: 127 } 0b1101110101111111
+0xdd80 // BranchE1 { cond: 13, imm: 128 } 0b1101110110000000
+0xdd81 // BranchE1 { cond: 13, imm: 129 } 0b1101110110000001
+0xdd82 // BranchE1 { cond: 13, imm: 130 } 0b1101110110000010
+0xdd83 // BranchE1 { cond: 13, imm: 131 } 0b1101110110000011
+0xdd84 // BranchE1 { cond: 13, imm: 132 } 0b1101110110000100
+0xdd85 // BranchE1 { cond: 13, imm: 133 } 0b1101110110000101
+0xdd86 // BranchE1 { cond: 13, imm: 134 } 0b1101110110000110
+0xdd87 // BranchE1 { cond: 13, imm: 135 } 0b1101110110000111
+0xdd88 // BranchE1 { cond: 13, imm: 136 } 0b1101110110001000
+0xdd89 // BranchE1 { cond: 13, imm: 137 } 0b1101110110001001
+0xdd8a // BranchE1 { cond: 13, imm: 138 } 0b1101110110001010
+0xdd8b // BranchE1 { cond: 13, imm: 139 } 0b1101110110001011
+0xdd8c // BranchE1 { cond: 13, imm: 140 } 0b1101110110001100
+0xdd8d // BranchE1 { cond: 13, imm: 141 } 0b1101110110001101
+0xdd8e // BranchE1 { cond: 13, imm: 142 } 0b1101110110001110
+0xdd8f // BranchE1 { cond: 13, imm: 143 } 0b1101110110001111
+0xdd90 // BranchE1 { cond: 13, imm: 144 } 0b1101110110010000
+0xdd91 // BranchE1 { cond: 13, imm: 145 } 0b1101110110010001
+0xdd92 // BranchE1 { cond: 13, imm: 146 } 0b1101110110010010
+0xdd93 // BranchE1 { cond: 13, imm: 147 } 0b1101110110010011
+0xdd94 // BranchE1 { cond: 13, imm: 148 } 0b1101110110010100
+0xdd95 // BranchE1 { cond: 13, imm: 149 } 0b1101110110010101
+0xdd96 // BranchE1 { cond: 13, imm: 150 } 0b1101110110010110
+0xdd97 // BranchE1 { cond: 13, imm: 151 } 0b1101110110010111
+0xdd98 // BranchE1 { cond: 13, imm: 152 } 0b1101110110011000
+0xdd99 // BranchE1 { cond: 13, imm: 153 } 0b1101110110011001
+0xdd9a // BranchE1 { cond: 13, imm: 154 } 0b1101110110011010
+0xdd9b // BranchE1 { cond: 13, imm: 155 } 0b1101110110011011
+0xdd9c // BranchE1 { cond: 13, imm: 156 } 0b1101110110011100
+0xdd9d // BranchE1 { cond: 13, imm: 157 } 0b1101110110011101
+0xdd9e // BranchE1 { cond: 13, imm: 158 } 0b1101110110011110
+0xdd9f // BranchE1 { cond: 13, imm: 159 } 0b1101110110011111
+0xdda0 // BranchE1 { cond: 13, imm: 160 } 0b1101110110100000
+0xdda1 // BranchE1 { cond: 13, imm: 161 } 0b1101110110100001
+0xdda2 // BranchE1 { cond: 13, imm: 162 } 0b1101110110100010
+0xdda3 // BranchE1 { cond: 13, imm: 163 } 0b1101110110100011
+0xdda4 // BranchE1 { cond: 13, imm: 164 } 0b1101110110100100
+0xdda5 // BranchE1 { cond: 13, imm: 165 } 0b1101110110100101
+0xdda6 // BranchE1 { cond: 13, imm: 166 } 0b1101110110100110
+0xdda7 // BranchE1 { cond: 13, imm: 167 } 0b1101110110100111
+0xdda8 // BranchE1 { cond: 13, imm: 168 } 0b1101110110101000
+0xdda9 // BranchE1 { cond: 13, imm: 169 } 0b1101110110101001
+0xddaa // BranchE1 { cond: 13, imm: 170 } 0b1101110110101010
+0xddab // BranchE1 { cond: 13, imm: 171 } 0b1101110110101011
+0xddac // BranchE1 { cond: 13, imm: 172 } 0b1101110110101100
+0xddad // BranchE1 { cond: 13, imm: 173 } 0b1101110110101101
+0xddae // BranchE1 { cond: 13, imm: 174 } 0b1101110110101110
+0xddaf // BranchE1 { cond: 13, imm: 175 } 0b1101110110101111
+0xddb0 // BranchE1 { cond: 13, imm: 176 } 0b1101110110110000
+0xddb1 // BranchE1 { cond: 13, imm: 177 } 0b1101110110110001
+0xddb2 // BranchE1 { cond: 13, imm: 178 } 0b1101110110110010
+0xddb3 // BranchE1 { cond: 13, imm: 179 } 0b1101110110110011
+0xddb4 // BranchE1 { cond: 13, imm: 180 } 0b1101110110110100
+0xddb5 // BranchE1 { cond: 13, imm: 181 } 0b1101110110110101
+0xddb6 // BranchE1 { cond: 13, imm: 182 } 0b1101110110110110
+0xddb7 // BranchE1 { cond: 13, imm: 183 } 0b1101110110110111
+0xddb8 // BranchE1 { cond: 13, imm: 184 } 0b1101110110111000
+0xddb9 // BranchE1 { cond: 13, imm: 185 } 0b1101110110111001
+0xddba // BranchE1 { cond: 13, imm: 186 } 0b1101110110111010
+0xddbb // BranchE1 { cond: 13, imm: 187 } 0b1101110110111011
+0xddbc // BranchE1 { cond: 13, imm: 188 } 0b1101110110111100
+0xddbd // BranchE1 { cond: 13, imm: 189 } 0b1101110110111101
+0xddbe // BranchE1 { cond: 13, imm: 190 } 0b1101110110111110
+0xddbf // BranchE1 { cond: 13, imm: 191 } 0b1101110110111111
+0xddc0 // BranchE1 { cond: 13, imm: 192 } 0b1101110111000000
+0xddc1 // BranchE1 { cond: 13, imm: 193 } 0b1101110111000001
+0xddc2 // BranchE1 { cond: 13, imm: 194 } 0b1101110111000010
+0xddc3 // BranchE1 { cond: 13, imm: 195 } 0b1101110111000011
+0xddc4 // BranchE1 { cond: 13, imm: 196 } 0b1101110111000100
+0xddc5 // BranchE1 { cond: 13, imm: 197 } 0b1101110111000101
+0xddc6 // BranchE1 { cond: 13, imm: 198 } 0b1101110111000110
+0xddc7 // BranchE1 { cond: 13, imm: 199 } 0b1101110111000111
+0xddc8 // BranchE1 { cond: 13, imm: 200 } 0b1101110111001000
+0xddc9 // BranchE1 { cond: 13, imm: 201 } 0b1101110111001001
+0xddca // BranchE1 { cond: 13, imm: 202 } 0b1101110111001010
+0xddcb // BranchE1 { cond: 13, imm: 203 } 0b1101110111001011
+0xddcc // BranchE1 { cond: 13, imm: 204 } 0b1101110111001100
+0xddcd // BranchE1 { cond: 13, imm: 205 } 0b1101110111001101
+0xddce // BranchE1 { cond: 13, imm: 206 } 0b1101110111001110
+0xddcf // BranchE1 { cond: 13, imm: 207 } 0b1101110111001111
+0xddd0 // BranchE1 { cond: 13, imm: 208 } 0b1101110111010000
+0xddd1 // BranchE1 { cond: 13, imm: 209 } 0b1101110111010001
+0xddd2 // BranchE1 { cond: 13, imm: 210 } 0b1101110111010010
+0xddd3 // BranchE1 { cond: 13, imm: 211 } 0b1101110111010011
+0xddd4 // BranchE1 { cond: 13, imm: 212 } 0b1101110111010100
+0xddd5 // BranchE1 { cond: 13, imm: 213 } 0b1101110111010101
+0xddd6 // BranchE1 { cond: 13, imm: 214 } 0b1101110111010110
+0xddd7 // BranchE1 { cond: 13, imm: 215 } 0b1101110111010111
+0xddd8 // BranchE1 { cond: 13, imm: 216 } 0b1101110111011000
+0xddd9 // BranchE1 { cond: 13, imm: 217 } 0b1101110111011001
+0xddda // BranchE1 { cond: 13, imm: 218 } 0b1101110111011010
+0xdddb // BranchE1 { cond: 13, imm: 219 } 0b1101110111011011
+0xdddc // BranchE1 { cond: 13, imm: 220 } 0b1101110111011100
+0xdddd // BranchE1 { cond: 13, imm: 221 } 0b1101110111011101
+0xddde // BranchE1 { cond: 13, imm: 222 } 0b1101110111011110
+0xdddf // BranchE1 { cond: 13, imm: 223 } 0b1101110111011111
+0xdde0 // BranchE1 { cond: 13, imm: 224 } 0b1101110111100000
+0xdde1 // BranchE1 { cond: 13, imm: 225 } 0b1101110111100001
+0xdde2 // BranchE1 { cond: 13, imm: 226 } 0b1101110111100010
+0xdde3 // BranchE1 { cond: 13, imm: 227 } 0b1101110111100011
+0xdde4 // BranchE1 { cond: 13, imm: 228 } 0b1101110111100100
+0xdde5 // BranchE1 { cond: 13, imm: 229 } 0b1101110111100101
+0xdde6 // BranchE1 { cond: 13, imm: 230 } 0b1101110111100110
+0xdde7 // BranchE1 { cond: 13, imm: 231 } 0b1101110111100111
+0xdde8 // BranchE1 { cond: 13, imm: 232 } 0b1101110111101000
+0xdde9 // BranchE1 { cond: 13, imm: 233 } 0b1101110111101001
+0xddea // BranchE1 { cond: 13, imm: 234 } 0b1101110111101010
+0xddeb // BranchE1 { cond: 13, imm: 235 } 0b1101110111101011
+0xddec // BranchE1 { cond: 13, imm: 236 } 0b1101110111101100
+0xdded // BranchE1 { cond: 13, imm: 237 } 0b1101110111101101
+0xddee // BranchE1 { cond: 13, imm: 238 } 0b1101110111101110
+0xddef // BranchE1 { cond: 13, imm: 239 } 0b1101110111101111
+0xddf0 // BranchE1 { cond: 13, imm: 240 } 0b1101110111110000
+0xddf1 // BranchE1 { cond: 13, imm: 241 } 0b1101110111110001
+0xddf2 // BranchE1 { cond: 13, imm: 242 } 0b1101110111110010
+0xddf3 // BranchE1 { cond: 13, imm: 243 } 0b1101110111110011
+0xddf4 // BranchE1 { cond: 13, imm: 244 } 0b1101110111110100
+0xddf5 // BranchE1 { cond: 13, imm: 245 } 0b1101110111110101
+0xddf6 // BranchE1 { cond: 13, imm: 246 } 0b1101110111110110
+0xddf7 // BranchE1 { cond: 13, imm: 247 } 0b1101110111110111
+0xddf8 // BranchE1 { cond: 13, imm: 248 } 0b1101110111111000
+0xddf9 // BranchE1 { cond: 13, imm: 249 } 0b1101110111111001
+0xddfa // BranchE1 { cond: 13, imm: 250 } 0b1101110111111010
+0xddfb // BranchE1 { cond: 13, imm: 251 } 0b1101110111111011
+0xddfc // BranchE1 { cond: 13, imm: 252 } 0b1101110111111100
+0xddfd // BranchE1 { cond: 13, imm: 253 } 0b1101110111111101
+0xddfe // BranchE1 { cond: 13, imm: 254 } 0b1101110111111110
+0xddff // BranchE1 { cond: 13, imm: 255 } 0b1101110111111111
 0xde00 // Udf { imm: 0 } 0b1101111000000000
 0xde01 // Udf { imm: 1 } 0b1101111000000001
 0xde02 // Udf { imm: 2 } 0b1101111000000010
@@ -57087,2309 +57087,2309 @@
 0xdefe // Udf { imm: 254 } 0b1101111011111110
 0xdeff // Udf { imm: 255 } 0b1101111011111111
 0xdf00 // Svc 0b1101111100000000
-0xdf01 // Branch { cond: 15, imm: 1, immx: 255 } 0b1101111100000001
-0xdf02 // Branch { cond: 15, imm: 2, immx: 255 } 0b1101111100000010
-0xdf03 // Branch { cond: 15, imm: 3, immx: 255 } 0b1101111100000011
-0xdf04 // Branch { cond: 15, imm: 4, immx: 255 } 0b1101111100000100
-0xdf05 // Branch { cond: 15, imm: 5, immx: 255 } 0b1101111100000101
-0xdf06 // Branch { cond: 15, imm: 6, immx: 255 } 0b1101111100000110
-0xdf07 // Branch { cond: 15, imm: 7, immx: 255 } 0b1101111100000111
-0xdf08 // Branch { cond: 15, imm: 8, immx: 255 } 0b1101111100001000
-0xdf09 // Branch { cond: 15, imm: 9, immx: 255 } 0b1101111100001001
-0xdf0a // Branch { cond: 15, imm: 10, immx: 255 } 0b1101111100001010
-0xdf0b // Branch { cond: 15, imm: 11, immx: 255 } 0b1101111100001011
-0xdf0c // Branch { cond: 15, imm: 12, immx: 255 } 0b1101111100001100
-0xdf0d // Branch { cond: 15, imm: 13, immx: 255 } 0b1101111100001101
-0xdf0e // Branch { cond: 15, imm: 14, immx: 255 } 0b1101111100001110
-0xdf0f // Branch { cond: 15, imm: 15, immx: 255 } 0b1101111100001111
-0xdf10 // Branch { cond: 15, imm: 16, immx: 255 } 0b1101111100010000
-0xdf11 // Branch { cond: 15, imm: 17, immx: 255 } 0b1101111100010001
-0xdf12 // Branch { cond: 15, imm: 18, immx: 255 } 0b1101111100010010
-0xdf13 // Branch { cond: 15, imm: 19, immx: 255 } 0b1101111100010011
-0xdf14 // Branch { cond: 15, imm: 20, immx: 255 } 0b1101111100010100
-0xdf15 // Branch { cond: 15, imm: 21, immx: 255 } 0b1101111100010101
-0xdf16 // Branch { cond: 15, imm: 22, immx: 255 } 0b1101111100010110
-0xdf17 // Branch { cond: 15, imm: 23, immx: 255 } 0b1101111100010111
-0xdf18 // Branch { cond: 15, imm: 24, immx: 255 } 0b1101111100011000
-0xdf19 // Branch { cond: 15, imm: 25, immx: 255 } 0b1101111100011001
-0xdf1a // Branch { cond: 15, imm: 26, immx: 255 } 0b1101111100011010
-0xdf1b // Branch { cond: 15, imm: 27, immx: 255 } 0b1101111100011011
-0xdf1c // Branch { cond: 15, imm: 28, immx: 255 } 0b1101111100011100
-0xdf1d // Branch { cond: 15, imm: 29, immx: 255 } 0b1101111100011101
-0xdf1e // Branch { cond: 15, imm: 30, immx: 255 } 0b1101111100011110
-0xdf1f // Branch { cond: 15, imm: 31, immx: 255 } 0b1101111100011111
-0xdf20 // Branch { cond: 15, imm: 32, immx: 255 } 0b1101111100100000
-0xdf21 // Branch { cond: 15, imm: 33, immx: 255 } 0b1101111100100001
-0xdf22 // Branch { cond: 15, imm: 34, immx: 255 } 0b1101111100100010
-0xdf23 // Branch { cond: 15, imm: 35, immx: 255 } 0b1101111100100011
-0xdf24 // Branch { cond: 15, imm: 36, immx: 255 } 0b1101111100100100
-0xdf25 // Branch { cond: 15, imm: 37, immx: 255 } 0b1101111100100101
-0xdf26 // Branch { cond: 15, imm: 38, immx: 255 } 0b1101111100100110
-0xdf27 // Branch { cond: 15, imm: 39, immx: 255 } 0b1101111100100111
-0xdf28 // Branch { cond: 15, imm: 40, immx: 255 } 0b1101111100101000
-0xdf29 // Branch { cond: 15, imm: 41, immx: 255 } 0b1101111100101001
-0xdf2a // Branch { cond: 15, imm: 42, immx: 255 } 0b1101111100101010
-0xdf2b // Branch { cond: 15, imm: 43, immx: 255 } 0b1101111100101011
-0xdf2c // Branch { cond: 15, imm: 44, immx: 255 } 0b1101111100101100
-0xdf2d // Branch { cond: 15, imm: 45, immx: 255 } 0b1101111100101101
-0xdf2e // Branch { cond: 15, imm: 46, immx: 255 } 0b1101111100101110
-0xdf2f // Branch { cond: 15, imm: 47, immx: 255 } 0b1101111100101111
-0xdf30 // Branch { cond: 15, imm: 48, immx: 255 } 0b1101111100110000
-0xdf31 // Branch { cond: 15, imm: 49, immx: 255 } 0b1101111100110001
-0xdf32 // Branch { cond: 15, imm: 50, immx: 255 } 0b1101111100110010
-0xdf33 // Branch { cond: 15, imm: 51, immx: 255 } 0b1101111100110011
-0xdf34 // Branch { cond: 15, imm: 52, immx: 255 } 0b1101111100110100
-0xdf35 // Branch { cond: 15, imm: 53, immx: 255 } 0b1101111100110101
-0xdf36 // Branch { cond: 15, imm: 54, immx: 255 } 0b1101111100110110
-0xdf37 // Branch { cond: 15, imm: 55, immx: 255 } 0b1101111100110111
-0xdf38 // Branch { cond: 15, imm: 56, immx: 255 } 0b1101111100111000
-0xdf39 // Branch { cond: 15, imm: 57, immx: 255 } 0b1101111100111001
-0xdf3a // Branch { cond: 15, imm: 58, immx: 255 } 0b1101111100111010
-0xdf3b // Branch { cond: 15, imm: 59, immx: 255 } 0b1101111100111011
-0xdf3c // Branch { cond: 15, imm: 60, immx: 255 } 0b1101111100111100
-0xdf3d // Branch { cond: 15, imm: 61, immx: 255 } 0b1101111100111101
-0xdf3e // Branch { cond: 15, imm: 62, immx: 255 } 0b1101111100111110
-0xdf3f // Branch { cond: 15, imm: 63, immx: 255 } 0b1101111100111111
-0xdf40 // Branch { cond: 15, imm: 64, immx: 255 } 0b1101111101000000
-0xdf41 // Branch { cond: 15, imm: 65, immx: 255 } 0b1101111101000001
-0xdf42 // Branch { cond: 15, imm: 66, immx: 255 } 0b1101111101000010
-0xdf43 // Branch { cond: 15, imm: 67, immx: 255 } 0b1101111101000011
-0xdf44 // Branch { cond: 15, imm: 68, immx: 255 } 0b1101111101000100
-0xdf45 // Branch { cond: 15, imm: 69, immx: 255 } 0b1101111101000101
-0xdf46 // Branch { cond: 15, imm: 70, immx: 255 } 0b1101111101000110
-0xdf47 // Branch { cond: 15, imm: 71, immx: 255 } 0b1101111101000111
-0xdf48 // Branch { cond: 15, imm: 72, immx: 255 } 0b1101111101001000
-0xdf49 // Branch { cond: 15, imm: 73, immx: 255 } 0b1101111101001001
-0xdf4a // Branch { cond: 15, imm: 74, immx: 255 } 0b1101111101001010
-0xdf4b // Branch { cond: 15, imm: 75, immx: 255 } 0b1101111101001011
-0xdf4c // Branch { cond: 15, imm: 76, immx: 255 } 0b1101111101001100
-0xdf4d // Branch { cond: 15, imm: 77, immx: 255 } 0b1101111101001101
-0xdf4e // Branch { cond: 15, imm: 78, immx: 255 } 0b1101111101001110
-0xdf4f // Branch { cond: 15, imm: 79, immx: 255 } 0b1101111101001111
-0xdf50 // Branch { cond: 15, imm: 80, immx: 255 } 0b1101111101010000
-0xdf51 // Branch { cond: 15, imm: 81, immx: 255 } 0b1101111101010001
-0xdf52 // Branch { cond: 15, imm: 82, immx: 255 } 0b1101111101010010
-0xdf53 // Branch { cond: 15, imm: 83, immx: 255 } 0b1101111101010011
-0xdf54 // Branch { cond: 15, imm: 84, immx: 255 } 0b1101111101010100
-0xdf55 // Branch { cond: 15, imm: 85, immx: 255 } 0b1101111101010101
-0xdf56 // Branch { cond: 15, imm: 86, immx: 255 } 0b1101111101010110
-0xdf57 // Branch { cond: 15, imm: 87, immx: 255 } 0b1101111101010111
-0xdf58 // Branch { cond: 15, imm: 88, immx: 255 } 0b1101111101011000
-0xdf59 // Branch { cond: 15, imm: 89, immx: 255 } 0b1101111101011001
-0xdf5a // Branch { cond: 15, imm: 90, immx: 255 } 0b1101111101011010
-0xdf5b // Branch { cond: 15, imm: 91, immx: 255 } 0b1101111101011011
-0xdf5c // Branch { cond: 15, imm: 92, immx: 255 } 0b1101111101011100
-0xdf5d // Branch { cond: 15, imm: 93, immx: 255 } 0b1101111101011101
-0xdf5e // Branch { cond: 15, imm: 94, immx: 255 } 0b1101111101011110
-0xdf5f // Branch { cond: 15, imm: 95, immx: 255 } 0b1101111101011111
-0xdf60 // Branch { cond: 15, imm: 96, immx: 255 } 0b1101111101100000
-0xdf61 // Branch { cond: 15, imm: 97, immx: 255 } 0b1101111101100001
-0xdf62 // Branch { cond: 15, imm: 98, immx: 255 } 0b1101111101100010
-0xdf63 // Branch { cond: 15, imm: 99, immx: 255 } 0b1101111101100011
-0xdf64 // Branch { cond: 15, imm: 100, immx: 255 } 0b1101111101100100
-0xdf65 // Branch { cond: 15, imm: 101, immx: 255 } 0b1101111101100101
-0xdf66 // Branch { cond: 15, imm: 102, immx: 255 } 0b1101111101100110
-0xdf67 // Branch { cond: 15, imm: 103, immx: 255 } 0b1101111101100111
-0xdf68 // Branch { cond: 15, imm: 104, immx: 255 } 0b1101111101101000
-0xdf69 // Branch { cond: 15, imm: 105, immx: 255 } 0b1101111101101001
-0xdf6a // Branch { cond: 15, imm: 106, immx: 255 } 0b1101111101101010
-0xdf6b // Branch { cond: 15, imm: 107, immx: 255 } 0b1101111101101011
-0xdf6c // Branch { cond: 15, imm: 108, immx: 255 } 0b1101111101101100
-0xdf6d // Branch { cond: 15, imm: 109, immx: 255 } 0b1101111101101101
-0xdf6e // Branch { cond: 15, imm: 110, immx: 255 } 0b1101111101101110
-0xdf6f // Branch { cond: 15, imm: 111, immx: 255 } 0b1101111101101111
-0xdf70 // Branch { cond: 15, imm: 112, immx: 255 } 0b1101111101110000
-0xdf71 // Branch { cond: 15, imm: 113, immx: 255 } 0b1101111101110001
-0xdf72 // Branch { cond: 15, imm: 114, immx: 255 } 0b1101111101110010
-0xdf73 // Branch { cond: 15, imm: 115, immx: 255 } 0b1101111101110011
-0xdf74 // Branch { cond: 15, imm: 116, immx: 255 } 0b1101111101110100
-0xdf75 // Branch { cond: 15, imm: 117, immx: 255 } 0b1101111101110101
-0xdf76 // Branch { cond: 15, imm: 118, immx: 255 } 0b1101111101110110
-0xdf77 // Branch { cond: 15, imm: 119, immx: 255 } 0b1101111101110111
-0xdf78 // Branch { cond: 15, imm: 120, immx: 255 } 0b1101111101111000
-0xdf79 // Branch { cond: 15, imm: 121, immx: 255 } 0b1101111101111001
-0xdf7a // Branch { cond: 15, imm: 122, immx: 255 } 0b1101111101111010
-0xdf7b // Branch { cond: 15, imm: 123, immx: 255 } 0b1101111101111011
-0xdf7c // Branch { cond: 15, imm: 124, immx: 255 } 0b1101111101111100
-0xdf7d // Branch { cond: 15, imm: 125, immx: 255 } 0b1101111101111101
-0xdf7e // Branch { cond: 15, imm: 126, immx: 255 } 0b1101111101111110
-0xdf7f // Branch { cond: 15, imm: 127, immx: 255 } 0b1101111101111111
-0xdf80 // Branch { cond: 15, imm: 128, immx: 255 } 0b1101111110000000
-0xdf81 // Branch { cond: 15, imm: 129, immx: 255 } 0b1101111110000001
-0xdf82 // Branch { cond: 15, imm: 130, immx: 255 } 0b1101111110000010
-0xdf83 // Branch { cond: 15, imm: 131, immx: 255 } 0b1101111110000011
-0xdf84 // Branch { cond: 15, imm: 132, immx: 255 } 0b1101111110000100
-0xdf85 // Branch { cond: 15, imm: 133, immx: 255 } 0b1101111110000101
-0xdf86 // Branch { cond: 15, imm: 134, immx: 255 } 0b1101111110000110
-0xdf87 // Branch { cond: 15, imm: 135, immx: 255 } 0b1101111110000111
-0xdf88 // Branch { cond: 15, imm: 136, immx: 255 } 0b1101111110001000
-0xdf89 // Branch { cond: 15, imm: 137, immx: 255 } 0b1101111110001001
-0xdf8a // Branch { cond: 15, imm: 138, immx: 255 } 0b1101111110001010
-0xdf8b // Branch { cond: 15, imm: 139, immx: 255 } 0b1101111110001011
-0xdf8c // Branch { cond: 15, imm: 140, immx: 255 } 0b1101111110001100
-0xdf8d // Branch { cond: 15, imm: 141, immx: 255 } 0b1101111110001101
-0xdf8e // Branch { cond: 15, imm: 142, immx: 255 } 0b1101111110001110
-0xdf8f // Branch { cond: 15, imm: 143, immx: 255 } 0b1101111110001111
-0xdf90 // Branch { cond: 15, imm: 144, immx: 255 } 0b1101111110010000
-0xdf91 // Branch { cond: 15, imm: 145, immx: 255 } 0b1101111110010001
-0xdf92 // Branch { cond: 15, imm: 146, immx: 255 } 0b1101111110010010
-0xdf93 // Branch { cond: 15, imm: 147, immx: 255 } 0b1101111110010011
-0xdf94 // Branch { cond: 15, imm: 148, immx: 255 } 0b1101111110010100
-0xdf95 // Branch { cond: 15, imm: 149, immx: 255 } 0b1101111110010101
-0xdf96 // Branch { cond: 15, imm: 150, immx: 255 } 0b1101111110010110
-0xdf97 // Branch { cond: 15, imm: 151, immx: 255 } 0b1101111110010111
-0xdf98 // Branch { cond: 15, imm: 152, immx: 255 } 0b1101111110011000
-0xdf99 // Branch { cond: 15, imm: 153, immx: 255 } 0b1101111110011001
-0xdf9a // Branch { cond: 15, imm: 154, immx: 255 } 0b1101111110011010
-0xdf9b // Branch { cond: 15, imm: 155, immx: 255 } 0b1101111110011011
-0xdf9c // Branch { cond: 15, imm: 156, immx: 255 } 0b1101111110011100
-0xdf9d // Branch { cond: 15, imm: 157, immx: 255 } 0b1101111110011101
-0xdf9e // Branch { cond: 15, imm: 158, immx: 255 } 0b1101111110011110
-0xdf9f // Branch { cond: 15, imm: 159, immx: 255 } 0b1101111110011111
-0xdfa0 // Branch { cond: 15, imm: 160, immx: 255 } 0b1101111110100000
-0xdfa1 // Branch { cond: 15, imm: 161, immx: 255 } 0b1101111110100001
-0xdfa2 // Branch { cond: 15, imm: 162, immx: 255 } 0b1101111110100010
-0xdfa3 // Branch { cond: 15, imm: 163, immx: 255 } 0b1101111110100011
-0xdfa4 // Branch { cond: 15, imm: 164, immx: 255 } 0b1101111110100100
-0xdfa5 // Branch { cond: 15, imm: 165, immx: 255 } 0b1101111110100101
-0xdfa6 // Branch { cond: 15, imm: 166, immx: 255 } 0b1101111110100110
-0xdfa7 // Branch { cond: 15, imm: 167, immx: 255 } 0b1101111110100111
-0xdfa8 // Branch { cond: 15, imm: 168, immx: 255 } 0b1101111110101000
-0xdfa9 // Branch { cond: 15, imm: 169, immx: 255 } 0b1101111110101001
-0xdfaa // Branch { cond: 15, imm: 170, immx: 255 } 0b1101111110101010
-0xdfab // Branch { cond: 15, imm: 171, immx: 255 } 0b1101111110101011
-0xdfac // Branch { cond: 15, imm: 172, immx: 255 } 0b1101111110101100
-0xdfad // Branch { cond: 15, imm: 173, immx: 255 } 0b1101111110101101
-0xdfae // Branch { cond: 15, imm: 174, immx: 255 } 0b1101111110101110
-0xdfaf // Branch { cond: 15, imm: 175, immx: 255 } 0b1101111110101111
-0xdfb0 // Branch { cond: 15, imm: 176, immx: 255 } 0b1101111110110000
-0xdfb1 // Branch { cond: 15, imm: 177, immx: 255 } 0b1101111110110001
-0xdfb2 // Branch { cond: 15, imm: 178, immx: 255 } 0b1101111110110010
-0xdfb3 // Branch { cond: 15, imm: 179, immx: 255 } 0b1101111110110011
-0xdfb4 // Branch { cond: 15, imm: 180, immx: 255 } 0b1101111110110100
-0xdfb5 // Branch { cond: 15, imm: 181, immx: 255 } 0b1101111110110101
-0xdfb6 // Branch { cond: 15, imm: 182, immx: 255 } 0b1101111110110110
-0xdfb7 // Branch { cond: 15, imm: 183, immx: 255 } 0b1101111110110111
-0xdfb8 // Branch { cond: 15, imm: 184, immx: 255 } 0b1101111110111000
-0xdfb9 // Branch { cond: 15, imm: 185, immx: 255 } 0b1101111110111001
-0xdfba // Branch { cond: 15, imm: 186, immx: 255 } 0b1101111110111010
-0xdfbb // Branch { cond: 15, imm: 187, immx: 255 } 0b1101111110111011
-0xdfbc // Branch { cond: 15, imm: 188, immx: 255 } 0b1101111110111100
-0xdfbd // Branch { cond: 15, imm: 189, immx: 255 } 0b1101111110111101
-0xdfbe // Branch { cond: 15, imm: 190, immx: 255 } 0b1101111110111110
-0xdfbf // Branch { cond: 15, imm: 191, immx: 255 } 0b1101111110111111
-0xdfc0 // Branch { cond: 15, imm: 192, immx: 255 } 0b1101111111000000
-0xdfc1 // Branch { cond: 15, imm: 193, immx: 255 } 0b1101111111000001
-0xdfc2 // Branch { cond: 15, imm: 194, immx: 255 } 0b1101111111000010
-0xdfc3 // Branch { cond: 15, imm: 195, immx: 255 } 0b1101111111000011
-0xdfc4 // Branch { cond: 15, imm: 196, immx: 255 } 0b1101111111000100
-0xdfc5 // Branch { cond: 15, imm: 197, immx: 255 } 0b1101111111000101
-0xdfc6 // Branch { cond: 15, imm: 198, immx: 255 } 0b1101111111000110
-0xdfc7 // Branch { cond: 15, imm: 199, immx: 255 } 0b1101111111000111
-0xdfc8 // Branch { cond: 15, imm: 200, immx: 255 } 0b1101111111001000
-0xdfc9 // Branch { cond: 15, imm: 201, immx: 255 } 0b1101111111001001
-0xdfca // Branch { cond: 15, imm: 202, immx: 255 } 0b1101111111001010
-0xdfcb // Branch { cond: 15, imm: 203, immx: 255 } 0b1101111111001011
-0xdfcc // Branch { cond: 15, imm: 204, immx: 255 } 0b1101111111001100
-0xdfcd // Branch { cond: 15, imm: 205, immx: 255 } 0b1101111111001101
-0xdfce // Branch { cond: 15, imm: 206, immx: 255 } 0b1101111111001110
-0xdfcf // Branch { cond: 15, imm: 207, immx: 255 } 0b1101111111001111
-0xdfd0 // Branch { cond: 15, imm: 208, immx: 255 } 0b1101111111010000
-0xdfd1 // Branch { cond: 15, imm: 209, immx: 255 } 0b1101111111010001
-0xdfd2 // Branch { cond: 15, imm: 210, immx: 255 } 0b1101111111010010
-0xdfd3 // Branch { cond: 15, imm: 211, immx: 255 } 0b1101111111010011
-0xdfd4 // Branch { cond: 15, imm: 212, immx: 255 } 0b1101111111010100
-0xdfd5 // Branch { cond: 15, imm: 213, immx: 255 } 0b1101111111010101
-0xdfd6 // Branch { cond: 15, imm: 214, immx: 255 } 0b1101111111010110
-0xdfd7 // Branch { cond: 15, imm: 215, immx: 255 } 0b1101111111010111
-0xdfd8 // Branch { cond: 15, imm: 216, immx: 255 } 0b1101111111011000
-0xdfd9 // Branch { cond: 15, imm: 217, immx: 255 } 0b1101111111011001
-0xdfda // Branch { cond: 15, imm: 218, immx: 255 } 0b1101111111011010
-0xdfdb // Branch { cond: 15, imm: 219, immx: 255 } 0b1101111111011011
-0xdfdc // Branch { cond: 15, imm: 220, immx: 255 } 0b1101111111011100
-0xdfdd // Branch { cond: 15, imm: 221, immx: 255 } 0b1101111111011101
-0xdfde // Branch { cond: 15, imm: 222, immx: 255 } 0b1101111111011110
-0xdfdf // Branch { cond: 15, imm: 223, immx: 255 } 0b1101111111011111
-0xdfe0 // Branch { cond: 15, imm: 224, immx: 255 } 0b1101111111100000
-0xdfe1 // Branch { cond: 15, imm: 225, immx: 255 } 0b1101111111100001
-0xdfe2 // Branch { cond: 15, imm: 226, immx: 255 } 0b1101111111100010
-0xdfe3 // Branch { cond: 15, imm: 227, immx: 255 } 0b1101111111100011
-0xdfe4 // Branch { cond: 15, imm: 228, immx: 255 } 0b1101111111100100
-0xdfe5 // Branch { cond: 15, imm: 229, immx: 255 } 0b1101111111100101
-0xdfe6 // Branch { cond: 15, imm: 230, immx: 255 } 0b1101111111100110
-0xdfe7 // Branch { cond: 15, imm: 231, immx: 255 } 0b1101111111100111
-0xdfe8 // Branch { cond: 15, imm: 232, immx: 255 } 0b1101111111101000
-0xdfe9 // Branch { cond: 15, imm: 233, immx: 255 } 0b1101111111101001
-0xdfea // Branch { cond: 15, imm: 234, immx: 255 } 0b1101111111101010
-0xdfeb // Branch { cond: 15, imm: 235, immx: 255 } 0b1101111111101011
-0xdfec // Branch { cond: 15, imm: 236, immx: 255 } 0b1101111111101100
-0xdfed // Branch { cond: 15, imm: 237, immx: 255 } 0b1101111111101101
-0xdfee // Branch { cond: 15, imm: 238, immx: 255 } 0b1101111111101110
-0xdfef // Branch { cond: 15, imm: 239, immx: 255 } 0b1101111111101111
-0xdff0 // Branch { cond: 15, imm: 240, immx: 255 } 0b1101111111110000
-0xdff1 // Branch { cond: 15, imm: 241, immx: 255 } 0b1101111111110001
-0xdff2 // Branch { cond: 15, imm: 242, immx: 255 } 0b1101111111110010
-0xdff3 // Branch { cond: 15, imm: 243, immx: 255 } 0b1101111111110011
-0xdff4 // Branch { cond: 15, imm: 244, immx: 255 } 0b1101111111110100
-0xdff5 // Branch { cond: 15, imm: 245, immx: 255 } 0b1101111111110101
-0xdff6 // Branch { cond: 15, imm: 246, immx: 255 } 0b1101111111110110
-0xdff7 // Branch { cond: 15, imm: 247, immx: 255 } 0b1101111111110111
-0xdff8 // Branch { cond: 15, imm: 248, immx: 255 } 0b1101111111111000
-0xdff9 // Branch { cond: 15, imm: 249, immx: 255 } 0b1101111111111001
-0xdffa // Branch { cond: 15, imm: 250, immx: 255 } 0b1101111111111010
-0xdffb // Branch { cond: 15, imm: 251, immx: 255 } 0b1101111111111011
-0xdffc // Branch { cond: 15, imm: 252, immx: 255 } 0b1101111111111100
-0xdffd // Branch { cond: 15, imm: 253, immx: 255 } 0b1101111111111101
-0xdffe // Branch { cond: 15, imm: 254, immx: 255 } 0b1101111111111110
-0xdfff // Branch { cond: 15, imm: 255, immx: 255 } 0b1101111111111111
-0xe000 // Branch { cond: 255, imm: 0, immx: 0 } 0b1110000000000000
-0xe001 // Branch { cond: 255, imm: 1, immx: 0 } 0b1110000000000001
-0xe002 // Branch { cond: 255, imm: 2, immx: 0 } 0b1110000000000010
-0xe003 // Branch { cond: 255, imm: 3, immx: 0 } 0b1110000000000011
-0xe004 // Branch { cond: 255, imm: 4, immx: 0 } 0b1110000000000100
-0xe005 // Branch { cond: 255, imm: 5, immx: 0 } 0b1110000000000101
-0xe006 // Branch { cond: 255, imm: 6, immx: 0 } 0b1110000000000110
-0xe007 // Branch { cond: 255, imm: 7, immx: 0 } 0b1110000000000111
-0xe008 // Branch { cond: 255, imm: 8, immx: 0 } 0b1110000000001000
-0xe009 // Branch { cond: 255, imm: 9, immx: 0 } 0b1110000000001001
-0xe00a // Branch { cond: 255, imm: 10, immx: 0 } 0b1110000000001010
-0xe00b // Branch { cond: 255, imm: 11, immx: 0 } 0b1110000000001011
-0xe00c // Branch { cond: 255, imm: 12, immx: 0 } 0b1110000000001100
-0xe00d // Branch { cond: 255, imm: 13, immx: 0 } 0b1110000000001101
-0xe00e // Branch { cond: 255, imm: 14, immx: 0 } 0b1110000000001110
-0xe00f // Branch { cond: 255, imm: 15, immx: 0 } 0b1110000000001111
-0xe010 // Branch { cond: 255, imm: 16, immx: 0 } 0b1110000000010000
-0xe011 // Branch { cond: 255, imm: 17, immx: 0 } 0b1110000000010001
-0xe012 // Branch { cond: 255, imm: 18, immx: 0 } 0b1110000000010010
-0xe013 // Branch { cond: 255, imm: 19, immx: 0 } 0b1110000000010011
-0xe014 // Branch { cond: 255, imm: 20, immx: 0 } 0b1110000000010100
-0xe015 // Branch { cond: 255, imm: 21, immx: 0 } 0b1110000000010101
-0xe016 // Branch { cond: 255, imm: 22, immx: 0 } 0b1110000000010110
-0xe017 // Branch { cond: 255, imm: 23, immx: 0 } 0b1110000000010111
-0xe018 // Branch { cond: 255, imm: 24, immx: 0 } 0b1110000000011000
-0xe019 // Branch { cond: 255, imm: 25, immx: 0 } 0b1110000000011001
-0xe01a // Branch { cond: 255, imm: 26, immx: 0 } 0b1110000000011010
-0xe01b // Branch { cond: 255, imm: 27, immx: 0 } 0b1110000000011011
-0xe01c // Branch { cond: 255, imm: 28, immx: 0 } 0b1110000000011100
-0xe01d // Branch { cond: 255, imm: 29, immx: 0 } 0b1110000000011101
-0xe01e // Branch { cond: 255, imm: 30, immx: 0 } 0b1110000000011110
-0xe01f // Branch { cond: 255, imm: 31, immx: 0 } 0b1110000000011111
-0xe020 // Branch { cond: 255, imm: 32, immx: 0 } 0b1110000000100000
-0xe021 // Branch { cond: 255, imm: 33, immx: 0 } 0b1110000000100001
-0xe022 // Branch { cond: 255, imm: 34, immx: 0 } 0b1110000000100010
-0xe023 // Branch { cond: 255, imm: 35, immx: 0 } 0b1110000000100011
-0xe024 // Branch { cond: 255, imm: 36, immx: 0 } 0b1110000000100100
-0xe025 // Branch { cond: 255, imm: 37, immx: 0 } 0b1110000000100101
-0xe026 // Branch { cond: 255, imm: 38, immx: 0 } 0b1110000000100110
-0xe027 // Branch { cond: 255, imm: 39, immx: 0 } 0b1110000000100111
-0xe028 // Branch { cond: 255, imm: 40, immx: 0 } 0b1110000000101000
-0xe029 // Branch { cond: 255, imm: 41, immx: 0 } 0b1110000000101001
-0xe02a // Branch { cond: 255, imm: 42, immx: 0 } 0b1110000000101010
-0xe02b // Branch { cond: 255, imm: 43, immx: 0 } 0b1110000000101011
-0xe02c // Branch { cond: 255, imm: 44, immx: 0 } 0b1110000000101100
-0xe02d // Branch { cond: 255, imm: 45, immx: 0 } 0b1110000000101101
-0xe02e // Branch { cond: 255, imm: 46, immx: 0 } 0b1110000000101110
-0xe02f // Branch { cond: 255, imm: 47, immx: 0 } 0b1110000000101111
-0xe030 // Branch { cond: 255, imm: 48, immx: 0 } 0b1110000000110000
-0xe031 // Branch { cond: 255, imm: 49, immx: 0 } 0b1110000000110001
-0xe032 // Branch { cond: 255, imm: 50, immx: 0 } 0b1110000000110010
-0xe033 // Branch { cond: 255, imm: 51, immx: 0 } 0b1110000000110011
-0xe034 // Branch { cond: 255, imm: 52, immx: 0 } 0b1110000000110100
-0xe035 // Branch { cond: 255, imm: 53, immx: 0 } 0b1110000000110101
-0xe036 // Branch { cond: 255, imm: 54, immx: 0 } 0b1110000000110110
-0xe037 // Branch { cond: 255, imm: 55, immx: 0 } 0b1110000000110111
-0xe038 // Branch { cond: 255, imm: 56, immx: 0 } 0b1110000000111000
-0xe039 // Branch { cond: 255, imm: 57, immx: 0 } 0b1110000000111001
-0xe03a // Branch { cond: 255, imm: 58, immx: 0 } 0b1110000000111010
-0xe03b // Branch { cond: 255, imm: 59, immx: 0 } 0b1110000000111011
-0xe03c // Branch { cond: 255, imm: 60, immx: 0 } 0b1110000000111100
-0xe03d // Branch { cond: 255, imm: 61, immx: 0 } 0b1110000000111101
-0xe03e // Branch { cond: 255, imm: 62, immx: 0 } 0b1110000000111110
-0xe03f // Branch { cond: 255, imm: 63, immx: 0 } 0b1110000000111111
-0xe040 // Branch { cond: 255, imm: 64, immx: 0 } 0b1110000001000000
-0xe041 // Branch { cond: 255, imm: 65, immx: 0 } 0b1110000001000001
-0xe042 // Branch { cond: 255, imm: 66, immx: 0 } 0b1110000001000010
-0xe043 // Branch { cond: 255, imm: 67, immx: 0 } 0b1110000001000011
-0xe044 // Branch { cond: 255, imm: 68, immx: 0 } 0b1110000001000100
-0xe045 // Branch { cond: 255, imm: 69, immx: 0 } 0b1110000001000101
-0xe046 // Branch { cond: 255, imm: 70, immx: 0 } 0b1110000001000110
-0xe047 // Branch { cond: 255, imm: 71, immx: 0 } 0b1110000001000111
-0xe048 // Branch { cond: 255, imm: 72, immx: 0 } 0b1110000001001000
-0xe049 // Branch { cond: 255, imm: 73, immx: 0 } 0b1110000001001001
-0xe04a // Branch { cond: 255, imm: 74, immx: 0 } 0b1110000001001010
-0xe04b // Branch { cond: 255, imm: 75, immx: 0 } 0b1110000001001011
-0xe04c // Branch { cond: 255, imm: 76, immx: 0 } 0b1110000001001100
-0xe04d // Branch { cond: 255, imm: 77, immx: 0 } 0b1110000001001101
-0xe04e // Branch { cond: 255, imm: 78, immx: 0 } 0b1110000001001110
-0xe04f // Branch { cond: 255, imm: 79, immx: 0 } 0b1110000001001111
-0xe050 // Branch { cond: 255, imm: 80, immx: 0 } 0b1110000001010000
-0xe051 // Branch { cond: 255, imm: 81, immx: 0 } 0b1110000001010001
-0xe052 // Branch { cond: 255, imm: 82, immx: 0 } 0b1110000001010010
-0xe053 // Branch { cond: 255, imm: 83, immx: 0 } 0b1110000001010011
-0xe054 // Branch { cond: 255, imm: 84, immx: 0 } 0b1110000001010100
-0xe055 // Branch { cond: 255, imm: 85, immx: 0 } 0b1110000001010101
-0xe056 // Branch { cond: 255, imm: 86, immx: 0 } 0b1110000001010110
-0xe057 // Branch { cond: 255, imm: 87, immx: 0 } 0b1110000001010111
-0xe058 // Branch { cond: 255, imm: 88, immx: 0 } 0b1110000001011000
-0xe059 // Branch { cond: 255, imm: 89, immx: 0 } 0b1110000001011001
-0xe05a // Branch { cond: 255, imm: 90, immx: 0 } 0b1110000001011010
-0xe05b // Branch { cond: 255, imm: 91, immx: 0 } 0b1110000001011011
-0xe05c // Branch { cond: 255, imm: 92, immx: 0 } 0b1110000001011100
-0xe05d // Branch { cond: 255, imm: 93, immx: 0 } 0b1110000001011101
-0xe05e // Branch { cond: 255, imm: 94, immx: 0 } 0b1110000001011110
-0xe05f // Branch { cond: 255, imm: 95, immx: 0 } 0b1110000001011111
-0xe060 // Branch { cond: 255, imm: 96, immx: 0 } 0b1110000001100000
-0xe061 // Branch { cond: 255, imm: 97, immx: 0 } 0b1110000001100001
-0xe062 // Branch { cond: 255, imm: 98, immx: 0 } 0b1110000001100010
-0xe063 // Branch { cond: 255, imm: 99, immx: 0 } 0b1110000001100011
-0xe064 // Branch { cond: 255, imm: 100, immx: 0 } 0b1110000001100100
-0xe065 // Branch { cond: 255, imm: 101, immx: 0 } 0b1110000001100101
-0xe066 // Branch { cond: 255, imm: 102, immx: 0 } 0b1110000001100110
-0xe067 // Branch { cond: 255, imm: 103, immx: 0 } 0b1110000001100111
-0xe068 // Branch { cond: 255, imm: 104, immx: 0 } 0b1110000001101000
-0xe069 // Branch { cond: 255, imm: 105, immx: 0 } 0b1110000001101001
-0xe06a // Branch { cond: 255, imm: 106, immx: 0 } 0b1110000001101010
-0xe06b // Branch { cond: 255, imm: 107, immx: 0 } 0b1110000001101011
-0xe06c // Branch { cond: 255, imm: 108, immx: 0 } 0b1110000001101100
-0xe06d // Branch { cond: 255, imm: 109, immx: 0 } 0b1110000001101101
-0xe06e // Branch { cond: 255, imm: 110, immx: 0 } 0b1110000001101110
-0xe06f // Branch { cond: 255, imm: 111, immx: 0 } 0b1110000001101111
-0xe070 // Branch { cond: 255, imm: 112, immx: 0 } 0b1110000001110000
-0xe071 // Branch { cond: 255, imm: 113, immx: 0 } 0b1110000001110001
-0xe072 // Branch { cond: 255, imm: 114, immx: 0 } 0b1110000001110010
-0xe073 // Branch { cond: 255, imm: 115, immx: 0 } 0b1110000001110011
-0xe074 // Branch { cond: 255, imm: 116, immx: 0 } 0b1110000001110100
-0xe075 // Branch { cond: 255, imm: 117, immx: 0 } 0b1110000001110101
-0xe076 // Branch { cond: 255, imm: 118, immx: 0 } 0b1110000001110110
-0xe077 // Branch { cond: 255, imm: 119, immx: 0 } 0b1110000001110111
-0xe078 // Branch { cond: 255, imm: 120, immx: 0 } 0b1110000001111000
-0xe079 // Branch { cond: 255, imm: 121, immx: 0 } 0b1110000001111001
-0xe07a // Branch { cond: 255, imm: 122, immx: 0 } 0b1110000001111010
-0xe07b // Branch { cond: 255, imm: 123, immx: 0 } 0b1110000001111011
-0xe07c // Branch { cond: 255, imm: 124, immx: 0 } 0b1110000001111100
-0xe07d // Branch { cond: 255, imm: 125, immx: 0 } 0b1110000001111101
-0xe07e // Branch { cond: 255, imm: 126, immx: 0 } 0b1110000001111110
-0xe07f // Branch { cond: 255, imm: 127, immx: 0 } 0b1110000001111111
-0xe080 // Branch { cond: 255, imm: 128, immx: 0 } 0b1110000010000000
-0xe081 // Branch { cond: 255, imm: 129, immx: 0 } 0b1110000010000001
-0xe082 // Branch { cond: 255, imm: 130, immx: 0 } 0b1110000010000010
-0xe083 // Branch { cond: 255, imm: 131, immx: 0 } 0b1110000010000011
-0xe084 // Branch { cond: 255, imm: 132, immx: 0 } 0b1110000010000100
-0xe085 // Branch { cond: 255, imm: 133, immx: 0 } 0b1110000010000101
-0xe086 // Branch { cond: 255, imm: 134, immx: 0 } 0b1110000010000110
-0xe087 // Branch { cond: 255, imm: 135, immx: 0 } 0b1110000010000111
-0xe088 // Branch { cond: 255, imm: 136, immx: 0 } 0b1110000010001000
-0xe089 // Branch { cond: 255, imm: 137, immx: 0 } 0b1110000010001001
-0xe08a // Branch { cond: 255, imm: 138, immx: 0 } 0b1110000010001010
-0xe08b // Branch { cond: 255, imm: 139, immx: 0 } 0b1110000010001011
-0xe08c // Branch { cond: 255, imm: 140, immx: 0 } 0b1110000010001100
-0xe08d // Branch { cond: 255, imm: 141, immx: 0 } 0b1110000010001101
-0xe08e // Branch { cond: 255, imm: 142, immx: 0 } 0b1110000010001110
-0xe08f // Branch { cond: 255, imm: 143, immx: 0 } 0b1110000010001111
-0xe090 // Branch { cond: 255, imm: 144, immx: 0 } 0b1110000010010000
-0xe091 // Branch { cond: 255, imm: 145, immx: 0 } 0b1110000010010001
-0xe092 // Branch { cond: 255, imm: 146, immx: 0 } 0b1110000010010010
-0xe093 // Branch { cond: 255, imm: 147, immx: 0 } 0b1110000010010011
-0xe094 // Branch { cond: 255, imm: 148, immx: 0 } 0b1110000010010100
-0xe095 // Branch { cond: 255, imm: 149, immx: 0 } 0b1110000010010101
-0xe096 // Branch { cond: 255, imm: 150, immx: 0 } 0b1110000010010110
-0xe097 // Branch { cond: 255, imm: 151, immx: 0 } 0b1110000010010111
-0xe098 // Branch { cond: 255, imm: 152, immx: 0 } 0b1110000010011000
-0xe099 // Branch { cond: 255, imm: 153, immx: 0 } 0b1110000010011001
-0xe09a // Branch { cond: 255, imm: 154, immx: 0 } 0b1110000010011010
-0xe09b // Branch { cond: 255, imm: 155, immx: 0 } 0b1110000010011011
-0xe09c // Branch { cond: 255, imm: 156, immx: 0 } 0b1110000010011100
-0xe09d // Branch { cond: 255, imm: 157, immx: 0 } 0b1110000010011101
-0xe09e // Branch { cond: 255, imm: 158, immx: 0 } 0b1110000010011110
-0xe09f // Branch { cond: 255, imm: 159, immx: 0 } 0b1110000010011111
-0xe0a0 // Branch { cond: 255, imm: 160, immx: 0 } 0b1110000010100000
-0xe0a1 // Branch { cond: 255, imm: 161, immx: 0 } 0b1110000010100001
-0xe0a2 // Branch { cond: 255, imm: 162, immx: 0 } 0b1110000010100010
-0xe0a3 // Branch { cond: 255, imm: 163, immx: 0 } 0b1110000010100011
-0xe0a4 // Branch { cond: 255, imm: 164, immx: 0 } 0b1110000010100100
-0xe0a5 // Branch { cond: 255, imm: 165, immx: 0 } 0b1110000010100101
-0xe0a6 // Branch { cond: 255, imm: 166, immx: 0 } 0b1110000010100110
-0xe0a7 // Branch { cond: 255, imm: 167, immx: 0 } 0b1110000010100111
-0xe0a8 // Branch { cond: 255, imm: 168, immx: 0 } 0b1110000010101000
-0xe0a9 // Branch { cond: 255, imm: 169, immx: 0 } 0b1110000010101001
-0xe0aa // Branch { cond: 255, imm: 170, immx: 0 } 0b1110000010101010
-0xe0ab // Branch { cond: 255, imm: 171, immx: 0 } 0b1110000010101011
-0xe0ac // Branch { cond: 255, imm: 172, immx: 0 } 0b1110000010101100
-0xe0ad // Branch { cond: 255, imm: 173, immx: 0 } 0b1110000010101101
-0xe0ae // Branch { cond: 255, imm: 174, immx: 0 } 0b1110000010101110
-0xe0af // Branch { cond: 255, imm: 175, immx: 0 } 0b1110000010101111
-0xe0b0 // Branch { cond: 255, imm: 176, immx: 0 } 0b1110000010110000
-0xe0b1 // Branch { cond: 255, imm: 177, immx: 0 } 0b1110000010110001
-0xe0b2 // Branch { cond: 255, imm: 178, immx: 0 } 0b1110000010110010
-0xe0b3 // Branch { cond: 255, imm: 179, immx: 0 } 0b1110000010110011
-0xe0b4 // Branch { cond: 255, imm: 180, immx: 0 } 0b1110000010110100
-0xe0b5 // Branch { cond: 255, imm: 181, immx: 0 } 0b1110000010110101
-0xe0b6 // Branch { cond: 255, imm: 182, immx: 0 } 0b1110000010110110
-0xe0b7 // Branch { cond: 255, imm: 183, immx: 0 } 0b1110000010110111
-0xe0b8 // Branch { cond: 255, imm: 184, immx: 0 } 0b1110000010111000
-0xe0b9 // Branch { cond: 255, imm: 185, immx: 0 } 0b1110000010111001
-0xe0ba // Branch { cond: 255, imm: 186, immx: 0 } 0b1110000010111010
-0xe0bb // Branch { cond: 255, imm: 187, immx: 0 } 0b1110000010111011
-0xe0bc // Branch { cond: 255, imm: 188, immx: 0 } 0b1110000010111100
-0xe0bd // Branch { cond: 255, imm: 189, immx: 0 } 0b1110000010111101
-0xe0be // Branch { cond: 255, imm: 190, immx: 0 } 0b1110000010111110
-0xe0bf // Branch { cond: 255, imm: 191, immx: 0 } 0b1110000010111111
-0xe0c0 // Branch { cond: 255, imm: 192, immx: 0 } 0b1110000011000000
-0xe0c1 // Branch { cond: 255, imm: 193, immx: 0 } 0b1110000011000001
-0xe0c2 // Branch { cond: 255, imm: 194, immx: 0 } 0b1110000011000010
-0xe0c3 // Branch { cond: 255, imm: 195, immx: 0 } 0b1110000011000011
-0xe0c4 // Branch { cond: 255, imm: 196, immx: 0 } 0b1110000011000100
-0xe0c5 // Branch { cond: 255, imm: 197, immx: 0 } 0b1110000011000101
-0xe0c6 // Branch { cond: 255, imm: 198, immx: 0 } 0b1110000011000110
-0xe0c7 // Branch { cond: 255, imm: 199, immx: 0 } 0b1110000011000111
-0xe0c8 // Branch { cond: 255, imm: 200, immx: 0 } 0b1110000011001000
-0xe0c9 // Branch { cond: 255, imm: 201, immx: 0 } 0b1110000011001001
-0xe0ca // Branch { cond: 255, imm: 202, immx: 0 } 0b1110000011001010
-0xe0cb // Branch { cond: 255, imm: 203, immx: 0 } 0b1110000011001011
-0xe0cc // Branch { cond: 255, imm: 204, immx: 0 } 0b1110000011001100
-0xe0cd // Branch { cond: 255, imm: 205, immx: 0 } 0b1110000011001101
-0xe0ce // Branch { cond: 255, imm: 206, immx: 0 } 0b1110000011001110
-0xe0cf // Branch { cond: 255, imm: 207, immx: 0 } 0b1110000011001111
-0xe0d0 // Branch { cond: 255, imm: 208, immx: 0 } 0b1110000011010000
-0xe0d1 // Branch { cond: 255, imm: 209, immx: 0 } 0b1110000011010001
-0xe0d2 // Branch { cond: 255, imm: 210, immx: 0 } 0b1110000011010010
-0xe0d3 // Branch { cond: 255, imm: 211, immx: 0 } 0b1110000011010011
-0xe0d4 // Branch { cond: 255, imm: 212, immx: 0 } 0b1110000011010100
-0xe0d5 // Branch { cond: 255, imm: 213, immx: 0 } 0b1110000011010101
-0xe0d6 // Branch { cond: 255, imm: 214, immx: 0 } 0b1110000011010110
-0xe0d7 // Branch { cond: 255, imm: 215, immx: 0 } 0b1110000011010111
-0xe0d8 // Branch { cond: 255, imm: 216, immx: 0 } 0b1110000011011000
-0xe0d9 // Branch { cond: 255, imm: 217, immx: 0 } 0b1110000011011001
-0xe0da // Branch { cond: 255, imm: 218, immx: 0 } 0b1110000011011010
-0xe0db // Branch { cond: 255, imm: 219, immx: 0 } 0b1110000011011011
-0xe0dc // Branch { cond: 255, imm: 220, immx: 0 } 0b1110000011011100
-0xe0dd // Branch { cond: 255, imm: 221, immx: 0 } 0b1110000011011101
-0xe0de // Branch { cond: 255, imm: 222, immx: 0 } 0b1110000011011110
-0xe0df // Branch { cond: 255, imm: 223, immx: 0 } 0b1110000011011111
-0xe0e0 // Branch { cond: 255, imm: 224, immx: 0 } 0b1110000011100000
-0xe0e1 // Branch { cond: 255, imm: 225, immx: 0 } 0b1110000011100001
-0xe0e2 // Branch { cond: 255, imm: 226, immx: 0 } 0b1110000011100010
-0xe0e3 // Branch { cond: 255, imm: 227, immx: 0 } 0b1110000011100011
-0xe0e4 // Branch { cond: 255, imm: 228, immx: 0 } 0b1110000011100100
-0xe0e5 // Branch { cond: 255, imm: 229, immx: 0 } 0b1110000011100101
-0xe0e6 // Branch { cond: 255, imm: 230, immx: 0 } 0b1110000011100110
-0xe0e7 // Branch { cond: 255, imm: 231, immx: 0 } 0b1110000011100111
-0xe0e8 // Branch { cond: 255, imm: 232, immx: 0 } 0b1110000011101000
-0xe0e9 // Branch { cond: 255, imm: 233, immx: 0 } 0b1110000011101001
-0xe0ea // Branch { cond: 255, imm: 234, immx: 0 } 0b1110000011101010
-0xe0eb // Branch { cond: 255, imm: 235, immx: 0 } 0b1110000011101011
-0xe0ec // Branch { cond: 255, imm: 236, immx: 0 } 0b1110000011101100
-0xe0ed // Branch { cond: 255, imm: 237, immx: 0 } 0b1110000011101101
-0xe0ee // Branch { cond: 255, imm: 238, immx: 0 } 0b1110000011101110
-0xe0ef // Branch { cond: 255, imm: 239, immx: 0 } 0b1110000011101111
-0xe0f0 // Branch { cond: 255, imm: 240, immx: 0 } 0b1110000011110000
-0xe0f1 // Branch { cond: 255, imm: 241, immx: 0 } 0b1110000011110001
-0xe0f2 // Branch { cond: 255, imm: 242, immx: 0 } 0b1110000011110010
-0xe0f3 // Branch { cond: 255, imm: 243, immx: 0 } 0b1110000011110011
-0xe0f4 // Branch { cond: 255, imm: 244, immx: 0 } 0b1110000011110100
-0xe0f5 // Branch { cond: 255, imm: 245, immx: 0 } 0b1110000011110101
-0xe0f6 // Branch { cond: 255, imm: 246, immx: 0 } 0b1110000011110110
-0xe0f7 // Branch { cond: 255, imm: 247, immx: 0 } 0b1110000011110111
-0xe0f8 // Branch { cond: 255, imm: 248, immx: 0 } 0b1110000011111000
-0xe0f9 // Branch { cond: 255, imm: 249, immx: 0 } 0b1110000011111001
-0xe0fa // Branch { cond: 255, imm: 250, immx: 0 } 0b1110000011111010
-0xe0fb // Branch { cond: 255, imm: 251, immx: 0 } 0b1110000011111011
-0xe0fc // Branch { cond: 255, imm: 252, immx: 0 } 0b1110000011111100
-0xe0fd // Branch { cond: 255, imm: 253, immx: 0 } 0b1110000011111101
-0xe0fe // Branch { cond: 255, imm: 254, immx: 0 } 0b1110000011111110
-0xe0ff // Branch { cond: 255, imm: 255, immx: 0 } 0b1110000011111111
-0xe100 // Branch { cond: 255, imm: 0, immx: 1 } 0b1110000100000000
-0xe101 // Branch { cond: 255, imm: 1, immx: 1 } 0b1110000100000001
-0xe102 // Branch { cond: 255, imm: 2, immx: 1 } 0b1110000100000010
-0xe103 // Branch { cond: 255, imm: 3, immx: 1 } 0b1110000100000011
-0xe104 // Branch { cond: 255, imm: 4, immx: 1 } 0b1110000100000100
-0xe105 // Branch { cond: 255, imm: 5, immx: 1 } 0b1110000100000101
-0xe106 // Branch { cond: 255, imm: 6, immx: 1 } 0b1110000100000110
-0xe107 // Branch { cond: 255, imm: 7, immx: 1 } 0b1110000100000111
-0xe108 // Branch { cond: 255, imm: 8, immx: 1 } 0b1110000100001000
-0xe109 // Branch { cond: 255, imm: 9, immx: 1 } 0b1110000100001001
-0xe10a // Branch { cond: 255, imm: 10, immx: 1 } 0b1110000100001010
-0xe10b // Branch { cond: 255, imm: 11, immx: 1 } 0b1110000100001011
-0xe10c // Branch { cond: 255, imm: 12, immx: 1 } 0b1110000100001100
-0xe10d // Branch { cond: 255, imm: 13, immx: 1 } 0b1110000100001101
-0xe10e // Branch { cond: 255, imm: 14, immx: 1 } 0b1110000100001110
-0xe10f // Branch { cond: 255, imm: 15, immx: 1 } 0b1110000100001111
-0xe110 // Branch { cond: 255, imm: 16, immx: 1 } 0b1110000100010000
-0xe111 // Branch { cond: 255, imm: 17, immx: 1 } 0b1110000100010001
-0xe112 // Branch { cond: 255, imm: 18, immx: 1 } 0b1110000100010010
-0xe113 // Branch { cond: 255, imm: 19, immx: 1 } 0b1110000100010011
-0xe114 // Branch { cond: 255, imm: 20, immx: 1 } 0b1110000100010100
-0xe115 // Branch { cond: 255, imm: 21, immx: 1 } 0b1110000100010101
-0xe116 // Branch { cond: 255, imm: 22, immx: 1 } 0b1110000100010110
-0xe117 // Branch { cond: 255, imm: 23, immx: 1 } 0b1110000100010111
-0xe118 // Branch { cond: 255, imm: 24, immx: 1 } 0b1110000100011000
-0xe119 // Branch { cond: 255, imm: 25, immx: 1 } 0b1110000100011001
-0xe11a // Branch { cond: 255, imm: 26, immx: 1 } 0b1110000100011010
-0xe11b // Branch { cond: 255, imm: 27, immx: 1 } 0b1110000100011011
-0xe11c // Branch { cond: 255, imm: 28, immx: 1 } 0b1110000100011100
-0xe11d // Branch { cond: 255, imm: 29, immx: 1 } 0b1110000100011101
-0xe11e // Branch { cond: 255, imm: 30, immx: 1 } 0b1110000100011110
-0xe11f // Branch { cond: 255, imm: 31, immx: 1 } 0b1110000100011111
-0xe120 // Branch { cond: 255, imm: 32, immx: 1 } 0b1110000100100000
-0xe121 // Branch { cond: 255, imm: 33, immx: 1 } 0b1110000100100001
-0xe122 // Branch { cond: 255, imm: 34, immx: 1 } 0b1110000100100010
-0xe123 // Branch { cond: 255, imm: 35, immx: 1 } 0b1110000100100011
-0xe124 // Branch { cond: 255, imm: 36, immx: 1 } 0b1110000100100100
-0xe125 // Branch { cond: 255, imm: 37, immx: 1 } 0b1110000100100101
-0xe126 // Branch { cond: 255, imm: 38, immx: 1 } 0b1110000100100110
-0xe127 // Branch { cond: 255, imm: 39, immx: 1 } 0b1110000100100111
-0xe128 // Branch { cond: 255, imm: 40, immx: 1 } 0b1110000100101000
-0xe129 // Branch { cond: 255, imm: 41, immx: 1 } 0b1110000100101001
-0xe12a // Branch { cond: 255, imm: 42, immx: 1 } 0b1110000100101010
-0xe12b // Branch { cond: 255, imm: 43, immx: 1 } 0b1110000100101011
-0xe12c // Branch { cond: 255, imm: 44, immx: 1 } 0b1110000100101100
-0xe12d // Branch { cond: 255, imm: 45, immx: 1 } 0b1110000100101101
-0xe12e // Branch { cond: 255, imm: 46, immx: 1 } 0b1110000100101110
-0xe12f // Branch { cond: 255, imm: 47, immx: 1 } 0b1110000100101111
-0xe130 // Branch { cond: 255, imm: 48, immx: 1 } 0b1110000100110000
-0xe131 // Branch { cond: 255, imm: 49, immx: 1 } 0b1110000100110001
-0xe132 // Branch { cond: 255, imm: 50, immx: 1 } 0b1110000100110010
-0xe133 // Branch { cond: 255, imm: 51, immx: 1 } 0b1110000100110011
-0xe134 // Branch { cond: 255, imm: 52, immx: 1 } 0b1110000100110100
-0xe135 // Branch { cond: 255, imm: 53, immx: 1 } 0b1110000100110101
-0xe136 // Branch { cond: 255, imm: 54, immx: 1 } 0b1110000100110110
-0xe137 // Branch { cond: 255, imm: 55, immx: 1 } 0b1110000100110111
-0xe138 // Branch { cond: 255, imm: 56, immx: 1 } 0b1110000100111000
-0xe139 // Branch { cond: 255, imm: 57, immx: 1 } 0b1110000100111001
-0xe13a // Branch { cond: 255, imm: 58, immx: 1 } 0b1110000100111010
-0xe13b // Branch { cond: 255, imm: 59, immx: 1 } 0b1110000100111011
-0xe13c // Branch { cond: 255, imm: 60, immx: 1 } 0b1110000100111100
-0xe13d // Branch { cond: 255, imm: 61, immx: 1 } 0b1110000100111101
-0xe13e // Branch { cond: 255, imm: 62, immx: 1 } 0b1110000100111110
-0xe13f // Branch { cond: 255, imm: 63, immx: 1 } 0b1110000100111111
-0xe140 // Branch { cond: 255, imm: 64, immx: 1 } 0b1110000101000000
-0xe141 // Branch { cond: 255, imm: 65, immx: 1 } 0b1110000101000001
-0xe142 // Branch { cond: 255, imm: 66, immx: 1 } 0b1110000101000010
-0xe143 // Branch { cond: 255, imm: 67, immx: 1 } 0b1110000101000011
-0xe144 // Branch { cond: 255, imm: 68, immx: 1 } 0b1110000101000100
-0xe145 // Branch { cond: 255, imm: 69, immx: 1 } 0b1110000101000101
-0xe146 // Branch { cond: 255, imm: 70, immx: 1 } 0b1110000101000110
-0xe147 // Branch { cond: 255, imm: 71, immx: 1 } 0b1110000101000111
-0xe148 // Branch { cond: 255, imm: 72, immx: 1 } 0b1110000101001000
-0xe149 // Branch { cond: 255, imm: 73, immx: 1 } 0b1110000101001001
-0xe14a // Branch { cond: 255, imm: 74, immx: 1 } 0b1110000101001010
-0xe14b // Branch { cond: 255, imm: 75, immx: 1 } 0b1110000101001011
-0xe14c // Branch { cond: 255, imm: 76, immx: 1 } 0b1110000101001100
-0xe14d // Branch { cond: 255, imm: 77, immx: 1 } 0b1110000101001101
-0xe14e // Branch { cond: 255, imm: 78, immx: 1 } 0b1110000101001110
-0xe14f // Branch { cond: 255, imm: 79, immx: 1 } 0b1110000101001111
-0xe150 // Branch { cond: 255, imm: 80, immx: 1 } 0b1110000101010000
-0xe151 // Branch { cond: 255, imm: 81, immx: 1 } 0b1110000101010001
-0xe152 // Branch { cond: 255, imm: 82, immx: 1 } 0b1110000101010010
-0xe153 // Branch { cond: 255, imm: 83, immx: 1 } 0b1110000101010011
-0xe154 // Branch { cond: 255, imm: 84, immx: 1 } 0b1110000101010100
-0xe155 // Branch { cond: 255, imm: 85, immx: 1 } 0b1110000101010101
-0xe156 // Branch { cond: 255, imm: 86, immx: 1 } 0b1110000101010110
-0xe157 // Branch { cond: 255, imm: 87, immx: 1 } 0b1110000101010111
-0xe158 // Branch { cond: 255, imm: 88, immx: 1 } 0b1110000101011000
-0xe159 // Branch { cond: 255, imm: 89, immx: 1 } 0b1110000101011001
-0xe15a // Branch { cond: 255, imm: 90, immx: 1 } 0b1110000101011010
-0xe15b // Branch { cond: 255, imm: 91, immx: 1 } 0b1110000101011011
-0xe15c // Branch { cond: 255, imm: 92, immx: 1 } 0b1110000101011100
-0xe15d // Branch { cond: 255, imm: 93, immx: 1 } 0b1110000101011101
-0xe15e // Branch { cond: 255, imm: 94, immx: 1 } 0b1110000101011110
-0xe15f // Branch { cond: 255, imm: 95, immx: 1 } 0b1110000101011111
-0xe160 // Branch { cond: 255, imm: 96, immx: 1 } 0b1110000101100000
-0xe161 // Branch { cond: 255, imm: 97, immx: 1 } 0b1110000101100001
-0xe162 // Branch { cond: 255, imm: 98, immx: 1 } 0b1110000101100010
-0xe163 // Branch { cond: 255, imm: 99, immx: 1 } 0b1110000101100011
-0xe164 // Branch { cond: 255, imm: 100, immx: 1 } 0b1110000101100100
-0xe165 // Branch { cond: 255, imm: 101, immx: 1 } 0b1110000101100101
-0xe166 // Branch { cond: 255, imm: 102, immx: 1 } 0b1110000101100110
-0xe167 // Branch { cond: 255, imm: 103, immx: 1 } 0b1110000101100111
-0xe168 // Branch { cond: 255, imm: 104, immx: 1 } 0b1110000101101000
-0xe169 // Branch { cond: 255, imm: 105, immx: 1 } 0b1110000101101001
-0xe16a // Branch { cond: 255, imm: 106, immx: 1 } 0b1110000101101010
-0xe16b // Branch { cond: 255, imm: 107, immx: 1 } 0b1110000101101011
-0xe16c // Branch { cond: 255, imm: 108, immx: 1 } 0b1110000101101100
-0xe16d // Branch { cond: 255, imm: 109, immx: 1 } 0b1110000101101101
-0xe16e // Branch { cond: 255, imm: 110, immx: 1 } 0b1110000101101110
-0xe16f // Branch { cond: 255, imm: 111, immx: 1 } 0b1110000101101111
-0xe170 // Branch { cond: 255, imm: 112, immx: 1 } 0b1110000101110000
-0xe171 // Branch { cond: 255, imm: 113, immx: 1 } 0b1110000101110001
-0xe172 // Branch { cond: 255, imm: 114, immx: 1 } 0b1110000101110010
-0xe173 // Branch { cond: 255, imm: 115, immx: 1 } 0b1110000101110011
-0xe174 // Branch { cond: 255, imm: 116, immx: 1 } 0b1110000101110100
-0xe175 // Branch { cond: 255, imm: 117, immx: 1 } 0b1110000101110101
-0xe176 // Branch { cond: 255, imm: 118, immx: 1 } 0b1110000101110110
-0xe177 // Branch { cond: 255, imm: 119, immx: 1 } 0b1110000101110111
-0xe178 // Branch { cond: 255, imm: 120, immx: 1 } 0b1110000101111000
-0xe179 // Branch { cond: 255, imm: 121, immx: 1 } 0b1110000101111001
-0xe17a // Branch { cond: 255, imm: 122, immx: 1 } 0b1110000101111010
-0xe17b // Branch { cond: 255, imm: 123, immx: 1 } 0b1110000101111011
-0xe17c // Branch { cond: 255, imm: 124, immx: 1 } 0b1110000101111100
-0xe17d // Branch { cond: 255, imm: 125, immx: 1 } 0b1110000101111101
-0xe17e // Branch { cond: 255, imm: 126, immx: 1 } 0b1110000101111110
-0xe17f // Branch { cond: 255, imm: 127, immx: 1 } 0b1110000101111111
-0xe180 // Branch { cond: 255, imm: 128, immx: 1 } 0b1110000110000000
-0xe181 // Branch { cond: 255, imm: 129, immx: 1 } 0b1110000110000001
-0xe182 // Branch { cond: 255, imm: 130, immx: 1 } 0b1110000110000010
-0xe183 // Branch { cond: 255, imm: 131, immx: 1 } 0b1110000110000011
-0xe184 // Branch { cond: 255, imm: 132, immx: 1 } 0b1110000110000100
-0xe185 // Branch { cond: 255, imm: 133, immx: 1 } 0b1110000110000101
-0xe186 // Branch { cond: 255, imm: 134, immx: 1 } 0b1110000110000110
-0xe187 // Branch { cond: 255, imm: 135, immx: 1 } 0b1110000110000111
-0xe188 // Branch { cond: 255, imm: 136, immx: 1 } 0b1110000110001000
-0xe189 // Branch { cond: 255, imm: 137, immx: 1 } 0b1110000110001001
-0xe18a // Branch { cond: 255, imm: 138, immx: 1 } 0b1110000110001010
-0xe18b // Branch { cond: 255, imm: 139, immx: 1 } 0b1110000110001011
-0xe18c // Branch { cond: 255, imm: 140, immx: 1 } 0b1110000110001100
-0xe18d // Branch { cond: 255, imm: 141, immx: 1 } 0b1110000110001101
-0xe18e // Branch { cond: 255, imm: 142, immx: 1 } 0b1110000110001110
-0xe18f // Branch { cond: 255, imm: 143, immx: 1 } 0b1110000110001111
-0xe190 // Branch { cond: 255, imm: 144, immx: 1 } 0b1110000110010000
-0xe191 // Branch { cond: 255, imm: 145, immx: 1 } 0b1110000110010001
-0xe192 // Branch { cond: 255, imm: 146, immx: 1 } 0b1110000110010010
-0xe193 // Branch { cond: 255, imm: 147, immx: 1 } 0b1110000110010011
-0xe194 // Branch { cond: 255, imm: 148, immx: 1 } 0b1110000110010100
-0xe195 // Branch { cond: 255, imm: 149, immx: 1 } 0b1110000110010101
-0xe196 // Branch { cond: 255, imm: 150, immx: 1 } 0b1110000110010110
-0xe197 // Branch { cond: 255, imm: 151, immx: 1 } 0b1110000110010111
-0xe198 // Branch { cond: 255, imm: 152, immx: 1 } 0b1110000110011000
-0xe199 // Branch { cond: 255, imm: 153, immx: 1 } 0b1110000110011001
-0xe19a // Branch { cond: 255, imm: 154, immx: 1 } 0b1110000110011010
-0xe19b // Branch { cond: 255, imm: 155, immx: 1 } 0b1110000110011011
-0xe19c // Branch { cond: 255, imm: 156, immx: 1 } 0b1110000110011100
-0xe19d // Branch { cond: 255, imm: 157, immx: 1 } 0b1110000110011101
-0xe19e // Branch { cond: 255, imm: 158, immx: 1 } 0b1110000110011110
-0xe19f // Branch { cond: 255, imm: 159, immx: 1 } 0b1110000110011111
-0xe1a0 // Branch { cond: 255, imm: 160, immx: 1 } 0b1110000110100000
-0xe1a1 // Branch { cond: 255, imm: 161, immx: 1 } 0b1110000110100001
-0xe1a2 // Branch { cond: 255, imm: 162, immx: 1 } 0b1110000110100010
-0xe1a3 // Branch { cond: 255, imm: 163, immx: 1 } 0b1110000110100011
-0xe1a4 // Branch { cond: 255, imm: 164, immx: 1 } 0b1110000110100100
-0xe1a5 // Branch { cond: 255, imm: 165, immx: 1 } 0b1110000110100101
-0xe1a6 // Branch { cond: 255, imm: 166, immx: 1 } 0b1110000110100110
-0xe1a7 // Branch { cond: 255, imm: 167, immx: 1 } 0b1110000110100111
-0xe1a8 // Branch { cond: 255, imm: 168, immx: 1 } 0b1110000110101000
-0xe1a9 // Branch { cond: 255, imm: 169, immx: 1 } 0b1110000110101001
-0xe1aa // Branch { cond: 255, imm: 170, immx: 1 } 0b1110000110101010
-0xe1ab // Branch { cond: 255, imm: 171, immx: 1 } 0b1110000110101011
-0xe1ac // Branch { cond: 255, imm: 172, immx: 1 } 0b1110000110101100
-0xe1ad // Branch { cond: 255, imm: 173, immx: 1 } 0b1110000110101101
-0xe1ae // Branch { cond: 255, imm: 174, immx: 1 } 0b1110000110101110
-0xe1af // Branch { cond: 255, imm: 175, immx: 1 } 0b1110000110101111
-0xe1b0 // Branch { cond: 255, imm: 176, immx: 1 } 0b1110000110110000
-0xe1b1 // Branch { cond: 255, imm: 177, immx: 1 } 0b1110000110110001
-0xe1b2 // Branch { cond: 255, imm: 178, immx: 1 } 0b1110000110110010
-0xe1b3 // Branch { cond: 255, imm: 179, immx: 1 } 0b1110000110110011
-0xe1b4 // Branch { cond: 255, imm: 180, immx: 1 } 0b1110000110110100
-0xe1b5 // Branch { cond: 255, imm: 181, immx: 1 } 0b1110000110110101
-0xe1b6 // Branch { cond: 255, imm: 182, immx: 1 } 0b1110000110110110
-0xe1b7 // Branch { cond: 255, imm: 183, immx: 1 } 0b1110000110110111
-0xe1b8 // Branch { cond: 255, imm: 184, immx: 1 } 0b1110000110111000
-0xe1b9 // Branch { cond: 255, imm: 185, immx: 1 } 0b1110000110111001
-0xe1ba // Branch { cond: 255, imm: 186, immx: 1 } 0b1110000110111010
-0xe1bb // Branch { cond: 255, imm: 187, immx: 1 } 0b1110000110111011
-0xe1bc // Branch { cond: 255, imm: 188, immx: 1 } 0b1110000110111100
-0xe1bd // Branch { cond: 255, imm: 189, immx: 1 } 0b1110000110111101
-0xe1be // Branch { cond: 255, imm: 190, immx: 1 } 0b1110000110111110
-0xe1bf // Branch { cond: 255, imm: 191, immx: 1 } 0b1110000110111111
-0xe1c0 // Branch { cond: 255, imm: 192, immx: 1 } 0b1110000111000000
-0xe1c1 // Branch { cond: 255, imm: 193, immx: 1 } 0b1110000111000001
-0xe1c2 // Branch { cond: 255, imm: 194, immx: 1 } 0b1110000111000010
-0xe1c3 // Branch { cond: 255, imm: 195, immx: 1 } 0b1110000111000011
-0xe1c4 // Branch { cond: 255, imm: 196, immx: 1 } 0b1110000111000100
-0xe1c5 // Branch { cond: 255, imm: 197, immx: 1 } 0b1110000111000101
-0xe1c6 // Branch { cond: 255, imm: 198, immx: 1 } 0b1110000111000110
-0xe1c7 // Branch { cond: 255, imm: 199, immx: 1 } 0b1110000111000111
-0xe1c8 // Branch { cond: 255, imm: 200, immx: 1 } 0b1110000111001000
-0xe1c9 // Branch { cond: 255, imm: 201, immx: 1 } 0b1110000111001001
-0xe1ca // Branch { cond: 255, imm: 202, immx: 1 } 0b1110000111001010
-0xe1cb // Branch { cond: 255, imm: 203, immx: 1 } 0b1110000111001011
-0xe1cc // Branch { cond: 255, imm: 204, immx: 1 } 0b1110000111001100
-0xe1cd // Branch { cond: 255, imm: 205, immx: 1 } 0b1110000111001101
-0xe1ce // Branch { cond: 255, imm: 206, immx: 1 } 0b1110000111001110
-0xe1cf // Branch { cond: 255, imm: 207, immx: 1 } 0b1110000111001111
-0xe1d0 // Branch { cond: 255, imm: 208, immx: 1 } 0b1110000111010000
-0xe1d1 // Branch { cond: 255, imm: 209, immx: 1 } 0b1110000111010001
-0xe1d2 // Branch { cond: 255, imm: 210, immx: 1 } 0b1110000111010010
-0xe1d3 // Branch { cond: 255, imm: 211, immx: 1 } 0b1110000111010011
-0xe1d4 // Branch { cond: 255, imm: 212, immx: 1 } 0b1110000111010100
-0xe1d5 // Branch { cond: 255, imm: 213, immx: 1 } 0b1110000111010101
-0xe1d6 // Branch { cond: 255, imm: 214, immx: 1 } 0b1110000111010110
-0xe1d7 // Branch { cond: 255, imm: 215, immx: 1 } 0b1110000111010111
-0xe1d8 // Branch { cond: 255, imm: 216, immx: 1 } 0b1110000111011000
-0xe1d9 // Branch { cond: 255, imm: 217, immx: 1 } 0b1110000111011001
-0xe1da // Branch { cond: 255, imm: 218, immx: 1 } 0b1110000111011010
-0xe1db // Branch { cond: 255, imm: 219, immx: 1 } 0b1110000111011011
-0xe1dc // Branch { cond: 255, imm: 220, immx: 1 } 0b1110000111011100
-0xe1dd // Branch { cond: 255, imm: 221, immx: 1 } 0b1110000111011101
-0xe1de // Branch { cond: 255, imm: 222, immx: 1 } 0b1110000111011110
-0xe1df // Branch { cond: 255, imm: 223, immx: 1 } 0b1110000111011111
-0xe1e0 // Branch { cond: 255, imm: 224, immx: 1 } 0b1110000111100000
-0xe1e1 // Branch { cond: 255, imm: 225, immx: 1 } 0b1110000111100001
-0xe1e2 // Branch { cond: 255, imm: 226, immx: 1 } 0b1110000111100010
-0xe1e3 // Branch { cond: 255, imm: 227, immx: 1 } 0b1110000111100011
-0xe1e4 // Branch { cond: 255, imm: 228, immx: 1 } 0b1110000111100100
-0xe1e5 // Branch { cond: 255, imm: 229, immx: 1 } 0b1110000111100101
-0xe1e6 // Branch { cond: 255, imm: 230, immx: 1 } 0b1110000111100110
-0xe1e7 // Branch { cond: 255, imm: 231, immx: 1 } 0b1110000111100111
-0xe1e8 // Branch { cond: 255, imm: 232, immx: 1 } 0b1110000111101000
-0xe1e9 // Branch { cond: 255, imm: 233, immx: 1 } 0b1110000111101001
-0xe1ea // Branch { cond: 255, imm: 234, immx: 1 } 0b1110000111101010
-0xe1eb // Branch { cond: 255, imm: 235, immx: 1 } 0b1110000111101011
-0xe1ec // Branch { cond: 255, imm: 236, immx: 1 } 0b1110000111101100
-0xe1ed // Branch { cond: 255, imm: 237, immx: 1 } 0b1110000111101101
-0xe1ee // Branch { cond: 255, imm: 238, immx: 1 } 0b1110000111101110
-0xe1ef // Branch { cond: 255, imm: 239, immx: 1 } 0b1110000111101111
-0xe1f0 // Branch { cond: 255, imm: 240, immx: 1 } 0b1110000111110000
-0xe1f1 // Branch { cond: 255, imm: 241, immx: 1 } 0b1110000111110001
-0xe1f2 // Branch { cond: 255, imm: 242, immx: 1 } 0b1110000111110010
-0xe1f3 // Branch { cond: 255, imm: 243, immx: 1 } 0b1110000111110011
-0xe1f4 // Branch { cond: 255, imm: 244, immx: 1 } 0b1110000111110100
-0xe1f5 // Branch { cond: 255, imm: 245, immx: 1 } 0b1110000111110101
-0xe1f6 // Branch { cond: 255, imm: 246, immx: 1 } 0b1110000111110110
-0xe1f7 // Branch { cond: 255, imm: 247, immx: 1 } 0b1110000111110111
-0xe1f8 // Branch { cond: 255, imm: 248, immx: 1 } 0b1110000111111000
-0xe1f9 // Branch { cond: 255, imm: 249, immx: 1 } 0b1110000111111001
-0xe1fa // Branch { cond: 255, imm: 250, immx: 1 } 0b1110000111111010
-0xe1fb // Branch { cond: 255, imm: 251, immx: 1 } 0b1110000111111011
-0xe1fc // Branch { cond: 255, imm: 252, immx: 1 } 0b1110000111111100
-0xe1fd // Branch { cond: 255, imm: 253, immx: 1 } 0b1110000111111101
-0xe1fe // Branch { cond: 255, imm: 254, immx: 1 } 0b1110000111111110
-0xe1ff // Branch { cond: 255, imm: 255, immx: 1 } 0b1110000111111111
-0xe200 // Branch { cond: 255, imm: 0, immx: 2 } 0b1110001000000000
-0xe201 // Branch { cond: 255, imm: 1, immx: 2 } 0b1110001000000001
-0xe202 // Branch { cond: 255, imm: 2, immx: 2 } 0b1110001000000010
-0xe203 // Branch { cond: 255, imm: 3, immx: 2 } 0b1110001000000011
-0xe204 // Branch { cond: 255, imm: 4, immx: 2 } 0b1110001000000100
-0xe205 // Branch { cond: 255, imm: 5, immx: 2 } 0b1110001000000101
-0xe206 // Branch { cond: 255, imm: 6, immx: 2 } 0b1110001000000110
-0xe207 // Branch { cond: 255, imm: 7, immx: 2 } 0b1110001000000111
-0xe208 // Branch { cond: 255, imm: 8, immx: 2 } 0b1110001000001000
-0xe209 // Branch { cond: 255, imm: 9, immx: 2 } 0b1110001000001001
-0xe20a // Branch { cond: 255, imm: 10, immx: 2 } 0b1110001000001010
-0xe20b // Branch { cond: 255, imm: 11, immx: 2 } 0b1110001000001011
-0xe20c // Branch { cond: 255, imm: 12, immx: 2 } 0b1110001000001100
-0xe20d // Branch { cond: 255, imm: 13, immx: 2 } 0b1110001000001101
-0xe20e // Branch { cond: 255, imm: 14, immx: 2 } 0b1110001000001110
-0xe20f // Branch { cond: 255, imm: 15, immx: 2 } 0b1110001000001111
-0xe210 // Branch { cond: 255, imm: 16, immx: 2 } 0b1110001000010000
-0xe211 // Branch { cond: 255, imm: 17, immx: 2 } 0b1110001000010001
-0xe212 // Branch { cond: 255, imm: 18, immx: 2 } 0b1110001000010010
-0xe213 // Branch { cond: 255, imm: 19, immx: 2 } 0b1110001000010011
-0xe214 // Branch { cond: 255, imm: 20, immx: 2 } 0b1110001000010100
-0xe215 // Branch { cond: 255, imm: 21, immx: 2 } 0b1110001000010101
-0xe216 // Branch { cond: 255, imm: 22, immx: 2 } 0b1110001000010110
-0xe217 // Branch { cond: 255, imm: 23, immx: 2 } 0b1110001000010111
-0xe218 // Branch { cond: 255, imm: 24, immx: 2 } 0b1110001000011000
-0xe219 // Branch { cond: 255, imm: 25, immx: 2 } 0b1110001000011001
-0xe21a // Branch { cond: 255, imm: 26, immx: 2 } 0b1110001000011010
-0xe21b // Branch { cond: 255, imm: 27, immx: 2 } 0b1110001000011011
-0xe21c // Branch { cond: 255, imm: 28, immx: 2 } 0b1110001000011100
-0xe21d // Branch { cond: 255, imm: 29, immx: 2 } 0b1110001000011101
-0xe21e // Branch { cond: 255, imm: 30, immx: 2 } 0b1110001000011110
-0xe21f // Branch { cond: 255, imm: 31, immx: 2 } 0b1110001000011111
-0xe220 // Branch { cond: 255, imm: 32, immx: 2 } 0b1110001000100000
-0xe221 // Branch { cond: 255, imm: 33, immx: 2 } 0b1110001000100001
-0xe222 // Branch { cond: 255, imm: 34, immx: 2 } 0b1110001000100010
-0xe223 // Branch { cond: 255, imm: 35, immx: 2 } 0b1110001000100011
-0xe224 // Branch { cond: 255, imm: 36, immx: 2 } 0b1110001000100100
-0xe225 // Branch { cond: 255, imm: 37, immx: 2 } 0b1110001000100101
-0xe226 // Branch { cond: 255, imm: 38, immx: 2 } 0b1110001000100110
-0xe227 // Branch { cond: 255, imm: 39, immx: 2 } 0b1110001000100111
-0xe228 // Branch { cond: 255, imm: 40, immx: 2 } 0b1110001000101000
-0xe229 // Branch { cond: 255, imm: 41, immx: 2 } 0b1110001000101001
-0xe22a // Branch { cond: 255, imm: 42, immx: 2 } 0b1110001000101010
-0xe22b // Branch { cond: 255, imm: 43, immx: 2 } 0b1110001000101011
-0xe22c // Branch { cond: 255, imm: 44, immx: 2 } 0b1110001000101100
-0xe22d // Branch { cond: 255, imm: 45, immx: 2 } 0b1110001000101101
-0xe22e // Branch { cond: 255, imm: 46, immx: 2 } 0b1110001000101110
-0xe22f // Branch { cond: 255, imm: 47, immx: 2 } 0b1110001000101111
-0xe230 // Branch { cond: 255, imm: 48, immx: 2 } 0b1110001000110000
-0xe231 // Branch { cond: 255, imm: 49, immx: 2 } 0b1110001000110001
-0xe232 // Branch { cond: 255, imm: 50, immx: 2 } 0b1110001000110010
-0xe233 // Branch { cond: 255, imm: 51, immx: 2 } 0b1110001000110011
-0xe234 // Branch { cond: 255, imm: 52, immx: 2 } 0b1110001000110100
-0xe235 // Branch { cond: 255, imm: 53, immx: 2 } 0b1110001000110101
-0xe236 // Branch { cond: 255, imm: 54, immx: 2 } 0b1110001000110110
-0xe237 // Branch { cond: 255, imm: 55, immx: 2 } 0b1110001000110111
-0xe238 // Branch { cond: 255, imm: 56, immx: 2 } 0b1110001000111000
-0xe239 // Branch { cond: 255, imm: 57, immx: 2 } 0b1110001000111001
-0xe23a // Branch { cond: 255, imm: 58, immx: 2 } 0b1110001000111010
-0xe23b // Branch { cond: 255, imm: 59, immx: 2 } 0b1110001000111011
-0xe23c // Branch { cond: 255, imm: 60, immx: 2 } 0b1110001000111100
-0xe23d // Branch { cond: 255, imm: 61, immx: 2 } 0b1110001000111101
-0xe23e // Branch { cond: 255, imm: 62, immx: 2 } 0b1110001000111110
-0xe23f // Branch { cond: 255, imm: 63, immx: 2 } 0b1110001000111111
-0xe240 // Branch { cond: 255, imm: 64, immx: 2 } 0b1110001001000000
-0xe241 // Branch { cond: 255, imm: 65, immx: 2 } 0b1110001001000001
-0xe242 // Branch { cond: 255, imm: 66, immx: 2 } 0b1110001001000010
-0xe243 // Branch { cond: 255, imm: 67, immx: 2 } 0b1110001001000011
-0xe244 // Branch { cond: 255, imm: 68, immx: 2 } 0b1110001001000100
-0xe245 // Branch { cond: 255, imm: 69, immx: 2 } 0b1110001001000101
-0xe246 // Branch { cond: 255, imm: 70, immx: 2 } 0b1110001001000110
-0xe247 // Branch { cond: 255, imm: 71, immx: 2 } 0b1110001001000111
-0xe248 // Branch { cond: 255, imm: 72, immx: 2 } 0b1110001001001000
-0xe249 // Branch { cond: 255, imm: 73, immx: 2 } 0b1110001001001001
-0xe24a // Branch { cond: 255, imm: 74, immx: 2 } 0b1110001001001010
-0xe24b // Branch { cond: 255, imm: 75, immx: 2 } 0b1110001001001011
-0xe24c // Branch { cond: 255, imm: 76, immx: 2 } 0b1110001001001100
-0xe24d // Branch { cond: 255, imm: 77, immx: 2 } 0b1110001001001101
-0xe24e // Branch { cond: 255, imm: 78, immx: 2 } 0b1110001001001110
-0xe24f // Branch { cond: 255, imm: 79, immx: 2 } 0b1110001001001111
-0xe250 // Branch { cond: 255, imm: 80, immx: 2 } 0b1110001001010000
-0xe251 // Branch { cond: 255, imm: 81, immx: 2 } 0b1110001001010001
-0xe252 // Branch { cond: 255, imm: 82, immx: 2 } 0b1110001001010010
-0xe253 // Branch { cond: 255, imm: 83, immx: 2 } 0b1110001001010011
-0xe254 // Branch { cond: 255, imm: 84, immx: 2 } 0b1110001001010100
-0xe255 // Branch { cond: 255, imm: 85, immx: 2 } 0b1110001001010101
-0xe256 // Branch { cond: 255, imm: 86, immx: 2 } 0b1110001001010110
-0xe257 // Branch { cond: 255, imm: 87, immx: 2 } 0b1110001001010111
-0xe258 // Branch { cond: 255, imm: 88, immx: 2 } 0b1110001001011000
-0xe259 // Branch { cond: 255, imm: 89, immx: 2 } 0b1110001001011001
-0xe25a // Branch { cond: 255, imm: 90, immx: 2 } 0b1110001001011010
-0xe25b // Branch { cond: 255, imm: 91, immx: 2 } 0b1110001001011011
-0xe25c // Branch { cond: 255, imm: 92, immx: 2 } 0b1110001001011100
-0xe25d // Branch { cond: 255, imm: 93, immx: 2 } 0b1110001001011101
-0xe25e // Branch { cond: 255, imm: 94, immx: 2 } 0b1110001001011110
-0xe25f // Branch { cond: 255, imm: 95, immx: 2 } 0b1110001001011111
-0xe260 // Branch { cond: 255, imm: 96, immx: 2 } 0b1110001001100000
-0xe261 // Branch { cond: 255, imm: 97, immx: 2 } 0b1110001001100001
-0xe262 // Branch { cond: 255, imm: 98, immx: 2 } 0b1110001001100010
-0xe263 // Branch { cond: 255, imm: 99, immx: 2 } 0b1110001001100011
-0xe264 // Branch { cond: 255, imm: 100, immx: 2 } 0b1110001001100100
-0xe265 // Branch { cond: 255, imm: 101, immx: 2 } 0b1110001001100101
-0xe266 // Branch { cond: 255, imm: 102, immx: 2 } 0b1110001001100110
-0xe267 // Branch { cond: 255, imm: 103, immx: 2 } 0b1110001001100111
-0xe268 // Branch { cond: 255, imm: 104, immx: 2 } 0b1110001001101000
-0xe269 // Branch { cond: 255, imm: 105, immx: 2 } 0b1110001001101001
-0xe26a // Branch { cond: 255, imm: 106, immx: 2 } 0b1110001001101010
-0xe26b // Branch { cond: 255, imm: 107, immx: 2 } 0b1110001001101011
-0xe26c // Branch { cond: 255, imm: 108, immx: 2 } 0b1110001001101100
-0xe26d // Branch { cond: 255, imm: 109, immx: 2 } 0b1110001001101101
-0xe26e // Branch { cond: 255, imm: 110, immx: 2 } 0b1110001001101110
-0xe26f // Branch { cond: 255, imm: 111, immx: 2 } 0b1110001001101111
-0xe270 // Branch { cond: 255, imm: 112, immx: 2 } 0b1110001001110000
-0xe271 // Branch { cond: 255, imm: 113, immx: 2 } 0b1110001001110001
-0xe272 // Branch { cond: 255, imm: 114, immx: 2 } 0b1110001001110010
-0xe273 // Branch { cond: 255, imm: 115, immx: 2 } 0b1110001001110011
-0xe274 // Branch { cond: 255, imm: 116, immx: 2 } 0b1110001001110100
-0xe275 // Branch { cond: 255, imm: 117, immx: 2 } 0b1110001001110101
-0xe276 // Branch { cond: 255, imm: 118, immx: 2 } 0b1110001001110110
-0xe277 // Branch { cond: 255, imm: 119, immx: 2 } 0b1110001001110111
-0xe278 // Branch { cond: 255, imm: 120, immx: 2 } 0b1110001001111000
-0xe279 // Branch { cond: 255, imm: 121, immx: 2 } 0b1110001001111001
-0xe27a // Branch { cond: 255, imm: 122, immx: 2 } 0b1110001001111010
-0xe27b // Branch { cond: 255, imm: 123, immx: 2 } 0b1110001001111011
-0xe27c // Branch { cond: 255, imm: 124, immx: 2 } 0b1110001001111100
-0xe27d // Branch { cond: 255, imm: 125, immx: 2 } 0b1110001001111101
-0xe27e // Branch { cond: 255, imm: 126, immx: 2 } 0b1110001001111110
-0xe27f // Branch { cond: 255, imm: 127, immx: 2 } 0b1110001001111111
-0xe280 // Branch { cond: 255, imm: 128, immx: 2 } 0b1110001010000000
-0xe281 // Branch { cond: 255, imm: 129, immx: 2 } 0b1110001010000001
-0xe282 // Branch { cond: 255, imm: 130, immx: 2 } 0b1110001010000010
-0xe283 // Branch { cond: 255, imm: 131, immx: 2 } 0b1110001010000011
-0xe284 // Branch { cond: 255, imm: 132, immx: 2 } 0b1110001010000100
-0xe285 // Branch { cond: 255, imm: 133, immx: 2 } 0b1110001010000101
-0xe286 // Branch { cond: 255, imm: 134, immx: 2 } 0b1110001010000110
-0xe287 // Branch { cond: 255, imm: 135, immx: 2 } 0b1110001010000111
-0xe288 // Branch { cond: 255, imm: 136, immx: 2 } 0b1110001010001000
-0xe289 // Branch { cond: 255, imm: 137, immx: 2 } 0b1110001010001001
-0xe28a // Branch { cond: 255, imm: 138, immx: 2 } 0b1110001010001010
-0xe28b // Branch { cond: 255, imm: 139, immx: 2 } 0b1110001010001011
-0xe28c // Branch { cond: 255, imm: 140, immx: 2 } 0b1110001010001100
-0xe28d // Branch { cond: 255, imm: 141, immx: 2 } 0b1110001010001101
-0xe28e // Branch { cond: 255, imm: 142, immx: 2 } 0b1110001010001110
-0xe28f // Branch { cond: 255, imm: 143, immx: 2 } 0b1110001010001111
-0xe290 // Branch { cond: 255, imm: 144, immx: 2 } 0b1110001010010000
-0xe291 // Branch { cond: 255, imm: 145, immx: 2 } 0b1110001010010001
-0xe292 // Branch { cond: 255, imm: 146, immx: 2 } 0b1110001010010010
-0xe293 // Branch { cond: 255, imm: 147, immx: 2 } 0b1110001010010011
-0xe294 // Branch { cond: 255, imm: 148, immx: 2 } 0b1110001010010100
-0xe295 // Branch { cond: 255, imm: 149, immx: 2 } 0b1110001010010101
-0xe296 // Branch { cond: 255, imm: 150, immx: 2 } 0b1110001010010110
-0xe297 // Branch { cond: 255, imm: 151, immx: 2 } 0b1110001010010111
-0xe298 // Branch { cond: 255, imm: 152, immx: 2 } 0b1110001010011000
-0xe299 // Branch { cond: 255, imm: 153, immx: 2 } 0b1110001010011001
-0xe29a // Branch { cond: 255, imm: 154, immx: 2 } 0b1110001010011010
-0xe29b // Branch { cond: 255, imm: 155, immx: 2 } 0b1110001010011011
-0xe29c // Branch { cond: 255, imm: 156, immx: 2 } 0b1110001010011100
-0xe29d // Branch { cond: 255, imm: 157, immx: 2 } 0b1110001010011101
-0xe29e // Branch { cond: 255, imm: 158, immx: 2 } 0b1110001010011110
-0xe29f // Branch { cond: 255, imm: 159, immx: 2 } 0b1110001010011111
-0xe2a0 // Branch { cond: 255, imm: 160, immx: 2 } 0b1110001010100000
-0xe2a1 // Branch { cond: 255, imm: 161, immx: 2 } 0b1110001010100001
-0xe2a2 // Branch { cond: 255, imm: 162, immx: 2 } 0b1110001010100010
-0xe2a3 // Branch { cond: 255, imm: 163, immx: 2 } 0b1110001010100011
-0xe2a4 // Branch { cond: 255, imm: 164, immx: 2 } 0b1110001010100100
-0xe2a5 // Branch { cond: 255, imm: 165, immx: 2 } 0b1110001010100101
-0xe2a6 // Branch { cond: 255, imm: 166, immx: 2 } 0b1110001010100110
-0xe2a7 // Branch { cond: 255, imm: 167, immx: 2 } 0b1110001010100111
-0xe2a8 // Branch { cond: 255, imm: 168, immx: 2 } 0b1110001010101000
-0xe2a9 // Branch { cond: 255, imm: 169, immx: 2 } 0b1110001010101001
-0xe2aa // Branch { cond: 255, imm: 170, immx: 2 } 0b1110001010101010
-0xe2ab // Branch { cond: 255, imm: 171, immx: 2 } 0b1110001010101011
-0xe2ac // Branch { cond: 255, imm: 172, immx: 2 } 0b1110001010101100
-0xe2ad // Branch { cond: 255, imm: 173, immx: 2 } 0b1110001010101101
-0xe2ae // Branch { cond: 255, imm: 174, immx: 2 } 0b1110001010101110
-0xe2af // Branch { cond: 255, imm: 175, immx: 2 } 0b1110001010101111
-0xe2b0 // Branch { cond: 255, imm: 176, immx: 2 } 0b1110001010110000
-0xe2b1 // Branch { cond: 255, imm: 177, immx: 2 } 0b1110001010110001
-0xe2b2 // Branch { cond: 255, imm: 178, immx: 2 } 0b1110001010110010
-0xe2b3 // Branch { cond: 255, imm: 179, immx: 2 } 0b1110001010110011
-0xe2b4 // Branch { cond: 255, imm: 180, immx: 2 } 0b1110001010110100
-0xe2b5 // Branch { cond: 255, imm: 181, immx: 2 } 0b1110001010110101
-0xe2b6 // Branch { cond: 255, imm: 182, immx: 2 } 0b1110001010110110
-0xe2b7 // Branch { cond: 255, imm: 183, immx: 2 } 0b1110001010110111
-0xe2b8 // Branch { cond: 255, imm: 184, immx: 2 } 0b1110001010111000
-0xe2b9 // Branch { cond: 255, imm: 185, immx: 2 } 0b1110001010111001
-0xe2ba // Branch { cond: 255, imm: 186, immx: 2 } 0b1110001010111010
-0xe2bb // Branch { cond: 255, imm: 187, immx: 2 } 0b1110001010111011
-0xe2bc // Branch { cond: 255, imm: 188, immx: 2 } 0b1110001010111100
-0xe2bd // Branch { cond: 255, imm: 189, immx: 2 } 0b1110001010111101
-0xe2be // Branch { cond: 255, imm: 190, immx: 2 } 0b1110001010111110
-0xe2bf // Branch { cond: 255, imm: 191, immx: 2 } 0b1110001010111111
-0xe2c0 // Branch { cond: 255, imm: 192, immx: 2 } 0b1110001011000000
-0xe2c1 // Branch { cond: 255, imm: 193, immx: 2 } 0b1110001011000001
-0xe2c2 // Branch { cond: 255, imm: 194, immx: 2 } 0b1110001011000010
-0xe2c3 // Branch { cond: 255, imm: 195, immx: 2 } 0b1110001011000011
-0xe2c4 // Branch { cond: 255, imm: 196, immx: 2 } 0b1110001011000100
-0xe2c5 // Branch { cond: 255, imm: 197, immx: 2 } 0b1110001011000101
-0xe2c6 // Branch { cond: 255, imm: 198, immx: 2 } 0b1110001011000110
-0xe2c7 // Branch { cond: 255, imm: 199, immx: 2 } 0b1110001011000111
-0xe2c8 // Branch { cond: 255, imm: 200, immx: 2 } 0b1110001011001000
-0xe2c9 // Branch { cond: 255, imm: 201, immx: 2 } 0b1110001011001001
-0xe2ca // Branch { cond: 255, imm: 202, immx: 2 } 0b1110001011001010
-0xe2cb // Branch { cond: 255, imm: 203, immx: 2 } 0b1110001011001011
-0xe2cc // Branch { cond: 255, imm: 204, immx: 2 } 0b1110001011001100
-0xe2cd // Branch { cond: 255, imm: 205, immx: 2 } 0b1110001011001101
-0xe2ce // Branch { cond: 255, imm: 206, immx: 2 } 0b1110001011001110
-0xe2cf // Branch { cond: 255, imm: 207, immx: 2 } 0b1110001011001111
-0xe2d0 // Branch { cond: 255, imm: 208, immx: 2 } 0b1110001011010000
-0xe2d1 // Branch { cond: 255, imm: 209, immx: 2 } 0b1110001011010001
-0xe2d2 // Branch { cond: 255, imm: 210, immx: 2 } 0b1110001011010010
-0xe2d3 // Branch { cond: 255, imm: 211, immx: 2 } 0b1110001011010011
-0xe2d4 // Branch { cond: 255, imm: 212, immx: 2 } 0b1110001011010100
-0xe2d5 // Branch { cond: 255, imm: 213, immx: 2 } 0b1110001011010101
-0xe2d6 // Branch { cond: 255, imm: 214, immx: 2 } 0b1110001011010110
-0xe2d7 // Branch { cond: 255, imm: 215, immx: 2 } 0b1110001011010111
-0xe2d8 // Branch { cond: 255, imm: 216, immx: 2 } 0b1110001011011000
-0xe2d9 // Branch { cond: 255, imm: 217, immx: 2 } 0b1110001011011001
-0xe2da // Branch { cond: 255, imm: 218, immx: 2 } 0b1110001011011010
-0xe2db // Branch { cond: 255, imm: 219, immx: 2 } 0b1110001011011011
-0xe2dc // Branch { cond: 255, imm: 220, immx: 2 } 0b1110001011011100
-0xe2dd // Branch { cond: 255, imm: 221, immx: 2 } 0b1110001011011101
-0xe2de // Branch { cond: 255, imm: 222, immx: 2 } 0b1110001011011110
-0xe2df // Branch { cond: 255, imm: 223, immx: 2 } 0b1110001011011111
-0xe2e0 // Branch { cond: 255, imm: 224, immx: 2 } 0b1110001011100000
-0xe2e1 // Branch { cond: 255, imm: 225, immx: 2 } 0b1110001011100001
-0xe2e2 // Branch { cond: 255, imm: 226, immx: 2 } 0b1110001011100010
-0xe2e3 // Branch { cond: 255, imm: 227, immx: 2 } 0b1110001011100011
-0xe2e4 // Branch { cond: 255, imm: 228, immx: 2 } 0b1110001011100100
-0xe2e5 // Branch { cond: 255, imm: 229, immx: 2 } 0b1110001011100101
-0xe2e6 // Branch { cond: 255, imm: 230, immx: 2 } 0b1110001011100110
-0xe2e7 // Branch { cond: 255, imm: 231, immx: 2 } 0b1110001011100111
-0xe2e8 // Branch { cond: 255, imm: 232, immx: 2 } 0b1110001011101000
-0xe2e9 // Branch { cond: 255, imm: 233, immx: 2 } 0b1110001011101001
-0xe2ea // Branch { cond: 255, imm: 234, immx: 2 } 0b1110001011101010
-0xe2eb // Branch { cond: 255, imm: 235, immx: 2 } 0b1110001011101011
-0xe2ec // Branch { cond: 255, imm: 236, immx: 2 } 0b1110001011101100
-0xe2ed // Branch { cond: 255, imm: 237, immx: 2 } 0b1110001011101101
-0xe2ee // Branch { cond: 255, imm: 238, immx: 2 } 0b1110001011101110
-0xe2ef // Branch { cond: 255, imm: 239, immx: 2 } 0b1110001011101111
-0xe2f0 // Branch { cond: 255, imm: 240, immx: 2 } 0b1110001011110000
-0xe2f1 // Branch { cond: 255, imm: 241, immx: 2 } 0b1110001011110001
-0xe2f2 // Branch { cond: 255, imm: 242, immx: 2 } 0b1110001011110010
-0xe2f3 // Branch { cond: 255, imm: 243, immx: 2 } 0b1110001011110011
-0xe2f4 // Branch { cond: 255, imm: 244, immx: 2 } 0b1110001011110100
-0xe2f5 // Branch { cond: 255, imm: 245, immx: 2 } 0b1110001011110101
-0xe2f6 // Branch { cond: 255, imm: 246, immx: 2 } 0b1110001011110110
-0xe2f7 // Branch { cond: 255, imm: 247, immx: 2 } 0b1110001011110111
-0xe2f8 // Branch { cond: 255, imm: 248, immx: 2 } 0b1110001011111000
-0xe2f9 // Branch { cond: 255, imm: 249, immx: 2 } 0b1110001011111001
-0xe2fa // Branch { cond: 255, imm: 250, immx: 2 } 0b1110001011111010
-0xe2fb // Branch { cond: 255, imm: 251, immx: 2 } 0b1110001011111011
-0xe2fc // Branch { cond: 255, imm: 252, immx: 2 } 0b1110001011111100
-0xe2fd // Branch { cond: 255, imm: 253, immx: 2 } 0b1110001011111101
-0xe2fe // Branch { cond: 255, imm: 254, immx: 2 } 0b1110001011111110
-0xe2ff // Branch { cond: 255, imm: 255, immx: 2 } 0b1110001011111111
-0xe300 // Branch { cond: 255, imm: 0, immx: 3 } 0b1110001100000000
-0xe301 // Branch { cond: 255, imm: 1, immx: 3 } 0b1110001100000001
-0xe302 // Branch { cond: 255, imm: 2, immx: 3 } 0b1110001100000010
-0xe303 // Branch { cond: 255, imm: 3, immx: 3 } 0b1110001100000011
-0xe304 // Branch { cond: 255, imm: 4, immx: 3 } 0b1110001100000100
-0xe305 // Branch { cond: 255, imm: 5, immx: 3 } 0b1110001100000101
-0xe306 // Branch { cond: 255, imm: 6, immx: 3 } 0b1110001100000110
-0xe307 // Branch { cond: 255, imm: 7, immx: 3 } 0b1110001100000111
-0xe308 // Branch { cond: 255, imm: 8, immx: 3 } 0b1110001100001000
-0xe309 // Branch { cond: 255, imm: 9, immx: 3 } 0b1110001100001001
-0xe30a // Branch { cond: 255, imm: 10, immx: 3 } 0b1110001100001010
-0xe30b // Branch { cond: 255, imm: 11, immx: 3 } 0b1110001100001011
-0xe30c // Branch { cond: 255, imm: 12, immx: 3 } 0b1110001100001100
-0xe30d // Branch { cond: 255, imm: 13, immx: 3 } 0b1110001100001101
-0xe30e // Branch { cond: 255, imm: 14, immx: 3 } 0b1110001100001110
-0xe30f // Branch { cond: 255, imm: 15, immx: 3 } 0b1110001100001111
-0xe310 // Branch { cond: 255, imm: 16, immx: 3 } 0b1110001100010000
-0xe311 // Branch { cond: 255, imm: 17, immx: 3 } 0b1110001100010001
-0xe312 // Branch { cond: 255, imm: 18, immx: 3 } 0b1110001100010010
-0xe313 // Branch { cond: 255, imm: 19, immx: 3 } 0b1110001100010011
-0xe314 // Branch { cond: 255, imm: 20, immx: 3 } 0b1110001100010100
-0xe315 // Branch { cond: 255, imm: 21, immx: 3 } 0b1110001100010101
-0xe316 // Branch { cond: 255, imm: 22, immx: 3 } 0b1110001100010110
-0xe317 // Branch { cond: 255, imm: 23, immx: 3 } 0b1110001100010111
-0xe318 // Branch { cond: 255, imm: 24, immx: 3 } 0b1110001100011000
-0xe319 // Branch { cond: 255, imm: 25, immx: 3 } 0b1110001100011001
-0xe31a // Branch { cond: 255, imm: 26, immx: 3 } 0b1110001100011010
-0xe31b // Branch { cond: 255, imm: 27, immx: 3 } 0b1110001100011011
-0xe31c // Branch { cond: 255, imm: 28, immx: 3 } 0b1110001100011100
-0xe31d // Branch { cond: 255, imm: 29, immx: 3 } 0b1110001100011101
-0xe31e // Branch { cond: 255, imm: 30, immx: 3 } 0b1110001100011110
-0xe31f // Branch { cond: 255, imm: 31, immx: 3 } 0b1110001100011111
-0xe320 // Branch { cond: 255, imm: 32, immx: 3 } 0b1110001100100000
-0xe321 // Branch { cond: 255, imm: 33, immx: 3 } 0b1110001100100001
-0xe322 // Branch { cond: 255, imm: 34, immx: 3 } 0b1110001100100010
-0xe323 // Branch { cond: 255, imm: 35, immx: 3 } 0b1110001100100011
-0xe324 // Branch { cond: 255, imm: 36, immx: 3 } 0b1110001100100100
-0xe325 // Branch { cond: 255, imm: 37, immx: 3 } 0b1110001100100101
-0xe326 // Branch { cond: 255, imm: 38, immx: 3 } 0b1110001100100110
-0xe327 // Branch { cond: 255, imm: 39, immx: 3 } 0b1110001100100111
-0xe328 // Branch { cond: 255, imm: 40, immx: 3 } 0b1110001100101000
-0xe329 // Branch { cond: 255, imm: 41, immx: 3 } 0b1110001100101001
-0xe32a // Branch { cond: 255, imm: 42, immx: 3 } 0b1110001100101010
-0xe32b // Branch { cond: 255, imm: 43, immx: 3 } 0b1110001100101011
-0xe32c // Branch { cond: 255, imm: 44, immx: 3 } 0b1110001100101100
-0xe32d // Branch { cond: 255, imm: 45, immx: 3 } 0b1110001100101101
-0xe32e // Branch { cond: 255, imm: 46, immx: 3 } 0b1110001100101110
-0xe32f // Branch { cond: 255, imm: 47, immx: 3 } 0b1110001100101111
-0xe330 // Branch { cond: 255, imm: 48, immx: 3 } 0b1110001100110000
-0xe331 // Branch { cond: 255, imm: 49, immx: 3 } 0b1110001100110001
-0xe332 // Branch { cond: 255, imm: 50, immx: 3 } 0b1110001100110010
-0xe333 // Branch { cond: 255, imm: 51, immx: 3 } 0b1110001100110011
-0xe334 // Branch { cond: 255, imm: 52, immx: 3 } 0b1110001100110100
-0xe335 // Branch { cond: 255, imm: 53, immx: 3 } 0b1110001100110101
-0xe336 // Branch { cond: 255, imm: 54, immx: 3 } 0b1110001100110110
-0xe337 // Branch { cond: 255, imm: 55, immx: 3 } 0b1110001100110111
-0xe338 // Branch { cond: 255, imm: 56, immx: 3 } 0b1110001100111000
-0xe339 // Branch { cond: 255, imm: 57, immx: 3 } 0b1110001100111001
-0xe33a // Branch { cond: 255, imm: 58, immx: 3 } 0b1110001100111010
-0xe33b // Branch { cond: 255, imm: 59, immx: 3 } 0b1110001100111011
-0xe33c // Branch { cond: 255, imm: 60, immx: 3 } 0b1110001100111100
-0xe33d // Branch { cond: 255, imm: 61, immx: 3 } 0b1110001100111101
-0xe33e // Branch { cond: 255, imm: 62, immx: 3 } 0b1110001100111110
-0xe33f // Branch { cond: 255, imm: 63, immx: 3 } 0b1110001100111111
-0xe340 // Branch { cond: 255, imm: 64, immx: 3 } 0b1110001101000000
-0xe341 // Branch { cond: 255, imm: 65, immx: 3 } 0b1110001101000001
-0xe342 // Branch { cond: 255, imm: 66, immx: 3 } 0b1110001101000010
-0xe343 // Branch { cond: 255, imm: 67, immx: 3 } 0b1110001101000011
-0xe344 // Branch { cond: 255, imm: 68, immx: 3 } 0b1110001101000100
-0xe345 // Branch { cond: 255, imm: 69, immx: 3 } 0b1110001101000101
-0xe346 // Branch { cond: 255, imm: 70, immx: 3 } 0b1110001101000110
-0xe347 // Branch { cond: 255, imm: 71, immx: 3 } 0b1110001101000111
-0xe348 // Branch { cond: 255, imm: 72, immx: 3 } 0b1110001101001000
-0xe349 // Branch { cond: 255, imm: 73, immx: 3 } 0b1110001101001001
-0xe34a // Branch { cond: 255, imm: 74, immx: 3 } 0b1110001101001010
-0xe34b // Branch { cond: 255, imm: 75, immx: 3 } 0b1110001101001011
-0xe34c // Branch { cond: 255, imm: 76, immx: 3 } 0b1110001101001100
-0xe34d // Branch { cond: 255, imm: 77, immx: 3 } 0b1110001101001101
-0xe34e // Branch { cond: 255, imm: 78, immx: 3 } 0b1110001101001110
-0xe34f // Branch { cond: 255, imm: 79, immx: 3 } 0b1110001101001111
-0xe350 // Branch { cond: 255, imm: 80, immx: 3 } 0b1110001101010000
-0xe351 // Branch { cond: 255, imm: 81, immx: 3 } 0b1110001101010001
-0xe352 // Branch { cond: 255, imm: 82, immx: 3 } 0b1110001101010010
-0xe353 // Branch { cond: 255, imm: 83, immx: 3 } 0b1110001101010011
-0xe354 // Branch { cond: 255, imm: 84, immx: 3 } 0b1110001101010100
-0xe355 // Branch { cond: 255, imm: 85, immx: 3 } 0b1110001101010101
-0xe356 // Branch { cond: 255, imm: 86, immx: 3 } 0b1110001101010110
-0xe357 // Branch { cond: 255, imm: 87, immx: 3 } 0b1110001101010111
-0xe358 // Branch { cond: 255, imm: 88, immx: 3 } 0b1110001101011000
-0xe359 // Branch { cond: 255, imm: 89, immx: 3 } 0b1110001101011001
-0xe35a // Branch { cond: 255, imm: 90, immx: 3 } 0b1110001101011010
-0xe35b // Branch { cond: 255, imm: 91, immx: 3 } 0b1110001101011011
-0xe35c // Branch { cond: 255, imm: 92, immx: 3 } 0b1110001101011100
-0xe35d // Branch { cond: 255, imm: 93, immx: 3 } 0b1110001101011101
-0xe35e // Branch { cond: 255, imm: 94, immx: 3 } 0b1110001101011110
-0xe35f // Branch { cond: 255, imm: 95, immx: 3 } 0b1110001101011111
-0xe360 // Branch { cond: 255, imm: 96, immx: 3 } 0b1110001101100000
-0xe361 // Branch { cond: 255, imm: 97, immx: 3 } 0b1110001101100001
-0xe362 // Branch { cond: 255, imm: 98, immx: 3 } 0b1110001101100010
-0xe363 // Branch { cond: 255, imm: 99, immx: 3 } 0b1110001101100011
-0xe364 // Branch { cond: 255, imm: 100, immx: 3 } 0b1110001101100100
-0xe365 // Branch { cond: 255, imm: 101, immx: 3 } 0b1110001101100101
-0xe366 // Branch { cond: 255, imm: 102, immx: 3 } 0b1110001101100110
-0xe367 // Branch { cond: 255, imm: 103, immx: 3 } 0b1110001101100111
-0xe368 // Branch { cond: 255, imm: 104, immx: 3 } 0b1110001101101000
-0xe369 // Branch { cond: 255, imm: 105, immx: 3 } 0b1110001101101001
-0xe36a // Branch { cond: 255, imm: 106, immx: 3 } 0b1110001101101010
-0xe36b // Branch { cond: 255, imm: 107, immx: 3 } 0b1110001101101011
-0xe36c // Branch { cond: 255, imm: 108, immx: 3 } 0b1110001101101100
-0xe36d // Branch { cond: 255, imm: 109, immx: 3 } 0b1110001101101101
-0xe36e // Branch { cond: 255, imm: 110, immx: 3 } 0b1110001101101110
-0xe36f // Branch { cond: 255, imm: 111, immx: 3 } 0b1110001101101111
-0xe370 // Branch { cond: 255, imm: 112, immx: 3 } 0b1110001101110000
-0xe371 // Branch { cond: 255, imm: 113, immx: 3 } 0b1110001101110001
-0xe372 // Branch { cond: 255, imm: 114, immx: 3 } 0b1110001101110010
-0xe373 // Branch { cond: 255, imm: 115, immx: 3 } 0b1110001101110011
-0xe374 // Branch { cond: 255, imm: 116, immx: 3 } 0b1110001101110100
-0xe375 // Branch { cond: 255, imm: 117, immx: 3 } 0b1110001101110101
-0xe376 // Branch { cond: 255, imm: 118, immx: 3 } 0b1110001101110110
-0xe377 // Branch { cond: 255, imm: 119, immx: 3 } 0b1110001101110111
-0xe378 // Branch { cond: 255, imm: 120, immx: 3 } 0b1110001101111000
-0xe379 // Branch { cond: 255, imm: 121, immx: 3 } 0b1110001101111001
-0xe37a // Branch { cond: 255, imm: 122, immx: 3 } 0b1110001101111010
-0xe37b // Branch { cond: 255, imm: 123, immx: 3 } 0b1110001101111011
-0xe37c // Branch { cond: 255, imm: 124, immx: 3 } 0b1110001101111100
-0xe37d // Branch { cond: 255, imm: 125, immx: 3 } 0b1110001101111101
-0xe37e // Branch { cond: 255, imm: 126, immx: 3 } 0b1110001101111110
-0xe37f // Branch { cond: 255, imm: 127, immx: 3 } 0b1110001101111111
-0xe380 // Branch { cond: 255, imm: 128, immx: 3 } 0b1110001110000000
-0xe381 // Branch { cond: 255, imm: 129, immx: 3 } 0b1110001110000001
-0xe382 // Branch { cond: 255, imm: 130, immx: 3 } 0b1110001110000010
-0xe383 // Branch { cond: 255, imm: 131, immx: 3 } 0b1110001110000011
-0xe384 // Branch { cond: 255, imm: 132, immx: 3 } 0b1110001110000100
-0xe385 // Branch { cond: 255, imm: 133, immx: 3 } 0b1110001110000101
-0xe386 // Branch { cond: 255, imm: 134, immx: 3 } 0b1110001110000110
-0xe387 // Branch { cond: 255, imm: 135, immx: 3 } 0b1110001110000111
-0xe388 // Branch { cond: 255, imm: 136, immx: 3 } 0b1110001110001000
-0xe389 // Branch { cond: 255, imm: 137, immx: 3 } 0b1110001110001001
-0xe38a // Branch { cond: 255, imm: 138, immx: 3 } 0b1110001110001010
-0xe38b // Branch { cond: 255, imm: 139, immx: 3 } 0b1110001110001011
-0xe38c // Branch { cond: 255, imm: 140, immx: 3 } 0b1110001110001100
-0xe38d // Branch { cond: 255, imm: 141, immx: 3 } 0b1110001110001101
-0xe38e // Branch { cond: 255, imm: 142, immx: 3 } 0b1110001110001110
-0xe38f // Branch { cond: 255, imm: 143, immx: 3 } 0b1110001110001111
-0xe390 // Branch { cond: 255, imm: 144, immx: 3 } 0b1110001110010000
-0xe391 // Branch { cond: 255, imm: 145, immx: 3 } 0b1110001110010001
-0xe392 // Branch { cond: 255, imm: 146, immx: 3 } 0b1110001110010010
-0xe393 // Branch { cond: 255, imm: 147, immx: 3 } 0b1110001110010011
-0xe394 // Branch { cond: 255, imm: 148, immx: 3 } 0b1110001110010100
-0xe395 // Branch { cond: 255, imm: 149, immx: 3 } 0b1110001110010101
-0xe396 // Branch { cond: 255, imm: 150, immx: 3 } 0b1110001110010110
-0xe397 // Branch { cond: 255, imm: 151, immx: 3 } 0b1110001110010111
-0xe398 // Branch { cond: 255, imm: 152, immx: 3 } 0b1110001110011000
-0xe399 // Branch { cond: 255, imm: 153, immx: 3 } 0b1110001110011001
-0xe39a // Branch { cond: 255, imm: 154, immx: 3 } 0b1110001110011010
-0xe39b // Branch { cond: 255, imm: 155, immx: 3 } 0b1110001110011011
-0xe39c // Branch { cond: 255, imm: 156, immx: 3 } 0b1110001110011100
-0xe39d // Branch { cond: 255, imm: 157, immx: 3 } 0b1110001110011101
-0xe39e // Branch { cond: 255, imm: 158, immx: 3 } 0b1110001110011110
-0xe39f // Branch { cond: 255, imm: 159, immx: 3 } 0b1110001110011111
-0xe3a0 // Branch { cond: 255, imm: 160, immx: 3 } 0b1110001110100000
-0xe3a1 // Branch { cond: 255, imm: 161, immx: 3 } 0b1110001110100001
-0xe3a2 // Branch { cond: 255, imm: 162, immx: 3 } 0b1110001110100010
-0xe3a3 // Branch { cond: 255, imm: 163, immx: 3 } 0b1110001110100011
-0xe3a4 // Branch { cond: 255, imm: 164, immx: 3 } 0b1110001110100100
-0xe3a5 // Branch { cond: 255, imm: 165, immx: 3 } 0b1110001110100101
-0xe3a6 // Branch { cond: 255, imm: 166, immx: 3 } 0b1110001110100110
-0xe3a7 // Branch { cond: 255, imm: 167, immx: 3 } 0b1110001110100111
-0xe3a8 // Branch { cond: 255, imm: 168, immx: 3 } 0b1110001110101000
-0xe3a9 // Branch { cond: 255, imm: 169, immx: 3 } 0b1110001110101001
-0xe3aa // Branch { cond: 255, imm: 170, immx: 3 } 0b1110001110101010
-0xe3ab // Branch { cond: 255, imm: 171, immx: 3 } 0b1110001110101011
-0xe3ac // Branch { cond: 255, imm: 172, immx: 3 } 0b1110001110101100
-0xe3ad // Branch { cond: 255, imm: 173, immx: 3 } 0b1110001110101101
-0xe3ae // Branch { cond: 255, imm: 174, immx: 3 } 0b1110001110101110
-0xe3af // Branch { cond: 255, imm: 175, immx: 3 } 0b1110001110101111
-0xe3b0 // Branch { cond: 255, imm: 176, immx: 3 } 0b1110001110110000
-0xe3b1 // Branch { cond: 255, imm: 177, immx: 3 } 0b1110001110110001
-0xe3b2 // Branch { cond: 255, imm: 178, immx: 3 } 0b1110001110110010
-0xe3b3 // Branch { cond: 255, imm: 179, immx: 3 } 0b1110001110110011
-0xe3b4 // Branch { cond: 255, imm: 180, immx: 3 } 0b1110001110110100
-0xe3b5 // Branch { cond: 255, imm: 181, immx: 3 } 0b1110001110110101
-0xe3b6 // Branch { cond: 255, imm: 182, immx: 3 } 0b1110001110110110
-0xe3b7 // Branch { cond: 255, imm: 183, immx: 3 } 0b1110001110110111
-0xe3b8 // Branch { cond: 255, imm: 184, immx: 3 } 0b1110001110111000
-0xe3b9 // Branch { cond: 255, imm: 185, immx: 3 } 0b1110001110111001
-0xe3ba // Branch { cond: 255, imm: 186, immx: 3 } 0b1110001110111010
-0xe3bb // Branch { cond: 255, imm: 187, immx: 3 } 0b1110001110111011
-0xe3bc // Branch { cond: 255, imm: 188, immx: 3 } 0b1110001110111100
-0xe3bd // Branch { cond: 255, imm: 189, immx: 3 } 0b1110001110111101
-0xe3be // Branch { cond: 255, imm: 190, immx: 3 } 0b1110001110111110
-0xe3bf // Branch { cond: 255, imm: 191, immx: 3 } 0b1110001110111111
-0xe3c0 // Branch { cond: 255, imm: 192, immx: 3 } 0b1110001111000000
-0xe3c1 // Branch { cond: 255, imm: 193, immx: 3 } 0b1110001111000001
-0xe3c2 // Branch { cond: 255, imm: 194, immx: 3 } 0b1110001111000010
-0xe3c3 // Branch { cond: 255, imm: 195, immx: 3 } 0b1110001111000011
-0xe3c4 // Branch { cond: 255, imm: 196, immx: 3 } 0b1110001111000100
-0xe3c5 // Branch { cond: 255, imm: 197, immx: 3 } 0b1110001111000101
-0xe3c6 // Branch { cond: 255, imm: 198, immx: 3 } 0b1110001111000110
-0xe3c7 // Branch { cond: 255, imm: 199, immx: 3 } 0b1110001111000111
-0xe3c8 // Branch { cond: 255, imm: 200, immx: 3 } 0b1110001111001000
-0xe3c9 // Branch { cond: 255, imm: 201, immx: 3 } 0b1110001111001001
-0xe3ca // Branch { cond: 255, imm: 202, immx: 3 } 0b1110001111001010
-0xe3cb // Branch { cond: 255, imm: 203, immx: 3 } 0b1110001111001011
-0xe3cc // Branch { cond: 255, imm: 204, immx: 3 } 0b1110001111001100
-0xe3cd // Branch { cond: 255, imm: 205, immx: 3 } 0b1110001111001101
-0xe3ce // Branch { cond: 255, imm: 206, immx: 3 } 0b1110001111001110
-0xe3cf // Branch { cond: 255, imm: 207, immx: 3 } 0b1110001111001111
-0xe3d0 // Branch { cond: 255, imm: 208, immx: 3 } 0b1110001111010000
-0xe3d1 // Branch { cond: 255, imm: 209, immx: 3 } 0b1110001111010001
-0xe3d2 // Branch { cond: 255, imm: 210, immx: 3 } 0b1110001111010010
-0xe3d3 // Branch { cond: 255, imm: 211, immx: 3 } 0b1110001111010011
-0xe3d4 // Branch { cond: 255, imm: 212, immx: 3 } 0b1110001111010100
-0xe3d5 // Branch { cond: 255, imm: 213, immx: 3 } 0b1110001111010101
-0xe3d6 // Branch { cond: 255, imm: 214, immx: 3 } 0b1110001111010110
-0xe3d7 // Branch { cond: 255, imm: 215, immx: 3 } 0b1110001111010111
-0xe3d8 // Branch { cond: 255, imm: 216, immx: 3 } 0b1110001111011000
-0xe3d9 // Branch { cond: 255, imm: 217, immx: 3 } 0b1110001111011001
-0xe3da // Branch { cond: 255, imm: 218, immx: 3 } 0b1110001111011010
-0xe3db // Branch { cond: 255, imm: 219, immx: 3 } 0b1110001111011011
-0xe3dc // Branch { cond: 255, imm: 220, immx: 3 } 0b1110001111011100
-0xe3dd // Branch { cond: 255, imm: 221, immx: 3 } 0b1110001111011101
-0xe3de // Branch { cond: 255, imm: 222, immx: 3 } 0b1110001111011110
-0xe3df // Branch { cond: 255, imm: 223, immx: 3 } 0b1110001111011111
-0xe3e0 // Branch { cond: 255, imm: 224, immx: 3 } 0b1110001111100000
-0xe3e1 // Branch { cond: 255, imm: 225, immx: 3 } 0b1110001111100001
-0xe3e2 // Branch { cond: 255, imm: 226, immx: 3 } 0b1110001111100010
-0xe3e3 // Branch { cond: 255, imm: 227, immx: 3 } 0b1110001111100011
-0xe3e4 // Branch { cond: 255, imm: 228, immx: 3 } 0b1110001111100100
-0xe3e5 // Branch { cond: 255, imm: 229, immx: 3 } 0b1110001111100101
-0xe3e6 // Branch { cond: 255, imm: 230, immx: 3 } 0b1110001111100110
-0xe3e7 // Branch { cond: 255, imm: 231, immx: 3 } 0b1110001111100111
-0xe3e8 // Branch { cond: 255, imm: 232, immx: 3 } 0b1110001111101000
-0xe3e9 // Branch { cond: 255, imm: 233, immx: 3 } 0b1110001111101001
-0xe3ea // Branch { cond: 255, imm: 234, immx: 3 } 0b1110001111101010
-0xe3eb // Branch { cond: 255, imm: 235, immx: 3 } 0b1110001111101011
-0xe3ec // Branch { cond: 255, imm: 236, immx: 3 } 0b1110001111101100
-0xe3ed // Branch { cond: 255, imm: 237, immx: 3 } 0b1110001111101101
-0xe3ee // Branch { cond: 255, imm: 238, immx: 3 } 0b1110001111101110
-0xe3ef // Branch { cond: 255, imm: 239, immx: 3 } 0b1110001111101111
-0xe3f0 // Branch { cond: 255, imm: 240, immx: 3 } 0b1110001111110000
-0xe3f1 // Branch { cond: 255, imm: 241, immx: 3 } 0b1110001111110001
-0xe3f2 // Branch { cond: 255, imm: 242, immx: 3 } 0b1110001111110010
-0xe3f3 // Branch { cond: 255, imm: 243, immx: 3 } 0b1110001111110011
-0xe3f4 // Branch { cond: 255, imm: 244, immx: 3 } 0b1110001111110100
-0xe3f5 // Branch { cond: 255, imm: 245, immx: 3 } 0b1110001111110101
-0xe3f6 // Branch { cond: 255, imm: 246, immx: 3 } 0b1110001111110110
-0xe3f7 // Branch { cond: 255, imm: 247, immx: 3 } 0b1110001111110111
-0xe3f8 // Branch { cond: 255, imm: 248, immx: 3 } 0b1110001111111000
-0xe3f9 // Branch { cond: 255, imm: 249, immx: 3 } 0b1110001111111001
-0xe3fa // Branch { cond: 255, imm: 250, immx: 3 } 0b1110001111111010
-0xe3fb // Branch { cond: 255, imm: 251, immx: 3 } 0b1110001111111011
-0xe3fc // Branch { cond: 255, imm: 252, immx: 3 } 0b1110001111111100
-0xe3fd // Branch { cond: 255, imm: 253, immx: 3 } 0b1110001111111101
-0xe3fe // Branch { cond: 255, imm: 254, immx: 3 } 0b1110001111111110
-0xe3ff // Branch { cond: 255, imm: 255, immx: 3 } 0b1110001111111111
-0xe400 // Branch { cond: 255, imm: 0, immx: 4 } 0b1110010000000000
-0xe401 // Branch { cond: 255, imm: 1, immx: 4 } 0b1110010000000001
-0xe402 // Branch { cond: 255, imm: 2, immx: 4 } 0b1110010000000010
-0xe403 // Branch { cond: 255, imm: 3, immx: 4 } 0b1110010000000011
-0xe404 // Branch { cond: 255, imm: 4, immx: 4 } 0b1110010000000100
-0xe405 // Branch { cond: 255, imm: 5, immx: 4 } 0b1110010000000101
-0xe406 // Branch { cond: 255, imm: 6, immx: 4 } 0b1110010000000110
-0xe407 // Branch { cond: 255, imm: 7, immx: 4 } 0b1110010000000111
-0xe408 // Branch { cond: 255, imm: 8, immx: 4 } 0b1110010000001000
-0xe409 // Branch { cond: 255, imm: 9, immx: 4 } 0b1110010000001001
-0xe40a // Branch { cond: 255, imm: 10, immx: 4 } 0b1110010000001010
-0xe40b // Branch { cond: 255, imm: 11, immx: 4 } 0b1110010000001011
-0xe40c // Branch { cond: 255, imm: 12, immx: 4 } 0b1110010000001100
-0xe40d // Branch { cond: 255, imm: 13, immx: 4 } 0b1110010000001101
-0xe40e // Branch { cond: 255, imm: 14, immx: 4 } 0b1110010000001110
-0xe40f // Branch { cond: 255, imm: 15, immx: 4 } 0b1110010000001111
-0xe410 // Branch { cond: 255, imm: 16, immx: 4 } 0b1110010000010000
-0xe411 // Branch { cond: 255, imm: 17, immx: 4 } 0b1110010000010001
-0xe412 // Branch { cond: 255, imm: 18, immx: 4 } 0b1110010000010010
-0xe413 // Branch { cond: 255, imm: 19, immx: 4 } 0b1110010000010011
-0xe414 // Branch { cond: 255, imm: 20, immx: 4 } 0b1110010000010100
-0xe415 // Branch { cond: 255, imm: 21, immx: 4 } 0b1110010000010101
-0xe416 // Branch { cond: 255, imm: 22, immx: 4 } 0b1110010000010110
-0xe417 // Branch { cond: 255, imm: 23, immx: 4 } 0b1110010000010111
-0xe418 // Branch { cond: 255, imm: 24, immx: 4 } 0b1110010000011000
-0xe419 // Branch { cond: 255, imm: 25, immx: 4 } 0b1110010000011001
-0xe41a // Branch { cond: 255, imm: 26, immx: 4 } 0b1110010000011010
-0xe41b // Branch { cond: 255, imm: 27, immx: 4 } 0b1110010000011011
-0xe41c // Branch { cond: 255, imm: 28, immx: 4 } 0b1110010000011100
-0xe41d // Branch { cond: 255, imm: 29, immx: 4 } 0b1110010000011101
-0xe41e // Branch { cond: 255, imm: 30, immx: 4 } 0b1110010000011110
-0xe41f // Branch { cond: 255, imm: 31, immx: 4 } 0b1110010000011111
-0xe420 // Branch { cond: 255, imm: 32, immx: 4 } 0b1110010000100000
-0xe421 // Branch { cond: 255, imm: 33, immx: 4 } 0b1110010000100001
-0xe422 // Branch { cond: 255, imm: 34, immx: 4 } 0b1110010000100010
-0xe423 // Branch { cond: 255, imm: 35, immx: 4 } 0b1110010000100011
-0xe424 // Branch { cond: 255, imm: 36, immx: 4 } 0b1110010000100100
-0xe425 // Branch { cond: 255, imm: 37, immx: 4 } 0b1110010000100101
-0xe426 // Branch { cond: 255, imm: 38, immx: 4 } 0b1110010000100110
-0xe427 // Branch { cond: 255, imm: 39, immx: 4 } 0b1110010000100111
-0xe428 // Branch { cond: 255, imm: 40, immx: 4 } 0b1110010000101000
-0xe429 // Branch { cond: 255, imm: 41, immx: 4 } 0b1110010000101001
-0xe42a // Branch { cond: 255, imm: 42, immx: 4 } 0b1110010000101010
-0xe42b // Branch { cond: 255, imm: 43, immx: 4 } 0b1110010000101011
-0xe42c // Branch { cond: 255, imm: 44, immx: 4 } 0b1110010000101100
-0xe42d // Branch { cond: 255, imm: 45, immx: 4 } 0b1110010000101101
-0xe42e // Branch { cond: 255, imm: 46, immx: 4 } 0b1110010000101110
-0xe42f // Branch { cond: 255, imm: 47, immx: 4 } 0b1110010000101111
-0xe430 // Branch { cond: 255, imm: 48, immx: 4 } 0b1110010000110000
-0xe431 // Branch { cond: 255, imm: 49, immx: 4 } 0b1110010000110001
-0xe432 // Branch { cond: 255, imm: 50, immx: 4 } 0b1110010000110010
-0xe433 // Branch { cond: 255, imm: 51, immx: 4 } 0b1110010000110011
-0xe434 // Branch { cond: 255, imm: 52, immx: 4 } 0b1110010000110100
-0xe435 // Branch { cond: 255, imm: 53, immx: 4 } 0b1110010000110101
-0xe436 // Branch { cond: 255, imm: 54, immx: 4 } 0b1110010000110110
-0xe437 // Branch { cond: 255, imm: 55, immx: 4 } 0b1110010000110111
-0xe438 // Branch { cond: 255, imm: 56, immx: 4 } 0b1110010000111000
-0xe439 // Branch { cond: 255, imm: 57, immx: 4 } 0b1110010000111001
-0xe43a // Branch { cond: 255, imm: 58, immx: 4 } 0b1110010000111010
-0xe43b // Branch { cond: 255, imm: 59, immx: 4 } 0b1110010000111011
-0xe43c // Branch { cond: 255, imm: 60, immx: 4 } 0b1110010000111100
-0xe43d // Branch { cond: 255, imm: 61, immx: 4 } 0b1110010000111101
-0xe43e // Branch { cond: 255, imm: 62, immx: 4 } 0b1110010000111110
-0xe43f // Branch { cond: 255, imm: 63, immx: 4 } 0b1110010000111111
-0xe440 // Branch { cond: 255, imm: 64, immx: 4 } 0b1110010001000000
-0xe441 // Branch { cond: 255, imm: 65, immx: 4 } 0b1110010001000001
-0xe442 // Branch { cond: 255, imm: 66, immx: 4 } 0b1110010001000010
-0xe443 // Branch { cond: 255, imm: 67, immx: 4 } 0b1110010001000011
-0xe444 // Branch { cond: 255, imm: 68, immx: 4 } 0b1110010001000100
-0xe445 // Branch { cond: 255, imm: 69, immx: 4 } 0b1110010001000101
-0xe446 // Branch { cond: 255, imm: 70, immx: 4 } 0b1110010001000110
-0xe447 // Branch { cond: 255, imm: 71, immx: 4 } 0b1110010001000111
-0xe448 // Branch { cond: 255, imm: 72, immx: 4 } 0b1110010001001000
-0xe449 // Branch { cond: 255, imm: 73, immx: 4 } 0b1110010001001001
-0xe44a // Branch { cond: 255, imm: 74, immx: 4 } 0b1110010001001010
-0xe44b // Branch { cond: 255, imm: 75, immx: 4 } 0b1110010001001011
-0xe44c // Branch { cond: 255, imm: 76, immx: 4 } 0b1110010001001100
-0xe44d // Branch { cond: 255, imm: 77, immx: 4 } 0b1110010001001101
-0xe44e // Branch { cond: 255, imm: 78, immx: 4 } 0b1110010001001110
-0xe44f // Branch { cond: 255, imm: 79, immx: 4 } 0b1110010001001111
-0xe450 // Branch { cond: 255, imm: 80, immx: 4 } 0b1110010001010000
-0xe451 // Branch { cond: 255, imm: 81, immx: 4 } 0b1110010001010001
-0xe452 // Branch { cond: 255, imm: 82, immx: 4 } 0b1110010001010010
-0xe453 // Branch { cond: 255, imm: 83, immx: 4 } 0b1110010001010011
-0xe454 // Branch { cond: 255, imm: 84, immx: 4 } 0b1110010001010100
-0xe455 // Branch { cond: 255, imm: 85, immx: 4 } 0b1110010001010101
-0xe456 // Branch { cond: 255, imm: 86, immx: 4 } 0b1110010001010110
-0xe457 // Branch { cond: 255, imm: 87, immx: 4 } 0b1110010001010111
-0xe458 // Branch { cond: 255, imm: 88, immx: 4 } 0b1110010001011000
-0xe459 // Branch { cond: 255, imm: 89, immx: 4 } 0b1110010001011001
-0xe45a // Branch { cond: 255, imm: 90, immx: 4 } 0b1110010001011010
-0xe45b // Branch { cond: 255, imm: 91, immx: 4 } 0b1110010001011011
-0xe45c // Branch { cond: 255, imm: 92, immx: 4 } 0b1110010001011100
-0xe45d // Branch { cond: 255, imm: 93, immx: 4 } 0b1110010001011101
-0xe45e // Branch { cond: 255, imm: 94, immx: 4 } 0b1110010001011110
-0xe45f // Branch { cond: 255, imm: 95, immx: 4 } 0b1110010001011111
-0xe460 // Branch { cond: 255, imm: 96, immx: 4 } 0b1110010001100000
-0xe461 // Branch { cond: 255, imm: 97, immx: 4 } 0b1110010001100001
-0xe462 // Branch { cond: 255, imm: 98, immx: 4 } 0b1110010001100010
-0xe463 // Branch { cond: 255, imm: 99, immx: 4 } 0b1110010001100011
-0xe464 // Branch { cond: 255, imm: 100, immx: 4 } 0b1110010001100100
-0xe465 // Branch { cond: 255, imm: 101, immx: 4 } 0b1110010001100101
-0xe466 // Branch { cond: 255, imm: 102, immx: 4 } 0b1110010001100110
-0xe467 // Branch { cond: 255, imm: 103, immx: 4 } 0b1110010001100111
-0xe468 // Branch { cond: 255, imm: 104, immx: 4 } 0b1110010001101000
-0xe469 // Branch { cond: 255, imm: 105, immx: 4 } 0b1110010001101001
-0xe46a // Branch { cond: 255, imm: 106, immx: 4 } 0b1110010001101010
-0xe46b // Branch { cond: 255, imm: 107, immx: 4 } 0b1110010001101011
-0xe46c // Branch { cond: 255, imm: 108, immx: 4 } 0b1110010001101100
-0xe46d // Branch { cond: 255, imm: 109, immx: 4 } 0b1110010001101101
-0xe46e // Branch { cond: 255, imm: 110, immx: 4 } 0b1110010001101110
-0xe46f // Branch { cond: 255, imm: 111, immx: 4 } 0b1110010001101111
-0xe470 // Branch { cond: 255, imm: 112, immx: 4 } 0b1110010001110000
-0xe471 // Branch { cond: 255, imm: 113, immx: 4 } 0b1110010001110001
-0xe472 // Branch { cond: 255, imm: 114, immx: 4 } 0b1110010001110010
-0xe473 // Branch { cond: 255, imm: 115, immx: 4 } 0b1110010001110011
-0xe474 // Branch { cond: 255, imm: 116, immx: 4 } 0b1110010001110100
-0xe475 // Branch { cond: 255, imm: 117, immx: 4 } 0b1110010001110101
-0xe476 // Branch { cond: 255, imm: 118, immx: 4 } 0b1110010001110110
-0xe477 // Branch { cond: 255, imm: 119, immx: 4 } 0b1110010001110111
-0xe478 // Branch { cond: 255, imm: 120, immx: 4 } 0b1110010001111000
-0xe479 // Branch { cond: 255, imm: 121, immx: 4 } 0b1110010001111001
-0xe47a // Branch { cond: 255, imm: 122, immx: 4 } 0b1110010001111010
-0xe47b // Branch { cond: 255, imm: 123, immx: 4 } 0b1110010001111011
-0xe47c // Branch { cond: 255, imm: 124, immx: 4 } 0b1110010001111100
-0xe47d // Branch { cond: 255, imm: 125, immx: 4 } 0b1110010001111101
-0xe47e // Branch { cond: 255, imm: 126, immx: 4 } 0b1110010001111110
-0xe47f // Branch { cond: 255, imm: 127, immx: 4 } 0b1110010001111111
-0xe480 // Branch { cond: 255, imm: 128, immx: 4 } 0b1110010010000000
-0xe481 // Branch { cond: 255, imm: 129, immx: 4 } 0b1110010010000001
-0xe482 // Branch { cond: 255, imm: 130, immx: 4 } 0b1110010010000010
-0xe483 // Branch { cond: 255, imm: 131, immx: 4 } 0b1110010010000011
-0xe484 // Branch { cond: 255, imm: 132, immx: 4 } 0b1110010010000100
-0xe485 // Branch { cond: 255, imm: 133, immx: 4 } 0b1110010010000101
-0xe486 // Branch { cond: 255, imm: 134, immx: 4 } 0b1110010010000110
-0xe487 // Branch { cond: 255, imm: 135, immx: 4 } 0b1110010010000111
-0xe488 // Branch { cond: 255, imm: 136, immx: 4 } 0b1110010010001000
-0xe489 // Branch { cond: 255, imm: 137, immx: 4 } 0b1110010010001001
-0xe48a // Branch { cond: 255, imm: 138, immx: 4 } 0b1110010010001010
-0xe48b // Branch { cond: 255, imm: 139, immx: 4 } 0b1110010010001011
-0xe48c // Branch { cond: 255, imm: 140, immx: 4 } 0b1110010010001100
-0xe48d // Branch { cond: 255, imm: 141, immx: 4 } 0b1110010010001101
-0xe48e // Branch { cond: 255, imm: 142, immx: 4 } 0b1110010010001110
-0xe48f // Branch { cond: 255, imm: 143, immx: 4 } 0b1110010010001111
-0xe490 // Branch { cond: 255, imm: 144, immx: 4 } 0b1110010010010000
-0xe491 // Branch { cond: 255, imm: 145, immx: 4 } 0b1110010010010001
-0xe492 // Branch { cond: 255, imm: 146, immx: 4 } 0b1110010010010010
-0xe493 // Branch { cond: 255, imm: 147, immx: 4 } 0b1110010010010011
-0xe494 // Branch { cond: 255, imm: 148, immx: 4 } 0b1110010010010100
-0xe495 // Branch { cond: 255, imm: 149, immx: 4 } 0b1110010010010101
-0xe496 // Branch { cond: 255, imm: 150, immx: 4 } 0b1110010010010110
-0xe497 // Branch { cond: 255, imm: 151, immx: 4 } 0b1110010010010111
-0xe498 // Branch { cond: 255, imm: 152, immx: 4 } 0b1110010010011000
-0xe499 // Branch { cond: 255, imm: 153, immx: 4 } 0b1110010010011001
-0xe49a // Branch { cond: 255, imm: 154, immx: 4 } 0b1110010010011010
-0xe49b // Branch { cond: 255, imm: 155, immx: 4 } 0b1110010010011011
-0xe49c // Branch { cond: 255, imm: 156, immx: 4 } 0b1110010010011100
-0xe49d // Branch { cond: 255, imm: 157, immx: 4 } 0b1110010010011101
-0xe49e // Branch { cond: 255, imm: 158, immx: 4 } 0b1110010010011110
-0xe49f // Branch { cond: 255, imm: 159, immx: 4 } 0b1110010010011111
-0xe4a0 // Branch { cond: 255, imm: 160, immx: 4 } 0b1110010010100000
-0xe4a1 // Branch { cond: 255, imm: 161, immx: 4 } 0b1110010010100001
-0xe4a2 // Branch { cond: 255, imm: 162, immx: 4 } 0b1110010010100010
-0xe4a3 // Branch { cond: 255, imm: 163, immx: 4 } 0b1110010010100011
-0xe4a4 // Branch { cond: 255, imm: 164, immx: 4 } 0b1110010010100100
-0xe4a5 // Branch { cond: 255, imm: 165, immx: 4 } 0b1110010010100101
-0xe4a6 // Branch { cond: 255, imm: 166, immx: 4 } 0b1110010010100110
-0xe4a7 // Branch { cond: 255, imm: 167, immx: 4 } 0b1110010010100111
-0xe4a8 // Branch { cond: 255, imm: 168, immx: 4 } 0b1110010010101000
-0xe4a9 // Branch { cond: 255, imm: 169, immx: 4 } 0b1110010010101001
-0xe4aa // Branch { cond: 255, imm: 170, immx: 4 } 0b1110010010101010
-0xe4ab // Branch { cond: 255, imm: 171, immx: 4 } 0b1110010010101011
-0xe4ac // Branch { cond: 255, imm: 172, immx: 4 } 0b1110010010101100
-0xe4ad // Branch { cond: 255, imm: 173, immx: 4 } 0b1110010010101101
-0xe4ae // Branch { cond: 255, imm: 174, immx: 4 } 0b1110010010101110
-0xe4af // Branch { cond: 255, imm: 175, immx: 4 } 0b1110010010101111
-0xe4b0 // Branch { cond: 255, imm: 176, immx: 4 } 0b1110010010110000
-0xe4b1 // Branch { cond: 255, imm: 177, immx: 4 } 0b1110010010110001
-0xe4b2 // Branch { cond: 255, imm: 178, immx: 4 } 0b1110010010110010
-0xe4b3 // Branch { cond: 255, imm: 179, immx: 4 } 0b1110010010110011
-0xe4b4 // Branch { cond: 255, imm: 180, immx: 4 } 0b1110010010110100
-0xe4b5 // Branch { cond: 255, imm: 181, immx: 4 } 0b1110010010110101
-0xe4b6 // Branch { cond: 255, imm: 182, immx: 4 } 0b1110010010110110
-0xe4b7 // Branch { cond: 255, imm: 183, immx: 4 } 0b1110010010110111
-0xe4b8 // Branch { cond: 255, imm: 184, immx: 4 } 0b1110010010111000
-0xe4b9 // Branch { cond: 255, imm: 185, immx: 4 } 0b1110010010111001
-0xe4ba // Branch { cond: 255, imm: 186, immx: 4 } 0b1110010010111010
-0xe4bb // Branch { cond: 255, imm: 187, immx: 4 } 0b1110010010111011
-0xe4bc // Branch { cond: 255, imm: 188, immx: 4 } 0b1110010010111100
-0xe4bd // Branch { cond: 255, imm: 189, immx: 4 } 0b1110010010111101
-0xe4be // Branch { cond: 255, imm: 190, immx: 4 } 0b1110010010111110
-0xe4bf // Branch { cond: 255, imm: 191, immx: 4 } 0b1110010010111111
-0xe4c0 // Branch { cond: 255, imm: 192, immx: 4 } 0b1110010011000000
-0xe4c1 // Branch { cond: 255, imm: 193, immx: 4 } 0b1110010011000001
-0xe4c2 // Branch { cond: 255, imm: 194, immx: 4 } 0b1110010011000010
-0xe4c3 // Branch { cond: 255, imm: 195, immx: 4 } 0b1110010011000011
-0xe4c4 // Branch { cond: 255, imm: 196, immx: 4 } 0b1110010011000100
-0xe4c5 // Branch { cond: 255, imm: 197, immx: 4 } 0b1110010011000101
-0xe4c6 // Branch { cond: 255, imm: 198, immx: 4 } 0b1110010011000110
-0xe4c7 // Branch { cond: 255, imm: 199, immx: 4 } 0b1110010011000111
-0xe4c8 // Branch { cond: 255, imm: 200, immx: 4 } 0b1110010011001000
-0xe4c9 // Branch { cond: 255, imm: 201, immx: 4 } 0b1110010011001001
-0xe4ca // Branch { cond: 255, imm: 202, immx: 4 } 0b1110010011001010
-0xe4cb // Branch { cond: 255, imm: 203, immx: 4 } 0b1110010011001011
-0xe4cc // Branch { cond: 255, imm: 204, immx: 4 } 0b1110010011001100
-0xe4cd // Branch { cond: 255, imm: 205, immx: 4 } 0b1110010011001101
-0xe4ce // Branch { cond: 255, imm: 206, immx: 4 } 0b1110010011001110
-0xe4cf // Branch { cond: 255, imm: 207, immx: 4 } 0b1110010011001111
-0xe4d0 // Branch { cond: 255, imm: 208, immx: 4 } 0b1110010011010000
-0xe4d1 // Branch { cond: 255, imm: 209, immx: 4 } 0b1110010011010001
-0xe4d2 // Branch { cond: 255, imm: 210, immx: 4 } 0b1110010011010010
-0xe4d3 // Branch { cond: 255, imm: 211, immx: 4 } 0b1110010011010011
-0xe4d4 // Branch { cond: 255, imm: 212, immx: 4 } 0b1110010011010100
-0xe4d5 // Branch { cond: 255, imm: 213, immx: 4 } 0b1110010011010101
-0xe4d6 // Branch { cond: 255, imm: 214, immx: 4 } 0b1110010011010110
-0xe4d7 // Branch { cond: 255, imm: 215, immx: 4 } 0b1110010011010111
-0xe4d8 // Branch { cond: 255, imm: 216, immx: 4 } 0b1110010011011000
-0xe4d9 // Branch { cond: 255, imm: 217, immx: 4 } 0b1110010011011001
-0xe4da // Branch { cond: 255, imm: 218, immx: 4 } 0b1110010011011010
-0xe4db // Branch { cond: 255, imm: 219, immx: 4 } 0b1110010011011011
-0xe4dc // Branch { cond: 255, imm: 220, immx: 4 } 0b1110010011011100
-0xe4dd // Branch { cond: 255, imm: 221, immx: 4 } 0b1110010011011101
-0xe4de // Branch { cond: 255, imm: 222, immx: 4 } 0b1110010011011110
-0xe4df // Branch { cond: 255, imm: 223, immx: 4 } 0b1110010011011111
-0xe4e0 // Branch { cond: 255, imm: 224, immx: 4 } 0b1110010011100000
-0xe4e1 // Branch { cond: 255, imm: 225, immx: 4 } 0b1110010011100001
-0xe4e2 // Branch { cond: 255, imm: 226, immx: 4 } 0b1110010011100010
-0xe4e3 // Branch { cond: 255, imm: 227, immx: 4 } 0b1110010011100011
-0xe4e4 // Branch { cond: 255, imm: 228, immx: 4 } 0b1110010011100100
-0xe4e5 // Branch { cond: 255, imm: 229, immx: 4 } 0b1110010011100101
-0xe4e6 // Branch { cond: 255, imm: 230, immx: 4 } 0b1110010011100110
-0xe4e7 // Branch { cond: 255, imm: 231, immx: 4 } 0b1110010011100111
-0xe4e8 // Branch { cond: 255, imm: 232, immx: 4 } 0b1110010011101000
-0xe4e9 // Branch { cond: 255, imm: 233, immx: 4 } 0b1110010011101001
-0xe4ea // Branch { cond: 255, imm: 234, immx: 4 } 0b1110010011101010
-0xe4eb // Branch { cond: 255, imm: 235, immx: 4 } 0b1110010011101011
-0xe4ec // Branch { cond: 255, imm: 236, immx: 4 } 0b1110010011101100
-0xe4ed // Branch { cond: 255, imm: 237, immx: 4 } 0b1110010011101101
-0xe4ee // Branch { cond: 255, imm: 238, immx: 4 } 0b1110010011101110
-0xe4ef // Branch { cond: 255, imm: 239, immx: 4 } 0b1110010011101111
-0xe4f0 // Branch { cond: 255, imm: 240, immx: 4 } 0b1110010011110000
-0xe4f1 // Branch { cond: 255, imm: 241, immx: 4 } 0b1110010011110001
-0xe4f2 // Branch { cond: 255, imm: 242, immx: 4 } 0b1110010011110010
-0xe4f3 // Branch { cond: 255, imm: 243, immx: 4 } 0b1110010011110011
-0xe4f4 // Branch { cond: 255, imm: 244, immx: 4 } 0b1110010011110100
-0xe4f5 // Branch { cond: 255, imm: 245, immx: 4 } 0b1110010011110101
-0xe4f6 // Branch { cond: 255, imm: 246, immx: 4 } 0b1110010011110110
-0xe4f7 // Branch { cond: 255, imm: 247, immx: 4 } 0b1110010011110111
-0xe4f8 // Branch { cond: 255, imm: 248, immx: 4 } 0b1110010011111000
-0xe4f9 // Branch { cond: 255, imm: 249, immx: 4 } 0b1110010011111001
-0xe4fa // Branch { cond: 255, imm: 250, immx: 4 } 0b1110010011111010
-0xe4fb // Branch { cond: 255, imm: 251, immx: 4 } 0b1110010011111011
-0xe4fc // Branch { cond: 255, imm: 252, immx: 4 } 0b1110010011111100
-0xe4fd // Branch { cond: 255, imm: 253, immx: 4 } 0b1110010011111101
-0xe4fe // Branch { cond: 255, imm: 254, immx: 4 } 0b1110010011111110
-0xe4ff // Branch { cond: 255, imm: 255, immx: 4 } 0b1110010011111111
-0xe500 // Branch { cond: 255, imm: 0, immx: 5 } 0b1110010100000000
-0xe501 // Branch { cond: 255, imm: 1, immx: 5 } 0b1110010100000001
-0xe502 // Branch { cond: 255, imm: 2, immx: 5 } 0b1110010100000010
-0xe503 // Branch { cond: 255, imm: 3, immx: 5 } 0b1110010100000011
-0xe504 // Branch { cond: 255, imm: 4, immx: 5 } 0b1110010100000100
-0xe505 // Branch { cond: 255, imm: 5, immx: 5 } 0b1110010100000101
-0xe506 // Branch { cond: 255, imm: 6, immx: 5 } 0b1110010100000110
-0xe507 // Branch { cond: 255, imm: 7, immx: 5 } 0b1110010100000111
-0xe508 // Branch { cond: 255, imm: 8, immx: 5 } 0b1110010100001000
-0xe509 // Branch { cond: 255, imm: 9, immx: 5 } 0b1110010100001001
-0xe50a // Branch { cond: 255, imm: 10, immx: 5 } 0b1110010100001010
-0xe50b // Branch { cond: 255, imm: 11, immx: 5 } 0b1110010100001011
-0xe50c // Branch { cond: 255, imm: 12, immx: 5 } 0b1110010100001100
-0xe50d // Branch { cond: 255, imm: 13, immx: 5 } 0b1110010100001101
-0xe50e // Branch { cond: 255, imm: 14, immx: 5 } 0b1110010100001110
-0xe50f // Branch { cond: 255, imm: 15, immx: 5 } 0b1110010100001111
-0xe510 // Branch { cond: 255, imm: 16, immx: 5 } 0b1110010100010000
-0xe511 // Branch { cond: 255, imm: 17, immx: 5 } 0b1110010100010001
-0xe512 // Branch { cond: 255, imm: 18, immx: 5 } 0b1110010100010010
-0xe513 // Branch { cond: 255, imm: 19, immx: 5 } 0b1110010100010011
-0xe514 // Branch { cond: 255, imm: 20, immx: 5 } 0b1110010100010100
-0xe515 // Branch { cond: 255, imm: 21, immx: 5 } 0b1110010100010101
-0xe516 // Branch { cond: 255, imm: 22, immx: 5 } 0b1110010100010110
-0xe517 // Branch { cond: 255, imm: 23, immx: 5 } 0b1110010100010111
-0xe518 // Branch { cond: 255, imm: 24, immx: 5 } 0b1110010100011000
-0xe519 // Branch { cond: 255, imm: 25, immx: 5 } 0b1110010100011001
-0xe51a // Branch { cond: 255, imm: 26, immx: 5 } 0b1110010100011010
-0xe51b // Branch { cond: 255, imm: 27, immx: 5 } 0b1110010100011011
-0xe51c // Branch { cond: 255, imm: 28, immx: 5 } 0b1110010100011100
-0xe51d // Branch { cond: 255, imm: 29, immx: 5 } 0b1110010100011101
-0xe51e // Branch { cond: 255, imm: 30, immx: 5 } 0b1110010100011110
-0xe51f // Branch { cond: 255, imm: 31, immx: 5 } 0b1110010100011111
-0xe520 // Branch { cond: 255, imm: 32, immx: 5 } 0b1110010100100000
-0xe521 // Branch { cond: 255, imm: 33, immx: 5 } 0b1110010100100001
-0xe522 // Branch { cond: 255, imm: 34, immx: 5 } 0b1110010100100010
-0xe523 // Branch { cond: 255, imm: 35, immx: 5 } 0b1110010100100011
-0xe524 // Branch { cond: 255, imm: 36, immx: 5 } 0b1110010100100100
-0xe525 // Branch { cond: 255, imm: 37, immx: 5 } 0b1110010100100101
-0xe526 // Branch { cond: 255, imm: 38, immx: 5 } 0b1110010100100110
-0xe527 // Branch { cond: 255, imm: 39, immx: 5 } 0b1110010100100111
-0xe528 // Branch { cond: 255, imm: 40, immx: 5 } 0b1110010100101000
-0xe529 // Branch { cond: 255, imm: 41, immx: 5 } 0b1110010100101001
-0xe52a // Branch { cond: 255, imm: 42, immx: 5 } 0b1110010100101010
-0xe52b // Branch { cond: 255, imm: 43, immx: 5 } 0b1110010100101011
-0xe52c // Branch { cond: 255, imm: 44, immx: 5 } 0b1110010100101100
-0xe52d // Branch { cond: 255, imm: 45, immx: 5 } 0b1110010100101101
-0xe52e // Branch { cond: 255, imm: 46, immx: 5 } 0b1110010100101110
-0xe52f // Branch { cond: 255, imm: 47, immx: 5 } 0b1110010100101111
-0xe530 // Branch { cond: 255, imm: 48, immx: 5 } 0b1110010100110000
-0xe531 // Branch { cond: 255, imm: 49, immx: 5 } 0b1110010100110001
-0xe532 // Branch { cond: 255, imm: 50, immx: 5 } 0b1110010100110010
-0xe533 // Branch { cond: 255, imm: 51, immx: 5 } 0b1110010100110011
-0xe534 // Branch { cond: 255, imm: 52, immx: 5 } 0b1110010100110100
-0xe535 // Branch { cond: 255, imm: 53, immx: 5 } 0b1110010100110101
-0xe536 // Branch { cond: 255, imm: 54, immx: 5 } 0b1110010100110110
-0xe537 // Branch { cond: 255, imm: 55, immx: 5 } 0b1110010100110111
-0xe538 // Branch { cond: 255, imm: 56, immx: 5 } 0b1110010100111000
-0xe539 // Branch { cond: 255, imm: 57, immx: 5 } 0b1110010100111001
-0xe53a // Branch { cond: 255, imm: 58, immx: 5 } 0b1110010100111010
-0xe53b // Branch { cond: 255, imm: 59, immx: 5 } 0b1110010100111011
-0xe53c // Branch { cond: 255, imm: 60, immx: 5 } 0b1110010100111100
-0xe53d // Branch { cond: 255, imm: 61, immx: 5 } 0b1110010100111101
-0xe53e // Branch { cond: 255, imm: 62, immx: 5 } 0b1110010100111110
-0xe53f // Branch { cond: 255, imm: 63, immx: 5 } 0b1110010100111111
-0xe540 // Branch { cond: 255, imm: 64, immx: 5 } 0b1110010101000000
-0xe541 // Branch { cond: 255, imm: 65, immx: 5 } 0b1110010101000001
-0xe542 // Branch { cond: 255, imm: 66, immx: 5 } 0b1110010101000010
-0xe543 // Branch { cond: 255, imm: 67, immx: 5 } 0b1110010101000011
-0xe544 // Branch { cond: 255, imm: 68, immx: 5 } 0b1110010101000100
-0xe545 // Branch { cond: 255, imm: 69, immx: 5 } 0b1110010101000101
-0xe546 // Branch { cond: 255, imm: 70, immx: 5 } 0b1110010101000110
-0xe547 // Branch { cond: 255, imm: 71, immx: 5 } 0b1110010101000111
-0xe548 // Branch { cond: 255, imm: 72, immx: 5 } 0b1110010101001000
-0xe549 // Branch { cond: 255, imm: 73, immx: 5 } 0b1110010101001001
-0xe54a // Branch { cond: 255, imm: 74, immx: 5 } 0b1110010101001010
-0xe54b // Branch { cond: 255, imm: 75, immx: 5 } 0b1110010101001011
-0xe54c // Branch { cond: 255, imm: 76, immx: 5 } 0b1110010101001100
-0xe54d // Branch { cond: 255, imm: 77, immx: 5 } 0b1110010101001101
-0xe54e // Branch { cond: 255, imm: 78, immx: 5 } 0b1110010101001110
-0xe54f // Branch { cond: 255, imm: 79, immx: 5 } 0b1110010101001111
-0xe550 // Branch { cond: 255, imm: 80, immx: 5 } 0b1110010101010000
-0xe551 // Branch { cond: 255, imm: 81, immx: 5 } 0b1110010101010001
-0xe552 // Branch { cond: 255, imm: 82, immx: 5 } 0b1110010101010010
-0xe553 // Branch { cond: 255, imm: 83, immx: 5 } 0b1110010101010011
-0xe554 // Branch { cond: 255, imm: 84, immx: 5 } 0b1110010101010100
-0xe555 // Branch { cond: 255, imm: 85, immx: 5 } 0b1110010101010101
-0xe556 // Branch { cond: 255, imm: 86, immx: 5 } 0b1110010101010110
-0xe557 // Branch { cond: 255, imm: 87, immx: 5 } 0b1110010101010111
-0xe558 // Branch { cond: 255, imm: 88, immx: 5 } 0b1110010101011000
-0xe559 // Branch { cond: 255, imm: 89, immx: 5 } 0b1110010101011001
-0xe55a // Branch { cond: 255, imm: 90, immx: 5 } 0b1110010101011010
-0xe55b // Branch { cond: 255, imm: 91, immx: 5 } 0b1110010101011011
-0xe55c // Branch { cond: 255, imm: 92, immx: 5 } 0b1110010101011100
-0xe55d // Branch { cond: 255, imm: 93, immx: 5 } 0b1110010101011101
-0xe55e // Branch { cond: 255, imm: 94, immx: 5 } 0b1110010101011110
-0xe55f // Branch { cond: 255, imm: 95, immx: 5 } 0b1110010101011111
-0xe560 // Branch { cond: 255, imm: 96, immx: 5 } 0b1110010101100000
-0xe561 // Branch { cond: 255, imm: 97, immx: 5 } 0b1110010101100001
-0xe562 // Branch { cond: 255, imm: 98, immx: 5 } 0b1110010101100010
-0xe563 // Branch { cond: 255, imm: 99, immx: 5 } 0b1110010101100011
-0xe564 // Branch { cond: 255, imm: 100, immx: 5 } 0b1110010101100100
-0xe565 // Branch { cond: 255, imm: 101, immx: 5 } 0b1110010101100101
-0xe566 // Branch { cond: 255, imm: 102, immx: 5 } 0b1110010101100110
-0xe567 // Branch { cond: 255, imm: 103, immx: 5 } 0b1110010101100111
-0xe568 // Branch { cond: 255, imm: 104, immx: 5 } 0b1110010101101000
-0xe569 // Branch { cond: 255, imm: 105, immx: 5 } 0b1110010101101001
-0xe56a // Branch { cond: 255, imm: 106, immx: 5 } 0b1110010101101010
-0xe56b // Branch { cond: 255, imm: 107, immx: 5 } 0b1110010101101011
-0xe56c // Branch { cond: 255, imm: 108, immx: 5 } 0b1110010101101100
-0xe56d // Branch { cond: 255, imm: 109, immx: 5 } 0b1110010101101101
-0xe56e // Branch { cond: 255, imm: 110, immx: 5 } 0b1110010101101110
-0xe56f // Branch { cond: 255, imm: 111, immx: 5 } 0b1110010101101111
-0xe570 // Branch { cond: 255, imm: 112, immx: 5 } 0b1110010101110000
-0xe571 // Branch { cond: 255, imm: 113, immx: 5 } 0b1110010101110001
-0xe572 // Branch { cond: 255, imm: 114, immx: 5 } 0b1110010101110010
-0xe573 // Branch { cond: 255, imm: 115, immx: 5 } 0b1110010101110011
-0xe574 // Branch { cond: 255, imm: 116, immx: 5 } 0b1110010101110100
-0xe575 // Branch { cond: 255, imm: 117, immx: 5 } 0b1110010101110101
-0xe576 // Branch { cond: 255, imm: 118, immx: 5 } 0b1110010101110110
-0xe577 // Branch { cond: 255, imm: 119, immx: 5 } 0b1110010101110111
-0xe578 // Branch { cond: 255, imm: 120, immx: 5 } 0b1110010101111000
-0xe579 // Branch { cond: 255, imm: 121, immx: 5 } 0b1110010101111001
-0xe57a // Branch { cond: 255, imm: 122, immx: 5 } 0b1110010101111010
-0xe57b // Branch { cond: 255, imm: 123, immx: 5 } 0b1110010101111011
-0xe57c // Branch { cond: 255, imm: 124, immx: 5 } 0b1110010101111100
-0xe57d // Branch { cond: 255, imm: 125, immx: 5 } 0b1110010101111101
-0xe57e // Branch { cond: 255, imm: 126, immx: 5 } 0b1110010101111110
-0xe57f // Branch { cond: 255, imm: 127, immx: 5 } 0b1110010101111111
-0xe580 // Branch { cond: 255, imm: 128, immx: 5 } 0b1110010110000000
-0xe581 // Branch { cond: 255, imm: 129, immx: 5 } 0b1110010110000001
-0xe582 // Branch { cond: 255, imm: 130, immx: 5 } 0b1110010110000010
-0xe583 // Branch { cond: 255, imm: 131, immx: 5 } 0b1110010110000011
-0xe584 // Branch { cond: 255, imm: 132, immx: 5 } 0b1110010110000100
-0xe585 // Branch { cond: 255, imm: 133, immx: 5 } 0b1110010110000101
-0xe586 // Branch { cond: 255, imm: 134, immx: 5 } 0b1110010110000110
-0xe587 // Branch { cond: 255, imm: 135, immx: 5 } 0b1110010110000111
-0xe588 // Branch { cond: 255, imm: 136, immx: 5 } 0b1110010110001000
-0xe589 // Branch { cond: 255, imm: 137, immx: 5 } 0b1110010110001001
-0xe58a // Branch { cond: 255, imm: 138, immx: 5 } 0b1110010110001010
-0xe58b // Branch { cond: 255, imm: 139, immx: 5 } 0b1110010110001011
-0xe58c // Branch { cond: 255, imm: 140, immx: 5 } 0b1110010110001100
-0xe58d // Branch { cond: 255, imm: 141, immx: 5 } 0b1110010110001101
-0xe58e // Branch { cond: 255, imm: 142, immx: 5 } 0b1110010110001110
-0xe58f // Branch { cond: 255, imm: 143, immx: 5 } 0b1110010110001111
-0xe590 // Branch { cond: 255, imm: 144, immx: 5 } 0b1110010110010000
-0xe591 // Branch { cond: 255, imm: 145, immx: 5 } 0b1110010110010001
-0xe592 // Branch { cond: 255, imm: 146, immx: 5 } 0b1110010110010010
-0xe593 // Branch { cond: 255, imm: 147, immx: 5 } 0b1110010110010011
-0xe594 // Branch { cond: 255, imm: 148, immx: 5 } 0b1110010110010100
-0xe595 // Branch { cond: 255, imm: 149, immx: 5 } 0b1110010110010101
-0xe596 // Branch { cond: 255, imm: 150, immx: 5 } 0b1110010110010110
-0xe597 // Branch { cond: 255, imm: 151, immx: 5 } 0b1110010110010111
-0xe598 // Branch { cond: 255, imm: 152, immx: 5 } 0b1110010110011000
-0xe599 // Branch { cond: 255, imm: 153, immx: 5 } 0b1110010110011001
-0xe59a // Branch { cond: 255, imm: 154, immx: 5 } 0b1110010110011010
-0xe59b // Branch { cond: 255, imm: 155, immx: 5 } 0b1110010110011011
-0xe59c // Branch { cond: 255, imm: 156, immx: 5 } 0b1110010110011100
-0xe59d // Branch { cond: 255, imm: 157, immx: 5 } 0b1110010110011101
-0xe59e // Branch { cond: 255, imm: 158, immx: 5 } 0b1110010110011110
-0xe59f // Branch { cond: 255, imm: 159, immx: 5 } 0b1110010110011111
-0xe5a0 // Branch { cond: 255, imm: 160, immx: 5 } 0b1110010110100000
-0xe5a1 // Branch { cond: 255, imm: 161, immx: 5 } 0b1110010110100001
-0xe5a2 // Branch { cond: 255, imm: 162, immx: 5 } 0b1110010110100010
-0xe5a3 // Branch { cond: 255, imm: 163, immx: 5 } 0b1110010110100011
-0xe5a4 // Branch { cond: 255, imm: 164, immx: 5 } 0b1110010110100100
-0xe5a5 // Branch { cond: 255, imm: 165, immx: 5 } 0b1110010110100101
-0xe5a6 // Branch { cond: 255, imm: 166, immx: 5 } 0b1110010110100110
-0xe5a7 // Branch { cond: 255, imm: 167, immx: 5 } 0b1110010110100111
-0xe5a8 // Branch { cond: 255, imm: 168, immx: 5 } 0b1110010110101000
-0xe5a9 // Branch { cond: 255, imm: 169, immx: 5 } 0b1110010110101001
-0xe5aa // Branch { cond: 255, imm: 170, immx: 5 } 0b1110010110101010
-0xe5ab // Branch { cond: 255, imm: 171, immx: 5 } 0b1110010110101011
-0xe5ac // Branch { cond: 255, imm: 172, immx: 5 } 0b1110010110101100
-0xe5ad // Branch { cond: 255, imm: 173, immx: 5 } 0b1110010110101101
-0xe5ae // Branch { cond: 255, imm: 174, immx: 5 } 0b1110010110101110
-0xe5af // Branch { cond: 255, imm: 175, immx: 5 } 0b1110010110101111
-0xe5b0 // Branch { cond: 255, imm: 176, immx: 5 } 0b1110010110110000
-0xe5b1 // Branch { cond: 255, imm: 177, immx: 5 } 0b1110010110110001
-0xe5b2 // Branch { cond: 255, imm: 178, immx: 5 } 0b1110010110110010
-0xe5b3 // Branch { cond: 255, imm: 179, immx: 5 } 0b1110010110110011
-0xe5b4 // Branch { cond: 255, imm: 180, immx: 5 } 0b1110010110110100
-0xe5b5 // Branch { cond: 255, imm: 181, immx: 5 } 0b1110010110110101
-0xe5b6 // Branch { cond: 255, imm: 182, immx: 5 } 0b1110010110110110
-0xe5b7 // Branch { cond: 255, imm: 183, immx: 5 } 0b1110010110110111
-0xe5b8 // Branch { cond: 255, imm: 184, immx: 5 } 0b1110010110111000
-0xe5b9 // Branch { cond: 255, imm: 185, immx: 5 } 0b1110010110111001
-0xe5ba // Branch { cond: 255, imm: 186, immx: 5 } 0b1110010110111010
-0xe5bb // Branch { cond: 255, imm: 187, immx: 5 } 0b1110010110111011
-0xe5bc // Branch { cond: 255, imm: 188, immx: 5 } 0b1110010110111100
-0xe5bd // Branch { cond: 255, imm: 189, immx: 5 } 0b1110010110111101
-0xe5be // Branch { cond: 255, imm: 190, immx: 5 } 0b1110010110111110
-0xe5bf // Branch { cond: 255, imm: 191, immx: 5 } 0b1110010110111111
-0xe5c0 // Branch { cond: 255, imm: 192, immx: 5 } 0b1110010111000000
-0xe5c1 // Branch { cond: 255, imm: 193, immx: 5 } 0b1110010111000001
-0xe5c2 // Branch { cond: 255, imm: 194, immx: 5 } 0b1110010111000010
-0xe5c3 // Branch { cond: 255, imm: 195, immx: 5 } 0b1110010111000011
-0xe5c4 // Branch { cond: 255, imm: 196, immx: 5 } 0b1110010111000100
-0xe5c5 // Branch { cond: 255, imm: 197, immx: 5 } 0b1110010111000101
-0xe5c6 // Branch { cond: 255, imm: 198, immx: 5 } 0b1110010111000110
-0xe5c7 // Branch { cond: 255, imm: 199, immx: 5 } 0b1110010111000111
-0xe5c8 // Branch { cond: 255, imm: 200, immx: 5 } 0b1110010111001000
-0xe5c9 // Branch { cond: 255, imm: 201, immx: 5 } 0b1110010111001001
-0xe5ca // Branch { cond: 255, imm: 202, immx: 5 } 0b1110010111001010
-0xe5cb // Branch { cond: 255, imm: 203, immx: 5 } 0b1110010111001011
-0xe5cc // Branch { cond: 255, imm: 204, immx: 5 } 0b1110010111001100
-0xe5cd // Branch { cond: 255, imm: 205, immx: 5 } 0b1110010111001101
-0xe5ce // Branch { cond: 255, imm: 206, immx: 5 } 0b1110010111001110
-0xe5cf // Branch { cond: 255, imm: 207, immx: 5 } 0b1110010111001111
-0xe5d0 // Branch { cond: 255, imm: 208, immx: 5 } 0b1110010111010000
-0xe5d1 // Branch { cond: 255, imm: 209, immx: 5 } 0b1110010111010001
-0xe5d2 // Branch { cond: 255, imm: 210, immx: 5 } 0b1110010111010010
-0xe5d3 // Branch { cond: 255, imm: 211, immx: 5 } 0b1110010111010011
-0xe5d4 // Branch { cond: 255, imm: 212, immx: 5 } 0b1110010111010100
-0xe5d5 // Branch { cond: 255, imm: 213, immx: 5 } 0b1110010111010101
-0xe5d6 // Branch { cond: 255, imm: 214, immx: 5 } 0b1110010111010110
-0xe5d7 // Branch { cond: 255, imm: 215, immx: 5 } 0b1110010111010111
-0xe5d8 // Branch { cond: 255, imm: 216, immx: 5 } 0b1110010111011000
-0xe5d9 // Branch { cond: 255, imm: 217, immx: 5 } 0b1110010111011001
-0xe5da // Branch { cond: 255, imm: 218, immx: 5 } 0b1110010111011010
-0xe5db // Branch { cond: 255, imm: 219, immx: 5 } 0b1110010111011011
-0xe5dc // Branch { cond: 255, imm: 220, immx: 5 } 0b1110010111011100
-0xe5dd // Branch { cond: 255, imm: 221, immx: 5 } 0b1110010111011101
-0xe5de // Branch { cond: 255, imm: 222, immx: 5 } 0b1110010111011110
-0xe5df // Branch { cond: 255, imm: 223, immx: 5 } 0b1110010111011111
-0xe5e0 // Branch { cond: 255, imm: 224, immx: 5 } 0b1110010111100000
-0xe5e1 // Branch { cond: 255, imm: 225, immx: 5 } 0b1110010111100001
-0xe5e2 // Branch { cond: 255, imm: 226, immx: 5 } 0b1110010111100010
-0xe5e3 // Branch { cond: 255, imm: 227, immx: 5 } 0b1110010111100011
-0xe5e4 // Branch { cond: 255, imm: 228, immx: 5 } 0b1110010111100100
-0xe5e5 // Branch { cond: 255, imm: 229, immx: 5 } 0b1110010111100101
-0xe5e6 // Branch { cond: 255, imm: 230, immx: 5 } 0b1110010111100110
-0xe5e7 // Branch { cond: 255, imm: 231, immx: 5 } 0b1110010111100111
-0xe5e8 // Branch { cond: 255, imm: 232, immx: 5 } 0b1110010111101000
-0xe5e9 // Branch { cond: 255, imm: 233, immx: 5 } 0b1110010111101001
-0xe5ea // Branch { cond: 255, imm: 234, immx: 5 } 0b1110010111101010
-0xe5eb // Branch { cond: 255, imm: 235, immx: 5 } 0b1110010111101011
-0xe5ec // Branch { cond: 255, imm: 236, immx: 5 } 0b1110010111101100
-0xe5ed // Branch { cond: 255, imm: 237, immx: 5 } 0b1110010111101101
-0xe5ee // Branch { cond: 255, imm: 238, immx: 5 } 0b1110010111101110
-0xe5ef // Branch { cond: 255, imm: 239, immx: 5 } 0b1110010111101111
-0xe5f0 // Branch { cond: 255, imm: 240, immx: 5 } 0b1110010111110000
-0xe5f1 // Branch { cond: 255, imm: 241, immx: 5 } 0b1110010111110001
-0xe5f2 // Branch { cond: 255, imm: 242, immx: 5 } 0b1110010111110010
-0xe5f3 // Branch { cond: 255, imm: 243, immx: 5 } 0b1110010111110011
-0xe5f4 // Branch { cond: 255, imm: 244, immx: 5 } 0b1110010111110100
-0xe5f5 // Branch { cond: 255, imm: 245, immx: 5 } 0b1110010111110101
-0xe5f6 // Branch { cond: 255, imm: 246, immx: 5 } 0b1110010111110110
-0xe5f7 // Branch { cond: 255, imm: 247, immx: 5 } 0b1110010111110111
-0xe5f8 // Branch { cond: 255, imm: 248, immx: 5 } 0b1110010111111000
-0xe5f9 // Branch { cond: 255, imm: 249, immx: 5 } 0b1110010111111001
-0xe5fa // Branch { cond: 255, imm: 250, immx: 5 } 0b1110010111111010
-0xe5fb // Branch { cond: 255, imm: 251, immx: 5 } 0b1110010111111011
-0xe5fc // Branch { cond: 255, imm: 252, immx: 5 } 0b1110010111111100
-0xe5fd // Branch { cond: 255, imm: 253, immx: 5 } 0b1110010111111101
-0xe5fe // Branch { cond: 255, imm: 254, immx: 5 } 0b1110010111111110
-0xe5ff // Branch { cond: 255, imm: 255, immx: 5 } 0b1110010111111111
-0xe600 // Branch { cond: 255, imm: 0, immx: 6 } 0b1110011000000000
-0xe601 // Branch { cond: 255, imm: 1, immx: 6 } 0b1110011000000001
-0xe602 // Branch { cond: 255, imm: 2, immx: 6 } 0b1110011000000010
-0xe603 // Branch { cond: 255, imm: 3, immx: 6 } 0b1110011000000011
-0xe604 // Branch { cond: 255, imm: 4, immx: 6 } 0b1110011000000100
-0xe605 // Branch { cond: 255, imm: 5, immx: 6 } 0b1110011000000101
-0xe606 // Branch { cond: 255, imm: 6, immx: 6 } 0b1110011000000110
-0xe607 // Branch { cond: 255, imm: 7, immx: 6 } 0b1110011000000111
-0xe608 // Branch { cond: 255, imm: 8, immx: 6 } 0b1110011000001000
-0xe609 // Branch { cond: 255, imm: 9, immx: 6 } 0b1110011000001001
-0xe60a // Branch { cond: 255, imm: 10, immx: 6 } 0b1110011000001010
-0xe60b // Branch { cond: 255, imm: 11, immx: 6 } 0b1110011000001011
-0xe60c // Branch { cond: 255, imm: 12, immx: 6 } 0b1110011000001100
-0xe60d // Branch { cond: 255, imm: 13, immx: 6 } 0b1110011000001101
-0xe60e // Branch { cond: 255, imm: 14, immx: 6 } 0b1110011000001110
-0xe60f // Branch { cond: 255, imm: 15, immx: 6 } 0b1110011000001111
-0xe610 // Branch { cond: 255, imm: 16, immx: 6 } 0b1110011000010000
-0xe611 // Branch { cond: 255, imm: 17, immx: 6 } 0b1110011000010001
-0xe612 // Branch { cond: 255, imm: 18, immx: 6 } 0b1110011000010010
-0xe613 // Branch { cond: 255, imm: 19, immx: 6 } 0b1110011000010011
-0xe614 // Branch { cond: 255, imm: 20, immx: 6 } 0b1110011000010100
-0xe615 // Branch { cond: 255, imm: 21, immx: 6 } 0b1110011000010101
-0xe616 // Branch { cond: 255, imm: 22, immx: 6 } 0b1110011000010110
-0xe617 // Branch { cond: 255, imm: 23, immx: 6 } 0b1110011000010111
-0xe618 // Branch { cond: 255, imm: 24, immx: 6 } 0b1110011000011000
-0xe619 // Branch { cond: 255, imm: 25, immx: 6 } 0b1110011000011001
-0xe61a // Branch { cond: 255, imm: 26, immx: 6 } 0b1110011000011010
-0xe61b // Branch { cond: 255, imm: 27, immx: 6 } 0b1110011000011011
-0xe61c // Branch { cond: 255, imm: 28, immx: 6 } 0b1110011000011100
-0xe61d // Branch { cond: 255, imm: 29, immx: 6 } 0b1110011000011101
-0xe61e // Branch { cond: 255, imm: 30, immx: 6 } 0b1110011000011110
-0xe61f // Branch { cond: 255, imm: 31, immx: 6 } 0b1110011000011111
-0xe620 // Branch { cond: 255, imm: 32, immx: 6 } 0b1110011000100000
-0xe621 // Branch { cond: 255, imm: 33, immx: 6 } 0b1110011000100001
-0xe622 // Branch { cond: 255, imm: 34, immx: 6 } 0b1110011000100010
-0xe623 // Branch { cond: 255, imm: 35, immx: 6 } 0b1110011000100011
-0xe624 // Branch { cond: 255, imm: 36, immx: 6 } 0b1110011000100100
-0xe625 // Branch { cond: 255, imm: 37, immx: 6 } 0b1110011000100101
-0xe626 // Branch { cond: 255, imm: 38, immx: 6 } 0b1110011000100110
-0xe627 // Branch { cond: 255, imm: 39, immx: 6 } 0b1110011000100111
-0xe628 // Branch { cond: 255, imm: 40, immx: 6 } 0b1110011000101000
-0xe629 // Branch { cond: 255, imm: 41, immx: 6 } 0b1110011000101001
-0xe62a // Branch { cond: 255, imm: 42, immx: 6 } 0b1110011000101010
-0xe62b // Branch { cond: 255, imm: 43, immx: 6 } 0b1110011000101011
-0xe62c // Branch { cond: 255, imm: 44, immx: 6 } 0b1110011000101100
-0xe62d // Branch { cond: 255, imm: 45, immx: 6 } 0b1110011000101101
-0xe62e // Branch { cond: 255, imm: 46, immx: 6 } 0b1110011000101110
-0xe62f // Branch { cond: 255, imm: 47, immx: 6 } 0b1110011000101111
-0xe630 // Branch { cond: 255, imm: 48, immx: 6 } 0b1110011000110000
-0xe631 // Branch { cond: 255, imm: 49, immx: 6 } 0b1110011000110001
-0xe632 // Branch { cond: 255, imm: 50, immx: 6 } 0b1110011000110010
-0xe633 // Branch { cond: 255, imm: 51, immx: 6 } 0b1110011000110011
-0xe634 // Branch { cond: 255, imm: 52, immx: 6 } 0b1110011000110100
-0xe635 // Branch { cond: 255, imm: 53, immx: 6 } 0b1110011000110101
-0xe636 // Branch { cond: 255, imm: 54, immx: 6 } 0b1110011000110110
-0xe637 // Branch { cond: 255, imm: 55, immx: 6 } 0b1110011000110111
-0xe638 // Branch { cond: 255, imm: 56, immx: 6 } 0b1110011000111000
-0xe639 // Branch { cond: 255, imm: 57, immx: 6 } 0b1110011000111001
-0xe63a // Branch { cond: 255, imm: 58, immx: 6 } 0b1110011000111010
-0xe63b // Branch { cond: 255, imm: 59, immx: 6 } 0b1110011000111011
-0xe63c // Branch { cond: 255, imm: 60, immx: 6 } 0b1110011000111100
-0xe63d // Branch { cond: 255, imm: 61, immx: 6 } 0b1110011000111101
-0xe63e // Branch { cond: 255, imm: 62, immx: 6 } 0b1110011000111110
-0xe63f // Branch { cond: 255, imm: 63, immx: 6 } 0b1110011000111111
-0xe640 // Branch { cond: 255, imm: 64, immx: 6 } 0b1110011001000000
-0xe641 // Branch { cond: 255, imm: 65, immx: 6 } 0b1110011001000001
-0xe642 // Branch { cond: 255, imm: 66, immx: 6 } 0b1110011001000010
-0xe643 // Branch { cond: 255, imm: 67, immx: 6 } 0b1110011001000011
-0xe644 // Branch { cond: 255, imm: 68, immx: 6 } 0b1110011001000100
-0xe645 // Branch { cond: 255, imm: 69, immx: 6 } 0b1110011001000101
-0xe646 // Branch { cond: 255, imm: 70, immx: 6 } 0b1110011001000110
-0xe647 // Branch { cond: 255, imm: 71, immx: 6 } 0b1110011001000111
-0xe648 // Branch { cond: 255, imm: 72, immx: 6 } 0b1110011001001000
-0xe649 // Branch { cond: 255, imm: 73, immx: 6 } 0b1110011001001001
-0xe64a // Branch { cond: 255, imm: 74, immx: 6 } 0b1110011001001010
-0xe64b // Branch { cond: 255, imm: 75, immx: 6 } 0b1110011001001011
-0xe64c // Branch { cond: 255, imm: 76, immx: 6 } 0b1110011001001100
-0xe64d // Branch { cond: 255, imm: 77, immx: 6 } 0b1110011001001101
-0xe64e // Branch { cond: 255, imm: 78, immx: 6 } 0b1110011001001110
-0xe64f // Branch { cond: 255, imm: 79, immx: 6 } 0b1110011001001111
-0xe650 // Branch { cond: 255, imm: 80, immx: 6 } 0b1110011001010000
-0xe651 // Branch { cond: 255, imm: 81, immx: 6 } 0b1110011001010001
-0xe652 // Branch { cond: 255, imm: 82, immx: 6 } 0b1110011001010010
-0xe653 // Branch { cond: 255, imm: 83, immx: 6 } 0b1110011001010011
-0xe654 // Branch { cond: 255, imm: 84, immx: 6 } 0b1110011001010100
-0xe655 // Branch { cond: 255, imm: 85, immx: 6 } 0b1110011001010101
-0xe656 // Branch { cond: 255, imm: 86, immx: 6 } 0b1110011001010110
-0xe657 // Branch { cond: 255, imm: 87, immx: 6 } 0b1110011001010111
-0xe658 // Branch { cond: 255, imm: 88, immx: 6 } 0b1110011001011000
-0xe659 // Branch { cond: 255, imm: 89, immx: 6 } 0b1110011001011001
-0xe65a // Branch { cond: 255, imm: 90, immx: 6 } 0b1110011001011010
-0xe65b // Branch { cond: 255, imm: 91, immx: 6 } 0b1110011001011011
-0xe65c // Branch { cond: 255, imm: 92, immx: 6 } 0b1110011001011100
-0xe65d // Branch { cond: 255, imm: 93, immx: 6 } 0b1110011001011101
-0xe65e // Branch { cond: 255, imm: 94, immx: 6 } 0b1110011001011110
-0xe65f // Branch { cond: 255, imm: 95, immx: 6 } 0b1110011001011111
-0xe660 // Branch { cond: 255, imm: 96, immx: 6 } 0b1110011001100000
-0xe661 // Branch { cond: 255, imm: 97, immx: 6 } 0b1110011001100001
-0xe662 // Branch { cond: 255, imm: 98, immx: 6 } 0b1110011001100010
-0xe663 // Branch { cond: 255, imm: 99, immx: 6 } 0b1110011001100011
-0xe664 // Branch { cond: 255, imm: 100, immx: 6 } 0b1110011001100100
-0xe665 // Branch { cond: 255, imm: 101, immx: 6 } 0b1110011001100101
-0xe666 // Branch { cond: 255, imm: 102, immx: 6 } 0b1110011001100110
-0xe667 // Branch { cond: 255, imm: 103, immx: 6 } 0b1110011001100111
-0xe668 // Branch { cond: 255, imm: 104, immx: 6 } 0b1110011001101000
-0xe669 // Branch { cond: 255, imm: 105, immx: 6 } 0b1110011001101001
-0xe66a // Branch { cond: 255, imm: 106, immx: 6 } 0b1110011001101010
-0xe66b // Branch { cond: 255, imm: 107, immx: 6 } 0b1110011001101011
-0xe66c // Branch { cond: 255, imm: 108, immx: 6 } 0b1110011001101100
-0xe66d // Branch { cond: 255, imm: 109, immx: 6 } 0b1110011001101101
-0xe66e // Branch { cond: 255, imm: 110, immx: 6 } 0b1110011001101110
-0xe66f // Branch { cond: 255, imm: 111, immx: 6 } 0b1110011001101111
-0xe670 // Branch { cond: 255, imm: 112, immx: 6 } 0b1110011001110000
-0xe671 // Branch { cond: 255, imm: 113, immx: 6 } 0b1110011001110001
-0xe672 // Branch { cond: 255, imm: 114, immx: 6 } 0b1110011001110010
-0xe673 // Branch { cond: 255, imm: 115, immx: 6 } 0b1110011001110011
-0xe674 // Branch { cond: 255, imm: 116, immx: 6 } 0b1110011001110100
-0xe675 // Branch { cond: 255, imm: 117, immx: 6 } 0b1110011001110101
-0xe676 // Branch { cond: 255, imm: 118, immx: 6 } 0b1110011001110110
-0xe677 // Branch { cond: 255, imm: 119, immx: 6 } 0b1110011001110111
-0xe678 // Branch { cond: 255, imm: 120, immx: 6 } 0b1110011001111000
-0xe679 // Branch { cond: 255, imm: 121, immx: 6 } 0b1110011001111001
-0xe67a // Branch { cond: 255, imm: 122, immx: 6 } 0b1110011001111010
-0xe67b // Branch { cond: 255, imm: 123, immx: 6 } 0b1110011001111011
-0xe67c // Branch { cond: 255, imm: 124, immx: 6 } 0b1110011001111100
-0xe67d // Branch { cond: 255, imm: 125, immx: 6 } 0b1110011001111101
-0xe67e // Branch { cond: 255, imm: 126, immx: 6 } 0b1110011001111110
-0xe67f // Branch { cond: 255, imm: 127, immx: 6 } 0b1110011001111111
-0xe680 // Branch { cond: 255, imm: 128, immx: 6 } 0b1110011010000000
-0xe681 // Branch { cond: 255, imm: 129, immx: 6 } 0b1110011010000001
-0xe682 // Branch { cond: 255, imm: 130, immx: 6 } 0b1110011010000010
-0xe683 // Branch { cond: 255, imm: 131, immx: 6 } 0b1110011010000011
-0xe684 // Branch { cond: 255, imm: 132, immx: 6 } 0b1110011010000100
-0xe685 // Branch { cond: 255, imm: 133, immx: 6 } 0b1110011010000101
-0xe686 // Branch { cond: 255, imm: 134, immx: 6 } 0b1110011010000110
-0xe687 // Branch { cond: 255, imm: 135, immx: 6 } 0b1110011010000111
-0xe688 // Branch { cond: 255, imm: 136, immx: 6 } 0b1110011010001000
-0xe689 // Branch { cond: 255, imm: 137, immx: 6 } 0b1110011010001001
-0xe68a // Branch { cond: 255, imm: 138, immx: 6 } 0b1110011010001010
-0xe68b // Branch { cond: 255, imm: 139, immx: 6 } 0b1110011010001011
-0xe68c // Branch { cond: 255, imm: 140, immx: 6 } 0b1110011010001100
-0xe68d // Branch { cond: 255, imm: 141, immx: 6 } 0b1110011010001101
-0xe68e // Branch { cond: 255, imm: 142, immx: 6 } 0b1110011010001110
-0xe68f // Branch { cond: 255, imm: 143, immx: 6 } 0b1110011010001111
-0xe690 // Branch { cond: 255, imm: 144, immx: 6 } 0b1110011010010000
-0xe691 // Branch { cond: 255, imm: 145, immx: 6 } 0b1110011010010001
-0xe692 // Branch { cond: 255, imm: 146, immx: 6 } 0b1110011010010010
-0xe693 // Branch { cond: 255, imm: 147, immx: 6 } 0b1110011010010011
-0xe694 // Branch { cond: 255, imm: 148, immx: 6 } 0b1110011010010100
-0xe695 // Branch { cond: 255, imm: 149, immx: 6 } 0b1110011010010101
-0xe696 // Branch { cond: 255, imm: 150, immx: 6 } 0b1110011010010110
-0xe697 // Branch { cond: 255, imm: 151, immx: 6 } 0b1110011010010111
-0xe698 // Branch { cond: 255, imm: 152, immx: 6 } 0b1110011010011000
-0xe699 // Branch { cond: 255, imm: 153, immx: 6 } 0b1110011010011001
-0xe69a // Branch { cond: 255, imm: 154, immx: 6 } 0b1110011010011010
-0xe69b // Branch { cond: 255, imm: 155, immx: 6 } 0b1110011010011011
-0xe69c // Branch { cond: 255, imm: 156, immx: 6 } 0b1110011010011100
-0xe69d // Branch { cond: 255, imm: 157, immx: 6 } 0b1110011010011101
-0xe69e // Branch { cond: 255, imm: 158, immx: 6 } 0b1110011010011110
-0xe69f // Branch { cond: 255, imm: 159, immx: 6 } 0b1110011010011111
-0xe6a0 // Branch { cond: 255, imm: 160, immx: 6 } 0b1110011010100000
-0xe6a1 // Branch { cond: 255, imm: 161, immx: 6 } 0b1110011010100001
-0xe6a2 // Branch { cond: 255, imm: 162, immx: 6 } 0b1110011010100010
-0xe6a3 // Branch { cond: 255, imm: 163, immx: 6 } 0b1110011010100011
-0xe6a4 // Branch { cond: 255, imm: 164, immx: 6 } 0b1110011010100100
-0xe6a5 // Branch { cond: 255, imm: 165, immx: 6 } 0b1110011010100101
-0xe6a6 // Branch { cond: 255, imm: 166, immx: 6 } 0b1110011010100110
-0xe6a7 // Branch { cond: 255, imm: 167, immx: 6 } 0b1110011010100111
-0xe6a8 // Branch { cond: 255, imm: 168, immx: 6 } 0b1110011010101000
-0xe6a9 // Branch { cond: 255, imm: 169, immx: 6 } 0b1110011010101001
-0xe6aa // Branch { cond: 255, imm: 170, immx: 6 } 0b1110011010101010
-0xe6ab // Branch { cond: 255, imm: 171, immx: 6 } 0b1110011010101011
-0xe6ac // Branch { cond: 255, imm: 172, immx: 6 } 0b1110011010101100
-0xe6ad // Branch { cond: 255, imm: 173, immx: 6 } 0b1110011010101101
-0xe6ae // Branch { cond: 255, imm: 174, immx: 6 } 0b1110011010101110
-0xe6af // Branch { cond: 255, imm: 175, immx: 6 } 0b1110011010101111
-0xe6b0 // Branch { cond: 255, imm: 176, immx: 6 } 0b1110011010110000
-0xe6b1 // Branch { cond: 255, imm: 177, immx: 6 } 0b1110011010110001
-0xe6b2 // Branch { cond: 255, imm: 178, immx: 6 } 0b1110011010110010
-0xe6b3 // Branch { cond: 255, imm: 179, immx: 6 } 0b1110011010110011
-0xe6b4 // Branch { cond: 255, imm: 180, immx: 6 } 0b1110011010110100
-0xe6b5 // Branch { cond: 255, imm: 181, immx: 6 } 0b1110011010110101
-0xe6b6 // Branch { cond: 255, imm: 182, immx: 6 } 0b1110011010110110
-0xe6b7 // Branch { cond: 255, imm: 183, immx: 6 } 0b1110011010110111
-0xe6b8 // Branch { cond: 255, imm: 184, immx: 6 } 0b1110011010111000
-0xe6b9 // Branch { cond: 255, imm: 185, immx: 6 } 0b1110011010111001
-0xe6ba // Branch { cond: 255, imm: 186, immx: 6 } 0b1110011010111010
-0xe6bb // Branch { cond: 255, imm: 187, immx: 6 } 0b1110011010111011
-0xe6bc // Branch { cond: 255, imm: 188, immx: 6 } 0b1110011010111100
-0xe6bd // Branch { cond: 255, imm: 189, immx: 6 } 0b1110011010111101
-0xe6be // Branch { cond: 255, imm: 190, immx: 6 } 0b1110011010111110
-0xe6bf // Branch { cond: 255, imm: 191, immx: 6 } 0b1110011010111111
-0xe6c0 // Branch { cond: 255, imm: 192, immx: 6 } 0b1110011011000000
-0xe6c1 // Branch { cond: 255, imm: 193, immx: 6 } 0b1110011011000001
-0xe6c2 // Branch { cond: 255, imm: 194, immx: 6 } 0b1110011011000010
-0xe6c3 // Branch { cond: 255, imm: 195, immx: 6 } 0b1110011011000011
-0xe6c4 // Branch { cond: 255, imm: 196, immx: 6 } 0b1110011011000100
-0xe6c5 // Branch { cond: 255, imm: 197, immx: 6 } 0b1110011011000101
-0xe6c6 // Branch { cond: 255, imm: 198, immx: 6 } 0b1110011011000110
-0xe6c7 // Branch { cond: 255, imm: 199, immx: 6 } 0b1110011011000111
-0xe6c8 // Branch { cond: 255, imm: 200, immx: 6 } 0b1110011011001000
-0xe6c9 // Branch { cond: 255, imm: 201, immx: 6 } 0b1110011011001001
-0xe6ca // Branch { cond: 255, imm: 202, immx: 6 } 0b1110011011001010
-0xe6cb // Branch { cond: 255, imm: 203, immx: 6 } 0b1110011011001011
-0xe6cc // Branch { cond: 255, imm: 204, immx: 6 } 0b1110011011001100
-0xe6cd // Branch { cond: 255, imm: 205, immx: 6 } 0b1110011011001101
-0xe6ce // Branch { cond: 255, imm: 206, immx: 6 } 0b1110011011001110
-0xe6cf // Branch { cond: 255, imm: 207, immx: 6 } 0b1110011011001111
-0xe6d0 // Branch { cond: 255, imm: 208, immx: 6 } 0b1110011011010000
-0xe6d1 // Branch { cond: 255, imm: 209, immx: 6 } 0b1110011011010001
-0xe6d2 // Branch { cond: 255, imm: 210, immx: 6 } 0b1110011011010010
-0xe6d3 // Branch { cond: 255, imm: 211, immx: 6 } 0b1110011011010011
-0xe6d4 // Branch { cond: 255, imm: 212, immx: 6 } 0b1110011011010100
-0xe6d5 // Branch { cond: 255, imm: 213, immx: 6 } 0b1110011011010101
-0xe6d6 // Branch { cond: 255, imm: 214, immx: 6 } 0b1110011011010110
-0xe6d7 // Branch { cond: 255, imm: 215, immx: 6 } 0b1110011011010111
-0xe6d8 // Branch { cond: 255, imm: 216, immx: 6 } 0b1110011011011000
-0xe6d9 // Branch { cond: 255, imm: 217, immx: 6 } 0b1110011011011001
-0xe6da // Branch { cond: 255, imm: 218, immx: 6 } 0b1110011011011010
-0xe6db // Branch { cond: 255, imm: 219, immx: 6 } 0b1110011011011011
-0xe6dc // Branch { cond: 255, imm: 220, immx: 6 } 0b1110011011011100
-0xe6dd // Branch { cond: 255, imm: 221, immx: 6 } 0b1110011011011101
-0xe6de // Branch { cond: 255, imm: 222, immx: 6 } 0b1110011011011110
-0xe6df // Branch { cond: 255, imm: 223, immx: 6 } 0b1110011011011111
-0xe6e0 // Branch { cond: 255, imm: 224, immx: 6 } 0b1110011011100000
-0xe6e1 // Branch { cond: 255, imm: 225, immx: 6 } 0b1110011011100001
-0xe6e2 // Branch { cond: 255, imm: 226, immx: 6 } 0b1110011011100010
-0xe6e3 // Branch { cond: 255, imm: 227, immx: 6 } 0b1110011011100011
-0xe6e4 // Branch { cond: 255, imm: 228, immx: 6 } 0b1110011011100100
-0xe6e5 // Branch { cond: 255, imm: 229, immx: 6 } 0b1110011011100101
-0xe6e6 // Branch { cond: 255, imm: 230, immx: 6 } 0b1110011011100110
-0xe6e7 // Branch { cond: 255, imm: 231, immx: 6 } 0b1110011011100111
-0xe6e8 // Branch { cond: 255, imm: 232, immx: 6 } 0b1110011011101000
-0xe6e9 // Branch { cond: 255, imm: 233, immx: 6 } 0b1110011011101001
-0xe6ea // Branch { cond: 255, imm: 234, immx: 6 } 0b1110011011101010
-0xe6eb // Branch { cond: 255, imm: 235, immx: 6 } 0b1110011011101011
-0xe6ec // Branch { cond: 255, imm: 236, immx: 6 } 0b1110011011101100
-0xe6ed // Branch { cond: 255, imm: 237, immx: 6 } 0b1110011011101101
-0xe6ee // Branch { cond: 255, imm: 238, immx: 6 } 0b1110011011101110
-0xe6ef // Branch { cond: 255, imm: 239, immx: 6 } 0b1110011011101111
-0xe6f0 // Branch { cond: 255, imm: 240, immx: 6 } 0b1110011011110000
-0xe6f1 // Branch { cond: 255, imm: 241, immx: 6 } 0b1110011011110001
-0xe6f2 // Branch { cond: 255, imm: 242, immx: 6 } 0b1110011011110010
-0xe6f3 // Branch { cond: 255, imm: 243, immx: 6 } 0b1110011011110011
-0xe6f4 // Branch { cond: 255, imm: 244, immx: 6 } 0b1110011011110100
-0xe6f5 // Branch { cond: 255, imm: 245, immx: 6 } 0b1110011011110101
-0xe6f6 // Branch { cond: 255, imm: 246, immx: 6 } 0b1110011011110110
-0xe6f7 // Branch { cond: 255, imm: 247, immx: 6 } 0b1110011011110111
-0xe6f8 // Branch { cond: 255, imm: 248, immx: 6 } 0b1110011011111000
-0xe6f9 // Branch { cond: 255, imm: 249, immx: 6 } 0b1110011011111001
-0xe6fa // Branch { cond: 255, imm: 250, immx: 6 } 0b1110011011111010
-0xe6fb // Branch { cond: 255, imm: 251, immx: 6 } 0b1110011011111011
-0xe6fc // Branch { cond: 255, imm: 252, immx: 6 } 0b1110011011111100
-0xe6fd // Branch { cond: 255, imm: 253, immx: 6 } 0b1110011011111101
-0xe6fe // Branch { cond: 255, imm: 254, immx: 6 } 0b1110011011111110
-0xe6ff // Branch { cond: 255, imm: 255, immx: 6 } 0b1110011011111111
-0xe700 // Branch { cond: 255, imm: 0, immx: 7 } 0b1110011100000000
-0xe701 // Branch { cond: 255, imm: 1, immx: 7 } 0b1110011100000001
-0xe702 // Branch { cond: 255, imm: 2, immx: 7 } 0b1110011100000010
-0xe703 // Branch { cond: 255, imm: 3, immx: 7 } 0b1110011100000011
-0xe704 // Branch { cond: 255, imm: 4, immx: 7 } 0b1110011100000100
-0xe705 // Branch { cond: 255, imm: 5, immx: 7 } 0b1110011100000101
-0xe706 // Branch { cond: 255, imm: 6, immx: 7 } 0b1110011100000110
-0xe707 // Branch { cond: 255, imm: 7, immx: 7 } 0b1110011100000111
-0xe708 // Branch { cond: 255, imm: 8, immx: 7 } 0b1110011100001000
-0xe709 // Branch { cond: 255, imm: 9, immx: 7 } 0b1110011100001001
-0xe70a // Branch { cond: 255, imm: 10, immx: 7 } 0b1110011100001010
-0xe70b // Branch { cond: 255, imm: 11, immx: 7 } 0b1110011100001011
-0xe70c // Branch { cond: 255, imm: 12, immx: 7 } 0b1110011100001100
-0xe70d // Branch { cond: 255, imm: 13, immx: 7 } 0b1110011100001101
-0xe70e // Branch { cond: 255, imm: 14, immx: 7 } 0b1110011100001110
-0xe70f // Branch { cond: 255, imm: 15, immx: 7 } 0b1110011100001111
-0xe710 // Branch { cond: 255, imm: 16, immx: 7 } 0b1110011100010000
-0xe711 // Branch { cond: 255, imm: 17, immx: 7 } 0b1110011100010001
-0xe712 // Branch { cond: 255, imm: 18, immx: 7 } 0b1110011100010010
-0xe713 // Branch { cond: 255, imm: 19, immx: 7 } 0b1110011100010011
-0xe714 // Branch { cond: 255, imm: 20, immx: 7 } 0b1110011100010100
-0xe715 // Branch { cond: 255, imm: 21, immx: 7 } 0b1110011100010101
-0xe716 // Branch { cond: 255, imm: 22, immx: 7 } 0b1110011100010110
-0xe717 // Branch { cond: 255, imm: 23, immx: 7 } 0b1110011100010111
-0xe718 // Branch { cond: 255, imm: 24, immx: 7 } 0b1110011100011000
-0xe719 // Branch { cond: 255, imm: 25, immx: 7 } 0b1110011100011001
-0xe71a // Branch { cond: 255, imm: 26, immx: 7 } 0b1110011100011010
-0xe71b // Branch { cond: 255, imm: 27, immx: 7 } 0b1110011100011011
-0xe71c // Branch { cond: 255, imm: 28, immx: 7 } 0b1110011100011100
-0xe71d // Branch { cond: 255, imm: 29, immx: 7 } 0b1110011100011101
-0xe71e // Branch { cond: 255, imm: 30, immx: 7 } 0b1110011100011110
-0xe71f // Branch { cond: 255, imm: 31, immx: 7 } 0b1110011100011111
-0xe720 // Branch { cond: 255, imm: 32, immx: 7 } 0b1110011100100000
-0xe721 // Branch { cond: 255, imm: 33, immx: 7 } 0b1110011100100001
-0xe722 // Branch { cond: 255, imm: 34, immx: 7 } 0b1110011100100010
-0xe723 // Branch { cond: 255, imm: 35, immx: 7 } 0b1110011100100011
-0xe724 // Branch { cond: 255, imm: 36, immx: 7 } 0b1110011100100100
-0xe725 // Branch { cond: 255, imm: 37, immx: 7 } 0b1110011100100101
-0xe726 // Branch { cond: 255, imm: 38, immx: 7 } 0b1110011100100110
-0xe727 // Branch { cond: 255, imm: 39, immx: 7 } 0b1110011100100111
-0xe728 // Branch { cond: 255, imm: 40, immx: 7 } 0b1110011100101000
-0xe729 // Branch { cond: 255, imm: 41, immx: 7 } 0b1110011100101001
-0xe72a // Branch { cond: 255, imm: 42, immx: 7 } 0b1110011100101010
-0xe72b // Branch { cond: 255, imm: 43, immx: 7 } 0b1110011100101011
-0xe72c // Branch { cond: 255, imm: 44, immx: 7 } 0b1110011100101100
-0xe72d // Branch { cond: 255, imm: 45, immx: 7 } 0b1110011100101101
-0xe72e // Branch { cond: 255, imm: 46, immx: 7 } 0b1110011100101110
-0xe72f // Branch { cond: 255, imm: 47, immx: 7 } 0b1110011100101111
-0xe730 // Branch { cond: 255, imm: 48, immx: 7 } 0b1110011100110000
-0xe731 // Branch { cond: 255, imm: 49, immx: 7 } 0b1110011100110001
-0xe732 // Branch { cond: 255, imm: 50, immx: 7 } 0b1110011100110010
-0xe733 // Branch { cond: 255, imm: 51, immx: 7 } 0b1110011100110011
-0xe734 // Branch { cond: 255, imm: 52, immx: 7 } 0b1110011100110100
-0xe735 // Branch { cond: 255, imm: 53, immx: 7 } 0b1110011100110101
-0xe736 // Branch { cond: 255, imm: 54, immx: 7 } 0b1110011100110110
-0xe737 // Branch { cond: 255, imm: 55, immx: 7 } 0b1110011100110111
-0xe738 // Branch { cond: 255, imm: 56, immx: 7 } 0b1110011100111000
-0xe739 // Branch { cond: 255, imm: 57, immx: 7 } 0b1110011100111001
-0xe73a // Branch { cond: 255, imm: 58, immx: 7 } 0b1110011100111010
-0xe73b // Branch { cond: 255, imm: 59, immx: 7 } 0b1110011100111011
-0xe73c // Branch { cond: 255, imm: 60, immx: 7 } 0b1110011100111100
-0xe73d // Branch { cond: 255, imm: 61, immx: 7 } 0b1110011100111101
-0xe73e // Branch { cond: 255, imm: 62, immx: 7 } 0b1110011100111110
-0xe73f // Branch { cond: 255, imm: 63, immx: 7 } 0b1110011100111111
-0xe740 // Branch { cond: 255, imm: 64, immx: 7 } 0b1110011101000000
-0xe741 // Branch { cond: 255, imm: 65, immx: 7 } 0b1110011101000001
-0xe742 // Branch { cond: 255, imm: 66, immx: 7 } 0b1110011101000010
-0xe743 // Branch { cond: 255, imm: 67, immx: 7 } 0b1110011101000011
-0xe744 // Branch { cond: 255, imm: 68, immx: 7 } 0b1110011101000100
-0xe745 // Branch { cond: 255, imm: 69, immx: 7 } 0b1110011101000101
-0xe746 // Branch { cond: 255, imm: 70, immx: 7 } 0b1110011101000110
-0xe747 // Branch { cond: 255, imm: 71, immx: 7 } 0b1110011101000111
-0xe748 // Branch { cond: 255, imm: 72, immx: 7 } 0b1110011101001000
-0xe749 // Branch { cond: 255, imm: 73, immx: 7 } 0b1110011101001001
-0xe74a // Branch { cond: 255, imm: 74, immx: 7 } 0b1110011101001010
-0xe74b // Branch { cond: 255, imm: 75, immx: 7 } 0b1110011101001011
-0xe74c // Branch { cond: 255, imm: 76, immx: 7 } 0b1110011101001100
-0xe74d // Branch { cond: 255, imm: 77, immx: 7 } 0b1110011101001101
-0xe74e // Branch { cond: 255, imm: 78, immx: 7 } 0b1110011101001110
-0xe74f // Branch { cond: 255, imm: 79, immx: 7 } 0b1110011101001111
-0xe750 // Branch { cond: 255, imm: 80, immx: 7 } 0b1110011101010000
-0xe751 // Branch { cond: 255, imm: 81, immx: 7 } 0b1110011101010001
-0xe752 // Branch { cond: 255, imm: 82, immx: 7 } 0b1110011101010010
-0xe753 // Branch { cond: 255, imm: 83, immx: 7 } 0b1110011101010011
-0xe754 // Branch { cond: 255, imm: 84, immx: 7 } 0b1110011101010100
-0xe755 // Branch { cond: 255, imm: 85, immx: 7 } 0b1110011101010101
-0xe756 // Branch { cond: 255, imm: 86, immx: 7 } 0b1110011101010110
-0xe757 // Branch { cond: 255, imm: 87, immx: 7 } 0b1110011101010111
-0xe758 // Branch { cond: 255, imm: 88, immx: 7 } 0b1110011101011000
-0xe759 // Branch { cond: 255, imm: 89, immx: 7 } 0b1110011101011001
-0xe75a // Branch { cond: 255, imm: 90, immx: 7 } 0b1110011101011010
-0xe75b // Branch { cond: 255, imm: 91, immx: 7 } 0b1110011101011011
-0xe75c // Branch { cond: 255, imm: 92, immx: 7 } 0b1110011101011100
-0xe75d // Branch { cond: 255, imm: 93, immx: 7 } 0b1110011101011101
-0xe75e // Branch { cond: 255, imm: 94, immx: 7 } 0b1110011101011110
-0xe75f // Branch { cond: 255, imm: 95, immx: 7 } 0b1110011101011111
-0xe760 // Branch { cond: 255, imm: 96, immx: 7 } 0b1110011101100000
-0xe761 // Branch { cond: 255, imm: 97, immx: 7 } 0b1110011101100001
-0xe762 // Branch { cond: 255, imm: 98, immx: 7 } 0b1110011101100010
-0xe763 // Branch { cond: 255, imm: 99, immx: 7 } 0b1110011101100011
-0xe764 // Branch { cond: 255, imm: 100, immx: 7 } 0b1110011101100100
-0xe765 // Branch { cond: 255, imm: 101, immx: 7 } 0b1110011101100101
-0xe766 // Branch { cond: 255, imm: 102, immx: 7 } 0b1110011101100110
-0xe767 // Branch { cond: 255, imm: 103, immx: 7 } 0b1110011101100111
-0xe768 // Branch { cond: 255, imm: 104, immx: 7 } 0b1110011101101000
-0xe769 // Branch { cond: 255, imm: 105, immx: 7 } 0b1110011101101001
-0xe76a // Branch { cond: 255, imm: 106, immx: 7 } 0b1110011101101010
-0xe76b // Branch { cond: 255, imm: 107, immx: 7 } 0b1110011101101011
-0xe76c // Branch { cond: 255, imm: 108, immx: 7 } 0b1110011101101100
-0xe76d // Branch { cond: 255, imm: 109, immx: 7 } 0b1110011101101101
-0xe76e // Branch { cond: 255, imm: 110, immx: 7 } 0b1110011101101110
-0xe76f // Branch { cond: 255, imm: 111, immx: 7 } 0b1110011101101111
-0xe770 // Branch { cond: 255, imm: 112, immx: 7 } 0b1110011101110000
-0xe771 // Branch { cond: 255, imm: 113, immx: 7 } 0b1110011101110001
-0xe772 // Branch { cond: 255, imm: 114, immx: 7 } 0b1110011101110010
-0xe773 // Branch { cond: 255, imm: 115, immx: 7 } 0b1110011101110011
-0xe774 // Branch { cond: 255, imm: 116, immx: 7 } 0b1110011101110100
-0xe775 // Branch { cond: 255, imm: 117, immx: 7 } 0b1110011101110101
-0xe776 // Branch { cond: 255, imm: 118, immx: 7 } 0b1110011101110110
-0xe777 // Branch { cond: 255, imm: 119, immx: 7 } 0b1110011101110111
-0xe778 // Branch { cond: 255, imm: 120, immx: 7 } 0b1110011101111000
-0xe779 // Branch { cond: 255, imm: 121, immx: 7 } 0b1110011101111001
-0xe77a // Branch { cond: 255, imm: 122, immx: 7 } 0b1110011101111010
-0xe77b // Branch { cond: 255, imm: 123, immx: 7 } 0b1110011101111011
-0xe77c // Branch { cond: 255, imm: 124, immx: 7 } 0b1110011101111100
-0xe77d // Branch { cond: 255, imm: 125, immx: 7 } 0b1110011101111101
-0xe77e // Branch { cond: 255, imm: 126, immx: 7 } 0b1110011101111110
-0xe77f // Branch { cond: 255, imm: 127, immx: 7 } 0b1110011101111111
-0xe780 // Branch { cond: 255, imm: 128, immx: 7 } 0b1110011110000000
-0xe781 // Branch { cond: 255, imm: 129, immx: 7 } 0b1110011110000001
-0xe782 // Branch { cond: 255, imm: 130, immx: 7 } 0b1110011110000010
-0xe783 // Branch { cond: 255, imm: 131, immx: 7 } 0b1110011110000011
-0xe784 // Branch { cond: 255, imm: 132, immx: 7 } 0b1110011110000100
-0xe785 // Branch { cond: 255, imm: 133, immx: 7 } 0b1110011110000101
-0xe786 // Branch { cond: 255, imm: 134, immx: 7 } 0b1110011110000110
-0xe787 // Branch { cond: 255, imm: 135, immx: 7 } 0b1110011110000111
-0xe788 // Branch { cond: 255, imm: 136, immx: 7 } 0b1110011110001000
-0xe789 // Branch { cond: 255, imm: 137, immx: 7 } 0b1110011110001001
-0xe78a // Branch { cond: 255, imm: 138, immx: 7 } 0b1110011110001010
-0xe78b // Branch { cond: 255, imm: 139, immx: 7 } 0b1110011110001011
-0xe78c // Branch { cond: 255, imm: 140, immx: 7 } 0b1110011110001100
-0xe78d // Branch { cond: 255, imm: 141, immx: 7 } 0b1110011110001101
-0xe78e // Branch { cond: 255, imm: 142, immx: 7 } 0b1110011110001110
-0xe78f // Branch { cond: 255, imm: 143, immx: 7 } 0b1110011110001111
-0xe790 // Branch { cond: 255, imm: 144, immx: 7 } 0b1110011110010000
-0xe791 // Branch { cond: 255, imm: 145, immx: 7 } 0b1110011110010001
-0xe792 // Branch { cond: 255, imm: 146, immx: 7 } 0b1110011110010010
-0xe793 // Branch { cond: 255, imm: 147, immx: 7 } 0b1110011110010011
-0xe794 // Branch { cond: 255, imm: 148, immx: 7 } 0b1110011110010100
-0xe795 // Branch { cond: 255, imm: 149, immx: 7 } 0b1110011110010101
-0xe796 // Branch { cond: 255, imm: 150, immx: 7 } 0b1110011110010110
-0xe797 // Branch { cond: 255, imm: 151, immx: 7 } 0b1110011110010111
-0xe798 // Branch { cond: 255, imm: 152, immx: 7 } 0b1110011110011000
-0xe799 // Branch { cond: 255, imm: 153, immx: 7 } 0b1110011110011001
-0xe79a // Branch { cond: 255, imm: 154, immx: 7 } 0b1110011110011010
-0xe79b // Branch { cond: 255, imm: 155, immx: 7 } 0b1110011110011011
-0xe79c // Branch { cond: 255, imm: 156, immx: 7 } 0b1110011110011100
-0xe79d // Branch { cond: 255, imm: 157, immx: 7 } 0b1110011110011101
-0xe79e // Branch { cond: 255, imm: 158, immx: 7 } 0b1110011110011110
-0xe79f // Branch { cond: 255, imm: 159, immx: 7 } 0b1110011110011111
-0xe7a0 // Branch { cond: 255, imm: 160, immx: 7 } 0b1110011110100000
-0xe7a1 // Branch { cond: 255, imm: 161, immx: 7 } 0b1110011110100001
-0xe7a2 // Branch { cond: 255, imm: 162, immx: 7 } 0b1110011110100010
-0xe7a3 // Branch { cond: 255, imm: 163, immx: 7 } 0b1110011110100011
-0xe7a4 // Branch { cond: 255, imm: 164, immx: 7 } 0b1110011110100100
-0xe7a5 // Branch { cond: 255, imm: 165, immx: 7 } 0b1110011110100101
-0xe7a6 // Branch { cond: 255, imm: 166, immx: 7 } 0b1110011110100110
-0xe7a7 // Branch { cond: 255, imm: 167, immx: 7 } 0b1110011110100111
-0xe7a8 // Branch { cond: 255, imm: 168, immx: 7 } 0b1110011110101000
-0xe7a9 // Branch { cond: 255, imm: 169, immx: 7 } 0b1110011110101001
-0xe7aa // Branch { cond: 255, imm: 170, immx: 7 } 0b1110011110101010
-0xe7ab // Branch { cond: 255, imm: 171, immx: 7 } 0b1110011110101011
-0xe7ac // Branch { cond: 255, imm: 172, immx: 7 } 0b1110011110101100
-0xe7ad // Branch { cond: 255, imm: 173, immx: 7 } 0b1110011110101101
-0xe7ae // Branch { cond: 255, imm: 174, immx: 7 } 0b1110011110101110
-0xe7af // Branch { cond: 255, imm: 175, immx: 7 } 0b1110011110101111
-0xe7b0 // Branch { cond: 255, imm: 176, immx: 7 } 0b1110011110110000
-0xe7b1 // Branch { cond: 255, imm: 177, immx: 7 } 0b1110011110110001
-0xe7b2 // Branch { cond: 255, imm: 178, immx: 7 } 0b1110011110110010
-0xe7b3 // Branch { cond: 255, imm: 179, immx: 7 } 0b1110011110110011
-0xe7b4 // Branch { cond: 255, imm: 180, immx: 7 } 0b1110011110110100
-0xe7b5 // Branch { cond: 255, imm: 181, immx: 7 } 0b1110011110110101
-0xe7b6 // Branch { cond: 255, imm: 182, immx: 7 } 0b1110011110110110
-0xe7b7 // Branch { cond: 255, imm: 183, immx: 7 } 0b1110011110110111
-0xe7b8 // Branch { cond: 255, imm: 184, immx: 7 } 0b1110011110111000
-0xe7b9 // Branch { cond: 255, imm: 185, immx: 7 } 0b1110011110111001
-0xe7ba // Branch { cond: 255, imm: 186, immx: 7 } 0b1110011110111010
-0xe7bb // Branch { cond: 255, imm: 187, immx: 7 } 0b1110011110111011
-0xe7bc // Branch { cond: 255, imm: 188, immx: 7 } 0b1110011110111100
-0xe7bd // Branch { cond: 255, imm: 189, immx: 7 } 0b1110011110111101
-0xe7be // Branch { cond: 255, imm: 190, immx: 7 } 0b1110011110111110
-0xe7bf // Branch { cond: 255, imm: 191, immx: 7 } 0b1110011110111111
-0xe7c0 // Branch { cond: 255, imm: 192, immx: 7 } 0b1110011111000000
-0xe7c1 // Branch { cond: 255, imm: 193, immx: 7 } 0b1110011111000001
-0xe7c2 // Branch { cond: 255, imm: 194, immx: 7 } 0b1110011111000010
-0xe7c3 // Branch { cond: 255, imm: 195, immx: 7 } 0b1110011111000011
-0xe7c4 // Branch { cond: 255, imm: 196, immx: 7 } 0b1110011111000100
-0xe7c5 // Branch { cond: 255, imm: 197, immx: 7 } 0b1110011111000101
-0xe7c6 // Branch { cond: 255, imm: 198, immx: 7 } 0b1110011111000110
-0xe7c7 // Branch { cond: 255, imm: 199, immx: 7 } 0b1110011111000111
-0xe7c8 // Branch { cond: 255, imm: 200, immx: 7 } 0b1110011111001000
-0xe7c9 // Branch { cond: 255, imm: 201, immx: 7 } 0b1110011111001001
-0xe7ca // Branch { cond: 255, imm: 202, immx: 7 } 0b1110011111001010
-0xe7cb // Branch { cond: 255, imm: 203, immx: 7 } 0b1110011111001011
-0xe7cc // Branch { cond: 255, imm: 204, immx: 7 } 0b1110011111001100
-0xe7cd // Branch { cond: 255, imm: 205, immx: 7 } 0b1110011111001101
-0xe7ce // Branch { cond: 255, imm: 206, immx: 7 } 0b1110011111001110
-0xe7cf // Branch { cond: 255, imm: 207, immx: 7 } 0b1110011111001111
-0xe7d0 // Branch { cond: 255, imm: 208, immx: 7 } 0b1110011111010000
-0xe7d1 // Branch { cond: 255, imm: 209, immx: 7 } 0b1110011111010001
-0xe7d2 // Branch { cond: 255, imm: 210, immx: 7 } 0b1110011111010010
-0xe7d3 // Branch { cond: 255, imm: 211, immx: 7 } 0b1110011111010011
-0xe7d4 // Branch { cond: 255, imm: 212, immx: 7 } 0b1110011111010100
-0xe7d5 // Branch { cond: 255, imm: 213, immx: 7 } 0b1110011111010101
-0xe7d6 // Branch { cond: 255, imm: 214, immx: 7 } 0b1110011111010110
-0xe7d7 // Branch { cond: 255, imm: 215, immx: 7 } 0b1110011111010111
-0xe7d8 // Branch { cond: 255, imm: 216, immx: 7 } 0b1110011111011000
-0xe7d9 // Branch { cond: 255, imm: 217, immx: 7 } 0b1110011111011001
-0xe7da // Branch { cond: 255, imm: 218, immx: 7 } 0b1110011111011010
-0xe7db // Branch { cond: 255, imm: 219, immx: 7 } 0b1110011111011011
-0xe7dc // Branch { cond: 255, imm: 220, immx: 7 } 0b1110011111011100
-0xe7dd // Branch { cond: 255, imm: 221, immx: 7 } 0b1110011111011101
-0xe7de // Branch { cond: 255, imm: 222, immx: 7 } 0b1110011111011110
-0xe7df // Branch { cond: 255, imm: 223, immx: 7 } 0b1110011111011111
-0xe7e0 // Branch { cond: 255, imm: 224, immx: 7 } 0b1110011111100000
-0xe7e1 // Branch { cond: 255, imm: 225, immx: 7 } 0b1110011111100001
-0xe7e2 // Branch { cond: 255, imm: 226, immx: 7 } 0b1110011111100010
-0xe7e3 // Branch { cond: 255, imm: 227, immx: 7 } 0b1110011111100011
-0xe7e4 // Branch { cond: 255, imm: 228, immx: 7 } 0b1110011111100100
-0xe7e5 // Branch { cond: 255, imm: 229, immx: 7 } 0b1110011111100101
-0xe7e6 // Branch { cond: 255, imm: 230, immx: 7 } 0b1110011111100110
-0xe7e7 // Branch { cond: 255, imm: 231, immx: 7 } 0b1110011111100111
-0xe7e8 // Branch { cond: 255, imm: 232, immx: 7 } 0b1110011111101000
-0xe7e9 // Branch { cond: 255, imm: 233, immx: 7 } 0b1110011111101001
-0xe7ea // Branch { cond: 255, imm: 234, immx: 7 } 0b1110011111101010
-0xe7eb // Branch { cond: 255, imm: 235, immx: 7 } 0b1110011111101011
-0xe7ec // Branch { cond: 255, imm: 236, immx: 7 } 0b1110011111101100
-0xe7ed // Branch { cond: 255, imm: 237, immx: 7 } 0b1110011111101101
-0xe7ee // Branch { cond: 255, imm: 238, immx: 7 } 0b1110011111101110
-0xe7ef // Branch { cond: 255, imm: 239, immx: 7 } 0b1110011111101111
-0xe7f0 // Branch { cond: 255, imm: 240, immx: 7 } 0b1110011111110000
-0xe7f1 // Branch { cond: 255, imm: 241, immx: 7 } 0b1110011111110001
-0xe7f2 // Branch { cond: 255, imm: 242, immx: 7 } 0b1110011111110010
-0xe7f3 // Branch { cond: 255, imm: 243, immx: 7 } 0b1110011111110011
-0xe7f4 // Branch { cond: 255, imm: 244, immx: 7 } 0b1110011111110100
-0xe7f5 // Branch { cond: 255, imm: 245, immx: 7 } 0b1110011111110101
-0xe7f6 // Branch { cond: 255, imm: 246, immx: 7 } 0b1110011111110110
-0xe7f7 // Branch { cond: 255, imm: 247, immx: 7 } 0b1110011111110111
-0xe7f8 // Branch { cond: 255, imm: 248, immx: 7 } 0b1110011111111000
-0xe7f9 // Branch { cond: 255, imm: 249, immx: 7 } 0b1110011111111001
-0xe7fa // Branch { cond: 255, imm: 250, immx: 7 } 0b1110011111111010
-0xe7fb // Branch { cond: 255, imm: 251, immx: 7 } 0b1110011111111011
-0xe7fc // Branch { cond: 255, imm: 252, immx: 7 } 0b1110011111111100
-0xe7fd // Branch { cond: 255, imm: 253, immx: 7 } 0b1110011111111101
-0xe7fe // Branch { cond: 255, imm: 254, immx: 7 } 0b1110011111111110
-0xe7ff // Branch { cond: 255, imm: 255, immx: 7 } 0b1110011111111111
+0xdf01 // BranchE1 { cond: 15, imm: 1 } 0b1101111100000001
+0xdf02 // BranchE1 { cond: 15, imm: 2 } 0b1101111100000010
+0xdf03 // BranchE1 { cond: 15, imm: 3 } 0b1101111100000011
+0xdf04 // BranchE1 { cond: 15, imm: 4 } 0b1101111100000100
+0xdf05 // BranchE1 { cond: 15, imm: 5 } 0b1101111100000101
+0xdf06 // BranchE1 { cond: 15, imm: 6 } 0b1101111100000110
+0xdf07 // BranchE1 { cond: 15, imm: 7 } 0b1101111100000111
+0xdf08 // BranchE1 { cond: 15, imm: 8 } 0b1101111100001000
+0xdf09 // BranchE1 { cond: 15, imm: 9 } 0b1101111100001001
+0xdf0a // BranchE1 { cond: 15, imm: 10 } 0b1101111100001010
+0xdf0b // BranchE1 { cond: 15, imm: 11 } 0b1101111100001011
+0xdf0c // BranchE1 { cond: 15, imm: 12 } 0b1101111100001100
+0xdf0d // BranchE1 { cond: 15, imm: 13 } 0b1101111100001101
+0xdf0e // BranchE1 { cond: 15, imm: 14 } 0b1101111100001110
+0xdf0f // BranchE1 { cond: 15, imm: 15 } 0b1101111100001111
+0xdf10 // BranchE1 { cond: 15, imm: 16 } 0b1101111100010000
+0xdf11 // BranchE1 { cond: 15, imm: 17 } 0b1101111100010001
+0xdf12 // BranchE1 { cond: 15, imm: 18 } 0b1101111100010010
+0xdf13 // BranchE1 { cond: 15, imm: 19 } 0b1101111100010011
+0xdf14 // BranchE1 { cond: 15, imm: 20 } 0b1101111100010100
+0xdf15 // BranchE1 { cond: 15, imm: 21 } 0b1101111100010101
+0xdf16 // BranchE1 { cond: 15, imm: 22 } 0b1101111100010110
+0xdf17 // BranchE1 { cond: 15, imm: 23 } 0b1101111100010111
+0xdf18 // BranchE1 { cond: 15, imm: 24 } 0b1101111100011000
+0xdf19 // BranchE1 { cond: 15, imm: 25 } 0b1101111100011001
+0xdf1a // BranchE1 { cond: 15, imm: 26 } 0b1101111100011010
+0xdf1b // BranchE1 { cond: 15, imm: 27 } 0b1101111100011011
+0xdf1c // BranchE1 { cond: 15, imm: 28 } 0b1101111100011100
+0xdf1d // BranchE1 { cond: 15, imm: 29 } 0b1101111100011101
+0xdf1e // BranchE1 { cond: 15, imm: 30 } 0b1101111100011110
+0xdf1f // BranchE1 { cond: 15, imm: 31 } 0b1101111100011111
+0xdf20 // BranchE1 { cond: 15, imm: 32 } 0b1101111100100000
+0xdf21 // BranchE1 { cond: 15, imm: 33 } 0b1101111100100001
+0xdf22 // BranchE1 { cond: 15, imm: 34 } 0b1101111100100010
+0xdf23 // BranchE1 { cond: 15, imm: 35 } 0b1101111100100011
+0xdf24 // BranchE1 { cond: 15, imm: 36 } 0b1101111100100100
+0xdf25 // BranchE1 { cond: 15, imm: 37 } 0b1101111100100101
+0xdf26 // BranchE1 { cond: 15, imm: 38 } 0b1101111100100110
+0xdf27 // BranchE1 { cond: 15, imm: 39 } 0b1101111100100111
+0xdf28 // BranchE1 { cond: 15, imm: 40 } 0b1101111100101000
+0xdf29 // BranchE1 { cond: 15, imm: 41 } 0b1101111100101001
+0xdf2a // BranchE1 { cond: 15, imm: 42 } 0b1101111100101010
+0xdf2b // BranchE1 { cond: 15, imm: 43 } 0b1101111100101011
+0xdf2c // BranchE1 { cond: 15, imm: 44 } 0b1101111100101100
+0xdf2d // BranchE1 { cond: 15, imm: 45 } 0b1101111100101101
+0xdf2e // BranchE1 { cond: 15, imm: 46 } 0b1101111100101110
+0xdf2f // BranchE1 { cond: 15, imm: 47 } 0b1101111100101111
+0xdf30 // BranchE1 { cond: 15, imm: 48 } 0b1101111100110000
+0xdf31 // BranchE1 { cond: 15, imm: 49 } 0b1101111100110001
+0xdf32 // BranchE1 { cond: 15, imm: 50 } 0b1101111100110010
+0xdf33 // BranchE1 { cond: 15, imm: 51 } 0b1101111100110011
+0xdf34 // BranchE1 { cond: 15, imm: 52 } 0b1101111100110100
+0xdf35 // BranchE1 { cond: 15, imm: 53 } 0b1101111100110101
+0xdf36 // BranchE1 { cond: 15, imm: 54 } 0b1101111100110110
+0xdf37 // BranchE1 { cond: 15, imm: 55 } 0b1101111100110111
+0xdf38 // BranchE1 { cond: 15, imm: 56 } 0b1101111100111000
+0xdf39 // BranchE1 { cond: 15, imm: 57 } 0b1101111100111001
+0xdf3a // BranchE1 { cond: 15, imm: 58 } 0b1101111100111010
+0xdf3b // BranchE1 { cond: 15, imm: 59 } 0b1101111100111011
+0xdf3c // BranchE1 { cond: 15, imm: 60 } 0b1101111100111100
+0xdf3d // BranchE1 { cond: 15, imm: 61 } 0b1101111100111101
+0xdf3e // BranchE1 { cond: 15, imm: 62 } 0b1101111100111110
+0xdf3f // BranchE1 { cond: 15, imm: 63 } 0b1101111100111111
+0xdf40 // BranchE1 { cond: 15, imm: 64 } 0b1101111101000000
+0xdf41 // BranchE1 { cond: 15, imm: 65 } 0b1101111101000001
+0xdf42 // BranchE1 { cond: 15, imm: 66 } 0b1101111101000010
+0xdf43 // BranchE1 { cond: 15, imm: 67 } 0b1101111101000011
+0xdf44 // BranchE1 { cond: 15, imm: 68 } 0b1101111101000100
+0xdf45 // BranchE1 { cond: 15, imm: 69 } 0b1101111101000101
+0xdf46 // BranchE1 { cond: 15, imm: 70 } 0b1101111101000110
+0xdf47 // BranchE1 { cond: 15, imm: 71 } 0b1101111101000111
+0xdf48 // BranchE1 { cond: 15, imm: 72 } 0b1101111101001000
+0xdf49 // BranchE1 { cond: 15, imm: 73 } 0b1101111101001001
+0xdf4a // BranchE1 { cond: 15, imm: 74 } 0b1101111101001010
+0xdf4b // BranchE1 { cond: 15, imm: 75 } 0b1101111101001011
+0xdf4c // BranchE1 { cond: 15, imm: 76 } 0b1101111101001100
+0xdf4d // BranchE1 { cond: 15, imm: 77 } 0b1101111101001101
+0xdf4e // BranchE1 { cond: 15, imm: 78 } 0b1101111101001110
+0xdf4f // BranchE1 { cond: 15, imm: 79 } 0b1101111101001111
+0xdf50 // BranchE1 { cond: 15, imm: 80 } 0b1101111101010000
+0xdf51 // BranchE1 { cond: 15, imm: 81 } 0b1101111101010001
+0xdf52 // BranchE1 { cond: 15, imm: 82 } 0b1101111101010010
+0xdf53 // BranchE1 { cond: 15, imm: 83 } 0b1101111101010011
+0xdf54 // BranchE1 { cond: 15, imm: 84 } 0b1101111101010100
+0xdf55 // BranchE1 { cond: 15, imm: 85 } 0b1101111101010101
+0xdf56 // BranchE1 { cond: 15, imm: 86 } 0b1101111101010110
+0xdf57 // BranchE1 { cond: 15, imm: 87 } 0b1101111101010111
+0xdf58 // BranchE1 { cond: 15, imm: 88 } 0b1101111101011000
+0xdf59 // BranchE1 { cond: 15, imm: 89 } 0b1101111101011001
+0xdf5a // BranchE1 { cond: 15, imm: 90 } 0b1101111101011010
+0xdf5b // BranchE1 { cond: 15, imm: 91 } 0b1101111101011011
+0xdf5c // BranchE1 { cond: 15, imm: 92 } 0b1101111101011100
+0xdf5d // BranchE1 { cond: 15, imm: 93 } 0b1101111101011101
+0xdf5e // BranchE1 { cond: 15, imm: 94 } 0b1101111101011110
+0xdf5f // BranchE1 { cond: 15, imm: 95 } 0b1101111101011111
+0xdf60 // BranchE1 { cond: 15, imm: 96 } 0b1101111101100000
+0xdf61 // BranchE1 { cond: 15, imm: 97 } 0b1101111101100001
+0xdf62 // BranchE1 { cond: 15, imm: 98 } 0b1101111101100010
+0xdf63 // BranchE1 { cond: 15, imm: 99 } 0b1101111101100011
+0xdf64 // BranchE1 { cond: 15, imm: 100 } 0b1101111101100100
+0xdf65 // BranchE1 { cond: 15, imm: 101 } 0b1101111101100101
+0xdf66 // BranchE1 { cond: 15, imm: 102 } 0b1101111101100110
+0xdf67 // BranchE1 { cond: 15, imm: 103 } 0b1101111101100111
+0xdf68 // BranchE1 { cond: 15, imm: 104 } 0b1101111101101000
+0xdf69 // BranchE1 { cond: 15, imm: 105 } 0b1101111101101001
+0xdf6a // BranchE1 { cond: 15, imm: 106 } 0b1101111101101010
+0xdf6b // BranchE1 { cond: 15, imm: 107 } 0b1101111101101011
+0xdf6c // BranchE1 { cond: 15, imm: 108 } 0b1101111101101100
+0xdf6d // BranchE1 { cond: 15, imm: 109 } 0b1101111101101101
+0xdf6e // BranchE1 { cond: 15, imm: 110 } 0b1101111101101110
+0xdf6f // BranchE1 { cond: 15, imm: 111 } 0b1101111101101111
+0xdf70 // BranchE1 { cond: 15, imm: 112 } 0b1101111101110000
+0xdf71 // BranchE1 { cond: 15, imm: 113 } 0b1101111101110001
+0xdf72 // BranchE1 { cond: 15, imm: 114 } 0b1101111101110010
+0xdf73 // BranchE1 { cond: 15, imm: 115 } 0b1101111101110011
+0xdf74 // BranchE1 { cond: 15, imm: 116 } 0b1101111101110100
+0xdf75 // BranchE1 { cond: 15, imm: 117 } 0b1101111101110101
+0xdf76 // BranchE1 { cond: 15, imm: 118 } 0b1101111101110110
+0xdf77 // BranchE1 { cond: 15, imm: 119 } 0b1101111101110111
+0xdf78 // BranchE1 { cond: 15, imm: 120 } 0b1101111101111000
+0xdf79 // BranchE1 { cond: 15, imm: 121 } 0b1101111101111001
+0xdf7a // BranchE1 { cond: 15, imm: 122 } 0b1101111101111010
+0xdf7b // BranchE1 { cond: 15, imm: 123 } 0b1101111101111011
+0xdf7c // BranchE1 { cond: 15, imm: 124 } 0b1101111101111100
+0xdf7d // BranchE1 { cond: 15, imm: 125 } 0b1101111101111101
+0xdf7e // BranchE1 { cond: 15, imm: 126 } 0b1101111101111110
+0xdf7f // BranchE1 { cond: 15, imm: 127 } 0b1101111101111111
+0xdf80 // BranchE1 { cond: 15, imm: 128 } 0b1101111110000000
+0xdf81 // BranchE1 { cond: 15, imm: 129 } 0b1101111110000001
+0xdf82 // BranchE1 { cond: 15, imm: 130 } 0b1101111110000010
+0xdf83 // BranchE1 { cond: 15, imm: 131 } 0b1101111110000011
+0xdf84 // BranchE1 { cond: 15, imm: 132 } 0b1101111110000100
+0xdf85 // BranchE1 { cond: 15, imm: 133 } 0b1101111110000101
+0xdf86 // BranchE1 { cond: 15, imm: 134 } 0b1101111110000110
+0xdf87 // BranchE1 { cond: 15, imm: 135 } 0b1101111110000111
+0xdf88 // BranchE1 { cond: 15, imm: 136 } 0b1101111110001000
+0xdf89 // BranchE1 { cond: 15, imm: 137 } 0b1101111110001001
+0xdf8a // BranchE1 { cond: 15, imm: 138 } 0b1101111110001010
+0xdf8b // BranchE1 { cond: 15, imm: 139 } 0b1101111110001011
+0xdf8c // BranchE1 { cond: 15, imm: 140 } 0b1101111110001100
+0xdf8d // BranchE1 { cond: 15, imm: 141 } 0b1101111110001101
+0xdf8e // BranchE1 { cond: 15, imm: 142 } 0b1101111110001110
+0xdf8f // BranchE1 { cond: 15, imm: 143 } 0b1101111110001111
+0xdf90 // BranchE1 { cond: 15, imm: 144 } 0b1101111110010000
+0xdf91 // BranchE1 { cond: 15, imm: 145 } 0b1101111110010001
+0xdf92 // BranchE1 { cond: 15, imm: 146 } 0b1101111110010010
+0xdf93 // BranchE1 { cond: 15, imm: 147 } 0b1101111110010011
+0xdf94 // BranchE1 { cond: 15, imm: 148 } 0b1101111110010100
+0xdf95 // BranchE1 { cond: 15, imm: 149 } 0b1101111110010101
+0xdf96 // BranchE1 { cond: 15, imm: 150 } 0b1101111110010110
+0xdf97 // BranchE1 { cond: 15, imm: 151 } 0b1101111110010111
+0xdf98 // BranchE1 { cond: 15, imm: 152 } 0b1101111110011000
+0xdf99 // BranchE1 { cond: 15, imm: 153 } 0b1101111110011001
+0xdf9a // BranchE1 { cond: 15, imm: 154 } 0b1101111110011010
+0xdf9b // BranchE1 { cond: 15, imm: 155 } 0b1101111110011011
+0xdf9c // BranchE1 { cond: 15, imm: 156 } 0b1101111110011100
+0xdf9d // BranchE1 { cond: 15, imm: 157 } 0b1101111110011101
+0xdf9e // BranchE1 { cond: 15, imm: 158 } 0b1101111110011110
+0xdf9f // BranchE1 { cond: 15, imm: 159 } 0b1101111110011111
+0xdfa0 // BranchE1 { cond: 15, imm: 160 } 0b1101111110100000
+0xdfa1 // BranchE1 { cond: 15, imm: 161 } 0b1101111110100001
+0xdfa2 // BranchE1 { cond: 15, imm: 162 } 0b1101111110100010
+0xdfa3 // BranchE1 { cond: 15, imm: 163 } 0b1101111110100011
+0xdfa4 // BranchE1 { cond: 15, imm: 164 } 0b1101111110100100
+0xdfa5 // BranchE1 { cond: 15, imm: 165 } 0b1101111110100101
+0xdfa6 // BranchE1 { cond: 15, imm: 166 } 0b1101111110100110
+0xdfa7 // BranchE1 { cond: 15, imm: 167 } 0b1101111110100111
+0xdfa8 // BranchE1 { cond: 15, imm: 168 } 0b1101111110101000
+0xdfa9 // BranchE1 { cond: 15, imm: 169 } 0b1101111110101001
+0xdfaa // BranchE1 { cond: 15, imm: 170 } 0b1101111110101010
+0xdfab // BranchE1 { cond: 15, imm: 171 } 0b1101111110101011
+0xdfac // BranchE1 { cond: 15, imm: 172 } 0b1101111110101100
+0xdfad // BranchE1 { cond: 15, imm: 173 } 0b1101111110101101
+0xdfae // BranchE1 { cond: 15, imm: 174 } 0b1101111110101110
+0xdfaf // BranchE1 { cond: 15, imm: 175 } 0b1101111110101111
+0xdfb0 // BranchE1 { cond: 15, imm: 176 } 0b1101111110110000
+0xdfb1 // BranchE1 { cond: 15, imm: 177 } 0b1101111110110001
+0xdfb2 // BranchE1 { cond: 15, imm: 178 } 0b1101111110110010
+0xdfb3 // BranchE1 { cond: 15, imm: 179 } 0b1101111110110011
+0xdfb4 // BranchE1 { cond: 15, imm: 180 } 0b1101111110110100
+0xdfb5 // BranchE1 { cond: 15, imm: 181 } 0b1101111110110101
+0xdfb6 // BranchE1 { cond: 15, imm: 182 } 0b1101111110110110
+0xdfb7 // BranchE1 { cond: 15, imm: 183 } 0b1101111110110111
+0xdfb8 // BranchE1 { cond: 15, imm: 184 } 0b1101111110111000
+0xdfb9 // BranchE1 { cond: 15, imm: 185 } 0b1101111110111001
+0xdfba // BranchE1 { cond: 15, imm: 186 } 0b1101111110111010
+0xdfbb // BranchE1 { cond: 15, imm: 187 } 0b1101111110111011
+0xdfbc // BranchE1 { cond: 15, imm: 188 } 0b1101111110111100
+0xdfbd // BranchE1 { cond: 15, imm: 189 } 0b1101111110111101
+0xdfbe // BranchE1 { cond: 15, imm: 190 } 0b1101111110111110
+0xdfbf // BranchE1 { cond: 15, imm: 191 } 0b1101111110111111
+0xdfc0 // BranchE1 { cond: 15, imm: 192 } 0b1101111111000000
+0xdfc1 // BranchE1 { cond: 15, imm: 193 } 0b1101111111000001
+0xdfc2 // BranchE1 { cond: 15, imm: 194 } 0b1101111111000010
+0xdfc3 // BranchE1 { cond: 15, imm: 195 } 0b1101111111000011
+0xdfc4 // BranchE1 { cond: 15, imm: 196 } 0b1101111111000100
+0xdfc5 // BranchE1 { cond: 15, imm: 197 } 0b1101111111000101
+0xdfc6 // BranchE1 { cond: 15, imm: 198 } 0b1101111111000110
+0xdfc7 // BranchE1 { cond: 15, imm: 199 } 0b1101111111000111
+0xdfc8 // BranchE1 { cond: 15, imm: 200 } 0b1101111111001000
+0xdfc9 // BranchE1 { cond: 15, imm: 201 } 0b1101111111001001
+0xdfca // BranchE1 { cond: 15, imm: 202 } 0b1101111111001010
+0xdfcb // BranchE1 { cond: 15, imm: 203 } 0b1101111111001011
+0xdfcc // BranchE1 { cond: 15, imm: 204 } 0b1101111111001100
+0xdfcd // BranchE1 { cond: 15, imm: 205 } 0b1101111111001101
+0xdfce // BranchE1 { cond: 15, imm: 206 } 0b1101111111001110
+0xdfcf // BranchE1 { cond: 15, imm: 207 } 0b1101111111001111
+0xdfd0 // BranchE1 { cond: 15, imm: 208 } 0b1101111111010000
+0xdfd1 // BranchE1 { cond: 15, imm: 209 } 0b1101111111010001
+0xdfd2 // BranchE1 { cond: 15, imm: 210 } 0b1101111111010010
+0xdfd3 // BranchE1 { cond: 15, imm: 211 } 0b1101111111010011
+0xdfd4 // BranchE1 { cond: 15, imm: 212 } 0b1101111111010100
+0xdfd5 // BranchE1 { cond: 15, imm: 213 } 0b1101111111010101
+0xdfd6 // BranchE1 { cond: 15, imm: 214 } 0b1101111111010110
+0xdfd7 // BranchE1 { cond: 15, imm: 215 } 0b1101111111010111
+0xdfd8 // BranchE1 { cond: 15, imm: 216 } 0b1101111111011000
+0xdfd9 // BranchE1 { cond: 15, imm: 217 } 0b1101111111011001
+0xdfda // BranchE1 { cond: 15, imm: 218 } 0b1101111111011010
+0xdfdb // BranchE1 { cond: 15, imm: 219 } 0b1101111111011011
+0xdfdc // BranchE1 { cond: 15, imm: 220 } 0b1101111111011100
+0xdfdd // BranchE1 { cond: 15, imm: 221 } 0b1101111111011101
+0xdfde // BranchE1 { cond: 15, imm: 222 } 0b1101111111011110
+0xdfdf // BranchE1 { cond: 15, imm: 223 } 0b1101111111011111
+0xdfe0 // BranchE1 { cond: 15, imm: 224 } 0b1101111111100000
+0xdfe1 // BranchE1 { cond: 15, imm: 225 } 0b1101111111100001
+0xdfe2 // BranchE1 { cond: 15, imm: 226 } 0b1101111111100010
+0xdfe3 // BranchE1 { cond: 15, imm: 227 } 0b1101111111100011
+0xdfe4 // BranchE1 { cond: 15, imm: 228 } 0b1101111111100100
+0xdfe5 // BranchE1 { cond: 15, imm: 229 } 0b1101111111100101
+0xdfe6 // BranchE1 { cond: 15, imm: 230 } 0b1101111111100110
+0xdfe7 // BranchE1 { cond: 15, imm: 231 } 0b1101111111100111
+0xdfe8 // BranchE1 { cond: 15, imm: 232 } 0b1101111111101000
+0xdfe9 // BranchE1 { cond: 15, imm: 233 } 0b1101111111101001
+0xdfea // BranchE1 { cond: 15, imm: 234 } 0b1101111111101010
+0xdfeb // BranchE1 { cond: 15, imm: 235 } 0b1101111111101011
+0xdfec // BranchE1 { cond: 15, imm: 236 } 0b1101111111101100
+0xdfed // BranchE1 { cond: 15, imm: 237 } 0b1101111111101101
+0xdfee // BranchE1 { cond: 15, imm: 238 } 0b1101111111101110
+0xdfef // BranchE1 { cond: 15, imm: 239 } 0b1101111111101111
+0xdff0 // BranchE1 { cond: 15, imm: 240 } 0b1101111111110000
+0xdff1 // BranchE1 { cond: 15, imm: 241 } 0b1101111111110001
+0xdff2 // BranchE1 { cond: 15, imm: 242 } 0b1101111111110010
+0xdff3 // BranchE1 { cond: 15, imm: 243 } 0b1101111111110011
+0xdff4 // BranchE1 { cond: 15, imm: 244 } 0b1101111111110100
+0xdff5 // BranchE1 { cond: 15, imm: 245 } 0b1101111111110101
+0xdff6 // BranchE1 { cond: 15, imm: 246 } 0b1101111111110110
+0xdff7 // BranchE1 { cond: 15, imm: 247 } 0b1101111111110111
+0xdff8 // BranchE1 { cond: 15, imm: 248 } 0b1101111111111000
+0xdff9 // BranchE1 { cond: 15, imm: 249 } 0b1101111111111001
+0xdffa // BranchE1 { cond: 15, imm: 250 } 0b1101111111111010
+0xdffb // BranchE1 { cond: 15, imm: 251 } 0b1101111111111011
+0xdffc // BranchE1 { cond: 15, imm: 252 } 0b1101111111111100
+0xdffd // BranchE1 { cond: 15, imm: 253 } 0b1101111111111101
+0xdffe // BranchE1 { cond: 15, imm: 254 } 0b1101111111111110
+0xdfff // BranchE1 { cond: 15, imm: 255 } 0b1101111111111111
+0xe000 // BranchE2 { imm: 0, immx: 0 } 0b1110000000000000
+0xe001 // BranchE2 { imm: 1, immx: 0 } 0b1110000000000001
+0xe002 // BranchE2 { imm: 2, immx: 0 } 0b1110000000000010
+0xe003 // BranchE2 { imm: 3, immx: 0 } 0b1110000000000011
+0xe004 // BranchE2 { imm: 4, immx: 0 } 0b1110000000000100
+0xe005 // BranchE2 { imm: 5, immx: 0 } 0b1110000000000101
+0xe006 // BranchE2 { imm: 6, immx: 0 } 0b1110000000000110
+0xe007 // BranchE2 { imm: 7, immx: 0 } 0b1110000000000111
+0xe008 // BranchE2 { imm: 8, immx: 0 } 0b1110000000001000
+0xe009 // BranchE2 { imm: 9, immx: 0 } 0b1110000000001001
+0xe00a // BranchE2 { imm: 10, immx: 0 } 0b1110000000001010
+0xe00b // BranchE2 { imm: 11, immx: 0 } 0b1110000000001011
+0xe00c // BranchE2 { imm: 12, immx: 0 } 0b1110000000001100
+0xe00d // BranchE2 { imm: 13, immx: 0 } 0b1110000000001101
+0xe00e // BranchE2 { imm: 14, immx: 0 } 0b1110000000001110
+0xe00f // BranchE2 { imm: 15, immx: 0 } 0b1110000000001111
+0xe010 // BranchE2 { imm: 16, immx: 0 } 0b1110000000010000
+0xe011 // BranchE2 { imm: 17, immx: 0 } 0b1110000000010001
+0xe012 // BranchE2 { imm: 18, immx: 0 } 0b1110000000010010
+0xe013 // BranchE2 { imm: 19, immx: 0 } 0b1110000000010011
+0xe014 // BranchE2 { imm: 20, immx: 0 } 0b1110000000010100
+0xe015 // BranchE2 { imm: 21, immx: 0 } 0b1110000000010101
+0xe016 // BranchE2 { imm: 22, immx: 0 } 0b1110000000010110
+0xe017 // BranchE2 { imm: 23, immx: 0 } 0b1110000000010111
+0xe018 // BranchE2 { imm: 24, immx: 0 } 0b1110000000011000
+0xe019 // BranchE2 { imm: 25, immx: 0 } 0b1110000000011001
+0xe01a // BranchE2 { imm: 26, immx: 0 } 0b1110000000011010
+0xe01b // BranchE2 { imm: 27, immx: 0 } 0b1110000000011011
+0xe01c // BranchE2 { imm: 28, immx: 0 } 0b1110000000011100
+0xe01d // BranchE2 { imm: 29, immx: 0 } 0b1110000000011101
+0xe01e // BranchE2 { imm: 30, immx: 0 } 0b1110000000011110
+0xe01f // BranchE2 { imm: 31, immx: 0 } 0b1110000000011111
+0xe020 // BranchE2 { imm: 32, immx: 0 } 0b1110000000100000
+0xe021 // BranchE2 { imm: 33, immx: 0 } 0b1110000000100001
+0xe022 // BranchE2 { imm: 34, immx: 0 } 0b1110000000100010
+0xe023 // BranchE2 { imm: 35, immx: 0 } 0b1110000000100011
+0xe024 // BranchE2 { imm: 36, immx: 0 } 0b1110000000100100
+0xe025 // BranchE2 { imm: 37, immx: 0 } 0b1110000000100101
+0xe026 // BranchE2 { imm: 38, immx: 0 } 0b1110000000100110
+0xe027 // BranchE2 { imm: 39, immx: 0 } 0b1110000000100111
+0xe028 // BranchE2 { imm: 40, immx: 0 } 0b1110000000101000
+0xe029 // BranchE2 { imm: 41, immx: 0 } 0b1110000000101001
+0xe02a // BranchE2 { imm: 42, immx: 0 } 0b1110000000101010
+0xe02b // BranchE2 { imm: 43, immx: 0 } 0b1110000000101011
+0xe02c // BranchE2 { imm: 44, immx: 0 } 0b1110000000101100
+0xe02d // BranchE2 { imm: 45, immx: 0 } 0b1110000000101101
+0xe02e // BranchE2 { imm: 46, immx: 0 } 0b1110000000101110
+0xe02f // BranchE2 { imm: 47, immx: 0 } 0b1110000000101111
+0xe030 // BranchE2 { imm: 48, immx: 0 } 0b1110000000110000
+0xe031 // BranchE2 { imm: 49, immx: 0 } 0b1110000000110001
+0xe032 // BranchE2 { imm: 50, immx: 0 } 0b1110000000110010
+0xe033 // BranchE2 { imm: 51, immx: 0 } 0b1110000000110011
+0xe034 // BranchE2 { imm: 52, immx: 0 } 0b1110000000110100
+0xe035 // BranchE2 { imm: 53, immx: 0 } 0b1110000000110101
+0xe036 // BranchE2 { imm: 54, immx: 0 } 0b1110000000110110
+0xe037 // BranchE2 { imm: 55, immx: 0 } 0b1110000000110111
+0xe038 // BranchE2 { imm: 56, immx: 0 } 0b1110000000111000
+0xe039 // BranchE2 { imm: 57, immx: 0 } 0b1110000000111001
+0xe03a // BranchE2 { imm: 58, immx: 0 } 0b1110000000111010
+0xe03b // BranchE2 { imm: 59, immx: 0 } 0b1110000000111011
+0xe03c // BranchE2 { imm: 60, immx: 0 } 0b1110000000111100
+0xe03d // BranchE2 { imm: 61, immx: 0 } 0b1110000000111101
+0xe03e // BranchE2 { imm: 62, immx: 0 } 0b1110000000111110
+0xe03f // BranchE2 { imm: 63, immx: 0 } 0b1110000000111111
+0xe040 // BranchE2 { imm: 64, immx: 0 } 0b1110000001000000
+0xe041 // BranchE2 { imm: 65, immx: 0 } 0b1110000001000001
+0xe042 // BranchE2 { imm: 66, immx: 0 } 0b1110000001000010
+0xe043 // BranchE2 { imm: 67, immx: 0 } 0b1110000001000011
+0xe044 // BranchE2 { imm: 68, immx: 0 } 0b1110000001000100
+0xe045 // BranchE2 { imm: 69, immx: 0 } 0b1110000001000101
+0xe046 // BranchE2 { imm: 70, immx: 0 } 0b1110000001000110
+0xe047 // BranchE2 { imm: 71, immx: 0 } 0b1110000001000111
+0xe048 // BranchE2 { imm: 72, immx: 0 } 0b1110000001001000
+0xe049 // BranchE2 { imm: 73, immx: 0 } 0b1110000001001001
+0xe04a // BranchE2 { imm: 74, immx: 0 } 0b1110000001001010
+0xe04b // BranchE2 { imm: 75, immx: 0 } 0b1110000001001011
+0xe04c // BranchE2 { imm: 76, immx: 0 } 0b1110000001001100
+0xe04d // BranchE2 { imm: 77, immx: 0 } 0b1110000001001101
+0xe04e // BranchE2 { imm: 78, immx: 0 } 0b1110000001001110
+0xe04f // BranchE2 { imm: 79, immx: 0 } 0b1110000001001111
+0xe050 // BranchE2 { imm: 80, immx: 0 } 0b1110000001010000
+0xe051 // BranchE2 { imm: 81, immx: 0 } 0b1110000001010001
+0xe052 // BranchE2 { imm: 82, immx: 0 } 0b1110000001010010
+0xe053 // BranchE2 { imm: 83, immx: 0 } 0b1110000001010011
+0xe054 // BranchE2 { imm: 84, immx: 0 } 0b1110000001010100
+0xe055 // BranchE2 { imm: 85, immx: 0 } 0b1110000001010101
+0xe056 // BranchE2 { imm: 86, immx: 0 } 0b1110000001010110
+0xe057 // BranchE2 { imm: 87, immx: 0 } 0b1110000001010111
+0xe058 // BranchE2 { imm: 88, immx: 0 } 0b1110000001011000
+0xe059 // BranchE2 { imm: 89, immx: 0 } 0b1110000001011001
+0xe05a // BranchE2 { imm: 90, immx: 0 } 0b1110000001011010
+0xe05b // BranchE2 { imm: 91, immx: 0 } 0b1110000001011011
+0xe05c // BranchE2 { imm: 92, immx: 0 } 0b1110000001011100
+0xe05d // BranchE2 { imm: 93, immx: 0 } 0b1110000001011101
+0xe05e // BranchE2 { imm: 94, immx: 0 } 0b1110000001011110
+0xe05f // BranchE2 { imm: 95, immx: 0 } 0b1110000001011111
+0xe060 // BranchE2 { imm: 96, immx: 0 } 0b1110000001100000
+0xe061 // BranchE2 { imm: 97, immx: 0 } 0b1110000001100001
+0xe062 // BranchE2 { imm: 98, immx: 0 } 0b1110000001100010
+0xe063 // BranchE2 { imm: 99, immx: 0 } 0b1110000001100011
+0xe064 // BranchE2 { imm: 100, immx: 0 } 0b1110000001100100
+0xe065 // BranchE2 { imm: 101, immx: 0 } 0b1110000001100101
+0xe066 // BranchE2 { imm: 102, immx: 0 } 0b1110000001100110
+0xe067 // BranchE2 { imm: 103, immx: 0 } 0b1110000001100111
+0xe068 // BranchE2 { imm: 104, immx: 0 } 0b1110000001101000
+0xe069 // BranchE2 { imm: 105, immx: 0 } 0b1110000001101001
+0xe06a // BranchE2 { imm: 106, immx: 0 } 0b1110000001101010
+0xe06b // BranchE2 { imm: 107, immx: 0 } 0b1110000001101011
+0xe06c // BranchE2 { imm: 108, immx: 0 } 0b1110000001101100
+0xe06d // BranchE2 { imm: 109, immx: 0 } 0b1110000001101101
+0xe06e // BranchE2 { imm: 110, immx: 0 } 0b1110000001101110
+0xe06f // BranchE2 { imm: 111, immx: 0 } 0b1110000001101111
+0xe070 // BranchE2 { imm: 112, immx: 0 } 0b1110000001110000
+0xe071 // BranchE2 { imm: 113, immx: 0 } 0b1110000001110001
+0xe072 // BranchE2 { imm: 114, immx: 0 } 0b1110000001110010
+0xe073 // BranchE2 { imm: 115, immx: 0 } 0b1110000001110011
+0xe074 // BranchE2 { imm: 116, immx: 0 } 0b1110000001110100
+0xe075 // BranchE2 { imm: 117, immx: 0 } 0b1110000001110101
+0xe076 // BranchE2 { imm: 118, immx: 0 } 0b1110000001110110
+0xe077 // BranchE2 { imm: 119, immx: 0 } 0b1110000001110111
+0xe078 // BranchE2 { imm: 120, immx: 0 } 0b1110000001111000
+0xe079 // BranchE2 { imm: 121, immx: 0 } 0b1110000001111001
+0xe07a // BranchE2 { imm: 122, immx: 0 } 0b1110000001111010
+0xe07b // BranchE2 { imm: 123, immx: 0 } 0b1110000001111011
+0xe07c // BranchE2 { imm: 124, immx: 0 } 0b1110000001111100
+0xe07d // BranchE2 { imm: 125, immx: 0 } 0b1110000001111101
+0xe07e // BranchE2 { imm: 126, immx: 0 } 0b1110000001111110
+0xe07f // BranchE2 { imm: 127, immx: 0 } 0b1110000001111111
+0xe080 // BranchE2 { imm: 128, immx: 0 } 0b1110000010000000
+0xe081 // BranchE2 { imm: 129, immx: 0 } 0b1110000010000001
+0xe082 // BranchE2 { imm: 130, immx: 0 } 0b1110000010000010
+0xe083 // BranchE2 { imm: 131, immx: 0 } 0b1110000010000011
+0xe084 // BranchE2 { imm: 132, immx: 0 } 0b1110000010000100
+0xe085 // BranchE2 { imm: 133, immx: 0 } 0b1110000010000101
+0xe086 // BranchE2 { imm: 134, immx: 0 } 0b1110000010000110
+0xe087 // BranchE2 { imm: 135, immx: 0 } 0b1110000010000111
+0xe088 // BranchE2 { imm: 136, immx: 0 } 0b1110000010001000
+0xe089 // BranchE2 { imm: 137, immx: 0 } 0b1110000010001001
+0xe08a // BranchE2 { imm: 138, immx: 0 } 0b1110000010001010
+0xe08b // BranchE2 { imm: 139, immx: 0 } 0b1110000010001011
+0xe08c // BranchE2 { imm: 140, immx: 0 } 0b1110000010001100
+0xe08d // BranchE2 { imm: 141, immx: 0 } 0b1110000010001101
+0xe08e // BranchE2 { imm: 142, immx: 0 } 0b1110000010001110
+0xe08f // BranchE2 { imm: 143, immx: 0 } 0b1110000010001111
+0xe090 // BranchE2 { imm: 144, immx: 0 } 0b1110000010010000
+0xe091 // BranchE2 { imm: 145, immx: 0 } 0b1110000010010001
+0xe092 // BranchE2 { imm: 146, immx: 0 } 0b1110000010010010
+0xe093 // BranchE2 { imm: 147, immx: 0 } 0b1110000010010011
+0xe094 // BranchE2 { imm: 148, immx: 0 } 0b1110000010010100
+0xe095 // BranchE2 { imm: 149, immx: 0 } 0b1110000010010101
+0xe096 // BranchE2 { imm: 150, immx: 0 } 0b1110000010010110
+0xe097 // BranchE2 { imm: 151, immx: 0 } 0b1110000010010111
+0xe098 // BranchE2 { imm: 152, immx: 0 } 0b1110000010011000
+0xe099 // BranchE2 { imm: 153, immx: 0 } 0b1110000010011001
+0xe09a // BranchE2 { imm: 154, immx: 0 } 0b1110000010011010
+0xe09b // BranchE2 { imm: 155, immx: 0 } 0b1110000010011011
+0xe09c // BranchE2 { imm: 156, immx: 0 } 0b1110000010011100
+0xe09d // BranchE2 { imm: 157, immx: 0 } 0b1110000010011101
+0xe09e // BranchE2 { imm: 158, immx: 0 } 0b1110000010011110
+0xe09f // BranchE2 { imm: 159, immx: 0 } 0b1110000010011111
+0xe0a0 // BranchE2 { imm: 160, immx: 0 } 0b1110000010100000
+0xe0a1 // BranchE2 { imm: 161, immx: 0 } 0b1110000010100001
+0xe0a2 // BranchE2 { imm: 162, immx: 0 } 0b1110000010100010
+0xe0a3 // BranchE2 { imm: 163, immx: 0 } 0b1110000010100011
+0xe0a4 // BranchE2 { imm: 164, immx: 0 } 0b1110000010100100
+0xe0a5 // BranchE2 { imm: 165, immx: 0 } 0b1110000010100101
+0xe0a6 // BranchE2 { imm: 166, immx: 0 } 0b1110000010100110
+0xe0a7 // BranchE2 { imm: 167, immx: 0 } 0b1110000010100111
+0xe0a8 // BranchE2 { imm: 168, immx: 0 } 0b1110000010101000
+0xe0a9 // BranchE2 { imm: 169, immx: 0 } 0b1110000010101001
+0xe0aa // BranchE2 { imm: 170, immx: 0 } 0b1110000010101010
+0xe0ab // BranchE2 { imm: 171, immx: 0 } 0b1110000010101011
+0xe0ac // BranchE2 { imm: 172, immx: 0 } 0b1110000010101100
+0xe0ad // BranchE2 { imm: 173, immx: 0 } 0b1110000010101101
+0xe0ae // BranchE2 { imm: 174, immx: 0 } 0b1110000010101110
+0xe0af // BranchE2 { imm: 175, immx: 0 } 0b1110000010101111
+0xe0b0 // BranchE2 { imm: 176, immx: 0 } 0b1110000010110000
+0xe0b1 // BranchE2 { imm: 177, immx: 0 } 0b1110000010110001
+0xe0b2 // BranchE2 { imm: 178, immx: 0 } 0b1110000010110010
+0xe0b3 // BranchE2 { imm: 179, immx: 0 } 0b1110000010110011
+0xe0b4 // BranchE2 { imm: 180, immx: 0 } 0b1110000010110100
+0xe0b5 // BranchE2 { imm: 181, immx: 0 } 0b1110000010110101
+0xe0b6 // BranchE2 { imm: 182, immx: 0 } 0b1110000010110110
+0xe0b7 // BranchE2 { imm: 183, immx: 0 } 0b1110000010110111
+0xe0b8 // BranchE2 { imm: 184, immx: 0 } 0b1110000010111000
+0xe0b9 // BranchE2 { imm: 185, immx: 0 } 0b1110000010111001
+0xe0ba // BranchE2 { imm: 186, immx: 0 } 0b1110000010111010
+0xe0bb // BranchE2 { imm: 187, immx: 0 } 0b1110000010111011
+0xe0bc // BranchE2 { imm: 188, immx: 0 } 0b1110000010111100
+0xe0bd // BranchE2 { imm: 189, immx: 0 } 0b1110000010111101
+0xe0be // BranchE2 { imm: 190, immx: 0 } 0b1110000010111110
+0xe0bf // BranchE2 { imm: 191, immx: 0 } 0b1110000010111111
+0xe0c0 // BranchE2 { imm: 192, immx: 0 } 0b1110000011000000
+0xe0c1 // BranchE2 { imm: 193, immx: 0 } 0b1110000011000001
+0xe0c2 // BranchE2 { imm: 194, immx: 0 } 0b1110000011000010
+0xe0c3 // BranchE2 { imm: 195, immx: 0 } 0b1110000011000011
+0xe0c4 // BranchE2 { imm: 196, immx: 0 } 0b1110000011000100
+0xe0c5 // BranchE2 { imm: 197, immx: 0 } 0b1110000011000101
+0xe0c6 // BranchE2 { imm: 198, immx: 0 } 0b1110000011000110
+0xe0c7 // BranchE2 { imm: 199, immx: 0 } 0b1110000011000111
+0xe0c8 // BranchE2 { imm: 200, immx: 0 } 0b1110000011001000
+0xe0c9 // BranchE2 { imm: 201, immx: 0 } 0b1110000011001001
+0xe0ca // BranchE2 { imm: 202, immx: 0 } 0b1110000011001010
+0xe0cb // BranchE2 { imm: 203, immx: 0 } 0b1110000011001011
+0xe0cc // BranchE2 { imm: 204, immx: 0 } 0b1110000011001100
+0xe0cd // BranchE2 { imm: 205, immx: 0 } 0b1110000011001101
+0xe0ce // BranchE2 { imm: 206, immx: 0 } 0b1110000011001110
+0xe0cf // BranchE2 { imm: 207, immx: 0 } 0b1110000011001111
+0xe0d0 // BranchE2 { imm: 208, immx: 0 } 0b1110000011010000
+0xe0d1 // BranchE2 { imm: 209, immx: 0 } 0b1110000011010001
+0xe0d2 // BranchE2 { imm: 210, immx: 0 } 0b1110000011010010
+0xe0d3 // BranchE2 { imm: 211, immx: 0 } 0b1110000011010011
+0xe0d4 // BranchE2 { imm: 212, immx: 0 } 0b1110000011010100
+0xe0d5 // BranchE2 { imm: 213, immx: 0 } 0b1110000011010101
+0xe0d6 // BranchE2 { imm: 214, immx: 0 } 0b1110000011010110
+0xe0d7 // BranchE2 { imm: 215, immx: 0 } 0b1110000011010111
+0xe0d8 // BranchE2 { imm: 216, immx: 0 } 0b1110000011011000
+0xe0d9 // BranchE2 { imm: 217, immx: 0 } 0b1110000011011001
+0xe0da // BranchE2 { imm: 218, immx: 0 } 0b1110000011011010
+0xe0db // BranchE2 { imm: 219, immx: 0 } 0b1110000011011011
+0xe0dc // BranchE2 { imm: 220, immx: 0 } 0b1110000011011100
+0xe0dd // BranchE2 { imm: 221, immx: 0 } 0b1110000011011101
+0xe0de // BranchE2 { imm: 222, immx: 0 } 0b1110000011011110
+0xe0df // BranchE2 { imm: 223, immx: 0 } 0b1110000011011111
+0xe0e0 // BranchE2 { imm: 224, immx: 0 } 0b1110000011100000
+0xe0e1 // BranchE2 { imm: 225, immx: 0 } 0b1110000011100001
+0xe0e2 // BranchE2 { imm: 226, immx: 0 } 0b1110000011100010
+0xe0e3 // BranchE2 { imm: 227, immx: 0 } 0b1110000011100011
+0xe0e4 // BranchE2 { imm: 228, immx: 0 } 0b1110000011100100
+0xe0e5 // BranchE2 { imm: 229, immx: 0 } 0b1110000011100101
+0xe0e6 // BranchE2 { imm: 230, immx: 0 } 0b1110000011100110
+0xe0e7 // BranchE2 { imm: 231, immx: 0 } 0b1110000011100111
+0xe0e8 // BranchE2 { imm: 232, immx: 0 } 0b1110000011101000
+0xe0e9 // BranchE2 { imm: 233, immx: 0 } 0b1110000011101001
+0xe0ea // BranchE2 { imm: 234, immx: 0 } 0b1110000011101010
+0xe0eb // BranchE2 { imm: 235, immx: 0 } 0b1110000011101011
+0xe0ec // BranchE2 { imm: 236, immx: 0 } 0b1110000011101100
+0xe0ed // BranchE2 { imm: 237, immx: 0 } 0b1110000011101101
+0xe0ee // BranchE2 { imm: 238, immx: 0 } 0b1110000011101110
+0xe0ef // BranchE2 { imm: 239, immx: 0 } 0b1110000011101111
+0xe0f0 // BranchE2 { imm: 240, immx: 0 } 0b1110000011110000
+0xe0f1 // BranchE2 { imm: 241, immx: 0 } 0b1110000011110001
+0xe0f2 // BranchE2 { imm: 242, immx: 0 } 0b1110000011110010
+0xe0f3 // BranchE2 { imm: 243, immx: 0 } 0b1110000011110011
+0xe0f4 // BranchE2 { imm: 244, immx: 0 } 0b1110000011110100
+0xe0f5 // BranchE2 { imm: 245, immx: 0 } 0b1110000011110101
+0xe0f6 // BranchE2 { imm: 246, immx: 0 } 0b1110000011110110
+0xe0f7 // BranchE2 { imm: 247, immx: 0 } 0b1110000011110111
+0xe0f8 // BranchE2 { imm: 248, immx: 0 } 0b1110000011111000
+0xe0f9 // BranchE2 { imm: 249, immx: 0 } 0b1110000011111001
+0xe0fa // BranchE2 { imm: 250, immx: 0 } 0b1110000011111010
+0xe0fb // BranchE2 { imm: 251, immx: 0 } 0b1110000011111011
+0xe0fc // BranchE2 { imm: 252, immx: 0 } 0b1110000011111100
+0xe0fd // BranchE2 { imm: 253, immx: 0 } 0b1110000011111101
+0xe0fe // BranchE2 { imm: 254, immx: 0 } 0b1110000011111110
+0xe0ff // BranchE2 { imm: 255, immx: 0 } 0b1110000011111111
+0xe100 // BranchE2 { imm: 0, immx: 1 } 0b1110000100000000
+0xe101 // BranchE2 { imm: 1, immx: 1 } 0b1110000100000001
+0xe102 // BranchE2 { imm: 2, immx: 1 } 0b1110000100000010
+0xe103 // BranchE2 { imm: 3, immx: 1 } 0b1110000100000011
+0xe104 // BranchE2 { imm: 4, immx: 1 } 0b1110000100000100
+0xe105 // BranchE2 { imm: 5, immx: 1 } 0b1110000100000101
+0xe106 // BranchE2 { imm: 6, immx: 1 } 0b1110000100000110
+0xe107 // BranchE2 { imm: 7, immx: 1 } 0b1110000100000111
+0xe108 // BranchE2 { imm: 8, immx: 1 } 0b1110000100001000
+0xe109 // BranchE2 { imm: 9, immx: 1 } 0b1110000100001001
+0xe10a // BranchE2 { imm: 10, immx: 1 } 0b1110000100001010
+0xe10b // BranchE2 { imm: 11, immx: 1 } 0b1110000100001011
+0xe10c // BranchE2 { imm: 12, immx: 1 } 0b1110000100001100
+0xe10d // BranchE2 { imm: 13, immx: 1 } 0b1110000100001101
+0xe10e // BranchE2 { imm: 14, immx: 1 } 0b1110000100001110
+0xe10f // BranchE2 { imm: 15, immx: 1 } 0b1110000100001111
+0xe110 // BranchE2 { imm: 16, immx: 1 } 0b1110000100010000
+0xe111 // BranchE2 { imm: 17, immx: 1 } 0b1110000100010001
+0xe112 // BranchE2 { imm: 18, immx: 1 } 0b1110000100010010
+0xe113 // BranchE2 { imm: 19, immx: 1 } 0b1110000100010011
+0xe114 // BranchE2 { imm: 20, immx: 1 } 0b1110000100010100
+0xe115 // BranchE2 { imm: 21, immx: 1 } 0b1110000100010101
+0xe116 // BranchE2 { imm: 22, immx: 1 } 0b1110000100010110
+0xe117 // BranchE2 { imm: 23, immx: 1 } 0b1110000100010111
+0xe118 // BranchE2 { imm: 24, immx: 1 } 0b1110000100011000
+0xe119 // BranchE2 { imm: 25, immx: 1 } 0b1110000100011001
+0xe11a // BranchE2 { imm: 26, immx: 1 } 0b1110000100011010
+0xe11b // BranchE2 { imm: 27, immx: 1 } 0b1110000100011011
+0xe11c // BranchE2 { imm: 28, immx: 1 } 0b1110000100011100
+0xe11d // BranchE2 { imm: 29, immx: 1 } 0b1110000100011101
+0xe11e // BranchE2 { imm: 30, immx: 1 } 0b1110000100011110
+0xe11f // BranchE2 { imm: 31, immx: 1 } 0b1110000100011111
+0xe120 // BranchE2 { imm: 32, immx: 1 } 0b1110000100100000
+0xe121 // BranchE2 { imm: 33, immx: 1 } 0b1110000100100001
+0xe122 // BranchE2 { imm: 34, immx: 1 } 0b1110000100100010
+0xe123 // BranchE2 { imm: 35, immx: 1 } 0b1110000100100011
+0xe124 // BranchE2 { imm: 36, immx: 1 } 0b1110000100100100
+0xe125 // BranchE2 { imm: 37, immx: 1 } 0b1110000100100101
+0xe126 // BranchE2 { imm: 38, immx: 1 } 0b1110000100100110
+0xe127 // BranchE2 { imm: 39, immx: 1 } 0b1110000100100111
+0xe128 // BranchE2 { imm: 40, immx: 1 } 0b1110000100101000
+0xe129 // BranchE2 { imm: 41, immx: 1 } 0b1110000100101001
+0xe12a // BranchE2 { imm: 42, immx: 1 } 0b1110000100101010
+0xe12b // BranchE2 { imm: 43, immx: 1 } 0b1110000100101011
+0xe12c // BranchE2 { imm: 44, immx: 1 } 0b1110000100101100
+0xe12d // BranchE2 { imm: 45, immx: 1 } 0b1110000100101101
+0xe12e // BranchE2 { imm: 46, immx: 1 } 0b1110000100101110
+0xe12f // BranchE2 { imm: 47, immx: 1 } 0b1110000100101111
+0xe130 // BranchE2 { imm: 48, immx: 1 } 0b1110000100110000
+0xe131 // BranchE2 { imm: 49, immx: 1 } 0b1110000100110001
+0xe132 // BranchE2 { imm: 50, immx: 1 } 0b1110000100110010
+0xe133 // BranchE2 { imm: 51, immx: 1 } 0b1110000100110011
+0xe134 // BranchE2 { imm: 52, immx: 1 } 0b1110000100110100
+0xe135 // BranchE2 { imm: 53, immx: 1 } 0b1110000100110101
+0xe136 // BranchE2 { imm: 54, immx: 1 } 0b1110000100110110
+0xe137 // BranchE2 { imm: 55, immx: 1 } 0b1110000100110111
+0xe138 // BranchE2 { imm: 56, immx: 1 } 0b1110000100111000
+0xe139 // BranchE2 { imm: 57, immx: 1 } 0b1110000100111001
+0xe13a // BranchE2 { imm: 58, immx: 1 } 0b1110000100111010
+0xe13b // BranchE2 { imm: 59, immx: 1 } 0b1110000100111011
+0xe13c // BranchE2 { imm: 60, immx: 1 } 0b1110000100111100
+0xe13d // BranchE2 { imm: 61, immx: 1 } 0b1110000100111101
+0xe13e // BranchE2 { imm: 62, immx: 1 } 0b1110000100111110
+0xe13f // BranchE2 { imm: 63, immx: 1 } 0b1110000100111111
+0xe140 // BranchE2 { imm: 64, immx: 1 } 0b1110000101000000
+0xe141 // BranchE2 { imm: 65, immx: 1 } 0b1110000101000001
+0xe142 // BranchE2 { imm: 66, immx: 1 } 0b1110000101000010
+0xe143 // BranchE2 { imm: 67, immx: 1 } 0b1110000101000011
+0xe144 // BranchE2 { imm: 68, immx: 1 } 0b1110000101000100
+0xe145 // BranchE2 { imm: 69, immx: 1 } 0b1110000101000101
+0xe146 // BranchE2 { imm: 70, immx: 1 } 0b1110000101000110
+0xe147 // BranchE2 { imm: 71, immx: 1 } 0b1110000101000111
+0xe148 // BranchE2 { imm: 72, immx: 1 } 0b1110000101001000
+0xe149 // BranchE2 { imm: 73, immx: 1 } 0b1110000101001001
+0xe14a // BranchE2 { imm: 74, immx: 1 } 0b1110000101001010
+0xe14b // BranchE2 { imm: 75, immx: 1 } 0b1110000101001011
+0xe14c // BranchE2 { imm: 76, immx: 1 } 0b1110000101001100
+0xe14d // BranchE2 { imm: 77, immx: 1 } 0b1110000101001101
+0xe14e // BranchE2 { imm: 78, immx: 1 } 0b1110000101001110
+0xe14f // BranchE2 { imm: 79, immx: 1 } 0b1110000101001111
+0xe150 // BranchE2 { imm: 80, immx: 1 } 0b1110000101010000
+0xe151 // BranchE2 { imm: 81, immx: 1 } 0b1110000101010001
+0xe152 // BranchE2 { imm: 82, immx: 1 } 0b1110000101010010
+0xe153 // BranchE2 { imm: 83, immx: 1 } 0b1110000101010011
+0xe154 // BranchE2 { imm: 84, immx: 1 } 0b1110000101010100
+0xe155 // BranchE2 { imm: 85, immx: 1 } 0b1110000101010101
+0xe156 // BranchE2 { imm: 86, immx: 1 } 0b1110000101010110
+0xe157 // BranchE2 { imm: 87, immx: 1 } 0b1110000101010111
+0xe158 // BranchE2 { imm: 88, immx: 1 } 0b1110000101011000
+0xe159 // BranchE2 { imm: 89, immx: 1 } 0b1110000101011001
+0xe15a // BranchE2 { imm: 90, immx: 1 } 0b1110000101011010
+0xe15b // BranchE2 { imm: 91, immx: 1 } 0b1110000101011011
+0xe15c // BranchE2 { imm: 92, immx: 1 } 0b1110000101011100
+0xe15d // BranchE2 { imm: 93, immx: 1 } 0b1110000101011101
+0xe15e // BranchE2 { imm: 94, immx: 1 } 0b1110000101011110
+0xe15f // BranchE2 { imm: 95, immx: 1 } 0b1110000101011111
+0xe160 // BranchE2 { imm: 96, immx: 1 } 0b1110000101100000
+0xe161 // BranchE2 { imm: 97, immx: 1 } 0b1110000101100001
+0xe162 // BranchE2 { imm: 98, immx: 1 } 0b1110000101100010
+0xe163 // BranchE2 { imm: 99, immx: 1 } 0b1110000101100011
+0xe164 // BranchE2 { imm: 100, immx: 1 } 0b1110000101100100
+0xe165 // BranchE2 { imm: 101, immx: 1 } 0b1110000101100101
+0xe166 // BranchE2 { imm: 102, immx: 1 } 0b1110000101100110
+0xe167 // BranchE2 { imm: 103, immx: 1 } 0b1110000101100111
+0xe168 // BranchE2 { imm: 104, immx: 1 } 0b1110000101101000
+0xe169 // BranchE2 { imm: 105, immx: 1 } 0b1110000101101001
+0xe16a // BranchE2 { imm: 106, immx: 1 } 0b1110000101101010
+0xe16b // BranchE2 { imm: 107, immx: 1 } 0b1110000101101011
+0xe16c // BranchE2 { imm: 108, immx: 1 } 0b1110000101101100
+0xe16d // BranchE2 { imm: 109, immx: 1 } 0b1110000101101101
+0xe16e // BranchE2 { imm: 110, immx: 1 } 0b1110000101101110
+0xe16f // BranchE2 { imm: 111, immx: 1 } 0b1110000101101111
+0xe170 // BranchE2 { imm: 112, immx: 1 } 0b1110000101110000
+0xe171 // BranchE2 { imm: 113, immx: 1 } 0b1110000101110001
+0xe172 // BranchE2 { imm: 114, immx: 1 } 0b1110000101110010
+0xe173 // BranchE2 { imm: 115, immx: 1 } 0b1110000101110011
+0xe174 // BranchE2 { imm: 116, immx: 1 } 0b1110000101110100
+0xe175 // BranchE2 { imm: 117, immx: 1 } 0b1110000101110101
+0xe176 // BranchE2 { imm: 118, immx: 1 } 0b1110000101110110
+0xe177 // BranchE2 { imm: 119, immx: 1 } 0b1110000101110111
+0xe178 // BranchE2 { imm: 120, immx: 1 } 0b1110000101111000
+0xe179 // BranchE2 { imm: 121, immx: 1 } 0b1110000101111001
+0xe17a // BranchE2 { imm: 122, immx: 1 } 0b1110000101111010
+0xe17b // BranchE2 { imm: 123, immx: 1 } 0b1110000101111011
+0xe17c // BranchE2 { imm: 124, immx: 1 } 0b1110000101111100
+0xe17d // BranchE2 { imm: 125, immx: 1 } 0b1110000101111101
+0xe17e // BranchE2 { imm: 126, immx: 1 } 0b1110000101111110
+0xe17f // BranchE2 { imm: 127, immx: 1 } 0b1110000101111111
+0xe180 // BranchE2 { imm: 128, immx: 1 } 0b1110000110000000
+0xe181 // BranchE2 { imm: 129, immx: 1 } 0b1110000110000001
+0xe182 // BranchE2 { imm: 130, immx: 1 } 0b1110000110000010
+0xe183 // BranchE2 { imm: 131, immx: 1 } 0b1110000110000011
+0xe184 // BranchE2 { imm: 132, immx: 1 } 0b1110000110000100
+0xe185 // BranchE2 { imm: 133, immx: 1 } 0b1110000110000101
+0xe186 // BranchE2 { imm: 134, immx: 1 } 0b1110000110000110
+0xe187 // BranchE2 { imm: 135, immx: 1 } 0b1110000110000111
+0xe188 // BranchE2 { imm: 136, immx: 1 } 0b1110000110001000
+0xe189 // BranchE2 { imm: 137, immx: 1 } 0b1110000110001001
+0xe18a // BranchE2 { imm: 138, immx: 1 } 0b1110000110001010
+0xe18b // BranchE2 { imm: 139, immx: 1 } 0b1110000110001011
+0xe18c // BranchE2 { imm: 140, immx: 1 } 0b1110000110001100
+0xe18d // BranchE2 { imm: 141, immx: 1 } 0b1110000110001101
+0xe18e // BranchE2 { imm: 142, immx: 1 } 0b1110000110001110
+0xe18f // BranchE2 { imm: 143, immx: 1 } 0b1110000110001111
+0xe190 // BranchE2 { imm: 144, immx: 1 } 0b1110000110010000
+0xe191 // BranchE2 { imm: 145, immx: 1 } 0b1110000110010001
+0xe192 // BranchE2 { imm: 146, immx: 1 } 0b1110000110010010
+0xe193 // BranchE2 { imm: 147, immx: 1 } 0b1110000110010011
+0xe194 // BranchE2 { imm: 148, immx: 1 } 0b1110000110010100
+0xe195 // BranchE2 { imm: 149, immx: 1 } 0b1110000110010101
+0xe196 // BranchE2 { imm: 150, immx: 1 } 0b1110000110010110
+0xe197 // BranchE2 { imm: 151, immx: 1 } 0b1110000110010111
+0xe198 // BranchE2 { imm: 152, immx: 1 } 0b1110000110011000
+0xe199 // BranchE2 { imm: 153, immx: 1 } 0b1110000110011001
+0xe19a // BranchE2 { imm: 154, immx: 1 } 0b1110000110011010
+0xe19b // BranchE2 { imm: 155, immx: 1 } 0b1110000110011011
+0xe19c // BranchE2 { imm: 156, immx: 1 } 0b1110000110011100
+0xe19d // BranchE2 { imm: 157, immx: 1 } 0b1110000110011101
+0xe19e // BranchE2 { imm: 158, immx: 1 } 0b1110000110011110
+0xe19f // BranchE2 { imm: 159, immx: 1 } 0b1110000110011111
+0xe1a0 // BranchE2 { imm: 160, immx: 1 } 0b1110000110100000
+0xe1a1 // BranchE2 { imm: 161, immx: 1 } 0b1110000110100001
+0xe1a2 // BranchE2 { imm: 162, immx: 1 } 0b1110000110100010
+0xe1a3 // BranchE2 { imm: 163, immx: 1 } 0b1110000110100011
+0xe1a4 // BranchE2 { imm: 164, immx: 1 } 0b1110000110100100
+0xe1a5 // BranchE2 { imm: 165, immx: 1 } 0b1110000110100101
+0xe1a6 // BranchE2 { imm: 166, immx: 1 } 0b1110000110100110
+0xe1a7 // BranchE2 { imm: 167, immx: 1 } 0b1110000110100111
+0xe1a8 // BranchE2 { imm: 168, immx: 1 } 0b1110000110101000
+0xe1a9 // BranchE2 { imm: 169, immx: 1 } 0b1110000110101001
+0xe1aa // BranchE2 { imm: 170, immx: 1 } 0b1110000110101010
+0xe1ab // BranchE2 { imm: 171, immx: 1 } 0b1110000110101011
+0xe1ac // BranchE2 { imm: 172, immx: 1 } 0b1110000110101100
+0xe1ad // BranchE2 { imm: 173, immx: 1 } 0b1110000110101101
+0xe1ae // BranchE2 { imm: 174, immx: 1 } 0b1110000110101110
+0xe1af // BranchE2 { imm: 175, immx: 1 } 0b1110000110101111
+0xe1b0 // BranchE2 { imm: 176, immx: 1 } 0b1110000110110000
+0xe1b1 // BranchE2 { imm: 177, immx: 1 } 0b1110000110110001
+0xe1b2 // BranchE2 { imm: 178, immx: 1 } 0b1110000110110010
+0xe1b3 // BranchE2 { imm: 179, immx: 1 } 0b1110000110110011
+0xe1b4 // BranchE2 { imm: 180, immx: 1 } 0b1110000110110100
+0xe1b5 // BranchE2 { imm: 181, immx: 1 } 0b1110000110110101
+0xe1b6 // BranchE2 { imm: 182, immx: 1 } 0b1110000110110110
+0xe1b7 // BranchE2 { imm: 183, immx: 1 } 0b1110000110110111
+0xe1b8 // BranchE2 { imm: 184, immx: 1 } 0b1110000110111000
+0xe1b9 // BranchE2 { imm: 185, immx: 1 } 0b1110000110111001
+0xe1ba // BranchE2 { imm: 186, immx: 1 } 0b1110000110111010
+0xe1bb // BranchE2 { imm: 187, immx: 1 } 0b1110000110111011
+0xe1bc // BranchE2 { imm: 188, immx: 1 } 0b1110000110111100
+0xe1bd // BranchE2 { imm: 189, immx: 1 } 0b1110000110111101
+0xe1be // BranchE2 { imm: 190, immx: 1 } 0b1110000110111110
+0xe1bf // BranchE2 { imm: 191, immx: 1 } 0b1110000110111111
+0xe1c0 // BranchE2 { imm: 192, immx: 1 } 0b1110000111000000
+0xe1c1 // BranchE2 { imm: 193, immx: 1 } 0b1110000111000001
+0xe1c2 // BranchE2 { imm: 194, immx: 1 } 0b1110000111000010
+0xe1c3 // BranchE2 { imm: 195, immx: 1 } 0b1110000111000011
+0xe1c4 // BranchE2 { imm: 196, immx: 1 } 0b1110000111000100
+0xe1c5 // BranchE2 { imm: 197, immx: 1 } 0b1110000111000101
+0xe1c6 // BranchE2 { imm: 198, immx: 1 } 0b1110000111000110
+0xe1c7 // BranchE2 { imm: 199, immx: 1 } 0b1110000111000111
+0xe1c8 // BranchE2 { imm: 200, immx: 1 } 0b1110000111001000
+0xe1c9 // BranchE2 { imm: 201, immx: 1 } 0b1110000111001001
+0xe1ca // BranchE2 { imm: 202, immx: 1 } 0b1110000111001010
+0xe1cb // BranchE2 { imm: 203, immx: 1 } 0b1110000111001011
+0xe1cc // BranchE2 { imm: 204, immx: 1 } 0b1110000111001100
+0xe1cd // BranchE2 { imm: 205, immx: 1 } 0b1110000111001101
+0xe1ce // BranchE2 { imm: 206, immx: 1 } 0b1110000111001110
+0xe1cf // BranchE2 { imm: 207, immx: 1 } 0b1110000111001111
+0xe1d0 // BranchE2 { imm: 208, immx: 1 } 0b1110000111010000
+0xe1d1 // BranchE2 { imm: 209, immx: 1 } 0b1110000111010001
+0xe1d2 // BranchE2 { imm: 210, immx: 1 } 0b1110000111010010
+0xe1d3 // BranchE2 { imm: 211, immx: 1 } 0b1110000111010011
+0xe1d4 // BranchE2 { imm: 212, immx: 1 } 0b1110000111010100
+0xe1d5 // BranchE2 { imm: 213, immx: 1 } 0b1110000111010101
+0xe1d6 // BranchE2 { imm: 214, immx: 1 } 0b1110000111010110
+0xe1d7 // BranchE2 { imm: 215, immx: 1 } 0b1110000111010111
+0xe1d8 // BranchE2 { imm: 216, immx: 1 } 0b1110000111011000
+0xe1d9 // BranchE2 { imm: 217, immx: 1 } 0b1110000111011001
+0xe1da // BranchE2 { imm: 218, immx: 1 } 0b1110000111011010
+0xe1db // BranchE2 { imm: 219, immx: 1 } 0b1110000111011011
+0xe1dc // BranchE2 { imm: 220, immx: 1 } 0b1110000111011100
+0xe1dd // BranchE2 { imm: 221, immx: 1 } 0b1110000111011101
+0xe1de // BranchE2 { imm: 222, immx: 1 } 0b1110000111011110
+0xe1df // BranchE2 { imm: 223, immx: 1 } 0b1110000111011111
+0xe1e0 // BranchE2 { imm: 224, immx: 1 } 0b1110000111100000
+0xe1e1 // BranchE2 { imm: 225, immx: 1 } 0b1110000111100001
+0xe1e2 // BranchE2 { imm: 226, immx: 1 } 0b1110000111100010
+0xe1e3 // BranchE2 { imm: 227, immx: 1 } 0b1110000111100011
+0xe1e4 // BranchE2 { imm: 228, immx: 1 } 0b1110000111100100
+0xe1e5 // BranchE2 { imm: 229, immx: 1 } 0b1110000111100101
+0xe1e6 // BranchE2 { imm: 230, immx: 1 } 0b1110000111100110
+0xe1e7 // BranchE2 { imm: 231, immx: 1 } 0b1110000111100111
+0xe1e8 // BranchE2 { imm: 232, immx: 1 } 0b1110000111101000
+0xe1e9 // BranchE2 { imm: 233, immx: 1 } 0b1110000111101001
+0xe1ea // BranchE2 { imm: 234, immx: 1 } 0b1110000111101010
+0xe1eb // BranchE2 { imm: 235, immx: 1 } 0b1110000111101011
+0xe1ec // BranchE2 { imm: 236, immx: 1 } 0b1110000111101100
+0xe1ed // BranchE2 { imm: 237, immx: 1 } 0b1110000111101101
+0xe1ee // BranchE2 { imm: 238, immx: 1 } 0b1110000111101110
+0xe1ef // BranchE2 { imm: 239, immx: 1 } 0b1110000111101111
+0xe1f0 // BranchE2 { imm: 240, immx: 1 } 0b1110000111110000
+0xe1f1 // BranchE2 { imm: 241, immx: 1 } 0b1110000111110001
+0xe1f2 // BranchE2 { imm: 242, immx: 1 } 0b1110000111110010
+0xe1f3 // BranchE2 { imm: 243, immx: 1 } 0b1110000111110011
+0xe1f4 // BranchE2 { imm: 244, immx: 1 } 0b1110000111110100
+0xe1f5 // BranchE2 { imm: 245, immx: 1 } 0b1110000111110101
+0xe1f6 // BranchE2 { imm: 246, immx: 1 } 0b1110000111110110
+0xe1f7 // BranchE2 { imm: 247, immx: 1 } 0b1110000111110111
+0xe1f8 // BranchE2 { imm: 248, immx: 1 } 0b1110000111111000
+0xe1f9 // BranchE2 { imm: 249, immx: 1 } 0b1110000111111001
+0xe1fa // BranchE2 { imm: 250, immx: 1 } 0b1110000111111010
+0xe1fb // BranchE2 { imm: 251, immx: 1 } 0b1110000111111011
+0xe1fc // BranchE2 { imm: 252, immx: 1 } 0b1110000111111100
+0xe1fd // BranchE2 { imm: 253, immx: 1 } 0b1110000111111101
+0xe1fe // BranchE2 { imm: 254, immx: 1 } 0b1110000111111110
+0xe1ff // BranchE2 { imm: 255, immx: 1 } 0b1110000111111111
+0xe200 // BranchE2 { imm: 0, immx: 2 } 0b1110001000000000
+0xe201 // BranchE2 { imm: 1, immx: 2 } 0b1110001000000001
+0xe202 // BranchE2 { imm: 2, immx: 2 } 0b1110001000000010
+0xe203 // BranchE2 { imm: 3, immx: 2 } 0b1110001000000011
+0xe204 // BranchE2 { imm: 4, immx: 2 } 0b1110001000000100
+0xe205 // BranchE2 { imm: 5, immx: 2 } 0b1110001000000101
+0xe206 // BranchE2 { imm: 6, immx: 2 } 0b1110001000000110
+0xe207 // BranchE2 { imm: 7, immx: 2 } 0b1110001000000111
+0xe208 // BranchE2 { imm: 8, immx: 2 } 0b1110001000001000
+0xe209 // BranchE2 { imm: 9, immx: 2 } 0b1110001000001001
+0xe20a // BranchE2 { imm: 10, immx: 2 } 0b1110001000001010
+0xe20b // BranchE2 { imm: 11, immx: 2 } 0b1110001000001011
+0xe20c // BranchE2 { imm: 12, immx: 2 } 0b1110001000001100
+0xe20d // BranchE2 { imm: 13, immx: 2 } 0b1110001000001101
+0xe20e // BranchE2 { imm: 14, immx: 2 } 0b1110001000001110
+0xe20f // BranchE2 { imm: 15, immx: 2 } 0b1110001000001111
+0xe210 // BranchE2 { imm: 16, immx: 2 } 0b1110001000010000
+0xe211 // BranchE2 { imm: 17, immx: 2 } 0b1110001000010001
+0xe212 // BranchE2 { imm: 18, immx: 2 } 0b1110001000010010
+0xe213 // BranchE2 { imm: 19, immx: 2 } 0b1110001000010011
+0xe214 // BranchE2 { imm: 20, immx: 2 } 0b1110001000010100
+0xe215 // BranchE2 { imm: 21, immx: 2 } 0b1110001000010101
+0xe216 // BranchE2 { imm: 22, immx: 2 } 0b1110001000010110
+0xe217 // BranchE2 { imm: 23, immx: 2 } 0b1110001000010111
+0xe218 // BranchE2 { imm: 24, immx: 2 } 0b1110001000011000
+0xe219 // BranchE2 { imm: 25, immx: 2 } 0b1110001000011001
+0xe21a // BranchE2 { imm: 26, immx: 2 } 0b1110001000011010
+0xe21b // BranchE2 { imm: 27, immx: 2 } 0b1110001000011011
+0xe21c // BranchE2 { imm: 28, immx: 2 } 0b1110001000011100
+0xe21d // BranchE2 { imm: 29, immx: 2 } 0b1110001000011101
+0xe21e // BranchE2 { imm: 30, immx: 2 } 0b1110001000011110
+0xe21f // BranchE2 { imm: 31, immx: 2 } 0b1110001000011111
+0xe220 // BranchE2 { imm: 32, immx: 2 } 0b1110001000100000
+0xe221 // BranchE2 { imm: 33, immx: 2 } 0b1110001000100001
+0xe222 // BranchE2 { imm: 34, immx: 2 } 0b1110001000100010
+0xe223 // BranchE2 { imm: 35, immx: 2 } 0b1110001000100011
+0xe224 // BranchE2 { imm: 36, immx: 2 } 0b1110001000100100
+0xe225 // BranchE2 { imm: 37, immx: 2 } 0b1110001000100101
+0xe226 // BranchE2 { imm: 38, immx: 2 } 0b1110001000100110
+0xe227 // BranchE2 { imm: 39, immx: 2 } 0b1110001000100111
+0xe228 // BranchE2 { imm: 40, immx: 2 } 0b1110001000101000
+0xe229 // BranchE2 { imm: 41, immx: 2 } 0b1110001000101001
+0xe22a // BranchE2 { imm: 42, immx: 2 } 0b1110001000101010
+0xe22b // BranchE2 { imm: 43, immx: 2 } 0b1110001000101011
+0xe22c // BranchE2 { imm: 44, immx: 2 } 0b1110001000101100
+0xe22d // BranchE2 { imm: 45, immx: 2 } 0b1110001000101101
+0xe22e // BranchE2 { imm: 46, immx: 2 } 0b1110001000101110
+0xe22f // BranchE2 { imm: 47, immx: 2 } 0b1110001000101111
+0xe230 // BranchE2 { imm: 48, immx: 2 } 0b1110001000110000
+0xe231 // BranchE2 { imm: 49, immx: 2 } 0b1110001000110001
+0xe232 // BranchE2 { imm: 50, immx: 2 } 0b1110001000110010
+0xe233 // BranchE2 { imm: 51, immx: 2 } 0b1110001000110011
+0xe234 // BranchE2 { imm: 52, immx: 2 } 0b1110001000110100
+0xe235 // BranchE2 { imm: 53, immx: 2 } 0b1110001000110101
+0xe236 // BranchE2 { imm: 54, immx: 2 } 0b1110001000110110
+0xe237 // BranchE2 { imm: 55, immx: 2 } 0b1110001000110111
+0xe238 // BranchE2 { imm: 56, immx: 2 } 0b1110001000111000
+0xe239 // BranchE2 { imm: 57, immx: 2 } 0b1110001000111001
+0xe23a // BranchE2 { imm: 58, immx: 2 } 0b1110001000111010
+0xe23b // BranchE2 { imm: 59, immx: 2 } 0b1110001000111011
+0xe23c // BranchE2 { imm: 60, immx: 2 } 0b1110001000111100
+0xe23d // BranchE2 { imm: 61, immx: 2 } 0b1110001000111101
+0xe23e // BranchE2 { imm: 62, immx: 2 } 0b1110001000111110
+0xe23f // BranchE2 { imm: 63, immx: 2 } 0b1110001000111111
+0xe240 // BranchE2 { imm: 64, immx: 2 } 0b1110001001000000
+0xe241 // BranchE2 { imm: 65, immx: 2 } 0b1110001001000001
+0xe242 // BranchE2 { imm: 66, immx: 2 } 0b1110001001000010
+0xe243 // BranchE2 { imm: 67, immx: 2 } 0b1110001001000011
+0xe244 // BranchE2 { imm: 68, immx: 2 } 0b1110001001000100
+0xe245 // BranchE2 { imm: 69, immx: 2 } 0b1110001001000101
+0xe246 // BranchE2 { imm: 70, immx: 2 } 0b1110001001000110
+0xe247 // BranchE2 { imm: 71, immx: 2 } 0b1110001001000111
+0xe248 // BranchE2 { imm: 72, immx: 2 } 0b1110001001001000
+0xe249 // BranchE2 { imm: 73, immx: 2 } 0b1110001001001001
+0xe24a // BranchE2 { imm: 74, immx: 2 } 0b1110001001001010
+0xe24b // BranchE2 { imm: 75, immx: 2 } 0b1110001001001011
+0xe24c // BranchE2 { imm: 76, immx: 2 } 0b1110001001001100
+0xe24d // BranchE2 { imm: 77, immx: 2 } 0b1110001001001101
+0xe24e // BranchE2 { imm: 78, immx: 2 } 0b1110001001001110
+0xe24f // BranchE2 { imm: 79, immx: 2 } 0b1110001001001111
+0xe250 // BranchE2 { imm: 80, immx: 2 } 0b1110001001010000
+0xe251 // BranchE2 { imm: 81, immx: 2 } 0b1110001001010001
+0xe252 // BranchE2 { imm: 82, immx: 2 } 0b1110001001010010
+0xe253 // BranchE2 { imm: 83, immx: 2 } 0b1110001001010011
+0xe254 // BranchE2 { imm: 84, immx: 2 } 0b1110001001010100
+0xe255 // BranchE2 { imm: 85, immx: 2 } 0b1110001001010101
+0xe256 // BranchE2 { imm: 86, immx: 2 } 0b1110001001010110
+0xe257 // BranchE2 { imm: 87, immx: 2 } 0b1110001001010111
+0xe258 // BranchE2 { imm: 88, immx: 2 } 0b1110001001011000
+0xe259 // BranchE2 { imm: 89, immx: 2 } 0b1110001001011001
+0xe25a // BranchE2 { imm: 90, immx: 2 } 0b1110001001011010
+0xe25b // BranchE2 { imm: 91, immx: 2 } 0b1110001001011011
+0xe25c // BranchE2 { imm: 92, immx: 2 } 0b1110001001011100
+0xe25d // BranchE2 { imm: 93, immx: 2 } 0b1110001001011101
+0xe25e // BranchE2 { imm: 94, immx: 2 } 0b1110001001011110
+0xe25f // BranchE2 { imm: 95, immx: 2 } 0b1110001001011111
+0xe260 // BranchE2 { imm: 96, immx: 2 } 0b1110001001100000
+0xe261 // BranchE2 { imm: 97, immx: 2 } 0b1110001001100001
+0xe262 // BranchE2 { imm: 98, immx: 2 } 0b1110001001100010
+0xe263 // BranchE2 { imm: 99, immx: 2 } 0b1110001001100011
+0xe264 // BranchE2 { imm: 100, immx: 2 } 0b1110001001100100
+0xe265 // BranchE2 { imm: 101, immx: 2 } 0b1110001001100101
+0xe266 // BranchE2 { imm: 102, immx: 2 } 0b1110001001100110
+0xe267 // BranchE2 { imm: 103, immx: 2 } 0b1110001001100111
+0xe268 // BranchE2 { imm: 104, immx: 2 } 0b1110001001101000
+0xe269 // BranchE2 { imm: 105, immx: 2 } 0b1110001001101001
+0xe26a // BranchE2 { imm: 106, immx: 2 } 0b1110001001101010
+0xe26b // BranchE2 { imm: 107, immx: 2 } 0b1110001001101011
+0xe26c // BranchE2 { imm: 108, immx: 2 } 0b1110001001101100
+0xe26d // BranchE2 { imm: 109, immx: 2 } 0b1110001001101101
+0xe26e // BranchE2 { imm: 110, immx: 2 } 0b1110001001101110
+0xe26f // BranchE2 { imm: 111, immx: 2 } 0b1110001001101111
+0xe270 // BranchE2 { imm: 112, immx: 2 } 0b1110001001110000
+0xe271 // BranchE2 { imm: 113, immx: 2 } 0b1110001001110001
+0xe272 // BranchE2 { imm: 114, immx: 2 } 0b1110001001110010
+0xe273 // BranchE2 { imm: 115, immx: 2 } 0b1110001001110011
+0xe274 // BranchE2 { imm: 116, immx: 2 } 0b1110001001110100
+0xe275 // BranchE2 { imm: 117, immx: 2 } 0b1110001001110101
+0xe276 // BranchE2 { imm: 118, immx: 2 } 0b1110001001110110
+0xe277 // BranchE2 { imm: 119, immx: 2 } 0b1110001001110111
+0xe278 // BranchE2 { imm: 120, immx: 2 } 0b1110001001111000
+0xe279 // BranchE2 { imm: 121, immx: 2 } 0b1110001001111001
+0xe27a // BranchE2 { imm: 122, immx: 2 } 0b1110001001111010
+0xe27b // BranchE2 { imm: 123, immx: 2 } 0b1110001001111011
+0xe27c // BranchE2 { imm: 124, immx: 2 } 0b1110001001111100
+0xe27d // BranchE2 { imm: 125, immx: 2 } 0b1110001001111101
+0xe27e // BranchE2 { imm: 126, immx: 2 } 0b1110001001111110
+0xe27f // BranchE2 { imm: 127, immx: 2 } 0b1110001001111111
+0xe280 // BranchE2 { imm: 128, immx: 2 } 0b1110001010000000
+0xe281 // BranchE2 { imm: 129, immx: 2 } 0b1110001010000001
+0xe282 // BranchE2 { imm: 130, immx: 2 } 0b1110001010000010
+0xe283 // BranchE2 { imm: 131, immx: 2 } 0b1110001010000011
+0xe284 // BranchE2 { imm: 132, immx: 2 } 0b1110001010000100
+0xe285 // BranchE2 { imm: 133, immx: 2 } 0b1110001010000101
+0xe286 // BranchE2 { imm: 134, immx: 2 } 0b1110001010000110
+0xe287 // BranchE2 { imm: 135, immx: 2 } 0b1110001010000111
+0xe288 // BranchE2 { imm: 136, immx: 2 } 0b1110001010001000
+0xe289 // BranchE2 { imm: 137, immx: 2 } 0b1110001010001001
+0xe28a // BranchE2 { imm: 138, immx: 2 } 0b1110001010001010
+0xe28b // BranchE2 { imm: 139, immx: 2 } 0b1110001010001011
+0xe28c // BranchE2 { imm: 140, immx: 2 } 0b1110001010001100
+0xe28d // BranchE2 { imm: 141, immx: 2 } 0b1110001010001101
+0xe28e // BranchE2 { imm: 142, immx: 2 } 0b1110001010001110
+0xe28f // BranchE2 { imm: 143, immx: 2 } 0b1110001010001111
+0xe290 // BranchE2 { imm: 144, immx: 2 } 0b1110001010010000
+0xe291 // BranchE2 { imm: 145, immx: 2 } 0b1110001010010001
+0xe292 // BranchE2 { imm: 146, immx: 2 } 0b1110001010010010
+0xe293 // BranchE2 { imm: 147, immx: 2 } 0b1110001010010011
+0xe294 // BranchE2 { imm: 148, immx: 2 } 0b1110001010010100
+0xe295 // BranchE2 { imm: 149, immx: 2 } 0b1110001010010101
+0xe296 // BranchE2 { imm: 150, immx: 2 } 0b1110001010010110
+0xe297 // BranchE2 { imm: 151, immx: 2 } 0b1110001010010111
+0xe298 // BranchE2 { imm: 152, immx: 2 } 0b1110001010011000
+0xe299 // BranchE2 { imm: 153, immx: 2 } 0b1110001010011001
+0xe29a // BranchE2 { imm: 154, immx: 2 } 0b1110001010011010
+0xe29b // BranchE2 { imm: 155, immx: 2 } 0b1110001010011011
+0xe29c // BranchE2 { imm: 156, immx: 2 } 0b1110001010011100
+0xe29d // BranchE2 { imm: 157, immx: 2 } 0b1110001010011101
+0xe29e // BranchE2 { imm: 158, immx: 2 } 0b1110001010011110
+0xe29f // BranchE2 { imm: 159, immx: 2 } 0b1110001010011111
+0xe2a0 // BranchE2 { imm: 160, immx: 2 } 0b1110001010100000
+0xe2a1 // BranchE2 { imm: 161, immx: 2 } 0b1110001010100001
+0xe2a2 // BranchE2 { imm: 162, immx: 2 } 0b1110001010100010
+0xe2a3 // BranchE2 { imm: 163, immx: 2 } 0b1110001010100011
+0xe2a4 // BranchE2 { imm: 164, immx: 2 } 0b1110001010100100
+0xe2a5 // BranchE2 { imm: 165, immx: 2 } 0b1110001010100101
+0xe2a6 // BranchE2 { imm: 166, immx: 2 } 0b1110001010100110
+0xe2a7 // BranchE2 { imm: 167, immx: 2 } 0b1110001010100111
+0xe2a8 // BranchE2 { imm: 168, immx: 2 } 0b1110001010101000
+0xe2a9 // BranchE2 { imm: 169, immx: 2 } 0b1110001010101001
+0xe2aa // BranchE2 { imm: 170, immx: 2 } 0b1110001010101010
+0xe2ab // BranchE2 { imm: 171, immx: 2 } 0b1110001010101011
+0xe2ac // BranchE2 { imm: 172, immx: 2 } 0b1110001010101100
+0xe2ad // BranchE2 { imm: 173, immx: 2 } 0b1110001010101101
+0xe2ae // BranchE2 { imm: 174, immx: 2 } 0b1110001010101110
+0xe2af // BranchE2 { imm: 175, immx: 2 } 0b1110001010101111
+0xe2b0 // BranchE2 { imm: 176, immx: 2 } 0b1110001010110000
+0xe2b1 // BranchE2 { imm: 177, immx: 2 } 0b1110001010110001
+0xe2b2 // BranchE2 { imm: 178, immx: 2 } 0b1110001010110010
+0xe2b3 // BranchE2 { imm: 179, immx: 2 } 0b1110001010110011
+0xe2b4 // BranchE2 { imm: 180, immx: 2 } 0b1110001010110100
+0xe2b5 // BranchE2 { imm: 181, immx: 2 } 0b1110001010110101
+0xe2b6 // BranchE2 { imm: 182, immx: 2 } 0b1110001010110110
+0xe2b7 // BranchE2 { imm: 183, immx: 2 } 0b1110001010110111
+0xe2b8 // BranchE2 { imm: 184, immx: 2 } 0b1110001010111000
+0xe2b9 // BranchE2 { imm: 185, immx: 2 } 0b1110001010111001
+0xe2ba // BranchE2 { imm: 186, immx: 2 } 0b1110001010111010
+0xe2bb // BranchE2 { imm: 187, immx: 2 } 0b1110001010111011
+0xe2bc // BranchE2 { imm: 188, immx: 2 } 0b1110001010111100
+0xe2bd // BranchE2 { imm: 189, immx: 2 } 0b1110001010111101
+0xe2be // BranchE2 { imm: 190, immx: 2 } 0b1110001010111110
+0xe2bf // BranchE2 { imm: 191, immx: 2 } 0b1110001010111111
+0xe2c0 // BranchE2 { imm: 192, immx: 2 } 0b1110001011000000
+0xe2c1 // BranchE2 { imm: 193, immx: 2 } 0b1110001011000001
+0xe2c2 // BranchE2 { imm: 194, immx: 2 } 0b1110001011000010
+0xe2c3 // BranchE2 { imm: 195, immx: 2 } 0b1110001011000011
+0xe2c4 // BranchE2 { imm: 196, immx: 2 } 0b1110001011000100
+0xe2c5 // BranchE2 { imm: 197, immx: 2 } 0b1110001011000101
+0xe2c6 // BranchE2 { imm: 198, immx: 2 } 0b1110001011000110
+0xe2c7 // BranchE2 { imm: 199, immx: 2 } 0b1110001011000111
+0xe2c8 // BranchE2 { imm: 200, immx: 2 } 0b1110001011001000
+0xe2c9 // BranchE2 { imm: 201, immx: 2 } 0b1110001011001001
+0xe2ca // BranchE2 { imm: 202, immx: 2 } 0b1110001011001010
+0xe2cb // BranchE2 { imm: 203, immx: 2 } 0b1110001011001011
+0xe2cc // BranchE2 { imm: 204, immx: 2 } 0b1110001011001100
+0xe2cd // BranchE2 { imm: 205, immx: 2 } 0b1110001011001101
+0xe2ce // BranchE2 { imm: 206, immx: 2 } 0b1110001011001110
+0xe2cf // BranchE2 { imm: 207, immx: 2 } 0b1110001011001111
+0xe2d0 // BranchE2 { imm: 208, immx: 2 } 0b1110001011010000
+0xe2d1 // BranchE2 { imm: 209, immx: 2 } 0b1110001011010001
+0xe2d2 // BranchE2 { imm: 210, immx: 2 } 0b1110001011010010
+0xe2d3 // BranchE2 { imm: 211, immx: 2 } 0b1110001011010011
+0xe2d4 // BranchE2 { imm: 212, immx: 2 } 0b1110001011010100
+0xe2d5 // BranchE2 { imm: 213, immx: 2 } 0b1110001011010101
+0xe2d6 // BranchE2 { imm: 214, immx: 2 } 0b1110001011010110
+0xe2d7 // BranchE2 { imm: 215, immx: 2 } 0b1110001011010111
+0xe2d8 // BranchE2 { imm: 216, immx: 2 } 0b1110001011011000
+0xe2d9 // BranchE2 { imm: 217, immx: 2 } 0b1110001011011001
+0xe2da // BranchE2 { imm: 218, immx: 2 } 0b1110001011011010
+0xe2db // BranchE2 { imm: 219, immx: 2 } 0b1110001011011011
+0xe2dc // BranchE2 { imm: 220, immx: 2 } 0b1110001011011100
+0xe2dd // BranchE2 { imm: 221, immx: 2 } 0b1110001011011101
+0xe2de // BranchE2 { imm: 222, immx: 2 } 0b1110001011011110
+0xe2df // BranchE2 { imm: 223, immx: 2 } 0b1110001011011111
+0xe2e0 // BranchE2 { imm: 224, immx: 2 } 0b1110001011100000
+0xe2e1 // BranchE2 { imm: 225, immx: 2 } 0b1110001011100001
+0xe2e2 // BranchE2 { imm: 226, immx: 2 } 0b1110001011100010
+0xe2e3 // BranchE2 { imm: 227, immx: 2 } 0b1110001011100011
+0xe2e4 // BranchE2 { imm: 228, immx: 2 } 0b1110001011100100
+0xe2e5 // BranchE2 { imm: 229, immx: 2 } 0b1110001011100101
+0xe2e6 // BranchE2 { imm: 230, immx: 2 } 0b1110001011100110
+0xe2e7 // BranchE2 { imm: 231, immx: 2 } 0b1110001011100111
+0xe2e8 // BranchE2 { imm: 232, immx: 2 } 0b1110001011101000
+0xe2e9 // BranchE2 { imm: 233, immx: 2 } 0b1110001011101001
+0xe2ea // BranchE2 { imm: 234, immx: 2 } 0b1110001011101010
+0xe2eb // BranchE2 { imm: 235, immx: 2 } 0b1110001011101011
+0xe2ec // BranchE2 { imm: 236, immx: 2 } 0b1110001011101100
+0xe2ed // BranchE2 { imm: 237, immx: 2 } 0b1110001011101101
+0xe2ee // BranchE2 { imm: 238, immx: 2 } 0b1110001011101110
+0xe2ef // BranchE2 { imm: 239, immx: 2 } 0b1110001011101111
+0xe2f0 // BranchE2 { imm: 240, immx: 2 } 0b1110001011110000
+0xe2f1 // BranchE2 { imm: 241, immx: 2 } 0b1110001011110001
+0xe2f2 // BranchE2 { imm: 242, immx: 2 } 0b1110001011110010
+0xe2f3 // BranchE2 { imm: 243, immx: 2 } 0b1110001011110011
+0xe2f4 // BranchE2 { imm: 244, immx: 2 } 0b1110001011110100
+0xe2f5 // BranchE2 { imm: 245, immx: 2 } 0b1110001011110101
+0xe2f6 // BranchE2 { imm: 246, immx: 2 } 0b1110001011110110
+0xe2f7 // BranchE2 { imm: 247, immx: 2 } 0b1110001011110111
+0xe2f8 // BranchE2 { imm: 248, immx: 2 } 0b1110001011111000
+0xe2f9 // BranchE2 { imm: 249, immx: 2 } 0b1110001011111001
+0xe2fa // BranchE2 { imm: 250, immx: 2 } 0b1110001011111010
+0xe2fb // BranchE2 { imm: 251, immx: 2 } 0b1110001011111011
+0xe2fc // BranchE2 { imm: 252, immx: 2 } 0b1110001011111100
+0xe2fd // BranchE2 { imm: 253, immx: 2 } 0b1110001011111101
+0xe2fe // BranchE2 { imm: 254, immx: 2 } 0b1110001011111110
+0xe2ff // BranchE2 { imm: 255, immx: 2 } 0b1110001011111111
+0xe300 // BranchE2 { imm: 0, immx: 3 } 0b1110001100000000
+0xe301 // BranchE2 { imm: 1, immx: 3 } 0b1110001100000001
+0xe302 // BranchE2 { imm: 2, immx: 3 } 0b1110001100000010
+0xe303 // BranchE2 { imm: 3, immx: 3 } 0b1110001100000011
+0xe304 // BranchE2 { imm: 4, immx: 3 } 0b1110001100000100
+0xe305 // BranchE2 { imm: 5, immx: 3 } 0b1110001100000101
+0xe306 // BranchE2 { imm: 6, immx: 3 } 0b1110001100000110
+0xe307 // BranchE2 { imm: 7, immx: 3 } 0b1110001100000111
+0xe308 // BranchE2 { imm: 8, immx: 3 } 0b1110001100001000
+0xe309 // BranchE2 { imm: 9, immx: 3 } 0b1110001100001001
+0xe30a // BranchE2 { imm: 10, immx: 3 } 0b1110001100001010
+0xe30b // BranchE2 { imm: 11, immx: 3 } 0b1110001100001011
+0xe30c // BranchE2 { imm: 12, immx: 3 } 0b1110001100001100
+0xe30d // BranchE2 { imm: 13, immx: 3 } 0b1110001100001101
+0xe30e // BranchE2 { imm: 14, immx: 3 } 0b1110001100001110
+0xe30f // BranchE2 { imm: 15, immx: 3 } 0b1110001100001111
+0xe310 // BranchE2 { imm: 16, immx: 3 } 0b1110001100010000
+0xe311 // BranchE2 { imm: 17, immx: 3 } 0b1110001100010001
+0xe312 // BranchE2 { imm: 18, immx: 3 } 0b1110001100010010
+0xe313 // BranchE2 { imm: 19, immx: 3 } 0b1110001100010011
+0xe314 // BranchE2 { imm: 20, immx: 3 } 0b1110001100010100
+0xe315 // BranchE2 { imm: 21, immx: 3 } 0b1110001100010101
+0xe316 // BranchE2 { imm: 22, immx: 3 } 0b1110001100010110
+0xe317 // BranchE2 { imm: 23, immx: 3 } 0b1110001100010111
+0xe318 // BranchE2 { imm: 24, immx: 3 } 0b1110001100011000
+0xe319 // BranchE2 { imm: 25, immx: 3 } 0b1110001100011001
+0xe31a // BranchE2 { imm: 26, immx: 3 } 0b1110001100011010
+0xe31b // BranchE2 { imm: 27, immx: 3 } 0b1110001100011011
+0xe31c // BranchE2 { imm: 28, immx: 3 } 0b1110001100011100
+0xe31d // BranchE2 { imm: 29, immx: 3 } 0b1110001100011101
+0xe31e // BranchE2 { imm: 30, immx: 3 } 0b1110001100011110
+0xe31f // BranchE2 { imm: 31, immx: 3 } 0b1110001100011111
+0xe320 // BranchE2 { imm: 32, immx: 3 } 0b1110001100100000
+0xe321 // BranchE2 { imm: 33, immx: 3 } 0b1110001100100001
+0xe322 // BranchE2 { imm: 34, immx: 3 } 0b1110001100100010
+0xe323 // BranchE2 { imm: 35, immx: 3 } 0b1110001100100011
+0xe324 // BranchE2 { imm: 36, immx: 3 } 0b1110001100100100
+0xe325 // BranchE2 { imm: 37, immx: 3 } 0b1110001100100101
+0xe326 // BranchE2 { imm: 38, immx: 3 } 0b1110001100100110
+0xe327 // BranchE2 { imm: 39, immx: 3 } 0b1110001100100111
+0xe328 // BranchE2 { imm: 40, immx: 3 } 0b1110001100101000
+0xe329 // BranchE2 { imm: 41, immx: 3 } 0b1110001100101001
+0xe32a // BranchE2 { imm: 42, immx: 3 } 0b1110001100101010
+0xe32b // BranchE2 { imm: 43, immx: 3 } 0b1110001100101011
+0xe32c // BranchE2 { imm: 44, immx: 3 } 0b1110001100101100
+0xe32d // BranchE2 { imm: 45, immx: 3 } 0b1110001100101101
+0xe32e // BranchE2 { imm: 46, immx: 3 } 0b1110001100101110
+0xe32f // BranchE2 { imm: 47, immx: 3 } 0b1110001100101111
+0xe330 // BranchE2 { imm: 48, immx: 3 } 0b1110001100110000
+0xe331 // BranchE2 { imm: 49, immx: 3 } 0b1110001100110001
+0xe332 // BranchE2 { imm: 50, immx: 3 } 0b1110001100110010
+0xe333 // BranchE2 { imm: 51, immx: 3 } 0b1110001100110011
+0xe334 // BranchE2 { imm: 52, immx: 3 } 0b1110001100110100
+0xe335 // BranchE2 { imm: 53, immx: 3 } 0b1110001100110101
+0xe336 // BranchE2 { imm: 54, immx: 3 } 0b1110001100110110
+0xe337 // BranchE2 { imm: 55, immx: 3 } 0b1110001100110111
+0xe338 // BranchE2 { imm: 56, immx: 3 } 0b1110001100111000
+0xe339 // BranchE2 { imm: 57, immx: 3 } 0b1110001100111001
+0xe33a // BranchE2 { imm: 58, immx: 3 } 0b1110001100111010
+0xe33b // BranchE2 { imm: 59, immx: 3 } 0b1110001100111011
+0xe33c // BranchE2 { imm: 60, immx: 3 } 0b1110001100111100
+0xe33d // BranchE2 { imm: 61, immx: 3 } 0b1110001100111101
+0xe33e // BranchE2 { imm: 62, immx: 3 } 0b1110001100111110
+0xe33f // BranchE2 { imm: 63, immx: 3 } 0b1110001100111111
+0xe340 // BranchE2 { imm: 64, immx: 3 } 0b1110001101000000
+0xe341 // BranchE2 { imm: 65, immx: 3 } 0b1110001101000001
+0xe342 // BranchE2 { imm: 66, immx: 3 } 0b1110001101000010
+0xe343 // BranchE2 { imm: 67, immx: 3 } 0b1110001101000011
+0xe344 // BranchE2 { imm: 68, immx: 3 } 0b1110001101000100
+0xe345 // BranchE2 { imm: 69, immx: 3 } 0b1110001101000101
+0xe346 // BranchE2 { imm: 70, immx: 3 } 0b1110001101000110
+0xe347 // BranchE2 { imm: 71, immx: 3 } 0b1110001101000111
+0xe348 // BranchE2 { imm: 72, immx: 3 } 0b1110001101001000
+0xe349 // BranchE2 { imm: 73, immx: 3 } 0b1110001101001001
+0xe34a // BranchE2 { imm: 74, immx: 3 } 0b1110001101001010
+0xe34b // BranchE2 { imm: 75, immx: 3 } 0b1110001101001011
+0xe34c // BranchE2 { imm: 76, immx: 3 } 0b1110001101001100
+0xe34d // BranchE2 { imm: 77, immx: 3 } 0b1110001101001101
+0xe34e // BranchE2 { imm: 78, immx: 3 } 0b1110001101001110
+0xe34f // BranchE2 { imm: 79, immx: 3 } 0b1110001101001111
+0xe350 // BranchE2 { imm: 80, immx: 3 } 0b1110001101010000
+0xe351 // BranchE2 { imm: 81, immx: 3 } 0b1110001101010001
+0xe352 // BranchE2 { imm: 82, immx: 3 } 0b1110001101010010
+0xe353 // BranchE2 { imm: 83, immx: 3 } 0b1110001101010011
+0xe354 // BranchE2 { imm: 84, immx: 3 } 0b1110001101010100
+0xe355 // BranchE2 { imm: 85, immx: 3 } 0b1110001101010101
+0xe356 // BranchE2 { imm: 86, immx: 3 } 0b1110001101010110
+0xe357 // BranchE2 { imm: 87, immx: 3 } 0b1110001101010111
+0xe358 // BranchE2 { imm: 88, immx: 3 } 0b1110001101011000
+0xe359 // BranchE2 { imm: 89, immx: 3 } 0b1110001101011001
+0xe35a // BranchE2 { imm: 90, immx: 3 } 0b1110001101011010
+0xe35b // BranchE2 { imm: 91, immx: 3 } 0b1110001101011011
+0xe35c // BranchE2 { imm: 92, immx: 3 } 0b1110001101011100
+0xe35d // BranchE2 { imm: 93, immx: 3 } 0b1110001101011101
+0xe35e // BranchE2 { imm: 94, immx: 3 } 0b1110001101011110
+0xe35f // BranchE2 { imm: 95, immx: 3 } 0b1110001101011111
+0xe360 // BranchE2 { imm: 96, immx: 3 } 0b1110001101100000
+0xe361 // BranchE2 { imm: 97, immx: 3 } 0b1110001101100001
+0xe362 // BranchE2 { imm: 98, immx: 3 } 0b1110001101100010
+0xe363 // BranchE2 { imm: 99, immx: 3 } 0b1110001101100011
+0xe364 // BranchE2 { imm: 100, immx: 3 } 0b1110001101100100
+0xe365 // BranchE2 { imm: 101, immx: 3 } 0b1110001101100101
+0xe366 // BranchE2 { imm: 102, immx: 3 } 0b1110001101100110
+0xe367 // BranchE2 { imm: 103, immx: 3 } 0b1110001101100111
+0xe368 // BranchE2 { imm: 104, immx: 3 } 0b1110001101101000
+0xe369 // BranchE2 { imm: 105, immx: 3 } 0b1110001101101001
+0xe36a // BranchE2 { imm: 106, immx: 3 } 0b1110001101101010
+0xe36b // BranchE2 { imm: 107, immx: 3 } 0b1110001101101011
+0xe36c // BranchE2 { imm: 108, immx: 3 } 0b1110001101101100
+0xe36d // BranchE2 { imm: 109, immx: 3 } 0b1110001101101101
+0xe36e // BranchE2 { imm: 110, immx: 3 } 0b1110001101101110
+0xe36f // BranchE2 { imm: 111, immx: 3 } 0b1110001101101111
+0xe370 // BranchE2 { imm: 112, immx: 3 } 0b1110001101110000
+0xe371 // BranchE2 { imm: 113, immx: 3 } 0b1110001101110001
+0xe372 // BranchE2 { imm: 114, immx: 3 } 0b1110001101110010
+0xe373 // BranchE2 { imm: 115, immx: 3 } 0b1110001101110011
+0xe374 // BranchE2 { imm: 116, immx: 3 } 0b1110001101110100
+0xe375 // BranchE2 { imm: 117, immx: 3 } 0b1110001101110101
+0xe376 // BranchE2 { imm: 118, immx: 3 } 0b1110001101110110
+0xe377 // BranchE2 { imm: 119, immx: 3 } 0b1110001101110111
+0xe378 // BranchE2 { imm: 120, immx: 3 } 0b1110001101111000
+0xe379 // BranchE2 { imm: 121, immx: 3 } 0b1110001101111001
+0xe37a // BranchE2 { imm: 122, immx: 3 } 0b1110001101111010
+0xe37b // BranchE2 { imm: 123, immx: 3 } 0b1110001101111011
+0xe37c // BranchE2 { imm: 124, immx: 3 } 0b1110001101111100
+0xe37d // BranchE2 { imm: 125, immx: 3 } 0b1110001101111101
+0xe37e // BranchE2 { imm: 126, immx: 3 } 0b1110001101111110
+0xe37f // BranchE2 { imm: 127, immx: 3 } 0b1110001101111111
+0xe380 // BranchE2 { imm: 128, immx: 3 } 0b1110001110000000
+0xe381 // BranchE2 { imm: 129, immx: 3 } 0b1110001110000001
+0xe382 // BranchE2 { imm: 130, immx: 3 } 0b1110001110000010
+0xe383 // BranchE2 { imm: 131, immx: 3 } 0b1110001110000011
+0xe384 // BranchE2 { imm: 132, immx: 3 } 0b1110001110000100
+0xe385 // BranchE2 { imm: 133, immx: 3 } 0b1110001110000101
+0xe386 // BranchE2 { imm: 134, immx: 3 } 0b1110001110000110
+0xe387 // BranchE2 { imm: 135, immx: 3 } 0b1110001110000111
+0xe388 // BranchE2 { imm: 136, immx: 3 } 0b1110001110001000
+0xe389 // BranchE2 { imm: 137, immx: 3 } 0b1110001110001001
+0xe38a // BranchE2 { imm: 138, immx: 3 } 0b1110001110001010
+0xe38b // BranchE2 { imm: 139, immx: 3 } 0b1110001110001011
+0xe38c // BranchE2 { imm: 140, immx: 3 } 0b1110001110001100
+0xe38d // BranchE2 { imm: 141, immx: 3 } 0b1110001110001101
+0xe38e // BranchE2 { imm: 142, immx: 3 } 0b1110001110001110
+0xe38f // BranchE2 { imm: 143, immx: 3 } 0b1110001110001111
+0xe390 // BranchE2 { imm: 144, immx: 3 } 0b1110001110010000
+0xe391 // BranchE2 { imm: 145, immx: 3 } 0b1110001110010001
+0xe392 // BranchE2 { imm: 146, immx: 3 } 0b1110001110010010
+0xe393 // BranchE2 { imm: 147, immx: 3 } 0b1110001110010011
+0xe394 // BranchE2 { imm: 148, immx: 3 } 0b1110001110010100
+0xe395 // BranchE2 { imm: 149, immx: 3 } 0b1110001110010101
+0xe396 // BranchE2 { imm: 150, immx: 3 } 0b1110001110010110
+0xe397 // BranchE2 { imm: 151, immx: 3 } 0b1110001110010111
+0xe398 // BranchE2 { imm: 152, immx: 3 } 0b1110001110011000
+0xe399 // BranchE2 { imm: 153, immx: 3 } 0b1110001110011001
+0xe39a // BranchE2 { imm: 154, immx: 3 } 0b1110001110011010
+0xe39b // BranchE2 { imm: 155, immx: 3 } 0b1110001110011011
+0xe39c // BranchE2 { imm: 156, immx: 3 } 0b1110001110011100
+0xe39d // BranchE2 { imm: 157, immx: 3 } 0b1110001110011101
+0xe39e // BranchE2 { imm: 158, immx: 3 } 0b1110001110011110
+0xe39f // BranchE2 { imm: 159, immx: 3 } 0b1110001110011111
+0xe3a0 // BranchE2 { imm: 160, immx: 3 } 0b1110001110100000
+0xe3a1 // BranchE2 { imm: 161, immx: 3 } 0b1110001110100001
+0xe3a2 // BranchE2 { imm: 162, immx: 3 } 0b1110001110100010
+0xe3a3 // BranchE2 { imm: 163, immx: 3 } 0b1110001110100011
+0xe3a4 // BranchE2 { imm: 164, immx: 3 } 0b1110001110100100
+0xe3a5 // BranchE2 { imm: 165, immx: 3 } 0b1110001110100101
+0xe3a6 // BranchE2 { imm: 166, immx: 3 } 0b1110001110100110
+0xe3a7 // BranchE2 { imm: 167, immx: 3 } 0b1110001110100111
+0xe3a8 // BranchE2 { imm: 168, immx: 3 } 0b1110001110101000
+0xe3a9 // BranchE2 { imm: 169, immx: 3 } 0b1110001110101001
+0xe3aa // BranchE2 { imm: 170, immx: 3 } 0b1110001110101010
+0xe3ab // BranchE2 { imm: 171, immx: 3 } 0b1110001110101011
+0xe3ac // BranchE2 { imm: 172, immx: 3 } 0b1110001110101100
+0xe3ad // BranchE2 { imm: 173, immx: 3 } 0b1110001110101101
+0xe3ae // BranchE2 { imm: 174, immx: 3 } 0b1110001110101110
+0xe3af // BranchE2 { imm: 175, immx: 3 } 0b1110001110101111
+0xe3b0 // BranchE2 { imm: 176, immx: 3 } 0b1110001110110000
+0xe3b1 // BranchE2 { imm: 177, immx: 3 } 0b1110001110110001
+0xe3b2 // BranchE2 { imm: 178, immx: 3 } 0b1110001110110010
+0xe3b3 // BranchE2 { imm: 179, immx: 3 } 0b1110001110110011
+0xe3b4 // BranchE2 { imm: 180, immx: 3 } 0b1110001110110100
+0xe3b5 // BranchE2 { imm: 181, immx: 3 } 0b1110001110110101
+0xe3b6 // BranchE2 { imm: 182, immx: 3 } 0b1110001110110110
+0xe3b7 // BranchE2 { imm: 183, immx: 3 } 0b1110001110110111
+0xe3b8 // BranchE2 { imm: 184, immx: 3 } 0b1110001110111000
+0xe3b9 // BranchE2 { imm: 185, immx: 3 } 0b1110001110111001
+0xe3ba // BranchE2 { imm: 186, immx: 3 } 0b1110001110111010
+0xe3bb // BranchE2 { imm: 187, immx: 3 } 0b1110001110111011
+0xe3bc // BranchE2 { imm: 188, immx: 3 } 0b1110001110111100
+0xe3bd // BranchE2 { imm: 189, immx: 3 } 0b1110001110111101
+0xe3be // BranchE2 { imm: 190, immx: 3 } 0b1110001110111110
+0xe3bf // BranchE2 { imm: 191, immx: 3 } 0b1110001110111111
+0xe3c0 // BranchE2 { imm: 192, immx: 3 } 0b1110001111000000
+0xe3c1 // BranchE2 { imm: 193, immx: 3 } 0b1110001111000001
+0xe3c2 // BranchE2 { imm: 194, immx: 3 } 0b1110001111000010
+0xe3c3 // BranchE2 { imm: 195, immx: 3 } 0b1110001111000011
+0xe3c4 // BranchE2 { imm: 196, immx: 3 } 0b1110001111000100
+0xe3c5 // BranchE2 { imm: 197, immx: 3 } 0b1110001111000101
+0xe3c6 // BranchE2 { imm: 198, immx: 3 } 0b1110001111000110
+0xe3c7 // BranchE2 { imm: 199, immx: 3 } 0b1110001111000111
+0xe3c8 // BranchE2 { imm: 200, immx: 3 } 0b1110001111001000
+0xe3c9 // BranchE2 { imm: 201, immx: 3 } 0b1110001111001001
+0xe3ca // BranchE2 { imm: 202, immx: 3 } 0b1110001111001010
+0xe3cb // BranchE2 { imm: 203, immx: 3 } 0b1110001111001011
+0xe3cc // BranchE2 { imm: 204, immx: 3 } 0b1110001111001100
+0xe3cd // BranchE2 { imm: 205, immx: 3 } 0b1110001111001101
+0xe3ce // BranchE2 { imm: 206, immx: 3 } 0b1110001111001110
+0xe3cf // BranchE2 { imm: 207, immx: 3 } 0b1110001111001111
+0xe3d0 // BranchE2 { imm: 208, immx: 3 } 0b1110001111010000
+0xe3d1 // BranchE2 { imm: 209, immx: 3 } 0b1110001111010001
+0xe3d2 // BranchE2 { imm: 210, immx: 3 } 0b1110001111010010
+0xe3d3 // BranchE2 { imm: 211, immx: 3 } 0b1110001111010011
+0xe3d4 // BranchE2 { imm: 212, immx: 3 } 0b1110001111010100
+0xe3d5 // BranchE2 { imm: 213, immx: 3 } 0b1110001111010101
+0xe3d6 // BranchE2 { imm: 214, immx: 3 } 0b1110001111010110
+0xe3d7 // BranchE2 { imm: 215, immx: 3 } 0b1110001111010111
+0xe3d8 // BranchE2 { imm: 216, immx: 3 } 0b1110001111011000
+0xe3d9 // BranchE2 { imm: 217, immx: 3 } 0b1110001111011001
+0xe3da // BranchE2 { imm: 218, immx: 3 } 0b1110001111011010
+0xe3db // BranchE2 { imm: 219, immx: 3 } 0b1110001111011011
+0xe3dc // BranchE2 { imm: 220, immx: 3 } 0b1110001111011100
+0xe3dd // BranchE2 { imm: 221, immx: 3 } 0b1110001111011101
+0xe3de // BranchE2 { imm: 222, immx: 3 } 0b1110001111011110
+0xe3df // BranchE2 { imm: 223, immx: 3 } 0b1110001111011111
+0xe3e0 // BranchE2 { imm: 224, immx: 3 } 0b1110001111100000
+0xe3e1 // BranchE2 { imm: 225, immx: 3 } 0b1110001111100001
+0xe3e2 // BranchE2 { imm: 226, immx: 3 } 0b1110001111100010
+0xe3e3 // BranchE2 { imm: 227, immx: 3 } 0b1110001111100011
+0xe3e4 // BranchE2 { imm: 228, immx: 3 } 0b1110001111100100
+0xe3e5 // BranchE2 { imm: 229, immx: 3 } 0b1110001111100101
+0xe3e6 // BranchE2 { imm: 230, immx: 3 } 0b1110001111100110
+0xe3e7 // BranchE2 { imm: 231, immx: 3 } 0b1110001111100111
+0xe3e8 // BranchE2 { imm: 232, immx: 3 } 0b1110001111101000
+0xe3e9 // BranchE2 { imm: 233, immx: 3 } 0b1110001111101001
+0xe3ea // BranchE2 { imm: 234, immx: 3 } 0b1110001111101010
+0xe3eb // BranchE2 { imm: 235, immx: 3 } 0b1110001111101011
+0xe3ec // BranchE2 { imm: 236, immx: 3 } 0b1110001111101100
+0xe3ed // BranchE2 { imm: 237, immx: 3 } 0b1110001111101101
+0xe3ee // BranchE2 { imm: 238, immx: 3 } 0b1110001111101110
+0xe3ef // BranchE2 { imm: 239, immx: 3 } 0b1110001111101111
+0xe3f0 // BranchE2 { imm: 240, immx: 3 } 0b1110001111110000
+0xe3f1 // BranchE2 { imm: 241, immx: 3 } 0b1110001111110001
+0xe3f2 // BranchE2 { imm: 242, immx: 3 } 0b1110001111110010
+0xe3f3 // BranchE2 { imm: 243, immx: 3 } 0b1110001111110011
+0xe3f4 // BranchE2 { imm: 244, immx: 3 } 0b1110001111110100
+0xe3f5 // BranchE2 { imm: 245, immx: 3 } 0b1110001111110101
+0xe3f6 // BranchE2 { imm: 246, immx: 3 } 0b1110001111110110
+0xe3f7 // BranchE2 { imm: 247, immx: 3 } 0b1110001111110111
+0xe3f8 // BranchE2 { imm: 248, immx: 3 } 0b1110001111111000
+0xe3f9 // BranchE2 { imm: 249, immx: 3 } 0b1110001111111001
+0xe3fa // BranchE2 { imm: 250, immx: 3 } 0b1110001111111010
+0xe3fb // BranchE2 { imm: 251, immx: 3 } 0b1110001111111011
+0xe3fc // BranchE2 { imm: 252, immx: 3 } 0b1110001111111100
+0xe3fd // BranchE2 { imm: 253, immx: 3 } 0b1110001111111101
+0xe3fe // BranchE2 { imm: 254, immx: 3 } 0b1110001111111110
+0xe3ff // BranchE2 { imm: 255, immx: 3 } 0b1110001111111111
+0xe400 // BranchE2 { imm: 0, immx: 4 } 0b1110010000000000
+0xe401 // BranchE2 { imm: 1, immx: 4 } 0b1110010000000001
+0xe402 // BranchE2 { imm: 2, immx: 4 } 0b1110010000000010
+0xe403 // BranchE2 { imm: 3, immx: 4 } 0b1110010000000011
+0xe404 // BranchE2 { imm: 4, immx: 4 } 0b1110010000000100
+0xe405 // BranchE2 { imm: 5, immx: 4 } 0b1110010000000101
+0xe406 // BranchE2 { imm: 6, immx: 4 } 0b1110010000000110
+0xe407 // BranchE2 { imm: 7, immx: 4 } 0b1110010000000111
+0xe408 // BranchE2 { imm: 8, immx: 4 } 0b1110010000001000
+0xe409 // BranchE2 { imm: 9, immx: 4 } 0b1110010000001001
+0xe40a // BranchE2 { imm: 10, immx: 4 } 0b1110010000001010
+0xe40b // BranchE2 { imm: 11, immx: 4 } 0b1110010000001011
+0xe40c // BranchE2 { imm: 12, immx: 4 } 0b1110010000001100
+0xe40d // BranchE2 { imm: 13, immx: 4 } 0b1110010000001101
+0xe40e // BranchE2 { imm: 14, immx: 4 } 0b1110010000001110
+0xe40f // BranchE2 { imm: 15, immx: 4 } 0b1110010000001111
+0xe410 // BranchE2 { imm: 16, immx: 4 } 0b1110010000010000
+0xe411 // BranchE2 { imm: 17, immx: 4 } 0b1110010000010001
+0xe412 // BranchE2 { imm: 18, immx: 4 } 0b1110010000010010
+0xe413 // BranchE2 { imm: 19, immx: 4 } 0b1110010000010011
+0xe414 // BranchE2 { imm: 20, immx: 4 } 0b1110010000010100
+0xe415 // BranchE2 { imm: 21, immx: 4 } 0b1110010000010101
+0xe416 // BranchE2 { imm: 22, immx: 4 } 0b1110010000010110
+0xe417 // BranchE2 { imm: 23, immx: 4 } 0b1110010000010111
+0xe418 // BranchE2 { imm: 24, immx: 4 } 0b1110010000011000
+0xe419 // BranchE2 { imm: 25, immx: 4 } 0b1110010000011001
+0xe41a // BranchE2 { imm: 26, immx: 4 } 0b1110010000011010
+0xe41b // BranchE2 { imm: 27, immx: 4 } 0b1110010000011011
+0xe41c // BranchE2 { imm: 28, immx: 4 } 0b1110010000011100
+0xe41d // BranchE2 { imm: 29, immx: 4 } 0b1110010000011101
+0xe41e // BranchE2 { imm: 30, immx: 4 } 0b1110010000011110
+0xe41f // BranchE2 { imm: 31, immx: 4 } 0b1110010000011111
+0xe420 // BranchE2 { imm: 32, immx: 4 } 0b1110010000100000
+0xe421 // BranchE2 { imm: 33, immx: 4 } 0b1110010000100001
+0xe422 // BranchE2 { imm: 34, immx: 4 } 0b1110010000100010
+0xe423 // BranchE2 { imm: 35, immx: 4 } 0b1110010000100011
+0xe424 // BranchE2 { imm: 36, immx: 4 } 0b1110010000100100
+0xe425 // BranchE2 { imm: 37, immx: 4 } 0b1110010000100101
+0xe426 // BranchE2 { imm: 38, immx: 4 } 0b1110010000100110
+0xe427 // BranchE2 { imm: 39, immx: 4 } 0b1110010000100111
+0xe428 // BranchE2 { imm: 40, immx: 4 } 0b1110010000101000
+0xe429 // BranchE2 { imm: 41, immx: 4 } 0b1110010000101001
+0xe42a // BranchE2 { imm: 42, immx: 4 } 0b1110010000101010
+0xe42b // BranchE2 { imm: 43, immx: 4 } 0b1110010000101011
+0xe42c // BranchE2 { imm: 44, immx: 4 } 0b1110010000101100
+0xe42d // BranchE2 { imm: 45, immx: 4 } 0b1110010000101101
+0xe42e // BranchE2 { imm: 46, immx: 4 } 0b1110010000101110
+0xe42f // BranchE2 { imm: 47, immx: 4 } 0b1110010000101111
+0xe430 // BranchE2 { imm: 48, immx: 4 } 0b1110010000110000
+0xe431 // BranchE2 { imm: 49, immx: 4 } 0b1110010000110001
+0xe432 // BranchE2 { imm: 50, immx: 4 } 0b1110010000110010
+0xe433 // BranchE2 { imm: 51, immx: 4 } 0b1110010000110011
+0xe434 // BranchE2 { imm: 52, immx: 4 } 0b1110010000110100
+0xe435 // BranchE2 { imm: 53, immx: 4 } 0b1110010000110101
+0xe436 // BranchE2 { imm: 54, immx: 4 } 0b1110010000110110
+0xe437 // BranchE2 { imm: 55, immx: 4 } 0b1110010000110111
+0xe438 // BranchE2 { imm: 56, immx: 4 } 0b1110010000111000
+0xe439 // BranchE2 { imm: 57, immx: 4 } 0b1110010000111001
+0xe43a // BranchE2 { imm: 58, immx: 4 } 0b1110010000111010
+0xe43b // BranchE2 { imm: 59, immx: 4 } 0b1110010000111011
+0xe43c // BranchE2 { imm: 60, immx: 4 } 0b1110010000111100
+0xe43d // BranchE2 { imm: 61, immx: 4 } 0b1110010000111101
+0xe43e // BranchE2 { imm: 62, immx: 4 } 0b1110010000111110
+0xe43f // BranchE2 { imm: 63, immx: 4 } 0b1110010000111111
+0xe440 // BranchE2 { imm: 64, immx: 4 } 0b1110010001000000
+0xe441 // BranchE2 { imm: 65, immx: 4 } 0b1110010001000001
+0xe442 // BranchE2 { imm: 66, immx: 4 } 0b1110010001000010
+0xe443 // BranchE2 { imm: 67, immx: 4 } 0b1110010001000011
+0xe444 // BranchE2 { imm: 68, immx: 4 } 0b1110010001000100
+0xe445 // BranchE2 { imm: 69, immx: 4 } 0b1110010001000101
+0xe446 // BranchE2 { imm: 70, immx: 4 } 0b1110010001000110
+0xe447 // BranchE2 { imm: 71, immx: 4 } 0b1110010001000111
+0xe448 // BranchE2 { imm: 72, immx: 4 } 0b1110010001001000
+0xe449 // BranchE2 { imm: 73, immx: 4 } 0b1110010001001001
+0xe44a // BranchE2 { imm: 74, immx: 4 } 0b1110010001001010
+0xe44b // BranchE2 { imm: 75, immx: 4 } 0b1110010001001011
+0xe44c // BranchE2 { imm: 76, immx: 4 } 0b1110010001001100
+0xe44d // BranchE2 { imm: 77, immx: 4 } 0b1110010001001101
+0xe44e // BranchE2 { imm: 78, immx: 4 } 0b1110010001001110
+0xe44f // BranchE2 { imm: 79, immx: 4 } 0b1110010001001111
+0xe450 // BranchE2 { imm: 80, immx: 4 } 0b1110010001010000
+0xe451 // BranchE2 { imm: 81, immx: 4 } 0b1110010001010001
+0xe452 // BranchE2 { imm: 82, immx: 4 } 0b1110010001010010
+0xe453 // BranchE2 { imm: 83, immx: 4 } 0b1110010001010011
+0xe454 // BranchE2 { imm: 84, immx: 4 } 0b1110010001010100
+0xe455 // BranchE2 { imm: 85, immx: 4 } 0b1110010001010101
+0xe456 // BranchE2 { imm: 86, immx: 4 } 0b1110010001010110
+0xe457 // BranchE2 { imm: 87, immx: 4 } 0b1110010001010111
+0xe458 // BranchE2 { imm: 88, immx: 4 } 0b1110010001011000
+0xe459 // BranchE2 { imm: 89, immx: 4 } 0b1110010001011001
+0xe45a // BranchE2 { imm: 90, immx: 4 } 0b1110010001011010
+0xe45b // BranchE2 { imm: 91, immx: 4 } 0b1110010001011011
+0xe45c // BranchE2 { imm: 92, immx: 4 } 0b1110010001011100
+0xe45d // BranchE2 { imm: 93, immx: 4 } 0b1110010001011101
+0xe45e // BranchE2 { imm: 94, immx: 4 } 0b1110010001011110
+0xe45f // BranchE2 { imm: 95, immx: 4 } 0b1110010001011111
+0xe460 // BranchE2 { imm: 96, immx: 4 } 0b1110010001100000
+0xe461 // BranchE2 { imm: 97, immx: 4 } 0b1110010001100001
+0xe462 // BranchE2 { imm: 98, immx: 4 } 0b1110010001100010
+0xe463 // BranchE2 { imm: 99, immx: 4 } 0b1110010001100011
+0xe464 // BranchE2 { imm: 100, immx: 4 } 0b1110010001100100
+0xe465 // BranchE2 { imm: 101, immx: 4 } 0b1110010001100101
+0xe466 // BranchE2 { imm: 102, immx: 4 } 0b1110010001100110
+0xe467 // BranchE2 { imm: 103, immx: 4 } 0b1110010001100111
+0xe468 // BranchE2 { imm: 104, immx: 4 } 0b1110010001101000
+0xe469 // BranchE2 { imm: 105, immx: 4 } 0b1110010001101001
+0xe46a // BranchE2 { imm: 106, immx: 4 } 0b1110010001101010
+0xe46b // BranchE2 { imm: 107, immx: 4 } 0b1110010001101011
+0xe46c // BranchE2 { imm: 108, immx: 4 } 0b1110010001101100
+0xe46d // BranchE2 { imm: 109, immx: 4 } 0b1110010001101101
+0xe46e // BranchE2 { imm: 110, immx: 4 } 0b1110010001101110
+0xe46f // BranchE2 { imm: 111, immx: 4 } 0b1110010001101111
+0xe470 // BranchE2 { imm: 112, immx: 4 } 0b1110010001110000
+0xe471 // BranchE2 { imm: 113, immx: 4 } 0b1110010001110001
+0xe472 // BranchE2 { imm: 114, immx: 4 } 0b1110010001110010
+0xe473 // BranchE2 { imm: 115, immx: 4 } 0b1110010001110011
+0xe474 // BranchE2 { imm: 116, immx: 4 } 0b1110010001110100
+0xe475 // BranchE2 { imm: 117, immx: 4 } 0b1110010001110101
+0xe476 // BranchE2 { imm: 118, immx: 4 } 0b1110010001110110
+0xe477 // BranchE2 { imm: 119, immx: 4 } 0b1110010001110111
+0xe478 // BranchE2 { imm: 120, immx: 4 } 0b1110010001111000
+0xe479 // BranchE2 { imm: 121, immx: 4 } 0b1110010001111001
+0xe47a // BranchE2 { imm: 122, immx: 4 } 0b1110010001111010
+0xe47b // BranchE2 { imm: 123, immx: 4 } 0b1110010001111011
+0xe47c // BranchE2 { imm: 124, immx: 4 } 0b1110010001111100
+0xe47d // BranchE2 { imm: 125, immx: 4 } 0b1110010001111101
+0xe47e // BranchE2 { imm: 126, immx: 4 } 0b1110010001111110
+0xe47f // BranchE2 { imm: 127, immx: 4 } 0b1110010001111111
+0xe480 // BranchE2 { imm: 128, immx: 4 } 0b1110010010000000
+0xe481 // BranchE2 { imm: 129, immx: 4 } 0b1110010010000001
+0xe482 // BranchE2 { imm: 130, immx: 4 } 0b1110010010000010
+0xe483 // BranchE2 { imm: 131, immx: 4 } 0b1110010010000011
+0xe484 // BranchE2 { imm: 132, immx: 4 } 0b1110010010000100
+0xe485 // BranchE2 { imm: 133, immx: 4 } 0b1110010010000101
+0xe486 // BranchE2 { imm: 134, immx: 4 } 0b1110010010000110
+0xe487 // BranchE2 { imm: 135, immx: 4 } 0b1110010010000111
+0xe488 // BranchE2 { imm: 136, immx: 4 } 0b1110010010001000
+0xe489 // BranchE2 { imm: 137, immx: 4 } 0b1110010010001001
+0xe48a // BranchE2 { imm: 138, immx: 4 } 0b1110010010001010
+0xe48b // BranchE2 { imm: 139, immx: 4 } 0b1110010010001011
+0xe48c // BranchE2 { imm: 140, immx: 4 } 0b1110010010001100
+0xe48d // BranchE2 { imm: 141, immx: 4 } 0b1110010010001101
+0xe48e // BranchE2 { imm: 142, immx: 4 } 0b1110010010001110
+0xe48f // BranchE2 { imm: 143, immx: 4 } 0b1110010010001111
+0xe490 // BranchE2 { imm: 144, immx: 4 } 0b1110010010010000
+0xe491 // BranchE2 { imm: 145, immx: 4 } 0b1110010010010001
+0xe492 // BranchE2 { imm: 146, immx: 4 } 0b1110010010010010
+0xe493 // BranchE2 { imm: 147, immx: 4 } 0b1110010010010011
+0xe494 // BranchE2 { imm: 148, immx: 4 } 0b1110010010010100
+0xe495 // BranchE2 { imm: 149, immx: 4 } 0b1110010010010101
+0xe496 // BranchE2 { imm: 150, immx: 4 } 0b1110010010010110
+0xe497 // BranchE2 { imm: 151, immx: 4 } 0b1110010010010111
+0xe498 // BranchE2 { imm: 152, immx: 4 } 0b1110010010011000
+0xe499 // BranchE2 { imm: 153, immx: 4 } 0b1110010010011001
+0xe49a // BranchE2 { imm: 154, immx: 4 } 0b1110010010011010
+0xe49b // BranchE2 { imm: 155, immx: 4 } 0b1110010010011011
+0xe49c // BranchE2 { imm: 156, immx: 4 } 0b1110010010011100
+0xe49d // BranchE2 { imm: 157, immx: 4 } 0b1110010010011101
+0xe49e // BranchE2 { imm: 158, immx: 4 } 0b1110010010011110
+0xe49f // BranchE2 { imm: 159, immx: 4 } 0b1110010010011111
+0xe4a0 // BranchE2 { imm: 160, immx: 4 } 0b1110010010100000
+0xe4a1 // BranchE2 { imm: 161, immx: 4 } 0b1110010010100001
+0xe4a2 // BranchE2 { imm: 162, immx: 4 } 0b1110010010100010
+0xe4a3 // BranchE2 { imm: 163, immx: 4 } 0b1110010010100011
+0xe4a4 // BranchE2 { imm: 164, immx: 4 } 0b1110010010100100
+0xe4a5 // BranchE2 { imm: 165, immx: 4 } 0b1110010010100101
+0xe4a6 // BranchE2 { imm: 166, immx: 4 } 0b1110010010100110
+0xe4a7 // BranchE2 { imm: 167, immx: 4 } 0b1110010010100111
+0xe4a8 // BranchE2 { imm: 168, immx: 4 } 0b1110010010101000
+0xe4a9 // BranchE2 { imm: 169, immx: 4 } 0b1110010010101001
+0xe4aa // BranchE2 { imm: 170, immx: 4 } 0b1110010010101010
+0xe4ab // BranchE2 { imm: 171, immx: 4 } 0b1110010010101011
+0xe4ac // BranchE2 { imm: 172, immx: 4 } 0b1110010010101100
+0xe4ad // BranchE2 { imm: 173, immx: 4 } 0b1110010010101101
+0xe4ae // BranchE2 { imm: 174, immx: 4 } 0b1110010010101110
+0xe4af // BranchE2 { imm: 175, immx: 4 } 0b1110010010101111
+0xe4b0 // BranchE2 { imm: 176, immx: 4 } 0b1110010010110000
+0xe4b1 // BranchE2 { imm: 177, immx: 4 } 0b1110010010110001
+0xe4b2 // BranchE2 { imm: 178, immx: 4 } 0b1110010010110010
+0xe4b3 // BranchE2 { imm: 179, immx: 4 } 0b1110010010110011
+0xe4b4 // BranchE2 { imm: 180, immx: 4 } 0b1110010010110100
+0xe4b5 // BranchE2 { imm: 181, immx: 4 } 0b1110010010110101
+0xe4b6 // BranchE2 { imm: 182, immx: 4 } 0b1110010010110110
+0xe4b7 // BranchE2 { imm: 183, immx: 4 } 0b1110010010110111
+0xe4b8 // BranchE2 { imm: 184, immx: 4 } 0b1110010010111000
+0xe4b9 // BranchE2 { imm: 185, immx: 4 } 0b1110010010111001
+0xe4ba // BranchE2 { imm: 186, immx: 4 } 0b1110010010111010
+0xe4bb // BranchE2 { imm: 187, immx: 4 } 0b1110010010111011
+0xe4bc // BranchE2 { imm: 188, immx: 4 } 0b1110010010111100
+0xe4bd // BranchE2 { imm: 189, immx: 4 } 0b1110010010111101
+0xe4be // BranchE2 { imm: 190, immx: 4 } 0b1110010010111110
+0xe4bf // BranchE2 { imm: 191, immx: 4 } 0b1110010010111111
+0xe4c0 // BranchE2 { imm: 192, immx: 4 } 0b1110010011000000
+0xe4c1 // BranchE2 { imm: 193, immx: 4 } 0b1110010011000001
+0xe4c2 // BranchE2 { imm: 194, immx: 4 } 0b1110010011000010
+0xe4c3 // BranchE2 { imm: 195, immx: 4 } 0b1110010011000011
+0xe4c4 // BranchE2 { imm: 196, immx: 4 } 0b1110010011000100
+0xe4c5 // BranchE2 { imm: 197, immx: 4 } 0b1110010011000101
+0xe4c6 // BranchE2 { imm: 198, immx: 4 } 0b1110010011000110
+0xe4c7 // BranchE2 { imm: 199, immx: 4 } 0b1110010011000111
+0xe4c8 // BranchE2 { imm: 200, immx: 4 } 0b1110010011001000
+0xe4c9 // BranchE2 { imm: 201, immx: 4 } 0b1110010011001001
+0xe4ca // BranchE2 { imm: 202, immx: 4 } 0b1110010011001010
+0xe4cb // BranchE2 { imm: 203, immx: 4 } 0b1110010011001011
+0xe4cc // BranchE2 { imm: 204, immx: 4 } 0b1110010011001100
+0xe4cd // BranchE2 { imm: 205, immx: 4 } 0b1110010011001101
+0xe4ce // BranchE2 { imm: 206, immx: 4 } 0b1110010011001110
+0xe4cf // BranchE2 { imm: 207, immx: 4 } 0b1110010011001111
+0xe4d0 // BranchE2 { imm: 208, immx: 4 } 0b1110010011010000
+0xe4d1 // BranchE2 { imm: 209, immx: 4 } 0b1110010011010001
+0xe4d2 // BranchE2 { imm: 210, immx: 4 } 0b1110010011010010
+0xe4d3 // BranchE2 { imm: 211, immx: 4 } 0b1110010011010011
+0xe4d4 // BranchE2 { imm: 212, immx: 4 } 0b1110010011010100
+0xe4d5 // BranchE2 { imm: 213, immx: 4 } 0b1110010011010101
+0xe4d6 // BranchE2 { imm: 214, immx: 4 } 0b1110010011010110
+0xe4d7 // BranchE2 { imm: 215, immx: 4 } 0b1110010011010111
+0xe4d8 // BranchE2 { imm: 216, immx: 4 } 0b1110010011011000
+0xe4d9 // BranchE2 { imm: 217, immx: 4 } 0b1110010011011001
+0xe4da // BranchE2 { imm: 218, immx: 4 } 0b1110010011011010
+0xe4db // BranchE2 { imm: 219, immx: 4 } 0b1110010011011011
+0xe4dc // BranchE2 { imm: 220, immx: 4 } 0b1110010011011100
+0xe4dd // BranchE2 { imm: 221, immx: 4 } 0b1110010011011101
+0xe4de // BranchE2 { imm: 222, immx: 4 } 0b1110010011011110
+0xe4df // BranchE2 { imm: 223, immx: 4 } 0b1110010011011111
+0xe4e0 // BranchE2 { imm: 224, immx: 4 } 0b1110010011100000
+0xe4e1 // BranchE2 { imm: 225, immx: 4 } 0b1110010011100001
+0xe4e2 // BranchE2 { imm: 226, immx: 4 } 0b1110010011100010
+0xe4e3 // BranchE2 { imm: 227, immx: 4 } 0b1110010011100011
+0xe4e4 // BranchE2 { imm: 228, immx: 4 } 0b1110010011100100
+0xe4e5 // BranchE2 { imm: 229, immx: 4 } 0b1110010011100101
+0xe4e6 // BranchE2 { imm: 230, immx: 4 } 0b1110010011100110
+0xe4e7 // BranchE2 { imm: 231, immx: 4 } 0b1110010011100111
+0xe4e8 // BranchE2 { imm: 232, immx: 4 } 0b1110010011101000
+0xe4e9 // BranchE2 { imm: 233, immx: 4 } 0b1110010011101001
+0xe4ea // BranchE2 { imm: 234, immx: 4 } 0b1110010011101010
+0xe4eb // BranchE2 { imm: 235, immx: 4 } 0b1110010011101011
+0xe4ec // BranchE2 { imm: 236, immx: 4 } 0b1110010011101100
+0xe4ed // BranchE2 { imm: 237, immx: 4 } 0b1110010011101101
+0xe4ee // BranchE2 { imm: 238, immx: 4 } 0b1110010011101110
+0xe4ef // BranchE2 { imm: 239, immx: 4 } 0b1110010011101111
+0xe4f0 // BranchE2 { imm: 240, immx: 4 } 0b1110010011110000
+0xe4f1 // BranchE2 { imm: 241, immx: 4 } 0b1110010011110001
+0xe4f2 // BranchE2 { imm: 242, immx: 4 } 0b1110010011110010
+0xe4f3 // BranchE2 { imm: 243, immx: 4 } 0b1110010011110011
+0xe4f4 // BranchE2 { imm: 244, immx: 4 } 0b1110010011110100
+0xe4f5 // BranchE2 { imm: 245, immx: 4 } 0b1110010011110101
+0xe4f6 // BranchE2 { imm: 246, immx: 4 } 0b1110010011110110
+0xe4f7 // BranchE2 { imm: 247, immx: 4 } 0b1110010011110111
+0xe4f8 // BranchE2 { imm: 248, immx: 4 } 0b1110010011111000
+0xe4f9 // BranchE2 { imm: 249, immx: 4 } 0b1110010011111001
+0xe4fa // BranchE2 { imm: 250, immx: 4 } 0b1110010011111010
+0xe4fb // BranchE2 { imm: 251, immx: 4 } 0b1110010011111011
+0xe4fc // BranchE2 { imm: 252, immx: 4 } 0b1110010011111100
+0xe4fd // BranchE2 { imm: 253, immx: 4 } 0b1110010011111101
+0xe4fe // BranchE2 { imm: 254, immx: 4 } 0b1110010011111110
+0xe4ff // BranchE2 { imm: 255, immx: 4 } 0b1110010011111111
+0xe500 // BranchE2 { imm: 0, immx: 5 } 0b1110010100000000
+0xe501 // BranchE2 { imm: 1, immx: 5 } 0b1110010100000001
+0xe502 // BranchE2 { imm: 2, immx: 5 } 0b1110010100000010
+0xe503 // BranchE2 { imm: 3, immx: 5 } 0b1110010100000011
+0xe504 // BranchE2 { imm: 4, immx: 5 } 0b1110010100000100
+0xe505 // BranchE2 { imm: 5, immx: 5 } 0b1110010100000101
+0xe506 // BranchE2 { imm: 6, immx: 5 } 0b1110010100000110
+0xe507 // BranchE2 { imm: 7, immx: 5 } 0b1110010100000111
+0xe508 // BranchE2 { imm: 8, immx: 5 } 0b1110010100001000
+0xe509 // BranchE2 { imm: 9, immx: 5 } 0b1110010100001001
+0xe50a // BranchE2 { imm: 10, immx: 5 } 0b1110010100001010
+0xe50b // BranchE2 { imm: 11, immx: 5 } 0b1110010100001011
+0xe50c // BranchE2 { imm: 12, immx: 5 } 0b1110010100001100
+0xe50d // BranchE2 { imm: 13, immx: 5 } 0b1110010100001101
+0xe50e // BranchE2 { imm: 14, immx: 5 } 0b1110010100001110
+0xe50f // BranchE2 { imm: 15, immx: 5 } 0b1110010100001111
+0xe510 // BranchE2 { imm: 16, immx: 5 } 0b1110010100010000
+0xe511 // BranchE2 { imm: 17, immx: 5 } 0b1110010100010001
+0xe512 // BranchE2 { imm: 18, immx: 5 } 0b1110010100010010
+0xe513 // BranchE2 { imm: 19, immx: 5 } 0b1110010100010011
+0xe514 // BranchE2 { imm: 20, immx: 5 } 0b1110010100010100
+0xe515 // BranchE2 { imm: 21, immx: 5 } 0b1110010100010101
+0xe516 // BranchE2 { imm: 22, immx: 5 } 0b1110010100010110
+0xe517 // BranchE2 { imm: 23, immx: 5 } 0b1110010100010111
+0xe518 // BranchE2 { imm: 24, immx: 5 } 0b1110010100011000
+0xe519 // BranchE2 { imm: 25, immx: 5 } 0b1110010100011001
+0xe51a // BranchE2 { imm: 26, immx: 5 } 0b1110010100011010
+0xe51b // BranchE2 { imm: 27, immx: 5 } 0b1110010100011011
+0xe51c // BranchE2 { imm: 28, immx: 5 } 0b1110010100011100
+0xe51d // BranchE2 { imm: 29, immx: 5 } 0b1110010100011101
+0xe51e // BranchE2 { imm: 30, immx: 5 } 0b1110010100011110
+0xe51f // BranchE2 { imm: 31, immx: 5 } 0b1110010100011111
+0xe520 // BranchE2 { imm: 32, immx: 5 } 0b1110010100100000
+0xe521 // BranchE2 { imm: 33, immx: 5 } 0b1110010100100001
+0xe522 // BranchE2 { imm: 34, immx: 5 } 0b1110010100100010
+0xe523 // BranchE2 { imm: 35, immx: 5 } 0b1110010100100011
+0xe524 // BranchE2 { imm: 36, immx: 5 } 0b1110010100100100
+0xe525 // BranchE2 { imm: 37, immx: 5 } 0b1110010100100101
+0xe526 // BranchE2 { imm: 38, immx: 5 } 0b1110010100100110
+0xe527 // BranchE2 { imm: 39, immx: 5 } 0b1110010100100111
+0xe528 // BranchE2 { imm: 40, immx: 5 } 0b1110010100101000
+0xe529 // BranchE2 { imm: 41, immx: 5 } 0b1110010100101001
+0xe52a // BranchE2 { imm: 42, immx: 5 } 0b1110010100101010
+0xe52b // BranchE2 { imm: 43, immx: 5 } 0b1110010100101011
+0xe52c // BranchE2 { imm: 44, immx: 5 } 0b1110010100101100
+0xe52d // BranchE2 { imm: 45, immx: 5 } 0b1110010100101101
+0xe52e // BranchE2 { imm: 46, immx: 5 } 0b1110010100101110
+0xe52f // BranchE2 { imm: 47, immx: 5 } 0b1110010100101111
+0xe530 // BranchE2 { imm: 48, immx: 5 } 0b1110010100110000
+0xe531 // BranchE2 { imm: 49, immx: 5 } 0b1110010100110001
+0xe532 // BranchE2 { imm: 50, immx: 5 } 0b1110010100110010
+0xe533 // BranchE2 { imm: 51, immx: 5 } 0b1110010100110011
+0xe534 // BranchE2 { imm: 52, immx: 5 } 0b1110010100110100
+0xe535 // BranchE2 { imm: 53, immx: 5 } 0b1110010100110101
+0xe536 // BranchE2 { imm: 54, immx: 5 } 0b1110010100110110
+0xe537 // BranchE2 { imm: 55, immx: 5 } 0b1110010100110111
+0xe538 // BranchE2 { imm: 56, immx: 5 } 0b1110010100111000
+0xe539 // BranchE2 { imm: 57, immx: 5 } 0b1110010100111001
+0xe53a // BranchE2 { imm: 58, immx: 5 } 0b1110010100111010
+0xe53b // BranchE2 { imm: 59, immx: 5 } 0b1110010100111011
+0xe53c // BranchE2 { imm: 60, immx: 5 } 0b1110010100111100
+0xe53d // BranchE2 { imm: 61, immx: 5 } 0b1110010100111101
+0xe53e // BranchE2 { imm: 62, immx: 5 } 0b1110010100111110
+0xe53f // BranchE2 { imm: 63, immx: 5 } 0b1110010100111111
+0xe540 // BranchE2 { imm: 64, immx: 5 } 0b1110010101000000
+0xe541 // BranchE2 { imm: 65, immx: 5 } 0b1110010101000001
+0xe542 // BranchE2 { imm: 66, immx: 5 } 0b1110010101000010
+0xe543 // BranchE2 { imm: 67, immx: 5 } 0b1110010101000011
+0xe544 // BranchE2 { imm: 68, immx: 5 } 0b1110010101000100
+0xe545 // BranchE2 { imm: 69, immx: 5 } 0b1110010101000101
+0xe546 // BranchE2 { imm: 70, immx: 5 } 0b1110010101000110
+0xe547 // BranchE2 { imm: 71, immx: 5 } 0b1110010101000111
+0xe548 // BranchE2 { imm: 72, immx: 5 } 0b1110010101001000
+0xe549 // BranchE2 { imm: 73, immx: 5 } 0b1110010101001001
+0xe54a // BranchE2 { imm: 74, immx: 5 } 0b1110010101001010
+0xe54b // BranchE2 { imm: 75, immx: 5 } 0b1110010101001011
+0xe54c // BranchE2 { imm: 76, immx: 5 } 0b1110010101001100
+0xe54d // BranchE2 { imm: 77, immx: 5 } 0b1110010101001101
+0xe54e // BranchE2 { imm: 78, immx: 5 } 0b1110010101001110
+0xe54f // BranchE2 { imm: 79, immx: 5 } 0b1110010101001111
+0xe550 // BranchE2 { imm: 80, immx: 5 } 0b1110010101010000
+0xe551 // BranchE2 { imm: 81, immx: 5 } 0b1110010101010001
+0xe552 // BranchE2 { imm: 82, immx: 5 } 0b1110010101010010
+0xe553 // BranchE2 { imm: 83, immx: 5 } 0b1110010101010011
+0xe554 // BranchE2 { imm: 84, immx: 5 } 0b1110010101010100
+0xe555 // BranchE2 { imm: 85, immx: 5 } 0b1110010101010101
+0xe556 // BranchE2 { imm: 86, immx: 5 } 0b1110010101010110
+0xe557 // BranchE2 { imm: 87, immx: 5 } 0b1110010101010111
+0xe558 // BranchE2 { imm: 88, immx: 5 } 0b1110010101011000
+0xe559 // BranchE2 { imm: 89, immx: 5 } 0b1110010101011001
+0xe55a // BranchE2 { imm: 90, immx: 5 } 0b1110010101011010
+0xe55b // BranchE2 { imm: 91, immx: 5 } 0b1110010101011011
+0xe55c // BranchE2 { imm: 92, immx: 5 } 0b1110010101011100
+0xe55d // BranchE2 { imm: 93, immx: 5 } 0b1110010101011101
+0xe55e // BranchE2 { imm: 94, immx: 5 } 0b1110010101011110
+0xe55f // BranchE2 { imm: 95, immx: 5 } 0b1110010101011111
+0xe560 // BranchE2 { imm: 96, immx: 5 } 0b1110010101100000
+0xe561 // BranchE2 { imm: 97, immx: 5 } 0b1110010101100001
+0xe562 // BranchE2 { imm: 98, immx: 5 } 0b1110010101100010
+0xe563 // BranchE2 { imm: 99, immx: 5 } 0b1110010101100011
+0xe564 // BranchE2 { imm: 100, immx: 5 } 0b1110010101100100
+0xe565 // BranchE2 { imm: 101, immx: 5 } 0b1110010101100101
+0xe566 // BranchE2 { imm: 102, immx: 5 } 0b1110010101100110
+0xe567 // BranchE2 { imm: 103, immx: 5 } 0b1110010101100111
+0xe568 // BranchE2 { imm: 104, immx: 5 } 0b1110010101101000
+0xe569 // BranchE2 { imm: 105, immx: 5 } 0b1110010101101001
+0xe56a // BranchE2 { imm: 106, immx: 5 } 0b1110010101101010
+0xe56b // BranchE2 { imm: 107, immx: 5 } 0b1110010101101011
+0xe56c // BranchE2 { imm: 108, immx: 5 } 0b1110010101101100
+0xe56d // BranchE2 { imm: 109, immx: 5 } 0b1110010101101101
+0xe56e // BranchE2 { imm: 110, immx: 5 } 0b1110010101101110
+0xe56f // BranchE2 { imm: 111, immx: 5 } 0b1110010101101111
+0xe570 // BranchE2 { imm: 112, immx: 5 } 0b1110010101110000
+0xe571 // BranchE2 { imm: 113, immx: 5 } 0b1110010101110001
+0xe572 // BranchE2 { imm: 114, immx: 5 } 0b1110010101110010
+0xe573 // BranchE2 { imm: 115, immx: 5 } 0b1110010101110011
+0xe574 // BranchE2 { imm: 116, immx: 5 } 0b1110010101110100
+0xe575 // BranchE2 { imm: 117, immx: 5 } 0b1110010101110101
+0xe576 // BranchE2 { imm: 118, immx: 5 } 0b1110010101110110
+0xe577 // BranchE2 { imm: 119, immx: 5 } 0b1110010101110111
+0xe578 // BranchE2 { imm: 120, immx: 5 } 0b1110010101111000
+0xe579 // BranchE2 { imm: 121, immx: 5 } 0b1110010101111001
+0xe57a // BranchE2 { imm: 122, immx: 5 } 0b1110010101111010
+0xe57b // BranchE2 { imm: 123, immx: 5 } 0b1110010101111011
+0xe57c // BranchE2 { imm: 124, immx: 5 } 0b1110010101111100
+0xe57d // BranchE2 { imm: 125, immx: 5 } 0b1110010101111101
+0xe57e // BranchE2 { imm: 126, immx: 5 } 0b1110010101111110
+0xe57f // BranchE2 { imm: 127, immx: 5 } 0b1110010101111111
+0xe580 // BranchE2 { imm: 128, immx: 5 } 0b1110010110000000
+0xe581 // BranchE2 { imm: 129, immx: 5 } 0b1110010110000001
+0xe582 // BranchE2 { imm: 130, immx: 5 } 0b1110010110000010
+0xe583 // BranchE2 { imm: 131, immx: 5 } 0b1110010110000011
+0xe584 // BranchE2 { imm: 132, immx: 5 } 0b1110010110000100
+0xe585 // BranchE2 { imm: 133, immx: 5 } 0b1110010110000101
+0xe586 // BranchE2 { imm: 134, immx: 5 } 0b1110010110000110
+0xe587 // BranchE2 { imm: 135, immx: 5 } 0b1110010110000111
+0xe588 // BranchE2 { imm: 136, immx: 5 } 0b1110010110001000
+0xe589 // BranchE2 { imm: 137, immx: 5 } 0b1110010110001001
+0xe58a // BranchE2 { imm: 138, immx: 5 } 0b1110010110001010
+0xe58b // BranchE2 { imm: 139, immx: 5 } 0b1110010110001011
+0xe58c // BranchE2 { imm: 140, immx: 5 } 0b1110010110001100
+0xe58d // BranchE2 { imm: 141, immx: 5 } 0b1110010110001101
+0xe58e // BranchE2 { imm: 142, immx: 5 } 0b1110010110001110
+0xe58f // BranchE2 { imm: 143, immx: 5 } 0b1110010110001111
+0xe590 // BranchE2 { imm: 144, immx: 5 } 0b1110010110010000
+0xe591 // BranchE2 { imm: 145, immx: 5 } 0b1110010110010001
+0xe592 // BranchE2 { imm: 146, immx: 5 } 0b1110010110010010
+0xe593 // BranchE2 { imm: 147, immx: 5 } 0b1110010110010011
+0xe594 // BranchE2 { imm: 148, immx: 5 } 0b1110010110010100
+0xe595 // BranchE2 { imm: 149, immx: 5 } 0b1110010110010101
+0xe596 // BranchE2 { imm: 150, immx: 5 } 0b1110010110010110
+0xe597 // BranchE2 { imm: 151, immx: 5 } 0b1110010110010111
+0xe598 // BranchE2 { imm: 152, immx: 5 } 0b1110010110011000
+0xe599 // BranchE2 { imm: 153, immx: 5 } 0b1110010110011001
+0xe59a // BranchE2 { imm: 154, immx: 5 } 0b1110010110011010
+0xe59b // BranchE2 { imm: 155, immx: 5 } 0b1110010110011011
+0xe59c // BranchE2 { imm: 156, immx: 5 } 0b1110010110011100
+0xe59d // BranchE2 { imm: 157, immx: 5 } 0b1110010110011101
+0xe59e // BranchE2 { imm: 158, immx: 5 } 0b1110010110011110
+0xe59f // BranchE2 { imm: 159, immx: 5 } 0b1110010110011111
+0xe5a0 // BranchE2 { imm: 160, immx: 5 } 0b1110010110100000
+0xe5a1 // BranchE2 { imm: 161, immx: 5 } 0b1110010110100001
+0xe5a2 // BranchE2 { imm: 162, immx: 5 } 0b1110010110100010
+0xe5a3 // BranchE2 { imm: 163, immx: 5 } 0b1110010110100011
+0xe5a4 // BranchE2 { imm: 164, immx: 5 } 0b1110010110100100
+0xe5a5 // BranchE2 { imm: 165, immx: 5 } 0b1110010110100101
+0xe5a6 // BranchE2 { imm: 166, immx: 5 } 0b1110010110100110
+0xe5a7 // BranchE2 { imm: 167, immx: 5 } 0b1110010110100111
+0xe5a8 // BranchE2 { imm: 168, immx: 5 } 0b1110010110101000
+0xe5a9 // BranchE2 { imm: 169, immx: 5 } 0b1110010110101001
+0xe5aa // BranchE2 { imm: 170, immx: 5 } 0b1110010110101010
+0xe5ab // BranchE2 { imm: 171, immx: 5 } 0b1110010110101011
+0xe5ac // BranchE2 { imm: 172, immx: 5 } 0b1110010110101100
+0xe5ad // BranchE2 { imm: 173, immx: 5 } 0b1110010110101101
+0xe5ae // BranchE2 { imm: 174, immx: 5 } 0b1110010110101110
+0xe5af // BranchE2 { imm: 175, immx: 5 } 0b1110010110101111
+0xe5b0 // BranchE2 { imm: 176, immx: 5 } 0b1110010110110000
+0xe5b1 // BranchE2 { imm: 177, immx: 5 } 0b1110010110110001
+0xe5b2 // BranchE2 { imm: 178, immx: 5 } 0b1110010110110010
+0xe5b3 // BranchE2 { imm: 179, immx: 5 } 0b1110010110110011
+0xe5b4 // BranchE2 { imm: 180, immx: 5 } 0b1110010110110100
+0xe5b5 // BranchE2 { imm: 181, immx: 5 } 0b1110010110110101
+0xe5b6 // BranchE2 { imm: 182, immx: 5 } 0b1110010110110110
+0xe5b7 // BranchE2 { imm: 183, immx: 5 } 0b1110010110110111
+0xe5b8 // BranchE2 { imm: 184, immx: 5 } 0b1110010110111000
+0xe5b9 // BranchE2 { imm: 185, immx: 5 } 0b1110010110111001
+0xe5ba // BranchE2 { imm: 186, immx: 5 } 0b1110010110111010
+0xe5bb // BranchE2 { imm: 187, immx: 5 } 0b1110010110111011
+0xe5bc // BranchE2 { imm: 188, immx: 5 } 0b1110010110111100
+0xe5bd // BranchE2 { imm: 189, immx: 5 } 0b1110010110111101
+0xe5be // BranchE2 { imm: 190, immx: 5 } 0b1110010110111110
+0xe5bf // BranchE2 { imm: 191, immx: 5 } 0b1110010110111111
+0xe5c0 // BranchE2 { imm: 192, immx: 5 } 0b1110010111000000
+0xe5c1 // BranchE2 { imm: 193, immx: 5 } 0b1110010111000001
+0xe5c2 // BranchE2 { imm: 194, immx: 5 } 0b1110010111000010
+0xe5c3 // BranchE2 { imm: 195, immx: 5 } 0b1110010111000011
+0xe5c4 // BranchE2 { imm: 196, immx: 5 } 0b1110010111000100
+0xe5c5 // BranchE2 { imm: 197, immx: 5 } 0b1110010111000101
+0xe5c6 // BranchE2 { imm: 198, immx: 5 } 0b1110010111000110
+0xe5c7 // BranchE2 { imm: 199, immx: 5 } 0b1110010111000111
+0xe5c8 // BranchE2 { imm: 200, immx: 5 } 0b1110010111001000
+0xe5c9 // BranchE2 { imm: 201, immx: 5 } 0b1110010111001001
+0xe5ca // BranchE2 { imm: 202, immx: 5 } 0b1110010111001010
+0xe5cb // BranchE2 { imm: 203, immx: 5 } 0b1110010111001011
+0xe5cc // BranchE2 { imm: 204, immx: 5 } 0b1110010111001100
+0xe5cd // BranchE2 { imm: 205, immx: 5 } 0b1110010111001101
+0xe5ce // BranchE2 { imm: 206, immx: 5 } 0b1110010111001110
+0xe5cf // BranchE2 { imm: 207, immx: 5 } 0b1110010111001111
+0xe5d0 // BranchE2 { imm: 208, immx: 5 } 0b1110010111010000
+0xe5d1 // BranchE2 { imm: 209, immx: 5 } 0b1110010111010001
+0xe5d2 // BranchE2 { imm: 210, immx: 5 } 0b1110010111010010
+0xe5d3 // BranchE2 { imm: 211, immx: 5 } 0b1110010111010011
+0xe5d4 // BranchE2 { imm: 212, immx: 5 } 0b1110010111010100
+0xe5d5 // BranchE2 { imm: 213, immx: 5 } 0b1110010111010101
+0xe5d6 // BranchE2 { imm: 214, immx: 5 } 0b1110010111010110
+0xe5d7 // BranchE2 { imm: 215, immx: 5 } 0b1110010111010111
+0xe5d8 // BranchE2 { imm: 216, immx: 5 } 0b1110010111011000
+0xe5d9 // BranchE2 { imm: 217, immx: 5 } 0b1110010111011001
+0xe5da // BranchE2 { imm: 218, immx: 5 } 0b1110010111011010
+0xe5db // BranchE2 { imm: 219, immx: 5 } 0b1110010111011011
+0xe5dc // BranchE2 { imm: 220, immx: 5 } 0b1110010111011100
+0xe5dd // BranchE2 { imm: 221, immx: 5 } 0b1110010111011101
+0xe5de // BranchE2 { imm: 222, immx: 5 } 0b1110010111011110
+0xe5df // BranchE2 { imm: 223, immx: 5 } 0b1110010111011111
+0xe5e0 // BranchE2 { imm: 224, immx: 5 } 0b1110010111100000
+0xe5e1 // BranchE2 { imm: 225, immx: 5 } 0b1110010111100001
+0xe5e2 // BranchE2 { imm: 226, immx: 5 } 0b1110010111100010
+0xe5e3 // BranchE2 { imm: 227, immx: 5 } 0b1110010111100011
+0xe5e4 // BranchE2 { imm: 228, immx: 5 } 0b1110010111100100
+0xe5e5 // BranchE2 { imm: 229, immx: 5 } 0b1110010111100101
+0xe5e6 // BranchE2 { imm: 230, immx: 5 } 0b1110010111100110
+0xe5e7 // BranchE2 { imm: 231, immx: 5 } 0b1110010111100111
+0xe5e8 // BranchE2 { imm: 232, immx: 5 } 0b1110010111101000
+0xe5e9 // BranchE2 { imm: 233, immx: 5 } 0b1110010111101001
+0xe5ea // BranchE2 { imm: 234, immx: 5 } 0b1110010111101010
+0xe5eb // BranchE2 { imm: 235, immx: 5 } 0b1110010111101011
+0xe5ec // BranchE2 { imm: 236, immx: 5 } 0b1110010111101100
+0xe5ed // BranchE2 { imm: 237, immx: 5 } 0b1110010111101101
+0xe5ee // BranchE2 { imm: 238, immx: 5 } 0b1110010111101110
+0xe5ef // BranchE2 { imm: 239, immx: 5 } 0b1110010111101111
+0xe5f0 // BranchE2 { imm: 240, immx: 5 } 0b1110010111110000
+0xe5f1 // BranchE2 { imm: 241, immx: 5 } 0b1110010111110001
+0xe5f2 // BranchE2 { imm: 242, immx: 5 } 0b1110010111110010
+0xe5f3 // BranchE2 { imm: 243, immx: 5 } 0b1110010111110011
+0xe5f4 // BranchE2 { imm: 244, immx: 5 } 0b1110010111110100
+0xe5f5 // BranchE2 { imm: 245, immx: 5 } 0b1110010111110101
+0xe5f6 // BranchE2 { imm: 246, immx: 5 } 0b1110010111110110
+0xe5f7 // BranchE2 { imm: 247, immx: 5 } 0b1110010111110111
+0xe5f8 // BranchE2 { imm: 248, immx: 5 } 0b1110010111111000
+0xe5f9 // BranchE2 { imm: 249, immx: 5 } 0b1110010111111001
+0xe5fa // BranchE2 { imm: 250, immx: 5 } 0b1110010111111010
+0xe5fb // BranchE2 { imm: 251, immx: 5 } 0b1110010111111011
+0xe5fc // BranchE2 { imm: 252, immx: 5 } 0b1110010111111100
+0xe5fd // BranchE2 { imm: 253, immx: 5 } 0b1110010111111101
+0xe5fe // BranchE2 { imm: 254, immx: 5 } 0b1110010111111110
+0xe5ff // BranchE2 { imm: 255, immx: 5 } 0b1110010111111111
+0xe600 // BranchE2 { imm: 0, immx: 6 } 0b1110011000000000
+0xe601 // BranchE2 { imm: 1, immx: 6 } 0b1110011000000001
+0xe602 // BranchE2 { imm: 2, immx: 6 } 0b1110011000000010
+0xe603 // BranchE2 { imm: 3, immx: 6 } 0b1110011000000011
+0xe604 // BranchE2 { imm: 4, immx: 6 } 0b1110011000000100
+0xe605 // BranchE2 { imm: 5, immx: 6 } 0b1110011000000101
+0xe606 // BranchE2 { imm: 6, immx: 6 } 0b1110011000000110
+0xe607 // BranchE2 { imm: 7, immx: 6 } 0b1110011000000111
+0xe608 // BranchE2 { imm: 8, immx: 6 } 0b1110011000001000
+0xe609 // BranchE2 { imm: 9, immx: 6 } 0b1110011000001001
+0xe60a // BranchE2 { imm: 10, immx: 6 } 0b1110011000001010
+0xe60b // BranchE2 { imm: 11, immx: 6 } 0b1110011000001011
+0xe60c // BranchE2 { imm: 12, immx: 6 } 0b1110011000001100
+0xe60d // BranchE2 { imm: 13, immx: 6 } 0b1110011000001101
+0xe60e // BranchE2 { imm: 14, immx: 6 } 0b1110011000001110
+0xe60f // BranchE2 { imm: 15, immx: 6 } 0b1110011000001111
+0xe610 // BranchE2 { imm: 16, immx: 6 } 0b1110011000010000
+0xe611 // BranchE2 { imm: 17, immx: 6 } 0b1110011000010001
+0xe612 // BranchE2 { imm: 18, immx: 6 } 0b1110011000010010
+0xe613 // BranchE2 { imm: 19, immx: 6 } 0b1110011000010011
+0xe614 // BranchE2 { imm: 20, immx: 6 } 0b1110011000010100
+0xe615 // BranchE2 { imm: 21, immx: 6 } 0b1110011000010101
+0xe616 // BranchE2 { imm: 22, immx: 6 } 0b1110011000010110
+0xe617 // BranchE2 { imm: 23, immx: 6 } 0b1110011000010111
+0xe618 // BranchE2 { imm: 24, immx: 6 } 0b1110011000011000
+0xe619 // BranchE2 { imm: 25, immx: 6 } 0b1110011000011001
+0xe61a // BranchE2 { imm: 26, immx: 6 } 0b1110011000011010
+0xe61b // BranchE2 { imm: 27, immx: 6 } 0b1110011000011011
+0xe61c // BranchE2 { imm: 28, immx: 6 } 0b1110011000011100
+0xe61d // BranchE2 { imm: 29, immx: 6 } 0b1110011000011101
+0xe61e // BranchE2 { imm: 30, immx: 6 } 0b1110011000011110
+0xe61f // BranchE2 { imm: 31, immx: 6 } 0b1110011000011111
+0xe620 // BranchE2 { imm: 32, immx: 6 } 0b1110011000100000
+0xe621 // BranchE2 { imm: 33, immx: 6 } 0b1110011000100001
+0xe622 // BranchE2 { imm: 34, immx: 6 } 0b1110011000100010
+0xe623 // BranchE2 { imm: 35, immx: 6 } 0b1110011000100011
+0xe624 // BranchE2 { imm: 36, immx: 6 } 0b1110011000100100
+0xe625 // BranchE2 { imm: 37, immx: 6 } 0b1110011000100101
+0xe626 // BranchE2 { imm: 38, immx: 6 } 0b1110011000100110
+0xe627 // BranchE2 { imm: 39, immx: 6 } 0b1110011000100111
+0xe628 // BranchE2 { imm: 40, immx: 6 } 0b1110011000101000
+0xe629 // BranchE2 { imm: 41, immx: 6 } 0b1110011000101001
+0xe62a // BranchE2 { imm: 42, immx: 6 } 0b1110011000101010
+0xe62b // BranchE2 { imm: 43, immx: 6 } 0b1110011000101011
+0xe62c // BranchE2 { imm: 44, immx: 6 } 0b1110011000101100
+0xe62d // BranchE2 { imm: 45, immx: 6 } 0b1110011000101101
+0xe62e // BranchE2 { imm: 46, immx: 6 } 0b1110011000101110
+0xe62f // BranchE2 { imm: 47, immx: 6 } 0b1110011000101111
+0xe630 // BranchE2 { imm: 48, immx: 6 } 0b1110011000110000
+0xe631 // BranchE2 { imm: 49, immx: 6 } 0b1110011000110001
+0xe632 // BranchE2 { imm: 50, immx: 6 } 0b1110011000110010
+0xe633 // BranchE2 { imm: 51, immx: 6 } 0b1110011000110011
+0xe634 // BranchE2 { imm: 52, immx: 6 } 0b1110011000110100
+0xe635 // BranchE2 { imm: 53, immx: 6 } 0b1110011000110101
+0xe636 // BranchE2 { imm: 54, immx: 6 } 0b1110011000110110
+0xe637 // BranchE2 { imm: 55, immx: 6 } 0b1110011000110111
+0xe638 // BranchE2 { imm: 56, immx: 6 } 0b1110011000111000
+0xe639 // BranchE2 { imm: 57, immx: 6 } 0b1110011000111001
+0xe63a // BranchE2 { imm: 58, immx: 6 } 0b1110011000111010
+0xe63b // BranchE2 { imm: 59, immx: 6 } 0b1110011000111011
+0xe63c // BranchE2 { imm: 60, immx: 6 } 0b1110011000111100
+0xe63d // BranchE2 { imm: 61, immx: 6 } 0b1110011000111101
+0xe63e // BranchE2 { imm: 62, immx: 6 } 0b1110011000111110
+0xe63f // BranchE2 { imm: 63, immx: 6 } 0b1110011000111111
+0xe640 // BranchE2 { imm: 64, immx: 6 } 0b1110011001000000
+0xe641 // BranchE2 { imm: 65, immx: 6 } 0b1110011001000001
+0xe642 // BranchE2 { imm: 66, immx: 6 } 0b1110011001000010
+0xe643 // BranchE2 { imm: 67, immx: 6 } 0b1110011001000011
+0xe644 // BranchE2 { imm: 68, immx: 6 } 0b1110011001000100
+0xe645 // BranchE2 { imm: 69, immx: 6 } 0b1110011001000101
+0xe646 // BranchE2 { imm: 70, immx: 6 } 0b1110011001000110
+0xe647 // BranchE2 { imm: 71, immx: 6 } 0b1110011001000111
+0xe648 // BranchE2 { imm: 72, immx: 6 } 0b1110011001001000
+0xe649 // BranchE2 { imm: 73, immx: 6 } 0b1110011001001001
+0xe64a // BranchE2 { imm: 74, immx: 6 } 0b1110011001001010
+0xe64b // BranchE2 { imm: 75, immx: 6 } 0b1110011001001011
+0xe64c // BranchE2 { imm: 76, immx: 6 } 0b1110011001001100
+0xe64d // BranchE2 { imm: 77, immx: 6 } 0b1110011001001101
+0xe64e // BranchE2 { imm: 78, immx: 6 } 0b1110011001001110
+0xe64f // BranchE2 { imm: 79, immx: 6 } 0b1110011001001111
+0xe650 // BranchE2 { imm: 80, immx: 6 } 0b1110011001010000
+0xe651 // BranchE2 { imm: 81, immx: 6 } 0b1110011001010001
+0xe652 // BranchE2 { imm: 82, immx: 6 } 0b1110011001010010
+0xe653 // BranchE2 { imm: 83, immx: 6 } 0b1110011001010011
+0xe654 // BranchE2 { imm: 84, immx: 6 } 0b1110011001010100
+0xe655 // BranchE2 { imm: 85, immx: 6 } 0b1110011001010101
+0xe656 // BranchE2 { imm: 86, immx: 6 } 0b1110011001010110
+0xe657 // BranchE2 { imm: 87, immx: 6 } 0b1110011001010111
+0xe658 // BranchE2 { imm: 88, immx: 6 } 0b1110011001011000
+0xe659 // BranchE2 { imm: 89, immx: 6 } 0b1110011001011001
+0xe65a // BranchE2 { imm: 90, immx: 6 } 0b1110011001011010
+0xe65b // BranchE2 { imm: 91, immx: 6 } 0b1110011001011011
+0xe65c // BranchE2 { imm: 92, immx: 6 } 0b1110011001011100
+0xe65d // BranchE2 { imm: 93, immx: 6 } 0b1110011001011101
+0xe65e // BranchE2 { imm: 94, immx: 6 } 0b1110011001011110
+0xe65f // BranchE2 { imm: 95, immx: 6 } 0b1110011001011111
+0xe660 // BranchE2 { imm: 96, immx: 6 } 0b1110011001100000
+0xe661 // BranchE2 { imm: 97, immx: 6 } 0b1110011001100001
+0xe662 // BranchE2 { imm: 98, immx: 6 } 0b1110011001100010
+0xe663 // BranchE2 { imm: 99, immx: 6 } 0b1110011001100011
+0xe664 // BranchE2 { imm: 100, immx: 6 } 0b1110011001100100
+0xe665 // BranchE2 { imm: 101, immx: 6 } 0b1110011001100101
+0xe666 // BranchE2 { imm: 102, immx: 6 } 0b1110011001100110
+0xe667 // BranchE2 { imm: 103, immx: 6 } 0b1110011001100111
+0xe668 // BranchE2 { imm: 104, immx: 6 } 0b1110011001101000
+0xe669 // BranchE2 { imm: 105, immx: 6 } 0b1110011001101001
+0xe66a // BranchE2 { imm: 106, immx: 6 } 0b1110011001101010
+0xe66b // BranchE2 { imm: 107, immx: 6 } 0b1110011001101011
+0xe66c // BranchE2 { imm: 108, immx: 6 } 0b1110011001101100
+0xe66d // BranchE2 { imm: 109, immx: 6 } 0b1110011001101101
+0xe66e // BranchE2 { imm: 110, immx: 6 } 0b1110011001101110
+0xe66f // BranchE2 { imm: 111, immx: 6 } 0b1110011001101111
+0xe670 // BranchE2 { imm: 112, immx: 6 } 0b1110011001110000
+0xe671 // BranchE2 { imm: 113, immx: 6 } 0b1110011001110001
+0xe672 // BranchE2 { imm: 114, immx: 6 } 0b1110011001110010
+0xe673 // BranchE2 { imm: 115, immx: 6 } 0b1110011001110011
+0xe674 // BranchE2 { imm: 116, immx: 6 } 0b1110011001110100
+0xe675 // BranchE2 { imm: 117, immx: 6 } 0b1110011001110101
+0xe676 // BranchE2 { imm: 118, immx: 6 } 0b1110011001110110
+0xe677 // BranchE2 { imm: 119, immx: 6 } 0b1110011001110111
+0xe678 // BranchE2 { imm: 120, immx: 6 } 0b1110011001111000
+0xe679 // BranchE2 { imm: 121, immx: 6 } 0b1110011001111001
+0xe67a // BranchE2 { imm: 122, immx: 6 } 0b1110011001111010
+0xe67b // BranchE2 { imm: 123, immx: 6 } 0b1110011001111011
+0xe67c // BranchE2 { imm: 124, immx: 6 } 0b1110011001111100
+0xe67d // BranchE2 { imm: 125, immx: 6 } 0b1110011001111101
+0xe67e // BranchE2 { imm: 126, immx: 6 } 0b1110011001111110
+0xe67f // BranchE2 { imm: 127, immx: 6 } 0b1110011001111111
+0xe680 // BranchE2 { imm: 128, immx: 6 } 0b1110011010000000
+0xe681 // BranchE2 { imm: 129, immx: 6 } 0b1110011010000001
+0xe682 // BranchE2 { imm: 130, immx: 6 } 0b1110011010000010
+0xe683 // BranchE2 { imm: 131, immx: 6 } 0b1110011010000011
+0xe684 // BranchE2 { imm: 132, immx: 6 } 0b1110011010000100
+0xe685 // BranchE2 { imm: 133, immx: 6 } 0b1110011010000101
+0xe686 // BranchE2 { imm: 134, immx: 6 } 0b1110011010000110
+0xe687 // BranchE2 { imm: 135, immx: 6 } 0b1110011010000111
+0xe688 // BranchE2 { imm: 136, immx: 6 } 0b1110011010001000
+0xe689 // BranchE2 { imm: 137, immx: 6 } 0b1110011010001001
+0xe68a // BranchE2 { imm: 138, immx: 6 } 0b1110011010001010
+0xe68b // BranchE2 { imm: 139, immx: 6 } 0b1110011010001011
+0xe68c // BranchE2 { imm: 140, immx: 6 } 0b1110011010001100
+0xe68d // BranchE2 { imm: 141, immx: 6 } 0b1110011010001101
+0xe68e // BranchE2 { imm: 142, immx: 6 } 0b1110011010001110
+0xe68f // BranchE2 { imm: 143, immx: 6 } 0b1110011010001111
+0xe690 // BranchE2 { imm: 144, immx: 6 } 0b1110011010010000
+0xe691 // BranchE2 { imm: 145, immx: 6 } 0b1110011010010001
+0xe692 // BranchE2 { imm: 146, immx: 6 } 0b1110011010010010
+0xe693 // BranchE2 { imm: 147, immx: 6 } 0b1110011010010011
+0xe694 // BranchE2 { imm: 148, immx: 6 } 0b1110011010010100
+0xe695 // BranchE2 { imm: 149, immx: 6 } 0b1110011010010101
+0xe696 // BranchE2 { imm: 150, immx: 6 } 0b1110011010010110
+0xe697 // BranchE2 { imm: 151, immx: 6 } 0b1110011010010111
+0xe698 // BranchE2 { imm: 152, immx: 6 } 0b1110011010011000
+0xe699 // BranchE2 { imm: 153, immx: 6 } 0b1110011010011001
+0xe69a // BranchE2 { imm: 154, immx: 6 } 0b1110011010011010
+0xe69b // BranchE2 { imm: 155, immx: 6 } 0b1110011010011011
+0xe69c // BranchE2 { imm: 156, immx: 6 } 0b1110011010011100
+0xe69d // BranchE2 { imm: 157, immx: 6 } 0b1110011010011101
+0xe69e // BranchE2 { imm: 158, immx: 6 } 0b1110011010011110
+0xe69f // BranchE2 { imm: 159, immx: 6 } 0b1110011010011111
+0xe6a0 // BranchE2 { imm: 160, immx: 6 } 0b1110011010100000
+0xe6a1 // BranchE2 { imm: 161, immx: 6 } 0b1110011010100001
+0xe6a2 // BranchE2 { imm: 162, immx: 6 } 0b1110011010100010
+0xe6a3 // BranchE2 { imm: 163, immx: 6 } 0b1110011010100011
+0xe6a4 // BranchE2 { imm: 164, immx: 6 } 0b1110011010100100
+0xe6a5 // BranchE2 { imm: 165, immx: 6 } 0b1110011010100101
+0xe6a6 // BranchE2 { imm: 166, immx: 6 } 0b1110011010100110
+0xe6a7 // BranchE2 { imm: 167, immx: 6 } 0b1110011010100111
+0xe6a8 // BranchE2 { imm: 168, immx: 6 } 0b1110011010101000
+0xe6a9 // BranchE2 { imm: 169, immx: 6 } 0b1110011010101001
+0xe6aa // BranchE2 { imm: 170, immx: 6 } 0b1110011010101010
+0xe6ab // BranchE2 { imm: 171, immx: 6 } 0b1110011010101011
+0xe6ac // BranchE2 { imm: 172, immx: 6 } 0b1110011010101100
+0xe6ad // BranchE2 { imm: 173, immx: 6 } 0b1110011010101101
+0xe6ae // BranchE2 { imm: 174, immx: 6 } 0b1110011010101110
+0xe6af // BranchE2 { imm: 175, immx: 6 } 0b1110011010101111
+0xe6b0 // BranchE2 { imm: 176, immx: 6 } 0b1110011010110000
+0xe6b1 // BranchE2 { imm: 177, immx: 6 } 0b1110011010110001
+0xe6b2 // BranchE2 { imm: 178, immx: 6 } 0b1110011010110010
+0xe6b3 // BranchE2 { imm: 179, immx: 6 } 0b1110011010110011
+0xe6b4 // BranchE2 { imm: 180, immx: 6 } 0b1110011010110100
+0xe6b5 // BranchE2 { imm: 181, immx: 6 } 0b1110011010110101
+0xe6b6 // BranchE2 { imm: 182, immx: 6 } 0b1110011010110110
+0xe6b7 // BranchE2 { imm: 183, immx: 6 } 0b1110011010110111
+0xe6b8 // BranchE2 { imm: 184, immx: 6 } 0b1110011010111000
+0xe6b9 // BranchE2 { imm: 185, immx: 6 } 0b1110011010111001
+0xe6ba // BranchE2 { imm: 186, immx: 6 } 0b1110011010111010
+0xe6bb // BranchE2 { imm: 187, immx: 6 } 0b1110011010111011
+0xe6bc // BranchE2 { imm: 188, immx: 6 } 0b1110011010111100
+0xe6bd // BranchE2 { imm: 189, immx: 6 } 0b1110011010111101
+0xe6be // BranchE2 { imm: 190, immx: 6 } 0b1110011010111110
+0xe6bf // BranchE2 { imm: 191, immx: 6 } 0b1110011010111111
+0xe6c0 // BranchE2 { imm: 192, immx: 6 } 0b1110011011000000
+0xe6c1 // BranchE2 { imm: 193, immx: 6 } 0b1110011011000001
+0xe6c2 // BranchE2 { imm: 194, immx: 6 } 0b1110011011000010
+0xe6c3 // BranchE2 { imm: 195, immx: 6 } 0b1110011011000011
+0xe6c4 // BranchE2 { imm: 196, immx: 6 } 0b1110011011000100
+0xe6c5 // BranchE2 { imm: 197, immx: 6 } 0b1110011011000101
+0xe6c6 // BranchE2 { imm: 198, immx: 6 } 0b1110011011000110
+0xe6c7 // BranchE2 { imm: 199, immx: 6 } 0b1110011011000111
+0xe6c8 // BranchE2 { imm: 200, immx: 6 } 0b1110011011001000
+0xe6c9 // BranchE2 { imm: 201, immx: 6 } 0b1110011011001001
+0xe6ca // BranchE2 { imm: 202, immx: 6 } 0b1110011011001010
+0xe6cb // BranchE2 { imm: 203, immx: 6 } 0b1110011011001011
+0xe6cc // BranchE2 { imm: 204, immx: 6 } 0b1110011011001100
+0xe6cd // BranchE2 { imm: 205, immx: 6 } 0b1110011011001101
+0xe6ce // BranchE2 { imm: 206, immx: 6 } 0b1110011011001110
+0xe6cf // BranchE2 { imm: 207, immx: 6 } 0b1110011011001111
+0xe6d0 // BranchE2 { imm: 208, immx: 6 } 0b1110011011010000
+0xe6d1 // BranchE2 { imm: 209, immx: 6 } 0b1110011011010001
+0xe6d2 // BranchE2 { imm: 210, immx: 6 } 0b1110011011010010
+0xe6d3 // BranchE2 { imm: 211, immx: 6 } 0b1110011011010011
+0xe6d4 // BranchE2 { imm: 212, immx: 6 } 0b1110011011010100
+0xe6d5 // BranchE2 { imm: 213, immx: 6 } 0b1110011011010101
+0xe6d6 // BranchE2 { imm: 214, immx: 6 } 0b1110011011010110
+0xe6d7 // BranchE2 { imm: 215, immx: 6 } 0b1110011011010111
+0xe6d8 // BranchE2 { imm: 216, immx: 6 } 0b1110011011011000
+0xe6d9 // BranchE2 { imm: 217, immx: 6 } 0b1110011011011001
+0xe6da // BranchE2 { imm: 218, immx: 6 } 0b1110011011011010
+0xe6db // BranchE2 { imm: 219, immx: 6 } 0b1110011011011011
+0xe6dc // BranchE2 { imm: 220, immx: 6 } 0b1110011011011100
+0xe6dd // BranchE2 { imm: 221, immx: 6 } 0b1110011011011101
+0xe6de // BranchE2 { imm: 222, immx: 6 } 0b1110011011011110
+0xe6df // BranchE2 { imm: 223, immx: 6 } 0b1110011011011111
+0xe6e0 // BranchE2 { imm: 224, immx: 6 } 0b1110011011100000
+0xe6e1 // BranchE2 { imm: 225, immx: 6 } 0b1110011011100001
+0xe6e2 // BranchE2 { imm: 226, immx: 6 } 0b1110011011100010
+0xe6e3 // BranchE2 { imm: 227, immx: 6 } 0b1110011011100011
+0xe6e4 // BranchE2 { imm: 228, immx: 6 } 0b1110011011100100
+0xe6e5 // BranchE2 { imm: 229, immx: 6 } 0b1110011011100101
+0xe6e6 // BranchE2 { imm: 230, immx: 6 } 0b1110011011100110
+0xe6e7 // BranchE2 { imm: 231, immx: 6 } 0b1110011011100111
+0xe6e8 // BranchE2 { imm: 232, immx: 6 } 0b1110011011101000
+0xe6e9 // BranchE2 { imm: 233, immx: 6 } 0b1110011011101001
+0xe6ea // BranchE2 { imm: 234, immx: 6 } 0b1110011011101010
+0xe6eb // BranchE2 { imm: 235, immx: 6 } 0b1110011011101011
+0xe6ec // BranchE2 { imm: 236, immx: 6 } 0b1110011011101100
+0xe6ed // BranchE2 { imm: 237, immx: 6 } 0b1110011011101101
+0xe6ee // BranchE2 { imm: 238, immx: 6 } 0b1110011011101110
+0xe6ef // BranchE2 { imm: 239, immx: 6 } 0b1110011011101111
+0xe6f0 // BranchE2 { imm: 240, immx: 6 } 0b1110011011110000
+0xe6f1 // BranchE2 { imm: 241, immx: 6 } 0b1110011011110001
+0xe6f2 // BranchE2 { imm: 242, immx: 6 } 0b1110011011110010
+0xe6f3 // BranchE2 { imm: 243, immx: 6 } 0b1110011011110011
+0xe6f4 // BranchE2 { imm: 244, immx: 6 } 0b1110011011110100
+0xe6f5 // BranchE2 { imm: 245, immx: 6 } 0b1110011011110101
+0xe6f6 // BranchE2 { imm: 246, immx: 6 } 0b1110011011110110
+0xe6f7 // BranchE2 { imm: 247, immx: 6 } 0b1110011011110111
+0xe6f8 // BranchE2 { imm: 248, immx: 6 } 0b1110011011111000
+0xe6f9 // BranchE2 { imm: 249, immx: 6 } 0b1110011011111001
+0xe6fa // BranchE2 { imm: 250, immx: 6 } 0b1110011011111010
+0xe6fb // BranchE2 { imm: 251, immx: 6 } 0b1110011011111011
+0xe6fc // BranchE2 { imm: 252, immx: 6 } 0b1110011011111100
+0xe6fd // BranchE2 { imm: 253, immx: 6 } 0b1110011011111101
+0xe6fe // BranchE2 { imm: 254, immx: 6 } 0b1110011011111110
+0xe6ff // BranchE2 { imm: 255, immx: 6 } 0b1110011011111111
+0xe700 // BranchE2 { imm: 0, immx: 7 } 0b1110011100000000
+0xe701 // BranchE2 { imm: 1, immx: 7 } 0b1110011100000001
+0xe702 // BranchE2 { imm: 2, immx: 7 } 0b1110011100000010
+0xe703 // BranchE2 { imm: 3, immx: 7 } 0b1110011100000011
+0xe704 // BranchE2 { imm: 4, immx: 7 } 0b1110011100000100
+0xe705 // BranchE2 { imm: 5, immx: 7 } 0b1110011100000101
+0xe706 // BranchE2 { imm: 6, immx: 7 } 0b1110011100000110
+0xe707 // BranchE2 { imm: 7, immx: 7 } 0b1110011100000111
+0xe708 // BranchE2 { imm: 8, immx: 7 } 0b1110011100001000
+0xe709 // BranchE2 { imm: 9, immx: 7 } 0b1110011100001001
+0xe70a // BranchE2 { imm: 10, immx: 7 } 0b1110011100001010
+0xe70b // BranchE2 { imm: 11, immx: 7 } 0b1110011100001011
+0xe70c // BranchE2 { imm: 12, immx: 7 } 0b1110011100001100
+0xe70d // BranchE2 { imm: 13, immx: 7 } 0b1110011100001101
+0xe70e // BranchE2 { imm: 14, immx: 7 } 0b1110011100001110
+0xe70f // BranchE2 { imm: 15, immx: 7 } 0b1110011100001111
+0xe710 // BranchE2 { imm: 16, immx: 7 } 0b1110011100010000
+0xe711 // BranchE2 { imm: 17, immx: 7 } 0b1110011100010001
+0xe712 // BranchE2 { imm: 18, immx: 7 } 0b1110011100010010
+0xe713 // BranchE2 { imm: 19, immx: 7 } 0b1110011100010011
+0xe714 // BranchE2 { imm: 20, immx: 7 } 0b1110011100010100
+0xe715 // BranchE2 { imm: 21, immx: 7 } 0b1110011100010101
+0xe716 // BranchE2 { imm: 22, immx: 7 } 0b1110011100010110
+0xe717 // BranchE2 { imm: 23, immx: 7 } 0b1110011100010111
+0xe718 // BranchE2 { imm: 24, immx: 7 } 0b1110011100011000
+0xe719 // BranchE2 { imm: 25, immx: 7 } 0b1110011100011001
+0xe71a // BranchE2 { imm: 26, immx: 7 } 0b1110011100011010
+0xe71b // BranchE2 { imm: 27, immx: 7 } 0b1110011100011011
+0xe71c // BranchE2 { imm: 28, immx: 7 } 0b1110011100011100
+0xe71d // BranchE2 { imm: 29, immx: 7 } 0b1110011100011101
+0xe71e // BranchE2 { imm: 30, immx: 7 } 0b1110011100011110
+0xe71f // BranchE2 { imm: 31, immx: 7 } 0b1110011100011111
+0xe720 // BranchE2 { imm: 32, immx: 7 } 0b1110011100100000
+0xe721 // BranchE2 { imm: 33, immx: 7 } 0b1110011100100001
+0xe722 // BranchE2 { imm: 34, immx: 7 } 0b1110011100100010
+0xe723 // BranchE2 { imm: 35, immx: 7 } 0b1110011100100011
+0xe724 // BranchE2 { imm: 36, immx: 7 } 0b1110011100100100
+0xe725 // BranchE2 { imm: 37, immx: 7 } 0b1110011100100101
+0xe726 // BranchE2 { imm: 38, immx: 7 } 0b1110011100100110
+0xe727 // BranchE2 { imm: 39, immx: 7 } 0b1110011100100111
+0xe728 // BranchE2 { imm: 40, immx: 7 } 0b1110011100101000
+0xe729 // BranchE2 { imm: 41, immx: 7 } 0b1110011100101001
+0xe72a // BranchE2 { imm: 42, immx: 7 } 0b1110011100101010
+0xe72b // BranchE2 { imm: 43, immx: 7 } 0b1110011100101011
+0xe72c // BranchE2 { imm: 44, immx: 7 } 0b1110011100101100
+0xe72d // BranchE2 { imm: 45, immx: 7 } 0b1110011100101101
+0xe72e // BranchE2 { imm: 46, immx: 7 } 0b1110011100101110
+0xe72f // BranchE2 { imm: 47, immx: 7 } 0b1110011100101111
+0xe730 // BranchE2 { imm: 48, immx: 7 } 0b1110011100110000
+0xe731 // BranchE2 { imm: 49, immx: 7 } 0b1110011100110001
+0xe732 // BranchE2 { imm: 50, immx: 7 } 0b1110011100110010
+0xe733 // BranchE2 { imm: 51, immx: 7 } 0b1110011100110011
+0xe734 // BranchE2 { imm: 52, immx: 7 } 0b1110011100110100
+0xe735 // BranchE2 { imm: 53, immx: 7 } 0b1110011100110101
+0xe736 // BranchE2 { imm: 54, immx: 7 } 0b1110011100110110
+0xe737 // BranchE2 { imm: 55, immx: 7 } 0b1110011100110111
+0xe738 // BranchE2 { imm: 56, immx: 7 } 0b1110011100111000
+0xe739 // BranchE2 { imm: 57, immx: 7 } 0b1110011100111001
+0xe73a // BranchE2 { imm: 58, immx: 7 } 0b1110011100111010
+0xe73b // BranchE2 { imm: 59, immx: 7 } 0b1110011100111011
+0xe73c // BranchE2 { imm: 60, immx: 7 } 0b1110011100111100
+0xe73d // BranchE2 { imm: 61, immx: 7 } 0b1110011100111101
+0xe73e // BranchE2 { imm: 62, immx: 7 } 0b1110011100111110
+0xe73f // BranchE2 { imm: 63, immx: 7 } 0b1110011100111111
+0xe740 // BranchE2 { imm: 64, immx: 7 } 0b1110011101000000
+0xe741 // BranchE2 { imm: 65, immx: 7 } 0b1110011101000001
+0xe742 // BranchE2 { imm: 66, immx: 7 } 0b1110011101000010
+0xe743 // BranchE2 { imm: 67, immx: 7 } 0b1110011101000011
+0xe744 // BranchE2 { imm: 68, immx: 7 } 0b1110011101000100
+0xe745 // BranchE2 { imm: 69, immx: 7 } 0b1110011101000101
+0xe746 // BranchE2 { imm: 70, immx: 7 } 0b1110011101000110
+0xe747 // BranchE2 { imm: 71, immx: 7 } 0b1110011101000111
+0xe748 // BranchE2 { imm: 72, immx: 7 } 0b1110011101001000
+0xe749 // BranchE2 { imm: 73, immx: 7 } 0b1110011101001001
+0xe74a // BranchE2 { imm: 74, immx: 7 } 0b1110011101001010
+0xe74b // BranchE2 { imm: 75, immx: 7 } 0b1110011101001011
+0xe74c // BranchE2 { imm: 76, immx: 7 } 0b1110011101001100
+0xe74d // BranchE2 { imm: 77, immx: 7 } 0b1110011101001101
+0xe74e // BranchE2 { imm: 78, immx: 7 } 0b1110011101001110
+0xe74f // BranchE2 { imm: 79, immx: 7 } 0b1110011101001111
+0xe750 // BranchE2 { imm: 80, immx: 7 } 0b1110011101010000
+0xe751 // BranchE2 { imm: 81, immx: 7 } 0b1110011101010001
+0xe752 // BranchE2 { imm: 82, immx: 7 } 0b1110011101010010
+0xe753 // BranchE2 { imm: 83, immx: 7 } 0b1110011101010011
+0xe754 // BranchE2 { imm: 84, immx: 7 } 0b1110011101010100
+0xe755 // BranchE2 { imm: 85, immx: 7 } 0b1110011101010101
+0xe756 // BranchE2 { imm: 86, immx: 7 } 0b1110011101010110
+0xe757 // BranchE2 { imm: 87, immx: 7 } 0b1110011101010111
+0xe758 // BranchE2 { imm: 88, immx: 7 } 0b1110011101011000
+0xe759 // BranchE2 { imm: 89, immx: 7 } 0b1110011101011001
+0xe75a // BranchE2 { imm: 90, immx: 7 } 0b1110011101011010
+0xe75b // BranchE2 { imm: 91, immx: 7 } 0b1110011101011011
+0xe75c // BranchE2 { imm: 92, immx: 7 } 0b1110011101011100
+0xe75d // BranchE2 { imm: 93, immx: 7 } 0b1110011101011101
+0xe75e // BranchE2 { imm: 94, immx: 7 } 0b1110011101011110
+0xe75f // BranchE2 { imm: 95, immx: 7 } 0b1110011101011111
+0xe760 // BranchE2 { imm: 96, immx: 7 } 0b1110011101100000
+0xe761 // BranchE2 { imm: 97, immx: 7 } 0b1110011101100001
+0xe762 // BranchE2 { imm: 98, immx: 7 } 0b1110011101100010
+0xe763 // BranchE2 { imm: 99, immx: 7 } 0b1110011101100011
+0xe764 // BranchE2 { imm: 100, immx: 7 } 0b1110011101100100
+0xe765 // BranchE2 { imm: 101, immx: 7 } 0b1110011101100101
+0xe766 // BranchE2 { imm: 102, immx: 7 } 0b1110011101100110
+0xe767 // BranchE2 { imm: 103, immx: 7 } 0b1110011101100111
+0xe768 // BranchE2 { imm: 104, immx: 7 } 0b1110011101101000
+0xe769 // BranchE2 { imm: 105, immx: 7 } 0b1110011101101001
+0xe76a // BranchE2 { imm: 106, immx: 7 } 0b1110011101101010
+0xe76b // BranchE2 { imm: 107, immx: 7 } 0b1110011101101011
+0xe76c // BranchE2 { imm: 108, immx: 7 } 0b1110011101101100
+0xe76d // BranchE2 { imm: 109, immx: 7 } 0b1110011101101101
+0xe76e // BranchE2 { imm: 110, immx: 7 } 0b1110011101101110
+0xe76f // BranchE2 { imm: 111, immx: 7 } 0b1110011101101111
+0xe770 // BranchE2 { imm: 112, immx: 7 } 0b1110011101110000
+0xe771 // BranchE2 { imm: 113, immx: 7 } 0b1110011101110001
+0xe772 // BranchE2 { imm: 114, immx: 7 } 0b1110011101110010
+0xe773 // BranchE2 { imm: 115, immx: 7 } 0b1110011101110011
+0xe774 // BranchE2 { imm: 116, immx: 7 } 0b1110011101110100
+0xe775 // BranchE2 { imm: 117, immx: 7 } 0b1110011101110101
+0xe776 // BranchE2 { imm: 118, immx: 7 } 0b1110011101110110
+0xe777 // BranchE2 { imm: 119, immx: 7 } 0b1110011101110111
+0xe778 // BranchE2 { imm: 120, immx: 7 } 0b1110011101111000
+0xe779 // BranchE2 { imm: 121, immx: 7 } 0b1110011101111001
+0xe77a // BranchE2 { imm: 122, immx: 7 } 0b1110011101111010
+0xe77b // BranchE2 { imm: 123, immx: 7 } 0b1110011101111011
+0xe77c // BranchE2 { imm: 124, immx: 7 } 0b1110011101111100
+0xe77d // BranchE2 { imm: 125, immx: 7 } 0b1110011101111101
+0xe77e // BranchE2 { imm: 126, immx: 7 } 0b1110011101111110
+0xe77f // BranchE2 { imm: 127, immx: 7 } 0b1110011101111111
+0xe780 // BranchE2 { imm: 128, immx: 7 } 0b1110011110000000
+0xe781 // BranchE2 { imm: 129, immx: 7 } 0b1110011110000001
+0xe782 // BranchE2 { imm: 130, immx: 7 } 0b1110011110000010
+0xe783 // BranchE2 { imm: 131, immx: 7 } 0b1110011110000011
+0xe784 // BranchE2 { imm: 132, immx: 7 } 0b1110011110000100
+0xe785 // BranchE2 { imm: 133, immx: 7 } 0b1110011110000101
+0xe786 // BranchE2 { imm: 134, immx: 7 } 0b1110011110000110
+0xe787 // BranchE2 { imm: 135, immx: 7 } 0b1110011110000111
+0xe788 // BranchE2 { imm: 136, immx: 7 } 0b1110011110001000
+0xe789 // BranchE2 { imm: 137, immx: 7 } 0b1110011110001001
+0xe78a // BranchE2 { imm: 138, immx: 7 } 0b1110011110001010
+0xe78b // BranchE2 { imm: 139, immx: 7 } 0b1110011110001011
+0xe78c // BranchE2 { imm: 140, immx: 7 } 0b1110011110001100
+0xe78d // BranchE2 { imm: 141, immx: 7 } 0b1110011110001101
+0xe78e // BranchE2 { imm: 142, immx: 7 } 0b1110011110001110
+0xe78f // BranchE2 { imm: 143, immx: 7 } 0b1110011110001111
+0xe790 // BranchE2 { imm: 144, immx: 7 } 0b1110011110010000
+0xe791 // BranchE2 { imm: 145, immx: 7 } 0b1110011110010001
+0xe792 // BranchE2 { imm: 146, immx: 7 } 0b1110011110010010
+0xe793 // BranchE2 { imm: 147, immx: 7 } 0b1110011110010011
+0xe794 // BranchE2 { imm: 148, immx: 7 } 0b1110011110010100
+0xe795 // BranchE2 { imm: 149, immx: 7 } 0b1110011110010101
+0xe796 // BranchE2 { imm: 150, immx: 7 } 0b1110011110010110
+0xe797 // BranchE2 { imm: 151, immx: 7 } 0b1110011110010111
+0xe798 // BranchE2 { imm: 152, immx: 7 } 0b1110011110011000
+0xe799 // BranchE2 { imm: 153, immx: 7 } 0b1110011110011001
+0xe79a // BranchE2 { imm: 154, immx: 7 } 0b1110011110011010
+0xe79b // BranchE2 { imm: 155, immx: 7 } 0b1110011110011011
+0xe79c // BranchE2 { imm: 156, immx: 7 } 0b1110011110011100
+0xe79d // BranchE2 { imm: 157, immx: 7 } 0b1110011110011101
+0xe79e // BranchE2 { imm: 158, immx: 7 } 0b1110011110011110
+0xe79f // BranchE2 { imm: 159, immx: 7 } 0b1110011110011111
+0xe7a0 // BranchE2 { imm: 160, immx: 7 } 0b1110011110100000
+0xe7a1 // BranchE2 { imm: 161, immx: 7 } 0b1110011110100001
+0xe7a2 // BranchE2 { imm: 162, immx: 7 } 0b1110011110100010
+0xe7a3 // BranchE2 { imm: 163, immx: 7 } 0b1110011110100011
+0xe7a4 // BranchE2 { imm: 164, immx: 7 } 0b1110011110100100
+0xe7a5 // BranchE2 { imm: 165, immx: 7 } 0b1110011110100101
+0xe7a6 // BranchE2 { imm: 166, immx: 7 } 0b1110011110100110
+0xe7a7 // BranchE2 { imm: 167, immx: 7 } 0b1110011110100111
+0xe7a8 // BranchE2 { imm: 168, immx: 7 } 0b1110011110101000
+0xe7a9 // BranchE2 { imm: 169, immx: 7 } 0b1110011110101001
+0xe7aa // BranchE2 { imm: 170, immx: 7 } 0b1110011110101010
+0xe7ab // BranchE2 { imm: 171, immx: 7 } 0b1110011110101011
+0xe7ac // BranchE2 { imm: 172, immx: 7 } 0b1110011110101100
+0xe7ad // BranchE2 { imm: 173, immx: 7 } 0b1110011110101101
+0xe7ae // BranchE2 { imm: 174, immx: 7 } 0b1110011110101110
+0xe7af // BranchE2 { imm: 175, immx: 7 } 0b1110011110101111
+0xe7b0 // BranchE2 { imm: 176, immx: 7 } 0b1110011110110000
+0xe7b1 // BranchE2 { imm: 177, immx: 7 } 0b1110011110110001
+0xe7b2 // BranchE2 { imm: 178, immx: 7 } 0b1110011110110010
+0xe7b3 // BranchE2 { imm: 179, immx: 7 } 0b1110011110110011
+0xe7b4 // BranchE2 { imm: 180, immx: 7 } 0b1110011110110100
+0xe7b5 // BranchE2 { imm: 181, immx: 7 } 0b1110011110110101
+0xe7b6 // BranchE2 { imm: 182, immx: 7 } 0b1110011110110110
+0xe7b7 // BranchE2 { imm: 183, immx: 7 } 0b1110011110110111
+0xe7b8 // BranchE2 { imm: 184, immx: 7 } 0b1110011110111000
+0xe7b9 // BranchE2 { imm: 185, immx: 7 } 0b1110011110111001
+0xe7ba // BranchE2 { imm: 186, immx: 7 } 0b1110011110111010
+0xe7bb // BranchE2 { imm: 187, immx: 7 } 0b1110011110111011
+0xe7bc // BranchE2 { imm: 188, immx: 7 } 0b1110011110111100
+0xe7bd // BranchE2 { imm: 189, immx: 7 } 0b1110011110111101
+0xe7be // BranchE2 { imm: 190, immx: 7 } 0b1110011110111110
+0xe7bf // BranchE2 { imm: 191, immx: 7 } 0b1110011110111111
+0xe7c0 // BranchE2 { imm: 192, immx: 7 } 0b1110011111000000
+0xe7c1 // BranchE2 { imm: 193, immx: 7 } 0b1110011111000001
+0xe7c2 // BranchE2 { imm: 194, immx: 7 } 0b1110011111000010
+0xe7c3 // BranchE2 { imm: 195, immx: 7 } 0b1110011111000011
+0xe7c4 // BranchE2 { imm: 196, immx: 7 } 0b1110011111000100
+0xe7c5 // BranchE2 { imm: 197, immx: 7 } 0b1110011111000101
+0xe7c6 // BranchE2 { imm: 198, immx: 7 } 0b1110011111000110
+0xe7c7 // BranchE2 { imm: 199, immx: 7 } 0b1110011111000111
+0xe7c8 // BranchE2 { imm: 200, immx: 7 } 0b1110011111001000
+0xe7c9 // BranchE2 { imm: 201, immx: 7 } 0b1110011111001001
+0xe7ca // BranchE2 { imm: 202, immx: 7 } 0b1110011111001010
+0xe7cb // BranchE2 { imm: 203, immx: 7 } 0b1110011111001011
+0xe7cc // BranchE2 { imm: 204, immx: 7 } 0b1110011111001100
+0xe7cd // BranchE2 { imm: 205, immx: 7 } 0b1110011111001101
+0xe7ce // BranchE2 { imm: 206, immx: 7 } 0b1110011111001110
+0xe7cf // BranchE2 { imm: 207, immx: 7 } 0b1110011111001111
+0xe7d0 // BranchE2 { imm: 208, immx: 7 } 0b1110011111010000
+0xe7d1 // BranchE2 { imm: 209, immx: 7 } 0b1110011111010001
+0xe7d2 // BranchE2 { imm: 210, immx: 7 } 0b1110011111010010
+0xe7d3 // BranchE2 { imm: 211, immx: 7 } 0b1110011111010011
+0xe7d4 // BranchE2 { imm: 212, immx: 7 } 0b1110011111010100
+0xe7d5 // BranchE2 { imm: 213, immx: 7 } 0b1110011111010101
+0xe7d6 // BranchE2 { imm: 214, immx: 7 } 0b1110011111010110
+0xe7d7 // BranchE2 { imm: 215, immx: 7 } 0b1110011111010111
+0xe7d8 // BranchE2 { imm: 216, immx: 7 } 0b1110011111011000
+0xe7d9 // BranchE2 { imm: 217, immx: 7 } 0b1110011111011001
+0xe7da // BranchE2 { imm: 218, immx: 7 } 0b1110011111011010
+0xe7db // BranchE2 { imm: 219, immx: 7 } 0b1110011111011011
+0xe7dc // BranchE2 { imm: 220, immx: 7 } 0b1110011111011100
+0xe7dd // BranchE2 { imm: 221, immx: 7 } 0b1110011111011101
+0xe7de // BranchE2 { imm: 222, immx: 7 } 0b1110011111011110
+0xe7df // BranchE2 { imm: 223, immx: 7 } 0b1110011111011111
+0xe7e0 // BranchE2 { imm: 224, immx: 7 } 0b1110011111100000
+0xe7e1 // BranchE2 { imm: 225, immx: 7 } 0b1110011111100001
+0xe7e2 // BranchE2 { imm: 226, immx: 7 } 0b1110011111100010
+0xe7e3 // BranchE2 { imm: 227, immx: 7 } 0b1110011111100011
+0xe7e4 // BranchE2 { imm: 228, immx: 7 } 0b1110011111100100
+0xe7e5 // BranchE2 { imm: 229, immx: 7 } 0b1110011111100101
+0xe7e6 // BranchE2 { imm: 230, immx: 7 } 0b1110011111100110
+0xe7e7 // BranchE2 { imm: 231, immx: 7 } 0b1110011111100111
+0xe7e8 // BranchE2 { imm: 232, immx: 7 } 0b1110011111101000
+0xe7e9 // BranchE2 { imm: 233, immx: 7 } 0b1110011111101001
+0xe7ea // BranchE2 { imm: 234, immx: 7 } 0b1110011111101010
+0xe7eb // BranchE2 { imm: 235, immx: 7 } 0b1110011111101011
+0xe7ec // BranchE2 { imm: 236, immx: 7 } 0b1110011111101100
+0xe7ed // BranchE2 { imm: 237, immx: 7 } 0b1110011111101101
+0xe7ee // BranchE2 { imm: 238, immx: 7 } 0b1110011111101110
+0xe7ef // BranchE2 { imm: 239, immx: 7 } 0b1110011111101111
+0xe7f0 // BranchE2 { imm: 240, immx: 7 } 0b1110011111110000
+0xe7f1 // BranchE2 { imm: 241, immx: 7 } 0b1110011111110001
+0xe7f2 // BranchE2 { imm: 242, immx: 7 } 0b1110011111110010
+0xe7f3 // BranchE2 { imm: 243, immx: 7 } 0b1110011111110011
+0xe7f4 // BranchE2 { imm: 244, immx: 7 } 0b1110011111110100
+0xe7f5 // BranchE2 { imm: 245, immx: 7 } 0b1110011111110101
+0xe7f6 // BranchE2 { imm: 246, immx: 7 } 0b1110011111110110
+0xe7f7 // BranchE2 { imm: 247, immx: 7 } 0b1110011111110111
+0xe7f8 // BranchE2 { imm: 248, immx: 7 } 0b1110011111111000
+0xe7f9 // BranchE2 { imm: 249, immx: 7 } 0b1110011111111001
+0xe7fa // BranchE2 { imm: 250, immx: 7 } 0b1110011111111010
+0xe7fb // BranchE2 { imm: 251, immx: 7 } 0b1110011111111011
+0xe7fc // BranchE2 { imm: 252, immx: 7 } 0b1110011111111100
+0xe7fd // BranchE2 { imm: 253, immx: 7 } 0b1110011111111101
+0xe7fe // BranchE2 { imm: 254, immx: 7 } 0b1110011111111110
+0xe7ff // BranchE2 { imm: 255, immx: 7 } 0b1110011111111111
 0xe800 // Thumb2A { high: 0, low: 0 } 0b1110100000000000
 0xe801 // Thumb2A { high: 0, low: 1 } 0b1110100000000001
 0xe802 // Thumb2A { high: 0, low: 2 } 0b1110100000000010

@@ -98,12 +98,6 @@ macro_rules! kb {
     };
 }
 
-macro_rules! mb {
-    ($v:expr) => {
-        ($v as usize) * (1024usize * 1024usize)
-    };
-}
-
 #[derive(Debug)]
 pub struct Memory {
     raw_pinned: Pin<Box<[u8]>>,
@@ -112,6 +106,12 @@ pub struct Memory {
 use std::pin::Pin;
 
 impl Memory {
+    pub fn new() -> Memory {
+        Memory {
+            raw_pinned: unsafe { std::mem::zeroed() }
+        }
+    }
+
     pub fn alloc(size: usize) -> Memory {
         let aligned_size = Memory::align_with(size, kb!(4));
 
@@ -125,19 +125,29 @@ impl Memory {
         }
     }
 
+    pub fn read_u16(&self, address: usize) -> u16 {
+        unsafe {
+            std::mem::transmute::<[u8; 2], u16>([self.raw_pinned[address], self.raw_pinned[address+1]]).to_le()
+        }
+    }
+    
     // todo: return result type for error handling
     pub fn write_bytes(&mut self, address: usize, bytes: &[u8]) {
         let len = bytes.len();
         let total_len = address + len;
         let allocated_len = self.raw_pinned.as_ref().len();
-        println!("[Memory] Write {} bytes beginning at byte {}", len, address);
-        println!("[Memory] Total/Allocated length: {}/{}", total_len, allocated_len);
+        println!("[Memory] Write {} bytes beginning at address {:#X}", len, address);
+        //println!("[Memory] Total/Allocated length: {}/{}", total_len, allocated_len);
 
         assert!(total_len <= allocated_len);
 
         for (i, byte) in bytes.iter().enumerate() {
             self.raw_pinned.as_mut()[address + i] = *byte;
         }
+    }
+
+    pub fn allocated_bytes(&self) -> usize {
+        self.raw_pinned.as_ref().len()
     }
     
     fn align_with(value: usize, align: usize) -> usize {

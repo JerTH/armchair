@@ -1,6 +1,11 @@
-use armv7m_vm::loader::ProgramLoader;
-use armv7m_vm::processor::Processor;
+use armchair::loader::ProgramLoader;
+use armchair::processor::Processor;
 
 fn main() {
-    let loader = ProgramLoader::load("thumbv7m-test-binary").unwrap();
+    let image = ProgramLoader::load("thumbv7m-test-binary").unwrap();
+    let mut processor = Processor::new();
+    processor.init();
+    processor.load(image);
+    processor.reset();
+    processor.run();
 }

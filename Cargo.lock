@@ -4,13 +4,13 @@
 name = "armchair"
 version = "0.1.0"
 dependencies = [
- "elfy 0.2.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "elfy 0.2.2 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
 name = "elfy"
-version = "0.2.1"
+version = "0.2.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [metadata]
-"checksum elfy 0.2.1 (registry+https://github.com/rust-lang/crates.io-index)" = "c96445eeca5ba8f02b688a60a97a3e21ed8007d7d0022f6b3ace136d11d311fe"
+"checksum elfy 0.2.2 (registry+https://github.com/rust-lang/crates.io-index)" = "2ca72135a89639b3a9ed76f516d313052180a318cc266d108f85201fe3ee436d"

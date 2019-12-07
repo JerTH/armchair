@@ -1,158 +1,6 @@
+use crate::instructions::InstrThumb16;
 use crate::instructions::NUM_TH16_INSTRUCTIONS;
 
-#[derive(Debug, Clone, Copy)]
-pub struct OperandData {
-    pub width: u8,
-    pub shift: u8,
-    pub default: Option<u8>,
-}
-
-
-/// This macro defines a simple DML which expands into code which generates 16-bit ARMv7-M Thumb instruction decode tables
-/// 
-/// Because the instruction space for half-word instructions is small enough, we are able to directly map from machine code
-/// into decoded instructions using a lookup table without performing any decoding logic. We must however still decode
-/// 32-bit double half-word instructions.
-/// 
-/// Parsing within this macro is performed using a technique known as token-tree munching
-/// 
-macro_rules! instruction {
-
-    // Entry-point
-    //
-    // Note: 
-    //      The "$($comments)*" expansion is used to capture any doc comments applied to each macro
-    //      invocation and may be used for printing prettier generated documentation
-    { name: $name:ident, $($tail:tt)* } => {
-        {
-            let mut _decoded_set: Vec::<(u16, crate::instructions::InstrThumb16)> = Vec::new();
-            instruction!(@internal [] [] $name, _decoded_set, $($tail)*);
-            _decoded_set
-        }
-    };
-
-    // Process an encoding
-    {
-        @internal [$($names:ident),*] [$($data:expr),*]
-        $name:ident, $dset:tt, $( encoding: [ $($tail:tt)* ] ),*
-    } => {
-        {
-            $(
-                let _trace = stringify!($($tail)*);
-                instruction!(@internal [] [] $name, $dset, $($tail)*);
-            )*
-        }
-    };
-
-    // Munch base value
-    {
-        @internal [$($names:ident),*] [$($data:expr),*]
-        $name:ident, $dset:tt, base: $base:expr, $($tail:tt)*
-    } => {
-        let _trace = stringify!($($tail)*);
-        instruction!(@internal [] [] $name, $dset, $base, $($tail)*);
-    };
-
-    // Munch base value without operands
-    {
-        @internal [$($names:ident),*] [$($data:expr),*]
-        $name:ident, $dset:tt, base: $base:tt $($tail:tt)*
-    } => {
-        let _trace = stringify!($($tail)*);
-        instruction!(@internal [] [] $name, $dset, $base, $($tail)*);
-    };
-    
-    // Munch one operand
-    {
-        @internal [$($names:ident),*] [$($data:expr),*]
-        $name:ident, $dset:tt, $base:expr, operand: [$op_name:ident, $op_width:tt << $op_shift:expr], $($tail:tt)*
-    } => {
-        let _iterations = ::std::cmp::max(1, 2u16.pow($op_width));
-        for $op_name in 0.._iterations {    
-            let _operator = crate::decode::OperandData {
-                width: $op_width,
-                shift: $op_shift,
-                default: None,
-            };
-
-            let _trace = stringify!($($tail)*);
-            instruction!(@internal [$($names,)* $op_name] [$($data,)* _operator] $name, $dset, $base, $($tail)*);
-        }
-    };
-
-    // Munch last operand
-    {
-        @internal [$($names:ident),*] [$($data:expr),*]
-        $name:ident, $dset:tt, $base:expr, operand: [$op_name:ident, $op_width:tt << $op_shift:expr] $($tail:tt)*
-    } => {
-        let _iterations = ::std::cmp::max(1, 2u16.pow($op_width));
-        for $op_name in 0.._iterations {
-            let _operator = crate::decode::OperandData {
-                width: $op_width,
-                shift: $op_shift,
-                default: None,
-            };
-
-            let _trace = stringify!($($tail)*);
-            instruction!(@internal [$($names,)* $op_name] [$($data,)* _operator] $name, $dset, $base, $($tail)*);
-        }
-    };
-
-    // Munch last unused operand
-    {
-        @internal [$($names:ident),*] [$($data:expr),*]
-        $name:ident, $dset:tt, $base:expr, operand: [$op_name:ident, unused] $($tail:tt)*
-    } => {
-        let _iterations = ::std::cmp::max(1, 2u16.pow(0));
-        for $op_name in 0.._iterations {
-            let _operator = crate::decode::OperandData { width: 0, shift: 0, default: Some(0xFF) };
-
-            let _trace = stringify!($($tail)*);
-            instruction!(@internal [$($names,)* $op_name] [$($data,)* _operator] $name, $dset, $base, $($tail)*);
-        }
-    };
-
-    // Terminal
-    {
-        @internal [$($names:ident),*] [$($data:expr),*]
-        $name:ident, $dset:tt, $base:expr, $($tail:tt)*
-    } => {
-        let _trace = stringify!($base);
-        let hw = $base $(| ($names << $data.shift))*;
-
-        let _terminal_trace = stringify!($($tail)*);
-        &mut $dset.push(
-            (
-                hw,
-                crate::instructions::InstrThumb16::$name {
-                    $(
-                        $names: $data.default.unwrap_or($names as u8)
-                    ),*
-                }
-            )
-        );
-    };
-}
-
-macro_rules! define_instructions {
-    ($($inst:expr),*) => {
-        {
-            use crate::instructions::InstrThumb16;
-
-            //let mut __set: Vec<(u16, crate::instructions::InstrThumb16)> = Vec::new();
-            let mut __set: [InstrThumb16; NUM_TH16_INSTRUCTIONS] = [InstrThumb16::Undefined; NUM_TH16_INSTRUCTIONS];
-            $(
-                {
-                    let mut __temp = $inst;
-                    for item in __temp {
-                        __set[item.0 as usize] = item.1;
-                    }
-                }
-            )*
-            __set
-        }
-    };
-}
 
 /* 
  * ARMv7-M THUMB ENCODING
@@ -244,22 +92,286 @@ macro_rules! define_instructions {
  */
 
 
-pub fn test_instruction_macro() -> [crate::instructions::InstrThumb16; NUM_TH16_INSTRUCTIONS] {
-    define_instructions! {
-        instruction! {
-            name: AddImm,
-            encoding: [
-                base: 0x1C00,
-                operand: [rd, 3 << 0],
-                operand: [rdn, 3 << 3],
-                operand: [imm, 3 << 6]
-            ],
-            encoding: [
-                base: 0x3000,
-                operand: [imm, 8 << 0],
-                operand: [rdn, 3 << 8],
-                operand: [rd, unused]
-            ]
+
+/// What do we need to capture to fully describe an instruction?
+///     * Name, long name, and optional description
+///     * Family, thumb or thumb2
+///     * Invariant, the value which defines the instruction as being itself
+///     * The algebraic variant of the instruction
+///     * Each individual operand
+///     * Individual encodings
+/// 
+/// What do we need to capture to fully describe an operand?
+///     * Name, optional long name, and optional description
+///     * Operand arity, or the number of operands
+///     * The bit width of each operand
+///     * The number of bits shifted from the right to the left of each operand
+///     * The language representation of each operand, including whether it is signed or unsigned
+///     * Whether the operand is a composite of bit sub-slices of the instruction
+/// 
+/// How do we want to represent that captured data?
+///     * Verbose, immutable, structured data
+/// 
+/// How can we simplify the definitions of operands?
+///     * Templates for commonly used operands?
+/// 
+
+
+
+
+// do it all programmatically, abort on general purpose macros. use builder pattern. more verbose but much more sound and more expressive
+
+macro_rules! map_operand {
+    ($instr:path, $op:ident, $repr:ident) => {
+        #[allow(dead_code)]
+        {
+            Box::new(|_i, _o| {
+                match _i {
+                    $instr{ mut $op, .. } => {
+                        $op = *_o.downcast_ref::<$repr>().expect("invalid operand downcast")
+                    },
+                    _ => panic!("invalid operand map")
+                }
+            })
         }
+    };
+}
+
+#[cfg(test)]
+mod test {
+    use super::*;
+
+    #[test]
+    fn instruction_description_builder() {
+        let description = InstrDesc::new()
+            .name("Branch")
+            .desc("Conditional and unconditional branching")
+            .encoding(Encoding::new()
+                .name("E1")
+                .desc("Performs a conditional branch")
+                .invariant(0xD000)
+                .ctor(Box::new(|| InstrThumb16::BranchE1{ cond: 0u8, imm: 0i8 }))
+                .operand(Operand::new()
+                    .name("cond")
+                    .width(4)
+                    .shift(8)
+                    .signed(false)
+                    .map(map_operand!(InstrThumb16::BranchE1, cond, u8))
+                    .build())
+                .operand(Operand::new()
+                    .name("imm")
+                    .width(8)
+                    .signed(true)
+                    .map(map_operand!(InstrThumb16::BranchE1, imm, i8))
+                    .build())
+                .build())
+            .encoding(Encoding::new()
+                .name("E2")
+                .desc("Performs an unconditional branch")
+                .invariant(0xE000)
+                .ctor(Box::new(|| InstrThumb16::BranchE2{ imm: 0i16 }))
+                .operand(Operand::new()
+                    .name("imm")
+                    .width(11)
+                    .signed(true)
+                    .map(map_operand!(InstrThumb16::BranchE2, imm, i16))
+                    .build())
+                .build())
+            .build();
+        println!("{:#?}", description);
+    }
+}
+
+#[derive(Debug)]
+pub struct InstrDesc {
+    name: String,
+    desc: String,
+    encodings: Vec<Encoding>,
+}
+
+impl InstrDesc {
+    pub fn new() -> InstrDescBuilder {
+        InstrDescBuilder {
+            inner: InstrDesc {
+                name: Default::default(),
+                desc: Default::default(),
+                encodings: Vec::new()
+            }
+        }
+    }
+}
+
+#[derive(Debug)]
+pub struct InstrDescBuilder {
+    inner: InstrDesc
+}
+
+impl InstrDescBuilder {
+    pub fn name(mut self, name: &str) -> Self {
+        self.inner.name = String::from(name);
+        self
+    }
+
+    pub fn desc(mut self, desc: &str) -> Self {
+        self.inner.desc = String::from(desc);
+        self
+    }
+
+    pub fn encoding(mut self, encoding: Encoding) -> Self {
+        self.inner.encodings.push(encoding);
+        self
+    }
+
+    pub fn build(self) -> InstrDesc {
+        self.inner
+    }
+}
+
+#[derive(Debug, Clone, Copy, PartialEq, Eq)]
+pub enum InstrFamily {
+    Thumb16,
+    Thumb32
+}
+
+#[derive(Debug)]
+pub struct Encoding {
+    name: String,
+    desc: String,
+    invariant: usize,
+    operands: Vec<Operand>,
+    ctor: Option<VariantCtorFn>
+}
+
+impl Encoding {
+    pub fn new() -> EncodingBuilder {
+        EncodingBuilder {
+            inner: Encoding {
+                name: Default::default(),
+                desc: Default::default(),
+                invariant: Default::default(),
+                operands: Vec::new(),
+                ctor: None
+            }
+        }
+    }
+}
+
+
+#[derive(Debug)]
+pub struct EncodingBuilder {
+    inner: Encoding
+}
+
+impl EncodingBuilder {
+    pub fn name(mut self, name: &str) -> Self {
+        self.inner.name = String::from(name);
+        self
+    }
+
+    pub fn desc(mut self, desc: &str) -> Self {
+        self.inner.desc = String::from(desc);
+        self
+    }
+
+    pub fn operand(mut self, op: Operand) -> Self {
+        self.inner.operands.push(op);
+        self
+    }
+    
+    pub fn invariant(mut self, invariant: usize) -> Self {
+        self.inner.invariant = invariant;
+        self
+    }
+
+    pub fn ctor(mut self, ctor_func: VariantCtorFn) -> Self {
+        self.inner.ctor = Some(ctor_func);
+        self
+    }
+
+    pub fn build(self) -> Encoding {
+        self.inner
+    }
+}
+
+#[derive(Debug)]
+pub struct Operand {
+    name: String,
+    width: usize,
+    shift: usize,
+    signed: bool,
+    map: Option<OperatorMapFn>
+}
+
+impl Operand {
+    pub fn new() -> OperandBuilder {
+        OperandBuilder {
+            inner: Operand {
+                name: Default::default(),
+                width: Default::default(),
+                shift: Default::default(),
+                signed: Default::default(),
+                map: None
+            }
+        }
+    }
+}
+
+#[derive(Debug)]
+pub struct OperandBuilder {
+    inner: Operand
+}
+
+use std::any::Any;
+
+impl OperandBuilder {
+    pub fn name(mut self, name: &str) -> Self {
+        self.inner.name = String::from(name);
+        self
+    }
+
+    pub fn width(mut self, width: usize) -> Self {
+        self.inner.width = width;
+        self
+    }
+
+    pub fn shift(mut self, shift: usize) -> Self {
+        self.inner.shift = shift;
+        self
+    }
+
+    pub fn signed(mut self, signed: bool) -> Self {
+        self.inner.signed = signed;
+        self
+    }
+
+    pub fn map(mut self, map_func: OperatorMapFn) -> Self {
+        self.inner.map = Some(map_func);
+        self
+    }
+
+    pub fn build(self) -> Operand {
+        self.inner
+    }
+}
+
+
+
+pub trait OpMap: Fn(&mut InstrThumb16, &dyn Any) { }
+impl<F> OpMap for F where F: Fn(&mut InstrThumb16, &dyn Any) { }
+
+pub type OperatorMapFn = Box<dyn OpMap>;
+impl std::fmt::Debug for OperatorMapFn {
+    fn fmt(&self, f: &mut std::fmt::Formatter) -> std::fmt::Result {
+        write!(f, "[Operand Mapping Function]")
+    }
+}
+
+pub trait VariantCtor: Fn() -> InstrThumb16 { }
+impl<F> VariantCtor for F where F: Fn() -> InstrThumb16 { }
+
+pub type VariantCtorFn = Box<dyn VariantCtor>;
+impl std::fmt::Debug for VariantCtorFn {
+    fn fmt(&self, f: &mut std::fmt::Formatter) -> std::fmt::Result {
+        write!(f, "[Variant Constructor Function]")
     }
 }

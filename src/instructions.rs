@@ -2,7 +2,7 @@
 
 pub const NUM_TH16_INSTRUCTIONS: usize = (::std::u16::MAX as usize) + 1;
 
-#[derive(Clone, Copy, Debug)]
+#[derive(Clone, Copy, Debug, PartialEq, Eq)]
 pub enum InstrThumb16 {
     AdcReg { rm: u8, rdn: u8 },
     AddImm { imm: u8, rdn: u8, rd: u8 },
@@ -13,7 +13,8 @@ pub enum InstrThumb16 {
     AndReg { rm: u8, rdn: u8 },
     AsrImm { imm: u8, rm: u8, rd: u8 },
     AsrReg { rm: u8, rdn: u8 },
-    Branch { cond: u8, imm: u8, immx: u8  },
+    BranchE1 { cond: u8, imm: i8  },
+    BranchE2 { imm: i16 },
     BicReg { rm: u8, rdn: u8 },
     Breakpoint { imm: u8 },
     BranchLx { rm: u8 },
@@ -84,8 +85,16 @@ pub enum InstrThumb16 {
     Undefined,
 }
 
+#[allow(dead_code, unreachable_code)]
+fn assert_size() { unsafe { std::mem::transmute::<InstrThumb16, [u8; 4]>(return); } }
+
 impl InstrThumb16 {
     pub fn generate_decode_table() -> [InstrThumb16; NUM_TH16_INSTRUCTIONS] {
+        assert!(::std::mem::size_of::<InstrThumb16>() < 4);
+        
+        unimplemented!()
+
+        /*
         define_instructions! {
 
             // todo: AdcImm (thumb2 only)
@@ -213,18 +222,19 @@ impl InstrThumb16 {
             },
 
             instruction! {
-                name: Branch,
+                name: BranchE1,
                 encoding: [
                     base: 0xD000,
                     operand: [cond, 4 << 8],
-                    operand: [imm, 8 << 0],
-                    operand: [immx, unused]
-                ],
+                    operand: [imm, 8 << 0]
+                ]
+            },
+            
+            instruction! {
+                name: BranchE2,
                 encoding: [
                     base: 0xE000,
-                    operand: [imm, 8 << 0],
-                    operand: [immx, 3 << 8],
-                    operand: [cond, unused]
+                    operand: [imm, 11 << 0, signed],
                 ]
 
                 // todo: thumb2 encodings
@@ -1248,5 +1258,6 @@ impl InstrThumb16 {
                 ]
             }
         }
+        */
     }
 }

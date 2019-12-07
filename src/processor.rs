@@ -1,6 +1,7 @@
 use crate::instructions;
 use crate::instructions::{ InstrThumb16 };
-use crate::memory::{ RegisterBank, Memory };
+use crate::memory::{ Register, RegisterBank, Memory };
+use crate::loader::ProgramImage;
 
 /// ARMv7-M virtual processor
 /// 
@@ -24,6 +25,8 @@ use crate::memory::{ RegisterBank, Memory };
 pub struct Processor {
     dct: [InstrThumb16; instructions::NUM_TH16_INSTRUCTIONS],
     reg: RegisterBank,
+    mem: Memory,
+    reset: usize,
 }
 
 impl Processor {
@@ -31,6 +34,8 @@ impl Processor {
         Processor {
             dct: [InstrThumb16::Undefined; instructions::NUM_TH16_INSTRUCTIONS],
             reg: RegisterBank::new(),
+            mem: Memory::new(),
+            reset: 0,
         }
     }
 
@@ -45,12 +50,27 @@ impl Processor {
         }
     }
 
-    fn fetch(&self) -> InstrThumb16 {
-        unimplemented!()
+    pub fn load(&mut self, image: ProgramImage) {
+        self.reset = image.entry();
+        self.mem = image.into_raw_image();
     }
 
     pub fn reset(&mut self) {
-        unimplemented!();
+        self.reg[Register::PC] = self.reset as u32 - 1;
+    }
+
+    pub fn run(&mut self) {
+        self.fde_loop()
+    }
+    
+    fn fetch(&self) -> u16 {
+        let at = self.reg[Register::PC] as usize;
+        self.mem.read_u16(at)
+    }
+
+    fn decode(&self, instruction: u16) -> InstrThumb16 {
+        let decoded = self.dct[instruction as usize];
+        decoded
     }
 
     /// Steps to execute an instruction
@@ -64,9 +84,37 @@ impl Processor {
     ///             -> IF standard Thumb16 instruction, execute instruction
     /// 
     fn fde_loop(&mut self) {
+        let mut cycles = 0;
+        let debug_cycle_limit = 10;
+
+        println!("Beginning execution...");
+
         // Core execution loop
         loop {
-            unimplemented!();
+            print!("[PC: {:06X}] ", self.reg[Register::PC]);
+            let fetched = self.fetch();
+            let decoded = self.decode(fetched);
+
+            print!("{:016b} {:04X} ", fetched, fetched);
+
+            match decoded {
+                InstrThumb16::BranchE1{ cond, imm } => {
+                    let target = (imm as i8) as i32;
+                    print!("exec branch e1: [cond, target] = [{:04X}, {:#06X}] ({}:{})", cond, target, cond, imm);
+                    self.reg[Register::PC] = ((self.reg[Register::PC] as i32) + target) as u32;
+                },
+
+                u => {
+                    print!("unhandled instruction: {:?}", u)
+                }
+            }
+
+            print!("\n");
+
+            cycles = cycles + 1;
+            if cycles >= debug_cycle_limit {
+                break;
+            }
         }
     }
 }

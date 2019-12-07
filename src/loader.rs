@@ -21,7 +21,7 @@ impl ProgramLoader {
         Ok(loader)
     }
 
-    pub fn load<P: AsRef<Path>>(path: P) -> ParseElfResult<Memory> {
+    pub fn load<P: AsRef<Path>>(path: P) -> ParseElfResult<ProgramImage> {
         let elf = Elf::load(path)?;
         
         let mut required_memory = 0;
@@ -36,7 +36,12 @@ impl ProgramLoader {
             ProgramLoader::map_segment(&mut mem, &segment);
         }
 
-        Ok(mem)
+        let entry = elf.header().entry(); 
+        let image = ProgramImage::new(entry, mem);
+
+        println!("[Loader] Program image entry, size: {:#X}, {}", image.entry, image.memory.allocated_bytes());
+
+        Ok(image)
     }
 
     fn map_segment(mem: &mut Memory, seg: &Segment) {
@@ -50,14 +55,23 @@ impl ProgramLoader {
     }
 }
 
-// Executable and shared object files have a base address, which is the lowest virtual address associated with
-// the memory image of the program’s object file. One use of the base address is to relocate the memory
-// image of the program during dynamic linking.
-// 
-// An executable or shared object file’s base address is calculated during execution from three values: the
-// memory load address, the maximum page size, and the lowest virtual address of a program’s loadable
-// segment. As ‘‘Program Loading’’
-fn calculate_base_address() {
-    unimplemented!()
+pub struct ProgramImage {
+    entry: usize,
+    memory: Memory,
 }
 
+impl ProgramImage {
+    fn new(entry: usize, memory: Memory) -> ProgramImage {
+        ProgramImage {
+            entry, memory
+        }
+    }
+
+    pub fn entry(&self) -> usize {
+        self.entry
+    }
+
+    pub fn into_raw_image(self) -> Memory {
+        self.memory
+    }
+}
