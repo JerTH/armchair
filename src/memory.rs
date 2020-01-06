@@ -106,12 +106,6 @@ pub struct Memory {
 use std::pin::Pin;
 
 impl Memory {
-    pub fn new() -> Memory {
-        Memory {
-            raw_pinned: unsafe { std::mem::zeroed() }
-        }
-    }
-
     pub fn alloc(size: usize) -> Memory {
         let aligned_size = Memory::align_with(size, kb!(4));
 

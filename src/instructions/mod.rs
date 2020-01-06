@@ -1,5 +1,7 @@
 //! Definition of 16 bit thumb instructions
 
+mod data_processing;
+
 pub const NUM_TH16_INSTRUCTIONS: usize = (::std::u16::MAX as usize) + 1;
 
 #[derive(Clone, Copy, Debug, PartialEq, Eq)]
@@ -82,16 +84,18 @@ pub enum InstrThumb16 {
     Thumb2B { high: u8, low: u8 },
     Thumb2C { high: u8, low: u8 },
     
+    Test { a: u8, b: u8, c: u8 },
     Undefined,
+    UnknownInstruction
 }
 
 #[allow(dead_code, unreachable_code)]
-fn assert_size() { unsafe { std::mem::transmute::<InstrThumb16, [u8; 4]>(return); } }
+fn _assert_instrthumb16_size() { unsafe { std::mem::transmute::<InstrThumb16, [u8; 4]>(return); } }
 
 impl InstrThumb16 {
     pub fn generate_decode_table() -> [InstrThumb16; NUM_TH16_INSTRUCTIONS] {
         assert!(::std::mem::size_of::<InstrThumb16>() < 4);
-        
+
         unimplemented!()
 
         /*

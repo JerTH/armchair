@@ -1,4 +1,5 @@
 #[macro_use]
+use std::ops::{ Add, RangeInclusive };
 use std::any::{ TypeId, Any };
 use std::rc::Rc;
 use std::cell::RefCell;
@@ -100,15 +101,15 @@ use crate::instructions::InstrThumb16;
 /// What do we need to capture to fully describe an instruction?
 ///     * Name, long name, and optional description
 ///     * Family, thumb or thumb2
+///     * Arity, discovered implicitly
 ///     * Invariant, the value which defines the instruction as being itself
 ///     * The algebraic variant of the instruction
-///     * Each individual operand
+///     * A description of each operand
 ///     * Individual encodings
 /// 
 /// What do we need to capture to fully describe an operand?
 ///     * Name, optional long name, and optional description
-///     * Operand arity, or the number of operands
-///     * The bit width of each operand
+///     * The bit width of the operand
 ///     * The number of bits shifted from the right to the left of each operand
 ///     * The language representation of each operand, including whether it is signed or unsigned
 ///     * Whether the operand is a composite of bit sub-slices of the instruction
@@ -120,51 +121,75 @@ use crate::instructions::InstrThumb16;
 ///     * Templates for commonly used operands?
 /// 
 
-
 #[allow(unused_macros)]
 macro_rules! map_operand {
     ($instr:path, $op:ident, $repr:ident) => {
         #[allow(unused_variables)]
         {
             Box::new(|_s, mut _i, _o| {
-                trace!("Mapping field...");
-                trace!("    {:?}", _i);
-                trace!("    Operand {{ name: {:?}, repr: {:?} }}", _s.name, _s.repr);
-                trace!("    Prior state: {:?}", _i);
+                //trace!("_i: {:?}", _i);
+                //trace!("    Operand {{ name: {:?}, repr: {:?} }}", _s.name, _s.repr);
                 match _i {
                     $instr{ ref mut $op, .. } => {
-                        trace!("    Performing operand downcast");
-                        match _s.repr {
-                            OperandRepr::SignedByte |
-                            OperandRepr::SignedShort |
-                            OperandRepr::SignedWord => {
-                                let _temp = *_o.downcast_ref::<i64>().expect("invalid operand intermediary downcast");
-                                *$op = _temp as $repr;
-                            },
-
-                            OperandRepr::UnsignedByte |
-                            OperandRepr::UnsignedShort |
-                            OperandRepr::UnsignedWord => {
-                                let _temp = *_o.downcast_ref::<u64>().expect("invalid operand intermediary downcast");
-                                *$op = _temp as $repr;
-                            },
-                        }
-                        
+                        let _temp_downcasted = *_o.downcast_ref::<i64>().expect("invalid signed operand intermediary downcast");
+                        *$op = _temp_downcasted as $repr;
                     },
-                    _ => panic!("invalid instruction operand field map")
+                    m => {
+                        panic!(format!("invalid instruction operand field map: {:?}", m));
+                    }
                 }
-                trace!("    Resulting state: {:?}", _i);
             })
         }
     };
 }
+
+//#[allow(unused_macros)]
+//macro_rules! map_operand {
+//    ($instr:path, $op:ident, $repr:ident) => {
+//        #[allow(unused_variables)]
+//        {
+//            Box::new(|_s, mut _i, _o| {
+//                trace!("Mapping field...");
+//                trace!("    {:?}", _i);
+//                trace!("    Operand {{ name: {:?}, repr: {:?} }}", _s.name, _s.repr);
+//                trace!("    Prior state: {:?}", _i);
+//                match _i {
+//                    $instr{ ref mut $op, .. } => {
+//                        trace!("    Performing operand downcast");
+//                        match _s.repr {
+//                            OperandRepr::SignedByte |
+//                            OperandRepr::SignedShort |
+//                            OperandRepr::SignedWord => {
+//                                let _temp = *_o.downcast_ref::<i64>().expect("invalid signed operand intermediary downcast");
+//                                *$op = _temp as $repr;
+//                            },
+//
+//                            OperandRepr::UnsignedByte |
+//                            OperandRepr::UnsignedShort |
+//                            OperandRepr::UnsignedWord => {
+//                                let _temp = *_o.downcast_ref::<u64>().expect("invalid unsigned operand intermediary downcast");
+//                                *$op = _temp as $repr;
+//                            },
+//                        }
+//                        
+//                    },
+//                    m => {
+//                        panic!("invalid instruction operand field map: {:?}", m);
+//                    }
+//                }
+//                trace!("    Resulting state: {:?}", _i);
+//            })
+//        }
+//    };
+//}
 
 #[cfg(test)]
 mod test {
     use super::*;
 
     fn test_env() {
-        let log_filter = "trace";
+        // Setup the test environment to print trace logs by default
+        let log_filter = "debug";
         let write_style = "always";
 
         let env = env_logger::Env::default()
@@ -183,7 +208,7 @@ mod test {
     fn instruction_description_builder() {
         test_env();
 
-        let description = InstrDesc::new()
+        let branch = InstrDesc::new()
             .name("Branch")
             .desc("Conditional and unconditional branching")
             .encoding(Encoding::new()
@@ -219,11 +244,51 @@ mod test {
                 .build())
             .build();
 
-        for enc in description.encodings {
+        let test_desc = InstrDesc::new()
+            .name("SimpleTest")
+            .desc("Simple unit testing instruction")
+            .encoding(Encoding::new()
+                .name("E1")
+                .desc("First Encoding")
+                .invariant(0xF000)
+                .ctor(Box::new(|| InstrThumb16::Test{ a: 0u8, b: 0, c: 0u8} ))
+                .operand(Operand::new()
+                    .name("a")
+                    .width(2)
+                    .shift(6)
+                    .repr(OperandRepr::UnsignedByte)
+                    .map(map_operand!(InstrThumb16::Test, a, u8))
+                    .build())
+                .operand(Operand::new()
+                    .name("b")
+                    .width(2)
+                    .shift(3)
+                    .repr(OperandRepr::UnsignedByte)
+                    .map(map_operand!(InstrThumb16::Test, b, u8))
+                    .build())
+                .operand(Operand::new()
+                    .name("c")
+                    .width(2)
+                    .shift(0)
+                    .repr(OperandRepr::UnsignedByte)
+                    .map(map_operand!(InstrThumb16::Test, c, u8))
+                    .build())
+                .build())
+            .build();
+
+        trace!("{:#?}", branch);
+        
+        for enc in branch.encodings {
+            enc.generate_decode_table();
+        }
+
+        for enc in test_desc.encodings {
             enc.generate_decode_table();
         }
     }
 }
+
+
 
 #[derive(Debug)]
 pub struct InstrDesc {
@@ -234,9 +299,10 @@ pub struct InstrDesc {
 
 impl InstrDesc {
     pub fn new() -> InstrDescBuilder {
-        trace!("New instruction description...");
+        trace!("New instruction description");
 
         InstrDescBuilder {
+            name: None,
             inner: InstrDesc {
                 name: Default::default(),
                 desc: Default::default(),
@@ -248,43 +314,51 @@ impl InstrDesc {
 
 #[derive(Debug)]
 pub struct InstrDescBuilder {
+    name: Option<String>,
     inner: InstrDesc
 }
 
 impl InstrDescBuilder {
     pub fn name(mut self, name: &str) -> Self {
-        trace!("Setting instruction name: {:?}", name);
-
-        self.inner.name = String::from(name);
+        self.name = Some(String::from(name));
         self
     }
 
     pub fn desc(mut self, desc: &str) -> Self {
-        trace!("Setting instruction description: {:?}", desc);
-
         self.inner.desc = String::from(desc);
         self
     }
-
+    
     pub fn encoding(mut self, encoding: Encoding) -> Self {
-        trace!("Adding instruction encoding...");
+        trace!("Adding instruction encoding");
 
-        self.inner.encodings.push(encoding);
+        // Insert the parent instruction name to the encoding for debug printing purposes
+        let mut temp = encoding;
+        if let Some(name) = &self.name {
+            temp.parent = name.clone();
+        } else {
+            panic!("Instructions must be named before encodings can be added");
+        }
+
+        self.inner.encodings.push(temp);
         self
     }
 
-    pub fn build(self) -> InstrDesc {
-        info!("Building instruction description {:?} with {:?} encodings", self.inner.name, self.inner.encodings.len());
+    pub fn build(mut self) -> InstrDesc {
+        self.inner.name = self.name.expect("Attempted to build an unnamed instruction");
+
+        debug!("Building instruction description {:?} with {:?} encoding(s)", self.inner.name, self.inner.encodings.len());
         self.inner
     }
 }
 
 #[derive(Debug)]
 pub struct Encoding {
+    parent: String,
     name: String,
     desc: String,
     invariant: usize,
-    operands: Rc<RefCell<Vec<Operand>>>,
+    operands: Vec<Operand>,
     ctor: Option<VariantCtorFn>
 }
 
@@ -294,86 +368,115 @@ impl Encoding {
         
         EncodingBuilder {
             inner: Encoding {
+                parent: Default::default(),
                 name: Default::default(),
                 desc: Default::default(),
                 invariant: Default::default(),
-                operands: Rc::new(RefCell::new(Vec::new())),
+                operands: Vec::new(),
                 ctor: None
             }
         }
     }
 
-    pub fn generate_decode_table(&self) {
-        // recursive calls on operands to capture full operand depth
-        let ops = self.operands.clone();
-        let dct = self.gdt_recursive(ops, None);
+    pub fn arity(&self) -> usize {
+        self.operands.len()
     }
 
-    fn gdt_recursive(&self, ops: Rc<RefCell<Vec<Operand>>>, last: Option<(u16, InstrThumb16)>) {
-        trace!("gdt_recursive");
+    pub fn generate_decode_table(&self) {
+        let rdb = RecursiveDecoderBuilder::new(&self);
+        let dct = rdb.build_decode_table();
 
-        let mut dt: Vec<(u16, InstrThumb16)> = Vec::new();
+        for item in dct {
+            println!("{:?}", item);
+        }
+        //let decode_table = self.gdt_recursive(&self.operands, None, 0);
+    }
+}
 
-        if let Some(op) = self.operands.borrow_mut().pop() {
-            trace!("gdt_recursive got op Operand {{ {:?} }}", op.name);
+#[derive(Debug, Clone, Copy)]
+pub struct InstructionCodecPair {
+    encoded: u16,
+    decoded: InstrThumb16
+}
 
-            let ctorf = self.ctor.as_ref().expect("no variant ctor");
-            let omapf = op.map.as_ref().expect("no decoded field map");
-            let invar = self.invariant;
+impl InstructionCodecPair {
+    fn new(encoded: u16, decoded: InstrThumb16) -> InstructionCodecPair {
+        InstructionCodecPair {
+            encoded, decoded
+        }
+    }
+}
 
-            if let Some(last) = last {
-                trace!("gdt_recursive has last {:?}", last);
+pub type DecodeTable = Vec<InstructionCodecPair>;
 
-                // nested for loops on each operand, 
+struct RecursiveDecoderBuilder<'a> {
+    encoding: &'a Encoding,
 
-                // we are one or more levels deep
-                
-                //dt.append(Encoding::gdt_recursive(operands, dct));
-            } else {
-                trace!("gdt_recursive first call");
+    /// The resulting decode table
+    dectab: RefCell<DecodeTable>,
 
-                // we are the first level
+    // this holds the current state of the instruction we are processing
+    //state: Rc<RefCell<InstrThumb16>>
+}
 
-                let mut instr = (*ctorf)();
-                let iters = ::std::cmp::max(1u64, 2u64.pow(op.width as u32));
+impl<'a> RecursiveDecoderBuilder<'a> {
+    pub fn new(encoding: &'a Encoding) -> RecursiveDecoderBuilder<'a> {
+        RecursiveDecoderBuilder {
+            encoding: encoding,
+            dectab: RefCell::new(Vec::new()),
+        }
+    }
 
-                trace!("gdt_recursive created instruction {:?}", instr);
-                
-                match op.repr {
-                    OperandRepr::SignedByte |
-                    OperandRepr::SignedShort |
-                    OperandRepr::SignedWord => {
-                        let low = ((iters / 2) as i64) * -1;
-                        let high = (iters / 2) as i64;
-                        trace!("gdt_recursive field iter range {:?}:{:?}", low, high);
+    pub fn build_decode_table(self) -> DecodeTable {
+        let variant_constructor = self.encoding.ctor.as_ref().expect("no variant ctor");
+        let variant = (*variant_constructor)();
 
-                        for i in low..high {
-                            // set our operand to the current iteration indice, then pass the state of each loop to a recursive call
-                            (*omapf)(&op, &mut instr, &i);
-                            trace!("gdt_recursive inner loop, instruction state: {:?}", instr);
+        let mut table = Vec::new();
+        let mut state = variant;
+        self.build_decode_table_recursive(0, &mut state, &mut table);
+
+        for (i, item) in table.iter().enumerate() {
+            //println!("{:04}: {:?}", i + 1, item);
+        }
+
+        self.dectab.into_inner()
+    }
+    
+    fn build_decode_table_recursive(&self, idx: usize, state: &mut InstrThumb16, output: &mut Vec<InstrThumb16>) {
+        trace!("Building decode table from instruction operand set (recursion level: {})", idx);
         
-                            self.gdt_recursive(ops.clone(), Some((0u16, instr)));
-                        }
-                    },
-
-                    OperandRepr::UnsignedByte |
-                    OperandRepr::UnsignedShort |
-                    OperandRepr::UnsignedWord => {
-                        trace!("gdt_recursive field iter range 0:{:?}", iters);
-
-                        for i in 0..iters {
-                            // set our operand to the current iteration indice, then pass the state of each loop to a recursive call
-                            (*omapf)(&op, &mut instr, &i);
-                            trace!("gdt_recursive inner loop, instruction state: {:?}", instr);
+        // Map all permutations of a given instruction into a list of decoded instructions
         
-                            self.gdt_recursive(ops.clone(), Some((0u16, instr)));
-                        }
-                    }
-                }
+        // If we have an operand
+        if let Some(operand) = self.encoding.operands.get(idx) {
+            let field_map = operand.map.as_ref().unwrap();
+
+            // Calculate the permutation range of the operand
+            let (low, high) = operand.permutations();
+
+            // For each permutation
+            for p in RangeInclusive::new(low, high) {
+
+                // Apply the field mapping function to update the value of the state
+                (*field_map)(&operand, state, &p);
+                
+                // try and go one level deeper
+                self.build_decode_table_recursive(idx.add(1), state, output);                
             }
         } else {
-            // no more operands to process, return the decode table
+            // Terminal, copy our current state into the decode table as a legal permutation
+            output.push(state.clone());
         }
+        
+        // if we are out of the recursion stack and about to return
+        if idx == 0 {
+            debug!("Built decode table for encoding {:?} of {:?} with {} permutation(s)", self.encoding.name, self.encoding.parent, output.len());
+        }
+    }
+
+    #[allow(dead_code)]
+    fn build_decoder(&self) {
+        unimplemented!()
     }
 }
 
@@ -397,10 +500,10 @@ impl EncodingBuilder {
         self
     }
 
-    pub fn operand(self, op: Operand) -> Self {
+    pub fn operand(mut self, op: Operand) -> Self {
         trace!("Adding encoding operand {:?}, width {:?}, shifted {:?} bits to the left", op.name, op.width, op.shift);
 
-        self.inner.operands.borrow_mut().push(op);
+        self.inner.operands.push(op);
         self
     }
     
@@ -410,7 +513,7 @@ impl EncodingBuilder {
         self.inner.invariant = invariant;
         self
     }
-
+    
     pub fn ctor(mut self, ctor_func: VariantCtorFn) -> Self {
         trace!("Setting encoding variant constructor method");
 
@@ -419,7 +522,7 @@ impl EncodingBuilder {
     }
 
     pub fn build(self) -> Encoding {
-        debug!("Building instruction encoding {:?} with {:?} operands", self.inner.name, self.inner.operands.borrow_mut().len());
+        trace!("Building encoding {:?} with {:?} operands", self.inner.name, self.inner.operands.len());
 
         self.inner
     }
@@ -445,6 +548,25 @@ impl Operand {
                 repr: OperandRepr::UnsignedByte,
                 typeid: std::any::TypeId::of::<Self>(),
                 map: None
+            }
+        }
+    }
+    
+    pub fn permutations(&self) -> (i64, i64) {
+        let range = std::cmp::max(1u64, 2u64.pow(self.width as u32));
+        match self.repr {
+            OperandRepr::SignedByte |
+            OperandRepr::SignedShort |
+            OperandRepr::SignedWord => {
+                let low = ((range / 2) as i64) * -1;
+                let high = ((range / 2) - 1) as i64;
+                (low, high)
+            },
+
+            OperandRepr::UnsignedByte |
+            OperandRepr::UnsignedShort |
+            OperandRepr::UnsignedWord => {
+                (0i64, (range - 1) as i64)
             }
         }
     }
@@ -492,7 +614,7 @@ impl OperandBuilder {
     }
 
     pub fn build(self) -> Operand {
-        debug!("Building instruction operand {:?}", self.inner.name);
+        trace!("Building operand {:?}", self.inner.name);
 
         self.inner
     }

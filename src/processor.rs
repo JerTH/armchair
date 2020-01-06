@@ -34,7 +34,7 @@ impl Processor {
         Processor {
             dct: [InstrThumb16::Undefined; instructions::NUM_TH16_INSTRUCTIONS],
             reg: RegisterBank::new(),
-            mem: Memory::new(),
+            mem: Memory::alloc(0),
             reset: 0,
         }
     }
